@@ -1,11 +1,11 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import MapPage from "./pages/MapPage";
+import InfoMapPage from "./pages/InfoMapPage";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<MapPage />} />
+        <Route path="/" element={<InfoMapPage />} />
       </Routes>
     </BrowserRouter>
   );
