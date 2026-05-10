@@ -53,8 +53,6 @@ export function useBaseMapInitialize(
   useEffect(() => {
     if (!mapContainer.current) return;
 
-    requestAnimationFrame(() => {
-      requestAnimationFrame(() => {
         mapboxgl.accessToken = MAPBOX_TOKEN;
 
         const map = new mapboxgl.Map({
@@ -65,7 +63,6 @@ export function useBaseMapInitialize(
           pitch: 20,
           bearing: 0,
         });
-
 
         mapRef.current = map;
 
@@ -80,8 +77,6 @@ export function useBaseMapInitialize(
 
           setTimeout(() => map.resize(), 100);
         });
-      });
-    });
 
     return () => {
       if (mapRef.current) {

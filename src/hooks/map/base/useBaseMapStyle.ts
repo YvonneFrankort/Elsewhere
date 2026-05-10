@@ -51,9 +51,11 @@ export function useBaseMapStyle(
     const map = mapRef.current;
     if (!map) return;
 
-    map.once("style.load", () => {
+    map.once("styledata", () => {
+      if (!map.isStyleLoaded()) return;
       applyCustomLayers(map);
     });
+
 
     map.setStyle(style, { diff: true } as any);
   }, [mapRef, style]);

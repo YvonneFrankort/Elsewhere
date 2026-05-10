@@ -12,6 +12,8 @@ import { useInfoMapSeasons } from "../hooks/map/info/useInfoMapSeasonal";
 
 import InfoMapControls from "../components/ui/info/InfoMapControls";
 
+import { useInfoMapDiscovery } from "../hooks/map/info/useInfoMapDiscovery";
+
 export default function InfoMapPage() {
   const mapContainer = useRef<HTMLDivElement>(null);
   const mapRef = useRef<mapboxgl.Map | null>(null);
@@ -39,6 +41,8 @@ export default function InfoMapPage() {
   useInfoMapLayers(mapRef);
   useInfoMapWeather(mapRef);
   useInfoMapSeasons(mapRef);
+
+  useInfoMapDiscovery(mapRef);
 
   return (
     <>
