@@ -7,69 +7,15 @@ export function useInfoMapDiscovery(
 ) {
   const places = useMemo(
     () => [
-      {
-        id: "1",
-        name: "Test City",
-        category: "city",
-        latitude: 60.1699,
-        longitude: 24.9384,
-      },
-      {
-        id: "2",
-        name: "Test National Park",
-        category: "info-park",
-        latitude: 61.25,
-        longitude: 25.0,
-      },
-      {
-        id: "3",
-        name: "Test Trail",
-        category: "trail",
-        latitude: 61.5,
-        longitude: 24.5,
-      },
-      {
-        id: "4",
-        name: "Test Museum",
-        category: "info-museum",
-        latitude: 60.20,
-        longitude: 24.95
-      },
-      {
-        id: "5",
-        name: "Test Attraction",
-        category: "info-attraction",
-        latitude: 60.25,
-        longitude: 24.95
-      },
-      {
-        id: "6",
-        name: "Test Event",
-        category: "event",
-        latitude: 60.30,
-        longitude: 24.95
-      },
-      {
-        id: "7",
-        name: "Test Museum 2",
-        category: "info-museum",
-        latitude: 60.1699,
-        longitude: 24.9384
-      },
-      {
-        id: "8",
-        name: "Test Attraction 2",
-        category: "info-attraction",
-        latitude: 60.1699,
-        longitude: 24.9384
-      },
-      {
-        id: "9",
-        name: "Test Park 2",
-        category: "info-park",
-        latitude: 60.1699,
-        longitude: 24.9384
-      }
+      { id: "1", name: "Test City", category: "city", latitude: 60.1699, longitude: 24.9384 },
+      { id: "2", name: "Test National Park", category: "info-park", latitude: 61.25, longitude: 25.0 },
+      { id: "3", name: "Test Trail", category: "trail", latitude: 61.5, longitude: 24.5 },
+      { id: "4", name: "Test Museum", category: "info-museum", latitude: 60.20, longitude: 24.95 },
+      { id: "5", name: "Test Attraction", category: "info-attraction", latitude: 60.25, longitude: 24.95 },
+      { id: "6", name: "Test Event", category: "event", latitude: 60.30, longitude: 24.95 },
+      { id: "7", name: "Test Museum 2", category: "info-museum", latitude: 60.1699, longitude: 24.9384 },
+      { id: "8", name: "Test Attraction 2", category: "info-attraction", latitude: 60.1699, longitude: 24.9384 },
+      { id: "9", name: "Test Park 2", category: "info-park", latitude: 60.1699, longitude: 24.9384 }
     ],
     []
   );
@@ -112,8 +58,11 @@ export function useInfoMapDiscovery(
 
     const sourceId = "info-places-source";
     const layerId = "info-places-layer";
+    const categories = ["city", "info-park", "trail", "info-museum", "info-attraction", "event"];
 
-    map.on("load", async () => {
+    async function setup() {
+      if (!map) return;
+
       // Add or update source
       if (!map.getSource(sourceId)) {
         map.addSource(sourceId, {
@@ -124,12 +73,10 @@ export function useInfoMapDiscovery(
         (map.getSource(sourceId) as mapboxgl.GeoJSONSource).setData(geojson);
       }
 
-      const categories = ["city", "info-park", "trail", "info-museum", "info-attraction", "event"];
-
-      // Wait for icons
+      // Load icons
       await Promise.all(categories.map((cat) => loadIcon(map, cat)));
 
-      // ⭐ Outer ring (zoom scaling)
+      // Outer ring
       if (!map.getLayer("info-ring-outer")) {
         map.addLayer({
           id: "info-ring-outer",
@@ -137,15 +84,12 @@ export function useInfoMapDiscovery(
           source: sourceId,
           paint: {
             "circle-radius": [
-              "interpolate",
-              ["linear"],
-              ["zoom"],
+              "interpolate", ["linear"], ["zoom"],
               8, 12,
               14, 20
             ],
             "circle-color": [
-              "match",
-              ["get", "category"],
+              "match", ["get", "category"],
               "city", "#2563eb",
               "info-park", "#16a34a",
               "trail", "#ea580c",
@@ -160,7 +104,7 @@ export function useInfoMapDiscovery(
         });
       }
 
-      // ⭐ Inner white circle (zoom scaling)
+      // Inner ring
       if (!map.getLayer("info-ring-inner")) {
         map.addLayer({
           id: "info-ring-inner",
@@ -168,9 +112,7 @@ export function useInfoMapDiscovery(
           source: sourceId,
           paint: {
             "circle-radius": [
-              "interpolate",
-              ["linear"],
-              ["zoom"],
+              "interpolate", ["linear"], ["zoom"],
               8, 8,
               14, 14
             ],
@@ -179,7 +121,7 @@ export function useInfoMapDiscovery(
         });
       }
 
-      // ⭐ Icon layer (zoom scaling)
+      // Icon layer
       if (!map.getLayer(layerId)) {
         map.addLayer({
           id: layerId,
@@ -188,9 +130,7 @@ export function useInfoMapDiscovery(
           layout: {
             "icon-image": ["get", "category"],
             "icon-size": [
-              "interpolate",
-              ["linear"],
-              ["zoom"],
+              "interpolate", ["linear"], ["zoom"],
               8, 0.9,
               14, 1.2
             ],
@@ -199,16 +139,15 @@ export function useInfoMapDiscovery(
           }
         });
       }
-    });
+    }
+
+    // Attach both events
+    map.on("load", setup);
+    map.on("style.load", setup);
 
     return () => {
-      const map = mapRef.current;
-      if (!map) return;
-
-      if (map.isStyleLoaded()) {
-        if (map.getLayer(layerId)) map.removeLayer(layerId);
-        if (map.getSource(sourceId)) map.removeSource(sourceId);
-      }
+      map.off("load", setup);
+      map.off("style.load", setup);
     };
   }, []);
 

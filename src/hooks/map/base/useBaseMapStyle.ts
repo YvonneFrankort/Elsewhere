@@ -48,15 +48,14 @@ export function useBaseMapStyle(
   style: string
 ) {
   useEffect(() => {
-    const map = mapRef.current;
-    if (!map) return;
+  const map = mapRef.current;
+  if (!map) return;
 
-    map.once("styledata", () => {
-      if (!map.isStyleLoaded()) return;
-      applyCustomLayers(map);
-    });
+  map.on("style.load", () => {
+    applyCustomLayers(map);
+  });
 
+  map.setStyle(style, { diff: true } as any);
+}, [mapRef, style]);
 
-    map.setStyle(style, { diff: true } as any);
-  }, [mapRef, style]);
 }

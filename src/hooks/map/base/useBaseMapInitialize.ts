@@ -59,9 +59,9 @@ export function useBaseMapInitialize(
           container: mapContainer.current!,
           style,
           center: [25.47, 65.01],
-          zoom: 11,
-          pitch: 20,
-          bearing: 0,
+          zoom: 10.8,
+          pitch: 58,
+          bearing: 12,
         });
 
         mapRef.current = map;
