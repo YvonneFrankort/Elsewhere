@@ -283,7 +283,11 @@ code {
   border: 1px solid var(--border);
   background: var(--bg);
   box-shadow: var(--shadow);
+
+  position: relative;
+  z-index: 50;
 }
+
 
 /* -------------------------------------------------------
    LAYER PANEL

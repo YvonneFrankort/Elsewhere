@@ -141,15 +141,28 @@ export function useInfoMapDiscovery(
       }
     }
 
-    // Attach both events
-    map.on("load", setup);
-    map.on("style.load", setup);
+    const onStyleLoad = () => {
+      setup();
+    };
+
+    // Attach listener FIRST
+    map.on("style.load", onStyleLoad);
+
+    /* // If style already loaded before listener attached
+    if (map.isStyleLoaded()) {
+      setup();
+    } */
+
+    if (!map.isStyleLoaded()) {
+      console.warn("Style not ready yet, skipping setup");
+      return;
+    }
+
 
     return () => {
-      map.off("load", setup);
-      map.off("style.load", setup);
+      map.off("style.load", onStyleLoad);
     };
-  }, []);
+  }, [mapRef, geojson]);
 
   return { places };
 }

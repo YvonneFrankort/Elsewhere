@@ -1,5 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import mapboxgl from "mapbox-gl";
+import { LeftPanel } from "../components/LeftPanel/LeftPanel";
+import React from "react";
 
 import { useBaseMapInitialize } from "../hooks/map/base/useBaseMapInitialize";
 import { useBaseMapStyle } from "../hooks/map/base/useBaseMapStyle";
@@ -14,7 +16,7 @@ import InfoMapControls from "../components/ui/info/InfoMapControls";
 
 import { useInfoMapDiscovery } from "../hooks/map/info/useInfoMapDiscovery";
 
-export default function InfoMapPage() {
+function InfoMapPage() {
   const mapContainer = useRef<HTMLDivElement>(null);
   const mapRef = useRef<mapboxgl.Map | null>(null);
 
@@ -31,6 +33,7 @@ export default function InfoMapPage() {
     };
   }, []);
 
+  // IMPORTANT: these hooks must run only once per map instance
   useBaseMapInitialize(mapContainer, mapRef, style);
   useBaseMapStyle(mapRef, style);
 
@@ -50,6 +53,8 @@ export default function InfoMapPage() {
         <div ref={mapContainer} className="map-container" />
       </div>
 
+      <LeftPanel />
+
       <InfoMapControls
         flyTo={flyTo}
         easeTo={easeTo}
@@ -62,3 +67,5 @@ export default function InfoMapPage() {
     </>
   );
 }
+
+export default React.memo(InfoMapPage);

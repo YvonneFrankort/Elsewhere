@@ -1,0 +1,57 @@
+.left-panel {
+  position: absolute;
+  top: 90px;
+  left: 20px;
+  width: 160px;
+
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(8px);
+
+  border-radius: 10px;
+  padding: 14px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  z-index: 20;
+  
+  position: relative
+}
+
+.lp-section {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.lp-btn {
+  all: unset;
+  width: 140px;        /* smaller */
+  padding: 6px 8px;    /* tighter */
+  font-size: 13px;     /* smaller text */
+  border-radius: 6px;
+  background: #f3f4f6;
+  cursor: pointer;
+  text-align: left;
+  white-space: nowrap; /* prevents wrapping */
+}
+
+.lp-btn:hover {
+  background: #e5e7eb;
+}
+
+.lp-divider {
+  height: 1px;
+  background: #d1d5db;
+}
+
+.reset {
+  background: #fee2e2;
+}
+
+.reset:hover {
+  background: #fecaca;
+}
+

@@ -47,15 +47,27 @@ export function useBaseMapStyle(
   mapRef: React.MutableRefObject<mapboxgl.Map | null>,
   style: string
 ) {
-  useEffect(() => {
+useEffect(() => {
   const map = mapRef.current;
   if (!map) return;
 
-  map.on("style.load", () => {
-    applyCustomLayers(map);
-  });
+  // Only switch style if map is fully loaded
+  if (!map.isStyleLoaded()) {
+    console.warn("Map not ready for style switch yet");
+    return;
+  }
 
   map.setStyle(style, { diff: true } as any);
+
+  const onStyleLoad = () => {
+    applyCustomLayers(map);
+  };
+
+  map.on("style.load", onStyleLoad);
+
+  return () => {
+    map.off("style.load", onStyleLoad);
+  };
 }, [mapRef, style]);
 
 }

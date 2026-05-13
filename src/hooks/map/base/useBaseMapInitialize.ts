@@ -48,35 +48,37 @@ export function useBaseMapInitialize(
   mapContainer: React.RefObject<HTMLDivElement | null>,
   mapRef: React.MutableRefObject<mapboxgl.Map | null>,
   style: string
-)
- {
+) {
   useEffect(() => {
     if (!mapContainer.current) return;
 
-        mapboxgl.accessToken = MAPBOX_TOKEN;
+    mapboxgl.accessToken = MAPBOX_TOKEN;
 
-        const map = new mapboxgl.Map({
-          container: mapContainer.current!,
-          style,
-          center: [25.47, 65.01],
-          zoom: 10.8,
-          pitch: 58,
-          bearing: 12,
-        });
+    const map = new mapboxgl.Map({
+      container: mapContainer.current!,
+      style,
+      center: [24.9384, 60.1699],
+      zoom: 10.8,
+      pitch: 58,
+      bearing: 12,
+    });
 
-        mapRef.current = map;
+    mapRef.current = map;
 
-        map.on("load", () => {
-          applyCustomLayers(map);
+    map.on("load", () => {
+      applyCustomLayers(map);
 
-          map.addControl(new mapboxgl.NavigationControl(), "top-right");
-          map.addControl(
-            new mapboxgl.ScaleControl({ maxWidth: 120, unit: "metric" }),
-            "bottom-left"
-          );
+      // ⭐ CRITICAL FIX: ensure discovery sees initial style.load
+      map.fire("style.load");
 
-          setTimeout(() => map.resize(), 100);
-        });
+      map.addControl(new mapboxgl.NavigationControl(), "top-right");
+      map.addControl(
+        new mapboxgl.ScaleControl({ maxWidth: 120, unit: "metric" }),
+        "bottom-left"
+      );
+
+      setTimeout(() => map.resize(), 100);
+    });
 
     return () => {
       if (mapRef.current) {
