@@ -1,0 +1,66 @@
+
+/* -------------------------------------------------------
+   MAPBOX CONTROLS (ZOOM, COMPASS, SCALE)
+------------------------------------------------------- */
+
+/* Base (desktop + general) */
+.mapboxgl-ctrl-group {
+  background: rgba(0, 0, 0, 0.55) !important;
+  border-radius: 12px !important;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+  overflow: hidden;
+  backdrop-filter: blur(4px);
+}
+
+.mapboxgl-ctrl-group button {
+  width: 42px !important;
+  height: 42px !important;
+  background: transparent !important;
+  border-radius: 0 !important;
+  transition: background 0.15s ease;
+}
+
+.mapboxgl-ctrl-group button:hover {
+  background: rgba(255, 255, 255, 0.12) !important;
+}
+
+.mapboxgl-ctrl-icon {
+  filter: invert(1) brightness(2);
+}
+
+.mapboxgl-ctrl-scale {
+  background: rgba(0, 0, 0, 0.55) !important;
+  color: white !important;
+  font-size: 13px !important;
+  padding: 6px 10px !important;
+  border-radius: 10px !important;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.35) !important;
+  backdrop-filter: blur(6px) !important;
+  border: none !important;
+}
+
+.mapboxgl-ctrl-scale-line {
+  border-top: 2px solid white !important;
+}
+
+/* Keep scale bar visually stable in the bottom-left corner */
+.mapboxgl-ctrl-scale {
+  width: 80px;              
+  min-width: 80px;          
+  max-width: 80px;          
+  overflow: hidden;         
+  white-space: nowrap;      
+  text-overflow: clip;    
+}
+
+/* Mobile overrides */
+@media (max-width: 600px) {
+  .mapboxgl-ctrl-group button {
+    width: 36px !important;
+    height: 36px !important;
+  }
+
+  .mapboxgl-ctrl-group {
+    border-radius: 10px !important;
+  }
+}

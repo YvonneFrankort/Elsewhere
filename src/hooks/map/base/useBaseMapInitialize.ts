@@ -1,52 +1,12 @@
 import { useEffect } from "react";
 import mapboxgl from "mapbox-gl";
 import { MAPBOX_TOKEN } from "../../../lib/mapbox";
-
-function applyCustomLayers(map: mapboxgl.Map) {
-  if (!map.getSource("mapbox-dem")) {
-    map.addSource("mapbox-dem", {
-      type: "raster-dem",
-      url: "mapbox://mapbox.mapbox-terrain-dem-v1",
-      tileSize: 512,
-      maxzoom: 14,
-    });
-  }
-
-  map.setTerrain({ source: "mapbox-dem", exaggeration: 1.2 });
-
-  if (!map.getLayer("sky")) {
-    map.addLayer({
-      id: "sky",
-      type: "sky",
-      paint: {
-        "sky-type": "atmosphere",
-        "sky-atmosphere-sun": [0.0, 0.0],
-        "sky-atmosphere-sun-intensity": 15,
-      },
-    });
-  }
-
-  if (!map.getLayer("3d-buildings")) {
-    map.addLayer({
-      id: "3d-buildings",
-      source: "composite",
-      "source-layer": "building",
-      filter: ["==", "extrude", "true"],
-      type: "fill-extrusion",
-      minzoom: 15,
-      paint: {
-        "fill-extrusion-color": "#aaa",
-        "fill-extrusion-height": ["get", "height"],
-        "fill-extrusion-base": ["get", "min_height"],
-        "fill-extrusion-opacity": 0.6,
-      },
-    });
-  }
-}
+import { StyleManager } from "../../../map/style/StyleManager";
 
 export function useBaseMapInitialize(
   mapContainer: React.RefObject<HTMLDivElement | null>,
   mapRef: React.MutableRefObject<mapboxgl.Map | null>,
+  styleManagerRef: React.MutableRefObject<StyleManager | null>,
   style: string
 ) {
   useEffect(() => {
@@ -65,12 +25,8 @@ export function useBaseMapInitialize(
 
     mapRef.current = map;
 
+    // ⭐ Controls + resize only
     map.on("load", () => {
-      applyCustomLayers(map);
-
-      // ⭐ CRITICAL FIX: ensure discovery sees initial style.load
-      map.fire("style.load");
-
       map.addControl(new mapboxgl.NavigationControl(), "top-right");
       map.addControl(
         new mapboxgl.ScaleControl({ maxWidth: 120, unit: "metric" }),
@@ -79,6 +35,17 @@ export function useBaseMapInitialize(
 
       setTimeout(() => map.resize(), 100);
     });
+
+    // ⭐ Create StyleManager ONLY when the style is fully loaded
+    map.on("style.load", () => {
+  console.log("STYLE LOAD FIRED");
+
+  if (!styleManagerRef.current) {
+    styleManagerRef.current = new StyleManager(map, style);
+    console.log("StyleManager created");
+  }
+});
+
 
     return () => {
       if (mapRef.current) {

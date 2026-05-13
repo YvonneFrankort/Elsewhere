@@ -108,7 +108,6 @@ export default function InfoMapControls({
           options={[
             { label: "Streets", value: "mapbox://styles/mapbox/streets-v12" },
             { label: "Outdoors", value: "mapbox://styles/mapbox/outdoors-v12" },
-            { label: "Dark", value: "mapbox://styles/mapbox/dark-v11" },
             { label: "Satellite", value: "mapbox://styles/mapbox/satellite-streets-v12" },
           ]}
         />

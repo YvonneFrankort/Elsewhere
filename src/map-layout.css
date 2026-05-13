@@ -1,0 +1,49 @@
+/* -------------------------------------------------------
+   MAP CONTAINER
+------------------------------------------------------- */
+.map-container {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100dvh; 
+  z-index: 0;
+}
+
+.map-wrapper {
+  position: relative;
+  width: 100vw;
+  height: 100dvh; 
+  overflow: hidden;
+  z-index: 0;
+}
+
+/* Disable layout on map page */
+body.map-page #root {
+  display: block !important;
+  width: 100% !important;
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+}
+
+body.map-page #root > div {
+  display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+body.map-page {
+  width: 100% !important;
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+html.map-page {
+  width: 100% !important;
+  max-width: none !important;
+}
+

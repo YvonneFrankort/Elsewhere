@@ -8,17 +8,15 @@ import { useBaseMapStyle } from "../hooks/map/base/useBaseMapStyle";
 import { useBaseMapCamera } from "../hooks/map/base/useBaseMapCamera";
 import { useBaseMapEvents } from "../hooks/map/base/useBaseMapEvents";
 
-import { useInfoMapLayers } from "../hooks/map/info/useInfoMapLayers";
-import { useInfoMapWeather } from "../hooks/map/info/useInfoMapWeather";
-import { useInfoMapSeasons } from "../hooks/map/info/useInfoMapSeasonal";
-
 import InfoMapControls from "../components/ui/info/InfoMapControls";
 
 import { useInfoMapDiscovery } from "../hooks/map/info/useInfoMapDiscovery";
+import { StyleManager } from "../map/style/StyleManager";
 
 function InfoMapPage() {
   const mapContainer = useRef<HTMLDivElement>(null);
   const mapRef = useRef<mapboxgl.Map | null>(null);
+  const styleManagerRef = useRef<StyleManager | null>(null);
 
   const [style, setStyle] = useState("mapbox://styles/mapbox/streets-v12");
   const [query, setQuery] = useState("");
@@ -34,16 +32,12 @@ function InfoMapPage() {
   }, []);
 
   // IMPORTANT: these hooks must run only once per map instance
-  useBaseMapInitialize(mapContainer, mapRef, style);
-  useBaseMapStyle(mapRef, style);
+  useBaseMapInitialize(mapContainer, mapRef, styleManagerRef, style);
+  useBaseMapStyle(mapRef, styleManagerRef, style);
 
   const { flyTo, easeTo } = useBaseMapCamera(mapRef);
 
   useBaseMapEvents(mapRef);
-
-  useInfoMapLayers(mapRef);
-  useInfoMapWeather(mapRef);
-  useInfoMapSeasons(mapRef);
 
   useInfoMapDiscovery(mapRef);
 

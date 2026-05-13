@@ -63,6 +63,12 @@ export function useInfoMapDiscovery(
     async function setup() {
       if (!map) return;
 
+      // GUARD #1 – don’t run while style is still switching
+      if (!map.getSource("composite")) {
+        console.warn("Discovery: style still loading, skipping setup");
+        return;
+      }
+
       // Add or update source
       if (!map.getSource(sourceId)) {
         map.addSource(sourceId, {
@@ -145,19 +151,19 @@ export function useInfoMapDiscovery(
       setup();
     };
 
-    // Attach listener FIRST
-    map.on("style.load", onStyleLoad);
-
-    /* // If style already loaded before listener attached
-    if (map.isStyleLoaded()) {
-      setup();
-    } */
-
-    if (!map.isStyleLoaded()) {
-      console.warn("Style not ready yet, skipping setup");
+    // GUARD #2 – don’t attach listener while style is switching
+    if (!map.getSource("composite")) {
+      console.warn("Discovery: style not stable yet, skipping listener");
       return;
     }
 
+    // Attach listener
+    map.on("style.load", onStyleLoad);
+
+    // If style is already loaded and stable, run once immediately
+    if (map.isStyleLoaded() && map.getSource("composite")) {
+      setup();
+    }
 
     return () => {
       map.off("style.load", onStyleLoad);
