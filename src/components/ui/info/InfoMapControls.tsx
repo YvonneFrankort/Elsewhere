@@ -1,4 +1,5 @@
 import { useState, useRef } from "react";
+import React from "react";
 import mapboxgl from "mapbox-gl";
 import { MAPBOX_TOKEN } from "../../../lib/mapbox";
 import CustomDropdown from "../../CustomDropdown";
@@ -13,7 +14,7 @@ interface Props {
   mapRef: React.MutableRefObject<mapboxgl.Map | null>;
 }
 
-export default function InfoMapControls({
+function InfoMapControls({
   flyTo,
   easeTo,
   style,
@@ -24,6 +25,7 @@ export default function InfoMapControls({
 }: Props) {
   const userMarkerRef = useRef<mapboxgl.Marker | null>(null);
   const [locating, setLocating] = useState(false);
+  const [layout, setLayout] = useState("info");
 
   async function handleSearch() {
     if (!mapRef.current || !query) return;
@@ -31,7 +33,7 @@ export default function InfoMapControls({
     const parts = query.split(/[\s,]+/).map((p) => p.trim());
 
     if (parts.length === 2 && !isNaN(+parts[0]) && !isNaN(+parts[1])) {
-      flyTo([+parts[0], +parts[1]], 12, 60);
+      flyTo([+parts[0], +parts[1]], 60);
       return;
     }
 
@@ -44,7 +46,7 @@ export default function InfoMapControls({
 
     if (data.features?.length) {
       const [lng, lat] = data.features[0].center;
-      flyTo([lng, lat], 12, 60);
+      flyTo([lng, lat], 12);
       setQuery("");
     }
   }
@@ -73,7 +75,7 @@ export default function InfoMapControls({
           .setLngLat([longitude, latitude])
           .addTo(mapRef.current!);
 
-        easeTo([longitude, latitude], 16, 30);
+        easeTo([longitude, latitude], 16);
 
         setLocating(false);
       },
@@ -90,41 +92,59 @@ export default function InfoMapControls({
   }
 
   return (
-    <div className="map-ui">
-      <div className="map-search">
-        <input
-          value={query}
-          onChange={(e) => setQuery(e.target.value)}
-          onKeyDown={(e) => e.key === "Enter" && handleSearch()}
-          placeholder="Search place or coordinates"
-        />
-        <button onClick={handleSearch}>🔍</button>
-      </div>
+    <>
+      {/* TOPBAR */}
+      <div className="map-topbar">
 
-      <div className="map-style">
-        <CustomDropdown
-          value={style}
-          onChange={(v) => setStyle(v)}
-          options={[
-            { label: "Streets", value: "mapbox://styles/mapbox/streets-v12" },
-            { label: "Outdoors", value: "mapbox://styles/mapbox/outdoors-v12" },
-            { label: "Satellite", value: "mapbox://styles/mapbox/satellite-streets-v12" },
-          ]}
-        />
-      </div>
-
-      <button className="map-fab" onClick={handleLocateMe}>
-        <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
-          <circle cx="12" cy="12" r="3" fill="white" />
-          <path
-            d="M12 2v3M12 19v3M4 12H2M22 12h-3"
-            stroke="white"
-            strokeWidth="2"
-            strokeLinecap="round"
+        {/* LEFT ZONE */}
+        <div className="topbar-left">
+          <CustomDropdown
+            label="Layout"
+            value={layout}
+            onChange={(v) => setLayout(v)}
+            options={[
+              { label: "Info Map", value: "info" },
+              { label: "Memory Map", value: "memory" },
+              { label: "Planner", value: "planner" },
+            ]}
           />
-          <circle cx="12" cy="12" r="8" stroke="white" strokeWidth="2" />
-        </svg>
+
+          <CustomDropdown
+            label="Map Style"
+            value={style}
+            onChange={(v) => setStyle(v)}
+            options={[
+              { label: "Streets", value: "mapbox://styles/mapbox/streets-v12" },
+              { label: "Outdoors", value: "mapbox://styles/mapbox/outdoors-v12" },
+              { label: "Satellite", value: "mapbox://styles/mapbox/satellite-streets-v12" },
+            ]}
+          />
+        </div>
+
+        {/* CENTER ZONE */}
+        <div className="topbar-center">
+          <div className="map-search">
+            <input
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+              onKeyDown={(e) => e.key === "Enter" && handleSearch()}
+              placeholder="Search place or coordinates"
+            />
+            <button onClick={handleSearch}>🔍</button>
+          </div>
+        </div>
+
+        {/* RIGHT ZONE */}
+        <div className="topbar-right" />
+
+      </div>
+
+      {/* FAB MOVED OUTSIDE TOPBAR */}
+      <button className="map-fab" onClick={handleLocateMe}>
+        📍
       </button>
-    </div>
+    </>
   );
 }
+
+export default React.memo(InfoMapControls);

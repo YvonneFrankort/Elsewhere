@@ -1,9 +1,7 @@
-
 /* -------------------------------------------------------
-   MAPBOX CONTROLS (ZOOM, COMPASS, SCALE)
+   MAPBOX CONTROLS — DESKTOP DEFAULT
 ------------------------------------------------------- */
 
-/* Base (desktop + general) */
 .mapboxgl-ctrl-group {
   background: rgba(0, 0, 0, 0.55) !important;
   border-radius: 12px !important;
@@ -39,22 +37,20 @@
   border: none !important;
 }
 
-.mapboxgl-ctrl-scale-line {
-  border-top: 2px solid white !important;
-}
-
-/* Keep scale bar visually stable in the bottom-left corner */
+/* Keep scale bar stable without clipping */
 .mapboxgl-ctrl-scale {
-  width: 80px;              
-  min-width: 80px;          
-  max-width: 80px;          
-  overflow: hidden;         
-  white-space: nowrap;      
-  text-overflow: clip;    
+  width: auto;
+  min-width: 60px;
+  max-width: none;
+  overflow: visible;
+  white-space: nowrap;
 }
 
-/* Mobile overrides */
-@media (max-width: 600px) {
+/* -------------------------------------------------------
+   MOBILE OVERRIDES — ONLY PHONES
+------------------------------------------------------- */
+@media (max-width: 480px) {
+
   .mapboxgl-ctrl-group button {
     width: 36px !important;
     height: 36px !important;
@@ -63,4 +59,14 @@
   .mapboxgl-ctrl-group {
     border-radius: 10px !important;
   }
+
+  .mapboxgl-ctrl-scale {
+    font-size: 11px !important;
+    padding: 4px 8px !important;
+  }
+}
+.dropdown-item {
+  position: relative;
+  z-index: 999999 !important;
+  background: yellow !important;
 }

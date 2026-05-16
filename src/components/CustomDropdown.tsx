@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 type Option = {
   label: string;
@@ -9,17 +9,62 @@ type Props = {
   options: Option[];
   value: string;
   onChange: (v: string) => void;
+  label: string;
 };
 
-export default function CustomDropdown({ options, value, onChange }: Props) {
+export default function CustomDropdown({
+  options,
+  value,
+  onChange,
+  label
+}: Props) {
   const [open, setOpen] = useState(false);
+  const rootRef = useRef<HTMLDivElement>(null);
 
-  const selected = options.find((o) => o.value === value)?.label || "";
+  useEffect(() => {
+    const root = rootRef.current;
+    if (!root) return;
+
+    const trigger = root.querySelector(".dropdown-selected");
+    const items = root.querySelectorAll(".dropdown-item");
+
+    if (!trigger) return;
+
+    const onTrigger = (e: Event) => {
+      e.preventDefault();
+      e.stopPropagation();
+      setOpen((v) => !v);
+    };
+
+    trigger.addEventListener("pointerup", onTrigger);
+
+    items.forEach((item) => {
+      item.addEventListener("pointerup", (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+
+        const value = (item as HTMLElement).dataset.value!;
+        onChange(value);
+        setOpen(false);
+      });
+    });
+
+    return () => {
+      trigger.removeEventListener("pointerup", onTrigger);
+      items.forEach((item) => {
+        item.replaceWith(item.cloneNode(true));
+      });
+    };
+  }, [open, options, onChange]);
 
   return (
-    <div className="custom-dropdown">
-      <div className="dropdown-selected" onClick={() => setOpen(!open)}>
-        {selected}
+    <div
+      ref={rootRef}
+      className="custom-dropdown"
+      style={{ position: "relative", zIndex: 999999 }}
+    >
+      <div className="dropdown-selected">
+        {options.find((o) => o.value === value)?.label ?? label}
       </div>
 
       {open && (
@@ -28,10 +73,7 @@ export default function CustomDropdown({ options, value, onChange }: Props) {
             <div
               key={opt.value}
               className="dropdown-item"
-              onClick={() => {
-                onChange(opt.value);
-                setOpen(false);
-              }}
+              data-value={opt.value}
             >
               {opt.label}
             </div>

@@ -1,42 +1,90 @@
-/* -------------------------------------------------------
-   MAP UI OVERLAY
-------------------------------------------------------- */
+/* =======================================================
+   MAP UI ROOT LAYER
+======================================================= */
+
 .map-ui {
-  position: fixed;
+  position: absolute;
   inset: 0;
+  z-index: 9999;
+
+  /* UI overlay must NOT block the map */
   pointer-events: none;
-  z-index: 10;
 }
 
-.map-ui > * {
+/* Only actual UI elements are clickable */
+.map-ui>* {
   pointer-events: auto;
 }
 
-/* -------------------------------------------------------
-   SEARCH BAR
-------------------------------------------------------- */
+/* =======================================================
+   TOP BAR — BULLETPROOF VERSION
+======================================================= */
 
-/* Base */
-.map-search {
+.map-topbar {
   position: absolute;
   top: 16px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: min(420px, 90%);
+  left: 16px;
+  right: 16px;
+
+  display: flex;              /* FIX: no inline-flex */
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 56px;               /* FIX: lock height */
+  padding: 0 8px;
+
+  z-index: 20;
+  pointer-events: none;       /* UI overlay rule */
+}
+
+.topbar-left,
+.topbar-center,
+.topbar-right {
   display: flex;
+  align-items: center;
+  pointer-events: auto;       /* clickable children */
+}
+
+/* FIX: prevent right side from stretching downward */
+.topbar-right {
+  flex: 0 0 auto;
+  height: 100%;
+}
+
+
+/* =======================================================
+   SEARCH
+======================================================= */
+
+.map-search {
+  width: 420px;
+  max-width: 100%;
+
+  display: flex;
+  align-items: center;
   gap: 8px;
-  background: var(--bg);
-  border-radius: 16px;
+
   padding: 10px 12px;
-  box-shadow: var(--shadow);
+
+  background: var(--bg);
   border: 1px solid var(--border);
+  border-radius: 16px;
+
+  box-shadow: var(--shadow);
+
+  min-width: 0;
 }
 
 .map-search input {
   flex: 1;
+  min-width: 0;
+
   border: none;
   outline: none;
+
   font-size: 15px;
+
   background: transparent;
   color: var(--text-h);
 }
@@ -45,329 +93,193 @@
   border: none;
   background: var(--accent);
   color: white;
+
   border-radius: 10px;
   padding: 6px 10px;
+
   cursor: pointer;
 }
 
-/* Mobile */
-@media (max-width: 600px) {
-  .map-search {
-    top: 12px;
-    width: 88%;
-    padding: 6px 10px;
-    border-radius: 12px;
-    gap: 6px;
-  }
+/* =======================================================
+   CUSTOM DROPDOWN
+======================================================= */
 
-  .map-search input {
-    font-size: 14px;
-  }
-
-  .map-search button {
-    padding: 4px 8px;
-    font-size: 14px;
-    border-radius: 8px;
-  }
-}
-
-/* Desktop */
-@media (min-width: 601px) {
-  .map-search {
-    width: min(500px, 90%);
-    padding: 14px 16px;
-    border-radius: 18px;
-    gap: 10px;
-  }
-
-  .map-search input {
-    font-size: 24px;
-    line-height: 1.4;
-  }
-
-  .map-search input::placeholder {
-    font-size: 24px;
-    opacity: 0.7;
-  }
-
-  .map-search button {
-    padding: 8px 14px;
-    font-size: 16px;
-    border-radius: 12px;
-  }
-}
-
-/* -------------------------------------------------------
-   STYLE SELECTOR
-------------------------------------------------------- */
-.map-style {
-  position: absolute;
-  top: 16px;
-  left: 16px;
-}
-
-.map-style select {
-  padding: 8px 12px;
-  border-radius: 12px;
-  border: 1px solid var(--border);
-  background: var(--bg);
-  box-shadow: var(--shadow);
-
+.custom-dropdown {
   position: relative;
-  z-index: 50;
+  min-width: 140px;
+  z-index: 30000;
+  /* ABOVE menu panel */
 }
 
-/* -------------------------------------------------------
-   LAYER PANEL
-------------------------------------------------------- */
+.dropdown-selected {
+  padding: 8px 12px;
 
-/* Base */
-.map-layers {
+  border-radius: 12px;
+  border: 1px solid var(--border);
+
+  background: var(--bg);
+  color: var(--text-h);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  box-shadow: var(--shadow);
+
+  cursor: pointer;
+}
+
+.dropdown-menu {
   position: absolute;
-  top: 80px;
-  left: 16px;
-}
+  top: calc(100% + 4px);
+  left: 0;
 
-.map-layers button {
+  width: 100%;
+
   background: var(--bg);
   border: 1px solid var(--border);
   border-radius: 12px;
-  padding: 8px;
-  cursor: pointer;
-  box-shadow: var(--shadow);
-}
 
-.map-layer-panel {
-  margin-top: 8px;
-  background: var(--bg);
-  border-radius: 12px;
-  border: 1px solid var(--border);
   box-shadow: var(--shadow);
+
   overflow: hidden;
+
+  z-index: 40000;
+  /* ABOVE everything */
 }
 
-.map-layer-panel div {
-  padding: 10px 14px;
+.dropdown-item {
+  padding: 8px 12px;
   cursor: pointer;
 }
 
-.map-layer-panel div:hover {
+.dropdown-item:hover {
   background: var(--accent-bg);
 }
 
-/* Mobile */
-@media (max-width: 600px) {
-  .map-layers {
-    top: 60px;
-    left: 12px;
-  }
+/* =======================================================
+   MENU BUTTON
+======================================================= */
 
-  .map-layer-panel div {
-    padding: 8px 10px;
-    font-size: 14px;
-  }
-}
+.menu-button {
+  position: fixed;
 
-/* Desktop */
-@media (min-width: 601px) {
-  .map-layers button:hover {
-    box-shadow: 0 4px 14px rgba(0,0,0,0.15);
-    transform: translateY(-1px);
-  }
-}
+  top: 16px;
+  left: 16px;
 
-/* -------------------------------------------------------
-   LOCATE ME BUTTON (FAB)
-------------------------------------------------------- */
+  z-index: 10000;
 
-/* Base */
-.map-fab {
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-  width: 56px;
-  height: 56px;
-  border-radius: 16px;
-  background: var(--accent);
-  color: white;
-  border: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 20px;
-  cursor: pointer;
-  box-shadow: var(--shadow);
-  transition: transform 0.15s ease, box-shadow 0.2s ease;
-  touch-action: manipulation;
-}
-
-.map-fab:hover {
-  transform: translateY(-2px);
-  box-shadow:
-    0 6px 18px rgba(0, 0, 0, 0.3),
-    0 0 0 6px var(--accent-bg);
-}
-
-.map-fab:active {
-  transform: scale(0.95);
-  box-shadow:
-    0 3px 8px rgba(0, 0, 0, 0.2),
-    0 0 0 3px var(--accent-bg);
-}
-
-/* Mobile override */
-@media (max-width: 600px) {
-  .map-fab {
-    bottom: 14px;
-    right: 14px;
-    width: 48px;
-    height: 48px;
-    font-size: 18px;
-    border-radius: 14px;
-  }
-}
-
-/* -------------------------------------------------------
-   LOCATION DOT
-------------------------------------------------------- */
-.location-dot {
-  width: 14px;
-  height: 14px;
-  background: var(--accent);
-  border: 3px solid white;
-  border-radius: 50%;
-  position: relative;
-}
-
-.location-dot::after {
-  content: "";
-  position: absolute;
-  inset: -6px;
-  border-radius: 50%;
-  border: 2px solid var(--accent);
-  animation: pulse 1.8s infinite;
-}
-
-@keyframes pulse {
-  0% { transform: scale(1); opacity: 0.6; }
-  70% { transform: scale(2); opacity: 0; }
-  100% { opacity: 0; }
-}
-
-/* -------------------------------------------------------
-   CUSTOM DROPDOWN
-------------------------------------------------------- */
-.custom-dropdown {
-  position: relative;
-  width: 160px;
-}
-
-.dropdown-selected {
-  padding: 8px 12px;
-  border-radius: 12px;
   background: var(--bg);
   border: 1px solid var(--border);
-  box-shadow: var(--shadow);
-  cursor: pointer;
-  user-select: none;
-}
 
-.dropdown-menu {
-  position: absolute;
-  top: calc(100% + 6px);
-  left: 0;
-  width: 100%;
-  background: var(--bg);
-  border: 1px solid var(--border);
+  padding: 10px 14px;
   border-radius: 12px;
-  box-shadow: var(--shadow);
-  overflow: hidden;
-  z-index: 9999;
-}
 
-.dropdown-item {
-  padding: 8px 12px;
   cursor: pointer;
 }
 
-.dropdown-item:hover {
-  background: rgba(255, 255, 255, 0.08);
-}
+/* =======================================================
+   MOBILE MENU
+======================================================= */
 
-/* -------------------------------------------------- */
-/* CUSTOM DROPDOWN (Map Style Selector)               */
-/* -------------------------------------------------- */
+.menu-panel {
+  position: fixed;
+  inset: 0;
 
-.custom-dropdown {
-  position: relative;
-  width: 160px;
-  z-index: 10000; /* ensures popup is not cut */
-}
+  z-index: 20000;
 
-.dropdown-selected {
-  padding: 8px 12px;
-  border-radius: 12px;
-  background: var(--bg);
-  border: 1px solid var(--border);
-  box-shadow: var(--shadow);
-  cursor: pointer;
-  user-select: none;
-  position: relative;
-  padding-right: 28px; /* space for arrow */
-}
+  display: none;
 
-/* Arrow icon */
-.dropdown-selected::after {
-  content: "▾";
-  position: absolute;
-  right: 10px;
-  top: 50%;
-  transform: translateY(-50%);
-  opacity: 0.7;
+  /* IMPORTANT: overlay must NOT block clicks */
   pointer-events: none;
-}
 
-.dropdown-menu {
-  position: absolute;
-  top: calc(100% + 2px);
-  left: 0;
-  width: 100%;
-  background: var(--bg);
-  border: 1px solid var(--border);
-  border-radius: 12px;
-  box-shadow: var(--shadow);
-  overflow: hidden;
-  z-index: 9999;
-}
-
-.dropdown-item {
-  padding: 8px 12px;
-  cursor: pointer;
-}
-
-.dropdown-item:hover {
-  background: rgba(255, 255, 255, 0.08);
-}
-
-/* Ensure parent containers don't clip the popup */
-.map-style,
-.map-ui {
+  /* allow dropdowns to escape */
   overflow: visible;
 }
 
+.menu-panel--open {
+  display: block;
+}
 
-/* -------------------------------------------------------
-   MOBILE LAYOUT
-------------------------------------------------------- */
-@media (max-width: 600px) {
+/* dark background layer (non-clickable) */
+.menu-panel::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  pointer-events: none;
+}
 
-  /* Search bar */
-  .map-search {
+/* actual menu content is clickable */
+.menu-panel>* {
+  position: relative;
+  pointer-events: auto;
+}
+
+/* =======================================================
+   FAB — moved down so it does NOT cover zoom
+======================================================= */
+
+.map-fab {
+  position: fixed;
+  right: 20px;
+  bottom: 80px;
+  /* FIXED: space for zoom controls */
+
+  z-index: 10000;
+
+  width: 56px;
+  height: 56px;
+
+  border: none;
+  border-radius: 16px;
+
+  background: var(--accent);
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 20px;
+
+  cursor: pointer;
+  box-shadow: var(--shadow);
+}
+
+/* =======================================================
+   DESKTOP
+======================================================= */
+
+@media (min-width: 769px) {
+
+  .menu-button,
+  .menu-panel {
+    display: none !important;
+  }
+}
+
+/* =======================================================
+   MOBILE
+======================================================= */
+
+@media (max-width: 768px) {
+
+  .topbar-left {
+    display: none;
+  }
+
+  .map-topbar {
     top: 12px;
-    width: 88%;
-    padding: 6px 10px;
-    border-radius: 12px;
-    gap: 6px;
+    left: 12px;
+    right: 12px;
+    gap: 10px;
+  }
+
+  .map-search {
+    width: 100%;
+    max-width: 100%;
+    padding: 8px 10px;
   }
 
   .map-search input {
@@ -377,37 +289,84 @@
   .map-search button {
     padding: 4px 8px;
     font-size: 14px;
-    border-radius: 8px;
   }
 
-  /* Style selector */
-  .map-style {
+  .menu-button {
     top: 12px;
     left: 12px;
   }
 
-  .map-style select {
-    padding: 6px 8px;
-    font-size: 14px;
-    border-radius: 10px;
+  .custom-dropdown {
+    min-width: 120px;
+  }
+
+  .map-fab {
+    bottom: 70px;
+    /* mobile spacing */
   }
 }
 
-/* Bigger style selector */
-  .map-style select {
-    padding: 10px 14px;
-    font-size: 16px;
-    border-radius: 14px;
-  }
+/* =======================================================
+   MAPBOX CONTROLS
+======================================================= */
 
-  .map-style select:hover {
-    box-shadow: 0 4px 14px rgba(0,0,0,0.15);
-    transform: translateY(-1px);
-    transition: all 0.15s ease;
-  }
+.mapboxgl-control-container {
+  z-index: 5000 !important;
+}
 
-  .map-style select:focus {
-    outline: none;
-    box-shadow: none;
-  }
+.mapboxgl-ctrl {
+  z-index: 5000 !important;
+}
 
+/* shows the exact top bar interaction zone */
+/* .map-topbar {
+  outline: 2px solid red !important;
+  background: rgba(255, 0, 0, 0.08) !important;
+} */
+
+/* shows full UI overlay bounds */
+.map-ui {
+  outline: 2px solid blue !important;
+}
+
+/* shows dropdown hit areas */
+.custom-dropdown {
+  outline: 2px solid lime !important;
+}
+
+/* shows search area */
+.map-search {
+  outline: 2px solid orange !important;
+}
+
+/* shows menu button hitbox */
+.menu-button {
+  outline: 2px solid yellow !important;
+}
+
+.map-ui > * {
+  outline: 2px solid magenta !important;
+  background: rgba(255, 0, 255, 0.05) !important;
+}
+
+.offending-element {
+  pointer-events: none !important;
+}
+
+.mapboxgl-canvas-container {
+  pointer-events: none !important;
+}
+
+.mapboxgl-control-container {
+  pointer-events: auto !important;
+}
+
+.map-wrapper,
+.map-container,
+.mapboxgl-map,
+.mapboxgl-canvas-container,
+.mapboxgl-canvas,
+.mapboxgl-control-container {
+  outline: 3px solid red !important;
+  background: rgba(255, 0, 0, 0.05) !important;
+}

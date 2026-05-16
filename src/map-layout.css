@@ -1,49 +1,53 @@
 /* -------------------------------------------------------
-   MAP CONTAINER
+   MAP CONTAINER — GLOBAL (same for desktop + mobile)
 ------------------------------------------------------- */
 .map-container {
-  position: fixed;
+  position: absolute;
   inset: 0;
   width: 100vw;
-  height: 100dvh; 
+  height: 100dvh;
   z-index: 0;
 }
 
 .map-wrapper {
   position: relative;
   width: 100vw;
-  height: 100dvh; 
+  height: 100dvh;
   overflow: hidden;
   z-index: 0;
 }
 
-/* Disable layout on map page */
+/* -------------------------------------------------------
+   DISABLE WEBSITE LAYOUT ON MAP PAGE — SAFE VERSION
+------------------------------------------------------- */
 body.map-page #root {
-  display: block !important;
-  width: 100% !important;
-  max-width: none !important;
-  margin: 0 !important;
-  padding: 0 !important;
-  border: none !important;
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+  border: none;
 }
 
 body.map-page #root > div {
-  display: block !important;
-  width: 100% !important;
-  max-width: 100% !important;
-  margin: 0 !important;
-  padding: 0 !important;
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-body.map-page {
-  width: 100% !important;
-  max-width: none !important;
-  margin: 0 !important;
-  padding: 0 !important;
-}
-
+body.map-page,
 html.map-page {
-  width: 100% !important;
-  max-width: none !important;
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 0;
 }
 
+/* -------------------------------------------------------
+   MOBILE-SPECIFIC MAP LAYOUT (ONLY PHONES)
+------------------------------------------------------- */
+@media (max-width: 480px) {
+
+  /* If you want mobile-specific map offsets later, add here */
+
+}

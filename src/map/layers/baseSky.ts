@@ -16,7 +16,7 @@ export const baseSky = {
     }
 
     // Default pitch + bearing for horizon effect
-    map.setPitch(45);
-    map.setBearing(-17.6);
+    //map.setPitch(45);
+    //map.setBearing(-17.6);
   }
 };

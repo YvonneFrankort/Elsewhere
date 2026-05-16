@@ -6,9 +6,9 @@ export function useBaseMapCamera(
   const flyTo = useCallback(
     (
       center: [number, number],
-      zoom: number = 12,
-      pitch: number = 0,
-      bearing: number = 0
+      zoom: number = 9.8,
+      pitch: number = 58,
+      bearing: number = 12
     ) => {
       const map = mapRef.current;
       if (!map) return;
@@ -27,9 +27,9 @@ export function useBaseMapCamera(
   const easeTo = useCallback(
     (
       center: [number, number],
-      zoom: number = 12,
-      pitch: number = 0,
-      bearing: number = 0,
+      zoom: number = 9.8,
+      pitch: number = 58,
+      bearing: number = 12,
       duration: number = 800
     ) => {
       const map = mapRef.current;

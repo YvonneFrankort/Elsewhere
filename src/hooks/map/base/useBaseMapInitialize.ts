@@ -18,10 +18,12 @@ export function useBaseMapInitialize(
       container: mapContainer.current!,
       style,
       center: [24.9384, 60.1699],
-      zoom: 10.8,
-      pitch: 58,
+      zoom: 9.8,
+      pitch: 65,
       bearing: 12,
     });
+
+    (window as any).debugMap = map;
 
     mapRef.current = map;
 
