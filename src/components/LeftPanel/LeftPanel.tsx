@@ -1,6 +1,6 @@
 import "./LeftPanel.css";
-import { categories } from "../../map/categories";
-import { useCategoryFilters } from "../../hooks/map/useCategoryFilters";
+import { categories } from "../../map/info/config/categories";
+import { useCategoryFilters } from "../../map/hooks/info/useCategoryFilters";
 
 export function LeftPanel({ onToggleCategory }: { onToggleCategory: (id: string, visible: boolean) => void }) {
   console.log("LeftPanel rendered");

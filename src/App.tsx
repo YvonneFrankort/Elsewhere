@@ -1,11 +1,12 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import InfoMapPage from "./pages/InfoMapPage";
+import InfoMapShell from "./pages/InfoMapShell";
+
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<InfoMapPage />} />
+        <Route path="/" element={<InfoMapShell />} />
       </Routes>
     </BrowserRouter>
   );

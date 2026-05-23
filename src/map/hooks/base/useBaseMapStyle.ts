@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import mapboxgl from "mapbox-gl";
-import { StyleManager } from "../../../map/style/StyleManager";
+import { StyleManager } from "../../../map/core/style/StyleManager";
 
 export function useBaseMapStyle(
   mapRef: React.MutableRefObject<mapboxgl.Map | null>,

@@ -1,41 +1,43 @@
 /* =======================================================
-   MAP UI ROOT LAYER
+   1. MAP UI ROOT LAYER
 ======================================================= */
 
 .map-ui {
   position: absolute;
   inset: 0;
   z-index: 9999;
-
+  /*pointer-events: none;*/
   /* UI overlay must NOT block the map */
-  pointer-events: none;
 }
 
-/* Only actual UI elements are clickable */
-.map-ui>* {
+ .map-ui>* {
   pointer-events: auto;
-}
+  /* Only actual UI elements are clickable */
+} 
+
 
 /* =======================================================
-   TOP BAR — BULLETPROOF VERSION
+   2. TOP BAR (Bulletproof)
 ======================================================= */
 
 .map-topbar {
   position: absolute;
-  top: 16px;
+  top: 6px;
   left: 16px;
   right: 16px;
 
-  display: flex;              /* FIX: no inline-flex */
+  display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
 
-  height: 56px;               /* FIX: lock height */
+  height: 56px;
+  /* fixed height */
   padding: 0 8px;
 
   z-index: 20;
-  pointer-events: none;       /* UI overlay rule */
+  pointer-events: none;
+  /* wrapper handles click logic */
 }
 
 .topbar-left,
@@ -43,18 +45,27 @@
 .topbar-right {
   display: flex;
   align-items: center;
-  pointer-events: auto;       /* clickable children */
+  pointer-events: auto;
+  /* children clickable */
 }
 
-/* FIX: prevent right side from stretching downward */
 .topbar-right {
   flex: 0 0 auto;
   height: 100%;
 }
 
+.map-topbar-wrapper {
+  pointer-events: none;
+  height: auto;
+}
+
+.map-topbar-wrapper * {
+  pointer-events: auto;
+}
+
 
 /* =======================================================
-   SEARCH
+   3. SEARCH BAR
 ======================================================= */
 
 .map-search {
@@ -72,19 +83,15 @@
   border-radius: 16px;
 
   box-shadow: var(--shadow);
-
   min-width: 0;
 }
 
 .map-search input {
   flex: 1;
   min-width: 0;
-
   border: none;
   outline: none;
-
-  font-size: 15px;
-
+  font-size: 20px;
   background: transparent;
   color: var(--text-h);
 }
@@ -93,30 +100,27 @@
   border: none;
   background: var(--accent);
   color: white;
-
   border-radius: 10px;
   padding: 6px 10px;
-
   cursor: pointer;
+  font-size: 20px;
 }
 
+
 /* =======================================================
-   CUSTOM DROPDOWN
+   4. CUSTOM DROPDOWN
 ======================================================= */
 
 .custom-dropdown {
   position: relative;
   min-width: 140px;
   z-index: 30000;
-  /* ABOVE menu panel */
 }
 
 .dropdown-selected {
   padding: 8px 12px;
-
   border-radius: 12px;
   border: 1px solid var(--border);
-
   background: var(--bg);
   color: var(--text-h);
 
@@ -125,7 +129,6 @@
   justify-content: space-between;
 
   box-shadow: var(--shadow);
-
   cursor: pointer;
 }
 
@@ -133,7 +136,6 @@
   position: absolute;
   top: calc(100% + 4px);
   left: 0;
-
   width: 100%;
 
   background: var(--bg);
@@ -141,11 +143,9 @@
   border-radius: 12px;
 
   box-shadow: var(--shadow);
-
   overflow: hidden;
 
   z-index: 40000;
-  /* ABOVE everything */
 }
 
 .dropdown-item {
@@ -154,77 +154,19 @@
 }
 
 .dropdown-item:hover {
-  background: var(--accent-bg);
+  background: var(--surface-hover);
 }
+
+
 
 /* =======================================================
-   MENU BUTTON
-======================================================= */
-
-.menu-button {
-  position: fixed;
-
-  top: 16px;
-  left: 16px;
-
-  z-index: 10000;
-
-  background: var(--bg);
-  border: 1px solid var(--border);
-
-  padding: 10px 14px;
-  border-radius: 12px;
-
-  cursor: pointer;
-}
-
-/* =======================================================
-   MOBILE MENU
-======================================================= */
-
-.menu-panel {
-  position: fixed;
-  inset: 0;
-
-  z-index: 20000;
-
-  display: none;
-
-  /* IMPORTANT: overlay must NOT block clicks */
-  pointer-events: none;
-
-  /* allow dropdowns to escape */
-  overflow: visible;
-}
-
-.menu-panel--open {
-  display: block;
-}
-
-/* dark background layer (non-clickable) */
-.menu-panel::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.7);
-  pointer-events: none;
-}
-
-/* actual menu content is clickable */
-.menu-panel>* {
-  position: relative;
-  pointer-events: auto;
-}
-
-/* =======================================================
-   FAB — moved down so it does NOT cover zoom
+   5. FLOATING ACTION BUTTON (FAB)
 ======================================================= */
 
 .map-fab {
   position: fixed;
   right: 20px;
-  bottom: 80px;
-  /* FIXED: space for zoom controls */
+  bottom: 24px;
 
   z-index: 10000;
 
@@ -242,43 +184,38 @@
   justify-content: center;
 
   font-size: 20px;
-
   cursor: pointer;
   box-shadow: var(--shadow);
+
+  overflow: visible;
 }
 
-/* =======================================================
-   DESKTOP
-======================================================= */
-
-@media (min-width: 769px) {
-
-  .menu-button,
-  .menu-panel {
-    display: none !important;
-  }
-}
 
 /* =======================================================
-   MOBILE
+   6. MOBILE OVERRIDES
 ======================================================= */
 
 @media (max-width: 768px) {
 
-  .topbar-left {
+   .topbar-left {
     display: none;
-  }
+  } 
 
   .map-topbar {
-    top: 12px;
-    left: 12px;
-    right: 12px;
-    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 12px;
+  }
+
+  .topbar-center {
+    flex: 1;
+    display: flex;
+    justify-content: center;
   }
 
   .map-search {
-    width: 100%;
-    max-width: 100%;
+    max-width: 340px;
+    width: auto;
     padding: 8px 10px;
   }
 
@@ -291,9 +228,10 @@
     font-size: 14px;
   }
 
-  .menu-button {
-    top: 12px;
-    left: 12px;
+  .topbar-right {
+    position: absolute;
+    right: 16px;
+    top: 10px;
   }
 
   .custom-dropdown {
@@ -301,13 +239,31 @@
   }
 
   .map-fab {
-    bottom: 70px;
-    /* mobile spacing */
+    bottom: 32px;
+    right: 14px;
+    width: 44px;
+    height: 44px;
+    font-size: 16px;
+    border-radius: 12px;
+  }
+
+  .mapboxgl-ctrl-group {
+    transform: scale(0.8);
+    transform-origin: top right;
   }
 }
 
+.mapboxgl-ctrl-zoom-in,
+.mapboxgl-ctrl-zoom-out {
+  width: 28px !important;
+  height: 28px !important;
+  background-size: 14px !important;
+}
+
+
+
 /* =======================================================
-   MAPBOX CONTROLS
+   7. MAPBOX CONTROLS (Base)
 ======================================================= */
 
 .mapboxgl-control-container {
@@ -318,55 +274,97 @@
   z-index: 5000 !important;
 }
 
-/* shows the exact top bar interaction zone */
-/* .map-topbar {
-  outline: 2px solid red !important;
-  background: rgba(255, 0, 0, 0.08) !important;
-} */
 
-/* shows full UI overlay bounds */
-.map-ui {
-  outline: 2px solid blue !important;
+/* =======================================================
+   8. SCALE BAR (Fixed Width)
+======================================================= */
+
+.mapboxgl-ctrl-scale {
+  width: 80px !important;
+  text-align: center !important;
+  box-sizing: border-box !important;
 }
 
-/* shows dropdown hit areas */
-.custom-dropdown {
-  outline: 2px solid lime !important;
+@media (max-width: 480px) {
+  .mapboxgl-ctrl-scale {
+    width: 60px !important;
+  }
 }
 
-/* shows search area */
-.map-search {
-  outline: 2px solid orange !important;
+
+/* =======================================================
+   9. FOUND-YOU LOCATION MARKER
+======================================================= */
+
+.pulse-marker {
+  width: 20px;
+  height: 20px;
+  background: var(--accent);
+  border-radius: 50%;
+  position: relative;
+  border: 3px solid white;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
 }
 
-/* shows menu button hitbox */
-.menu-button {
-  outline: 2px solid yellow !important;
+.pulse-marker::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: var(--accent);
+  opacity: 0.6;
+  animation: pulse-ring 1.6s infinite ease-out;
 }
 
-.map-ui > * {
-  outline: 2px solid magenta !important;
-  background: rgba(255, 0, 255, 0.05) !important;
+@keyframes pulse-ring {
+  0% {
+    transform: scale(1);
+    opacity: 0.4;
+  }
+
+  100% {
+    transform: scale(3.5);
+    opacity: 0;
+  }
 }
 
-.offending-element {
-  pointer-events: none !important;
+@media (max-width: 480px) {
+  .pulse-marker {
+    width: 12px;
+    height: 12px;
+    border-width: 2px;
+  }
+
+  .pulse-marker::after {
+    animation: pulse-ring-mobile 1.6s infinite ease-out;
+  }
+
+  @keyframes pulse-ring-mobile {
+    0% {
+      transform: scale(1);
+      opacity: 0.5;
+    }
+
+    100% {
+      transform: scale(2.2);
+      opacity: 0;
+    }
+  }
 }
 
-.mapboxgl-canvas-container {
-  pointer-events: none !important;
-}
 
-.mapboxgl-control-container {
+/* =======================================================
+   10. MAPBOX CONTROLS — ALWAYS ON TOP
+======================================================= */
+
+.mapboxgl-ctrl-top-right,
+.mapboxgl-ctrl-group {
+  z-index: 999999 !important;
   pointer-events: auto !important;
 }
 
-.map-wrapper,
-.map-container,
-.mapboxgl-map,
-.mapboxgl-canvas-container,
-.mapboxgl-canvas,
-.mapboxgl-control-container {
-  outline: 3px solid red !important;
-  background: rgba(255, 0, 0, 0.05) !important;
-}
+
+/* 
+* {
+  outline: 1px solid red !important;
+} */

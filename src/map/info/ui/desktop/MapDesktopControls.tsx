@@ -1,8 +1,7 @@
-import { useState, useRef } from "react";
+import { useState } from "react";
 import React from "react";
-import mapboxgl from "mapbox-gl";
-import { MAPBOX_TOKEN } from "../../../lib/mapbox";
-import CustomDropdown from "../../CustomDropdown";
+import CustomDropdown from "../../../shared/ui/CustomDropdown";
+import { MAPBOX_TOKEN } from "../../../../lib/mapbox";
 
 interface Props {
   flyTo: (center: [number, number], zoom?: number, pitch?: number, bearing?: number) => void;
@@ -23,8 +22,6 @@ function InfoMapControls({
   setQuery,
   mapRef
 }: Props) {
-  const userMarkerRef = useRef<mapboxgl.Marker | null>(null);
-  const [locating, setLocating] = useState(false);
   const [layout, setLayout] = useState("info");
 
   async function handleSearch() {
@@ -51,52 +48,9 @@ function InfoMapControls({
     }
   }
 
-  function handleLocateMe() {
-    if (!mapRef.current?.loaded()) return;
-    if (locating) return;
-
-    if (!navigator.geolocation) {
-      alert("Geolocation not supported");
-      return;
-    }
-
-    setLocating(true);
-
-    navigator.geolocation.getCurrentPosition(
-      (pos) => {
-        const { longitude, latitude } = pos.coords;
-
-        if (userMarkerRef.current) userMarkerRef.current.remove();
-
-        const el = document.createElement("div");
-        el.className = "location-dot";
-
-        userMarkerRef.current = new mapboxgl.Marker({ element: el })
-          .setLngLat([longitude, latitude])
-          .addTo(mapRef.current!);
-
-        easeTo([longitude, latitude], 16);
-
-        setLocating(false);
-      },
-      (err) => {
-        alert(err.message);
-        setLocating(false);
-      },
-      {
-        enableHighAccuracy: true,
-        timeout: 10000,
-        maximumAge: 0,
-      }
-    );
-  }
-
   return (
     <>
-      {/* TOPBAR */}
       <div className="map-topbar">
-
-        {/* LEFT ZONE */}
         <div className="topbar-left">
           <CustomDropdown
             label="Layout"
@@ -121,7 +75,6 @@ function InfoMapControls({
           />
         </div>
 
-        {/* CENTER ZONE */}
         <div className="topbar-center">
           <div className="map-search">
             <input
@@ -134,15 +87,8 @@ function InfoMapControls({
           </div>
         </div>
 
-        {/* RIGHT ZONE */}
         <div className="topbar-right" />
-
       </div>
-
-      {/* FAB MOVED OUTSIDE TOPBAR */}
-      <button className="map-fab" onClick={handleLocateMe}>
-        📍
-      </button>
     </>
   );
 }

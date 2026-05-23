@@ -67,6 +67,6 @@
 }
 .dropdown-item {
   position: relative;
-  z-index: 999999 !important;
-  background: yellow !important;
+  z-index: 999999;
+  background: var(--bg);
 }

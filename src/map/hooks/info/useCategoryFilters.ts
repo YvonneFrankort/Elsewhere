@@ -1,5 +1,5 @@
 import { useState, useCallback } from "react";
-import { categories } from "../../map/categories";
+import { categories } from "../../map/info/config/categories";
 
 export function useCategoryFilters(onToggleCategory: (id: string, visible: boolean) => void) {
   // Create initial state: { city: true, park: true, ... }

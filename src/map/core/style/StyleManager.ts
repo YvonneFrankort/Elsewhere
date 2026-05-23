@@ -1,7 +1,7 @@
 import mapboxgl from "mapbox-gl";
 import { sourcesRegistry } from "../sources";
 import { layersRegistry } from "../layers";
-import { categories } from "../categories";
+import { categories } from "../../info/config/categories";
 
 type RebuildFn = (map: mapboxgl.Map) => void;
 

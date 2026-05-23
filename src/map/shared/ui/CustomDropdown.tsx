@@ -64,7 +64,7 @@ export default function CustomDropdown({
       style={{ position: "relative", zIndex: 999999 }}
     >
       <div className="dropdown-selected">
-        {options.find((o) => o.value === value)?.label ?? label}
+        {label}
       </div>
 
       {open && (

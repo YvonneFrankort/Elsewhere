@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import mapboxgl from "mapbox-gl";
 import { MAPBOX_TOKEN } from "../../../lib/mapbox";
-import { StyleManager } from "../../../map/style/StyleManager";
+import { StyleManager } from "../../core/style/StyleManager";
 
 export function useBaseMapInitialize(
   mapContainer: React.RefObject<HTMLDivElement | null>,
@@ -21,6 +21,9 @@ export function useBaseMapInitialize(
       zoom: 9.8,
       pitch: 65,
       bearing: 12,
+
+      dragRotate: true,
+      touchZoomRotate: true,
     });
 
     (window as any).debugMap = map;
@@ -29,6 +32,8 @@ export function useBaseMapInitialize(
 
     // ⭐ Controls + resize only
     map.on("load", () => {
+      map.touchZoomRotate.enableRotation();
+
       map.addControl(new mapboxgl.NavigationControl(), "top-right");
       map.addControl(
         new mapboxgl.ScaleControl({ maxWidth: 120, unit: "metric" }),
@@ -40,13 +45,13 @@ export function useBaseMapInitialize(
 
     // ⭐ Create StyleManager ONLY when the style is fully loaded
     map.on("style.load", () => {
-  console.log("STYLE LOAD FIRED");
+      console.log("STYLE LOAD FIRED");
 
-  if (!styleManagerRef.current) {
-    styleManagerRef.current = new StyleManager(map, style);
-    console.log("StyleManager created");
-  }
-});
+      if (!styleManagerRef.current) {
+        styleManagerRef.current = new StyleManager(map, style);
+        console.log("StyleManager created");
+      }
+    });
 
 
     return () => {
