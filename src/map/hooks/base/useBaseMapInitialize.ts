@@ -10,7 +10,10 @@ export function useBaseMapInitialize(
   style: string
 ) {
   useEffect(() => {
+    console.log("🔥 useBaseMapInitialize is running");
+
     if (!mapContainer.current) return;
+    if (mapRef.current) return;
 
     mapboxgl.accessToken = MAPBOX_TOKEN;
 
@@ -21,31 +24,40 @@ export function useBaseMapInitialize(
       zoom: 9.8,
       pitch: 65,
       bearing: 12,
-
       dragRotate: true,
       touchZoomRotate: true,
+      attributionControl: false,
+      interactive: true,
+      locale: {},
     });
 
+    console.log("MAP INSTANCE CREATED");
     (window as any).debugMap = map;
-
     mapRef.current = map;
 
-    // ⭐ Controls + resize only
+    // ⭐ NEW: shared removal function
+    function removeControls() {
+      setTimeout(() => {
+        document
+          .querySelectorAll(
+            ".mapboxgl-ctrl-top-right, .mapboxgl-ctrl-bottom-right"
+          )
+          .forEach((el) => el.remove());
+      }, 50);
+    }
+
     map.on("load", () => {
       map.touchZoomRotate.enableRotation();
+      map.addControl(new mapboxgl.ScaleControl(), "bottom-left");
 
-      map.addControl(new mapboxgl.NavigationControl(), "top-right");
-      map.addControl(
-        new mapboxgl.ScaleControl({ maxWidth: 120, unit: "metric" }),
-        "bottom-left"
-      );
-
+      removeControls();          // ⭐ remove on load
       setTimeout(() => map.resize(), 100);
     });
 
-    // ⭐ Create StyleManager ONLY when the style is fully loaded
     map.on("style.load", () => {
       console.log("STYLE LOAD FIRED");
+
+      removeControls();          // ⭐ remove AGAIN on style reload
 
       if (!styleManagerRef.current) {
         styleManagerRef.current = new StyleManager(map, style);
@@ -53,10 +65,9 @@ export function useBaseMapInitialize(
       }
     });
 
-
     return () => {
-      if (mapRef.current) {
-        mapRef.current.remove();
+      if (mapRef.current === map) {
+        map.remove();
         mapRef.current = null;
       }
     };

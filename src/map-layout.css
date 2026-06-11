@@ -18,7 +18,7 @@
 }
 
 /* -------------------------------------------------------
-   DISABLE WEBSITE LAYOUT ON MAP PAGE — SAFE VERSION
+   MAP PAGE OVERRIDES
 ------------------------------------------------------- */
 body.map-page #root {
   width: 100%;
@@ -28,26 +28,32 @@ body.map-page #root {
   border: none;
 }
 
-body.map-page #root > div {
-  width: 100%;
-  max-width: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-body.map-page,
-html.map-page {
-  width: 100%;
-  max-width: none;
-  margin: 0;
-  padding: 0;
+body.map-page .map-wrapper {
+  position: absolute;
+  inset: 0;
 }
 
 /* -------------------------------------------------------
    MOBILE-SPECIFIC MAP LAYOUT (ONLY PHONES)
 ------------------------------------------------------- */
 @media (max-width: 480px) {
+  /* Add mobile-specific offsets here if needed */
+}
 
-  /* If you want mobile-specific map offsets later, add here */
+.map-ui {
+  position: absolute;
+  inset: 0;
+  z-index: 10;
+  pointer-events: none;
+}
 
+.mobile-ui {
+  position: relative;
+  z-index: 20;
+  pointer-events: auto;
+}
+
+.desktop-ui {
+  position: relative;
+  z-index: 20;
 }

@@ -49,7 +49,7 @@ function InfoMapControls({
   }
 
   return (
-    <>
+    <div className="map-ui-section">
       <div className="map-topbar">
         <div className="topbar-left">
           <CustomDropdown
@@ -89,7 +89,13 @@ function InfoMapControls({
 
         <div className="topbar-right" />
       </div>
-    </>
+
+      {/* Desktop zoom, minimal, desktop-only */}
+      <div className="desktop-zoom">
+        <button onClick={() => mapRef.current?.zoomIn()}>＋</button>
+        <button onClick={() => mapRef.current?.zoomOut()}>−</button>
+      </div>
+    </div>
   );
 }
 

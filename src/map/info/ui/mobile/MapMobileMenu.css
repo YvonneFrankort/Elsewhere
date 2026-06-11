@@ -1,40 +1,31 @@
-
+/* -------------------------------------------------------
+   MOBILE MENU ROOT
+------------------------------------------------------- */
 .mobile-menu-root {
-  position: relative;
-  z-index: 99999;
+  position: fixed;
+  inset: 0;
+  z-index: 20000;
+  pointer-events: none;
 }
 
-.mobile-topbar {
-  position: absolute;
-  top: 12px;
-  left: 12px;
-  right: 12px;
-
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 8px;
-
-  z-index: 10;
+.mobile-menu-root * {
   pointer-events: auto;
 }
 
-.menu-button,
-.planner-button {
-  background: var(--bg);
-  border: 1px solid var(--border);
-  padding: 8px 12px;
-  border-radius: 12px;
-  cursor: pointer;
-  font-size: 18px;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  pointer-events: auto;
+/* -------------------------------------------------------
+   MENU OVERLAY
+------------------------------------------------------- */
+.menu-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.45);
+  backdrop-filter: blur(4px);
+  z-index: 15000;
 }
 
+/* -------------------------------------------------------
+   SLIDE-IN PANEL
+------------------------------------------------------- */
 .menu-panel {
   position: fixed;
   top: 0;
@@ -50,14 +41,16 @@
 
   transform: translateX(-100%);
   transition: transform 0.25s ease;
-  z-index: 20000;
+  z-index: 20001;
 }
 
 .menu-panel--open {
   transform: translateX(0);
 }
 
-
+/* -------------------------------------------------------
+   MENU CONTENT
+------------------------------------------------------- */
 .menu-header {
   display: flex;
   justify-content: space-between;
@@ -108,20 +101,13 @@
   backdrop-filter: blur(4px);
 }
 
-.menu-overlay {
-  position: fixed;
-  inset: 0;
-  background: rgba(0,0,0,0.45);
-  backdrop-filter: blur(4px);
-  z-index: 15000;
-}
-
+/* -------------------------------------------------------
+   DESKTOP: HIDE MOBILE MENU
+------------------------------------------------------- */
 @media (min-width: 769px) {
-  .mobile-topbar,
   .menu-panel,
-  .menu-overlay {
+  .menu-overlay,
+  .mobile-menu-root {
     display: none !important;
   }
 }
-
-

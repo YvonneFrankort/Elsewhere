@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
-import mapboxgl from "mapbox-gl";
 import React from "react";
+import mapboxgl from "mapbox-gl";
+
 import "../map-ui.css";
 import "../styles/map-location-ping.css";
 
@@ -8,24 +9,33 @@ import { useBaseMapInitialize } from "../map/hooks/base/useBaseMapInitialize";
 import { useBaseMapStyle } from "../map/hooks/base/useBaseMapStyle";
 import { useBaseMapCamera } from "../map/hooks/base/useBaseMapCamera";
 import { useBaseMapEvents } from "../map/hooks/base/useBaseMapEvents";
-
 import { useInfoMapDiscovery } from "../map/hooks/info/useInfoMapDiscovery";
 
 import { StyleManager } from "../map/core/style/StyleManager";
-import "../styles/map-location-ping.css";
 
 import InfoMapControls from "../map/info/ui/desktop/MapDesktopControls";
-// NEW DESKTOP UI — enabled
-//import InfoMapDesktop from "./InfoMapDesktop";
 import InfoMapMobile from "../map/info/ui/mobile/MapMobileMenu";
 
 function InfoMapShell() {
-  const mapContainer = useRef<HTMLDivElement>(null);
+  const mapContainer = useRef<HTMLDivElement | null>(null);
   const mapRef = useRef<mapboxgl.Map | null>(null);
   const styleManagerRef = useRef<StyleManager | null>(null);
+  const userMarkerRef = useRef<mapboxgl.Marker | null>(null);
 
   const [style, setStyle] = useState("mapbox://styles/mapbox/streets-v12");
   const [query, setQuery] = useState("");
+
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
 
   useEffect(() => {
     document.body.classList.add("map-page");
@@ -38,13 +48,14 @@ function InfoMapShell() {
 
   useBaseMapInitialize(mapContainer, mapRef, styleManagerRef, style);
   useBaseMapStyle(mapRef, styleManagerRef, style);
-
   const { flyTo, easeTo } = useBaseMapCamera(mapRef);
-
   useBaseMapEvents(mapRef);
   useInfoMapDiscovery(mapRef);
 
-  const userMarkerRef = useRef<mapboxgl.Marker | null>(null);
+  function handleSearch() {
+    if (!query.trim()) return;
+    console.log("Searching for:", query);
+  }
 
   function handleLocateMe() {
     if (!mapRef.current || !mapRef.current.loaded()) return;
@@ -58,12 +69,10 @@ function InfoMapShell() {
       (pos) => {
         const { longitude, latitude } = pos.coords;
 
-        // Remove old marker
         if (userMarkerRef.current) {
           userMarkerRef.current.remove();
         }
 
-        // Create pulsing dot
         const el = document.createElement("div");
         el.className = "pulse-marker";
 
@@ -71,7 +80,6 @@ function InfoMapShell() {
           .setLngLat([longitude, latitude])
           .addTo(mapRef.current!);
 
-        // Smooth zoom + center
         mapRef.current!.easeTo({
           center: [longitude, latitude],
           zoom: 16,
@@ -92,25 +100,39 @@ function InfoMapShell() {
 
   return (
     <div className="map-wrapper">
-      <div ref={mapContainer} className="map-container" />
+      <div ref={mapContainer} className="map-container"></div>
 
-      <InfoMapControls
-        flyTo={flyTo}
-        easeTo={easeTo}
-        mapRef={mapRef}
-        style={style}
-        setStyle={setStyle}
-        query={query}
-        setQuery={setQuery}
-      />
-      <InfoMapMobile />
+      <div className="map-ui">
+        {isMobile ? (
+          <div className="mobile-ui">
+            <InfoMapMobile
+              query={query}
+              setQuery={setQuery}
+              mapRef={mapRef}
+              handleSearch={handleSearch}
+            />
+          </div>
+        ) : (
+          <div className="desktop-ui">
+            <InfoMapControls
+              flyTo={flyTo}
+              easeTo={easeTo}
+              mapRef={mapRef}
+              style={style}
+              setStyle={setStyle}
+              query={query}
+              setQuery={setQuery}
+            />
+          </div>
+        )}
+      </div>
 
       <button className="map-fab" onClick={handleLocateMe}>
         <img src="/icons/location.svg" alt="Locate me" />
       </button>
-
     </div>
   );
 }
+
 
 export default React.memo(InfoMapShell);

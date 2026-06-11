@@ -5,19 +5,43 @@
 .map-ui {
   position: absolute;
   inset: 0;
-  z-index: 9999;
-  /*pointer-events: none;*/
-  /* UI overlay must NOT block the map */
+  z-index: 10;            /* root layer */
+  pointer-events: none;   /* root doesn't eat events */
 }
 
- .map-ui>* {
+/* Desktop UI layer */
+.desktop-ui {
+  position: absolute;
+  inset: 0;
+  z-index: 20;
   pointer-events: auto;
-  /* Only actual UI elements are clickable */
-} 
+}
+
+/* Mobile UI layer */
+.mobile-ui {
+  position: absolute;
+  inset: 0;
+  z-index: 30;
+  pointer-events: auto;
+}
+
+/* Desktop only */
+@media (max-width: 768px) {
+  .desktop-ui {
+    display: none;
+  }
+}
+
+/* Mobile only */
+@media (min-width: 769px) {
+  .mobile-ui {
+    display: none;
+  }
+}
 
 
 /* =======================================================
-   2. TOP BAR (Bulletproof)
+   2. DESKTOP TOP BAR (DESKTOP ONLY)
 ======================================================= */
 
 .map-topbar {
@@ -32,12 +56,10 @@
   justify-content: space-between;
 
   height: 56px;
-  /* fixed height */
   padding: 0 8px;
 
   z-index: 20;
   pointer-events: none;
-  /* wrapper handles click logic */
 }
 
 .topbar-left,
@@ -46,7 +68,6 @@
   display: flex;
   align-items: center;
   pointer-events: auto;
-  /* children clickable */
 }
 
 .topbar-right {
@@ -54,18 +75,16 @@
   height: 100%;
 }
 
-.map-topbar-wrapper {
-  pointer-events: none;
-  height: auto;
-}
-
-.map-topbar-wrapper * {
-  pointer-events: auto;
+/* hide desktop top bar on mobile */
+@media (max-width: 768px) {
+  .map-topbar {
+    display: none;
+  }
 }
 
 
 /* =======================================================
-   3. SEARCH BAR
+   3. DESKTOP SEARCH BAR (DESKTOP ONLY)
 ======================================================= */
 
 .map-search {
@@ -106,9 +125,16 @@
   font-size: 20px;
 }
 
+/* hide desktop search on mobile */
+@media (max-width: 768px) {
+  .map-search {
+    display: none;
+  }
+}
+
 
 /* =======================================================
-   4. CUSTOM DROPDOWN
+   4. CUSTOM DROPDOWN (DESKTOP)
 ======================================================= */
 
 .custom-dropdown {
@@ -158,9 +184,8 @@
 }
 
 
-
 /* =======================================================
-   5. FLOATING ACTION BUTTON (FAB)
+   5. FLOATING ACTION BUTTON (BOTH, WITH MOBILE OVERRIDE)
 ======================================================= */
 
 .map-fab {
@@ -186,58 +211,10 @@
   font-size: 20px;
   cursor: pointer;
   box-shadow: var(--shadow);
-
   overflow: visible;
 }
 
-
-/* =======================================================
-   6. MOBILE OVERRIDES
-======================================================= */
-
 @media (max-width: 768px) {
-
-   .topbar-left {
-    display: none;
-  } 
-
-  .map-topbar {
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 12px;
-  }
-
-  .topbar-center {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-  }
-
-  .map-search {
-    max-width: 340px;
-    width: auto;
-    padding: 8px 10px;
-  }
-
-  .map-search input {
-    font-size: 14px;
-  }
-
-  .map-search button {
-    padding: 4px 8px;
-    font-size: 14px;
-  }
-
-  .topbar-right {
-    position: absolute;
-    right: 16px;
-    top: 10px;
-  }
-
-  .custom-dropdown {
-    min-width: 120px;
-  }
-
   .map-fab {
     bottom: 32px;
     right: 14px;
@@ -246,24 +223,91 @@
     font-size: 16px;
     border-radius: 12px;
   }
-
-  .mapboxgl-ctrl-group {
-    transform: scale(0.8);
-    transform-origin: top right;
-  }
 }
-
-.mapboxgl-ctrl-zoom-in,
-.mapboxgl-ctrl-zoom-out {
-  width: 28px !important;
-  height: 28px !important;
-  background-size: 14px !important;
-}
-
 
 
 /* =======================================================
-   7. MAPBOX CONTROLS (Base)
+   6. MOBILE TOP BAR & ZOOM (MOBILE ONLY)
+======================================================= */
+
+.mobile-topbar {
+  position: absolute;
+  top: 8px;
+  left: 12px;
+  right: 12px;
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  height: 52px;
+  padding: 0 12px;
+
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+
+  box-shadow: var(--shadow);
+  z-index: 30;
+}
+
+.mobile-search {
+  height: 36px;
+  padding: 0 10px;
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+  gap: 6px;
+
+  flex: 1 1 auto;
+  min-width: 0;
+  max-width: 65%;
+}
+
+.mobile-search input {
+  flex: 1;
+  min-width: 0;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background: transparent;
+  color: var(--text-h);
+}
+
+.mobile-search button {
+  border: none;
+  background: var(--accent);
+  color: white;
+  border-radius: 10px;
+  padding: 4px 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.menu-button,
+.planner-button {
+  flex: 0 0 auto;
+}
+
+.mobile-zoom {
+  position: absolute;
+  right: 12px;
+  top: 70px;
+  z-index: 5000;
+}
+
+/* hide mobile top bar on desktop */
+@media (min-width: 769px) {
+  .mobile-topbar,
+  .mobile-zoom {
+    display: none;
+  }
+}
+
+
+/* =======================================================
+   7. MAPBOX CONTROLS (BASE)
 ======================================================= */
 
 .mapboxgl-control-container {
@@ -273,11 +317,6 @@
 .mapboxgl-ctrl {
   z-index: 5000 !important;
 }
-
-
-/* =======================================================
-   8. SCALE BAR (Fixed Width)
-======================================================= */
 
 .mapboxgl-ctrl-scale {
   width: 80px !important;
@@ -293,7 +332,7 @@
 
 
 /* =======================================================
-   9. FOUND-YOU LOCATION MARKER
+   8. FOUND-YOU LOCATION MARKER
 ======================================================= */
 
 .pulse-marker {
@@ -354,7 +393,7 @@
 
 
 /* =======================================================
-   10. MAPBOX CONTROLS — ALWAYS ON TOP
+   9. MAPBOX CONTROLS — ALWAYS ON TOP (BUT CONTROLLABLE)
 ======================================================= */
 
 .mapboxgl-ctrl-top-right,
@@ -363,8 +402,89 @@
   pointer-events: auto !important;
 }
 
+/* Hide Mapbox default zoom on desktop */
+@media (min-width: 769px) {
+  .mapboxgl-ctrl-zoom {
+    display: none !important;
+  }
+}
 
-/* 
-* {
-  outline: 1px solid red !important;
-} */
+
+/* =======================================================
+   10. DESKTOP ZOOM — FINAL
+======================================================= */
+
+.desktop-zoom {
+  position: absolute;
+  right: 16px;
+  top: 10px;
+  z-index: 40;
+
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+
+  padding: 6px;
+  background: #000;
+  border-radius: 12px;
+  backdrop-filter: blur(4px);
+}
+
+.desktop-zoom button {
+  width: 48px;
+  height: 48px;
+  border-radius: 10px;
+  border: none;
+  background: var(--accent);
+  color: white;
+  font-size: 26px;
+  cursor: pointer;
+  box-shadow: var(--shadow);
+}
+
+/* Hide desktop zoom on mobile */
+@media (max-width: 768px) {
+  .desktop-zoom {
+    display: none;
+  }
+}
+
+
+/* =======================================================
+   SCALE BAR — DESKTOP + MOBILE (BOTTOM LEFT)
+======================================================= */
+
+.mapboxgl-ctrl-scale {
+  position: absolute !important;
+  left: 12px !important;
+  bottom: 12px !important;
+
+  background: var(--bg);
+  color: var(--text-h);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+
+  padding: 4px 8px;
+  font-size: 14px;
+  font-weight: 500;
+
+  box-shadow: var(--shadow);
+  z-index: 5000 !important;
+}
+
+@supports (padding: max(0px)) {
+  .mapboxgl-ctrl-scale {
+    bottom: calc(12px + env(safe-area-inset-bottom));
+  }
+}
+
+.mobile-layer {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 5000;
+  pointer-events: auto;
+}
+
+
