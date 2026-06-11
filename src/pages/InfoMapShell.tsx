@@ -31,11 +31,9 @@ function InfoMapShell() {
     const handleResize = () => {
       setIsMobile(window.innerWidth <= 768);
     };
-
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
-
 
   useEffect(() => {
     document.body.classList.add("map-page");
@@ -87,24 +85,21 @@ function InfoMapShell() {
           duration: 800,
         });
       },
-      (err) => {
-        console.error("GEO ERROR", err);
-      },
-      {
-        enableHighAccuracy: true,
-        timeout: 10000,
-        maximumAge: 0,
-      }
+      (err) => console.error("GEO ERROR", err),
+      { enableHighAccuracy: true, timeout: 10000, maximumAge: 0 }
     );
   }
 
   return (
-    <div className="map-wrapper">
-      <div ref={mapContainer} className="map-container"></div>
+    <div className="flex flex-col w-full h-screen overflow-hidden relative">
 
-      <div className="map-ui">
+      {/* MAP */}
+      <div ref={mapContainer} className="flex-1 w-full h-full" />
+
+      {/* UI LAYER */}
+      <div className="absolute inset-0 pointer-events-none">
         {isMobile ? (
-          <div className="mobile-ui">
+          <div className="pointer-events-auto">
             <InfoMapMobile
               query={query}
               setQuery={setQuery}
@@ -113,7 +108,7 @@ function InfoMapShell() {
             />
           </div>
         ) : (
-          <div className="desktop-ui">
+          <div className="pointer-events-auto">
             <InfoMapControls
               flyTo={flyTo}
               easeTo={easeTo}
@@ -127,12 +122,16 @@ function InfoMapShell() {
         )}
       </div>
 
-      <button className="map-fab" onClick={handleLocateMe}>
+      {/* FAB */}
+      <button
+        className="map-fab pointer-events-auto"
+        onClick={handleLocateMe}
+      >
         <img src="/icons/location.svg" alt="Locate me" />
       </button>
     </div>
   );
 }
 
-
 export default React.memo(InfoMapShell);
+
