@@ -1,7 +1,6 @@
 import { useState } from "react";
 import React from "react";
 import CustomDropdown from "../../../shared/ui/CustomDropdown";
-import { MAPBOX_TOKEN } from "../../../../lib/mapbox";
 
 interface Props {
   flyTo: (center: [number, number], zoom?: number, pitch?: number, bearing?: number) => void;
@@ -11,6 +10,7 @@ interface Props {
   query: string;
   setQuery: (s: string) => void;
   mapRef: React.MutableRefObject<mapboxgl.Map | null>;
+  handleSearch: () => void;
 }
 
 function InfoMapControls({
@@ -20,33 +20,10 @@ function InfoMapControls({
   setStyle,
   query,
   setQuery,
-  mapRef
+  mapRef,
+  handleSearch
 }: Props) {
   const [layout, setLayout] = useState("info");
-
-  async function handleSearch() {
-    if (!mapRef.current || !query) return;
-
-    const parts = query.split(/[\s,]+/).map((p) => p.trim());
-
-    if (parts.length === 2 && !isNaN(+parts[0]) && !isNaN(+parts[1])) {
-      flyTo([+parts[0], +parts[1]], 60);
-      return;
-    }
-
-    const url = `https://api.mapbox.com/geocoding/v5/mapbox.places/${encodeURIComponent(
-      query
-    )}.json?access_token=${MAPBOX_TOKEN}`;
-
-    const res = await fetch(url);
-    const data = await res.json();
-
-    if (data.features?.length) {
-      const [lng, lat] = data.features[0].center;
-      flyTo([lng, lat], 12);
-      setQuery("");
-    }
-  }
 
   return (
     <div className="map-ui-section">
@@ -90,7 +67,6 @@ function InfoMapControls({
         <div className="topbar-right" />
       </div>
 
-      {/* Desktop zoom, minimal, desktop-only */}
       <div className="desktop-zoom">
         <button onClick={() => mapRef.current?.zoomIn()}>＋</button>
         <button onClick={() => mapRef.current?.zoomOut()}>−</button>

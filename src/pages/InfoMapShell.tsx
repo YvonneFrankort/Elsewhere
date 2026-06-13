@@ -136,6 +136,7 @@ return (
             setStyle={setStyle}
             query={query}
             setQuery={setQuery}
+            handleSearch={handleSearch}
           />
         </div>
       )}
