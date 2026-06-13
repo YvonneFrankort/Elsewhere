@@ -16,6 +16,8 @@ function InfoMapMobile({
 }: InfoMapMobileProps) {
 
   console.log("InfoMapMobile RENDER");
+  console.log("MOBILE QUERY:", query);
+  console.log("InfoMapMobile RENDER");
 
   const [open, setOpen] = useState(false);
   const panelRef = useRef<HTMLDivElement | null>(null);
@@ -48,9 +50,11 @@ function InfoMapMobile({
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             placeholder="Search"
+            onKeyDown={(e) => e.key === "Enter" && handleSearch()}
           />
-          <button onClick={handleSearch}>🔍</button>
+          <button className="search-icon" onClick={handleSearch}>🔍</button>
         </div>
+
       </div>
 
       {/* ⭐ ZOOM BUTTONS — moved OUTSIDE the top bar */}

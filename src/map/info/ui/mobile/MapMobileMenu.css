@@ -1,31 +1,21 @@
-/* -------------------------------------------------------
-   MOBILE MENU ROOT
-------------------------------------------------------- */
+/* ======================================================
+   1. MOBILE MENU ROOT (DRAWER)
+====================================================== */
+
 .mobile-menu-root {
   position: fixed;
   inset: 0;
   z-index: 20000;
-  pointer-events: none;
-}
-
-.mobile-menu-root * {
   pointer-events: auto;
 }
 
-/* -------------------------------------------------------
-   MENU OVERLAY
-------------------------------------------------------- */
 .menu-overlay {
   position: fixed;
   inset: 0;
-  background: rgba(0,0,0,0.45);
+  background: rgba(0, 0, 0, 0.45);
   backdrop-filter: blur(4px);
-  z-index: 15000;
 }
 
-/* -------------------------------------------------------
-   SLIDE-IN PANEL
-------------------------------------------------------- */
 .menu-panel {
   position: fixed;
   top: 0;
@@ -33,24 +23,24 @@
   width: 80%;
   max-width: 360px;
   height: 100%;
-  background: rgba(20,20,20,0.85);
-  backdrop-filter: blur(10px);
-  border-radius: 0 16px 16px 0;
-  padding: 20px;
+
+  background: var(--bg);
+  border-right: 1px solid var(--border);
   color: white;
+
+  padding: 20px;
+  border-radius: 0 16px 16px 0;
 
   transform: translateX(-100%);
   transition: transform 0.25s ease;
-  z-index: 20001;
 }
 
 .menu-panel--open {
   transform: translateX(0);
 }
 
-/* -------------------------------------------------------
-   MENU CONTENT
-------------------------------------------------------- */
+/* Header, content, footer inside drawer */
+
 .menu-header {
   display: flex;
   justify-content: space-between;
@@ -65,14 +55,13 @@
 }
 
 .menu-close {
-  background: rgba(255,255,255,0.15);
-  border: none;
+  background: var(--bg);
+  border: 1px solid var(--border);
   border-radius: 8px;
   padding: 4px 10px;
   color: white;
-  font-size: 22px;
+  font-size: 20px;
   cursor: pointer;
-  backdrop-filter: blur(4px);
 }
 
 .menu-content {
@@ -92,22 +81,199 @@
 }
 
 .footer-btn {
-  background: rgba(255,255,255,0.15);
-  border: none;
+  background: var(--bg);
+  border: 1px solid var(--border);
   border-radius: 10px;
   padding: 10px 14px;
   color: white;
   cursor: pointer;
-  backdrop-filter: blur(4px);
 }
 
-/* -------------------------------------------------------
-   DESKTOP: HIDE MOBILE MENU
-------------------------------------------------------- */
+
+/* ======================================================
+   2. MOBILE ROOT LAYER + TOP BAR
+====================================================== */
+
+.mobile-layer {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  pointer-events: auto;
+  z-index: 20;
+}
+
+/* Row: menu | planner | search */
+.mobile-topbar {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  pointer-events: auto;
+  z-index: 30;
+}
+
+
+/* ======================================================
+   3. MENU + PLANNER BUTTONS
+====================================================== */
+
+.menu-button,
+.planner-button {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  color: white;
+
+  width: 36px;
+  height: 36px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+
+/* ======================================================
+   4. MOBILE SEARCH
+====================================================== */
+
+.mobile-search {
+  flex: 1;
+  max-width: 60%;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.mobile-search input {
+  width: 100%;
+  height: 40px;
+
+  padding: 0 36px 0 10px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  font-size: 14px;
+
+  background: var(--bg);
+  color: var(--text-h);
+}
+
+.mobile-search .search-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+
+  width: 26px;
+  height: 26px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 16px;
+  background: var(--accent);
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.mobile-search input:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+
+
+/* ======================================================
+   5. MOBILE ZOOM
+====================================================== */
+
+.mobile-zoom {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+
+  padding: 3px;
+  background: #000;
+  border-radius: 8px;
+  backdrop-filter: blur(4px);
+
+  z-index: 30;
+}
+
+.mobile-zoom button {
+  width: 34px;
+  height: 34px;
+
+  border: none;
+  background: var(--accent);
+  color: white;
+
+  font-size: 18px;
+  line-height: 22px;
+  padding: 0;
+  cursor: pointer;
+
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+}
+
+
+/* ======================================================
+   6. DESKTOP: HIDE MOBILE
+====================================================== */
+
 @media (min-width: 769px) {
   .menu-panel,
   .menu-overlay,
-  .mobile-menu-root {
-    display: none !important;
+  .mobile-menu-root,
+  .mobile-layer,
+  .mobile-topbar,
+  .mobile-zoom {
+    display: none;
+  }
+}
+
+/* ======================================================
+   MOBILE FAB
+====================================================== */
+
+@media (max-width: 768px) {
+  .map-fab {
+    display: flex;
+    position: absolute;
+    bottom: 24px;
+    right: 20px;
+
+    width: 48px;
+    height: 48px;
+
+    background: var(--accent);
+    color: white;
+
+    border: none;
+    border-radius: 14px;
+
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: var(--shadow);
+    cursor: pointer;
+    z-index: 40;
   }
 }

@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import React from "react";
 import mapboxgl from "mapbox-gl";
 
-import "../map-ui.css";
+import "../map/info/ui/desktop/desktop-ui.css";
 import "../styles/map-location-ping.css";
 
 import { useBaseMapInitialize } from "../map/hooks/base/useBaseMapInitialize";
@@ -15,6 +15,7 @@ import { StyleManager } from "../map/core/style/StyleManager";
 
 import InfoMapControls from "../map/info/ui/desktop/MapDesktopControls";
 import InfoMapMobile from "../map/info/ui/mobile/MapMobileMenu";
+import { MAPBOX_TOKEN } from "../lib/mapbox";
 
 function InfoMapShell() {
   const mapContainer = useRef<HTMLDivElement | null>(null);
@@ -50,10 +51,31 @@ function InfoMapShell() {
   useBaseMapEvents(mapRef);
   useInfoMapDiscovery(mapRef);
 
-  function handleSearch() {
-    if (!query.trim()) return;
-    console.log("Searching for:", query);
+  async function handleSearch() {
+  if (!mapRef.current || !query.trim()) return;
+
+  const parts = query.split(/[\s,]+/).map((p) => p.trim());
+
+  // Direct coordinate input
+  if (parts.length === 2 && !isNaN(+parts[0]) && !isNaN(+parts[1])) {
+    flyTo([+parts[0], +parts[1]], 60);
+    return;
   }
+
+  // Geocoding
+  const url = `https://api.mapbox.com/geocoding/v5/mapbox.places/${encodeURIComponent(
+    query
+  )}.json?access_token=${MAPBOX_TOKEN}`;
+
+  const res = await fetch(url);
+  const data = await res.json();
+
+  if (data.features?.length) {
+    const [lng, lat] = data.features[0].center;
+    flyTo([lng, lat], 12);
+    setQuery("");
+  }
+}
 
   function handleLocateMe() {
     if (!mapRef.current || !mapRef.current.loaded()) return;
@@ -90,47 +112,40 @@ function InfoMapShell() {
     );
   }
 
-  return (
-    <div className="flex flex-col w-full h-screen overflow-hidden relative">
+return (
+  <div className="flex flex-col w-full h-screen overflow-hidden">
+    <div ref={mapContainer} className="flex-1 w-full h-full map-container" />
 
-      {/* MAP */}
-      <div ref={mapContainer} className="flex-1 w-full h-full" />
-
-      {/* UI LAYER */}
-      <div className="absolute inset-0 pointer-events-none">
-        {isMobile ? (
-          <div className="pointer-events-auto">
-            <InfoMapMobile
-              query={query}
-              setQuery={setQuery}
-              mapRef={mapRef}
-              handleSearch={handleSearch}
-            />
-          </div>
-        ) : (
-          <div className="pointer-events-auto">
-            <InfoMapControls
-              flyTo={flyTo}
-              easeTo={easeTo}
-              mapRef={mapRef}
-              style={style}
-              setStyle={setStyle}
-              query={query}
-              setQuery={setQuery}
-            />
-          </div>
-        )}
-      </div>
-
-      {/* FAB */}
-      <button
-        className="map-fab pointer-events-auto"
-        onClick={handleLocateMe}
-      >
-        <img src="/icons/location.svg" alt="Locate me" />
-      </button>
+    <div className="map-ui">
+      {isMobile ? (
+        <div className="mobile-ui">
+          <InfoMapMobile
+            query={query}
+            setQuery={setQuery}
+            mapRef={mapRef}
+            handleSearch={handleSearch}
+          />
+        </div>
+      ) : (
+        <div className="desktop-ui">
+          <InfoMapControls
+            flyTo={flyTo}
+            easeTo={easeTo}
+            mapRef={mapRef}
+            style={style}
+            setStyle={setStyle}
+            query={query}
+            setQuery={setQuery}
+          />
+        </div>
+      )}
     </div>
-  );
+
+    <button className="map-fab" onClick={handleLocateMe}>
+      <img src="/icons/location.svg" alt="Locate me" />
+    </button>
+  </div>
+);
 }
 
 export default React.memo(InfoMapShell);
