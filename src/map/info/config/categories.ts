@@ -34,5 +34,23 @@ export const categories = [
     label: "Event",
     color: "#EF4444",
     layers: ["event-layer"]
+  },
+  {
+    id: "search",
+    label: "Search Result",
+    color: "#0EA5E9",
+    layers: ["search-layer"]
+  },
+  {
+    id: "saved",
+    label: "Saved Place",
+    color: "#FACC15",
+    layers: ["saved-layer"]
+  },
+  {
+    id: "warning",
+    label: "Warning",
+    color: "#F97316",
+    layers: ["warning-layer"]
   }
 ];

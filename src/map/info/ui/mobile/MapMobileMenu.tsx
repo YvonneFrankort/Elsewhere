@@ -6,13 +6,19 @@ interface InfoMapMobileProps {
   setQuery: (value: string) => void;
   mapRef: React.RefObject<mapboxgl.Map | null>;
   handleSearch: () => void;
+  style: string;
+  setStyle: (value: string) => void;
+  onCategorySelect: (category: string) => void;
 }
 
 function InfoMapMobile({
   query,
   setQuery,
   mapRef,
-  handleSearch
+  handleSearch,
+  style,
+  setStyle,
+  onCategorySelect
 }: InfoMapMobileProps) {
 
   console.log("InfoMapMobile RENDER");
@@ -32,6 +38,12 @@ function InfoMapMobile({
     document.addEventListener("mousedown", handleClickOutside);
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, [open]);
+
+  function loadCategory(type: string) {
+    // later: call your real loader
+    console.log("LOAD CATEGORY:", type);
+  }
+
 
   return (
     <div className="mobile-layer">
@@ -77,12 +89,57 @@ function InfoMapMobile({
             <div className="menu-content">
               <div className="menu-section">
                 <h4>Layout</h4>
-                <div className="placeholder">Coming soon</div>
+
+                <div className="layout-options">
+                  <button
+                    className={style === "mapbox://styles/mapbox/streets-v12" ? "active" : ""}
+                    onClick={() => {
+                      setStyle("mapbox://styles/mapbox/streets-v12");
+                      setOpen(false);
+                    }}
+                  >
+                    Streets
+                  </button>
+
+                  <button
+                    className={style === "mapbox://styles/mapbox/outdoors-v12" ? "active" : ""}
+                    onClick={() => {
+                      setStyle("mapbox://styles/mapbox/outdoors-v12");
+                      setOpen(false);
+                    }}
+                  >
+                    Outdoors
+                  </button>
+
+                  <button
+                    className={style === "mapbox://styles/mapbox/satellite-streets-v12" ? "active" : ""}
+                    onClick={() => {
+                      setStyle("mapbox://styles/mapbox/satellite-streets-v12");
+                      setOpen(false);
+                    }}
+                  >
+                    Satellite
+                  </button>
+                </div>
+
               </div>
 
               <div className="menu-section">
                 <h4>Categories</h4>
-                <div className="placeholder">Coming soon</div>
+
+                <div className="category-options">
+                  <button onClick={() => { onCategorySelect("restaurants"); setOpen(false); }}>
+                    Restaurants
+                  </button>
+
+                  <button onClick={() => { onCategorySelect("cafes"); setOpen(false); }}>
+                    Cafes
+                  </button>
+
+                  <button onClick={() => { onCategorySelect("parks"); setOpen(false); }}>
+                    Parks
+                  </button>
+                </div>
               </div>
 
               <div className="menu-section">

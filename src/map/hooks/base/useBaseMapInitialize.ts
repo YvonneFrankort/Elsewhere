@@ -7,20 +7,20 @@ export function useBaseMapInitialize(
   mapContainer: React.RefObject<HTMLDivElement | null>,
   mapRef: React.MutableRefObject<mapboxgl.Map | null>,
   styleManagerRef: React.MutableRefObject<StyleManager | null>,
-  style: string
+  style: string,
+  setUserLocation: (loc: { lat: number; lng: number }) => void
 ) {
   useEffect(() => {
-    console.log("🔥 useBaseMapInitialize is running");
-
     if (!mapContainer.current) return;
     if (mapRef.current) return;
 
     mapboxgl.accessToken = MAPBOX_TOKEN;
 
+    // --- MAP CREATION --------------------------------------------------------
     const map = new mapboxgl.Map({
-      container: mapContainer.current!,
+      container: mapContainer.current,
       style,
-      center: [24.9384, 60.1699],
+      center: [23.7610, 61.4981], // fallback: Oulu
       zoom: 9.8,
       pitch: 65,
       bearing: 12,
@@ -31,12 +31,11 @@ export function useBaseMapInitialize(
       locale: {},
     });
 
-    console.log("MAP INSTANCE CREATED");
-    (window as any).debugMap = map;
     mapRef.current = map;
+    (window as any).debugMap = map;
 
-    // ⭐ NEW: shared removal function
-    function removeControls() {
+    // --- CONTROL REMOVAL -----------------------------------------------------
+    const removeControls = () => {
       setTimeout(() => {
         document
           .querySelectorAll(
@@ -44,27 +43,27 @@ export function useBaseMapInitialize(
           )
           .forEach((el) => el.remove());
       }, 50);
-    }
+    };
 
+    // --- MAP LOAD ------------------------------------------------------------
     map.on("load", () => {
       map.touchZoomRotate.enableRotation();
       map.addControl(new mapboxgl.ScaleControl(), "bottom-left");
 
-      removeControls();          // ⭐ remove on load
+      removeControls();
       setTimeout(() => map.resize(), 100);
     });
 
+    // --- STYLE LOAD ----------------------------------------------------------
     map.on("style.load", () => {
-      console.log("STYLE LOAD FIRED");
-
-      removeControls();          // ⭐ remove AGAIN on style reload
+      removeControls();
 
       if (!styleManagerRef.current) {
         styleManagerRef.current = new StyleManager(map, style);
-        console.log("StyleManager created");
       }
     });
 
+    // --- CLEANUP -------------------------------------------------------------
     return () => {
       if (mapRef.current === map) {
         map.remove();
