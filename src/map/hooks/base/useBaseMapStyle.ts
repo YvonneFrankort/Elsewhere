@@ -12,7 +12,6 @@ export function useBaseMapStyle(
     const manager = styleManagerRef.current;
     if (!map || !manager) return;
 
-    // ⭐ Use StyleManager instead of map.setStyle
     manager.setStyle(style);
 
   }, [mapRef, styleManagerRef, style]);

@@ -6,7 +6,7 @@ export const discoveryIcons = {
   categories: ["city", "info-park", "trail", "info-museum", "info-attraction", "event"],
 
   async add(map: mapboxgl.Map) {
-    const sourceId = "info-places-source";
+    const sourceId = "api-places-source";
 
     // Load icons
     await Promise.all(this.categories.map((cat) => loadInfoIcon(map, cat)));

@@ -1,7 +1,6 @@
 import mapboxgl from "mapbox-gl";
-import { sourcesRegistry } from "../sources";
-import { layersRegistry } from "../layers";
-import { categories } from "../../info/config/categories";
+import { sourcesRegistry } from "../registry/sources";
+import { layersRegistry } from "../registry/layers";
 
 type RebuildFn = (map: mapboxgl.Map) => void;
 
@@ -15,48 +14,50 @@ export class StyleManager {
     this.map = map;
     this.currentStyle = initialStyle;
 
-    // ⭐ Register terrain/sky/3D FIRST
+    // Core visual features only
     this.registerTerrain();
     this.registerSky();
     this.register3DBuildings();
     this.registerFog();
 
-
-    // ⭐ Register your source rebuilders
-    this.registerRebuild((map) => {
-      for (const src of sourcesRegistry) {
-        src.add(map);
-      }
-    });
-
-    // ⭐ Register your layer rebuilders
+    // Rebuild global layers
     this.registerRebuild((map) => {
       for (const layer of layersRegistry) {
-        layer.add(map);
+        try {
+          layer.add(map);
+        } catch (err) {
+          console.error("Layer rebuild failed:", err);
+        }
       }
     });
 
-    // ⭐ Debug: confirm rebuilders exist
     console.log("Rebuilders count:", this.rebuildFns.length);
 
-    // ⭐ Attach style.load AFTER all rebuilders exist
     this.map.on("style.load", () => {
       if (!this.isSwitching) return;
 
       this.map.setPitch(58);
-      this.map.setBearing(12)
+      this.map.setBearing(12);
       this.map.setZoom(9.8);
 
       this.isSwitching = false;
 
       for (const fn of this.rebuildFns) {
-        fn(this.map);
+        try {
+          fn(this.map);
+        } catch (err) {
+          console.error("Rebuilder failed during style.load:", err);
+        }
       }
     });
 
-    // ⭐ Run rebuilders once on initial load
+    // Initial rebuild
     for (const fn of this.rebuildFns) {
-      fn(this.map);
+      try {
+        fn(this.map);
+      } catch (err) {
+        console.error("Initial rebuild failed:", err);
+      }
     }
   }
 
@@ -65,7 +66,10 @@ export class StyleManager {
   }
 
   setStyle(style: string) {
-    if (style === this.currentStyle) return;
+    if (style === this.currentStyle) {
+      this.isSwitching = false;
+      return;
+    }
 
     this.isSwitching = true;
     this.currentStyle = style;
@@ -76,32 +80,40 @@ export class StyleManager {
   // --- Terrain ---
   private registerTerrain() {
     this.registerRebuild((map) => {
-      if (!map.getSource("mapbox-dem")) {
-        map.addSource("mapbox-dem", {
-          type: "raster-dem",
-          url: "mapbox://mapbox.mapbox-terrain-dem-v1",
-          tileSize: 512,
-          maxzoom: 14,
-        } as any);
-      }
+      try {
+        if (!map.getSource("mapbox-dem")) {
+          map.addSource("mapbox-dem", {
+            type: "raster-dem",
+            url: "mapbox://mapbox.mapbox-terrain-dem-v1",
+            tileSize: 512,
+            maxzoom: 14,
+          } as any);
+        }
 
-      map.setTerrain({ source: "mapbox-dem", exaggeration: 1.2 });
+        map.setTerrain({ source: "mapbox-dem", exaggeration: 1.2 });
+      } catch (err) {
+        console.error("Terrain rebuild failed:", err);
+      }
     });
   }
 
   // --- Sky ---
   private registerSky() {
     this.registerRebuild((map) => {
-      if (!map.getLayer("sky")) {
-        map.addLayer({
-          id: "sky",
-          type: "sky",
-          paint: {
-            "sky-type": "atmosphere",
-            "sky-atmosphere-sun": [0.0, 0.0],
-            "sky-atmosphere-sun-intensity": 15,
-          },
-        } as any);
+      try {
+        if (!map.getLayer("sky")) {
+          map.addLayer({
+            id: "sky",
+            type: "sky",
+            paint: {
+              "sky-type": "atmosphere",
+              "sky-atmosphere-sun": [0.0, 0.0],
+              "sky-atmosphere-sun-intensity": 15,
+            },
+          } as any);
+        }
+      } catch (err) {
+        console.error("Sky rebuild failed:", err);
       }
     });
   }
@@ -109,50 +121,43 @@ export class StyleManager {
   // --- 3D Buildings ---
   private register3DBuildings() {
     this.registerRebuild((map) => {
-      if (!map.getLayer("3d-buildings")) {
-        map.addLayer({
-          id: "3d-buildings",
-          source: "composite",
-          "source-layer": "building",
-          filter: ["==", "extrude", "true"],
-          type: "fill-extrusion",
-          minzoom: 15,
-          paint: {
-            "fill-extrusion-color": "#aaa",
-            "fill-extrusion-height": ["get", "height"],
-            "fill-extrusion-base": ["get", "min_height"],
-            "fill-extrusion-opacity": 0.6,
-          },
-        } as any);
+      try {
+        if (!map.getLayer("3d-buildings")) {
+          map.addLayer({
+            id: "3d-buildings",
+            source: "composite",
+            "source-layer": "building",
+            filter: ["==", "extrude", "true"],
+            type: "fill-extrusion",
+            minzoom: 15,
+            paint: {
+              "fill-extrusion-color": "#aaa",
+              "fill-extrusion-height": ["get", "height"],
+              "fill-extrusion-base": ["get", "min_height"],
+              "fill-extrusion-opacity": 0.6,
+            },
+          } as any);
+        }
+      } catch (err) {
+        console.error("3D buildings rebuild failed:", err);
       }
     });
   }
 
-  // --- Fog (enables horizon + sky visibility) ---
+  // --- Fog ---
   private registerFog() {
     this.registerRebuild((map) => {
-      map.setFog({
-        range: [0.5, 10],
-        color: "rgba(200, 200, 200, 0.5)",
-        "horizon-blend": 0.2,
-        "high-color": "rgba(255, 255, 255, 0.1)",
-        "space-color": "rgba(0, 0, 0, 1)",
-      });
+      try {
+        map.setFog({
+          range: [0.5, 10],
+          color: "rgba(200, 200, 200, 0.5)",
+          "horizon-blend": 0.2,
+          "high-color": "rgba(255, 255, 255, 0.1)",
+          "space-color": "rgba(0, 0, 0, 1)",
+        });
+      } catch (err) {
+        console.error("Fog rebuild failed:", err);
+      }
     });
   }
-  
-setCategoryVisibility(id: string, visible: boolean) {
-  const category = categories.find(c => c.id === id);
-  if (!category) return;
-
-  category.layers.forEach(layerId => {
-    if (this.map.getLayer(layerId)) {
-      this.map.setLayoutProperty(
-        layerId,
-        "visibility",
-        visible ? "visible" : "none"
-      );
-    }
-  });
-}
 }

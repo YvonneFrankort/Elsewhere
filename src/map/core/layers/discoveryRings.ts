@@ -3,7 +3,7 @@ import mapboxgl from "mapbox-gl";
 
 export const discoveryRings = {
   add(map: mapboxgl.Map) {
-    const sourceId = "info-places-source";
+    const sourceId = "api-places-source";
 
     // Outer ring
     if (!map.getLayer("info-ring-outer")) {

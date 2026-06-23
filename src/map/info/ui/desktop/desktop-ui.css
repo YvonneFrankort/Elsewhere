@@ -1,26 +1,66 @@
+
+/* Prevent any UI wrapper from blocking the map */
+.map-ui,
+.desktop-ui,
+.map-topbar,
+.desktop-zoom,
+.places-panel {
+  pointer-events: none;
+}
+
+.map-ui *,
+.desktop-ui *,
+.map-topbar *,
+.desktop-zoom *,
+.places-panel * {
+  pointer-events: auto;
+}
+
+
 /* =======================================================
    1. MAP UI ROOT LAYER
 ======================================================= */
 
 .map-ui {
   position: absolute;
-  inset: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  height: 80px; /* same top bar area */
   z-index: 10;
   pointer-events: none;
 }
 
-.desktop-ui {
-  position: absolute;
-  inset: 0;
-  z-index: 20;
+.map-ui * {
   pointer-events: auto;
 }
+
+
+.desktop-ui {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  /* height only for the top bar area */
+  height: 80px;
+
+  z-index: 20;
+  pointer-events: none; /* important */
+}
+
+.desktop-ui * {
+  pointer-events: auto; /* buttons still work */
+}
+
 
 @media (max-width: 768px) {
   .desktop-ui {
     display: none;
   }
 }
+
 
 
 /* =======================================================
@@ -43,6 +83,7 @@
 
   z-index: 20;
   pointer-events: none;
+  overflow: visible;
 }
 
 .topbar-left,
@@ -64,7 +105,9 @@
   }
 }
 
-
+.map-topbar * {
+  pointer-events: auto;
+}
 /* =======================================================
    3. DESKTOP SEARCH BAR
 ======================================================= */
@@ -113,58 +156,40 @@
   }
 }
 
-
 /* =======================================================
-   4. CUSTOM DROPDOWN (DESKTOP)
+   4. SEGMENTED BUTTONS (DESKTOP)
 ======================================================= */
 
-.custom-dropdown {
-  position: relative;
-  min-width: 140px;
-  z-index: 30000;
-}
-
-.dropdown-selected {
-  padding: 8px 12px;
-  border-radius: 12px;
-  border: 1px solid var(--border);
-  background: var(--bg);
-  color: var(--text-h);
-
+.segmented {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-
-  box-shadow: var(--shadow);
-  cursor: pointer;
-}
-
-.dropdown-menu {
-  position: absolute;
-  top: calc(100% + 4px);
-  left: 0;
-  width: 100%;
-
+  gap: 6px;
   background: var(--bg);
   border: 1px solid var(--border);
   border-radius: 12px;
-
+  padding: 4px;
   box-shadow: var(--shadow);
-  overflow: hidden;
-
-  z-index: 40000;
 }
 
-.dropdown-item {
-  padding: 8px 12px;
+.segmented button {
+  padding: 6px 12px;
+  border-radius: 8px;
+  border: none;
+  background: transparent;
+  color: var(--text-h);
   cursor: pointer;
+  font-size: 15px;
 }
 
-.dropdown-item:hover {
-  background: var(--surface-hover);
+.segmented button.active {
+  background: var(--accent);
+  color: white;
 }
 
 
+/* Map UI section */
+.map-ui-section {
+  pointer-events: auto;
+}
 /* =======================================================
    5. FLOATING ACTION BUTTON (DESKTOP)
 ======================================================= */
@@ -321,3 +346,163 @@
   box-shadow: var(--shadow);
   z-index: 5000 !important;
 }
+
+/* =======================================================
+   PLACES PANEL + BUTTON
+======================================================= */
+
+.places-btn {
+  padding: 8px 12px;
+  border-radius: 10px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  cursor: pointer;
+  box-shadow: var(--shadow);
+  margin-left: 8px;
+  color: var(--text-h);
+}
+
+.places-panel {
+  position: absolute;
+  top: 70px;
+  left: 16px;
+  width: 260px;
+
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+
+  max-height: 400px;
+  overflow-y: auto;
+  z-index: 9999;
+}
+
+.place-item {
+  padding: 10px 12px;
+  cursor: pointer;
+  color: var(--text-h);
+}
+
+.place-item:hover {
+  background: var(--surface-hover);
+}
+
+/* =======================================================
+   CATEGORY PANEL (DESKTOP)
+======================================================= */
+/* ---------------------------------------
+   CATEGORY (Level 1)
+---------------------------------------- */
+
+.category-group {
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--border);
+}
+
+.category-title {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: var(--text-h);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.category-title .chevron {
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+/* ---------------------------------------
+   GROUP (Level 2)
+---------------------------------------- */
+
+.group-block {
+  margin-left: 12px;
+  margin-top: 6px;
+}
+
+.group-title {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-h);
+  padding: 6px 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.group-title:hover {
+  background: var(--surface-hover);
+}
+
+.group-title .chevron {
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+/* ---------------------------------------
+   SUBCATEGORY (Level 3)
+---------------------------------------- */
+
+.sub-list {
+  margin-left: 12px;
+  margin-top: 4px;
+}
+
+.sub-block {
+  margin-bottom: 4px;
+}
+
+.sub-title {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-h);
+  padding: 5px 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sub-title:hover {
+  background: var(--surface-hover);
+}
+
+.sub-title .chevron {
+  font-size: 11px;
+  opacity: 0.7;
+}
+
+/* ---------------------------------------
+   FINAL ITEMS (Level 4)
+---------------------------------------- */
+
+.item-list {
+  margin-left: 12px;
+  margin-top: 4px;
+}
+
+.place-item {
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 4px;
+  background: var(--surface);
+  color: var(--text-h);
+  font-size: 13px;
+}
+
+.place-item:hover {
+  background: var(--surface-hover);
+}
+
+
+
+

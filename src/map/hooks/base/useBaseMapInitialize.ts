@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import mapboxgl from "mapbox-gl";
 import { MAPBOX_TOKEN } from "../../../lib/mapbox";
 import { StyleManager } from "../../core/style/StyleManager";
@@ -7,12 +7,16 @@ export function useBaseMapInitialize(
   mapContainer: React.RefObject<HTMLDivElement | null>,
   mapRef: React.MutableRefObject<mapboxgl.Map | null>,
   styleManagerRef: React.MutableRefObject<StyleManager | null>,
-  style: string,
-  setUserLocation: (loc: { lat: number; lng: number }) => void
+  style: string
 ) {
+  const didInit = useRef(false);
+
   useEffect(() => {
+    // Prevent double initialization (React StrictMode)
+    if (didInit.current) return;
+    didInit.current = true;
+
     if (!mapContainer.current) return;
-    if (mapRef.current) return;
 
     mapboxgl.accessToken = MAPBOX_TOKEN;
 
@@ -32,7 +36,6 @@ export function useBaseMapInitialize(
     });
 
     mapRef.current = map;
-    (window as any).debugMap = map;
 
     // --- CONTROL REMOVAL -----------------------------------------------------
     const removeControls = () => {
@@ -47,8 +50,13 @@ export function useBaseMapInitialize(
 
     // --- MAP LOAD ------------------------------------------------------------
     map.on("load", () => {
-      map.touchZoomRotate.enableRotation();
-      map.addControl(new mapboxgl.ScaleControl(), "bottom-left");
+      try {
+        map.touchZoomRotate.enableRotation();
+      } catch {}
+
+      try {
+        map.addControl(new mapboxgl.ScaleControl(), "bottom-left");
+      } catch {}
 
       removeControls();
       setTimeout(() => map.resize(), 100);
@@ -59,16 +67,23 @@ export function useBaseMapInitialize(
       removeControls();
 
       if (!styleManagerRef.current) {
-        styleManagerRef.current = new StyleManager(map, style);
+        try {
+          styleManagerRef.current = new StyleManager(map, style);
+        } catch (err) {
+          console.error("Failed to init StyleManager:", err);
+        }
       }
     });
 
     // --- CLEANUP -------------------------------------------------------------
+    // IMPORTANT: do NOT remove the map in dev mode (StrictMode double mount)
     return () => {
-      if (mapRef.current === map) {
-        map.remove();
-        mapRef.current = null;
+      if (!import.meta.env.DEV) {
+        if (mapRef.current === map) {
+          map.remove();
+          mapRef.current = null;
+        }
       }
     };
-  }, []);
+  }, [mapContainer, mapRef, styleManagerRef, style]);
 }

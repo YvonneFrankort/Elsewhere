@@ -283,3 +283,99 @@
     z-index: 40;
   }
 }
+
+/* ======================================================
+   7. CATEGORY UI (NEW)
+====================================================== */
+/* ---------------------------------------
+   CATEGORY (Level 1)
+---------------------------------------- */
+
+.category-title {
+  font-size: 15px;
+  font-weight: 600;
+  padding: 10px 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  color: var(--text-h);
+}
+
+.category-title:hover {
+  background: var(--surface-hover);
+}
+
+.category-title .chevron {
+  opacity: 0.7;
+}
+
+/* ---------------------------------------
+   GROUP (Level 2)
+---------------------------------------- */
+
+.group-list {
+  margin-left: 10px;
+}
+
+.group-title {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 8px 6px;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.group-title:hover {
+  background: var(--surface-hover);
+}
+
+/* ---------------------------------------
+   SUBCATEGORY (Level 3)
+---------------------------------------- */
+
+.sub-list {
+  margin-left: 10px;
+}
+
+.sub-title {
+  font-size: 13px;
+  font-weight: 500;
+  padding: 6px 6px;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sub-title:hover {
+  background: var(--surface-hover);
+}
+
+/* ---------------------------------------
+   FINAL ITEMS (Level 4)
+---------------------------------------- */
+
+.item-list {
+  margin-left: 10px;
+  margin-bottom: 6px;
+}
+
+.item-button {
+  width: 100%;
+  text-align: left;
+  padding: 6px 8px;
+  border-radius: 6px;
+  background: var(--surface);
+  margin-bottom: 4px;
+  color: var(--text-h);
+  font-size: 13px;
+}
+
+.item-button:hover {
+  background: var(--surface-hover);
+}

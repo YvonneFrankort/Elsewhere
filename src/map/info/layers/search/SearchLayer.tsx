@@ -1,8 +1,7 @@
 import { useEffect } from "react";
 import mapboxgl from "mapbox-gl";
-import { loadIcon } from "../../services/iconService";
-import { categories } from "../../config/categories";
-import type { FeatureCollection, Feature, Point } from "geojson";
+import { loadIcon } from "../../services/iconService"; 
+import type { FeatureCollection, Point } from "geojson";
 
 export function useSearchLayer(
   mapRef: React.MutableRefObject<mapboxgl.Map | null>,
@@ -29,22 +28,22 @@ export function useSearchLayer(
 
     // Build GeoJSON for the single search marker
     const geojson: FeatureCollection<Point> = {
-  type: "FeatureCollection",
-  features: [
-    {
-      type: "Feature",
-      properties: {
-        id: searchResult.id ?? "search",
-        category: "search",
-        name: searchResult.name ?? "Search Result"
-      },
-      geometry: {
-        type: "Point",
-        coordinates: [searchResult.longitude, searchResult.latitude]
-      }
-    }
-  ]
-};
+      type: "FeatureCollection",
+      features: [
+        {
+          type: "Feature",
+          properties: {
+            id: searchResult.id ?? "search",
+            category: "search",
+            name: searchResult.name ?? "Search Result"
+          },
+          geometry: {
+            type: "Point",
+            coordinates: [searchResult.longitude, searchResult.latitude]
+          }
+        }
+      ]
+    };
 
     async function setup() {
       if (!map) return;

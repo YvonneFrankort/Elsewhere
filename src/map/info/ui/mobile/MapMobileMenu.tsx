@@ -1,5 +1,13 @@
 import { useState, useRef, useEffect } from "react";
 import "./MapMobileMenu.css";
+import type { Feature } from "geojson";
+import type {
+  PlaceCategory,
+  PlaceGroup,
+  PlaceSubcategory,
+  PlaceItem
+} from "../../data/placeCategories";
+import { placeCategories } from "../../data/placeCategories";
 
 interface InfoMapMobileProps {
   query: string;
@@ -8,7 +16,10 @@ interface InfoMapMobileProps {
   handleSearch: () => void;
   style: string;
   setStyle: (value: string) => void;
-  onCategorySelect: (category: string) => void;
+  onCategorySelect: (item: PlaceItem) => void;
+  places: Feature[];
+  selectedPlace: Feature | null;
+  selectPlace: (place: Feature) => void;
 }
 
 function InfoMapMobile({
@@ -21,15 +32,16 @@ function InfoMapMobile({
   onCategorySelect
 }: InfoMapMobileProps) {
 
-  console.log("InfoMapMobile RENDER");
-  console.log("MOBILE QUERY:", query);
-  console.log("InfoMapMobile RENDER");
-
   const [open, setOpen] = useState(false);
+
+  // NEW: expanded levels
+  const [openCategoryId, setOpenCategoryId] = useState<string | null>(null);
+  const [openGroupId, setOpenGroupId] = useState<string | null>(null);
+  const [openSubId, setOpenSubId] = useState<string | null>(null);
+
   const panelRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
-    console.log("InfoMapMobile MOUNTED");
     function handleClickOutside(e: MouseEvent) {
       if (open && panelRef.current && !panelRef.current.contains(e.target as Node)) {
         setOpen(false);
@@ -39,20 +51,31 @@ function InfoMapMobile({
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, [open]);
 
-  function loadCategory(type: string) {
-    // later: call your real loader
-    console.log("LOAD CATEGORY:", type);
+  function toggleCategory(cat: PlaceCategory) {
+    setOpenCategoryId(prev => prev === cat.id ? null : cat.id);
+    setOpenGroupId(null);
+    setOpenSubId(null);
   }
 
+  function toggleGroup(group: PlaceGroup) {
+    setOpenGroupId(prev => prev === group.id ? null : group.id);
+    setOpenSubId(null);
+  }
+
+  function toggleSub(sub: PlaceSubcategory) {
+    setOpenSubId(prev => prev === sub.id ? null : sub.id);
+  }
+
+  function handleItemClick(item: PlaceItem) {
+    onCategorySelect(item);
+    setOpen(false);
+  }
 
   return (
     <div className="mobile-layer">
 
-      {/* ⭐ ALWAYS VISIBLE TOP BAR */}
-      <div
-        className="mobile-topbar"
-        ref={() => console.log("TOPBAR MOUNTED")}
-      >
+      {/* ⭐ TOP BAR */}
+      <div className="mobile-topbar">
         <button className="menu-button" onClick={() => setOpen(true)}>☰</button>
 
         <button className="planner-button">🗺️</button>
@@ -66,10 +89,9 @@ function InfoMapMobile({
           />
           <button className="search-icon" onClick={handleSearch}>🔍</button>
         </div>
-
       </div>
 
-      {/* ⭐ ZOOM BUTTONS — moved OUTSIDE the top bar */}
+      {/* ⭐ ZOOM */}
       <div className="mobile-zoom">
         <button onClick={() => mapRef.current?.zoomIn()}>＋</button>
         <button onClick={() => mapRef.current?.zoomOut()}>−</button>
@@ -87,6 +109,8 @@ function InfoMapMobile({
             </div>
 
             <div className="menu-content">
+
+              {/* ⭐ Layout */}
               <div className="menu-section">
                 <h4>Layout</h4>
 
@@ -121,24 +145,73 @@ function InfoMapMobile({
                     Satellite
                   </button>
                 </div>
-
               </div>
 
+              {/* ⭐ Categories */}
               <div className="menu-section">
                 <h4>Categories</h4>
 
                 <div className="category-options">
-                  <button onClick={() => { onCategorySelect("restaurants"); setOpen(false); }}>
-                    Restaurants
-                  </button>
 
-                  <button onClick={() => { onCategorySelect("cafes"); setOpen(false); }}>
-                    Cafes
-                  </button>
+                  {placeCategories.map((cat) => (
+                    <div key={cat.id} className="category-group">
 
-                  <button onClick={() => { onCategorySelect("parks"); setOpen(false); }}>
-                    Parks
-                  </button>
+                      {/* CATEGORY */}
+                      <div className="category-title" onClick={() => toggleCategory(cat)}>
+                        {cat.label}
+                        <span className="chevron">{openCategoryId === cat.id ? "▼" : "▶"}</span>
+                      </div>
+
+                      {/* GROUPS */}
+                      {openCategoryId === cat.id && (
+                        <div className="group-list">
+                          {cat.groups.map((group) => (
+                            <div key={group.id} className="group-block">
+
+                              <div className="group-title" onClick={() => toggleGroup(group)}>
+                                {group.label}
+                                <span className="chevron">{openGroupId === group.id ? "▼" : "▶"}</span>
+                              </div>
+
+                              {/* SUBCATEGORIES */}
+                              {openGroupId === group.id && (
+                                <div className="sub-list">
+                                  {group.subcategories.map((sub) => (
+                                    <div key={sub.id} className="sub-block">
+
+                                      <div className="sub-title" onClick={() => toggleSub(sub)}>
+                                        {sub.label}
+                                        <span className="chevron">{openSubId === sub.id ? "▼" : "▶"}</span>
+                                      </div>
+
+                                      {/* FINAL ITEMS */}
+                                      {openSubId === sub.id && (
+                                        <div className="item-list">
+                                          {sub.items.map((item) => (
+                                            <button
+                                              key={item.id}
+                                              className="item-button"
+                                              onClick={() => handleItemClick(item)}
+                                            >
+                                              {item.label}
+                                            </button>
+                                          ))}
+                                        </div>
+                                      )}
+
+                                    </div>
+                                  ))}
+                                </div>
+                              )}
+
+                            </div>
+                          ))}
+                        </div>
+                      )}
+
+                    </div>
+                  ))}
+
                 </div>
               </div>
 
