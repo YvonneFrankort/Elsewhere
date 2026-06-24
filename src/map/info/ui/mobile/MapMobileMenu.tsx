@@ -1,6 +1,5 @@
 import { useState, useRef, useEffect } from "react";
 import "./MapMobileMenu.css";
-import type { Feature } from "geojson";
 import type {
   PlaceCategory,
   PlaceGroup,
@@ -8,6 +7,7 @@ import type {
   PlaceItem
 } from "../../data/placeCategories";
 import { placeCategories } from "../../data/placeCategories";
+import type { PlaceItemData } from "../../state/usePlacesStore";
 
 interface InfoMapMobileProps {
   query: string;
@@ -17,9 +17,10 @@ interface InfoMapMobileProps {
   style: string;
   setStyle: (value: string) => void;
   onCategorySelect: (item: PlaceItem) => void;
-  places: Feature[];
-  selectedPlace: Feature | null;
-  selectPlace: (place: Feature) => void;
+
+  places: PlaceItemData[];
+  selectedPlace: PlaceItemData | null;
+  selectPlace: (place: PlaceItemData | null) => void;
 }
 
 function InfoMapMobile({

@@ -1,8 +1,8 @@
 import { useState } from "react";
 import React from "react";
-import type { Feature } from "geojson";
 import type { PlaceCategory, PlaceGroup, PlaceSubcategory, PlaceItem } from "../../data/placeCategories";
 import { placeCategories } from "../../data/placeCategories";
+import type { PlaceItemData } from "../../state/usePlacesStore";
 
 interface Props {
   flyTo: (center: [number, number], zoom?: number, pitch?: number, bearing?: number) => void;
@@ -12,11 +12,14 @@ interface Props {
   setQuery: (s: string) => void;
   mapRef: React.MutableRefObject<mapboxgl.Map | null>;
   handleSearch: () => void;
-  places: Feature[];
-  selectedPlace: Feature | null;
-  selectPlace: (place: Feature) => void;
+
+  places: PlaceItemData[];
+  selectedPlace: PlaceItemData | null;
+  selectPlace: (place: PlaceItemData | null) => void;
+
   onCategorySelect: (item: PlaceItem) => void;
 }
+
 
 /* -----------------------------
    Segmented Control

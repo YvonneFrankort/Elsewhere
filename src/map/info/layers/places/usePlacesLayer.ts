@@ -1,11 +1,10 @@
 import { useEffect } from "react";
-import type { Feature, FeatureCollection } from "geojson";
 import mapboxgl from "mapbox-gl";
+import type { PlaceItemData } from "../../state/usePlacesStore";
 
 export function usePlacesLayer(
   mapRef: React.MutableRefObject<mapboxgl.Map | null>,
-  places: Feature[],
-  selectPlace: (place: Feature) => void
+  places: PlaceItemData[],
 ) {
   useEffect(() => {
     const map = mapRef.current;
@@ -19,9 +18,20 @@ export function usePlacesLayer(
     updateSource(map);
 
     function updateSource(map: mapboxgl.Map) {
-      const geojson: FeatureCollection = {
-        type: "FeatureCollection",
-        features: places ?? [],
+      const geojson = {
+        type: "FeatureCollection" as const,
+        features: places.map((p) => ({
+          type: "Feature" as const,
+          geometry: {
+            type: "Point" as const,
+            coordinates: [p.longitude, p.latitude],
+          },
+          properties: {
+            id: p.id,
+            name: p.name,
+            category: p.category,
+          },
+        })),
       };
 
       const src = map.getSource("info-places") as mapboxgl.GeoJSONSource;
@@ -29,5 +39,5 @@ export function usePlacesLayer(
         src.setData(geojson);
       }
     }
-  }, [mapRef, places, selectPlace]);
+  }, [mapRef, places]);
 }

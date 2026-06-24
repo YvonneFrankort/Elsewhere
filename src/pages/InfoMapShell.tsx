@@ -7,35 +7,33 @@ import "../styles/map-location-ping.css";
 
 import { MAPBOX_TOKEN } from "../lib/mapbox";
 
-import { useBaseMapInitialize } from "../map/hooks/base/useBaseMapInitialize";
-import { useBaseMapStyle } from "../map/hooks/base/useBaseMapStyle";
-import { useBaseMapCamera } from "../map/hooks/base/useBaseMapCamera";
-import { useBaseMapEvents } from "../map/hooks/base/useBaseMapEvents";
-
-import { StyleManager } from "../map/core/style/StyleManager";
-
 import InfoMapControls from "../map/info/ui/desktop/MapDesktopControls";
 import InfoMapMobile from "../map/info/ui/mobile/MapMobileMenu";
 
 import { usePlacesStore } from "../map/info/state/usePlacesStore";
 import { usePlacesLayer } from "../map/info/layers/places/usePlacesLayer";
-import { useInfoMapData } from "../map/info/state/useInfoMapData";   
+import { useInfoMapData } from "../map/info/state/useInfoMapData";
 import type { PlaceItem } from "../map/info/data/placeCategories";
 import { useInitPlacesLayer } from "../map/info/layers/places/initPlacesLayer";
 import { useSearchLayer } from "../map/info/layers/search/SearchLayer";
 
+import { MapManager } from "../lib/map/MapManager";
+import { CameraManager } from "../lib/map/CameraManager";
+import type { PlaceItemData } from "../map/info/state/usePlacesStore";
+
+mapboxgl.accessToken = MAPBOX_TOKEN;
+
 function InfoMapShell() {
   const mapContainer = useRef<HTMLDivElement | null>(null);
   const mapRef = useRef<mapboxgl.Map | null>(null);
-  const styleManagerRef = useRef<StyleManager | null>(null);
   const userMarkerRef = useRef<mapboxgl.Marker | null>(null);
+  const mapManagerRef = useRef<MapManager | null>(null);
+  const cameraRef = useRef<CameraManager | null>(null);
 
   const [style, setStyle] = useState("mapbox://styles/mapbox/streets-v12");
   const [query, setQuery] = useState("");
-
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
 
-  // ⭐ NEW: search result state for useSearchLayer
   const [searchResult, setSearchResult] = useState<{
     id?: string;
     name?: string;
@@ -43,18 +41,21 @@ function InfoMapShell() {
     longitude: number;
   } | null>(null);
 
-  const {
-    places,
-    selectedPlace,
-    selectPlace
-  } = usePlacesStore();
+const { places, selectedPlace, selectPlace } = usePlacesStore();
 
+  // ⭐ CAMERA WRAPPER
+  function flyTo(coords: [number, number], zoom = 14) {
+    cameraRef.current?.flyTo(coords, zoom);
+  }
+
+  // ⭐ HANDLE RESIZE
   useEffect(() => {
     const handleResize = () => setIsMobile(window.innerWidth <= 768);
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
+  // ⭐ MAP PAGE CLASS
   useEffect(() => {
     document.body.classList.add("map-page");
     document.documentElement.classList.add("map-page");
@@ -65,37 +66,51 @@ function InfoMapShell() {
   }, []);
 
   // ⭐ MAP INITIALIZATION
-  useBaseMapInitialize(mapContainer, mapRef, styleManagerRef, style);
-  useBaseMapStyle(mapRef, styleManagerRef, style);
-
-  // ⭐ CREATE INFO PLACES LAYER
-  useInitPlacesLayer(mapRef);
-
-  // ⭐ CREATE SEARCH LAYER
-  useSearchLayer(mapRef, searchResult);
-
-  // ⭐ UPDATE INFO PLACES LAYER
-  usePlacesLayer(mapRef, places, selectPlace);
-
-  const { flyTo } = useBaseMapCamera(mapRef);
-  useBaseMapEvents(mapRef);
-
   useEffect(() => {
-    if (!selectedPlace || !mapRef.current) return;
+    if (!mapContainer.current) return;
 
-    if (
-      selectedPlace.geometry?.type === "Point" &&
-      Array.isArray(selectedPlace.geometry.coordinates)
-    ) {
-      const coords = selectedPlace.geometry.coordinates as [number, number];
-      flyTo(coords, 14);
-    }
-  }, [selectedPlace, flyTo]);
+    const manager = new MapManager(mapContainer.current);
+    mapManagerRef.current = manager;
+
+    manager.initMap({
+      style,
+      center: [25.47, 65.01],
+      zoom: 11,
+    });
+
+    manager.onReady(() => {
+      mapRef.current = manager.getMap();
+      cameraRef.current = manager.getCamera();
+    });
+
+    return () => manager.destroy();
+  }, []);
+
+  // ⭐ STYLE SWITCHING
+  useEffect(() => {
+    mapManagerRef.current?.setStyle(style);
+  }, [style]);
+
+  // ⭐ LAYERS
+  //useInitPlacesLayer(mapRef);
+useSearchLayer(mapRef, searchResult);
+usePlacesLayer(mapRef, places);
+
+  // ⭐ SELECTED PLACE CAMERA
+  useEffect(() => {
+  if (!selectedPlace) return;
+
+  const coords: [number, number] = [
+    selectedPlace.longitude,
+    selectedPlace.latitude,
+  ];
+
+  cameraRef.current?.flyTo(coords, 14);
+}, [selectedPlace]);
 
   // ⭐ MOBILE AUTO-LOCATE
   useEffect(() => {
-    if (!isMobile) return;
-    if (!mapRef.current) return;
+    if (!isMobile || !mapRef.current) return;
 
     navigator.geolocation.getCurrentPosition(
       (pos) => {
@@ -110,20 +125,16 @@ function InfoMapShell() {
           .setLngLat([longitude, latitude])
           .addTo(mapRef.current!);
 
-        mapRef.current!.jumpTo({
-          center: [longitude, latitude],
-          zoom: 16,
-          pitch: 50,
-        });
+        cameraRef.current?.jumpTo([longitude, latitude], 16, 50);
       },
       (err) => console.error("GEO ERROR", err),
       { enableHighAccuracy: true, timeout: 10000, maximumAge: 0 }
     );
-  }, [isMobile, mapRef]);
+  }, [isMobile]);
 
-  // ⭐ UPDATED SEARCH HANDLER
+  // ⭐ SEARCH HANDLER
   async function handleSearch() {
-    if (!mapRef.current || !query.trim()) return;
+    if (!query.trim()) return;
 
     const parts = query.split(/[\s,]+/).map((p) => p.trim());
 
@@ -132,18 +143,13 @@ function InfoMapShell() {
       const lng = +parts[0];
       const lat = +parts[1];
 
-      setSearchResult({
-        latitude: lat,
-        longitude: lng,
-        name: "Coordinates"
-      });
-
+      setSearchResult({ latitude: lat, longitude: lng, name: "Coordinates" });
       flyTo([lng, lat], 60);
       setQuery("");
       return;
     }
 
-    // Geocoding search
+    // Geocoding
     const url = `https://api.mapbox.com/geocoding/v5/mapbox.places/${encodeURIComponent(
       query
     )}.json?access_token=${MAPBOX_TOKEN}`;
@@ -158,7 +164,7 @@ function InfoMapShell() {
         id: data.features[0].id,
         name: data.features[0].place_name,
         latitude: lat,
-        longitude: lng
+        longitude: lng,
       });
 
       flyTo([lng, lat], 12);
@@ -166,6 +172,7 @@ function InfoMapShell() {
     }
   }
 
+  // ⭐ LOCATE ME BUTTON
   function handleLocateMe() {
     if (!mapRef.current || !mapRef.current.loaded()) return;
 
@@ -182,12 +189,7 @@ function InfoMapShell() {
           .setLngLat([longitude, latitude])
           .addTo(mapRef.current!);
 
-        mapRef.current!.easeTo({
-          center: [longitude, latitude],
-          zoom: 16,
-          pitch: 50,
-          duration: 800,
-        });
+        cameraRef.current?.easeTo([longitude, latitude], 16, 50, 800);
 
         setTimeout(() => {
           mapRef.current?.dragPan.enable();
@@ -224,11 +226,9 @@ function InfoMapShell() {
             query={query}
             setQuery={setQuery}
             handleSearch={handleSearch}
-
             places={places}
             selectedPlace={selectedPlace}
             selectPlace={selectPlace}
-
             onCategorySelect={handleCategorySelect}
           />
         </div>
@@ -243,9 +243,7 @@ function InfoMapShell() {
             handleSearch={handleSearch}
             style={style}
             setStyle={setStyle}
-
             onCategorySelect={handleCategorySelect}
-
             places={places}
             selectedPlace={selectedPlace}
             selectPlace={selectPlace}

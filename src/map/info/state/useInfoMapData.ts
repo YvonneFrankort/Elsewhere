@@ -1,16 +1,12 @@
-// src/map/info/state/useInfoMapData.ts
-
 import { create } from "zustand";
-import type { FeatureCollection, Feature } from "geojson";
 import { searchPlacesByItem } from "../services/apiPlacesSource";
+import { usePlacesStore } from "./usePlacesStore";
 
 interface InfoMapState {
-  places: Feature[];
   loading: boolean;
   selectedItemId: string | null;
   hiddenSubcategories: Set<string>;
 
-  setPlaces: (features: Feature[]) => void;
   setLoading: (value: boolean) => void;
   setSelectedItem: (itemId: string | null) => void;
 
@@ -19,12 +15,10 @@ interface InfoMapState {
 }
 
 export const useInfoMapData = create<InfoMapState>((set, get) => ({
-  places: [],
   loading: false,
   selectedItemId: null,
   hiddenSubcategories: new Set(),
 
-  setPlaces: (features) => set({ places: features }),
   setLoading: (value) => set({ loading: value }),
   setSelectedItem: (itemId) => set({ selectedItemId: itemId }),
 
@@ -39,17 +33,26 @@ export const useInfoMapData = create<InfoMapState>((set, get) => ({
 
     set({ hiddenSubcategories: hidden });
 
-    // Re-filter current places
-    const { places } = get();
-    const filtered = places.filter(
-      (f) => !hidden.has(f.properties?.subcategoryId)
-    );
+    // Re-filter current places from the REAL store
+    const { places } = usePlacesStore.getState();
+    const filtered = places.filter((p) => !hidden.has(p.category));
 
-    const source = map.getSource("info-places") as mapboxgl.GeoJSONSource;
+    const source = map.getSource("places-source") as mapboxgl.GeoJSONSource;
     if (source) {
       source.setData({
-        type: "FeatureCollection",
-        features: filtered,
+        type: "FeatureCollection" as const,
+        features: filtered.map((p) => ({
+          type: "Feature" as const,
+          geometry: {
+            type: "Point" as const,
+            coordinates: [p.longitude, p.latitude],
+          },
+          properties: {
+            id: p.id,
+            name: p.name,
+            category: p.category,
+          },
+        })),
       });
     }
   },
@@ -67,40 +70,18 @@ export const useInfoMapData = create<InfoMapState>((set, get) => ({
 
       const results = await searchPlacesByItem(lat, lon, itemId);
 
-      // Convert to GeoJSON features
-      const features: Feature[] = results.map((p) => ({
-        type: "Feature",
-        geometry: {
-          type: "Point",
-          coordinates: [p.lon, p.lat],
-        },
-        properties: {
-          id: p.id,
-          name: p.name,
-          subcategoryId: p.subcategoryId,
-          color: p.color,
-        },
+      const places = results.map((p) => ({
+        id: p.id,
+        name: p.name,
+        latitude: p.lat,
+        longitude: p.lon,
+        category: p.subcategoryId,
       }));
 
-      // Apply visibility filtering
-      const hidden = get().hiddenSubcategories;
-      const filtered = features.filter(
-        (f) => !hidden.has(f.properties?.subcategoryId)
-      );
+      // Send results to the REAL store
+      const { setPlaces } = usePlacesStore.getState();
+      setPlaces(places);
 
-      // Update Zustand store
-      set({ places: features });
-
-      // Update Mapbox source
-      const source = map.getSource("info-places") as mapboxgl.GeoJSONSource;
-
-      if (source) {
-        const geojson: FeatureCollection = {
-          type: "FeatureCollection",
-          features: filtered,
-        };
-        source.setData(geojson);
-      }
     } catch (err) {
       console.error("Failed to load places:", err);
     }

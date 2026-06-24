@@ -1,11 +1,18 @@
 import { create } from "zustand";
-import type { Feature } from "geojson";
+
+export interface PlaceItemData {
+  id: string;
+  name: string;
+  latitude: number;
+  longitude: number;
+  category: string;
+}
 
 interface PlacesState {
-  places: Feature[];
-  selectedPlace: Feature | null;
-  setPlaces: (places: Feature[]) => void;
-  selectPlace: (place: Feature | null) => void;
+  places: PlaceItemData[];
+  selectedPlace: PlaceItemData | null;
+  setPlaces: (places: PlaceItemData[]) => void;
+  selectPlace: (place: PlaceItemData | null) => void;
 }
 
 export const usePlacesStore = create<PlacesState>((set) => ({
