@@ -1,0 +1,176 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-06-28T01:07:00Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/4237278",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Bishops Head Marsh Game Preserve",
+        "operator": "United States Fish and Wildlife Service",
+        "operator:short": "USFWS",
+        "operator:type": "public",
+        "operator:wikidata": "Q674113",
+        "ownership": "national",
+        "protect_class": "1",
+        "protected": "perpetuity",
+        "type": "multipolygon",
+        "website": "https://www.fws.gov/blackwater/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.0475629,
+          38.2286464
+        ]
+      },
+      "id": "relation/4237278"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/4237290",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Smithsonian Environmental Research Center",
+        "operator": "Smithsonian Institution",
+        "protect_class": "1",
+        "protection_title": "Environmental Research Area",
+        "short_name": "SERC",
+        "type": "multipolygon",
+        "website": "https://serc.si.edu/",
+        "wikidata": "Q2295408",
+        "wikipedia": "en:Smithsonian Environmental Research Center",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.5607365,
+          38.8875934
+        ]
+      },
+      "id": "relation/4237290"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/4237291",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Spring Island Game Preserve",
+        "operator": "United States Fish and Wildlife Service",
+        "operator:short": "FWS",
+        "operator:type": "public",
+        "operator:wikidata": "Q674113",
+        "ownership": "national",
+        "protect_class": "1",
+        "protected": "perpetuity",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.0632947,
+          38.1286213
+        ]
+      },
+      "id": "relation/4237291"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/4240422",
+        "boundary": "protected_area",
+        "ele": "0",
+        "gnis:feature_id": "588929",
+        "leisure": "nature_reserve",
+        "name": "Glenn Martin National Wildlife Refuge",
+        "operator": "United States Fish and Wildlife Service",
+        "operator:short": "FWS",
+        "operator:type": "public",
+        "operator:wikidata": "Q674113",
+        "ownership": "national",
+        "protect_class": "1",
+        "protected": "perpetuity",
+        "protected_area": "wildlife_refuge",
+        "type": "multipolygon",
+        "website": "https://www.fws.gov/refuge/martin/",
+        "wikidata": "Q6776256",
+        "wikipedia": "en:Glenn Martin National Wildlife Refuge",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.0121707,
+          38.0051587
+        ]
+      },
+      "id": "relation/4240422"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/20581417",
+        "boundary": "protected_area",
+        "ele": "6",
+        "gnis:feature_id": "588390",
+        "leisure": "nature_reserve",
+        "name": "Eastern Neck National Wildlife Refuge",
+        "operator": "United States Fish and Wildlife Service",
+        "operator:short": "FWS",
+        "operator:type": "public",
+        "operator:wikidata": "Q674113",
+        "ownership": "national",
+        "protect_class": "1",
+        "protected": "perpetuity",
+        "protected_area": "wildlife_refuge",
+        "type": "multipolygon",
+        "website": "https://www.fws.gov/refuge/eastern_neck/",
+        "wikidata": "Q5330330",
+        "wikipedia": "en:Eastern Neck National Wildlife Refuge",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.221333,
+          39.0316638
+        ]
+      },
+      "id": "relation/20581417"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/315105830",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Deal Island National Wildlife Reserve",
+        "operator": "United States Fish and Wildlife Service",
+        "operator:short": "FWS",
+        "operator:type": "public",
+        "operator:wikidata": "Q674113",
+        "ownership": "national",
+        "protect_class": "1",
+        "protected": "perpetuity",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.9457651,
+          38.1626956
+        ]
+      },
+      "id": "way/315105830"
+    }
+  ]
+}

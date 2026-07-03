@@ -1,0 +1,3613 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-06-28T00:10:01Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/156553",
+        "colour": "white",
+        "direction": "both",
+        "name": "Appalachian Trail",
+        "network": "nwn",
+        "network:type": "US:NST",
+        "note": "The trail is sorted by state, for discussion, see: https://community.openstreetmap.org/t/appalachian-trail-disappeared-from-waymarked-trails. Please keep it sorted into these sections in NOBO order, they're used on Wikivoyage.",
+        "operator": "Appalachian Trail Conservancy",
+        "operator:type": "private_non_profit",
+        "operator:website": "https://appalachiantrail.org/",
+        "operator:wikidata": "Q2858589",
+        "operator:wikipedia": "en:Appalachian Trail Conservancy",
+        "osmc:symbol": "white::white_stripe",
+        "ref": "AT",
+        "route": "hiking",
+        "short_name": "AT",
+        "symbol": "white stripe",
+        "type": "superroute",
+        "website": "https://www.nps.gov/appa",
+        "wikidata": "Q620648",
+        "wikipedia": "en:Appalachian Trail",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2190131,
+          34.5969683
+        ]
+      },
+      "id": "relation/156553"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/361324",
+        "colour": "#0000FF",
+        "name": "River Otter Way",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3545659,
+          34.7773708
+        ]
+      },
+      "id": "relation/361324"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/1642836",
+        "colour": "blue",
+        "name": "Pinhoti Trail",
+        "network": "rwn",
+        "official_name": "Pinhoti National Recreation Trail",
+        "ref": "PNRT",
+        "route": "hiking",
+        "type": "route",
+        "wikidata": "Q3388726",
+        "wikipedia": "en:Pinhoti National Recreation Trail",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.4380752,
+          33.932649
+        ]
+      },
+      "id": "relation/1642836"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/1675439",
+        "colour": "white",
+        "name": "Benton MacKaye Trail",
+        "network": "rwn",
+        "note": "Trail route is complete.",
+        "operator": "Benton MacKaye Trail Association",
+        "operator:website": "https://bmta.org/",
+        "ref": "BMKT",
+        "route": "hiking",
+        "symbol": "white diamond",
+        "type": "route",
+        "wikidata": "Q2896765",
+        "wikipedia": "en:Benton MacKaye Trail",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.8169195,
+          35.1986641
+        ]
+      },
+      "id": "relation/1675439"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/2007643",
+        "blaze": "white",
+        "description": "Appalachian Trail – Georgia",
+        "direction": "both",
+        "name": "Appalachian Trail",
+        "network": "nwn",
+        "network:type": "US:NST",
+        "osmc:symbol": "white::white_stripe",
+        "ref": "AT",
+        "route": "hiking",
+        "type": "route",
+        "wikidata": "Q134446290",
+        "wikipedia": "en:Appalachian Trail",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9185193,
+          34.7749145
+        ]
+      },
+      "id": "relation/2007643"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/4263011",
+        "name": "Plantation Island Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0986097,
+          32.1525554
+        ]
+      },
+      "id": "relation/4263011"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/4263051",
+        "name": "Recess Plantation Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.1014131,
+          32.1623385
+        ]
+      },
+      "id": "relation/4263051"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/4263097",
+        "name": "Little Back River Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.1083192,
+          32.1768747
+        ]
+      },
+      "id": "relation/4263097"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/4263161",
+        "name": "Tupelo Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0903073,
+          32.1870256
+        ]
+      },
+      "id": "relation/4263161"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/4572989",
+        "colour": "white",
+        "name": "Foothills Trail",
+        "network": "rwn",
+        "osmc:symbol": "white",
+        "route": "hiking",
+        "type": "route",
+        "wikidata": "Q5466514",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.9154019,
+          34.967954
+        ]
+      },
+      "id": "relation/4572989"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/4758250",
+        "name": "Trillium Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.9244113,
+          31.4668552
+        ]
+      },
+      "id": "relation/4758250"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/4760469",
+        "name": "Spruce Pine Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.9216807,
+          31.4606312
+        ]
+      },
+      "id": "relation/4760469"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/4760470",
+        "name": "White Oak Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.9384924,
+          31.4711963
+        ]
+      },
+      "id": "relation/4760470"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/4773689",
+        "name": "Mountain Creek Nature Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.8305015,
+          32.8403662
+        ]
+      },
+      "id": "relation/4773689"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/4780825",
+        "name": "Brown Thrasher Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.1262316,
+          32.5431087
+        ]
+      },
+      "id": "relation/4780825"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/4780826",
+        "description": "Blazed Blue",
+        "name": "Deer Run Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.1182273,
+          32.54356
+        ]
+      },
+      "id": "relation/4780826"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/4780827",
+        "description": "Blazed Blue",
+        "name": "Primative Campsite Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.1205655,
+          32.5609335
+        ]
+      },
+      "id": "relation/4780827"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/4792915",
+        "foot": "designated",
+        "informal": "no",
+        "name": "Pine Moutain Trail",
+        "network": "rwn",
+        "osmc:symbol": "blue_stripe",
+        "route": "hiking",
+        "symbol": "blue stripe",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.7747677,
+          32.8450558
+        ]
+      },
+      "id": "relation/4792915"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/5385288",
+        "access": "yes",
+        "foot": "yes",
+        "mtb": "yes",
+        "name": "Palmetto Trail: Peak to Prosperity Passage",
+        "network": "rwn",
+        "route": "hiking",
+        "type": "route",
+        "website": "https://palmettoconservation.org/passage/peak-to-prosperity-passage/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.3924071,
+          34.2454941
+        ]
+      },
+      "id": "relation/5385288"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/5951327",
+        "name": "Todd Creek Falls",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.8143035,
+          34.7520658
+        ]
+      },
+      "id": "relation/5951327"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/5951328",
+        "name": "Todd Creek Spring Trail",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.8145257,
+          34.7507514
+        ]
+      },
+      "id": "relation/5951328"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/6057398",
+        "name": "Fence Trail (yellow)",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2408815,
+          30.811337
+        ]
+      },
+      "id": "relation/6057398"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/6057399",
+        "name": "River Trail (Blue)",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2409246,
+          30.823355
+        ]
+      },
+      "id": "relation/6057399"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/6057400",
+        "name": "Sink Hole Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2425393,
+          30.8230035
+        ]
+      },
+      "id": "relation/6057400"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/6070711",
+        "name": "Beech-Magnolia Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2267791,
+          30.8133653
+        ]
+      },
+      "id": "relation/6070711"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/6070712",
+        "name": "Bluff Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2283088,
+          30.8112948
+        ]
+      },
+      "id": "relation/6070712"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/6070842",
+        "name": "Cotton Hill Nature Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.0570951,
+          31.6761653
+        ]
+      },
+      "id": "relation/6070842"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/6260878",
+        "name": "Triple C Rail Trail",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.2112152,
+          34.9915089
+        ]
+      },
+      "id": "relation/6260878"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/7087215",
+        "colour": "#FF0000",
+        "name": "Tree Frog Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3634628,
+          34.7890384
+        ]
+      },
+      "id": "relation/7087215"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/7335445",
+        "name": "Hemp Top",
+        "note": "hiking trails unification project by outdoor.rocks",
+        "route": "hiking",
+        "type": "route",
+        "website": "https://outdoor.rocks/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.543071,
+          34.9979132
+        ]
+      },
+      "id": "relation/7335445"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/7335480",
+        "name": "Iron Mountain",
+        "note": "hiking trails unification project by outdoor.rocks",
+        "route": "hiking",
+        "type": "route",
+        "website": "https://outdoor.rocks/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.6636955,
+          34.9785905
+        ]
+      },
+      "id": "relation/7335480"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/7335504",
+        "name": "Mill Road",
+        "note": "hiking trails unification project by outdoor.rocks",
+        "route": "hiking",
+        "type": "route",
+        "website": "https://outdoor.rocks/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.189196,
+          34.3499516
+        ]
+      },
+      "id": "relation/7335504"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/7335505",
+        "name": "Orange-Blue Trail",
+        "note": "hiking trails unification project by outdoor.rocks",
+        "route": "hiking",
+        "type": "route",
+        "website": "https://outdoor.rocks/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1510552,
+          34.3534758
+        ]
+      },
+      "id": "relation/7335505"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/7335506",
+        "name": "abandoned track",
+        "note": "hiking trails unification project by outdoor.rocks",
+        "route": "hiking",
+        "type": "route",
+        "website": "https://outdoor.rocks/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1778828,
+          34.3865133
+        ]
+      },
+      "id": "relation/7335506"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/7335528",
+        "name": "abandoned track",
+        "note": "hiking trails unification project by outdoor.rocks",
+        "route": "hiking",
+        "type": "route",
+        "website": "https://outdoor.rocks/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2101911,
+          34.4110428
+        ]
+      },
+      "id": "relation/7335528"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/7335529",
+        "name": "Tobacco Pouch Road",
+        "note": "hiking trails unification project by outdoor.rocks",
+        "route": "hiking",
+        "type": "route",
+        "website": "https://outdoor.rocks/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3193157,
+          34.5079956
+        ]
+      },
+      "id": "relation/7335529"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/7335530",
+        "name": "Tobacco Pouch Road and Trail",
+        "note": "hiking trails unification project by outdoor.rocks",
+        "route": "hiking",
+        "type": "route",
+        "website": "https://outdoor.rocks/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3176411,
+          34.5079956
+        ]
+      },
+      "id": "relation/7335530"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/7335532",
+        "name": "Turner Trail",
+        "note": "hiking trails unification project by outdoor.rocks",
+        "route": "hiking",
+        "type": "route",
+        "website": "https://outdoor.rocks/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2863044,
+          34.4999274
+        ]
+      },
+      "id": "relation/7335532"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/7616933",
+        "USFS:systemname": "Frady Branch Trail System",
+        "USFS:way_id": "94",
+        "name": "Leatherwood Creek Loop",
+        "ref": "FS Trail 234B",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.398739,
+          34.5163567
+        ]
+      },
+      "id": "relation/7616933"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/7832868",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.2233448,
+          34.5051591
+        ]
+      },
+      "id": "relation/7832868"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/8174025",
+        "name": "Blue Ridge Railroad Historical Trail",
+        "osmc:symbol": "yellow",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1096091,
+          34.8140818
+        ]
+      },
+      "id": "relation/8174025"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/8220691",
+        "name": "Yellow Branch Falls Trail",
+        "osmc:symbol": "orange",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1304133,
+          34.7994054
+        ]
+      },
+      "id": "relation/8220691"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/8388984",
+        "colour": "green",
+        "name": "Big Rock Mountain Summit Trail",
+        "osmc:symbol": "green",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.7930773,
+          34.9537922
+        ]
+      },
+      "id": "relation/8388984"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/8389076",
+        "colour": "purple",
+        "name": "Rocky Bald Loop Trail",
+        "osmc:symbol": "purple",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.8099546,
+          34.9475714
+        ]
+      },
+      "id": "relation/8389076"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/8749341",
+        "name": "Jew's Harp Spring Trail",
+        "osmc:symbol": "white",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.5199667,
+          34.4781695
+        ]
+      },
+      "id": "relation/8749341"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9504573",
+        "name": "Raven Rock Trail",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.8825125,
+          34.9412798
+        ]
+      },
+      "id": "relation/9504573"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9504574",
+        "name": "Natural Bridge Trail",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.8818199,
+          34.9351031
+        ]
+      },
+      "id": "relation/9504574"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9713630",
+        "name": "Hidden Falls Trail",
+        "osmc:symbol": "yellow",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0941984,
+          34.8728538
+        ]
+      },
+      "id": "relation/9713630"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9955138",
+        "description": "A hiking trail which follows the approximate route of 18th-century naturalist William Bartram’s southern journey from March 1773 to January 1777.",
+        "name": "Bartram Trail",
+        "network": "rwn",
+        "operator": "United States Forest Service",
+        "osmc:symbol": "yellow::yellow_stripe",
+        "ref": "TR 67",
+        "route": "hiking",
+        "short_name": "BT",
+        "symbol": "yellow rectangle",
+        "type": "route",
+        "wikidata": "Q4865791",
+        "wikipedia": "en:Bartram Trail",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.4280868,
+          35.0949805
+        ]
+      },
+      "id": "relation/9955138"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/10068915",
+        "colour": "green",
+        "name": "Pipsissewa Trail",
+        "osmc:symbol": "green",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3860204,
+          34.9501696
+        ]
+      },
+      "id": "relation/10068915"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/10093373",
+        "colour": "red",
+        "name": "Cedar Rock Trail",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.8000715,
+          34.9470296
+        ]
+      },
+      "id": "relation/10093373"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/10108692",
+        "name": "Ras Trail",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6586372,
+          33.2794294
+        ]
+      },
+      "id": "relation/10108692"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/10165429",
+        "name": "Lake Johnson Loop Trail",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.8392194,
+          34.8825191
+        ]
+      },
+      "id": "relation/10165429"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/10349288",
+        "name": "King Creek Falls Trail",
+        "osmc:symbol": "orange",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1150534,
+          34.9678542
+        ]
+      },
+      "id": "relation/10349288"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/10612714",
+        "access": "yes",
+        "alt_name": "Palmetto Trail",
+        "bicycle": "yes",
+        "foot": "yes",
+        "mtb": "yes",
+        "name": "Palmetto Trail: Stumphouse Mountain Passage",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "website": "https://palmettoconservation.org/passage/walhalla/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1153381,
+          34.8153782
+        ]
+      },
+      "id": "relation/10612714"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/10807377",
+        "colour": "orange",
+        "name": "Appalachian Lumber Trail",
+        "osmc:symbol": "orange",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.8005744,
+          34.9501748
+        ]
+      },
+      "id": "relation/10807377"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/10975715",
+        "colour": "orange",
+        "name": "Four Tower Loop",
+        "osmc:symbol": "orange",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.8024621,
+          34.9573392
+        ]
+      },
+      "id": "relation/10975715"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/11047655",
+        "access": "yes",
+        "distance": "16.42 km",
+        "foot": "yes",
+        "horse": "no",
+        "name": "Palmetto Trail: Capital City Passage",
+        "network": "rwn",
+        "route": "hiking",
+        "type": "route",
+        "website": "https://palmettoconservation.org/passage/capital-city-passage/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0119733,
+          34.0127784
+        ]
+      },
+      "id": "relation/11047655"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/11058944",
+        "bicycle": "yes",
+        "distance": "26.23 km",
+        "foot": "yes",
+        "horse": "no",
+        "motor_vehicle": "no",
+        "mtb": "yes",
+        "name": "Palmetto Trail: Fort Jackson Passage",
+        "network": "rwn",
+        "route": "hiking",
+        "type": "route",
+        "website": "https://palmettoconservation.org/passage/fort-jackson-passage/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.8404774,
+          33.9981165
+        ]
+      },
+      "id": "relation/11058944"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/11059070",
+        "foot": "yes",
+        "name": "Palmetto Trail",
+        "network": "rwn",
+        "route": "hiking",
+        "type": "route",
+        "website": "https://palmettoconservation.org/palmetto-trail/",
+        "wikidata": "Q7128385",
+        "wikipedia": "en:Palmetto Trail",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.4865689,
+          33.6382847
+        ]
+      },
+      "id": "relation/11059070"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/11062401",
+        "access": "yes",
+        "bicycle": "yes",
+        "foot": "yes",
+        "name": "Palmetto Trail: Newberry Passage",
+        "network": "rwn",
+        "route": "hiking",
+        "type": "route",
+        "website": "https://palmettoconservation.org/passage/newberry/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.6136446,
+          34.3126593
+        ]
+      },
+      "id": "relation/11062401"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/11064223",
+        "access": "yes",
+        "foot": "yes",
+        "mtb": "yes",
+        "name": "Palmetto Trail: Enoree Passage",
+        "network": "rwn",
+        "route": "hiking",
+        "type": "route",
+        "website": "https://palmettoconservation.org/passage/enoree-passage/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.7114464,
+          34.4966971
+        ]
+      },
+      "id": "relation/11064223"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/11103446",
+        "name": "Kingsnake Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.7976427,
+          33.8105175
+        ]
+      },
+      "id": "relation/11103446"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/11103501",
+        "name": "River Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.8483758,
+          33.8072786
+        ]
+      },
+      "id": "relation/11103501"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/11138898",
+        "access": "yes",
+        "foot": "yes",
+        "mtb": "yes",
+        "name": "Palmetto Trail: Oconee Passage",
+        "network": "rwn",
+        "route": "hiking",
+        "type": "route",
+        "website": "https://palmettoconservation.org/passage/oconee-passage/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0901045,
+          34.8605871
+        ]
+      },
+      "id": "relation/11138898"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/11569617",
+        "colour": "blue",
+        "network": "lwn",
+        "operator": "National Park Service",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4443405,
+          33.9069159
+        ]
+      },
+      "id": "relation/11569617"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/11599198",
+        "colour": "blue",
+        "network": "lwn",
+        "operator": "National Park Service",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4454928,
+          33.884225
+        ]
+      },
+      "id": "relation/11599198"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/11918347",
+        "operator": "United States Forest Service",
+        "ref": "FS Trail 192N",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0473506,
+          34.5944486
+        ]
+      },
+      "id": "relation/11918347"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12126733",
+        "name": "Chattooga River Trail",
+        "osmc:symbol": "green",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1318444,
+          34.9567391
+        ]
+      },
+      "id": "relation/12126733"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12360989",
+        "name": "Old Waterwheel Trail",
+        "osmc:symbol": "orange",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0960036,
+          34.8638138
+        ]
+      },
+      "id": "relation/12360989"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12360990",
+        "name": "Oconee Trail",
+        "osmc:symbol": "green",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1027882,
+          34.8605498
+        ]
+      },
+      "id": "relation/12360990"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12369387",
+        "name": "Fork Mountain Trail",
+        "osmc:symbol": "rust",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0815674,
+          35.0046628
+        ]
+      },
+      "id": "relation/12369387"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12379446",
+        "name": "Riley Moore Falls Trail",
+        "osmc:symbol": "purple",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.182271,
+          34.741104
+        ]
+      },
+      "id": "relation/12379446"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12409855",
+        "name": "Heflin Spur",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.6093204,
+          33.6512906
+        ]
+      },
+      "id": "relation/12409855"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/13389131",
+        "name": "Eastatoe Passage of the Palmetto Trail",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.8689059,
+          34.9456195
+        ]
+      },
+      "id": "relation/13389131"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/13511701",
+        "name": "Station Cove Falls Trail",
+        "osmc:symbol": "blue",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0799309,
+          34.8486254
+        ]
+      },
+      "id": "relation/13511701"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/13511702",
+        "name": "Tamassee Knob Trail",
+        "osmc:symbol": "black",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0846769,
+          34.8686295
+        ]
+      },
+      "id": "relation/13511702"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/13831363",
+        "distance": "13",
+        "name": "Bartram National Recreational Trail",
+        "network": "lwn",
+        "operator": "USFS",
+        "osmc:symbol": "white_diamond",
+        "ref": "BNRT",
+        "route": "hiking",
+        "symbol": "white diamond",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.6091465,
+          32.4676452
+        ]
+      },
+      "id": "relation/13831363"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/13900177",
+        "colour": "#008000",
+        "name": "Westside Path",
+        "network": "lwn",
+        "roundtrip": "no",
+        "route": "hiking",
+        "surface": "ground",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3167745,
+          33.8105194
+        ]
+      },
+      "id": "relation/13900177"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/13900197",
+        "colour": "#FF0000",
+        "name": "Creekside Path",
+        "network": "lwn",
+        "roundtrip": "no",
+        "route": "hiking",
+        "surface": "ground",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3166929,
+          33.8109941
+        ]
+      },
+      "id": "relation/13900197"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/13901504",
+        "colour": "#808080",
+        "name": "Central Ridge Path",
+        "network": "lwn",
+        "roundtrip": "no",
+        "route": "hiking",
+        "surface": "ground",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3165857,
+          33.8105194
+        ]
+      },
+      "id": "relation/13901504"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/13901505",
+        "colour": "#0000FF",
+        "name": "Eastside Path",
+        "network": "lwn",
+        "roundtrip": "no",
+        "route": "hiking",
+        "surface": "ground",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3162495,
+          33.8096942
+        ]
+      },
+      "id": "relation/13901505"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/13901507",
+        "colour": "#FFFF00",
+        "name": "High Point Path",
+        "network": "lwn",
+        "roundtrip": "no",
+        "route": "hiking",
+        "surface": "ground",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3167647,
+          33.8112242
+        ]
+      },
+      "id": "relation/13901507"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/13901521",
+        "colour": "#FFA500",
+        "name": "Secret Valley Path",
+        "network": "lwn",
+        "roundtrip": "no",
+        "route": "hiking",
+        "surface": "ground",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3165033,
+          33.8102405
+        ]
+      },
+      "id": "relation/13901521"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/13961165",
+        "fixme": "probably wrong, especially near Chattanooga, but might not be signed and easy to verify. I'm not native to this area so it may be some time before I can conduct a detailed survey.",
+        "name": "Great Eastern Trail - Lookout Mountain",
+        "network": "lwn",
+        "ref": "GET-LM",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.4048183,
+          34.9198296
+        ]
+      },
+      "id": "relation/13961165"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/13961166",
+        "name": "Cloudland Canyon Connector",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.4355374,
+          34.8578869
+        ]
+      },
+      "id": "relation/13961166"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/13961167",
+        "name": "Great Eastern Trail - Old Georgia Roadwalk",
+        "network": "lwn",
+        "ref": "GET-RW",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.4335418,
+          34.5980988
+        ]
+      },
+      "id": "relation/13961167"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/13961168",
+        "name": "Pinhoti Trail - GET Portion",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.8108026,
+          33.6747323
+        ]
+      },
+      "id": "relation/13961168"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14149932",
+        "name": "Big Oak Loop Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1733368,
+          30.3970534
+        ]
+      },
+      "id": "relation/14149932"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14219442",
+        "name": "The Knob Exit Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.5942169,
+          34.4700574
+        ]
+      },
+      "id": "relation/14219442"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14219443",
+        "name": "Gilliam Loop",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.604121,
+          34.4828642
+        ]
+      },
+      "id": "relation/14219443"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14219444",
+        "colour": "yellow",
+        "name": "Desoto Scout Trail",
+        "network": "lwn",
+        "osmc:symbol": "yellow_",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.5994941,
+          34.4798997
+        ]
+      },
+      "id": "relation/14219444"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14480287",
+        "colour": "orange",
+        "name": "Florida National Scenic Trail - Panhandle Region",
+        "network": "nwn",
+        "network:type": "US:NST",
+        "operator": "Florida Trail Association",
+        "operator:type": "private_non_profit",
+        "operator:website": "https://floridatrail.org/",
+        "operator:wikidata": "Q8563986",
+        "operator:wikipedia": "Florida Trail Association",
+        "osmc:symbol": "orange::orange_stripe",
+        "ref": "FT",
+        "route": "hiking",
+        "short_name": "Florida Trail",
+        "symbol": "orange stripe",
+        "type": "route",
+        "website": "https://floridatrail.org/",
+        "wikidata": "Q5461683",
+        "wikipedia": "en:Florida Trail",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.6826224,
+          30.5351313
+        ]
+      },
+      "id": "relation/14480287"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14480288",
+        "colour": "orange",
+        "name": "Florida National Scenic Trail - Northern Region",
+        "network": "nwn",
+        "network:type": "US:NST",
+        "operator": "Florida Trail Association",
+        "operator:type": "private_non_profit",
+        "operator:website": "https://floridatrail.org/",
+        "operator:wikidata": "Q8563986",
+        "operator:wikipedia": "Florida Trail Association",
+        "osmc:symbol": "orange::orange_stripe",
+        "ref": "FT",
+        "route": "hiking",
+        "short_name": "Florida Trail",
+        "symbol": "orange stripe",
+        "type": "route",
+        "website": "https://floridatrail.org/",
+        "wikidata": "Q5461683",
+        "wikipedia": "en:Florida Trail",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.9081394,
+          30.0298718
+        ]
+      },
+      "id": "relation/14480288"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14581859",
+        "name": "Gahuti",
+        "network": "lwn",
+        "operator": "Fort Mountain State Park",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.7038366,
+          34.7659393
+        ]
+      },
+      "id": "relation/14581859"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14581864",
+        "name": "Big Rock Trail",
+        "network": "lwn",
+        "operator": "Fort Mountain State Park",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.7121241,
+          34.7583605
+        ]
+      },
+      "id": "relation/14581864"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14581866",
+        "network": "lwn",
+        "operator": "Fort Mountain State Park",
+        "ref": "201",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.7133556,
+          34.7872418
+        ]
+      },
+      "id": "relation/14581866"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14604122",
+        "description": "This hiking trail leaves the parking lot at the Scull Shoals Historic Area, on the east. The trail leads hikers through flat piney woods to the remains of a historic boarding house.",
+        "distance": "0.2 mi",
+        "local_ref": "FS Trail 128",
+        "name": "Boarding House Trail",
+        "network": "lwn",
+        "operator": "Oconee Ranger District",
+        "operator:addr": "1199 Madison Road Eatonton, GA",
+        "operator:phone": "+1-706-485-7110",
+        "operator:website": "https://www.fs.usda.gov/conf",
+        "ref": "BHT",
+        "route": "hiking",
+        "source": "USFS_import_v0.2_20090219110826",
+        "source_ref": "http://www.fs.usda.gov/conf",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.2887975,
+          33.732501
+        ]
+      },
+      "id": "relation/14604122"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14607390",
+        "description": "This trail is in the Hitchiti Experimental Forest and fol- lows Falling Creek and the Ocmulgee River. One section, marked 184 on the ground, is a shorter loop that does not go to the river.",
+        "distance": "2.5 mi",
+        "name": "Hitchiti Trail",
+        "network": "lwn",
+        "operator": "Oconee Ranger District",
+        "operator:addr": "1199 Madison Road Eatonton, GA",
+        "operator:phone": "+1-706-485-7110",
+        "operator:website": "https://www.fs.usda.gov/conf",
+        "ref": "HT",
+        "route": "hiking",
+        "source": "USFS_import_v0.2_20090219110826",
+        "source_ref": "FS Trail 183",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7153268,
+          33.028781
+        ]
+      },
+      "id": "relation/14607390"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14609133",
+        "name": "Hitchiti Loop Trail",
+        "network": "lwn",
+        "operator": "Oconee Ranger District",
+        "operator:addr": "1199 Madison Road Eatonton, GA",
+        "operator:phone": "+1-706-485-7110",
+        "operator:website": "https://www.fs.usda.gov/conf",
+        "ref": "HLT",
+        "route": "hiking",
+        "source": "USFS_import_v0.2_20090219110826",
+        "source_ref": "FS Trail 184",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7118912,
+          33.03149
+        ]
+      },
+      "id": "relation/14609133"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14612228",
+        "description": "This loop trail begins and ends at the end of Ponder Creek Road. The trail crosses several stream fords and parallels a portion of scenic Chickamauga Creek. Caution: A por- tion of the trail crosses a road (Forest Service Road 250).",
+        "distance": "6.2 mi",
+        "name": "Chickamauga Creek Trail",
+        "network:type": "lwn",
+        "operator": "Conasauga Ranger District",
+        "operator:addr": "3941 Highway 76, Chatsworth, GA 30705",
+        "operator:phone": "+1-706-695-6736",
+        "operator:website": "https://www.fs.usda.gov/conf",
+        "ref": "CCT",
+        "route": "hiking",
+        "source": "USFS_import_v0.2_20090219110826",
+        "source_ref": "FS Trail 67",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.152742,
+          34.7200995
+        ]
+      },
+      "id": "relation/14612228"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14619253",
+        "description": "This loop trail begins and ends at the Johns Mountain Over-look, located at the end of Forest Service Road 208. The trail follows a portion of the ridge top and connects with the Keown Falls Trail above the falls. Caution: The area above the falls is stee",
+        "distance": "3.5 mi",
+        "name": "Johns Mountain Trail",
+        "network": "lwn",
+        "operator": "Conasauga Ranger District",
+        "operator:addr": "3941 Highway 76 Chatsworth, GA 30705",
+        "operator:phone": "+1-706-695-6736",
+        "operator:website": "https://www.fs.usda.gov/recarea/conf/recarea/?recid=10455",
+        "ref": "JMT",
+        "route": "hiking",
+        "source": "USFS_import_v0.2_20090219110826",
+        "source_ref:name": "FS Trail 66",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.0980369,
+          34.6136287
+        ]
+      },
+      "id": "relation/14619253"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14619256",
+        "description": "From Keown Falls Recreation Area this loop trail follows a small stream to an observation deck overlooking Keown Falls. After the trail turns away from the stream, it winds up a series of switchbacks. Caution: The area above the falls is steep with rock b",
+        "distance": "1.8 mi",
+        "name": "Keown Falls Trail",
+        "network": "lwn",
+        "operator": "Conasauga Ranger District",
+        "operator:addr": "3941 Highway 76 Chatsworth, GA 30705",
+        "operator:phone": "+1-706-695-6736",
+        "operator:website": "https://www.fs.usda.gov/recarea/conf/recarea/?recid=10455",
+        "ref": "KFT",
+        "route": "hiking",
+        "source": "USFS_import_v0.2_20090219110826",
+        "source_ref:name": "FS Trail 20",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.0930908,
+          34.6115914
+        ]
+      },
+      "id": "relation/14619256"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14619302",
+        "description": "This loop trail is located in the Pocket Recreation Area. It begins in the picnic area and ends in the campground. This trail passes areas with seeps and springs. “The Pocket” is a horseshoe shaped valley between Horn and Mill Moun-tains.",
+        "distance": "2.5 mi",
+        "name": "Pocket Trail",
+        "network": "lwn",
+        "operator": "Conasauga Ranger District",
+        "operator:addr": "3941 Highway 76 Chatsworth, GA 30705",
+        "operator:phone": "+1-706-695-6736",
+        "operator:website": "https://www.fs.usda.gov/recarea/conf/recarea/?recid=10455",
+        "ref": "PT",
+        "route": "hiking",
+        "source": "USFS_import_v0.2_20090219110826",
+        "source_ref:name": "FS Trail 69",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.077958,
+          34.589523
+        ]
+      },
+      "id": "relation/14619302"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14619333",
+        "description": "Trail descends along a ridge from Brasstown Bald parking lot to Track Rock Gap. There are ups and downs, some steep along the way. The final mile has several switchbacks.  Open ridge tops provide excellent views. This trail is within the Brasstown Wildern",
+        "distance": "5.5 mi",
+        "fax": "+1-706-745-7494",
+        "name": "Arkaquah Trail",
+        "network": "lwn",
+        "operator": "Blue Ridge Ranger District",
+        "operator:addr": "2042 Highway 515 West, Blairsville, GA 30512",
+        "operator:phone": "+1-706-970-9776;+1-706-745-6928",
+        "operator:website": "https://www.fs.usda.gov/recarea/conf/recarea/?recid=10542",
+        "ref": "AT",
+        "route": "hiking",
+        "source": "USFS_import_v0.2_20090219110826",
+        "source_ref:name": "FS Trail 29",
+        "type": "route",
+        "wikidata": "Q4791938",
+        "wikipedia": "en:Arkaquah Trail",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.8440968,
+          34.8766605
+        ]
+      },
+      "id": "relation/14619333"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14719209",
+        "name": "Lake Placid Trail",
+        "osmc:symbol": "green",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3686591,
+          34.927993
+        ]
+      },
+      "id": "relation/14719209"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14719247",
+        "name": "Mountain Creek Trail",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.377381,
+          34.9295602
+        ]
+      },
+      "id": "relation/14719247"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14719248",
+        "name": "Turtle Trail",
+        "osmc:symbol": "red",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3735624,
+          34.9270303
+        ]
+      },
+      "id": "relation/14719248"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/15569912",
+        "horse": "yes",
+        "name": "Fosters Mill Loop Trail",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.8279901,
+          34.8712599
+        ]
+      },
+      "id": "relation/15569912"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/15654269",
+        "colour": "green",
+        "name": "Terrora Lake Loop Trail",
+        "operator": "Georgia State Parks",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.4023082,
+          34.7429845
+        ]
+      },
+      "id": "relation/15654269"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/15656551",
+        "name": "Upper Terrora Natura Trail",
+        "operator": "Georgia State Park",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.4030003,
+          34.7454018
+        ]
+      },
+      "id": "relation/15656551"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/15863488",
+        "colour": "white",
+        "distance": "3.06 km",
+        "name": "Sandhills Hiking Trail",
+        "network": "lwn",
+        "network:type": "lcn",
+        "operator": "Sesquicentennial State Park",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.903441,
+          34.0870358
+        ]
+      },
+      "id": "relation/15863488"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/15907195",
+        "colour": "yellow",
+        "distance": "0.8 km",
+        "name": "Jackson Creek Nature Trail",
+        "network": "lwn",
+        "network:type": "lcn",
+        "operator": "Sesquicentennial State Park",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.9064082,
+          34.0824483
+        ]
+      },
+      "id": "relation/15907195"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/15907240",
+        "colour": "Pink",
+        "distance": "5.63 km",
+        "name": "Loop Trail",
+        "network": "lwn",
+        "network:type": "lcn",
+        "operator": "Sesquicentennial State Park",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.9078927,
+          34.0871256
+        ]
+      },
+      "id": "relation/15907240"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/15949504",
+        "name": "Homestead Trail",
+        "network": "lwn",
+        "operator": "Georgia State Parks & Historic Sites",
+        "route": "hiking",
+        "symbol": "Yellow Paint Blaze",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.7052633,
+          34.1622602
+        ]
+      },
+      "id": "relation/15949504"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/16008172",
+        "distance": "7.3 mi",
+        "name": "Saluda Riverwalk",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0824893,
+          34.0158503
+        ]
+      },
+      "id": "relation/16008172"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/16011738",
+        "name": "Three Rivers Greenway",
+        "network": "rwn",
+        "operator": "The River Alliance",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.10808,
+          33.9917134
+        ]
+      },
+      "id": "relation/16011738"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/16116881",
+        "name": "Palmetto Trail: Cedar Springs Passage",
+        "network": "rwn",
+        "network:type": "rwn",
+        "route": "hiking",
+        "type": "route",
+        "website": "https://palmettoconservation.org/passage/cedar-springs/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.8845573,
+          34.9187644
+        ]
+      },
+      "id": "relation/16116881"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/16144223",
+        "colour": "purple",
+        "name": "Moody Forest Tavia's Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "website": "https://www.nature.org/en-us/get-involved/how-to-help/places-we-protect/moody-forest-natural-area/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.30894,
+          31.917272
+        ]
+      },
+      "id": "relation/16144223"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/16147072",
+        "distance": "4.14 km",
+        "name": "Greenway Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.1762552,
+          34.0460564
+        ]
+      },
+      "id": "relation/16147072"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/16147074",
+        "distance": "0.79 km",
+        "name": "Entrance Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.1845174,
+          34.0502127
+        ]
+      },
+      "id": "relation/16147074"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/16147076",
+        "distance": "0.27 km",
+        "name": "Cattail Connector Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.1843269,
+          34.048586
+        ]
+      },
+      "id": "relation/16147076"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/16147078",
+        "distance": "1.92 km",
+        "name": "Bluebird Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.1736292,
+          34.0487466
+        ]
+      },
+      "id": "relation/16147078"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/16147080",
+        "distance": "0.34 km",
+        "name": "Wetland Loop Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.1862259,
+          34.048296
+        ]
+      },
+      "id": "relation/16147080"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/16147493",
+        "name": "Palmetto Trail: Glenn Springs Passage",
+        "network": "rwn",
+        "network:type": "rwn",
+        "route": "hiking",
+        "type": "route",
+        "website": "https://palmettoconservation.org/passage/glenn-springs-passage/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.8317234,
+          34.819902
+        ]
+      },
+      "id": "relation/16147493"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/16147498",
+        "name": "Palmetto Trail: Croft Passage",
+        "network": "rwn",
+        "network:type": "rwn",
+        "route": "hiking",
+        "type": "route",
+        "website": "https://palmettoconservation.org/passage/croft-passage/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.8442967,
+          34.880654
+        ]
+      },
+      "id": "relation/16147498"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/16152767",
+        "distance": "0.34 km",
+        "name": "Rawl's Creek Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.1848497,
+          34.0500875
+        ]
+      },
+      "id": "relation/16152767"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/16152769",
+        "distance": "0.48 km",
+        "name": "Beaver Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.1853101,
+          34.0500625
+        ]
+      },
+      "id": "relation/16152769"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/16153528",
+        "name": "Palmetto Trail: Hub City Connector",
+        "network": "rwn",
+        "network:type": "rwn",
+        "route": "hiking",
+        "type": "route",
+        "website": "https://palmettoconservation.org/passage/hub-city-connector/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9175042,
+          34.9460583
+        ]
+      },
+      "id": "relation/16153528"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/16155820",
+        "name": "Palmetto Trail: Capital City Passage to Gate 2",
+        "network": "rwn",
+        "route": "hiking",
+        "type": "route",
+        "website": "https://palmettoconservation.org/passage/capital-city-passage/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.9564433,
+          34.0108265
+        ]
+      },
+      "id": "relation/16155820"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/16213017",
+        "colour": "#F00",
+        "name": "Falls Trail",
+        "network": "lwn",
+        "osmc:symbol": "red:white[:red_diamond",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0141583,
+          33.1778756
+        ]
+      },
+      "id": "relation/16213017"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/17135708",
+        "name": "Beech Tree Trail",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.8261106,
+          34.8637037
+        ]
+      },
+      "id": "relation/17135708"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/17135762",
+        "alt_name:1": "Whitestone Springs Spur Trail",
+        "alt_name:2": "Whitestone Spring Trail",
+        "colour": "blue",
+        "name": "Whitestone Springs Trail",
+        "osmc:symbol": "blue",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.8131328,
+          34.8734287
+        ]
+      },
+      "id": "relation/17135762"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/17202732",
+        "distance": "0.4 Miles",
+        "name": "Hiking and Biking Connector",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.5835683,
+          34.2739382
+        ]
+      },
+      "id": "relation/17202732"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/17202734",
+        "distance": "5.3 Miles",
+        "name": "Outer Loop",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.5732045,
+          34.2738337
+        ]
+      },
+      "id": "relation/17202734"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/17202736",
+        "distance": "1.4 Miles",
+        "name": "Inner Loop",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.5761672,
+          34.275685
+        ]
+      },
+      "id": "relation/17202736"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/17202737",
+        "distance": "4.9 Miles",
+        "name": "Palmetto Trail: Lynch's Woods Passage",
+        "network": "lwn",
+        "network:type": "lcn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.5779285,
+          34.2739162
+        ]
+      },
+      "id": "relation/17202737"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/17360827",
+        "name": "Oconee Bell Trail Loop",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.9435351,
+          34.9500468
+        ]
+      },
+      "id": "relation/17360827"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/17361328",
+        "name": "Appalachian Lumber Trail (North)",
+        "osmc:symbol": "yellow",
+        "route": "hiking",
+        "symbol": "yellow",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.813147,
+          34.954656
+        ]
+      },
+      "id": "relation/17361328"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/17730272",
+        "colour": "blue",
+        "name": "Blue Trail",
+        "osmc:symbol": "blue",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.8666947,
+          34.9927012
+        ]
+      },
+      "id": "relation/17730272"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/17730273",
+        "colour": "red",
+        "name": "Red Trail",
+        "osmc:symbol": "red",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.8666364,
+          34.9968368
+        ]
+      },
+      "id": "relation/17730273"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/17730298",
+        "colour": "orange",
+        "name": "Orange Trail",
+        "osmc:symbol": "oragne",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.8655223,
+          34.9930607
+        ]
+      },
+      "id": "relation/17730298"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/17730353",
+        "colour": "yellow",
+        "name": "Yellow Trail",
+        "osmc:symbol": "yellow",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.8630467,
+          34.9931368
+        ]
+      },
+      "id": "relation/17730353"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/17730354",
+        "colour": "green",
+        "name": "Green Trail",
+        "osmc:symbol": "green",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.864325,
+          34.9881617
+        ]
+      },
+      "id": "relation/17730354"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/17730385",
+        "colour": "pink",
+        "name": "Pink Trail",
+        "osmc:symbol": "pink",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.8631865,
+          34.9928219
+        ]
+      },
+      "id": "relation/17730385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/17808998",
+        "name": "Paleo Trail",
+        "network": "lwn",
+        "network:type": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.2091991,
+          33.7517857
+        ]
+      },
+      "id": "relation/17808998"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/17830168",
+        "name": "Little Gap Trail",
+        "network": "lwn",
+        "network:type": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.396995,
+          34.0805513
+        ]
+      },
+      "id": "relation/17830168"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/17830205",
+        "name": "Billy Dreher Nature Trail",
+        "network": "lwn",
+        "network:type": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4125961,
+          34.0844718
+        ]
+      },
+      "id": "relation/17830205"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/17859755",
+        "name": "Surrey Trace",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.747229,
+          33.5454643
+        ]
+      },
+      "id": "relation/17859755"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/17859756",
+        "name": "Whitney Drive",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.7508313,
+          33.5445706
+        ]
+      },
+      "id": "relation/17859756"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/17859757",
+        "name": "Swampy Cut Line",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.7492193,
+          33.5455259
+        ]
+      },
+      "id": "relation/17859757"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/17859758",
+        "name": "Peek-A-Boo Lane",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.7497871,
+          33.5498599
+        ]
+      },
+      "id": "relation/17859758"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/17859759",
+        "name": "Cathedral Aisle",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.7621235,
+          33.5512564
+        ]
+      },
+      "id": "relation/17859759"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/18048909",
+        "name": "Chattooga River Trail",
+        "network": "rwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.2799089,
+          34.840631
+        ]
+      },
+      "id": "relation/18048909"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/18094278",
+        "name": "Amadahy Trail",
+        "network": "lwn",
+        "operator": "US Army Corps of Engineers",
+        "route": "hiking",
+        "type": "route",
+        "website": "https://www.sam.usace.army.mil/Portals/46/docs/recreation/carters/docs/Trails.pdf",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.648606,
+          34.6245584
+        ]
+      },
+      "id": "relation/18094278"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/18153115",
+        "distance": "1.29",
+        "name": "Wildflower Trail",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.232619,
+          34.0189638
+        ]
+      },
+      "id": "relation/18153115"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/18153116",
+        "distance": "0.58",
+        "name": "Miller's Trail",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2324909,
+          34.0197472
+        ]
+      },
+      "id": "relation/18153116"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/18153117",
+        "distance": "1 mile",
+        "name": "Perimeter Trail",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2318747,
+          34.0181544
+        ]
+      },
+      "id": "relation/18153117"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/18227848",
+        "name": "West Columbia Riverwalk",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0546424,
+          33.9940844
+        ]
+      },
+      "id": "relation/18227848"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/18227851",
+        "name": "Cayce Riverwalk",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0389775,
+          33.9621831
+        ]
+      },
+      "id": "relation/18227851"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/18227852",
+        "name": "Timmerman Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0358761,
+          33.9389382
+        ]
+      },
+      "id": "relation/18227852"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/18231038",
+        "name": "Granby Park",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0433637,
+          33.9816022
+        ]
+      },
+      "id": "relation/18231038"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/18231435",
+        "name": "Innovista Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0388588,
+          33.9917463
+        ]
+      },
+      "id": "relation/18231435"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/18319351",
+        "blaze": "white",
+        "description": "Appalachian Trail - North Carolina & Tennessee",
+        "direction": "both",
+        "name": "Appalachian Trail",
+        "network": "nwn",
+        "network:type": "US:NST",
+        "osmc:symbol": "white::white_stripe",
+        "ref": "AT",
+        "route": "hiking",
+        "type": "route",
+        "wikidata": "Q134446292",
+        "wikipedia": "en:Appalachian Trail",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.8232273,
+          35.803407
+        ]
+      },
+      "id": "relation/18319351"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/18543903",
+        "name": "Willie Barton's Line",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.7448653,
+          33.5435712
+        ]
+      },
+      "id": "relation/18543903"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/18800270",
+        "colour": "blue",
+        "name": "Four Tower Trail",
+        "osmc:symbol": "blue::blue_circle",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.8038657,
+          34.9532958
+        ]
+      },
+      "id": "relation/18800270"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/19383049",
+        "name": "Upper Chinquapin Greenway",
+        "operator": "SPACE",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9587412,
+          34.9828957
+        ]
+      },
+      "id": "relation/19383049"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/19474960",
+        "name": "Cottonwood Trail",
+        "network": "lwn",
+        "operator": "SPACE Spartanburg Area Conservancy",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.891844,
+          34.9511279
+        ]
+      },
+      "id": "relation/19474960"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/19893064",
+        "colour": "orange",
+        "name": "Hunt Club Trail",
+        "osmc:symbol": "orange",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.8271405,
+          34.9501526
+        ]
+      },
+      "id": "relation/19893064"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/19893065",
+        "colour": "purple",
+        "name": "South Knob Trail",
+        "network": "lwn",
+        "osmc:symbol": "purple",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.8255721,
+          34.9462216
+        ]
+      },
+      "id": "relation/19893065"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/19893066",
+        "colour": "white",
+        "name": "Box Turtle Trail",
+        "osmc:symbol": "white",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.8281728,
+          34.9445439
+        ]
+      },
+      "id": "relation/19893066"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/20042352",
+        "name": "Garden of Eden Trail",
+        "network": "lwn",
+        "roundtrip": "yes",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.9806022,
+          30.4591687
+        ]
+      },
+      "id": "relation/20042352"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/20655392",
+        "direction": "both",
+        "name": "Appalachian Approach Trail",
+        "route": "hiking",
+        "type": "route",
+        "wikidata": "Q139691201",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2203741,
+          34.5922079
+        ]
+      },
+      "id": "relation/20655392"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/20987244",
+        "name": "Winding Stairs Trail",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0838022,
+          34.9318419
+        ]
+      },
+      "id": "relation/20987244"
+    }
+  ]
+}

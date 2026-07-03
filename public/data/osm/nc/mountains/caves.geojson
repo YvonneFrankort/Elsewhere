@@ -1,0 +1,436 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-06-28T00:45:45Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1563061906",
+        "fee": "yes",
+        "name": "Bristol Caverns",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.1214156,
+          36.5504789
+        ]
+      },
+      "id": "node/1563061906"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1852177595",
+        "name": "Cherokee Cavern",
+        "natural": "cave_entrance",
+        "wikidata": "Q131782875",
+        "wikipedia": "en:Cherokee Caverns"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1651382,
+          35.9800162
+        ]
+      },
+      "id": "node/1852177595"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4303472323",
+        "access": "yes",
+        "name": "Torys Den",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.3002883,
+          36.4031304
+        ]
+      },
+      "id": "node/4303472323"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5850668707",
+        "access": "yes",
+        "name": "Etowah Gold Tunnel",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0492681,
+          34.448181
+        ]
+      },
+      "id": "node/5850668707"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6047089291",
+        "name": "Boone's Cave",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.4674667,
+          35.799726
+        ]
+      },
+      "id": "node/6047089291"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8406074664",
+        "name": "Indian Cave",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6002581,
+          36.1607856
+        ]
+      },
+      "id": "node/8406074664"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8679561351",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.8373462,
+          36.3968982
+        ]
+      },
+      "id": "node/8679561351"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9434802639",
+        "name": "Worley's Cave",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.2282696,
+          36.4563846
+        ]
+      },
+      "id": "node/9434802639"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9757669069",
+        "name": "Hibriten Cave",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4872175,
+          35.9096861
+        ]
+      },
+      "id": "node/9757669069"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9757852375",
+        "access": "no",
+        "description": "This is technically a no entrance, no hiking train tunnel. However, it is 0.34 mile long or 1800 feet. Any attempts to trail through it should have flashlights and be prepared to lay down against the tunnel wall if a train were to come through.",
+        "image": "https://photos.google.com/share/AF1QipMaoRpUVIgfY54LAwC4AV5t7XUi0eurOC4YiLfDCmVh-rt0Xf-XmmB9ybtD8Gx-hA?key=ZHJTMUFuUFg2YTJTZVNZMVE1WHpLRHNiSWR0NVNB",
+        "name": "Swannanoa Train Tunnel, NE Entrance",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.2698791,
+          35.6230848
+        ]
+      },
+      "id": "node/9757852375"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10790815678",
+        "access": "customers",
+        "direction": "325",
+        "fee": "yes",
+        "name": "Linville Caverns",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9387987,
+          35.9191885
+        ]
+      },
+      "id": "node/10790815678"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11215387603",
+        "direction": "36°17'09.0\"N 82°09'18.0\"W",
+        "name": "Grindstaff Cave (Main Entrance)",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.1555434,
+          36.2864073
+        ]
+      },
+      "id": "node/11215387603"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11367017902",
+        "name": "UNK",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.449655,
+          36.3468205
+        ]
+      },
+      "id": "node/11367017902"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11878041669",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0951797,
+          34.9326828
+        ]
+      },
+      "id": "node/11878041669"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11951970778",
+        "name": "Cave Vicinity Grindstaff Cave",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.1547054,
+          36.2862273
+        ]
+      },
+      "id": "node/11951970778"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11951987895",
+        "name": "Watauga Bluffs Cave",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.298322,
+          36.3652026
+        ]
+      },
+      "id": "node/11951987895"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11952001973",
+        "name": "Grindstaff Cave (Secondary Entrance)",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.1549571,
+          36.286395
+        ]
+      },
+      "id": "node/11952001973"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11952318739",
+        "name": "Rock House Cave",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.2997702,
+          36.2765672
+        ]
+      },
+      "id": "node/11952318739"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11952351830",
+        "name": "Click Creek Cave",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6271756,
+          36.5800202
+        ]
+      },
+      "id": "node/11952351830"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11952365600",
+        "name": "Sensabaugh Saltpeter Cave",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.634731,
+          36.5658401
+        ]
+      },
+      "id": "node/11952365600"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11952375888",
+        "name": "Church Cove Cave (Appx)",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.9141917,
+          36.5368178
+        ]
+      },
+      "id": "node/11952375888"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11952401632",
+        "name": "Pearson Cave",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0166796,
+          36.5520502
+        ]
+      },
+      "id": "node/11952401632"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11952404292",
+        "name": "Horner Cave",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.9737408,
+          36.4801823
+        ]
+      },
+      "id": "node/11952404292"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12452970277",
+        "name": "Panther Cave",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.121597,
+          36.0643383
+        ]
+      },
+      "id": "node/12452970277"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12599782154",
+        "name": "B-047",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.3973289,
+          34.3943301
+        ]
+      },
+      "id": "node/12599782154"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13618521339",
+        "description": "Short passageway between a split boulder with a tight squeeze and challenging climb out. Recommended to start at the bottom squeeze and attempt to reach the top.",
+        "fee": "no",
+        "name": "Fatty Crack",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.70543,
+          35.0418058
+        ]
+      },
+      "id": "node/13618521339"
+    }
+  ]
+}

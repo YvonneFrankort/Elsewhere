@@ -1,0 +1,796 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-06-27T23:45:44Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/369003329",
+        "addr:state": "MD",
+        "ele": "93",
+        "gnis:feature_id": "1713599",
+        "landuse": "quarry",
+        "name": "Dargan Quarry",
+        "natural": "cave_entrance",
+        "wikidata": "Q49407463"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.7430485,
+          39.3695448
+        ]
+      },
+      "id": "node/369003329"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2364560698",
+        "direction": "S",
+        "name": "Old Man's Cave",
+        "natural": "cave_entrance",
+        "tourism": "yes",
+        "wikidata": "Q49535104"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.5431443,
+          39.4332813
+        ]
+      },
+      "id": "node/2364560698"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2441726161",
+        "name": "The Grotto",
+        "natural": "cave_entrance",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.5769717,
+          39.4583144
+        ]
+      },
+      "id": "node/2441726161"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2442043853",
+        "name": "Chapel Cave",
+        "natural": "cave_entrance",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.557968,
+          39.4680165
+        ]
+      },
+      "id": "node/2442043853"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3655748666",
+        "name": "Skyline Caverns",
+        "natural": "cave_entrance",
+        "operator": "Skyline Group",
+        "source:position": "Bing",
+        "tourism": "attraction",
+        "website": "https://skylinecaverns.com/",
+        "wikidata": "Q7537893",
+        "wikipedia": "en:Skyline Caverns"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.2161796,
+          38.8992833
+        ]
+      },
+      "id": "node/3655748666"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3677680227",
+        "fee": "yes",
+        "name": "Endless Caverns",
+        "natural": "cave_entrance",
+        "source:position": "Bing",
+        "wikidata": "Q5376163"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.6753276,
+          38.5945379
+        ]
+      },
+      "id": "node/3677680227"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3732002800",
+        "access": "customers",
+        "fee": "yes",
+        "name": "Seneca Caverns",
+        "natural": "cave_entrance",
+        "opening_hours": "We-Su 10:00-17:00",
+        "wheelchair": "no",
+        "wikidata": "Q7450278",
+        "wikipedia": "en:Seneca Caverns (West Virginia)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.388886,
+          38.7628959
+        ]
+      },
+      "id": "node/3732002800"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4044340282",
+        "access": "permissive",
+        "name": "Sinks Of Gandy Upstream Entrance",
+        "natural": "cave_entrance",
+        "wikidata": "Q7524618",
+        "wikipedia": "en:Sinks of Gandy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.642769,
+          38.7150572
+        ]
+      },
+      "id": "node/4044340282"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4044340283",
+        "access": "permissive",
+        "name": "Sinks of Gandy Downstream Entrance",
+        "natural": "cave_entrance",
+        "wikidata": "Q7524618",
+        "wikipedia": "en:Sinks of Gandy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6348463,
+          38.7188738
+        ]
+      },
+      "id": "node/4044340283"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4308132229",
+        "access": "permissive",
+        "fee": "no",
+        "name": "Tytoona Cave",
+        "natural": "cave_entrance",
+        "wheelchair": "no",
+        "wikidata": "Q7861853",
+        "wikipedia": "en:Tytoona Cave"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.2178412,
+          40.6017278
+        ]
+      },
+      "id": "node/4308132229"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4506932062",
+        "access": "private",
+        "fee": "no",
+        "name": "Whitting's Neck Cave",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.8554519,
+          39.512387
+        ]
+      },
+      "id": "node/4506932062"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4753378285",
+        "fee": "no",
+        "natural": "cave_entrance",
+        "operator": "City of Athens",
+        "operator:type": "government"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.0765472,
+          39.3455948
+        ]
+      },
+      "id": "node/4753378285"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4949032756",
+        "access": "private",
+        "name": "Cumberland Bone Cave",
+        "natural": "cave_entrance",
+        "wikidata": "Q5193844",
+        "wikipedia": "en:Cumberland Bone Cave"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.788314,
+          39.6910597
+        ]
+      },
+      "id": "node/4949032756"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5618093186",
+        "access": "no",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.2087007,
+          38.9048647
+        ]
+      },
+      "id": "node/5618093186"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6069810302",
+        "natural": "cave_entrance",
+        "noexit": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3014767,
+          38.3967223
+        ]
+      },
+      "id": "node/6069810302"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6810441777",
+        "natural": "cave_entrance",
+        "tourism": "attraction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4571937,
+          38.6298061
+        ]
+      },
+      "id": "node/6810441777"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7089699089",
+        "name": "Killiansburg Cave",
+        "natural": "cave_entrance",
+        "website": "https://www.canaltrust.org/pyv/killiansburg-cave/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.7900225,
+          39.4600696
+        ]
+      },
+      "id": "node/7089699089"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7711967421",
+        "name": "Panther Cave1",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.317384,
+          39.0173358
+        ]
+      },
+      "id": "node/7711967421"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7713920458",
+        "name": "Ogdens Cave",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.3197309,
+          39.044881
+        ]
+      },
+      "id": "node/7713920458"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7738288133",
+        "access": "yes",
+        "description": "Rock formation known as Pete's Cave. While there is a small part that would require a light to see most of this area is just rock formation with place where the rock has split to make caves. It is however really neat and worth the explore.",
+        "ele": "914",
+        "ele:ft": "3000",
+        "fee": "no",
+        "image": "https://www.mtbproject.com/photo/7029946/petes-cave-petes-never-home",
+        "name": "Pete's Cave",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6621411,
+          37.7815969
+        ]
+      },
+      "id": "node/7738288133"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8493263562",
+        "access": "customers",
+        "fee": "yes",
+        "name": "Caverns at Natural Bridge",
+        "natural": "cave_entrance",
+        "opening_hours": "Mar-Nov Mo-Su 10:00-17:00; Dec-Feb Fr-Su 10:00-16:00",
+        "phone": "+1 540-291-2482",
+        "tourism": "attraction",
+        "website": "https://naturalbridgeva.com/caverns/",
+        "wheelchair": "no",
+        "wikidata": "Q96408520"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5410355,
+          37.635669
+        ]
+      },
+      "id": "node/8493263562"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8993636471",
+        "access": "customers",
+        "addr:housenumber": "101",
+        "addr:postcode": "22835",
+        "addr:street": "Cave Hill Road",
+        "direction": "130",
+        "fee": "yes",
+        "name": "Luray Caverns",
+        "natural": "cave_entrance",
+        "opening_hours": "Mo-Su 09:00-17:00",
+        "phone": "+15407436551",
+        "tourism": "attraction",
+        "website": "https://luraycaverns.com/",
+        "wikidata": "Q1476610",
+        "wikipedia": "en:Luray Caverns"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.4835622,
+          38.6632768
+        ]
+      },
+      "id": "node/8993636471"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9081231937",
+        "access": "customers",
+        "addr:country": "US",
+        "addr:housenumber": "261",
+        "addr:postcode": "22847",
+        "addr:state": "VA",
+        "addr:street": "Caverns Road",
+        "addr:town": "Quicksburg",
+        "charge": "30 USD",
+        "fee": "yes",
+        "name": "Shenandoah Caverns",
+        "natural": "cave_entrance",
+        "opening_hours": "Mo-Su 09:00-17:00",
+        "phone": "+1 540 477 3115",
+        "tourism": "attraction",
+        "website": "https://shenandoahcaverns.com/",
+        "wikidata": "Q7494160"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.6692762,
+          38.7155149
+        ]
+      },
+      "id": "node/9081231937"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9127663025",
+        "name": "Olds Hollow Cave",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3336606,
+          39.3304536
+        ]
+      },
+      "id": "node/9127663025"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9507936032",
+        "access": "no",
+        "name": "Adams Cave",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7812991,
+          38.8479721
+        ]
+      },
+      "id": "node/9507936032"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9900161463",
+        "name": "Davey Lewis' Cave",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.5018657,
+          39.996628
+        ]
+      },
+      "id": "node/9900161463"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9913438479",
+        "name": "Organ Cave",
+        "natural": "cave_entrance",
+        "tourism": "attraction",
+        "wikidata": "Q7101750"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.4362982,
+          37.7181564
+        ]
+      },
+      "id": "node/9913438479"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10759548129",
+        "access": "customers",
+        "fee": "yes",
+        "name": "Smoke Hole Caverns",
+        "natural": "cave_entrance",
+        "wikidata": "Q7545849",
+        "wikipedia": "en:Smoke Hole Caverns"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.2658116,
+          38.9865102
+        ]
+      },
+      "id": "node/10759548129"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10892448893",
+        "name": "Piatt Gorge Caves",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0512521,
+          39.7649218
+        ]
+      },
+      "id": "node/10892448893"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11108947237",
+        "name": "Trough Creek Ice Mine",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.1231636,
+          40.3323936
+        ]
+      },
+      "id": "node/11108947237"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11649265643",
+        "fee": "no",
+        "name": "Carr\"s Tunnel",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.467,
+          40.3100397
+        ]
+      },
+      "id": "node/11649265643"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11788839015",
+        "access": "no",
+        "gnis:feature_id": "1465504",
+        "name": "Crystal Caverns (Inaccessible)",
+        "natural": "cave_entrance",
+        "note": "Closed in 2010"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.3497771,
+          39.0007509
+        ]
+      },
+      "id": "node/11788839015"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12043750272",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.7562508,
+          39.3933733
+        ]
+      },
+      "id": "node/12043750272"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12068887343",
+        "name": "Saltpeter Cave",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.548178,
+          37.6298497
+        ]
+      },
+      "id": "node/12068887343"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12214789723",
+        "name": "Dixie Caverns",
+        "natural": "cave_entrance",
+        "tourism": "attraction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.1761842,
+          37.2529386
+        ]
+      },
+      "id": "node/12214789723"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12279052458",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.0881481,
+          39.3207076
+        ]
+      },
+      "id": "node/12279052458"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12403654645",
+        "name": "Badger Cave",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6211456,
+          39.4799357
+        ]
+      },
+      "id": "node/12403654645"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12532822457",
+        "name": "Turtlehead Cave",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.0623213,
+          39.3456965
+        ]
+      },
+      "id": "node/12532822457"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12966468624",
+        "access": "yes",
+        "fee": "no",
+        "name": "Rock House",
+        "natural": "cave_entrance",
+        "operator": "State of Ohio Department of Natural Resources",
+        "operator:type": "government"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.0723974,
+          39.3441545
+        ]
+      },
+      "id": "node/12966468624"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13009707102",
+        "access": "customers",
+        "name": "Grand Caverns",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.8355817,
+          38.2604585
+        ]
+      },
+      "id": "node/13009707102"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13106647465",
+        "access": "customers",
+        "name": "Cesspool Cave",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.232128,
+          37.664538
+        ]
+      },
+      "id": "node/13106647465"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13196883345",
+        "name": "Hills Creek Sink",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.2772129,
+          38.1198735
+        ]
+      },
+      "id": "node/13196883345"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13347127338",
+        "name": "Water Sinks",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6054017,
+          38.2223811
+        ]
+      },
+      "id": "node/13347127338"
+    }
+  ]
+}

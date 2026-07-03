@@ -1,0 +1,629 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-06-27T23:28:30Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/166587",
+        "boundary": "protected_area",
+        "name": "Blue Ridge Parkway",
+        "operator": "National Park Service",
+        "operator:short": "NPS",
+        "operator:type": "public",
+        "operator:wikidata": "Q308439",
+        "operator:wikipedia": "en:National Park Service",
+        "ownership": "national",
+        "protect_class": "2",
+        "protected": "perpetuity",
+        "protection_title": "National Parkway",
+        "source": "NC Center for Geographic Information and Analysis, Raleigh, North Carolina (http://www.nconemap.com)",
+        "source:va": "USGS topographic maps",
+        "type": "boundary",
+        "wikidata": "Q885856",
+        "wikipedia": "en:Blue Ridge Parkway",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0708144,
+          36.6644872
+        ]
+      },
+      "id": "relation/166587"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/543045",
+        "boundary": "protected_area",
+        "ele": "87",
+        "gnis:feature_id": "1306469",
+        "leisure": "park",
+        "name": "T.O. Fuller State Park",
+        "operator": "Tennessee Department of Environment and Convservation",
+        "park:type": "state_park",
+        "protect_class": "2",
+        "protection_title": "State Park",
+        "type": "boundary",
+        "website": "https://tnstateparks.com/parks/t-o-fuller",
+        "wikidata": "Q7668565",
+        "wikipedia": "en:T. O. Fuller State Park",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.1129394,
+          35.0654805
+        ]
+      },
+      "id": "relation/543045"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/2131838",
+        "boundary": "protected_area",
+        "contact:facebook": "https://www.facebook.com/GreatSmokyMountainsNPS",
+        "contact:instagram": "https://www.instagram.com/GreatSmokyNPS/",
+        "contact:twitter": "https://twitter.com/GreatSmokyNPS",
+        "heritage": "1",
+        "heritage:operator": "whc",
+        "leisure": "nature_reserve",
+        "name": "Great Smoky Mountains National Park",
+        "name:ar": "المنتزه الوطني لجبال غرايت سموكي العظيمة",
+        "name:en": "Great Smoky Mountains National Park",
+        "name:es": "Parque Nacional de Great Smoky Mountains",
+        "name:fr": "Parc national des Great Smoky Mountains",
+        "name:ja": "グレート・スモーキー山脈国立公園",
+        "name:nl": "Nationaal park Great Smoky Mountains",
+        "name:ru": "Национальный парк Грейт-Смоки-Маунтинс",
+        "name:zh": "大烟雾山国家公园",
+        "network": "National Parks of the United States",
+        "network:wikidata": "Q34918903",
+        "operator": "National Park Service",
+        "operator:short": "NPS",
+        "operator:type": "public",
+        "operator:wikidata": "Q308439",
+        "operator:wikipedia": "en:National Park Service",
+        "ownership": "national",
+        "phone": "+1-865-436-1200",
+        "protect_class": "2",
+        "protected": "perpetuity",
+        "protected_area": "national_park",
+        "protection_title": "National Park",
+        "ref:whc": "259",
+        "source": "NPS",
+        "type": "boundary",
+        "website": "https://www.nps.gov/grsm",
+        "whc:criteria": "(vii)(viii)(ix)(x)",
+        "whc:inscription_date": "1983",
+        "wikidata": "Q464004",
+        "wikipedia": "en:Great Smoky Mountains National Park",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.5059667,
+          35.6341466
+        ]
+      },
+      "id": "relation/2131838"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/2918501",
+        "access": "yes",
+        "addr:city": "Sapphire",
+        "addr:housenumber": "976",
+        "addr:postcode": "28774",
+        "addr:state": "NC",
+        "addr:street": "Grassy Ridge Road",
+        "boundary": "protected_area",
+        "ele": "577",
+        "email": "gorges@ncparks.gov",
+        "gnis:feature_id": "2374754",
+        "name": "Gorges State Park",
+        "operator": "North Carolina Division of Parks and Recreation",
+        "owner": "State of North Carolina",
+        "ownership": "state",
+        "phone": "+1-828-966-9099",
+        "protect_class": "2",
+        "protected": "perpetuity",
+        "protection_title": "State Park",
+        "related_law": "SL 1997-276",
+        "start_date": "1999",
+        "type": "boundary",
+        "website": "https://www.ncparks.gov/gorges-state-park",
+        "wikidata": "Q3364051",
+        "wikipedia": "en:Gorges State Park",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.9172544,
+          35.0897162
+        ]
+      },
+      "id": "relation/2918501"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/3085949",
+        "access": "yes",
+        "addr:city": "Nebo",
+        "addr:housenumber": "7321",
+        "addr:postcode": "28761",
+        "addr:state": "NC",
+        "addr:street": "NC Hwy 126",
+        "boundary": "protected_area",
+        "email": "lake.james@ncparks.gov",
+        "name": "Lake James State Park",
+        "operator": "North Carolina Division of Parks and Recreation",
+        "owner": "State of North Carolina",
+        "ownership": "state",
+        "phone": "+1-828-584-7728",
+        "protect_class": "2",
+        "protected": "perpetuity",
+        "protection_title": "State Park",
+        "start_date": "1987",
+        "type": "boundary",
+        "website": "https://www.ncparks.gov/lake-james-state-park",
+        "wikidata": "Q6476330",
+        "wikipedia": "en:Lake James State Park",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.8743012,
+          35.7588527
+        ]
+      },
+      "id": "relation/3085949"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/7192241",
+        "boundary": "protected_area",
+        "gnis:feature_id": "490476",
+        "historic": "yes",
+        "leisure": "nature_reserve",
+        "name": "Cumberland Gap National Historical Park",
+        "operator": "National Park Service",
+        "operator:short": "NPS",
+        "operator:type": "public",
+        "operator:wikidata": "Q308439",
+        "operator:wikipedia": "en:National Park Service",
+        "ownership": "national",
+        "protect_class": "2",
+        "protected": "perpetuity",
+        "protected_area": "historic_site",
+        "protection_title": "National Historical Park",
+        "start_date": "1940",
+        "type": "boundary",
+        "website": "https://www.nps.gov/cuga",
+        "wikidata": "Q5193892",
+        "wikipedia": "en:Cumberland Gap National Historical Park",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6062152,
+          36.6186928
+        ]
+      },
+      "id": "relation/7192241"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/7270564",
+        "access": "yes",
+        "addr:city": "Burnsville",
+        "addr:housenumber": "2388",
+        "addr:postcode": "28714",
+        "addr:state": "NC",
+        "addr:street": "N.C. 128",
+        "boundary": "protected_area",
+        "email": "mount.mitchell@ncparks.gov",
+        "name": "Mount Mitchell State Park",
+        "operator": "North Carolina Division of Parks and Recreation",
+        "owner": "State of North Carolina",
+        "ownership": "state",
+        "phone": "+1-828-675-4611",
+        "protect_class": "2",
+        "protected": "perpetuity",
+        "protection_title": "State Park",
+        "source": "NCOnemap",
+        "start_date": "1915",
+        "type": "boundary",
+        "website": "https://www.ncparks.gov/mount-mitchell-state-park/",
+        "wikidata": "Q6922218",
+        "wikipedia": "en:Mount Mitchell State Park",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.2943864,
+          35.8040108
+        ]
+      },
+      "id": "relation/7270564"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/7359868",
+        "access": "yes",
+        "addr:city": "Todd",
+        "addr:housenumber": "5564",
+        "addr:postcode": "28684",
+        "addr:state": "NC",
+        "addr:street": "Meat Camp Road",
+        "boundary": "protected_area",
+        "ele": "1521",
+        "email": "elk.knob@ncparks.gov",
+        "gnis:feature_id": "2374752",
+        "name": "Elk Knob State Park",
+        "operator": "North Carolina Division of Parks and Recreation",
+        "owner": "State of North Carolina",
+        "ownership": "state",
+        "phone": "+1-828-297-7261",
+        "protect_class": "2",
+        "protected": "perpetuity",
+        "protection_title": "State Park",
+        "source": "NCOnemap",
+        "start_date": "2003",
+        "type": "boundary",
+        "website": "https://www.ncparks.gov/elk-knob-state-park",
+        "wikidata": "Q3364009",
+        "wikipedia": "en:Elk Knob State Park",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.6696926,
+          36.361856
+        ]
+      },
+      "id": "relation/7359868"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9424104",
+        "boundary": "protected_area",
+        "email": "grandfather.mountain@ncparks.gov",
+        "name": "Grandfather Mountain State Park",
+        "operator": "North Carolina Division of Parks and Recreation",
+        "owner": "State of North Carolina",
+        "ownership": "state",
+        "phone": "+1-828-963-9522",
+        "protect_class": "2",
+        "protected": "perpetuity",
+        "protection_title": "State Park",
+        "start_date": "2008",
+        "type": "boundary",
+        "website": "https://www.ncparks.gov/state-parks/grandfather-mountain-state-park",
+        "wikidata": "Q833467",
+        "wikipedia": "en:Grandfather Mountain",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.8104794,
+          36.1165885
+        ]
+      },
+      "id": "relation/9424104"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9438909",
+        "boundary": "protected_area",
+        "name": "Yellow Mountain State Natural Area",
+        "operator": "North Carolina Division of Parks and Recreation",
+        "operator:short": "NCDPR",
+        "operator:type": "government",
+        "operator:wikidata": "Q109328529",
+        "owner": "State of North Carolina",
+        "ownership": "state",
+        "protect_class": "2",
+        "protected": "perpetuity",
+        "protection_title": "State Natural Area",
+        "source": "NCOnemap",
+        "start_date": "2008",
+        "type": "boundary",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.0509954,
+          36.0365066
+        ]
+      },
+      "id": "relation/9438909"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/11323312",
+        "boundary": "protected_area",
+        "name": "Pisgah View State Park",
+        "note": "NC plans on acquiring the land for the park in five phases from 2020 to 2025.",
+        "operator": "North Carolina Division of Parks and Recreation",
+        "owner": "State of North Carolina",
+        "ownership": "state",
+        "protect_class": "2",
+        "protected": "perpetuity",
+        "protection_title": "State Park",
+        "related_law": "SL2019-138",
+        "start_date": "2019",
+        "type": "boundary",
+        "wikidata": "Q85793442",
+        "wikipedia": "en:Pisgah View State Park",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.7800833,
+          35.4830189
+        ]
+      },
+      "id": "relation/11323312"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/11748811",
+        "boundary": "protected_area",
+        "name": "Frozen Head State Park",
+        "protect_class": "2",
+        "protection_title": "state park",
+        "type": "multipolygon",
+        "website": "https://tnstateparks.com/parks/about/frozen-head",
+        "wikidata": "Q5506296",
+        "wikipedia": "en:Frozen Head State Park",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5024173,
+          36.1205377
+        ]
+      },
+      "id": "relation/11748811"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/11748820",
+        "boundary": "protected_area",
+        "name": "Justin P. Wilson Cumberland Trail State Park",
+        "operator": "Tennessee Department of Environment and Conservation",
+        "operator:type": "government",
+        "operator:wikidata": "Q7700063",
+        "ownership": "state",
+        "protect_class": "2",
+        "protected": "perpetuity",
+        "protection_title": "State Park",
+        "start_date": "1998",
+        "type": "boundary",
+        "wikipedia": "en:Justin P. Wilson Cumberland Trail State Park",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5726387,
+          35.8649713
+        ]
+      },
+      "id": "relation/11748820"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/11773751",
+        "boundary": "protected_area",
+        "ele": "68",
+        "gnis:feature_id": "1306741",
+        "leisure": "nature_reserve",
+        "name": "Meeman-Shelby Forest State Park",
+        "operator": "Tennessee Department of Environment and Convservation",
+        "ownership": "state",
+        "protect_class": "2",
+        "protected": "perpetuity",
+        "protection_title": "State Park",
+        "type": "boundary",
+        "website": "https://tnstateparks.com/parks/meeman-shelby",
+        "wikidata": "Q3364076",
+        "wikipedia": "en:Meeman-Shelby Forest State Park",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.0560994,
+          35.335675
+        ]
+      },
+      "id": "relation/11773751"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/11785214",
+        "boundary": "protected_area",
+        "name": "Dunbar Cave State Park",
+        "operator": "Tennessee Department of Environment and Convservation",
+        "protect_class": "2",
+        "protection_title": "State Park",
+        "type": "boundary",
+        "wikidata": "Q5314133",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.3044479,
+          36.5565965
+        ]
+      },
+      "id": "relation/11785214"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/11788073",
+        "boundary": "protected_area",
+        "heritage": "2",
+        "heritage:operator": "nrhp",
+        "name": "Fort Pillow State Historic Park",
+        "nrhp:criteria": "(A)",
+        "nrhp:inscription_date": "4/11/1973",
+        "nrhp:nhl": "yes",
+        "opening_hours": "08:00-16:30",
+        "operator": "Tennessee Department of Environment and Conservation",
+        "operator:type": "government",
+        "operator:wikidata": "Q7700063",
+        "protect_class": "2",
+        "protection_title": "State Historic Park",
+        "ref:nrhp": "73001806",
+        "start_date": "1971",
+        "type": "boundary",
+        "wikidata": "Q3364045",
+        "wikipedia": "en:Fort Pillow State Historic Park",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.8520648,
+          35.6313883
+        ]
+      },
+      "id": "relation/11788073"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/11788388",
+        "boundary": "protected_area",
+        "ele": "87",
+        "gnis:feature_id": "1299173",
+        "name": "Reelfoot Lake State Park",
+        "operator": "Tennessee Department of Environment and Conservation",
+        "operator:type": "government",
+        "operator:wikidata": "Q7700063",
+        "protect_class": "2",
+        "protection_title": "State Park",
+        "source": "http://www.state.tn.us/environment/parks/gis",
+        "type": "boundary",
+        "wikidata": "Q3364088",
+        "wikipedia": "en:Reelfoot Lake State Park",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3810014,
+          36.4241979
+        ]
+      },
+      "id": "relation/11788388"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12213068",
+        "boundary": "protected_area",
+        "name": "Tigrett Wildlife Management Area",
+        "operator": "Tennessee Wildlife Resources Agency",
+        "operator:wikidata": "Q7700244",
+        "protect_class": "2",
+        "protected_area": "game_land",
+        "protection_title": "Wildlife Management Area",
+        "start_date": "2007",
+        "type": "boundary",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.2344937,
+          35.9868207
+        ]
+      },
+      "id": "relation/12213068"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/15865641",
+        "boundary": "protected_area",
+        "name": "Fall Creek Falls State Park",
+        "protect_class": "2",
+        "source": "http://www.state.tn.us/environment/parks/gis",
+        "type": "multipolygon",
+        "website": "https://tnstateparks.com/parks/about/fall-creek-falls",
+        "wikidata": "Q5432019",
+        "wikipedia": "en:Fall Creek Falls State Park",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.3562682,
+          35.6969467
+        ]
+      },
+      "id": "relation/15865641"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/858358154",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Piney River Area",
+        "natural": "wood",
+        "operator": "Tennessee Department of Enviroment and Conservation",
+        "ownership": "state",
+        "protect_class": "2",
+        "protected": "perpetuity",
+        "protection_title": "State Park",
+        "start_date": "1998",
+        "type": "boundary",
+        "wikipedia": "en:Justin P. Wilson Cumberland Trail State Park",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.9305097,
+          35.6807366
+        ]
+      },
+      "id": "way/858358154"
+    }
+  ]
+}

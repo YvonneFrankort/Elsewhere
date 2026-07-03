@@ -1,0 +1,6672 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-06-27T22:33:44Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/1738661",
+        "colour": "#8fbfcc",
+        "foot": "designated",
+        "name": "Buckeye Trail",
+        "network": "nwn",
+        "operator": "Buckeye Trail Association",
+        "osmc:symbol": "blue::blue_stripe",
+        "ref": "BT",
+        "route": "hiking",
+        "symbol": "blue",
+        "type": "route",
+        "website": "https://www.buckeyetrail.org/",
+        "wikidata": "Q4983100",
+        "wikipedia": "en:Buckeye Trail",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.8867669,
+          40.4383568
+        ]
+      },
+      "id": "relation/1738661"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/3962913",
+        "name": "Crab Orchard Visitor Center Pond and Woodland Nature Trail",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.0181307,
+          37.7187186
+        ]
+      },
+      "id": "relation/3962913"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/4047005",
+        "name": "Clarksville Riverwalk",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.3667775,
+          36.5337151
+        ]
+      },
+      "id": "relation/4047005"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/4047006",
+        "name": "Upland Trail",
+        "opening_hours": "sunrise-sunset",
+        "route": "hiking",
+        "type": "route",
+        "website": "https://www.cityofclarksville.com/index.aspx?page=135",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.3624667,
+          36.5257067
+        ]
+      },
+      "id": "relation/4047006"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/4644135",
+        "name": "Knobstone Trail",
+        "network": "rwn",
+        "note": "Knobstone Trail is known nationally as a training trail for the Appalachian Trail",
+        "ref": "KT",
+        "route": "hiking",
+        "type": "route",
+        "wikipedia": "en:Knobstone Trail",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.9353703,
+          38.6019979
+        ]
+      },
+      "id": "relation/4644135"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/4649821",
+        "name": "River to River Segment 1 - E'Town to Garden of the Gods",
+        "network": "rwn",
+        "ref": "R2R",
+        "route": "hiking",
+        "type": "route",
+        "website": "http://rivertorivertrail.net/",
+        "wikipedia": "en:River to River Trail",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.3392396,
+          37.5246143
+        ]
+      },
+      "id": "relation/4649821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/4652049",
+        "name": "River to River Segment 2 - Garden of the Gods to Eddyville",
+        "network": "rwn",
+        "ref": "R2R",
+        "route": "hiking",
+        "type": "route",
+        "website": "http://rivertorivertrail.net/",
+        "wikipedia": "en:River to River Trail",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.4842179,
+          37.5546806
+        ]
+      },
+      "id": "relation/4652049"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/4652055",
+        "name": "River to River Segment 3 - Eddyville to U.S. 45",
+        "network": "rwn",
+        "ref": "R2R",
+        "route": "hiking",
+        "type": "route",
+        "website": "http://rivertorivertrail.net/",
+        "wikipedia": "en:River to River Trail",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.71875,
+          37.4942935
+        ]
+      },
+      "id": "relation/4652055"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/4652099",
+        "name": "River to River Segment 4 - U.S. 45 to Ferne Clyffe",
+        "network": "rwn",
+        "ref": "R2R",
+        "route": "hiking",
+        "type": "route",
+        "website": "http://rivertorivertrail.net/",
+        "wikipedia": "en:River to River Trail",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.9220179,
+          37.5092829
+        ]
+      },
+      "id": "relation/4652099"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/4652115",
+        "name": "River to River Segment 5 - Ferne Clyffe to Giant City",
+        "network": "River to River Segment 5",
+        "ref": "R2R",
+        "route": "hiking",
+        "type": "route",
+        "wikipedia": "en:River to River Trail",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.0804284,
+          37.5671064
+        ]
+      },
+      "id": "relation/4652115"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/4652149",
+        "name": "River to River Segment 6 - Giant City to Alto Pass",
+        "network": "rwn",
+        "ref": "R2R",
+        "route": "hiking",
+        "type": "route",
+        "wikipedia": "en:River to River Trail",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.2493344,
+          37.5966265
+        ]
+      },
+      "id": "relation/4652149"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/4652182",
+        "name": "River to River Segment 7 - Alto Pass to Devil's Backbone",
+        "network": "rwn",
+        "ref": "R2R",
+        "route": "hiking",
+        "type": "route",
+        "wikipedia": "en:River to River Trail",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4149397,
+          37.6000645
+        ]
+      },
+      "id": "relation/4652182"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/4652234",
+        "name": "River to River Segment A - Battery Rock Alternate",
+        "network": "rwn",
+        "ref": "R2R-A",
+        "route": "hiking",
+        "type": "route",
+        "wikipedia": "en:River to River Trail",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.1929112,
+          37.5576987
+        ]
+      },
+      "id": "relation/4652234"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/5460321",
+        "name": "Sycamore Trail",
+        "network": "lwn",
+        "operator": "U.S. Forest Service",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.3059402,
+          39.0460805
+        ]
+      },
+      "id": "relation/5460321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/6055272",
+        "name": "North/South Trail",
+        "network": "lwn",
+        "note": "Collection existing OSM-ways with different access (avoid overlapping ways)",
+        "operator": "Forest Service Land Between The Lakes",
+        "ref": "NS",
+        "route": "hiking",
+        "source": "existing named ways",
+        "type": "route",
+        "website": "https://www.landbetweenthelakes.us/seendo/trails/hike-bike-trails/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.0600069,
+          36.7461518
+        ]
+      },
+      "id": "relation/6055272"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/7176710",
+        "colour": "#8fbfcc",
+        "name": "Buckeye Trail (Loveland)",
+        "network": "nwn",
+        "operator": "Buckeye Trail Association",
+        "osmc:symbol": "blue::blue_stripe",
+        "ref": "BT",
+        "route": "hiking",
+        "segment": "yes",
+        "symbol": "blue",
+        "type": "route",
+        "website": "https://www.buckeyetrail.org/sections/loveland",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2896362,
+          39.2986729
+        ]
+      },
+      "id": "relation/7176710"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/7176775",
+        "colour": "#8fbfcc",
+        "name": "Buckeye Trail (Williamsburg)",
+        "network": "nwn",
+        "operator": "Buckeye Trail Association",
+        "osmc:symbol": "blue::blue_stripe",
+        "ref": "BT",
+        "route": "hiking",
+        "segment": "yes",
+        "symbol": "blue",
+        "type": "route",
+        "website": "https://www.buckeyetrail.org/sections/williamsburg",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1166096,
+          39.081666
+        ]
+      },
+      "id": "relation/7176775"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/7240414",
+        "name": "Tecumseh Trail",
+        "network": "rwn",
+        "operator": "Hoosier Hikers Council -Indiana",
+        "ref": "TCM",
+        "route": "hiking",
+        "type": "route",
+        "wikidata": "Q30623920",
+        "wikipedia": "en:Tecumseh Trail",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.3567039,
+          39.2176501
+        ]
+      },
+      "id": "relation/7240414"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/8057865",
+        "name": "Turtle Head Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.2918075,
+          38.3943768
+        ]
+      },
+      "id": "relation/8057865"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/8057870",
+        "name": "River Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3063168,
+          38.3950224
+        ]
+      },
+      "id": "relation/8057870"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/8679702",
+        "name": "Radio Tower Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.305728,
+          38.3956055
+        ]
+      },
+      "id": "relation/8679702"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/8679716",
+        "name": "Cliffside Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3097538,
+          38.3917277
+        ]
+      },
+      "id": "relation/8679716"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/8679717",
+        "name": "Turman Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3083482,
+          38.3978119
+        ]
+      },
+      "id": "relation/8679717"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/8679718",
+        "name": "Deer Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.308538,
+          38.3975777
+        ]
+      },
+      "id": "relation/8679718"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/8831174",
+        "name": "Observation Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.3850725,
+          37.603935
+        ]
+      },
+      "id": "relation/8831174"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/8849647",
+        "fee": "no",
+        "name": "Rim Rock Recreational Trail",
+        "official_name": "Rim Rock National Recreational Trail",
+        "opening_hours": "06:00-22:00",
+        "route": "hiking",
+        "type": "route",
+        "website": "https://www.fs.fed.us/visit/destination/ox-lot-cave-rim-rock-national-recreation-trail",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.2798659,
+          37.6046785
+        ]
+      },
+      "id": "relation/8849647"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/8857435",
+        "name": "Heron Pond Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.919676,
+          37.3593496
+        ]
+      },
+      "id": "relation/8857435"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/8929619",
+        "colour": "#ff0000",
+        "description": "Sinking Spring",
+        "distance": "91",
+        "name": "ADT - Ohio D - Seg 6",
+        "network": "nwn",
+        "operator": "American Discovery Trail Society",
+        "osmc:symbol": "red:white:red_triangle_line:ADT:blue",
+        "ref": "ADT D6",
+        "route": "hiking",
+        "type": "route",
+        "website": "https://discoverytrail.org/eastern-states",
+        "wikidata": "Q463893",
+        "wikipedia": "en:American Discovery Trail",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3426791,
+          39.0387997
+        ]
+      },
+      "id": "relation/8929619"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/8930711",
+        "colour": "#ff0000",
+        "description": "Peebles, Ohio to Shawnee State Park, Ohio",
+        "distance": "76",
+        "name": "ADT - Ohio D - Seg 7",
+        "network": "nwn",
+        "operator": "American Discovery Trail Society",
+        "osmc:symbol": "red:white:red_triangle_line:ADT:blue",
+        "ref": "ADT D7",
+        "route": "hiking",
+        "type": "route",
+        "website": "https://discoverytrail.org/eastern-states",
+        "wikidata": "Q463893",
+        "wikipedia": "en:American Discovery Trail",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.2779355,
+          38.8027135
+        ]
+      },
+      "id": "relation/8930711"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/8941371",
+        "colour": "#ff0000",
+        "description": "Shawnee State Park, Ohio to Mount Orab, Ohio",
+        "distance": "103",
+        "name": "ADT - Ohio D - Seg 8",
+        "network": "nwn",
+        "operator": "American Discovery Trail Society",
+        "osmc:symbol": "red:white:red_triangle_line:ADT:blue",
+        "ref": "ADT D8",
+        "route": "hiking",
+        "type": "route",
+        "website": "https://discoverytrail.org/eastern-states",
+        "wikidata": "Q463893",
+        "wikipedia": "en:American Discovery Trail",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6491328,
+          38.8606572
+        ]
+      },
+      "id": "relation/8941371"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/8941409",
+        "colour": "#ff0000",
+        "description": "Mount Orab, Ohio to Cincinnati, Ohio",
+        "distance": "105",
+        "name": "ADT - Ohio D - Seg 9",
+        "network": "nwn",
+        "operator": "American Discovery Trail Society",
+        "osmc:symbol": "red:white:red_triangle_line:ADT:blue",
+        "ref": "ADT D9",
+        "route": "hiking",
+        "type": "route",
+        "website": "https://discoverytrail.org/eastern-states",
+        "wikidata": "Q463893",
+        "wikipedia": "en:American Discovery Trail",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2111134,
+          39.081666
+        ]
+      },
+      "id": "relation/8941409"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/8974393",
+        "colour": "#ff0000",
+        "description": "Cincinnati, Ohio to Elizabethtown, Ohio",
+        "distance": "43",
+        "name": "ADT - Ohio D - Seg 10",
+        "network": "nwn",
+        "operator": "American Discovery Trail Society",
+        "osmc:symbol": "red:white:red_triangle_line:ADT:blue",
+        "ref": "ADT D10",
+        "route": "hiking",
+        "type": "route",
+        "website": "https://discoverytrail.org/eastern-states",
+        "wikidata": "Q463893",
+        "wikipedia": "en:American Discovery Trail",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.6465675,
+          39.115481
+        ]
+      },
+      "id": "relation/8974393"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/8974810",
+        "description": "Elizabethtown OH to Clifty Falls SP",
+        "distance": "70.33 mi",
+        "name": "ADT - Indiana (South) - H - Seg 1",
+        "network": "nwn",
+        "operator": "American Discovery Trail Society",
+        "ref": "ADT H1",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.1087649,
+          38.9472713
+        ]
+      },
+      "id": "relation/8974810"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/8975885",
+        "name": "Heritage Trail of Madison",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.3997443,
+          38.7403227
+        ]
+      },
+      "id": "relation/8975885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/8991510",
+        "description": "Clifty Falls State Park to Deam Lake Trailhead",
+        "distance": "53.14 mi",
+        "name": "ADT - Indiana (South) - H - Seg 2",
+        "network": "nwn",
+        "operator": "American Discovery Trail Society",
+        "ref": "ADT H2",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.6398486,
+          38.617041
+        ]
+      },
+      "id": "relation/8991510"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/8994056",
+        "description": "Deam Lake to Corydon",
+        "distance": "45.86 mi",
+        "name": "ADT - Indiana (South) - H - Seg 3",
+        "network": "nwn",
+        "operator": "American Discovery Trail Society",
+        "ref": "ADT H3",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.9643415,
+          38.3069134
+        ]
+      },
+      "id": "relation/8994056"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/8995255",
+        "description": "Corydon to St Meinrad",
+        "distance": "95.62 mi",
+        "name": "ADT - Indiana (South) - H - Seg 4",
+        "network": "nwn",
+        "operator": "American Discovery Trail Society",
+        "ref": "ADT H4",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.4660638,
+          38.1361135
+        ]
+      },
+      "id": "relation/8995255"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9033944",
+        "colour": "#ff0000",
+        "description": "Meinrad to Evansville",
+        "distance": "63.62 mi",
+        "name": "ADT - Indiana (South) - H - Seg 5",
+        "network": "nwn",
+        "operator": "American Discovery Trail Society",
+        "osmc:symbol": "red:white:red_triangle_line:ADT:blue",
+        "ref": "ADT H5",
+        "route": "hiking",
+        "type": "route",
+        "website": "https://discoverytrail.org/south-central",
+        "wikidata": "Q463893",
+        "wikipedia": "en:American Discovery Trail",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.188282,
+          38.0501079
+        ]
+      },
+      "id": "relation/9033944"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9035653",
+        "description": "Evansville to Illinois Line",
+        "distance": "32.88",
+        "name": "ADT - Indiana (South) - H - Seg 6",
+        "network": "nwn",
+        "operator": "American Discovery Trail Society",
+        "ref": "ADT H6",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.8013541,
+          37.950782
+        ]
+      },
+      "id": "relation/9035653"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9037856",
+        "description": "Indiana Line to River to River Trail",
+        "distance": "37.31 mi",
+        "name": "ADT - Illinois (South) - J - Seg 1",
+        "network": "nwn",
+        "operator": "American Discovery Trail Society",
+        "ref": "ADT J1",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.1587827,
+          37.76701
+        ]
+      },
+      "id": "relation/9037856"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9037964",
+        "description": "River to River Trail to Grand Tower",
+        "distance": "135.92 mi",
+        "fixme": "Check for proper routing - current members complete section, but may not follow true route!",
+        "name": "ADT - Illinois (South) - J - Seg 2",
+        "network": "nwn",
+        "operator": "American Discovery Trail Society",
+        "ref": "ADT J2",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.8987831,
+          37.5590363
+        ]
+      },
+      "id": "relation/9037964"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9041016",
+        "description": "Grand Tower to E St Louis",
+        "distance": "114.99",
+        "name": "ADT - Illinois (South) - J - Seg 3",
+        "network": "nwn",
+        "operator": "American Discovery Trail Society",
+        "ref": "ADT J3",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.9036806,
+          38.1340948
+        ]
+      },
+      "id": "relation/9041016"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9354853",
+        "name": "Kanawha Trace",
+        "network": "rwn",
+        "operator": "Tri State Area Council, Inc. Boy Scouts of America",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.1402566,
+          38.4937484
+        ]
+      },
+      "id": "relation/9354853"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9430360",
+        "colour": "#0000ff",
+        "distance": "8.25 mi",
+        "name": "Lake Shore Trail",
+        "network": "lwn",
+        "oneway": "no",
+        "osmc:symbol": "blue:white_diamond:blue_dot",
+        "roundtrip": "yes",
+        "route": "hiking",
+        "symbol": "Blue circle on white diamond",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6207077,
+          38.6191245
+        ]
+      },
+      "id": "relation/9430360"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9433514",
+        "colour": "#ffff00",
+        "distance": "17.28 mi",
+        "name": "Vesuvius Backpack Trail",
+        "network": "lwn",
+        "oneway": "no",
+        "osmc:symbol": "yellow:white_diamond:yellow_dot",
+        "roundtrip": "yes",
+        "route": "hiking",
+        "symbol": "Yellow circle on white diamond",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6017835,
+          38.6251754
+        ]
+      },
+      "id": "relation/9433514"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9433536",
+        "colour": "#ff0000",
+        "distance": "0.85 mi",
+        "name": "Whiskey Run Trail",
+        "network": "lwn",
+        "oneway": "no",
+        "osmc:symbol": "red:white_diamond:red_dot",
+        "roundtrip": "yes",
+        "route": "hiking",
+        "symbol": "Red circle on white diamond",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6258553,
+          38.6158854
+        ]
+      },
+      "id": "relation/9433536"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9434652",
+        "distance": "0.78 mi",
+        "name": "Longbow Archery Trail",
+        "network": "lwn",
+        "oneway": "no",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6381356,
+          38.6110377
+        ]
+      },
+      "id": "relation/9434652"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9435977",
+        "colour": "#ffffff",
+        "distance": "0.93 mi",
+        "name": "Addis Mine Trail",
+        "network": "lwn",
+        "oneway": "no",
+        "osmc:symbol": "white:white_diamond",
+        "roundtrip": "no",
+        "route": "hiking",
+        "symbol": "White diamond",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6430363,
+          38.6136954
+        ]
+      },
+      "id": "relation/9435977"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9435983",
+        "colour": "#ffffff",
+        "distance": "0.42 mi",
+        "name": "Rock House Trail",
+        "network": "lwn",
+        "oneway": "no",
+        "osmc:symbol": "white:white_diamond",
+        "roundtrip": "no",
+        "route": "hiking",
+        "symbol": "White diamond",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6359401,
+          38.6132191
+        ]
+      },
+      "id": "relation/9435983"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9453199",
+        "length": "1 mile",
+        "name": "Hawk's Cave Trail",
+        "network": "lwn",
+        "operator": "Fern Clyffe State Park",
+        "piste:difficulty": "easy",
+        "roundtrip": "yes",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.9824598,
+          37.5431074
+        ]
+      },
+      "id": "relation/9453199"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9453202",
+        "distance": "0.5 miles",
+        "name": "Rebman's Trail",
+        "network": "lwn",
+        "operator": "Fern Clyffe State Park",
+        "piste:difficulty": "easy",
+        "roundtrip": "yes",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.9800762,
+          37.5442224
+        ]
+      },
+      "id": "relation/9453202"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9453204",
+        "name": "Big Rocky Hollow Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.9767699,
+          37.5417813
+        ]
+      },
+      "id": "relation/9453204"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9453213",
+        "length": "1 mile",
+        "name": "Waterfall Trail",
+        "network": "lwn",
+        "roundtrip": "no",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.9766338,
+          37.5406739
+        ]
+      },
+      "id": "relation/9453213"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9463005",
+        "name": "Lost Trail",
+        "network": "lwn",
+        "osmc:symbol": "yellow:yellow:white_stripe",
+        "route": "hiking",
+        "symbol": "White in yellow diamond",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3571968,
+          38.3065296
+        ]
+      },
+      "id": "relation/9463005"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9464335",
+        "name": "Rubens Branch",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3759598,
+          38.2961604
+        ]
+      },
+      "id": "relation/9464335"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9464336",
+        "name": "Mary Davis Trail",
+        "network": "lwn",
+        "osmc:symbol": "orange:orange:white_stripe",
+        "route": "hiking",
+        "symbol": "White in orange diamond",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3639882,
+          38.2987549
+        ]
+      },
+      "id": "relation/9464336"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9472476",
+        "distance": "0.45 mi",
+        "name": "Scarlet Oak Trail",
+        "network": "lwn",
+        "oneway": "no",
+        "osmc:symbol": "red:white_diamond:red_dot",
+        "roundtrip": "no",
+        "route": "hiking",
+        "symbol": "Red circle on white diamond",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6322092,
+          38.6103655
+        ]
+      },
+      "id": "relation/9472476"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9472477",
+        "distance": "0.61 mi",
+        "name": "Old Beach Trail",
+        "network": "lwn",
+        "oneway": "no",
+        "osmc:symbol": "blue:white_diamond:blue_dot",
+        "roundtrip": "no",
+        "route": "hiking",
+        "symbol": "Blue circle on white diamond",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6302324,
+          38.6132324
+        ]
+      },
+      "id": "relation/9472477"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9472478",
+        "distance": "0.34 mi",
+        "name": "Black Oak Trail",
+        "network": "lwn",
+        "oneway": "no",
+        "osmc:symbol": "yellow:white_diamond:yellow_dot",
+        "roundtrip": "no",
+        "route": "hiking",
+        "symbol": "Yellow circle on white diamond",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6338105,
+          38.6161384
+        ]
+      },
+      "id": "relation/9472478"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9472479",
+        "distance": "0.14 mi",
+        "name": "White Oak Trail",
+        "network": "lwn",
+        "oneway": "no",
+        "osmc:symbol": "brown:white_diamond:brown_dot",
+        "roundtrip": "no",
+        "route": "hiking",
+        "symbol": "Brown circle on white diamond",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6345151,
+          38.6151869
+        ]
+      },
+      "id": "relation/9472479"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9472749",
+        "name": "Trail of Doom Loop",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.2964071,
+          38.3901347
+        ]
+      },
+      "id": "relation/9472749"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9472750",
+        "name": "Trail of Doom",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.2962345,
+          38.3907657
+        ]
+      },
+      "id": "relation/9472750"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9472751",
+        "name": "Trailer Park Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.291004,
+          38.3924609
+        ]
+      },
+      "id": "relation/9472751"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9472752",
+        "name": "The Trenches Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.2950722,
+          38.3949839
+        ]
+      },
+      "id": "relation/9472752"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9472753",
+        "name": "Switchback Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.2980893,
+          38.3906932
+        ]
+      },
+      "id": "relation/9472753"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9472754",
+        "name": "Switchback Bypass",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.297031,
+          38.3903022
+        ]
+      },
+      "id": "relation/9472754"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9472756",
+        "name": "Stone Hut Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.2961931,
+          38.3936789
+        ]
+      },
+      "id": "relation/9472756"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9472757",
+        "name": "River Trail Upper",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.2923098,
+          38.3900695
+        ]
+      },
+      "id": "relation/9472757"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9472759",
+        "name": "Middle Ridge Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.2963154,
+          38.3923298
+        ]
+      },
+      "id": "relation/9472759"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9472760",
+        "name": "Mark McCalla Memorial Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.2931532,
+          38.3923414
+        ]
+      },
+      "id": "relation/9472760"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9472761",
+        "name": "Lake William Overlook",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.298417,
+          38.389503
+        ]
+      },
+      "id": "relation/9472761"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9472763",
+        "name": "Gulch Nature Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.2946531,
+          38.3946395
+        ]
+      },
+      "id": "relation/9472763"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9472764",
+        "name": "For Sale Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.2935509,
+          38.3964682
+        ]
+      },
+      "id": "relation/9472764"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9472765",
+        "name": "Flag Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.2925574,
+          38.395527
+        ]
+      },
+      "id": "relation/9472765"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9472766",
+        "name": "Gasline 1",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.2939732,
+          38.3942268
+        ]
+      },
+      "id": "relation/9472766"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9472767",
+        "name": "Black Pond Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.2957617,
+          38.3895273
+        ]
+      },
+      "id": "relation/9472767"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9472768",
+        "name": "Ballfield Overlook",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.2976077,
+          38.3924436
+        ]
+      },
+      "id": "relation/9472768"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9472796",
+        "name": "Greenrocks Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.2925697,
+          38.3908373
+        ]
+      },
+      "id": "relation/9472796"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9473660",
+        "name": "River Trail Access Road",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.2992285,
+          38.3903665
+        ]
+      },
+      "id": "relation/9473660"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9473662",
+        "name": "Lake William Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.2992579,
+          38.3873123
+        ]
+      },
+      "id": "relation/9473662"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9473664",
+        "name": "Upper to Lower",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.304819,
+          38.3967806
+        ]
+      },
+      "id": "relation/9473664"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9473666",
+        "name": "Orange Ribbon Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3043007,
+          38.3967131
+        ]
+      },
+      "id": "relation/9473666"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9473668",
+        "name": "Overlook Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3038509,
+          38.3962525
+        ]
+      },
+      "id": "relation/9473668"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9473670",
+        "name": "Meadow Ridge Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3027662,
+          38.3959088
+        ]
+      },
+      "id": "relation/9473670"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9473672",
+        "mtb:scale:imba": "2",
+        "name": "Concrete Connector",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3035194,
+          38.3971262
+        ]
+      },
+      "id": "relation/9473672"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9473673",
+        "name": "Powerline Ridge",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3063419,
+          38.3953838
+        ]
+      },
+      "id": "relation/9473673"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9473677",
+        "name": "Walking Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3060628,
+          38.3949266
+        ]
+      },
+      "id": "relation/9473677"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9473679",
+        "name": "Drew's Downhill",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3131995,
+          38.3921363
+        ]
+      },
+      "id": "relation/9473679"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9473682",
+        "name": "Rocket Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3119337,
+          38.3933289
+        ]
+      },
+      "id": "relation/9473682"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9473683",
+        "name": "Farm View Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3096196,
+          38.3932126
+        ]
+      },
+      "id": "relation/9473683"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9473685",
+        "name": "Devils Hollow Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3096624,
+          38.3956472
+        ]
+      },
+      "id": "relation/9473685"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9473687",
+        "name": "Gun Range Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3118931,
+          38.3955435
+        ]
+      },
+      "id": "relation/9473687"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9473689",
+        "name": "Gasline 3 Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.305068,
+          38.3994304
+        ]
+      },
+      "id": "relation/9473689"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9473692",
+        "name": "Camelback Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3007285,
+          38.3985096
+        ]
+      },
+      "id": "relation/9473692"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9473694",
+        "name": "Pikes Peak Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3034767,
+          38.3944479
+        ]
+      },
+      "id": "relation/9473694"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9473695",
+        "name": "Abandon Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3021721,
+          38.3956778
+        ]
+      },
+      "id": "relation/9473695"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9473698",
+        "name": "Waterfall Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3007249,
+          38.3964424
+        ]
+      },
+      "id": "relation/9473698"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9473699",
+        "name": "Amphitheater Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3004528,
+          38.396464
+        ]
+      },
+      "id": "relation/9473699"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9473702",
+        "name": "Amphitheater Downhill",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.2992301,
+          38.3965822
+        ]
+      },
+      "id": "relation/9473702"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9473706",
+        "name": "Interactive Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.2973561,
+          38.3971473
+        ]
+      },
+      "id": "relation/9473706"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9473707",
+        "name": "The Stairs",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.2961749,
+          38.3971124
+        ]
+      },
+      "id": "relation/9473707"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9473710",
+        "name": "Frog Hollow Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.2949765,
+          38.3975858
+        ]
+      },
+      "id": "relation/9473710"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9477912",
+        "distance": "0.05 mi",
+        "name": "Connector Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4347594,
+          38.3935307
+        ]
+      },
+      "id": "relation/9477912"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9477913",
+        "distance": "0.11 mi",
+        "name": "Teubert Foundation Sensory Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4331487,
+          38.3947121
+        ]
+      },
+      "id": "relation/9477913"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9477914",
+        "distance": "0.16 mi",
+        "name": "Spice Bush Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.437165,
+          38.391767
+        ]
+      },
+      "id": "relation/9477914"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9477915",
+        "distance": "0.69 mi",
+        "name": "Tulip Tree Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.435082,
+          38.3926193
+        ]
+      },
+      "id": "relation/9477915"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9477916",
+        "distance": "0.32 mi",
+        "name": "Gentle Oak Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4347513,
+          38.392761
+        ]
+      },
+      "id": "relation/9477916"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9483516",
+        "name": "Coal Mine",
+        "network": "lwn",
+        "osmc:symbol": "green:green",
+        "route": "hiking",
+        "symbol": "Green blaze",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3653527,
+          38.2948727
+        ]
+      },
+      "id": "relation/9483516"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9483519",
+        "name": "North Ridge Trail",
+        "network": "lwn",
+        "osmc:symbol": "white:white:white_stripe",
+        "route": "hiking",
+        "symbol": "White in white diamond",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3622769,
+          38.302149
+        ]
+      },
+      "id": "relation/9483519"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9690597",
+        "colour": "#8fbfcc",
+        "name": "Buckeye Trail (West Union)",
+        "network": "nwn",
+        "operator": "Buckeye Trail Association",
+        "osmc:symbol": "blue::blue_stripe",
+        "ref": "BT",
+        "route": "hiking",
+        "segment": "yes",
+        "symbol": "blue",
+        "type": "route",
+        "website": "https://www.buckeyetrail.org/sections/west-union",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6776166,
+          38.8606572
+        ]
+      },
+      "id": "relation/9690597"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9690598",
+        "colour": "#8fbfcc",
+        "name": "Buckeye Trail (Sinking Spring)",
+        "network": "nwn",
+        "operator": "Buckeye Trail Association",
+        "osmc:symbol": "blue::blue_stripe",
+        "ref": "BT",
+        "route": "hiking",
+        "segment": "yes",
+        "symbol": "blue",
+        "type": "route",
+        "website": "https://www.buckeyetrail.org/sections/sinking-spring",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3426791,
+          39.0471853
+        ]
+      },
+      "id": "relation/9690598"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9690599",
+        "colour": "#8fbfcc",
+        "name": "Buckeye Trail (Shawnee)",
+        "network": "nwn",
+        "operator": "Buckeye Trail Association",
+        "osmc:symbol": "blue::blue_stripe",
+        "ref": "BT",
+        "route": "hiking",
+        "segment": "yes",
+        "symbol": "blue",
+        "type": "route",
+        "website": "https://www.buckeyetrail.org/sections/shawnee",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3064193,
+          38.8136942
+        ]
+      },
+      "id": "relation/9690599"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9690605",
+        "name": "Shawnee Day Hike Trail",
+        "network": "lwn",
+        "operator": "Ohio Department of Natural Resources",
+        "osmc:symbol": "blue::blue_stripe",
+        "route": "hiking",
+        "symbol": "blue",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1769017,
+          38.7428496
+        ]
+      },
+      "id": "relation/9690605"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9690606",
+        "name": "Shawnee Backpack Wilderness Side Trail",
+        "network": "lwn",
+        "operator": "Ohio Department of Natural Resources",
+        "osmc:symbol": "white::white_stripe",
+        "route": "hiking",
+        "symbol": "white",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.2545483,
+          38.6876181
+        ]
+      },
+      "id": "relation/9690606"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9690607",
+        "name": "Shawnee Backpack Trail",
+        "network": "lwn",
+        "operator": "Ohio Department of Natural Resources",
+        "osmc:symbol": "orange::orange_stripe",
+        "route": "hiking",
+        "symbol": "orange",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.184523,
+          38.7179452
+        ]
+      },
+      "id": "relation/9690607"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9692274",
+        "name": "Backpack Side Trail",
+        "network": "lwn",
+        "operator": "Ohio Department of Natural Resources",
+        "osmc:symbol": "white::white_stripe",
+        "route": "hiking",
+        "symbol": "white",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1577004,
+          38.7296216
+        ]
+      },
+      "id": "relation/9692274"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9709436",
+        "name": "High Mountain Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.2945352,
+          38.3923636
+        ]
+      },
+      "id": "relation/9709436"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9709449",
+        "name": "84 Lumber Hiking Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.2965792,
+          38.3975858
+        ]
+      },
+      "id": "relation/9709449"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9983975",
+        "name": "Rock Hollow Nature Trail",
+        "network": "lhn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4151789,
+          38.3070965
+        ]
+      },
+      "id": "relation/9983975"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/10120278",
+        "name": "Area 51 Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.2975453,
+          38.3920722
+        ]
+      },
+      "id": "relation/10120278"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/10623780",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3820894,
+          38.3102092
+        ]
+      },
+      "id": "relation/10623780"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/11140513",
+        "colour": "#82c1e3",
+        "name": "North Country National Scenic Trail (OH)",
+        "network": "nwn",
+        "network:type": "US:NST",
+        "operator": "United States National Park Service;North Country Trail Association",
+        "osmc:symbol": "blue:white:blue_stripe:NCT:black",
+        "ref": "NCT",
+        "route": "hiking",
+        "symbol": "blue stripe",
+        "type": "route",
+        "website": "https://northcountrytrail.org/the-trail/ohio/",
+        "wikidata": "Q14716246",
+        "wikipedia": "en:North Country Trail",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4886848,
+          40.1961988
+        ]
+      },
+      "id": "relation/11140513"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/11224972",
+        "name": "Express Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3162247,
+          38.3933612
+        ]
+      },
+      "id": "relation/11224972"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/11300457",
+        "colour": "red",
+        "distance": "0.6 mi",
+        "name": "Red Trail",
+        "network": "lhn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6411236,
+          38.4693405
+        ]
+      },
+      "id": "relation/11300457"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/11300458",
+        "colour": "white",
+        "distance": "0.8 mi",
+        "name": "White Trail",
+        "network": "lhn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6410096,
+          38.4689247
+        ]
+      },
+      "id": "relation/11300458"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/11300459",
+        "colour": "orange",
+        "distance": "1.2 mi",
+        "name": "Orange Trail",
+        "network": "lhn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6349987,
+          38.4678337
+        ]
+      },
+      "id": "relation/11300459"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/11300460",
+        "colour": "blue",
+        "distance": "0.75 mi",
+        "name": "Blue Trail",
+        "network": "lhn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6366603,
+          38.4684312
+        ]
+      },
+      "id": "relation/11300460"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/11300461",
+        "colour": "yellow",
+        "distance": "0.5 mi",
+        "name": "Yellow Trail",
+        "network": "lhn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6380142,
+          38.4691867
+        ]
+      },
+      "id": "relation/11300461"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/11341439",
+        "name": "Nebo Ridge Trail",
+        "network": "lwn",
+        "operator": "Hoosier National Forest",
+        "route": "hiking",
+        "type": "route",
+        "website": "https://www.fs.usda.gov/recarea/hoosier/recreation/hiking/recarea/?recid=41578&actid=50",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.2312113,
+          39.048542
+        ]
+      },
+      "id": "relation/11341439"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/11535842",
+        "name": "Pipeline Crossing",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.2954495,
+          38.3948329
+        ]
+      },
+      "id": "relation/11535842"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/11727437",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.2779494,
+          37.602996
+        ]
+      },
+      "id": "relation/11727437"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/11727476",
+        "alt_name": "Beaver Trail",
+        "name": "Pounds Hollow Lake Trail",
+        "network": "lwn",
+        "network:type": "Local",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.2763177,
+          37.611299
+        ]
+      },
+      "id": "relation/11727476"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/11763175",
+        "length": "1 mile",
+        "name": "Giant City Nature Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.191052,
+          37.5949666
+        ]
+      },
+      "id": "relation/11763175"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12037951",
+        "bicycle": "yes",
+        "colour": "purple",
+        "description": "Hike turf trails through open restored native prairie past the historic Tanyard building, where the Shakers tanned leather and pumped water to the Water House located beside Centre Family Dwelling.",
+        "from": "East Parking Lot",
+        "horse": "yes",
+        "name": "Tanyard",
+        "network": "lwn",
+        "network:type": "lwn",
+        "operator": "Shaker Village",
+        "roundtrip": "yes",
+        "route": "hiking",
+        "to": "East Parking Lot",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.7444417,
+          37.8298935
+        ]
+      },
+      "id": "relation/12037951"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12037956",
+        "bicycle": "yes",
+        "colour": "yellow",
+        "description": "Mostly turf trails take you through open restored native prairie, wood lots and farm ponds, where a variety of wildlife viewing opportunities lie around every bend.",
+        "from": "West Trailhead",
+        "horse": "yes",
+        "name": "Meadow View",
+        "network": "lwn",
+        "network:type": "lwn",
+        "operator": "Shaker Village",
+        "roundtrip": "yes",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.7416676,
+          37.8226738
+        ]
+      },
+      "id": "relation/12037956"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12037977",
+        "colour": "purple",
+        "description": "Start north along the paved road to West Lot and The Stable. Cross the bridge, follow Shawnee Run Creek to the right, and you will quickly see large American Sycamore trees with white bark and skeletal look of the upper branches.",
+        "name": "Towering Sycamores",
+        "network": "lwn",
+        "network:type": "Local",
+        "operator": "Shaker Village",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.7532803,
+          37.8250278
+        ]
+      },
+      "id": "relation/12037977"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12037978",
+        "colour": "green",
+        "description": "Hike southwest along the Historic Turnpike, past the remains of Shaker grist and linseed oil mills. Cross Kissing Bridge and observe the remains of the dam once used to provide water for the mills downstream.",
+        "from": "Centre Trailhead",
+        "name": "Heritage",
+        "network": "lwn",
+        "operator": "Shaker Village",
+        "roundtrip": "yes",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.7559889,
+          37.8196707
+        ]
+      },
+      "id": "relation/12037978"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12038005",
+        "bicycle": "yes",
+        "colour": "white",
+        "description": "Trail blazed in white. Traverse woodland trails and turf in the open prairie, then view the Fulling Mill site (the most photographed waterfall, flowing at its highest during winter snow melts and spring rains), an extremely  scenic overlook of Shawnee Run",
+        "from": "West Trailhead",
+        "horse": "yes",
+        "name": "Shawnee Run",
+        "network": "lwn",
+        "operator": "Shaker Village",
+        "roundtrip": "yes",
+        "route": "hiking",
+        "trailblazed": "white",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.7577484,
+          37.8275873
+        ]
+      },
+      "id": "relation/12038005"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12038020",
+        "bicycle": "yes",
+        "colour": "red",
+        "description": "Follow the gravel road north until the trail turns to turf and takes you to an overlook of the restored native prairie bordered by woodland to the north and east.",
+        "from": "West Lot",
+        "horse": "yes",
+        "name": "West Lot",
+        "network": "lwn",
+        "network:type": "Local",
+        "operator": "Shaker Village",
+        "roundtrip": "yes",
+        "route": "hiking",
+        "to": "West Lot",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.7593746,
+          37.8317511
+        ]
+      },
+      "id": "relation/12038020"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12038045",
+        "bicycle": "yes",
+        "from": "West Lot",
+        "horse": "yes",
+        "name": "Chinquapin",
+        "network": "lwn",
+        "network:type": "Local",
+        "operator": "Shaker Village",
+        "route": "hiking",
+        "to": "West Lot",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.7544474,
+          37.8304428
+        ]
+      },
+      "id": "relation/12038045"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12038056",
+        "bicycle": "yes",
+        "colour": "red",
+        "description": "Start southwest along the Historic Turnpike, then loop around fields where you can observe a mixture of modern agriculture and restored native prairie. The wire fence to the west marks the border of Shaker Village property, while an historic stone fence b",
+        "distance": "3 mi",
+        "from": "Centre Trailhead",
+        "horse": "yes",
+        "name": "Anderson",
+        "network": "lwn",
+        "operator": "Shaker Village",
+        "roundtrip": "yes",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.7608986,
+          37.8251409
+        ]
+      },
+      "id": "relation/12038056"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12041345",
+        "from": "Geudon Road",
+        "name": "Whittleton Ridge",
+        "network": "lwn",
+        "network:type": "Local",
+        "operator": "USFS",
+        "route": "hiking",
+        "to": "overlook",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6525172,
+          37.7760897
+        ]
+      },
+      "id": "relation/12041345"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12041357",
+        "distance": "7.82 mi",
+        "from": "Nada Tunnel Road",
+        "name": "Rough Trail @221",
+        "network": "lwn",
+        "network:type": "Local",
+        "operator": "USFS",
+        "roundtrip": "no",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6290373,
+          37.8113577
+        ]
+      },
+      "id": "relation/12041357"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12041542",
+        "from": "KY 715",
+        "name": "Sheltowee Trace NRT Section 13",
+        "network": "rwn",
+        "operator": "USFS",
+        "ref": "100",
+        "route": "hiking",
+        "to": "KY 15",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6381798,
+          37.8127732
+        ]
+      },
+      "id": "relation/12041542"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12041561",
+        "from": "KY 15",
+        "name": "Sheltowee Trace NRT Section 14",
+        "network": "rwn",
+        "operator": "USFS",
+        "ref": "100",
+        "route": "hiking",
+        "to": "KY 11",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6650329,
+          37.7884995
+        ]
+      },
+      "id": "relation/12041561"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12041589",
+        "from": "KY 11",
+        "name": "Sheltowee Trace NRT Section 15",
+        "network": "rwn",
+        "operator": "USFS",
+        "ref": "100",
+        "route": "hiking",
+        "to": "KY 1036",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6910805,
+          37.748171
+        ]
+      },
+      "id": "relation/12041589"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12041634",
+        "from": "US 460",
+        "name": "Sheltowee Trace NRT Section 12",
+        "network": "rwn",
+        "operator": "USFS",
+        "ref": "100",
+        "route": "hiking",
+        "to": "KY 715",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6041437,
+          37.8728996
+        ]
+      },
+      "id": "relation/12041634"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12041643",
+        "from": "KY 1036",
+        "name": "Sheltowee Trace NRT Section 16",
+        "network": "rwn",
+        "operator": "USFS",
+        "ref": "100",
+        "route": "hiking",
+        "to": "KY 52",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7367656,
+          37.6716065
+        ]
+      },
+      "id": "relation/12041643"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12041659",
+        "from": "KY 52",
+        "name": "Sheltowee Trace NRT Section 17",
+        "network": "rwn",
+        "operator": "USFS",
+        "ref": "100",
+        "route": "hiking",
+        "to": "Kentucky River",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.779074,
+          37.5890476
+        ]
+      },
+      "id": "relation/12041659"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12041723",
+        "from": "Kentucky River",
+        "name": "Sheltowee Trace NRT Section 18 \"Sturgeon Creek\"",
+        "network": "rwn",
+        "operator": "USFS",
+        "ref": "100",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.8144015,
+          37.5313314
+        ]
+      },
+      "id": "relation/12041723"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12045459",
+        "from": "Hales Ridge Road",
+        "name": "Sheltowee Trace NRT Section 19 \"Turkey Foot\"",
+        "network": "rwn",
+        "operator": "USFS",
+        "ref": "100",
+        "roundtrip": "no",
+        "route": "hiking",
+        "to": "Forest Road 376",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9098897,
+          37.4934924
+        ]
+      },
+      "id": "relation/12045459"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12045460",
+        "from": "Forest Road 376",
+        "name": "Sheltowee Trace NRT Section 20 \"McKee\"",
+        "network": "rwn",
+        "operator": "USFS",
+        "ref": "100",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0152726,
+          37.4619411
+        ]
+      },
+      "id": "relation/12045460"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12045527",
+        "from": "Forest Road 3085",
+        "name": "Sheltowee Trace NRT Section 21 \"Horse Lick\"",
+        "network": "rwn",
+        "operator": "USFS",
+        "ref": "100",
+        "route": "hiking",
+        "to": "Wolf Pen Branch",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0956355,
+          37.4062253
+        ]
+      },
+      "id": "relation/12045527"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12045584",
+        "from": "Wolf Run Branch",
+        "name": "Sheltowee Trace NRT Section 22 \"Rockcastle\"",
+        "network": "rwn",
+        "operator": "USFS",
+        "ref": "100",
+        "route": "hiking",
+        "to": "Rockcastle River",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.14475,
+          37.3334239
+        ]
+      },
+      "id": "relation/12045584"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12045585",
+        "from": "Rockcastle River",
+        "name": "Sheltowee Trace NRT Section 23 \"Wildcat\"",
+        "network": "rwn",
+        "operator": "USFS",
+        "ref": "100",
+        "route": "hiking",
+        "to": "I-75",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1787398,
+          37.2628587
+        ]
+      },
+      "id": "relation/12045585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12045888",
+        "distance": "13 mi",
+        "from": "I-75",
+        "name": "Sheltowee Trace NRT Section 24 \"Hawk Creek\"",
+        "network": "rwn",
+        "operator": "USFS",
+        "ref": "100",
+        "route": "hiking",
+        "to": "Sinking Creek",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2336532,
+          37.1667262
+        ]
+      },
+      "id": "relation/12045888"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12045889",
+        "distance": "10 mi",
+        "from": "Sinking Creek",
+        "name": "Sheltowee Trace NRT Section 25 \"Big Dog\"",
+        "network": "rwn",
+        "operator": "USFS",
+        "ref": "100",
+        "route": "hiking",
+        "to": "Cane Creek",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2610476,
+          37.0658064
+        ]
+      },
+      "id": "relation/12045889"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12045890",
+        "distance": "12 mi",
+        "from": "Cane Creek",
+        "name": "Sheltowee Trace NRT Section 26 \"Laurel Lake\"",
+        "network": "rwn",
+        "operator": "USFS",
+        "ref": "100",
+        "route": "hiking",
+        "to": "Mouth of Laurel",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2730922,
+          36.991177
+        ]
+      },
+      "id": "relation/12045890"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12045902",
+        "from": "Mouth of Laurel",
+        "name": "Sheltowee Trace NRT Section 27 \"Moonbow\"",
+        "network": "rwn",
+        "operator": "USFS",
+        "ref": "100",
+        "route": "hiking",
+        "to": "Cumberland Falls",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3053265,
+          36.8969851
+        ]
+      },
+      "id": "relation/12045902"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12094073",
+        "colour": "blue",
+        "description": "Hike the Historic Turnpike south, upstream along Shawnee Run Creek, after crossing Kissing Bridge. Pass through the culvert under US 68 to access restored native prairie and modern agricultural fields along mostly turf trails with a small wooded section.",
+        "distance": "5 mi",
+        "from": "Centre Trailhead",
+        "name": "Pelly",
+        "network": "lwn",
+        "operator": "Shaker Village",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.755011,
+          37.8136046
+        ]
+      },
+      "id": "relation/12094073"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12094210",
+        "colour": "brown",
+        "description": "Follow historic stone fences bordering the Historic Turnpike east, then turn north alongside Meadow View Barn, a post-Shaker tobacco barn, in a modern agriculture field. The homestretch of the trail is bordered to the north by some of the oldest stone fen",
+        "distance": "2.5 mi",
+        "from": "Centre Trailhead",
+        "name": "Lampton",
+        "network": "lwn",
+        "operator": "Shaker Village",
+        "roundtrip": "yes",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.7494574,
+          37.8195827
+        ]
+      },
+      "id": "relation/12094210"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12094248",
+        "colour": "yellow",
+        "description": "Follow the Turnpike, formerly US 68, through the center of the Village, then take gravel paths through The Farm and a gravel service road behind the Village. This leisurely stroll gives you an overview of everything The Historic Centre has to offer, inclu",
+        "distance": "1 mi",
+        "from": "East Trailhead",
+        "name": "Village Loop",
+        "network": "lwn",
+        "operator": "Shaker Village",
+        "roundtrip": "yes",
+        "route": "hiking",
+        "to": "East Trailhead",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.7403142,
+          37.8189371
+        ]
+      },
+      "id": "relation/12094248"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12094271",
+        "colour": "blue",
+        "description": "Carefully cross US 68, then follow an old Shaker roadbed and descend 400 feet to Shaker Landing. Choose to follow the more rugged single track trail through pasture and Palisades cliffs (look for the stone fence turnstyle to your left to join the trail) o",
+        "distance": "3 mi",
+        "from": "East Trailhead",
+        "name": "River Road",
+        "network": "lwn",
+        "operator": "Shaker Village",
+        "roundtrip": "yes",
+        "route": "hiking",
+        "to": "East Trailhead",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.7293728,
+          37.8162652
+        ]
+      },
+      "id": "relation/12094271"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12094305",
+        "description": "Traverse through the Kentucky River floodplain with views of the Palisades and High Bridge. During winter melts and spring showers, several waterfalls cascade down the Palisades.",
+        "distance": "1 mi",
+        "from": "Shaker Landing",
+        "name": "Palisades Loop",
+        "network": "lwn",
+        "operator": "Shaker Village",
+        "roundtrip": "yes",
+        "route": "hiking",
+        "to": "Shaker Landing",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.7250797,
+          37.8222417
+        ]
+      },
+      "id": "relation/12094305"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12102228",
+        "name": "Jessamine Creek Gorge Preserve",
+        "network": "lwn",
+        "operator": "Jessamine County",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.6423126,
+          37.8257186
+        ]
+      },
+      "id": "relation/12102228"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12106725",
+        "colour": "red",
+        "distance": "2.21 mi",
+        "name": "Lower Palisades Loop",
+        "network": "lwn",
+        "operator": "Office of Kentucky Nature Preserves",
+        "roundtrip": "yes",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.6272863,
+          37.7689343
+        ]
+      },
+      "id": "relation/12106725"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12110939",
+        "distance": "0.25 mi",
+        "name": "Spring Spur",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.8436501,
+          38.2195579
+        ]
+      },
+      "id": "relation/12110939"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12110940",
+        "distance": "0.35 mi",
+        "name": "Holly Shortcut",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.8460448,
+          38.2220744
+        ]
+      },
+      "id": "relation/12110940"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12110941",
+        "distance": "0.95 mi",
+        "name": "Osage",
+        "network": "lwn",
+        "osmc:symbol": "green:green:yellow_dot:O:red",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.8474512,
+          38.2221874
+        ]
+      },
+      "id": "relation/12110941"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12110942",
+        "distance": "0.85 mi",
+        "name": "Holly",
+        "network": "lwn",
+        "osmc:symbol": "yellow:yellow:green_shell:H:red",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.8459589,
+          38.2218425
+        ]
+      },
+      "id": "relation/12110942"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12110943",
+        "distance": "0.25 mi",
+        "name": "Upland",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.8466265,
+          38.2198655
+        ]
+      },
+      "id": "relation/12110943"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12110944",
+        "distance": "0.5 mi",
+        "name": "Blackberry Meadow",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.8423909,
+          38.2196674
+        ]
+      },
+      "id": "relation/12110944"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12110945",
+        "name": "Peaks Mill",
+        "network": "lwn",
+        "osmc:symbol": "brown:brown:green_triangle:PMT:green",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.8490004,
+          38.2246531
+        ]
+      },
+      "id": "relation/12110945"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12110946",
+        "distance": "0.6 mi",
+        "name": "Sky Trail",
+        "osmc:symbol": "black:black:red_diamond:Sky:red",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.8518307,
+          38.2213066
+        ]
+      },
+      "id": "relation/12110946"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12111011",
+        "name": "3D Range",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.8515561,
+          38.2235043
+        ]
+      },
+      "id": "relation/12111011"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12115286",
+        "from": "Whittleton Branch Trail",
+        "name": "Whittleton Arch Trail #217",
+        "network": "lwn",
+        "operator": "USFS",
+        "osmc:symbol": ":white::WA:red",
+        "ref": "217",
+        "route": "hiking",
+        "to": "Whittleton Arch",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.661365,
+          37.7842771
+        ]
+      },
+      "id": "relation/12115286"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12115288",
+        "from": "KY 15",
+        "name": "Whittleton Branch Trail #216",
+        "network": "lwn",
+        "operator": "USFS",
+        "osmc:symbol": ":white::WB:red",
+        "ref": "216",
+        "route": "hiking",
+        "to": "Whittleton Campground",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6636567,
+          37.7899671
+        ]
+      },
+      "id": "relation/12115288"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12118656",
+        "name": "Koomer Ridge #220",
+        "network": "lwn",
+        "operator": "USFS",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6279828,
+          37.7950027
+        ]
+      },
+      "id": "relation/12118656"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12118657",
+        "name": "Hidden Arch Trail #208",
+        "network": "lwn",
+        "operator": "USFS",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6376106,
+          37.7881089
+        ]
+      },
+      "id": "relation/12118657"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12118658",
+        "name": "Silvermine Arch Trail #225",
+        "network": "lwn",
+        "operator": "USFS",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.629893,
+          37.7867399
+        ]
+      },
+      "id": "relation/12118658"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12118659",
+        "name": "Cliff Trail #206",
+        "network": "lwn",
+        "operator": "USFS",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.630396,
+          37.7850228
+        ]
+      },
+      "id": "relation/12118659"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12118680",
+        "name": "Buck Trail #226",
+        "network": "lwn",
+        "operator": "USFS",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6346415,
+          37.8019711
+        ]
+      },
+      "id": "relation/12118680"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12118681",
+        "name": "Pinch-em Tight Trail #233",
+        "network": "lwn",
+        "operator": "USFS",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6460861,
+          37.8090027
+        ]
+      },
+      "id": "relation/12118681"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12118682",
+        "name": "Rush Ridge #227",
+        "network": "lwn",
+        "operator": "USFS",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6496835,
+          37.8134945
+        ]
+      },
+      "id": "relation/12118682"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12118683",
+        "name": "Gray's Arch Trail #205",
+        "network": "lwn",
+        "operator": "USFS",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6589896,
+          37.8131829
+        ]
+      },
+      "id": "relation/12118683"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12118684",
+        "name": "Boone Hut Trail #209",
+        "network": "lwn",
+        "operator": "USFS",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6611026,
+          37.8086495
+        ]
+      },
+      "id": "relation/12118684"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12118685",
+        "name": "Double Arch Trail #201",
+        "network": "lwn",
+        "operator": "USFS",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6866317,
+          37.8291588
+        ]
+      },
+      "id": "relation/12118685"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12118686",
+        "name": "Auxier Branch Trail #203",
+        "network": "lwn",
+        "operator": "USFS",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6829314,
+          37.8358848
+        ]
+      },
+      "id": "relation/12118686"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12118687",
+        "name": "Courthouse Rock Trail #202",
+        "network": "lwn",
+        "operator": "USFS",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6793,
+          37.8327949
+        ]
+      },
+      "id": "relation/12118687"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12118688",
+        "name": "Auxier Ridge Trail #204",
+        "network": "lwn",
+        "operator": "USFS",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6791166,
+          37.8309713
+        ]
+      },
+      "id": "relation/12118688"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12118713",
+        "name": "Osborne Bend Trail #240",
+        "network": "lwn",
+        "operator": "USFS",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.5796669,
+          37.8372095
+        ]
+      },
+      "id": "relation/12118713"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12118714",
+        "name": "Lost Branch Trail #239",
+        "network": "lwn",
+        "operator": "USFS",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.584667,
+          37.8543061
+        ]
+      },
+      "id": "relation/12118714"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12118715",
+        "name": "Bison Way Trail #210",
+        "network": "lwn",
+        "operator": "USFS",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.610313,
+          37.8397825
+        ]
+      },
+      "id": "relation/12118715"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12118716",
+        "name": "Swift Camp Creek Trail #219",
+        "network": "lwn",
+        "operator": "USFS",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.5751551,
+          37.786038
+        ]
+      },
+      "id": "relation/12118716"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12118717",
+        "name": "Wildcat Trail #228",
+        "network": "lwn",
+        "operator": "USFS",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.5840006,
+          37.7894247
+        ]
+      },
+      "id": "relation/12118717"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12118718",
+        "name": "Rock Bridge Trail #207",
+        "network": "lwn",
+        "operator": "USFS",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.5635616,
+          37.7697076
+        ]
+      },
+      "id": "relation/12118718"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12146907",
+        "colour": "red",
+        "distance": "1.3 mi",
+        "name": "red",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.858365,
+          38.1380565
+        ]
+      },
+      "id": "relation/12146907"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12146908",
+        "colour": "yellow",
+        "distance": "0.5 mi",
+        "name": "yellow",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.8601728,
+          38.1425082
+        ]
+      },
+      "id": "relation/12146908"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12146909",
+        "colour": "orange",
+        "distance": "0.5 mi",
+        "name": "orange",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.8593168,
+          38.1425082
+        ]
+      },
+      "id": "relation/12146909"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12146910",
+        "colour": "white",
+        "distance": "0.3 mi",
+        "name": "white",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.8562642,
+          38.134905
+        ]
+      },
+      "id": "relation/12146910"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12146911",
+        "colour": "blue",
+        "distance": "1.0 mi",
+        "name": "blue",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.8524922,
+          38.1337618
+        ]
+      },
+      "id": "relation/12146911"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12212234",
+        "from": "Cumberland Falls",
+        "name": "Sheltowee Trace NRT Section 28",
+        "network": "rwn",
+        "operator": "USFS",
+        "ref": "100",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3445197,
+          36.8226964
+        ]
+      },
+      "id": "relation/12212234"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12212235",
+        "name": "Sheltowee Trace NRT Section 29",
+        "network": "rwn",
+        "operator": "USFS",
+        "ref": "100",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3791827,
+          36.7990984
+        ]
+      },
+      "id": "relation/12212235"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12212236",
+        "name": "Sheltowee Trace NRT Section 30",
+        "network": "rwn",
+        "operator": "USFS",
+        "ref": "100",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4353436,
+          36.7794864
+        ]
+      },
+      "id": "relation/12212236"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12212261",
+        "name": "Sheltowee Trace NRT Section 31",
+        "network": "rwn",
+        "operator": "USFS",
+        "ref": "100",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5029722,
+          36.7931038
+        ]
+      },
+      "id": "relation/12212261"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12212262",
+        "name": "Sheltowee Trace NRT Section 32",
+        "network": "rwn",
+        "operator": "USFS",
+        "ref": "100",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5288767,
+          36.7814615
+        ]
+      },
+      "id": "relation/12212262"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12212285",
+        "name": "Sheltowee Trace NRT Section 33",
+        "network": "rwn",
+        "operator": "USFS",
+        "ref": "100",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5388277,
+          36.7492096
+        ]
+      },
+      "id": "relation/12212285"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12223211",
+        "name": "Maywoods big loop",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.430625,
+          37.4825015
+        ]
+      },
+      "id": "relation/12223211"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12256128",
+        "name": "Sheltowee Trace NRT Section 34",
+        "network": "rwn",
+        "operator": "USFS",
+        "ref": "100",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5453867,
+          36.7219251
+        ]
+      },
+      "id": "relation/12256128"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12256129",
+        "name": "Sheltowee Trace NRT Section 35",
+        "network": "rwn",
+        "operator": "USFS",
+        "ref": "100",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5546214,
+          36.7017638
+        ]
+      },
+      "id": "relation/12256129"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12256242",
+        "name": "Sheltowee Trace NRT Section 36",
+        "network": "rwn",
+        "operator": "USFS",
+        "ref": "100",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.6275464,
+          36.6534487
+        ]
+      },
+      "id": "relation/12256242"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12256243",
+        "name": "Sheltowee Trace NRT Section 37",
+        "network": "rwn",
+        "operator": "USFS",
+        "ref": "100",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.7005422,
+          36.6337969
+        ]
+      },
+      "id": "relation/12256243"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12256244",
+        "name": "Sheltowee Trace NRT Section 38",
+        "network": "rwn",
+        "operator": "USFS",
+        "ref": "100",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.7256034,
+          36.6230409
+        ]
+      },
+      "id": "relation/12256244"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12256361",
+        "from": "KY 1274",
+        "name": "Sheltowee Trace NRT Section 11",
+        "network": "rwn",
+        "operator": "USFS",
+        "ref": "100",
+        "route": "hiking",
+        "to": "US 460",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.581204,
+          37.9441657
+        ]
+      },
+      "id": "relation/12256361"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12256527",
+        "from": "Clear Creek",
+        "name": "Sheltowee Trace NRT Section 10",
+        "network": "rwn",
+        "operator": "USFS",
+        "ref": "100",
+        "route": "hiking",
+        "to": "KY 1274",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.596179,
+          38.0123006
+        ]
+      },
+      "id": "relation/12256527"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12256528",
+        "from": "KY 801",
+        "name": "Sheltowee Trace NRT Section 9",
+        "network": "rwn",
+        "operator": "USFS",
+        "ref": "100",
+        "route": "hiking",
+        "to": "Clear Creek",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.5580949,
+          38.0860936
+        ]
+      },
+      "id": "relation/12256528"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12459958",
+        "name": "Trail Head",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.3281687,
+          37.2766193
+        ]
+      },
+      "id": "relation/12459958"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12459959",
+        "name": "Pat's Loop",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.3276876,
+          37.2723718
+        ]
+      },
+      "id": "relation/12459959"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12459960",
+        "route": "hiking",
+        "type": "person",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.3276876,
+          37.2723718
+        ]
+      },
+      "id": "relation/12459960"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/13063919",
+        "name": "R-Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3035057,
+          38.8017128
+        ]
+      },
+      "id": "relation/13063919"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/13063920",
+        "name": "C-Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3030652,
+          38.8001996
+        ]
+      },
+      "id": "relation/13063920"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/13063921",
+        "name": "Paul Dickenson Power Line Trail",
+        "network": "lwn",
+        "operator": "AT&T Pioneers",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.303264,
+          38.800269
+        ]
+      },
+      "id": "relation/13063921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/13063922",
+        "name": "A-Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3031501,
+          38.8000479
+        ]
+      },
+      "id": "relation/13063922"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/13845339",
+        "description": "Adventure Trail",
+        "distance": "25",
+        "name": "Adventure Trail",
+        "network": "rwn",
+        "operator": "ON.IN.GOV/HARRISONCRAWFORDSF",
+        "osmc:symbol": "green:white:green_corner_left",
+        "ref": "AT",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.2693198,
+          38.1820333
+        ]
+      },
+      "id": "relation/13845339"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/13968933",
+        "colour": "White",
+        "distance": "~300 miles",
+        "from": "Cumberland Gap",
+        "name": "Cumberland Trail",
+        "network": "rwn",
+        "network:type": "rwn",
+        "operator": "Tennessee State Parks",
+        "ref": "CT",
+        "route": "hiking",
+        "to": "Signal Point",
+        "type": "route",
+        "website": "https://tnstateparks.com/parks/cumberland-trail",
+        "wikidata": "Q5193972",
+        "wikipedia": "en:Justin P. Wilson Cumberland Trail State Park",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5480707,
+          35.8599887
+        ]
+      },
+      "id": "relation/13968933"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14256995",
+        "name": "Great Eastern Trail - TuNuGu",
+        "network": "rwn",
+        "ref": "TNG",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.8011547,
+          37.6069713
+        ]
+      },
+      "id": "relation/14256995"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14256996",
+        "name": "Great Eastern Trail - Energy Trail",
+        "network": "lwn",
+        "ref": "ET",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3016394,
+          37.4598462
+        ]
+      },
+      "id": "relation/14256996"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14256997",
+        "name": "Pine Mountain Trail",
+        "network": "rwn",
+        "ref": "PMT",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.812998,
+          37.0982365
+        ]
+      },
+      "id": "relation/14256997"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14256998",
+        "name": "Great Eastern Trail - Pine Mountain Link",
+        "network": "rwn",
+        "ref": "PMT",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.4541195,
+          36.7497166
+        ]
+      },
+      "id": "relation/14256998"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/15323010",
+        "network": "lwn",
+        "ref": "3",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2269692,
+          39.0808761
+        ]
+      },
+      "id": "relation/15323010"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/15323011",
+        "network": "lwn",
+        "ref": "2",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2294429,
+          39.0778817
+        ]
+      },
+      "id": "relation/15323011"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/15323012",
+        "network": "lwn",
+        "ref": "1",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2318655,
+          39.0713086
+        ]
+      },
+      "id": "relation/15323012"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/15323013",
+        "network": "lwn",
+        "ref": "4",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2392102,
+          39.0759275
+        ]
+      },
+      "id": "relation/15323013"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/15570116",
+        "name": "Pate Hollow Trail",
+        "network": "lwn",
+        "operator": "United States Forest Service",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.4396794,
+          39.0948051
+        ]
+      },
+      "id": "relation/15570116"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/15612892",
+        "name": "Green River Bluffs Trail",
+        "network": "lwn",
+        "operator": "United States National Park Service",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.1050009,
+          37.1909655
+        ]
+      },
+      "id": "relation/15612892"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/15612893",
+        "name": "Echo River Springs Trail",
+        "network": "lwn",
+        "operator": "United States National Park Service",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.1098462,
+          37.183244
+        ]
+      },
+      "id": "relation/15612893"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/15612894",
+        "name": "Sinkhole Trail",
+        "network": "lwn",
+        "operator": "United States National Park Service",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.1062621,
+          37.1828578
+        ]
+      },
+      "id": "relation/15612894"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/15612895",
+        "name": "River Valley Trail",
+        "network": "lwn",
+        "operator": "United States National Park Service",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.1066414,
+          37.1830864
+        ]
+      },
+      "id": "relation/15612895"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/15612896",
+        "name": "White's Cave Trail",
+        "network": "lwn",
+        "operator": "United States National Park Service",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.1029116,
+          37.1815426
+        ]
+      },
+      "id": "relation/15612896"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/15612897",
+        "name": "Campground Trail",
+        "network": "lwn",
+        "operator": "United States National Park Service",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.0993677,
+          37.1833568
+        ]
+      },
+      "id": "relation/15612897"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/15612898",
+        "name": "Heritage Trail",
+        "network": "lwn",
+        "operator": "United States National Park Service",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.1040464,
+          37.1867414
+        ]
+      },
+      "id": "relation/15612898"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/15612899",
+        "name": "River Styx Spring Trail",
+        "network": "lwn",
+        "operator": "United States National Park Service",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.1049987,
+          37.1874753
+        ]
+      },
+      "id": "relation/15612899"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/15612900",
+        "name": "Dixon Cave Trail",
+        "network": "lwn",
+        "operator": "United States National Park Service",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.1047414,
+          37.1892712
+        ]
+      },
+      "id": "relation/15612900"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/15612901",
+        "name": "Sunset Point Trail",
+        "network": "lwn",
+        "operator": "United States National Park Service",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.1076887,
+          37.1870553
+        ]
+      },
+      "id": "relation/15612901"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/15649556",
+        "network": "lwn",
+        "ref": "3",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.4120943,
+          38.729169
+        ]
+      },
+      "id": "relation/15649556"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/15649557",
+        "network": "lwn",
+        "ref": "6",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.4133014,
+          38.7273914
+        ]
+      },
+      "id": "relation/15649557"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/15649558",
+        "network": "lwn",
+        "ref": "4",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.4208302,
+          38.7336417
+        ]
+      },
+      "id": "relation/15649558"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/15649559",
+        "network": "lwn",
+        "ref": "2",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.4173351,
+          38.7377736
+        ]
+      },
+      "id": "relation/15649559"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/15649560",
+        "network": "lwn",
+        "ref": "5",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.4132884,
+          38.73841
+        ]
+      },
+      "id": "relation/15649560"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/15649561",
+        "network": "lwn",
+        "ref": "1",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.4142273,
+          38.7351431
+        ]
+      },
+      "id": "relation/15649561"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/15649562",
+        "network": "lwn",
+        "ref": "7",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.4276282,
+          38.7295717
+        ]
+      },
+      "id": "relation/15649562"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/15775628",
+        "name": "Revenuer’s Way",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.8683083,
+          38.2201063
+        ]
+      },
+      "id": "relation/15775628"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/16467818",
+        "name": "Taylor Ridge Trail",
+        "ref": "9",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.2605607,
+          39.1463379
+        ]
+      },
+      "id": "relation/16467818"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/16467820",
+        "name": "Strahl Lake Trail",
+        "ref": "6",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.2225796,
+          39.1473069
+        ]
+      },
+      "id": "relation/16467820"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/16617311",
+        "name": "Pinnacle Peak Trail",
+        "network": "lwn",
+        "ref": "1",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.9961989,
+          38.8721068
+        ]
+      },
+      "id": "relation/16617311"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/16617312",
+        "name": "Overlook Trail",
+        "network": "lwn",
+        "ref": "2",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.9993032,
+          38.8635582
+        ]
+      },
+      "id": "relation/16617312"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/16617313",
+        "name": "Youth Camp Trail",
+        "network": "lwn",
+        "ref": "3",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.0019536,
+          38.862356
+        ]
+      },
+      "id": "relation/16617313"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/16617314",
+        "name": "Knob Lake Trail",
+        "network": "lwn",
+        "ref": "5",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.0026889,
+          38.8637976
+        ]
+      },
+      "id": "relation/16617314"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/16617315",
+        "name": "North Loopt Trail",
+        "network": "lwn",
+        "ref": "10",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.0049399,
+          38.868397
+        ]
+      },
+      "id": "relation/16617315"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/16617316",
+        "name": "Sawmill  Hollow Trail",
+        "network": "lwn",
+        "ref": "6",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.0124349,
+          38.860607
+        ]
+      },
+      "id": "relation/16617316"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/16617317",
+        "name": "Beginners Loop Trail",
+        "network": "lwn",
+        "ref": "4",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.0067904,
+          38.86295
+        ]
+      },
+      "id": "relation/16617317"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/16658460",
+        "name": "Otter Creek",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.0461543,
+          37.9478939
+        ]
+      },
+      "id": "relation/16658460"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/16658461",
+        "name": "Valley Overlook Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.0434087,
+          37.9462223
+        ]
+      },
+      "id": "relation/16658461"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/16658462",
+        "name": "Connector",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.0378284,
+          37.9528063
+        ]
+      },
+      "id": "relation/16658462"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/16740709",
+        "name": "Cedar Sink Trail",
+        "network": "lwn",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.1570209,
+          37.1519013
+        ]
+      },
+      "id": "relation/16740709"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/17484306",
+        "alt_name": "Perimeter Trail",
+        "colour": "#215f3c",
+        "name": "Steve Newman Worldwalker Perimeter Trail",
+        "network": "lwn",
+        "operator": "East Fork State Park",
+        "osmc:symbol": "green:green:white_hiker",
+        "ref": "SNWPT",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1090797,
+          39.0217867
+        ]
+      },
+      "id": "relation/17484306"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/17484343",
+        "colour": "#d03739",
+        "name": "East Fork Backpack Trail",
+        "network": "lwn",
+        "operator": "East Fork State Park",
+        "osmc:symbol": "red:red:white_hiker",
+        "ref": "EFBP",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1227997,
+          39.0052072
+        ]
+      },
+      "id": "relation/17484343"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/17590130",
+        "name": "Axsom Branch Trail",
+        "network": "lwn",
+        "operator": "United States Forest Service",
+        "ref": "405.3",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.3317799,
+          39.0400276
+        ]
+      },
+      "id": "relation/17590130"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/17590131",
+        "name": "Terrill Ridge Trail",
+        "network": "lwn",
+        "operator": "United States Forest Service",
+        "ref": "405.9",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.3184113,
+          39.0450586
+        ]
+      },
+      "id": "relation/17590131"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/17670135",
+        "description": "The Helen C. Black Trail, opened in 2020, is located in the John and Marion Becker Cedar Falls Preserve. Part of the Edge of Appalachia Preserve System, it features a 15-foot limestone cascade best viewed in spring or after heavy rain.",
+        "name": "Helen C. Black Trail",
+        "route": "hiking",
+        "start_date": "2020",
+        "type": "route",
+        "website": "https://www.nature.org/en-us/get-involved/how-to-help/places-we-protect/edge-of-appalachia-cedar-falls-trail/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3877839,
+          38.8289035
+        ]
+      },
+      "id": "relation/17670135"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/17670362",
+        "description": "Buzzardroost Rock Trail in Ohio's Edge of Appalachia Preserve leads to a limestone monument 300 feet above Brush Creek valley, offering spectacular views. The trail features rare prairie plants, while turkey and black vultures are often seen at the rock.",
+        "name": "Buzzardroost Rock Trail",
+        "route": "hiking",
+        "type": "route",
+        "website": "https://www.nature.org/en-us/get-involved/how-to-help/places-we-protect/edge-of-appalachia-buzzardroost-rock-trail/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.4394579,
+          38.7686939
+        ]
+      },
+      "id": "relation/17670362"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/17672403",
+        "description": "Lynx Prairie Trail offers a peaceful hike through woods and prairie, featuring blue-stem and rare three-awn grasses. Home to fritillaries and swallowtails, it includes cedar barrens and grassland spots. Named a National Natural Landmark in 1967.",
+        "name": "Lynx Prairie Trail",
+        "route": "hiking",
+        "type": "route",
+        "website": "https://www.nature.org/en-us/get-involved/how-to-help/places-we-protect/edge-of-appalachia-lynx-prairie-trail/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.4088749,
+          38.7623352
+        ]
+      },
+      "id": "relation/17672403"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/17686976",
+        "name": "Martin Hollow Trail",
+        "network": "lwn",
+        "operator": "United States Forest Service",
+        "ref": "405.4",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.3333488,
+          39.0271444
+        ]
+      },
+      "id": "relation/17686976"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/17881800",
+        "name": "Shirley Creek Trail",
+        "network": "lwn",
+        "operator": "United States Forest Service",
+        "ref": "301.10",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.6107536,
+          38.6575717
+        ]
+      },
+      "id": "relation/17881800"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/17881801",
+        "name": "Shirley Creek Trail 2",
+        "network": "lwn",
+        "operator": "United States Forest Service",
+        "ref": "301.20",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.6225051,
+          38.6580271
+        ]
+      },
+      "id": "relation/17881801"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/17881802",
+        "name": "Shirley Creek Trail 3",
+        "network": "lwn",
+        "operator": "United States Forest Service",
+        "ref": "301.3",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.6099457,
+          38.6489798
+        ]
+      },
+      "id": "relation/17881802"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/17881803",
+        "name": "Shirley Creek Trail 4",
+        "operator": "United States Forest Service",
+        "ref": "301.40",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.6126279,
+          38.6638978
+        ]
+      },
+      "id": "relation/17881803"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/17881804",
+        "name": "Shirley Creek Trail 6",
+        "network": "lwn",
+        "operator": "United States Forest Service",
+        "ref": "301.60",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.601247,
+          38.6556863
+        ]
+      },
+      "id": "relation/17881804"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/17881805",
+        "name": "Shirley Creek Trail 5",
+        "network": "lwn",
+        "operator": "United States Forest Service",
+        "ref": "301.50",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.5946685,
+          38.6532017
+        ]
+      },
+      "id": "relation/17881805"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/18319351",
+        "blaze": "white",
+        "description": "Appalachian Trail - North Carolina & Tennessee",
+        "direction": "both",
+        "name": "Appalachian Trail",
+        "network": "nwn",
+        "network:type": "US:NST",
+        "osmc:symbol": "white::white_stripe",
+        "ref": "AT",
+        "route": "hiking",
+        "type": "route",
+        "wikidata": "Q134446292",
+        "wikipedia": "en:Appalachian Trail",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.8232273,
+          35.803407
+        ]
+      },
+      "id": "relation/18319351"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/18458643",
+        "name": "Old River to River - Alternate Segment 6 - Giant City to Alto Pass",
+        "network": "rwn",
+        "ref": "R2R-alt",
+        "route": "hiking",
+        "type": "route",
+        "wikipedia": "en:River to River Trail",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.26203,
+          37.6082698
+        ]
+      },
+      "id": "relation/18458643"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/18794793",
+        "name": "Crooked Run Outer Loop",
+        "network": "lwn",
+        "operator": "Clermont County Park District",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.127477,
+          38.789202
+        ]
+      },
+      "id": "relation/18794793"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/18794794",
+        "name": "Overlook Connector",
+        "network": "lwn",
+        "operator": "Clermont County Park District",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1290901,
+          38.7890122
+        ]
+      },
+      "id": "relation/18794794"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/18794795",
+        "name": "Chilo Lock 34 Riverwalk Path",
+        "network": "lwn",
+        "operator": "Clermont County Park District",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.131433,
+          38.7895482
+        ]
+      },
+      "id": "relation/18794795"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/18811075",
+        "colour": "#343434",
+        "loc_name": "Devil's Kitchen Trail",
+        "name": "Rock House Trail",
+        "network": "lwn",
+        "network:type": "node_network",
+        "operator": "Berea College Forestry",
+        "ref": "4",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2315406,
+          37.5635748
+        ]
+      },
+      "id": "relation/18811075"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/18811076",
+        "colour": "#ff0000",
+        "loc_name": "Indian Fort Trail",
+        "name": "Bluegrass Overlook Trail",
+        "network": "lwn",
+        "network:type": "basic_network",
+        "operator": "Berea College Forestry",
+        "ref": "1",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2362726,
+          37.5593803
+        ]
+      },
+      "id": "relation/18811076"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/18811077",
+        "colour": "#0070ff",
+        "name": "Lower Pinnacle Trail",
+        "network": "lwn",
+        "network:type": "basic_network",
+        "operator": "Berea College Forestry",
+        "ref": "2",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2331957,
+          37.5603531
+        ]
+      },
+      "id": "relation/18811077"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/18811078",
+        "colour": "#ff6633",
+        "name": "West Barton Trail",
+        "network": "lwn",
+        "network:type": "berea_college_forestry",
+        "ref": "7",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2452567,
+          37.5649603
+        ]
+      },
+      "id": "relation/18811078"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/18811079",
+        "colour": "#00734c",
+        "name": "Upper Pinnacle Trail",
+        "network": "lwn",
+        "network:type": "basic_network",
+        "operator": "Berea College Forestry",
+        "ref": "3",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2359596,
+          37.5607515
+        ]
+      },
+      "id": "relation/18811079"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/18811080",
+        "colour": "purple",
+        "name": "Learn & Burn Trail",
+        "network": "lwn",
+        "network:type": "basic_network",
+        "operator": "Berea College Forestry",
+        "ref": "8",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.240561,
+          37.5568035
+        ]
+      },
+      "id": "relation/18811080"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/18811081",
+        "colour": "#ffcc00",
+        "name": "Robe Mountain Trail",
+        "network": "lwn",
+        "operator": "Berea College Forestry",
+        "ref": "5",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2270967,
+          37.5658552
+        ]
+      },
+      "id": "relation/18811081"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/19347458",
+        "from": "Big Limestone",
+        "name": "Sheltowee Trace NRT Section 8",
+        "network": "rwn",
+        "operator": "USFS",
+        "ref": "100",
+        "route": "hiking",
+        "to": "KY 801",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.4829932,
+          38.1294069
+        ]
+      },
+      "id": "relation/19347458"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/19347459",
+        "from": "Morehead",
+        "name": "Sheltowee Trace NRT Section 7",
+        "network": "rwn",
+        "operator": "USFS",
+        "ref": "100",
+        "route": "hiking",
+        "to": "Big Limestone",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.4373318,
+          38.1497077
+        ]
+      },
+      "id": "relation/19347459"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/19347851",
+        "from": "Morehead",
+        "name": "Sheltowee Trace NRT Section 6",
+        "network": "rwn",
+        "operator": "USFS",
+        "ref": "100",
+        "route": "hiking",
+        "to": "Morehead US-60",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.439319,
+          38.1738295
+        ]
+      },
+      "id": "relation/19347851"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/19347852",
+        "from": "Martin Branch Trail",
+        "name": "Sheltowee Trace NRT Section 5",
+        "network": "rwn",
+        "operator": "USFS",
+        "ref": "100",
+        "route": "hiking",
+        "to": "Morehead KY-32",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.434482,
+          38.2003344
+        ]
+      },
+      "id": "relation/19347852"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/19347853",
+        "from": "KY-799",
+        "name": "Sheltowee Trace NRT Section 4",
+        "network": "rwn",
+        "operator": "USFS",
+        "ref": "100",
+        "route": "hiking",
+        "to": "Martins Branch Trail",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.397728,
+          38.2472023
+        ]
+      },
+      "id": "relation/19347853"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/19347854",
+        "from": "Holly Fork Road",
+        "name": "Sheltowee Trace NRT Section 3",
+        "network": "rwn",
+        "operator": "USFS",
+        "ref": "100",
+        "route": "hiking",
+        "to": "KY-799",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3760842,
+          38.28402
+        ]
+      },
+      "id": "relation/19347854"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/19347855",
+        "from": "Dry Branch Road",
+        "name": "Sheltowee Trace NRT Section 2",
+        "network": "rwn",
+        "operator": "USFS",
+        "ref": "100",
+        "route": "hiking",
+        "to": "KY-799",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3693698,
+          38.3045248
+        ]
+      },
+      "id": "relation/19347855"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/19347856",
+        "from": "North Terminus Trailhead",
+        "name": "Sheltowee Trace NRT Section 1",
+        "network": "rwn",
+        "operator": "USFS",
+        "ref": "100",
+        "route": "hiking",
+        "to": "Dry Branch Road",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3889777,
+          38.3539356
+        ]
+      },
+      "id": "relation/19347856"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/19431875",
+        "colour": "green",
+        "name": "Fort Hill Preserve - Fort Trail",
+        "network": "lwn",
+        "operator": "Arc of Appalachia",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.4024399,
+          39.1167304
+        ]
+      },
+      "id": "relation/19431875"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/19431877",
+        "colour": "brown",
+        "name": "Fort Hill Preserve - Gorge Trail",
+        "network": "lwn",
+        "operator": "Arc of Appalachia",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.4051348,
+          39.1143573
+        ]
+      },
+      "id": "relation/19431877"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/19431878",
+        "colour": "purple",
+        "name": "Fort Hill Preserve - Deer Trail",
+        "network": "lwn",
+        "operator": "Arc of Appalachia",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.4008607,
+          39.1153403
+        ]
+      },
+      "id": "relation/19431878"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/19562220",
+        "colour": "orange",
+        "name": "Channels Trail",
+        "osmc:symbol": "orange",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9764422,
+          36.8526633
+        ]
+      },
+      "id": "relation/19562220"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/19562221",
+        "colour": "purple",
+        "name": "Brumley Mountain Trail",
+        "osmc:symbol": "purple",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.0238158,
+          36.8557407
+        ]
+      },
+      "id": "relation/19562221"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/19613837",
+        "name": "Shawnee Bike Trail",
+        "network": "lwn",
+        "network:type": "local",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1041229,
+          38.6824701
+        ]
+      },
+      "id": "relation/19613837"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/19763101",
+        "name": "Hickory Ridge Trail 18",
+        "ref": "18",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.2960138,
+          39.0090898
+        ]
+      },
+      "id": "relation/19763101"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/19763334",
+        "name": "Hickory Ridge Trail 19",
+        "ref": "19",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.2973784,
+          39.025548
+        ]
+      },
+      "id": "relation/19763334"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/19763335",
+        "name": "Hickory Ridge Trail 20",
+        "ref": "20",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.26866,
+          39.017465
+        ]
+      },
+      "id": "relation/19763335"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/19763336",
+        "name": "Hickory Ridge Trail 21",
+        "ref": "21",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.2577176,
+          39.0033031
+        ]
+      },
+      "id": "relation/19763336"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/19763337",
+        "name": "Hickory Ridge Trail 22",
+        "ref": "22",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.2533245,
+          38.9886055
+        ]
+      },
+      "id": "relation/19763337"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/19763338",
+        "name": "Hickory Ridge Trail 16",
+        "ref": "16",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.2418749,
+          38.9743012
+        ]
+      },
+      "id": "relation/19763338"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/19763339",
+        "name": "Hickory Ridge Trail 15",
+        "ref": "15",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.263993,
+          38.9731338
+        ]
+      },
+      "id": "relation/19763339"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/19763340",
+        "name": "Hickory Ridge Trail 17",
+        "ref": "17",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.2370558,
+          38.971157
+        ]
+      },
+      "id": "relation/19763340"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/19763341",
+        "name": "Hickory Ridge Trail 14",
+        "ref": "14",
+        "route": "hiking",
+        "type": "route",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.2601605,
+          38.9808423
+        ]
+      },
+      "id": "relation/19763341"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/20439749",
+        "ascent": "6192",
+        "colour": "white",
+        "descent": "6201",
+        "description": "A journey through Indiana's woodlands and history.",
+        "distance": "170 miles",
+        "from": "Deam Lake",
+        "name": "Hoosier Heritage Trail",
+        "network": "rwn",
+        "ref": "HHT",
+        "roundtrip": "no",
+        "route": "hiking",
+        "survey:date": "2026-4-07",
+        "symbol": "white rectangle",
+        "to": "Beanblossom Bottoms Nature Preserve",
+        "type": "route",
+        "website": "https://hoosierheritagetrail.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.202835,
+          38.8964015
+        ]
+      },
+      "id": "relation/20439749"
+    }
+  ]
+}

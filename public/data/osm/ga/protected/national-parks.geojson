@@ -1,0 +1,108 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-06-28T00:12:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/143353",
+        "area": "yes",
+        "boundary": "protected_area",
+        "communication:amateur_radio:pota": "US-0711",
+        "name": "Kennesaw Mountain National Battlefield Park",
+        "operator": "National Park Service",
+        "operator:short": "NPS",
+        "operator:type": "public",
+        "operator:wikidata": "Q308439",
+        "operator:wikipedia": "en:National Park Service",
+        "ownership": "national",
+        "protect_class": "2",
+        "protect_title": "National Park",
+        "protected": "perpetuity",
+        "protected_area": "historic_site",
+        "protection_title": "National Battlefield",
+        "type": "multipolygon",
+        "website": "https://www.nps.gov/kemo/index.htm",
+        "wikidata": "Q6389745",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5891088,
+          33.9493324
+        ]
+      },
+      "id": "relation/143353"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/4633431",
+        "access": "private",
+        "boundary": "protected_area",
+        "name": "The Preserve at RiverWest",
+        "old_name": "Millstone Golf Course",
+        "protect_class": "2",
+        "type": "multipolygon",
+        "website": "https://thepreserveparks.com/the-preserve-at-riverwest",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4712332,
+          34.8273518
+        ]
+      },
+      "id": "relation/4633431"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/15486883",
+        "access": "private",
+        "area": "yes",
+        "boundary": "protected_area",
+        "name": "The Preserve at Lakewood",
+        "protect_class": "2",
+        "type": "multipolygon",
+        "website": "https://thepreserveparks.com/the-preserve-at-lakewood",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3358546,
+          34.7672438
+        ]
+      },
+      "id": "relation/15486883"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/16486568",
+        "boundary": "protected_area",
+        "ownership": "national",
+        "protect_class": "2",
+        "protected": "perpetuity",
+        "protection_title": "National Park",
+        "source": "Purcell A. 2022. Congaree National Park Tract and Boundary Data. National Park Service (NPS), Chief Cartographer, Land Resources Division, WASO Fort Collins Land Resources Program Center. https://irma.nps.gov/DataStore/Reference/Profile/2299943",
+        "source:version": "20220607",
+        "type": "boundary",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.7316474,
+          33.7940409
+        ]
+      },
+      "id": "relation/16486568"
+    }
+  ]
+}

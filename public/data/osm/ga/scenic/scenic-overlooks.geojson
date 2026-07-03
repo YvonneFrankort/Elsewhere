@@ -1,0 +1,5223 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-06-28T00:15:11Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/69228514",
+        "name": "Overlook",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5850664,
+          34.8248421
+        ]
+      },
+      "id": "node/69228514"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/154334732",
+        "ele": "3",
+        "gnis:feature_id": "1253464",
+        "name": "Barrell Landing",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.9306648,
+          32.295198
+        ]
+      },
+      "id": "node/154334732"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/295458057",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9362131,
+          34.7370586
+        ]
+      },
+      "id": "node/295458057"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/295488168",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.8564766,
+          34.7215707
+        ]
+      },
+      "id": "node/295488168"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/331531369",
+        "name": "Lower DeSoto Falls",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9171182,
+          34.7071846
+        ]
+      },
+      "id": "node/331531369"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/331531518",
+        "name": "Upper DeSoto Falls",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9153509,
+          34.7170012
+        ]
+      },
+      "id": "node/331531518"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/331554374",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9348344,
+          34.7596837
+        ]
+      },
+      "id": "node/331554374"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/331572419",
+        "name": "Overlook 1",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3886013,
+          34.7387419
+        ]
+      },
+      "id": "node/331572419"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/331572441",
+        "name": "Overlook 3",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3924315,
+          34.7399326
+        ]
+      },
+      "id": "node/331572441"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/331572446",
+        "name": "Overlook2",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3924678,
+          34.7394719
+        ]
+      },
+      "id": "node/331572446"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/331572736",
+        "description": "View of Hawthorn Pool and down gorge over Tempesta Falls",
+        "name": "Overlook 6",
+        "tourism": "viewpoint",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3933051,
+          34.7385072
+        ]
+      },
+      "id": "node/331572736"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/331572832",
+        "name": "Overlook 8",
+        "tourism": "viewpoint",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3902299,
+          34.7370863
+        ]
+      },
+      "id": "node/331572832"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/331572837",
+        "name": "Overlook 10",
+        "tourism": "viewpoint",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3892086,
+          34.7369475
+        ]
+      },
+      "id": "node/331572837"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/331572945",
+        "name": "Overlook 5",
+        "tourism": "viewpoint",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3955018,
+          34.7403665
+        ]
+      },
+      "id": "node/331572945"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/345681525",
+        "leisure": "fishing",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2100133,
+          34.4279399
+        ]
+      },
+      "id": "node/345681525"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/347642431",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2136297,
+          34.5860158
+        ]
+      },
+      "id": "node/347642431"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/347687418",
+        "name": "Waterfall view",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.712255,
+          34.7636253
+        ]
+      },
+      "id": "node/347687418"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/347694114",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7865713,
+          34.7924746
+        ]
+      },
+      "id": "node/347694114"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/358711765",
+        "ele": "669",
+        "gnis:feature_id": "327521",
+        "name": "Cooper Creek Scenic Area",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0661345,
+          34.7585817
+        ]
+      },
+      "id": "node/358711765"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/358748606",
+        "ele": "100",
+        "gnis:feature_id": "344264",
+        "man_made": "tower",
+        "name": "Jefferson Lookout Tower",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3979296,
+          32.9509739
+        ]
+      },
+      "id": "node/358748606"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/358748608",
+        "ele": "556",
+        "gnis:feature_id": "344265",
+        "man_made": "tower",
+        "name": "Johns Mountain Lookout Tower",
+        "start_date": "1979-09-25",
+        "tourism": "viewpoint",
+        "tower:type": "observation"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.098425,
+          34.6231456
+        ]
+      },
+      "id": "node/358748608"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/367775998",
+        "direction": "250",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.4823535,
+          34.8353014
+        ]
+      },
+      "id": "node/367775998"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/566338045",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.7797897,
+          32.8458133
+        ]
+      },
+      "id": "node/566338045"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/566340266",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.7450691,
+          32.8398311
+        ]
+      },
+      "id": "node/566340266"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/571697368",
+        "name": "Falls Overlook",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4006917,
+          34.8450185
+        ]
+      },
+      "id": "node/571697368"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/611965259",
+        "name": "Falls Overlook",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4015144,
+          34.8449452
+        ]
+      },
+      "id": "node/611965259"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/810955380",
+        "ele": "60.4",
+        "name": "View point",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.0440872,
+          31.6363688
+        ]
+      },
+      "id": "node/810955380"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1018406353",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2942128,
+          33.7653402
+        ]
+      },
+      "id": "node/1018406353"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1431916190",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3767019,
+          33.9768071
+        ]
+      },
+      "id": "node/1431916190"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1525269520",
+        "name": "The Overlook",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.3740468,
+          34.9656129
+        ]
+      },
+      "id": "node/1525269520"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1629052465",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4798518,
+          30.3787031
+        ]
+      },
+      "id": "node/1629052465"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1910725584",
+        "designation": "Mountain top lookout",
+        "name": "Indian Seats",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1350096,
+          34.2501183
+        ]
+      },
+      "id": "node/1910725584"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1910725871",
+        "designation": "Observation deck",
+        "name": "Indian Seats observation deck",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1345108,
+          34.2503268
+        ]
+      },
+      "id": "node/1910725871"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1962185916",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.347507,
+          34.9736811
+        ]
+      },
+      "id": "node/1962185916"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1962185917",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.3476075,
+          34.9738552
+        ]
+      },
+      "id": "node/1962185917"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2030934985",
+        "direction": "S",
+        "name": "Weston Lake Overlook",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.8178374,
+          33.8216593
+        ]
+      },
+      "id": "node/2030934985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2207216684",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4395632,
+          33.8897109
+        ]
+      },
+      "id": "node/2207216684"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2267824007",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.5906014,
+          34.548975
+        ]
+      },
+      "id": "node/2267824007"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2324985381",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.8365868,
+          34.7258653
+        ]
+      },
+      "id": "node/2324985381"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2324985382",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.8280705,
+          34.7261586
+        ]
+      },
+      "id": "node/2324985382"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2446593514",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1689696,
+          33.6236247
+        ]
+      },
+      "id": "node/2446593514"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2447728183",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1640782,
+          33.6325064
+        ]
+      },
+      "id": "node/2447728183"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2447728185",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1740853,
+          33.6279022
+        ]
+      },
+      "id": "node/2447728185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2454826200",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5778649,
+          33.9778807
+        ]
+      },
+      "id": "node/2454826200"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2462415337",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.4763399,
+          34.8386777
+        ]
+      },
+      "id": "node/2462415337"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2478489024",
+        "name": "Waterfall view deck",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7918896,
+          34.7021054
+        ]
+      },
+      "id": "node/2478489024"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2526041784",
+        "name": "Cascades",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1503374,
+          33.6671539
+        ]
+      },
+      "id": "node/2526041784"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2526041785",
+        "name": "Exposed rock",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1370551,
+          33.666962
+        ]
+      },
+      "id": "node/2526041785"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2526041787",
+        "name": "Rock outcrop",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1271872,
+          33.6597691
+        ]
+      },
+      "id": "node/2526041787"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2527372175",
+        "name": "Ruins",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.6234024,
+          33.7478996
+        ]
+      },
+      "id": "node/2527372175"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2527422785",
+        "name": "Cascades",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.6225617,
+          33.7490168
+        ]
+      },
+      "id": "node/2527422785"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2527432253",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.6331678,
+          33.7599473
+        ]
+      },
+      "id": "node/2527432253"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2527432315",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.6313372,
+          33.7610531
+        ]
+      },
+      "id": "node/2527432315"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2537460933",
+        "geological": "outcrop",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7383158,
+          33.4641148
+        ]
+      },
+      "id": "node/2537460933"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2556585354",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1356297,
+          33.6569786
+        ]
+      },
+      "id": "node/2556585354"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2556589894",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1297304,
+          33.6670803
+        ]
+      },
+      "id": "node/2556589894"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2559320927",
+        "name": "rocks",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.129861,
+          33.6712167
+        ]
+      },
+      "id": "node/2559320927"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2629367495",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7319259,
+          33.9797553
+        ]
+      },
+      "id": "node/2629367495"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2639186340",
+        "name": "waterfall",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.635167,
+          33.7364469
+        ]
+      },
+      "id": "node/2639186340"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2653944895",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2443078,
+          34.5674723
+        ]
+      },
+      "id": "node/2653944895"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2717284984",
+        "name": "Spoonauger Falls",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1100162,
+          34.9748003
+        ]
+      },
+      "id": "node/2717284984"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2789481084",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0706083,
+          33.7902998
+        ]
+      },
+      "id": "node/2789481084"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2890298625",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.8548227,
+          33.8979685
+        ]
+      },
+      "id": "node/2890298625"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2892632833",
+        "amenity": "bench",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1601544,
+          33.6379456
+        ]
+      },
+      "id": "node/2892632833"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2938225968",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.054027,
+          31.9506309
+        ]
+      },
+      "id": "node/2938225968"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2938259776",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0629969,
+          31.9522702
+        ]
+      },
+      "id": "node/2938259776"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2948768370",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.8845722,
+          34.0471678
+        ]
+      },
+      "id": "node/2948768370"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2948773665",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.8853741,
+          34.0521746
+        ]
+      },
+      "id": "node/2948773665"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2948774089",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.8819404,
+          34.053808
+        ]
+      },
+      "id": "node/2948774089"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2948779494",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.8791649,
+          34.0426194
+        ]
+      },
+      "id": "node/2948779494"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2948784139",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.8834101,
+          34.0536803
+        ]
+      },
+      "id": "node/2948784139"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2985355908",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.8846834,
+          34.0429
+        ]
+      },
+      "id": "node/2985355908"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2985355921",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.8840713,
+          34.0421198
+        ]
+      },
+      "id": "node/2985355921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3128594611",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2325517,
+          34.0183361
+        ]
+      },
+      "id": "node/3128594611"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3158769463",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.1716258,
+          30.7106681
+        ]
+      },
+      "id": "node/3158769463"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3158769522",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.1705936,
+          30.7146848
+        ]
+      },
+      "id": "node/3158769522"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3159295169",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.1554153,
+          30.7153298
+        ]
+      },
+      "id": "node/3159295169"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3216797974",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.6940631,
+          34.7543625
+        ]
+      },
+      "id": "node/3216797974"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3216835504",
+        "name": "Cool Springs Overlook",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.705357,
+          34.7797345
+        ]
+      },
+      "id": "node/3216835504"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3216884767",
+        "name": "Fort Mountain Scenic Overlook",
+        "tourism": "viewpoint",
+        "website": "https://fort-overlook-chatsworth.edan.io/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.6891294,
+          34.7542499
+        ]
+      },
+      "id": "node/3216884767"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3226774536",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2997893,
+          30.3665328
+        ]
+      },
+      "id": "node/3226774536"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3239813384",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0490257,
+          33.9961345
+        ]
+      },
+      "id": "node/3239813384"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3247266779",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.7080903,
+          34.7728239
+        ]
+      },
+      "id": "node/3247266779"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3248690276",
+        "name": "West Overlook",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.7112995,
+          34.7833509
+        ]
+      },
+      "id": "node/3248690276"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3248726829",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.7107076,
+          34.7832554
+        ]
+      },
+      "id": "node/3248726829"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3324437010",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3441555,
+          33.5962525
+        ]
+      },
+      "id": "node/3324437010"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3432019785",
+        "name": "Harbison Bluff",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.1080478,
+          34.0911433
+        ]
+      },
+      "id": "node/3432019785"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3435177873",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.9195938,
+          31.4645155
+        ]
+      },
+      "id": "node/3435177873"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3435179295",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.9232641,
+          31.4683577
+        ]
+      },
+      "id": "node/3435179295"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3437379170",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.9283306,
+          31.4629546
+        ]
+      },
+      "id": "node/3437379170"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3443079946",
+        "amenity": "parking",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.8382245,
+          32.8238434
+        ]
+      },
+      "id": "node/3443079946"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3443080100",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.8020394,
+          32.8415466
+        ]
+      },
+      "id": "node/3443080100"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3451288639",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.1270765,
+          32.548042
+        ]
+      },
+      "id": "node/3451288639"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3480368289",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.9068023,
+          32.0678526
+        ]
+      },
+      "id": "node/3480368289"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3480368292",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.9071684,
+          32.0677919
+        ]
+      },
+      "id": "node/3480368292"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3480368358",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.9105096,
+          32.0702549
+        ]
+      },
+      "id": "node/3480368358"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3480368364",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.9107061,
+          32.0702789
+        ]
+      },
+      "id": "node/3480368364"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3509273793",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3395336,
+          33.6815743
+        ]
+      },
+      "id": "node/3509273793"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3509273801",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3390806,
+          33.6818075
+        ]
+      },
+      "id": "node/3509273801"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3527222994",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.7304861,
+          33.5881758
+        ]
+      },
+      "id": "node/3527222994"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3542844711",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.7307582,
+          33.5886369
+        ]
+      },
+      "id": "node/3542844711"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3564753805",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0706349,
+          34.0249577
+        ]
+      },
+      "id": "node/3564753805"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3564793445",
+        "bench": "yes",
+        "check_date": "2024-09-19",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0637421,
+          34.0244172
+        ]
+      },
+      "id": "node/3564793445"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3572356671",
+        "name": "Giraffe Overlook",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.64518,
+          30.4025698
+        ]
+      },
+      "id": "node/3572356671"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3638015669",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.4820923,
+          34.8375834
+        ]
+      },
+      "id": "node/3638015669"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3638015767",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.480422,
+          34.8394963
+        ]
+      },
+      "id": "node/3638015767"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3638015768",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.4806134,
+          34.8397033
+        ]
+      },
+      "id": "node/3638015768"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3638015770",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.4813408,
+          34.8385438
+        ]
+      },
+      "id": "node/3638015770"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3638015775",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.4815766,
+          34.8385773
+        ]
+      },
+      "id": "node/3638015775"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3638015821",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.4817775,
+          34.8438156
+        ]
+      },
+      "id": "node/3638015821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3638025888",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.4889536,
+          34.8493065
+        ]
+      },
+      "id": "node/3638025888"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3638062168",
+        "name": "Main Overlook",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.4789564,
+          34.8368688
+        ]
+      },
+      "id": "node/3638062168"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3638066316",
+        "name": "Overlook #2",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.4770435,
+          34.8337684
+        ]
+      },
+      "id": "node/3638066316"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3688067922",
+        "direction": "140",
+        "name": "Owen's Overlook",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1781348,
+          34.6331121
+        ]
+      },
+      "id": "node/3688067922"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3699128470",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7152102,
+          34.6401218
+        ]
+      },
+      "id": "node/3699128470"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3703933447",
+        "name": "Inspiration Point",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3861128,
+          34.7379541
+        ]
+      },
+      "id": "node/3703933447"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3703935268",
+        "name": "Overlook 1A",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3906346,
+          34.7391521
+        ]
+      },
+      "id": "node/3703935268"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3731192417",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7182662,
+          34.6376153
+        ]
+      },
+      "id": "node/3731192417"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3735392344",
+        "leisure": "fishing",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2109804,
+          34.4275426
+        ]
+      },
+      "id": "node/3735392344"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3735393106",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.216253,
+          34.4230296
+        ]
+      },
+      "id": "node/3735393106"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3752219926",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.713279,
+          34.6370569
+        ]
+      },
+      "id": "node/3752219926"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3752221839",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7147655,
+          34.6376088
+        ]
+      },
+      "id": "node/3752221839"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3752221849",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7149654,
+          34.6380975
+        ]
+      },
+      "id": "node/3752221849"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3752221856",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7150029,
+          34.638682
+        ]
+      },
+      "id": "node/3752221856"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3752221863",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7147723,
+          34.6394817
+        ]
+      },
+      "id": "node/3752221863"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3772744972",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4838289,
+          32.8533705
+        ]
+      },
+      "id": "node/3772744972"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3790963966",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.9229306,
+          33.5320525
+        ]
+      },
+      "id": "node/3790963966"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3825307554",
+        "name": "Lookoff Mountain Overlook",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.4021195,
+          34.9299344
+        ]
+      },
+      "id": "node/3825307554"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3853405145",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1384382,
+          34.2530903
+        ]
+      },
+      "id": "node/3853405145"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3853405153",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1385158,
+          34.2531957
+        ]
+      },
+      "id": "node/3853405153"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3888622512",
+        "name": "High Point",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.3840324,
+          34.6984226
+        ]
+      },
+      "id": "node/3888622512"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3947026617",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.8578093,
+          34.7227418
+        ]
+      },
+      "id": "node/3947026617"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3947026624",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.8601713,
+          34.7232714
+        ]
+      },
+      "id": "node/3947026624"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3980488412",
+        "addr:city": "Dahlonega",
+        "addr:postcode": "30533",
+        "addr:state": "GA",
+        "addr:street": "GA 60",
+        "contact:website": "https://www.fs.usda.gov/recarea/conf/recarea/?recid=77736",
+        "name": "Chestatee Overlook",
+        "opening_hours": "sunrise-sunset",
+        "operator": "United States Forest Service",
+        "tourism": "viewpoint",
+        "website": "https://www.fs.usda.gov/recarea/conf/recarea/?recid=77736",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9826991,
+          34.6650484
+        ]
+      },
+      "id": "node/3980488412"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3980497587",
+        "name": "Preacher's Rock",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9939966,
+          34.687153
+        ]
+      },
+      "id": "node/3980497587"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3993793417",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3981596,
+          34.8408068
+        ]
+      },
+      "id": "node/3993793417"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3993793445",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3988161,
+          34.8413633
+        ]
+      },
+      "id": "node/3993793445"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3994086257",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3992031,
+          34.8407263
+        ]
+      },
+      "id": "node/3994086257"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3996494074",
+        "direction": "NE",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0813678,
+          34.1573862
+        ]
+      },
+      "id": "node/3996494074"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4002671203",
+        "name": "Walnut Creek Overlook",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.8307571,
+          34.2456048
+        ]
+      },
+      "id": "node/4002671203"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4011193167",
+        "name": "Marsh View",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4368208,
+          30.6848575
+        ]
+      },
+      "id": "node/4011193167"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4034021672",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1779805,
+          34.3571363
+        ]
+      },
+      "id": "node/4034021672"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4049659741",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6931783,
+          34.7966877
+        ]
+      },
+      "id": "node/4049659741"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4049659783",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6844743,
+          34.8021838
+        ]
+      },
+      "id": "node/4049659783"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4057492215",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1681133,
+          33.6230762
+        ]
+      },
+      "id": "node/4057492215"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4057492268",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1679309,
+          33.6251827
+        ]
+      },
+      "id": "node/4057492268"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4057522228",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1735431,
+          33.6285589
+        ]
+      },
+      "id": "node/4057522228"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4057558742",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1720184,
+          33.6280683
+        ]
+      },
+      "id": "node/4057558742"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4060818180",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1533117,
+          33.6310528
+        ]
+      },
+      "id": "node/4060818180"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4060818187",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1534333,
+          33.631369
+        ]
+      },
+      "id": "node/4060818187"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4082239591",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0641026,
+          34.157831
+        ]
+      },
+      "id": "node/4082239591"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4154560431",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0208778,
+          34.669932
+        ]
+      },
+      "id": "node/4154560431"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4154560445",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0163585,
+          34.6725939
+        ]
+      },
+      "id": "node/4154560445"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4158654504",
+        "amenity": "bench",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2332671,
+          34.5710745
+        ]
+      },
+      "id": "node/4158654504"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4203341712",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9363483,
+          34.7346993
+        ]
+      },
+      "id": "node/4203341712"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4203341854",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9363858,
+          34.7377199
+        ]
+      },
+      "id": "node/4203341854"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4203341867",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9364174,
+          34.7384362
+        ]
+      },
+      "id": "node/4203341867"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4203341898",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9368049,
+          34.7393785
+        ]
+      },
+      "id": "node/4203341898"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4224713326",
+        "name": "cascades",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9403011,
+          34.6944667
+        ]
+      },
+      "id": "node/4224713326"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4270844618",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.100435,
+          34.6534264
+        ]
+      },
+      "id": "node/4270844618"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4310102495",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1254525,
+          34.6635647
+        ]
+      },
+      "id": "node/4310102495"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4352064727",
+        "name": "Long Creek Falls view",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1708959,
+          34.6676831
+        ]
+      },
+      "id": "node/4352064727"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4360265764",
+        "name": "Fall Creek Waterfall view",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3182331,
+          34.5154609
+        ]
+      },
+      "id": "node/4360265764"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4583469301",
+        "description": "waterfall viewpoint",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.7129471,
+          34.7886027
+        ]
+      },
+      "id": "node/4583469301"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4584692536",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0506839,
+          34.0569282
+        ]
+      },
+      "id": "node/4584692536"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4584754314",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0497043,
+          34.0585579
+        ]
+      },
+      "id": "node/4584754314"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4584824208",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0065022,
+          34.057823
+        ]
+      },
+      "id": "node/4584824208"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4771991021",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.8403429,
+          34.7218907
+        ]
+      },
+      "id": "node/4771991021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4775788938",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1800702,
+          30.4415619
+        ]
+      },
+      "id": "node/4775788938"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4852866318",
+        "name": "Upper Falls view",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3877451,
+          34.6764184
+        ]
+      },
+      "id": "node/4852866318"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4859967862",
+        "name": "Popcorn Overlook",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.5743799,
+          34.8748522
+        ]
+      },
+      "id": "node/4859967862"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4864217402",
+        "direction": "SW",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2756209,
+          33.7672781
+        ]
+      },
+      "id": "node/4864217402"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4873040575",
+        "name": "Overlook 9",
+        "tourism": "viewpoint",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3893571,
+          34.7371517
+        ]
+      },
+      "id": "node/4873040575"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4894601382",
+        "name": "Rapids",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2259293,
+          34.4622305
+        ]
+      },
+      "id": "node/4894601382"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4913801019",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.375904,
+          34.0261601
+        ]
+      },
+      "id": "node/4913801019"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4936284003",
+        "name": "Western Viewing Deck",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3324029,
+          34.4859959
+        ]
+      },
+      "id": "node/4936284003"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4936302462",
+        "name": "Northern Viewing Deck",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3317634,
+          34.4868487
+        ]
+      },
+      "id": "node/4936302462"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4936302472",
+        "name": "Eastern Viewing Deck",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3309645,
+          34.4858406
+        ]
+      },
+      "id": "node/4936302472"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4936307836",
+        "name": "Southern Viewing Deck",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3316422,
+          34.4853171
+        ]
+      },
+      "id": "node/4936307836"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5002315028",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7483159,
+          34.685052
+        ]
+      },
+      "id": "node/5002315028"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5002330197",
+        "name": "18",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7389262,
+          34.6779063
+        ]
+      },
+      "id": "node/5002330197"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5002357593",
+        "name": "waterfall",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7316453,
+          34.6737505
+        ]
+      },
+      "id": "node/5002357593"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5052361047",
+        "name": "Fall Branch Falls",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.305609,
+          34.7863064
+        ]
+      },
+      "id": "node/5052361047"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5079802765",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.728882,
+          34.9601426
+        ]
+      },
+      "id": "node/5079802765"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5095984622",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.7381817,
+          32.3390702
+        ]
+      },
+      "id": "node/5095984622"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5218741340",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.9096842,
+          34.9895754
+        ]
+      },
+      "id": "node/5218741340"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5523826917",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1217518,
+          34.8065343
+        ]
+      },
+      "id": "node/5523826917"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5588849365",
+        "name": "Overlook",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.6330741,
+          34.8556661
+        ]
+      },
+      "id": "node/5588849365"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5625861223",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.2286513,
+          33.4564688
+        ]
+      },
+      "id": "node/5625861223"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5627823735",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.2286621,
+          33.4573219
+        ]
+      },
+      "id": "node/5627823735"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5698117334",
+        "name": "Bird Blind",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9824899,
+          34.0608067
+        ]
+      },
+      "id": "node/5698117334"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5698117335",
+        "name": "Observation Tower",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9798583,
+          34.060697
+        ]
+      },
+      "id": "node/5698117335"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5746048532",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.8347642,
+          34.729222
+        ]
+      },
+      "id": "node/5746048532"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5746074599",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.8287453,
+          34.7715414
+        ]
+      },
+      "id": "node/5746074599"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5821650560",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7890741,
+          34.7016175
+        ]
+      },
+      "id": "node/5821650560"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5827471185",
+        "name": "Stanley Oaks",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3501217,
+          33.5153265
+        ]
+      },
+      "id": "node/5827471185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5877079994",
+        "name": "Waterfall view",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.712198,
+          34.7633614
+        ]
+      },
+      "id": "node/5877079994"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5888526988",
+        "name": "Ashley Oaks Mansion",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3586374,
+          33.5191866
+        ]
+      },
+      "id": "node/5888526988"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5904944837",
+        "description": "Lookout Tower",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.2021261,
+          30.9337777
+        ]
+      },
+      "id": "node/5904944837"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6116584562",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.6070693,
+          34.6550409
+        ]
+      },
+      "id": "node/6116584562"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6331184401",
+        "name": "Covered Bridge",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7489305,
+          34.6838118
+        ]
+      },
+      "id": "node/6331184401"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6397404032",
+        "name": "waterfall view",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7224202,
+          34.8214311
+        ]
+      },
+      "id": "node/6397404032"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6397404035",
+        "name": "waterfall view",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7219518,
+          34.8223912
+        ]
+      },
+      "id": "node/6397404035"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6419803577",
+        "name": "Raven Rock",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.8863667,
+          34.9397444
+        ]
+      },
+      "id": "node/6419803577"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6865031270",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6612961,
+          34.9017647
+        ]
+      },
+      "id": "node/6865031270"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6865046616",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6610141,
+          34.9008057
+        ]
+      },
+      "id": "node/6865046616"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6879610883",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.659469,
+          34.9003912
+        ]
+      },
+      "id": "node/6879610883"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6879645139",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6587661,
+          34.9014096
+        ]
+      },
+      "id": "node/6879645139"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6879645160",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.658517,
+          34.9003499
+        ]
+      },
+      "id": "node/6879645160"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7010063468",
+        "direction": "90",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.3724595,
+          34.6519863
+        ]
+      },
+      "id": "node/7010063468"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7018312363",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0807636,
+          34.9617337
+        ]
+      },
+      "id": "node/7018312363"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7118443848",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3220451,
+          30.458859
+        ]
+      },
+      "id": "node/7118443848"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7118443849",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.322198,
+          30.4587091
+        ]
+      },
+      "id": "node/7118443849"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7121844868",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3224468,
+          30.4583992
+        ]
+      },
+      "id": "node/7121844868"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7123778471",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1902507,
+          30.4397878
+        ]
+      },
+      "id": "node/7123778471"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7312618178",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1499194,
+          34.6800975
+        ]
+      },
+      "id": "node/7312618178"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7312630885",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1484848,
+          34.680961
+        ]
+      },
+      "id": "node/7312630885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7375970204",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.8099536,
+          34.95757
+        ]
+      },
+      "id": "node/7375970204"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7417842541",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1468076,
+          33.7948759
+        ]
+      },
+      "id": "node/7417842541"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7426234120",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.7759783,
+          34.9679514
+        ]
+      },
+      "id": "node/7426234120"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8196224990",
+        "access": "yes",
+        "historic": "ruins",
+        "leisure": "park",
+        "name": "Landrum Mill",
+        "ruins": "watermill",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5872278,
+          33.4444711
+        ]
+      },
+      "id": "node/8196224990"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8199295569",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3572452,
+          34.7777797
+        ]
+      },
+      "id": "node/8199295569"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8447486893",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0253171,
+          31.973943
+        ]
+      },
+      "id": "node/8447486893"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8447486894",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0140562,
+          31.9637239
+        ]
+      },
+      "id": "node/8447486894"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8447486895",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0286985,
+          31.9709161
+        ]
+      },
+      "id": "node/8447486895"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8555401170",
+        "direction": "67-247",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2369729,
+          34.0009364
+        ]
+      },
+      "id": "node/8555401170"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8618634369",
+        "addr:city": "Sanderson",
+        "addr:housenumber": "18568",
+        "addr:postcode": "32087",
+        "addr:state": "FL",
+        "addr:street": "State Road 2",
+        "man_made": "tower",
+        "name": "Eddy Lookout Tower",
+        "tourism": "viewpoint",
+        "tower:type": "observation"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.34337,
+          30.543305
+        ]
+      },
+      "id": "node/8618634369"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8672802385",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.7201701,
+          34.0185329
+        ]
+      },
+      "id": "node/8672802385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8751724505",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0722653,
+          34.9858926
+        ]
+      },
+      "id": "node/8751724505"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8815253794",
+        "direction": "90",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2076737,
+          34.5920761
+        ]
+      },
+      "id": "node/8815253794"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8986971844",
+        "direction": "170",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.3478085,
+          34.9741609
+        ]
+      },
+      "id": "node/8986971844"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9049475140",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0380132,
+          34.6964482
+        ]
+      },
+      "id": "node/9049475140"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9102667110",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2979515,
+          34.4766318
+        ]
+      },
+      "id": "node/9102667110"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9134929607",
+        "name": "Cohutta Overlook",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.626839,
+          34.7852121
+        ]
+      },
+      "id": "node/9134929607"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9177070517",
+        "name": "end of road 10.2021",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.4887124,
+          34.7194027
+        ]
+      },
+      "id": "node/9177070517"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9201194617",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.7926762,
+          32.3690475
+        ]
+      },
+      "id": "node/9201194617"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9231335893",
+        "direction": "350",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.4834351,
+          34.8337701
+        ]
+      },
+      "id": "node/9231335893"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9231335916",
+        "direction": "200",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.4839691,
+          34.8340679
+        ]
+      },
+      "id": "node/9231335916"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9311510930",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.074254,
+          34.8720813
+        ]
+      },
+      "id": "node/9311510930"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9347528050",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5177932,
+          34.5431133
+        ]
+      },
+      "id": "node/9347528050"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9656766376",
+        "surface": "wood",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2858148,
+          33.781335
+        ]
+      },
+      "id": "node/9656766376"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9690343417",
+        "name": "Tatum Lead Rd",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.6473447,
+          34.7776819
+        ]
+      },
+      "id": "node/9690343417"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9703976566",
+        "man_made": "tower",
+        "name": "SoG Tower",
+        "tourism": "viewpoint",
+        "tower:type": "observation"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.1450586,
+          34.0256081
+        ]
+      },
+      "id": "node/9703976566"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9719606610",
+        "name": "Flamingo Viewpoint",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.6447217,
+          30.4010698
+        ]
+      },
+      "id": "node/9719606610"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10136157866",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.916475,
+          34.7698707
+        ]
+      },
+      "id": "node/10136157866"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10164757317",
+        "name": "stop point 10.2022",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.5271888,
+          34.9599221
+        ]
+      },
+      "id": "node/10164757317"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10188040331",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.9508405,
+          30.5700729
+        ]
+      },
+      "id": "node/10188040331"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10287855630",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.7797541,
+          34.7288801
+        ]
+      },
+      "id": "node/10287855630"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10607635859",
+        "name": "Lakeview Deck",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7691239,
+          34.9670294
+        ]
+      },
+      "id": "node/10607635859"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10607635907",
+        "name": "Overlook Deck",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7702171,
+          34.9669201
+        ]
+      },
+      "id": "node/10607635907"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10607635924",
+        "name": "Bonnie Day Arbor",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7701914,
+          34.9679678
+        ]
+      },
+      "id": "node/10607635924"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10693501363",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5712623,
+          33.3954085
+        ]
+      },
+      "id": "node/10693501363"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10754680664",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5871763,
+          33.4443353
+        ]
+      },
+      "id": "node/10754680664"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10771815625",
+        "name": "Hurricane Falls Overlook",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3907049,
+          34.7380483
+        ]
+      },
+      "id": "node/10771815625"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10771815633",
+        "description": "View of Hawthorn Pool, and Tempesta Falls",
+        "name": "Overlook 7",
+        "tourism": "viewpoint",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3928405,
+          34.7377953
+        ]
+      },
+      "id": "node/10771815633"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10844173123",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.2008025,
+          31.890595
+        ]
+      },
+      "id": "node/10844173123"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10933167623",
+        "direction": "180",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3450321,
+          30.3946363
+        ]
+      },
+      "id": "node/10933167623"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10935517016",
+        "name": "Mound Interpetive Area",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9908995,
+          30.5183454
+        ]
+      },
+      "id": "node/10935517016"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10942548741",
+        "name": "Eagle Scouts' Observation Point",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5438456,
+          30.4382247
+        ]
+      },
+      "id": "node/10942548741"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10945275625",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.4803067,
+          34.8355757
+        ]
+      },
+      "id": "node/10945275625"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10945275626",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.4796705,
+          34.8360638
+        ]
+      },
+      "id": "node/10945275626"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11008092353",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.6073641,
+          34.6553529
+        ]
+      },
+      "id": "node/11008092353"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11099754530",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4259323,
+          31.0190766
+        ]
+      },
+      "id": "node/11099754530"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11211783839",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.5220429,
+          30.4900963
+        ]
+      },
+      "id": "node/11211783839"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11342743493",
+        "name": "Weeping Seep",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.9513933,
+          30.565145
+        ]
+      },
+      "id": "node/11342743493"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11436133445",
+        "direction": "E",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1115562,
+          33.9407296
+        ]
+      },
+      "id": "node/11436133445"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11491608913",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.9852701,
+          33.4417239
+        ]
+      },
+      "id": "node/11491608913"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11516536922",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.8841682,
+          32.023206
+        ]
+      },
+      "id": "node/11516536922"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11663595475",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.9064309,
+          32.0670136
+        ]
+      },
+      "id": "node/11663595475"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11663595477",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.9078991,
+          32.0604232
+        ]
+      },
+      "id": "node/11663595477"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11663595478",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.9088985,
+          32.0601255
+        ]
+      },
+      "id": "node/11663595478"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11663595479",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.9089404,
+          32.0637781
+        ]
+      },
+      "id": "node/11663595479"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11663595481",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.9078528,
+          32.0605814
+        ]
+      },
+      "id": "node/11663595481"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11663595483",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.9119592,
+          32.0596482
+        ]
+      },
+      "id": "node/11663595483"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11663595484",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.9065173,
+          32.0667332
+        ]
+      },
+      "id": "node/11663595484"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11774676355",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.5904698,
+          34.5488723
+        ]
+      },
+      "id": "node/11774676355"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11835028860",
+        "direction": "135",
+        "ele": "396",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.8157821,
+          32.8374192
+        ]
+      },
+      "id": "node/11835028860"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11964674755",
+        "name": "East Bastion",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4533588,
+          30.7049885
+        ]
+      },
+      "id": "node/11964674755"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11964674756",
+        "name": "North Bastion",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4541168,
+          30.7055333
+        ]
+      },
+      "id": "node/11964674756"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11964674757",
+        "name": "Northwest Bastion",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4549544,
+          30.7052356
+        ]
+      },
+      "id": "node/11964674757"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11964674758",
+        "name": "Southwest Bastion",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4551244,
+          30.7044448
+        ]
+      },
+      "id": "node/11964674758"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12062024226",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3584521,
+          34.0135562
+        ]
+      },
+      "id": "node/12062024226"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12338832324",
+        "name": "South Bastion",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4543654,
+          30.7039248
+        ]
+      },
+      "id": "node/12338832324"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12345157265",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0185965,
+          33.1787892
+        ]
+      },
+      "id": "node/12345157265"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12348566166",
+        "name": "Observation Tower",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.5577491,
+          30.8366285
+        ]
+      },
+      "id": "node/12348566166"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12449811598",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9174159,
+          34.734823
+        ]
+      },
+      "id": "node/12449811598"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12453185718",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.8417461,
+          34.7270265
+        ]
+      },
+      "id": "node/12453185718"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12705694131",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1449255,
+          34.5052945
+        ]
+      },
+      "id": "node/12705694131"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12717797458",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5785357,
+          33.3999939
+        ]
+      },
+      "id": "node/12717797458"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12717797460",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5735069,
+          33.3924893
+        ]
+      },
+      "id": "node/12717797460"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12717797462",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.57288,
+          33.3850677
+        ]
+      },
+      "id": "node/12717797462"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12717825318",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.6035699,
+          33.3940634
+        ]
+      },
+      "id": "node/12717825318"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12717875206",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4168583,
+          33.3261039
+        ]
+      },
+      "id": "node/12717875206"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12717875207",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4225297,
+          33.3322386
+        ]
+      },
+      "id": "node/12717875207"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12717875209",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5837735,
+          33.3606339
+        ]
+      },
+      "id": "node/12717875209"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12717875210",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5835336,
+          33.3587595
+        ]
+      },
+      "id": "node/12717875210"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12717875211",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5586883,
+          33.3820499
+        ]
+      },
+      "id": "node/12717875211"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12717875213",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5615133,
+          33.399497
+        ]
+      },
+      "id": "node/12717875213"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12876382786",
+        "description": "Overlooks the small creek.",
+        "direction": "NW",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2743406,
+          33.76449
+        ]
+      },
+      "id": "node/12876382786"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12961248796",
+        "direction": "N",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.88201,
+          34.9600858
+        ]
+      },
+      "id": "node/12961248796"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13061060402",
+        "direction": "N",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2765738,
+          33.767996
+        ]
+      },
+      "id": "node/13061060402"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13061060409",
+        "direction": "NE",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2763551,
+          33.7678572
+        ]
+      },
+      "id": "node/13061060409"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13061060415",
+        "direction": "NE",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2762212,
+          33.767791
+        ]
+      },
+      "id": "node/13061060415"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13061060825",
+        "direction": "NE",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2760262,
+          33.7671284
+        ]
+      },
+      "id": "node/13061060825"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13065992840",
+        "direction": "SE",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3286752,
+          33.8393997
+        ]
+      },
+      "id": "node/13065992840"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13089301514",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.8875743,
+          34.9501096
+        ]
+      },
+      "id": "node/13089301514"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13115590781",
+        "direction": "SW",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2282836,
+          33.8659604
+        ]
+      },
+      "id": "node/13115590781"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13115590938",
+        "direction": "WSW",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.228886,
+          33.8665006
+        ]
+      },
+      "id": "node/13115590938"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13145943744",
+        "direction": "SSE",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0000229,
+          34.6774017
+        ]
+      },
+      "id": "node/13145943744"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13284561950",
+        "name": "Blue Ridge Overlook",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.4090671,
+          34.9055243
+        ]
+      },
+      "id": "node/13284561950"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13286158124",
+        "name": "Overlook 4",
+        "tourism": "viewpoint",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3946204,
+          34.7404642
+        ]
+      },
+      "id": "node/13286158124"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13362327592",
+        "direction": "NE",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1632835,
+          33.8369082
+        ]
+      },
+      "id": "node/13362327592"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13406647676",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.9873794,
+          30.4636964
+        ]
+      },
+      "id": "node/13406647676"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13406647680",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.9903018,
+          30.4628143
+        ]
+      },
+      "id": "node/13406647680"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13406647683",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.9891154,
+          30.4632412
+        ]
+      },
+      "id": "node/13406647683"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13406647687",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.987268,
+          30.4637567
+        ]
+      },
+      "id": "node/13406647687"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13406647688",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.9885752,
+          30.4632879
+        ]
+      },
+      "id": "node/13406647688"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13406647691",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.9878825,
+          30.4633894
+        ]
+      },
+      "id": "node/13406647691"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13406647692",
+        "name": "Alum Bluff Overlook",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.9869648,
+          30.4638895
+        ]
+      },
+      "id": "node/13406647692"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13406647693",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.9886896,
+          30.4632866
+        ]
+      },
+      "id": "node/13406647693"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13406647700",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.989495,
+          30.463099
+        ]
+      },
+      "id": "node/13406647700"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13406648504",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.9751727,
+          30.4568464
+        ]
+      },
+      "id": "node/13406648504"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13431229168",
+        "name": "Lion Overlook",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.6449088,
+          30.4037297
+        ]
+      },
+      "id": "node/13431229168"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13431247332",
+        "name": "Lion Viewpoint",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.6447864,
+          30.4033397
+        ]
+      },
+      "id": "node/13431247332"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13606066641",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5866037,
+          33.4439817
+        ]
+      },
+      "id": "node/13606066641"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13606066642",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5873752,
+          33.4443052
+        ]
+      },
+      "id": "node/13606066642"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13606066643",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5853239,
+          33.4427254
+        ]
+      },
+      "id": "node/13606066643"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13651167529",
+        "direction": "SSE",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3767161,
+          34.5043762
+        ]
+      },
+      "id": "node/13651167529"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13728205512",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5374369,
+          33.33879
+        ]
+      },
+      "id": "node/13728205512"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13736563014",
+        "direction": "350",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.6322706,
+          34.8314175
+        ]
+      },
+      "id": "node/13736563014"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13772777396",
+        "direction": "225",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1307876,
+          34.9298111
+        ]
+      },
+      "id": "node/13772777396"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13795870901",
+        "direction": "90",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.0942672,
+          34.616131
+        ]
+      },
+      "id": "node/13795870901"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13837881332",
+        "name": "Raven Cliffs",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.8237185,
+          34.7234143
+        ]
+      },
+      "id": "node/13837881332"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13900399476",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3800084,
+          33.9847458
+        ]
+      },
+      "id": "node/13900399476"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13956749024",
+        "direction": "ENE",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3985106,
+          33.7986567
+        ]
+      },
+      "id": "node/13956749024"
+    }
+  ]
+}

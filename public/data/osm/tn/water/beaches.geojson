@@ -1,0 +1,1989 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-06-27T23:18:21Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/124205875",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.0792499,
+          35.8947424
+        ]
+      },
+      "id": "way/124205875"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/230248985",
+        "access": "yes",
+        "name": "Swimming beach",
+        "natural": "beach",
+        "opening_hours": "10:00-18:00",
+        "sport": "swimming",
+        "supervised": "yes",
+        "surface": "sand",
+        "wheelchair": "limited",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.8777568,
+          35.7503428
+        ]
+      },
+      "id": "way/230248985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/230469401",
+        "fee": "yes",
+        "natural": "beach",
+        "surface": "sand",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9046072,
+          35.7327522
+        ]
+      },
+      "id": "way/230469401"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/277097902",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.0702701,
+          35.865747
+        ]
+      },
+      "id": "way/277097902"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/285023004",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.9293323,
+          35.2107891
+        ]
+      },
+      "id": "way/285023004"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/337524225",
+        "natural": "beach",
+        "surface": "sand",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.6067826,
+          36.1559437
+        ]
+      },
+      "id": "way/337524225"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/356832522",
+        "ele": "256",
+        "gnis:feature_id": "1301154",
+        "name": "Shady Beach",
+        "natural": "beach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.6468793,
+          35.0756317
+        ]
+      },
+      "id": "node/356832522"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/356888408",
+        "ele": "262",
+        "gnis:feature_id": "1641639",
+        "name": "Shady Beach",
+        "natural": "beach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.6474349,
+          35.076465
+        ]
+      },
+      "id": "node/356888408"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/356895455",
+        "ele": "256",
+        "gnis:feature_id": "1647929",
+        "name": "Parksville Beach",
+        "natural": "beach",
+        "wikidata": "Q49322462"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.6318572,
+          35.1038425
+        ]
+      },
+      "id": "node/356895455"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/424181213",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.6880485,
+          36.6591076
+        ]
+      },
+      "id": "way/424181213"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/470318593",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.8271754,
+          35.1363094
+        ]
+      },
+      "id": "way/470318593"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/471272274",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.8438352,
+          35.1217529
+        ]
+      },
+      "id": "way/471272274"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/487463764",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.7710145,
+          35.3901895
+        ]
+      },
+      "id": "way/487463764"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/514605793",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5882189,
+          35.1118053
+        ]
+      },
+      "id": "way/514605793"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/524992844",
+        "name": "Chester Frost Park Beach",
+        "natural": "beach",
+        "surface": "sand",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.1521275,
+          35.1817039
+        ]
+      },
+      "id": "way/524992844"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/529689023",
+        "natural": "beach",
+        "surface": "sand",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.851761,
+          36.0976939
+        ]
+      },
+      "id": "way/529689023"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/543914923",
+        "access": "customers",
+        "natural": "beach",
+        "sport": "swimming",
+        "supervised": "no",
+        "surface": "sand",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.2367589,
+          35.0795391
+        ]
+      },
+      "id": "way/543914923"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/576032574",
+        "natural": "beach",
+        "source": "Bing",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.0041956,
+          35.1435131
+        ]
+      },
+      "id": "way/576032574"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/583064800",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.7618948,
+          36.0457177
+        ]
+      },
+      "id": "way/583064800"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/583064801",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.7646031,
+          36.046461
+        ]
+      },
+      "id": "way/583064801"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/598651787",
+        "access": "yes",
+        "name": "Swimming Area",
+        "natural": "beach",
+        "surface": "sand",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.5235062,
+          36.0730763
+        ]
+      },
+      "id": "way/598651787"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/605932364",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.8688045,
+          35.3719695
+        ]
+      },
+      "id": "way/605932364"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/652962122",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.9872327,
+          36.0778333
+        ]
+      },
+      "id": "way/652962122"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/653467520",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.647885,
+          35.8160423
+        ]
+      },
+      "id": "way/653467520"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/657402612",
+        "natural": "beach",
+        "surface": "sand",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.8919181,
+          36.0397548
+        ]
+      },
+      "id": "way/657402612"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/670293859",
+        "golf": "bunker",
+        "natural": "beach",
+        "surface": "sand",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4447634,
+          35.2531856
+        ]
+      },
+      "id": "way/670293859"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/681038214",
+        "access": "yes",
+        "name": "Boat beach",
+        "natural": "beach",
+        "opening_hours": "10:00-18:00",
+        "sport": "canoe",
+        "supervised": "yes",
+        "surface": "sand",
+        "wheelchair": "limited",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.8788655,
+          35.7505571
+        ]
+      },
+      "id": "way/681038214"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/723621127",
+        "leisure": "beach_resort",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.190311,
+          35.4597792
+        ]
+      },
+      "id": "way/723621127"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/742362113",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.2526467,
+          35.7802524
+        ]
+      },
+      "id": "way/742362113"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/863382478",
+        "lifeguard": "no",
+        "natural": "beach",
+        "supervised": "no",
+        "surface": "sand",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.5909472,
+          36.1087874
+        ]
+      },
+      "id": "way/863382478"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/882989300",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.767669,
+          35.0072916
+        ]
+      },
+      "id": "way/882989300"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/896717785",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.511702,
+          36.1560884
+        ]
+      },
+      "id": "way/896717785"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/954713525",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9794984,
+          34.9992102
+        ]
+      },
+      "id": "way/954713525"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/954799230",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.1335593,
+          35.1883462
+        ]
+      },
+      "id": "way/954799230"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/958900615",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.5746075,
+          36.1339028
+        ]
+      },
+      "id": "way/958900615"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/960934656",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.2268534,
+          35.4731207
+        ]
+      },
+      "id": "way/960934656"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/969844053",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.6087979,
+          35.150064
+        ]
+      },
+      "id": "way/969844053"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/979405335",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.248373,
+          35.9570711
+        ]
+      },
+      "id": "way/979405335"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1006222937",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.9064279,
+          36.2986346
+        ]
+      },
+      "id": "way/1006222937"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1006226948",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.9077854,
+          36.3124449
+        ]
+      },
+      "id": "way/1006226948"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1012878924",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.3770591,
+          35.9420313
+        ]
+      },
+      "id": "way/1012878924"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1012878943",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.376574,
+          35.9423299
+        ]
+      },
+      "id": "way/1012878943"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1031326866",
+        "name": "Shook Branch Swimming Area",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.1279196,
+          36.3027975
+        ]
+      },
+      "id": "way/1031326866"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1036340231",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2502132,
+          35.7813818
+        ]
+      },
+      "id": "way/1036340231"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1058016164",
+        "lifeguard": "no",
+        "name": "West Snake Beach",
+        "natural": "beach",
+        "supervised": "no",
+        "surface": "sand",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.7421727,
+          35.1083346
+        ]
+      },
+      "id": "way/1058016164"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1058016165",
+        "lifeguard": "no",
+        "name": "West Junction shore",
+        "natural": "beach",
+        "supervised": "no",
+        "surface": "sand",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.7427673,
+          35.1088316
+        ]
+      },
+      "id": "way/1058016165"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1058016166",
+        "lifeguard": "no",
+        "name": "West  Potato Beach",
+        "natural": "beach",
+        "supervised": "no",
+        "surface": "sand",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.7384914,
+          35.1090497
+        ]
+      },
+      "id": "way/1058016166"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1058016167",
+        "lifeguard": "no",
+        "name": "West Houston shore beach",
+        "natural": "beach",
+        "supervised": "no",
+        "surface": "sand",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.7371533,
+          35.1101155
+        ]
+      },
+      "id": "way/1058016167"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1058016168",
+        "lifeguard": "no",
+        "name": "West Georges' Curve Beach",
+        "natural": "beach",
+        "supervised": "no",
+        "surface": "sand",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.7265256,
+          35.106267
+        ]
+      },
+      "id": "way/1058016168"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1058016169",
+        "lifeguard": "no",
+        "name": "East Georges Curve beach",
+        "natural": "beach",
+        "supervised": "no",
+        "surface": "sand",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.724299,
+          35.1056128
+        ]
+      },
+      "id": "way/1058016169"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1058016170",
+        "lifeguard": "no",
+        "name": "Houston Sliver Beach",
+        "natural": "beach",
+        "supervised": "no",
+        "surface": "sand",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.7229088,
+          35.1043564
+        ]
+      },
+      "id": "way/1058016170"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1058016171",
+        "lifeguard": "no",
+        "name": "West Robbins-Halle Beach",
+        "natural": "beach",
+        "supervised": "no",
+        "surface": "sand",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.7187933,
+          35.1033351
+        ]
+      },
+      "id": "way/1058016171"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1058016172",
+        "lifeguard": "no",
+        "name": "Robbins-Halle Beach",
+        "natural": "beach",
+        "supervised": "no",
+        "surface": "sand",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.716579,
+          35.1027749
+        ]
+      },
+      "id": "way/1058016172"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1058016173",
+        "lifeguard": "no",
+        "name": "East Robbins-Halle Beach",
+        "natural": "beach",
+        "supervised": "no",
+        "surface": "sand",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.7147767,
+          35.1026559
+        ]
+      },
+      "id": "way/1058016173"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1058016174",
+        "lifeguard": "no",
+        "name": "North Forrest Bend Beach",
+        "natural": "beach",
+        "supervised": "no",
+        "surface": "sand",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.7071971,
+          35.1028768
+        ]
+      },
+      "id": "way/1058016174"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1058016175",
+        "lifeguard": "no",
+        "name": "South Forrest Bend Beach",
+        "natural": "beach",
+        "supervised": "no",
+        "surface": "sand",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.7060155,
+          35.1008009
+        ]
+      },
+      "id": "way/1058016175"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1058016176",
+        "name": "West Bethany Beach",
+        "natural": "beach",
+        "surface": "sand",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.7021051,
+          35.0992738
+        ]
+      },
+      "id": "way/1058016176"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1058016177",
+        "lifeguard": "no",
+        "name": "East Bethany Beach",
+        "natural": "beach",
+        "supervised": "no",
+        "surface": "sand",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.7000845,
+          35.0990506
+        ]
+      },
+      "id": "way/1058016177"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1058016178",
+        "natural": "beach",
+        "surface": "sand",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.6992274,
+          35.097559
+        ]
+      },
+      "id": "way/1058016178"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1058016179",
+        "lifeguard": "no",
+        "name": "West Claw beach",
+        "natural": "beach",
+        "supervised": "no",
+        "surface": "sand",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.7012853,
+          35.095734
+        ]
+      },
+      "id": "way/1058016179"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1058016180",
+        "lifeguard": "no",
+        "name": "South Mudbar Beach",
+        "natural": "beach",
+        "supervised": "no",
+        "surface": "dirt/sand",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.7002789,
+          35.0948808
+        ]
+      },
+      "id": "way/1058016180"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1058016181",
+        "lifeguard": "no",
+        "name": "North Mudbar Beach",
+        "natural": "beach",
+        "supervised": "no",
+        "surface": "dirt/sand",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.6979118,
+          35.0945132
+        ]
+      },
+      "id": "way/1058016181"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1058016182",
+        "lifeguard": "no",
+        "name": "West Falcon head beach",
+        "natural": "beach",
+        "supervised": "no",
+        "surface": "sand",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.6963796,
+          35.0939562
+        ]
+      },
+      "id": "way/1058016182"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1068685101",
+        "lifeguard": "no",
+        "name": "East Houston shore beach",
+        "natural": "beach",
+        "supervised": "no",
+        "surface": "sand",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.7283216,
+          35.1069484
+        ]
+      },
+      "id": "way/1068685101"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1068690819",
+        "lifeguard": "no",
+        "name": "East Talen Beach",
+        "natural": "beach",
+        "supervised": "no",
+        "surface": "sand",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.6555592,
+          35.0835708
+        ]
+      },
+      "id": "way/1068690819"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1071778272",
+        "name": "Sandbar Pool Beach",
+        "natural": "beach",
+        "supervised": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0140407,
+          35.1676213
+        ]
+      },
+      "id": "way/1071778272"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1084146713",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.0700445,
+          35.3180402
+        ]
+      },
+      "id": "way/1084146713"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1097402398",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9734717,
+          35.8945904
+        ]
+      },
+      "id": "way/1097402398"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1098284904",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.5686204,
+          36.0546851
+        ]
+      },
+      "id": "way/1098284904"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1098474304",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.5884125,
+          36.0905483
+        ]
+      },
+      "id": "way/1098474304"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1098474305",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.5883423,
+          36.0910307
+        ]
+      },
+      "id": "way/1098474305"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1128345547",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.7439866,
+          36.1258355
+        ]
+      },
+      "id": "way/1128345547"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1149774134",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.0728568,
+          35.2432787
+        ]
+      },
+      "id": "way/1149774134"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1161843148",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1939564,
+          35.5667656
+        ]
+      },
+      "id": "way/1161843148"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1162913261",
+        "natural": "beach",
+        "surface": "sand",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2364158,
+          35.5405407
+        ]
+      },
+      "id": "way/1162913261"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1170420376",
+        "natural": "beach",
+        "surface": "sand",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.7782173,
+          35.625364
+        ]
+      },
+      "id": "way/1170420376"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1170423419",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.7052451,
+          35.6931259
+        ]
+      },
+      "id": "way/1170423419"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1170423421",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.7079314,
+          35.6940483
+        ]
+      },
+      "id": "way/1170423421"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1189594857",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.6049369,
+          35.008675
+        ]
+      },
+      "id": "way/1189594857"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1193447434",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.5338106,
+          35.9573135
+        ]
+      },
+      "id": "way/1193447434"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1193449462",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.5195913,
+          35.9692089
+        ]
+      },
+      "id": "way/1193449462"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1217855026",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0423416,
+          35.1241409
+        ]
+      },
+      "id": "way/1217855026"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1226715429",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.7844016,
+          36.3153582
+        ]
+      },
+      "id": "way/1226715429"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1230371936",
+        "natural": "beach",
+        "surface": "sand",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.2294005,
+          35.4311997
+        ]
+      },
+      "id": "way/1230371936"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1233085440",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.8508616,
+          35.7476238
+        ]
+      },
+      "id": "way/1233085440"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1233085442",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.860347,
+          35.765045
+        ]
+      },
+      "id": "way/1233085442"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1242121562",
+        "natural": "beach",
+        "sport": "swimming",
+        "surface": "sand",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.6615654,
+          36.2886306
+        ]
+      },
+      "id": "way/1242121562"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1265310186",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.8850355,
+          36.2688818
+        ]
+      },
+      "id": "way/1265310186"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1275439707",
+        "lifeguard": "no",
+        "natural": "beach",
+        "supervised": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.6127181,
+          34.9930718
+        ]
+      },
+      "id": "way/1275439707"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1284291791",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.5233885,
+          36.0730393
+        ]
+      },
+      "id": "way/1284291791"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1284292407",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.5438365,
+          36.0943956
+        ]
+      },
+      "id": "way/1284292407"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1314681294",
+        "natural": "beach",
+        "surface": "sand",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.9017614,
+          35.5328352
+        ]
+      },
+      "id": "way/1314681294"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1314710520",
+        "natural": "beach",
+        "surface": "sand",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.5194126,
+          35.262131
+        ]
+      },
+      "id": "way/1314710520"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1314715430",
+        "natural": "beach",
+        "surface": "sand",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.5372648,
+          35.2463579
+        ]
+      },
+      "id": "way/1314715430"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1339467096",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.499684,
+          35.928578
+        ]
+      },
+      "id": "way/1339467096"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1339923778",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3722217,
+          35.9473221
+        ]
+      },
+      "id": "way/1339923778"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1344344857",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.8829046,
+          36.2636209
+        ]
+      },
+      "id": "way/1344344857"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1347387870",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1253618,
+          36.3524424
+        ]
+      },
+      "id": "way/1347387870"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1354291297",
+        "description": "Swim beach provided and maintained by TVA",
+        "name": "Chickamauga Dam Beach",
+        "natural": "beach",
+        "surface": "sand",
+        "website": "https://www.tva.com/environment/recreation/swim-beaches",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2251751,
+          35.0968048
+        ]
+      },
+      "id": "way/1354291297"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1354292597",
+        "name": "Harrison Bay Park Beach",
+        "natural": "beach",
+        "surface": "sand",
+        "url": "https://chattanoogamoms.com/family-lifestyle/chattanooga-area-beaches/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.1265035,
+          35.1667945
+        ]
+      },
+      "id": "way/1354292597"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1354293354",
+        "description": "Beach area for sun bathing and fishing.",
+        "name": "Booker T. Washington Park Beach",
+        "natural": "beach",
+        "surface": "gravel",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.1758105,
+          35.1125692
+        ]
+      },
+      "id": "way/1354293354"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1447605040",
+        "natural": "beach",
+        "place": "islet",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.1338263,
+          35.1403557
+        ]
+      },
+      "id": "way/1447605040"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1447605041",
+        "natural": "beach",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.129689,
+          35.1420583
+        ]
+      },
+      "id": "way/1447605041"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1447607315",
+        "natural": "beach",
+        "place": "islet",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.1291036,
+          35.1815099
+        ]
+      },
+      "id": "way/1447607315"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1467067337",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.5966446,
+          35.3451335
+        ]
+      },
+      "id": "way/1467067337"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1531048093",
+        "lifeguard": "no",
+        "natural": "beach",
+        "supervised": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.451107,
+          35.5097416
+        ]
+      },
+      "id": "way/1531048093"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1852998703",
+        "natural": "beach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1567945,
+          35.8454434
+        ]
+      },
+      "id": "node/1852998703"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2925281603",
+        "natural": "beach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.7169019,
+          35.2676379
+        ]
+      },
+      "id": "node/2925281603"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10119391808",
+        "lifeguard": "no",
+        "name": "Cherokee Landing Beach",
+        "natural": "beach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.0205556,
+          35.0287473
+        ]
+      },
+      "id": "node/10119391808"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10119743567",
+        "lifeguard": "no",
+        "name": "Cherokee Landing Beach",
+        "natural": "beach",
+        "surface": "unpaved"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.0205866,
+          35.0288025
+        ]
+      },
+      "id": "node/10119743567"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10249596340",
+        "name": "Riverside Park Beach Access",
+        "natural": "beach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.0669703,
+          35.9142799
+        ]
+      },
+      "id": "node/10249596340"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10688599629",
+        "access": "customers",
+        "name": "Stahlman Waterfront",
+        "natural": "beach",
+        "surface": "mixed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.4740028,
+          36.3153029
+        ]
+      },
+      "id": "node/10688599629"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11347103424",
+        "lifeguard": "no",
+        "natural": "beach",
+        "supervised": "no",
+        "surface": "sand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.8285279,
+          35.7724418
+        ]
+      },
+      "id": "node/11347103424"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12394782180",
+        "lifeguard": "no",
+        "name": "CMRPOA Beach - Residents Only",
+        "natural": "beach",
+        "supervised": "no",
+        "surface": "sand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.1583359,
+          35.7999962
+        ]
+      },
+      "id": "node/12394782180"
+    }
+  ]
+}

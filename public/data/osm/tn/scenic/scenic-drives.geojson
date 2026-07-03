@@ -1,0 +1,6319 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-06-27T23:30:25Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/16406745",
+        "damage:event": "2024HurricaneHelene",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.8718107,
+          36.0244115
+        ]
+      },
+      "id": "way/16406745"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/16406760",
+        "damage:event": "2024HurricaneHelene",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.8418698,
+          36.0678364
+        ]
+      },
+      "id": "way/16406760"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/16406761",
+        "access": "no",
+        "construction": "secondary",
+        "damage:event": "2024HurricaneHelene",
+        "hgv": "no",
+        "highway": "construction",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "source:access": "NPS Road Closures https://www.nps.gov/blri/planyourvisit/roadclosures.htm",
+        "source:access:date": "2025-07-01",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9550347,
+          35.9442089
+        ]
+      },
+      "id": "way/16406761"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/16431516",
+        "access": "yes",
+        "bicycle": "yes",
+        "damage:event": "2024HurricaneHelene",
+        "foot": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "horse": "yes",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "motor_vehicle": "yes",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "source:access": "NPS Road Closures https://www.nps.gov/blri/planyourvisit/roadclosures.htm",
+        "source:access:date": "2025-03-22",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.7078863,
+          35.4519581
+        ]
+      },
+      "id": "way/16431516"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/16431537",
+        "access": "yes",
+        "damage:event": "2024HurricaneHelene",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "source:access": "NPS Road Closures https://www.nps.gov/blri/planyourvisit/roadclosures.htm",
+        "source:access:date": "2025-03-22",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3068846,
+          35.7331783
+        ]
+      },
+      "id": "way/16431537"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/16431541",
+        "access": "yes",
+        "damage:event": "2024HurricaneHelene",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "source:access": "NPS Road Closures https://www.nps.gov/blri/planyourvisit/roadclosures.htm",
+        "source:access:date": "2025-03-22",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6526595,
+          35.450765
+        ]
+      },
+      "id": "way/16431541"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/16436036",
+        "damage:event": "2024HurricaneHelene",
+        "hgv": "no",
+        "highway": "secondary",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.923591,
+          35.9792356
+        ]
+      },
+      "id": "way/16436036"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/16591279",
+        "hgv": "no",
+        "highway": "secondary",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Haywood, NC",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "yes",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0793573,
+          35.4352421
+        ]
+      },
+      "id": "way/16591279"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/16591283",
+        "hgv": "no",
+        "highway": "secondary",
+        "horse": "no",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Haywood, NC",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.7928007,
+          35.3691013
+        ]
+      },
+      "id": "way/16591283"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/16591284",
+        "hgv": "no",
+        "highway": "secondary",
+        "horse": "no",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Haywood, NC",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.8109184,
+          35.3460172
+        ]
+      },
+      "id": "way/16591284"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/16591287",
+        "hgv": "no",
+        "highway": "secondary",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Haywood, NC",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.959861,
+          35.3238189
+        ]
+      },
+      "id": "way/16591287"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/16591290",
+        "hgv": "no",
+        "highway": "secondary",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Haywood, NC",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.9467832,
+          35.3066917
+        ]
+      },
+      "id": "way/16591290"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/16591295",
+        "hgv": "no",
+        "highway": "secondary",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Haywood, NC",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.978393,
+          35.3484344
+        ]
+      },
+      "id": "way/16591295"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/16591297",
+        "hgv": "no",
+        "highway": "secondary",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Haywood, NC",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0403299,
+          35.3949215
+        ]
+      },
+      "id": "way/16591297"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/16591299",
+        "hgv": "no",
+        "highway": "secondary",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Haywood, NC",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0113079,
+          35.3785473
+        ]
+      },
+      "id": "way/16591299"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/16591300",
+        "hgv": "no",
+        "highway": "secondary",
+        "horse": "no",
+        "lanes": "2",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.7610878,
+          35.4044942
+        ]
+      },
+      "id": "way/16591300"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/16591321",
+        "hgv": "no",
+        "highway": "secondary",
+        "horse": "no",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Haywood, NC",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.8261141,
+          35.3252771
+        ]
+      },
+      "id": "way/16591321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/16591334",
+        "hgv": "no",
+        "highway": "secondary",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Haywood, NC",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.9196929,
+          35.2978735
+        ]
+      },
+      "id": "way/16591334"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/16591348",
+        "hgv": "no",
+        "highway": "secondary",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "tiger:reviewed": "yes",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1556399,
+          35.4957815
+        ]
+      },
+      "id": "way/16591348"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/16591353",
+        "hgv": "no",
+        "highway": "secondary",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Haywood, NC",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0207845,
+          35.378686
+        ]
+      },
+      "id": "way/16591353"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/16603457",
+        "access": "yes",
+        "bridge": "yes",
+        "damage:event": "2024HurricaneHelene",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "source:access": "NPS Road Closures https://www.nps.gov/blri/planyourvisit/roadclosures.htm",
+        "source:access:date": "2025-03-22",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6594756,
+          35.4525212
+        ]
+      },
+      "id": "way/16603457"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/16603464",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Little Pisgah Ridge Tunnel",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Henderson, NC",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "tunnel": "yes",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.7426076,
+          35.4214778
+        ]
+      },
+      "id": "way/16603464"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/16624411",
+        "hgv": "no",
+        "highway": "secondary",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Jackson, NC",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "yes",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1029491,
+          35.4474064
+        ]
+      },
+      "id": "way/16624411"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/16629228",
+        "hgv": "no",
+        "highway": "secondary",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "smoothness": "excellent",
+        "source": "NPS",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1787509,
+          35.5089126
+        ]
+      },
+      "id": "way/16629228"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/16629231",
+        "hgv": "no",
+        "highway": "secondary",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Jackson, NC",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0178124,
+          35.3788717
+        ]
+      },
+      "id": "way/16629231"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/16629238",
+        "hgv": "no",
+        "highway": "secondary",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Jackson, NC",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.9336632,
+          35.3021725
+        ]
+      },
+      "id": "way/16629238"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/16629239",
+        "hgv": "no",
+        "highway": "secondary",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Jackson, NC",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.9524313,
+          35.3109914
+        ]
+      },
+      "id": "way/16629239"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/16629254",
+        "hgv": "no",
+        "highway": "secondary",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Jackson, NC",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "yes",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0799772,
+          35.4380227
+        ]
+      },
+      "id": "way/16629254"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/16629256",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "1",
+        "name": "Blue Ridge Parkway",
+        "oneway": "yes",
+        "scenic": "yes",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1425341,
+          35.4572962
+        ]
+      },
+      "id": "way/16629256"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/16629271",
+        "hgv": "no",
+        "highway": "secondary",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "smoothness": "excellent",
+        "source": "NPS",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1905157,
+          35.5112285
+        ]
+      },
+      "id": "way/16629271"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/16629273",
+        "hgv": "no",
+        "highway": "secondary",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Jackson, NC",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0447099,
+          35.4036056
+        ]
+      },
+      "id": "way/16629273"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/16629277",
+        "hgv": "no",
+        "highway": "secondary",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Jackson, NC",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0296379,
+          35.3857981
+        ]
+      },
+      "id": "way/16629277"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/16629289",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "1",
+        "name": "Blue Ridge Parkway",
+        "oneway": "yes",
+        "scenic": "yes",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1425883,
+          35.4572411
+        ]
+      },
+      "id": "way/16629289"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/16629299",
+        "hgv": "no",
+        "highway": "secondary",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Jackson, NC",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.9964223,
+          35.3663284
+        ]
+      },
+      "id": "way/16629299"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/16656602",
+        "access": "no",
+        "construction": "secondary",
+        "damage:event": "2024HurricaneHelene",
+        "hgv": "no",
+        "highway": "construction",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "source:access": "NPS Road Closures https://www.nps.gov/blri/planyourvisit/roadclosures.htm",
+        "source:access:date": "2025-07-05",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.1866042,
+          35.7467151
+        ]
+      },
+      "id": "way/16656602"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/16656606",
+        "access": "no",
+        "construction": "secondary",
+        "damage:event": "2024HurricaneHelene",
+        "hgv": "no",
+        "highway": "construction",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "source:access": "NPS Road Closures https://www.nps.gov/blri/planyourvisit/roadclosures.htm",
+        "source:access:date": "2025-03-22",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.1772445,
+          35.7572819
+        ]
+      },
+      "id": "way/16656606"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/16656612",
+        "access": "no",
+        "construction": "secondary",
+        "damage:event": "2024HurricaneHelene",
+        "hgv": "no",
+        "highway": "construction",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "source:access": "NPS Road Closures https://www.nps.gov/blri/planyourvisit/roadclosures.htm",
+        "source:access:date": "2025-07-01",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.0451874,
+          35.854759
+        ]
+      },
+      "id": "way/16656612"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/16656624",
+        "access": "no",
+        "construction": "secondary",
+        "damage:event": "2024HurricaneHelene",
+        "hgv": "no",
+        "highway": "construction",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "source:access": "NPS Road Closures https://www.nps.gov/blri/planyourvisit/roadclosures.htm",
+        "source:access:date": "2025-07-05",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.1598238,
+          35.7876397
+        ]
+      },
+      "id": "way/16656624"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/16656634",
+        "access": "no",
+        "construction": "secondary",
+        "damage:event": "2024HurricaneHelene",
+        "hgv": "no",
+        "highway": "construction",
+        "layer": "-1",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "source:access": "NPS Road Closures https://www.nps.gov/blri/planyourvisit/roadclosures.htm",
+        "source:access:date": "2025-07-05",
+        "tunnel": "yes",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.170056,
+          35.7618352
+        ]
+      },
+      "id": "way/16656634"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/16656648",
+        "access": "no",
+        "construction": "secondary",
+        "damage:event": "2024HurricaneHelene",
+        "hgv": "no",
+        "highway": "construction",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "source:access": "NPS Road Closures https://www.nps.gov/blri/planyourvisit/roadclosures.htm",
+        "source:access:date": "2025-07-05",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.1344281,
+          35.8167517
+        ]
+      },
+      "id": "way/16656648"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/16656697",
+        "access": "no",
+        "construction": "secondary",
+        "damage:event": "2024HurricaneHelene",
+        "hgv": "no",
+        "highway": "construction",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "source:access": "NPS Road Closures https://www.nps.gov/blri/planyourvisit/roadclosures.htm",
+        "source:access:date": "2025-07-05",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.2407904,
+          35.7137628
+        ]
+      },
+      "id": "way/16656697"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/16656740",
+        "access": "no",
+        "construction": "secondary",
+        "damage:event": "2024HurricaneHelene",
+        "hgv": "no",
+        "highway": "construction",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "source:access": "NPS Road Closures https://www.nps.gov/blri/planyourvisit/roadclosures.htm",
+        "source:access:date": "2025-07-01",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.0080996,
+          35.8814836
+        ]
+      },
+      "id": "way/16656740"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/16656757",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.0679546,
+          35.8526407
+        ]
+      },
+      "id": "way/16656757"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/16664063",
+        "access": "no",
+        "construction": "secondary",
+        "damage:event": "2024HurricaneHelene",
+        "hgv": "no",
+        "highway": "construction",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "source:access": "NPS Road Closures https://www.nps.gov/blri/planyourvisit/roadclosures.htm",
+        "source:access:date": "2025-07-01",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.0386248,
+          35.8583066
+        ]
+      },
+      "id": "way/16664063"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/16664073",
+        "access": "no",
+        "construction": "secondary",
+        "damage:event": "2024HurricaneHelene",
+        "hgv": "no",
+        "highway": "construction",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "source:access": "NPS Road Closures https://www.nps.gov/blri/planyourvisit/roadclosures.htm",
+        "source:access:date": "2025-07-01",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9970412,
+          35.8777551
+        ]
+      },
+      "id": "way/16664073"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/16664086",
+        "access": "no",
+        "construction": "secondary",
+        "damage:event": "2024HurricaneHelene",
+        "hgv": "no",
+        "highway": "construction",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "source:access": "NPS Road Closures https://www.nps.gov/blri/planyourvisit/roadclosures.htm",
+        "source:access:date": "2025-07-01",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9742969,
+          35.9006199
+        ]
+      },
+      "id": "way/16664086"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/16777362",
+        "hgv": "no",
+        "highway": "secondary",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "smoothness": "excellent",
+        "source": "NPS",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.2049015,
+          35.5161372
+        ]
+      },
+      "id": "way/16777362"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/16787150",
+        "hgv": "no",
+        "highway": "secondary",
+        "horse": "no",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Transylvania, NC",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.8005712,
+          35.3559718
+        ]
+      },
+      "id": "way/16787150"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/16787155",
+        "hgv": "no",
+        "highway": "secondary",
+        "horse": "no",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.8482305,
+          35.3193596
+        ]
+      },
+      "id": "way/16787155"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/16787158",
+        "hgv": "no",
+        "highway": "secondary",
+        "horse": "no",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Transylvania, NC",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.8204161,
+          35.3309008
+        ]
+      },
+      "id": "way/16787158"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/16787163",
+        "hgv": "no",
+        "highway": "secondary",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.9127164,
+          35.2977165
+        ]
+      },
+      "id": "way/16787163"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/16787171",
+        "hgv": "no",
+        "highway": "secondary",
+        "horse": "no",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Transylvania, NC",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.782381,
+          35.3822347
+        ]
+      },
+      "id": "way/16787171"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/16787172",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "layer": "-1",
+        "maxheight": "13'5\"",
+        "maxspeed": "45 mph",
+        "name": "Buck Spring Tunnel",
+        "oneway": "no",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "tiger:cfcc": "A42",
+        "tiger:county": "Transylvania, NC",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "tunnel": "yes",
+        "tunnel:name": "Buck Spring Tunnel",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.7478343,
+          35.4177354
+        ]
+      },
+      "id": "way/16787172"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/18909178",
+        "bicycle": "yes",
+        "foot": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.7804195,
+          36.1163795
+        ]
+      },
+      "id": "way/18909178"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/18922121",
+        "highway": "secondary",
+        "lanes": "4",
+        "maxspeed": "35 mph",
+        "name": "Jefferson Road",
+        "ref": "NC 194",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "turn:lanes:backward": "left;through|right",
+        "turn:lanes:forward": "left|none",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.6594252,
+          36.2193988
+        ]
+      },
+      "id": "way/18922121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/18942303",
+        "access": "no",
+        "bridge": "yes",
+        "construction": "secondary",
+        "damage:event": "2024HurricaneHelene",
+        "hgv": "no",
+        "highway": "construction",
+        "layer": "1",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "source:access": "NPS Road Closures https://www.nps.gov/blri/planyourvisit/roadclosures.htm",
+        "source:access:date": "2025-07-05",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.1651092,
+          35.7708096
+        ]
+      },
+      "id": "way/18942303"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/18942337",
+        "access": "yes",
+        "damage:event": "2024HurricaneHelene",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "source:access": "NPS Road Closures https://www.nps.gov/blri/planyourvisit/roadclosures.htm",
+        "source:access:date": "2025-07-05",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3495042,
+          35.7297812
+        ]
+      },
+      "id": "way/18942337"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/18942347",
+        "access": "no",
+        "construction": "secondary",
+        "damage:event": "2024HurricaneHelene",
+        "hgv": "no",
+        "highway": "construction",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "source:access": "NPS Road Closures https://www.nps.gov/blri/planyourvisit/roadclosures.htm",
+        "source:access:date": "2025-07-05",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.1983941,
+          35.7334339
+        ]
+      },
+      "id": "way/18942347"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/22772966",
+        "bicycle": "yes",
+        "foot": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.8117706,
+          36.0972535
+        ]
+      },
+      "id": "way/22772966"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/22772967",
+        "bicycle": "yes",
+        "bridge": "yes",
+        "foot": "no",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "name:bridge": "Linn Cove Viaduct",
+        "scenic": "yes",
+        "smoothness": "excellent",
+        "surface": "concrete",
+        "website": "https://www.blueridgeparkway.org/",
+        "wikidata": "Q14629007",
+        "wikipedia": "en:Linn Cove Viaduct",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.8135439,
+          36.0936433
+        ]
+      },
+      "id": "way/22772967"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/27766287",
+        "bridge": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "layer": "1",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "smoothness": "excellent",
+        "surface": "concrete",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0780947,
+          35.4341938
+        ]
+      },
+      "id": "way/27766287"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/27766428",
+        "damage:event": "2024HurricaneHelene",
+        "hgv": "no",
+        "highway": "secondary",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9005757,
+          35.9908827
+        ]
+      },
+      "id": "way/27766428"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/39371946",
+        "bicycle": "yes",
+        "bridge": "yes",
+        "foot": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "smoothness": "excellent",
+        "surface": "concrete",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.8292385,
+          36.0854053
+        ]
+      },
+      "id": "way/39371946"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/39371951",
+        "bicycle": "yes",
+        "foot": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.8248893,
+          36.0879786
+        ]
+      },
+      "id": "way/39371951"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/39372213",
+        "bridge": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.0507759,
+          35.8527793
+        ]
+      },
+      "id": "way/39372213"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/41374878",
+        "hgv": "no",
+        "highway": "secondary",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "smoothness": "excellent",
+        "source": "NPS",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.2480872,
+          35.5221033
+        ]
+      },
+      "id": "way/41374878"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/41374879",
+        "hgv": "no",
+        "highway": "secondary",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Haywood, NC",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.056118,
+          35.4364189
+        ]
+      },
+      "id": "way/41374879"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/41928658",
+        "bridge": "yes",
+        "foot": "designated",
+        "hgv": "no",
+        "highway": "secondary",
+        "layer": "1",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.6627142,
+          36.1478913
+        ]
+      },
+      "id": "way/41928658"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/42117775",
+        "bridge": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "layer": "1",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Haywood, NC",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.790783,
+          35.3733582
+        ]
+      },
+      "id": "way/42117775"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/42117776",
+        "hgv": "no",
+        "highway": "secondary",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Haywood, NC",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.7903539,
+          35.3739447
+        ]
+      },
+      "id": "way/42117776"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/43035237",
+        "hgv": "no",
+        "highway": "secondary",
+        "layer": "1",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "oneway": "no",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Buncombe, NC",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4773991,
+          35.5809978
+        ]
+      },
+      "id": "way/43035237"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/43035266",
+        "bridge": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "layer": "1",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Buncombe, NC",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4789828,
+          35.5761997
+        ]
+      },
+      "id": "way/43035266"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/44062498",
+        "bridge": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes:backward": "1",
+        "lanes:forward": "1",
+        "layer": "1",
+        "maxspeed": "35 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "sidewalk": "no",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4931021,
+          35.562446
+        ]
+      },
+      "id": "way/44062498"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/44062545",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes:backward": "1",
+        "lanes:forward": "1",
+        "maxspeed": "35 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "sidewalk": "no",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4922706,
+          35.5628564
+        ]
+      },
+      "id": "way/44062545"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/78316462",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Blue Ridge Parkway",
+        "oneway": "no",
+        "scenic": "yes",
+        "smoothness": "excellent",
+        "source": "NPS",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3009634,
+          35.5054043
+        ]
+      },
+      "id": "way/78316462"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/78316481",
+        "bridge": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "layer": "1",
+        "maxweight": "20 st",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "smoothness": "excellent",
+        "source": "NPS",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3002886,
+          35.5062179
+        ]
+      },
+      "id": "way/78316481"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/81783293",
+        "hgv": "no",
+        "highway": "secondary",
+        "name": "Frying Pan Tunnel",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Transylvania, NC",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "tunnel": "yes",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.7741582,
+          35.3908072
+        ]
+      },
+      "id": "way/81783293"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/82520953",
+        "hgv": "no",
+        "highway": "secondary",
+        "horse": "no",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "tiger:cfcc": "A42",
+        "tiger:county": "Transylvania, NC",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.7451533,
+          35.4194018
+        ]
+      },
+      "id": "way/82520953"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/84217974",
+        "access": "yes",
+        "damage:event": "2024HurricaneHelene",
+        "hgv": "no",
+        "highway": "secondary",
+        "horse": "no",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "source:access": "NPS Road Closures https://www.nps.gov/blri/planyourvisit/roadclosures.htm",
+        "source:access:date": "2025-03-22",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.8830821,
+          35.3087582
+        ]
+      },
+      "id": "way/84217974"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/84217976",
+        "access": "yes",
+        "damage:event": "2024HurricaneHelene",
+        "foot": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "layer": "-1",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "source:access": "NPS Road Closures https://www.nps.gov/blri/planyourvisit/roadclosures.htm",
+        "source:access:date": "2025-03-22",
+        "tunnel": "yes",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.8948613,
+          35.3054781
+        ]
+      },
+      "id": "way/84217976"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/84485835",
+        "hgv": "no",
+        "highway": "secondary",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Haywood, NC",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0410108,
+          35.422038
+        ]
+      },
+      "id": "way/84485835"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/84485841",
+        "access": "yes",
+        "bridge": "yes",
+        "damage:event": "2024HurricaneHelene",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "layer": "1",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "source:access": "NPS Road Closures https://www.nps.gov/blri/planyourvisit/roadclosures.htm",
+        "source:access:date": "2025-03-22",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.9103202,
+          35.2985204
+        ]
+      },
+      "id": "way/84485841"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/84485849",
+        "access": "yes",
+        "damage:event": "2024HurricaneHelene",
+        "hgv": "no",
+        "highway": "secondary",
+        "horse": "no",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "source:access": "NPS Road Closures https://www.nps.gov/blri/planyourvisit/roadclosures.htm",
+        "source:access:date": "2025-03-22",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.9031052,
+          35.3018664
+        ]
+      },
+      "id": "way/84485849"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/84485856",
+        "hgv": "no",
+        "highway": "secondary",
+        "layer": "-1",
+        "maxheight": "13'7\"",
+        "name": "Pinnacle Ridge Tunnel",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "sidewalk": "no",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Haywood, NC",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "tunnel": "yes",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0341377,
+          35.4347501
+        ]
+      },
+      "id": "way/84485856"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/84498748",
+        "access": "no",
+        "bicycle": "yes",
+        "damage:event": "2024HurricaneHelene",
+        "foot": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "motor_vehicle": "yes",
+        "name": "Fork Mountain Tunnel",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "source:access": "NPS Road Closures https://www.nps.gov/blri/planyourvisit/roadclosures.htm",
+        "source:access:date": "2025-03-22",
+        "tunnel": "yes",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.7150348,
+          35.4498343
+        ]
+      },
+      "id": "way/84498748"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/84498765",
+        "access": "yes",
+        "bicycle": "yes",
+        "damage:event": "2024HurricaneHelene",
+        "foot": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "horse": "no",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "motor_vehicle": "yes",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "source:access": "NPS Road Closures https://www.nps.gov/blri/planyourvisit/roadclosures.htm",
+        "source:access:date": "2025-03-22",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.7230857,
+          35.4418069
+        ]
+      },
+      "id": "way/84498765"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/84498778",
+        "hgv": "no",
+        "highway": "secondary",
+        "horse": "no",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.7359373,
+          35.4281322
+        ]
+      },
+      "id": "way/84498778"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/84498789",
+        "access": "yes",
+        "damage:event": "2024HurricaneHelene",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Young Pisgah Ridge Tunnel",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "source:access": "NPS Road Closures https://www.nps.gov/blri/planyourvisit/roadclosures.htm",
+        "source:access:date": "2025-03-22",
+        "tunnel": "yes",
+        "website": "https://www.blueridgeparkway.org/",
+        "wikidata": "Q98119898",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.7009079,
+          35.4543723
+        ]
+      },
+      "id": "way/84498789"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/84504300",
+        "access": "yes",
+        "alt_name": "Ferrin Knob Tunnel 1",
+        "damage:event": "2024HurricaneHelene",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "layer": "-1",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "source:access": "NPS Road Closures https://www.nps.gov/blri/planyourvisit/roadclosures.htm",
+        "source:access:date": "2025-03-22",
+        "tunnel": "yes",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6673162,
+          35.4558078
+        ]
+      },
+      "id": "way/84504300"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/84504301",
+        "access": "yes",
+        "damage:event": "2024HurricaneHelene",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "source:access": "NPS Road Closures https://www.nps.gov/blri/planyourvisit/roadclosures.htm",
+        "source:access:date": "2025-03-22",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.670963,
+          35.4563373
+        ]
+      },
+      "id": "way/84504301"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/84504303",
+        "access": "yes",
+        "damage:event": "2024HurricaneHelene",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "source:access": "NPS Road Closures https://www.nps.gov/blri/planyourvisit/roadclosures.htm",
+        "source:access:date": "2025-03-22",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6749978,
+          35.4545299
+        ]
+      },
+      "id": "way/84504303"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/84504304",
+        "access": "yes",
+        "damage:event": "2024HurricaneHelene",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Ferrin Knob Tunnel 2",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "source:access": "NPS Road Closures https://www.nps.gov/blri/planyourvisit/roadclosures.htm",
+        "source:access:date": "2025-03-22",
+        "tunnel": "yes",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6741385,
+          35.4553892
+        ]
+      },
+      "id": "way/84504304"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/84504305",
+        "access": "yes",
+        "bicycle": "yes",
+        "damage:event": "2024HurricaneHelene",
+        "foot": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "horse": "yes",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "motor_vehicle": "yes",
+        "name": "Ferrin Knob Tunnel 3",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "source:access": "NPS Road Closures https://www.nps.gov/blri/planyourvisit/roadclosures.htm",
+        "source:access:date": "2025-03-22",
+        "tunnel": "yes",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6763143,
+          35.4541589
+        ]
+      },
+      "id": "way/84504305"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/84504307",
+        "access": "yes",
+        "damage:event": "2024HurricaneHelene",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "source:access": "NPS Road Closures https://www.nps.gov/blri/planyourvisit/roadclosures.htm",
+        "source:access:date": "2025-03-22",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6886068,
+          35.4533917
+        ]
+      },
+      "id": "way/84504307"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/84508254",
+        "access": "yes",
+        "damage:event": "2024HurricaneHelene",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "source:access": "NPS Road Closures https://www.nps.gov/blri/planyourvisit/roadclosures.htm",
+        "source:access:date": "2025-03-22",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.632886,
+          35.4592783
+        ]
+      },
+      "id": "way/84508254"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/84508255",
+        "access": "yes",
+        "alt_name": "Pine Mountain Tunnel",
+        "damage:event": "2024HurricaneHelene",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "layer": "-1",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "source:access": "NPS Road Closures https://www.nps.gov/blri/planyourvisit/roadclosures.htm",
+        "source:access:date": "2025-03-22",
+        "tunnel": "yes",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6442126,
+          35.4492048
+        ]
+      },
+      "id": "way/84508255"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/84508321",
+        "access": "yes",
+        "damage:event": "2024HurricaneHelene",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "lit": "no",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.60787,
+          35.4847446
+        ]
+      },
+      "id": "way/84508321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/84508323",
+        "access": "yes",
+        "alt_name": "Grassy Knob Tunnel",
+        "damage:event": "2024HurricaneHelene",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "level": "-1",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "source:access": "NPS Road Closures https://www.nps.gov/blri/planyourvisit/roadclosures.htm",
+        "source:access:date": "2025-03-22",
+        "tunnel": "yes",
+        "website": "https://www.blueridgeparkway.org/",
+        "wikidata": "Q98205877",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.622912,
+          35.4691736
+        ]
+      },
+      "id": "way/84508323"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/84512474",
+        "bridge": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "layer": "1",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Buncombe, NC",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "aerial",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.591807,
+          35.5001264
+        ]
+      },
+      "id": "way/84512474"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/84512577",
+        "hgv": "no",
+        "highway": "secondary",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Buncombe, NC",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "aerial",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.5902871,
+          35.5006288
+        ]
+      },
+      "id": "way/84512577"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/97089849",
+        "access": "no",
+        "construction": "secondary",
+        "damage:event": "2024HurricaneHelene",
+        "hgv": "no",
+        "highway": "construction",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "source:access": "NPS Road Closures https://www.nps.gov/blri/planyourvisit/roadclosures.htm",
+        "source:access:date": "2025-07-01",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.0274479,
+          35.8720074
+        ]
+      },
+      "id": "way/97089849"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/97110832",
+        "access": "yes",
+        "damage:event": "2024HurricaneHelene",
+        "hgv": "no",
+        "highway": "secondary",
+        "layer": "-1",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "source:access": "NPS Road Closures https://www.nps.gov/blri/planyourvisit/roadclosures.htm",
+        "source:access:date": "2025-07-05",
+        "tunnel": "yes",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3836737,
+          35.6872743
+        ]
+      },
+      "id": "way/97110832"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/97110846",
+        "access": "yes",
+        "damage:event": "2024HurricaneHelene",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "source:access": "NPS Road Closures https://www.nps.gov/blri/planyourvisit/roadclosures.htm",
+        "source:access:date": "2025-03-22",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3805258,
+          35.6944991
+        ]
+      },
+      "id": "way/97110846"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/97110852",
+        "access": "yes",
+        "damage:event": "2024HurricaneHelene",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "layer": "-1",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "source:access": "NPS Road Closures https://www.nps.gov/blri/planyourvisit/roadclosures.htm",
+        "source:access:date": "2025-03-22",
+        "surface": "asphalt",
+        "tunnel": "yes",
+        "tunnel:name": "Craggy Pinnacle Tunnel",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3768635,
+          35.701204
+        ]
+      },
+      "id": "way/97110852"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/97179512",
+        "access": "no",
+        "construction": "secondary",
+        "damage:event": "2024HurricaneHelene",
+        "hgv": "no",
+        "highway": "construction",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "source:access": "NPS Road Closures https://www.nps.gov/blri/planyourvisit/roadclosures.htm",
+        "source:access:date": "2025-07-01",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.0160028,
+          35.8848294
+        ]
+      },
+      "id": "way/97179512"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/97179516",
+        "access": "no",
+        "construction": "secondary",
+        "damage:event": "2024HurricaneHelene",
+        "hgv": "no",
+        "highway": "construction",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "source:access": "NPS Road Closures https://www.nps.gov/blri/planyourvisit/roadclosures.htm",
+        "source:access:date": "2025-07-01",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.0132196,
+          35.8846828
+        ]
+      },
+      "id": "way/97179516"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/98261147",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes:backward": "1",
+        "lanes:forward": "1",
+        "maxspeed": "35 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "sidewalk": "no",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.505746,
+          35.5435729
+        ]
+      },
+      "id": "way/98261147"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/98261152",
+        "hgv": "no",
+        "highway": "secondary",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Buncombe, NC",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "aerial",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.593319,
+          35.4995647
+        ]
+      },
+      "id": "way/98261152"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/98261153",
+        "hgv": "no",
+        "highway": "secondary",
+        "horse": "no",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Transylvania, NC",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.8133533,
+          35.3409587
+        ]
+      },
+      "id": "way/98261153"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/98261154",
+        "bridge": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "layer": "1",
+        "maxspeed": "35 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Buncombe, NC",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.5286291,
+          35.5194659
+        ]
+      },
+      "id": "way/98261154"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/98261191",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes:backward": "1",
+        "lanes:forward": "1",
+        "maxspeed": "35 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "sidewalk": "no",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.5219209,
+          35.5232948
+        ]
+      },
+      "id": "way/98261191"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/98261193",
+        "bridge": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes:backward": "1",
+        "lanes:forward": "1",
+        "layer": "1",
+        "maxspeed": "35 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "sidewalk": "no",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.5186942,
+          35.5247861
+        ]
+      },
+      "id": "way/98261193"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/98261204",
+        "hgv": "no",
+        "highway": "secondary",
+        "maxspeed": "35 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Buncombe, NC",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.5282923,
+          35.5197669
+        ]
+      },
+      "id": "way/98261204"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/98261205",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes:backward": "1",
+        "lanes:forward": "1",
+        "maxspeed": "35 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "sidewalk": "no",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4855428,
+          35.5689105
+        ]
+      },
+      "id": "way/98261205"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/98261207",
+        "hgv": "no",
+        "highway": "secondary",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Buncombe, NC",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "aerial",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.5783921,
+          35.4988042
+        ]
+      },
+      "id": "way/98261207"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/98261214",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes:backward": "1",
+        "lanes:forward": "1",
+        "maxspeed": "35 mph",
+        "name": "Blue Ridge Parkway",
+        "parking:lane:left": "parallel",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "sidewalk": "no",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4936672,
+          35.5621165
+        ]
+      },
+      "id": "way/98261214"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/98261230",
+        "hgv": "no",
+        "highway": "secondary",
+        "maxspeed": "35 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Buncombe, NC",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.5292566,
+          35.518749
+        ]
+      },
+      "id": "way/98261230"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/98261232",
+        "hgv": "no",
+        "highway": "secondary",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Transylvania, NC",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.8150892,
+          35.3359881
+        ]
+      },
+      "id": "way/98261232"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/98261235",
+        "hgv": "no",
+        "highway": "secondary",
+        "maxspeed": "35 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Buncombe, NC",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.5267127,
+          35.5207573
+        ]
+      },
+      "id": "way/98261235"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/98261237",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes:backward": "1",
+        "lanes:forward": "1",
+        "maxspeed": "35 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "sidewalk": "no",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.5180392,
+          35.5250063
+        ]
+      },
+      "id": "way/98261237"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/98261239",
+        "bridge": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "layer": "1",
+        "maxspeed": "35 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "surface": "concrete",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.525014,
+          35.5218078
+        ]
+      },
+      "id": "way/98261239"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/112927508",
+        "access": "yes",
+        "damage:event": "2024HurricaneHelene",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "source:access": "NPS Road Closures https://www.nps.gov/blri/planyourvisit/roadclosures.htm",
+        "source:access:date": "2025-03-22",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6632008,
+          35.4538563
+        ]
+      },
+      "id": "way/112927508"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/113898031",
+        "bicycle": "yes",
+        "bridge": "yes",
+        "foot": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "smoothness": "excellent",
+        "surface": "concrete",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.7911315,
+          36.0989737
+        ]
+      },
+      "id": "way/113898031"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/113898032",
+        "bicycle": "yes",
+        "bridge": "yes",
+        "foot": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "smoothness": "excellent",
+        "surface": "concrete",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.79407,
+          36.09875
+        ]
+      },
+      "id": "way/113898032"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/113898033",
+        "bicycle": "yes",
+        "foot": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.7841024,
+          36.105017
+        ]
+      },
+      "id": "way/113898033"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/124476743",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.0894517,
+          35.8515198
+        ]
+      },
+      "id": "way/124476743"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/124476749",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "layer": "-1",
+        "maxspeed": "45 mph",
+        "name": "Little Switzerland Tunnel",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tunnel": "yes",
+        "website": "https://www.blueridgeparkway.org/",
+        "wikidata": "Q98119516",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.0858128,
+          35.8515645
+        ]
+      },
+      "id": "way/124476749"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/124476751",
+        "access": "no",
+        "bridge": "yes",
+        "construction": "secondary",
+        "damage:event": "2024HurricaneHelene",
+        "hgv": "no",
+        "highway": "construction",
+        "layer": "1",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "source:access": "NPS Road Closures https://www.nps.gov/blri/planyourvisit/roadclosures.htm",
+        "source:access:date": "2025-07-05",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.0924614,
+          35.8503503
+        ]
+      },
+      "id": "way/124476751"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/124476752",
+        "access": "no",
+        "bridge": "yes",
+        "construction": "secondary",
+        "damage:event": "2024HurricaneHelene",
+        "hgv": "no",
+        "highway": "construction",
+        "layer": "1",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "source:access": "NPS Road Closures https://www.nps.gov/blri/planyourvisit/roadclosures.htm",
+        "source:access:date": "2025-07-05",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.1018414,
+          35.8416232
+        ]
+      },
+      "id": "way/124476752"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/124476754",
+        "access": "no",
+        "construction": "secondary",
+        "damage:event": "2024HurricaneHelene",
+        "hgv": "no",
+        "highway": "construction",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "source:access": "NPS Road Closures https://www.nps.gov/blri/planyourvisit/roadclosures.htm",
+        "source:access:date": "2025-07-05",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.0987392,
+          35.8476821
+        ]
+      },
+      "id": "way/124476754"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/124559912",
+        "access": "no",
+        "construction": "secondary",
+        "damage:event": "2024HurricaneHelene",
+        "hgv": "no",
+        "highway": "construction",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "source:access": "NPS Road Closures https://www.nps.gov/blri/planyourvisit/roadclosures.htm",
+        "source:access:date": "2025-07-05",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.1097768,
+          35.8356033
+        ]
+      },
+      "id": "way/124559912"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/124559916",
+        "access": "no",
+        "construction": "secondary",
+        "damage:event": "2024HurricaneHelene",
+        "hgv": "no",
+        "highway": "construction",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "source:access": "NPS Road Closures https://www.nps.gov/blri/planyourvisit/roadclosures.htm",
+        "source:access:date": "2025-07-05",
+        "tunnel": "yes",
+        "tunnel:name": "Wildacres Tunnel",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.1179992,
+          35.8294509
+        ]
+      },
+      "id": "way/124559916"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/131355957",
+        "damage:event": "2024HurricaneHelene",
+        "hgv": "no",
+        "highway": "secondary",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9435737,
+          35.9691023
+        ]
+      },
+      "id": "way/131355957"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/131355962",
+        "bridge": "yes",
+        "damage:event": "2024HurricaneHelene",
+        "hgv": "no",
+        "highway": "secondary",
+        "layer": "1",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9373097,
+          35.9729383
+        ]
+      },
+      "id": "way/131355962"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/131355964",
+        "access": "no",
+        "bridge": "yes",
+        "construction": "secondary",
+        "damage:event": "2024HurricaneHelene",
+        "hgv": "no",
+        "highway": "construction",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "source:access": "NPS Road Closures https://www.nps.gov/blri/planyourvisit/roadclosures.htm",
+        "source:access:date": "2025-07-01",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9493029,
+          35.9654513
+        ]
+      },
+      "id": "way/131355964"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/146204154",
+        "hgv": "no",
+        "highway": "secondary",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Jackson, NC",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.9684133,
+          35.3378498
+        ]
+      },
+      "id": "way/146204154"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/146253812",
+        "access": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "source:access:date": "2025-07-05",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3340458,
+          35.7484363
+        ]
+      },
+      "id": "way/146253812"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/148359637",
+        "bicycle": "yes",
+        "foot": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.8171807,
+          36.0914692
+        ]
+      },
+      "id": "way/148359637"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/148359642",
+        "bicycle": "yes",
+        "foot": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.7974966,
+          36.0973131
+        ]
+      },
+      "id": "way/148359642"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/148359645",
+        "bicycle": "yes",
+        "foot": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.7719718,
+          36.1250695
+        ]
+      },
+      "id": "way/148359645"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/148359657",
+        "bicycle": "yes",
+        "foot": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.8090229,
+          36.1005021
+        ]
+      },
+      "id": "way/148359657"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/148359658",
+        "bicycle": "yes",
+        "bridge": "yes",
+        "foot": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "smoothness": "excellent",
+        "surface": "concrete",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.8103374,
+          36.0999531
+        ]
+      },
+      "id": "way/148359658"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/148359660",
+        "bicycle": "yes",
+        "bridge": "yes",
+        "foot": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "smoothness": "excellent",
+        "surface": "concrete",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.8202013,
+          36.0906033
+        ]
+      },
+      "id": "way/148359660"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/148359662",
+        "bicycle": "yes",
+        "bridge": "yes",
+        "foot": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "smoothness": "excellent",
+        "surface": "concrete",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.7797499,
+          36.1136398
+        ]
+      },
+      "id": "way/148359662"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/148359664",
+        "bicycle": "yes",
+        "bridge": "yes",
+        "foot": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "smoothness": "excellent",
+        "surface": "concrete",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.7815016,
+          36.1189293
+        ]
+      },
+      "id": "way/148359664"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/148359665",
+        "bicycle": "yes",
+        "foot": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.7924757,
+          36.0986962
+        ]
+      },
+      "id": "way/148359665"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/148359667",
+        "bicycle": "yes",
+        "bridge": "yes",
+        "foot": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "smoothness": "excellent",
+        "surface": "concrete",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.8077583,
+          36.1004699
+        ]
+      },
+      "id": "way/148359667"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/150641655",
+        "access": "yes",
+        "damage:event": "2024HurricaneHelene",
+        "hgv": "no",
+        "highway": "secondary",
+        "layer": "-1",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "source:access": "NPS Road Closures https://www.nps.gov/blri/planyourvisit/roadclosures.htm",
+        "source:access:date": "2025-03-22",
+        "tunnel": "yes",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4613926,
+          35.6640611
+        ]
+      },
+      "id": "way/150641655"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/150641661",
+        "access": "yes",
+        "damage:event": "2024HurricaneHelene",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "source:access": "NPS Road Closures https://www.nps.gov/blri/planyourvisit/roadclosures.htm",
+        "source:access:date": "2025-07-05",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4347758,
+          35.6743224
+        ]
+      },
+      "id": "way/150641661"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/161111078",
+        "access": "no",
+        "construction": "secondary",
+        "damage:event": "2024HurricaneHelene",
+        "hgv": "no",
+        "highway": "construction",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "source:access": "NPS Road Closures https://www.nps.gov/blri/planyourvisit/roadclosures.htm",
+        "source:access:date": "2025-07-05",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.1669205,
+          35.7672012
+        ]
+      },
+      "id": "way/161111078"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/161111080",
+        "access": "no",
+        "construction": "secondary",
+        "damage:event": "2024HurricaneHelene",
+        "hgv": "no",
+        "highway": "construction",
+        "lanes": "2",
+        "layer": "-1",
+        "maxspeed": "45 mph",
+        "name": "Laurel Knob Tunnel",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "source:access": "NPS Road Closures https://www.nps.gov/blri/planyourvisit/roadclosures.htm",
+        "source:access:date": "2025-07-05",
+        "surface": "asphalt",
+        "tunnel": "yes",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.2069316,
+          35.7268624
+        ]
+      },
+      "id": "way/161111080"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/161111081",
+        "access": "no",
+        "construction": "secondary",
+        "damage:event": "2024HurricaneHelene",
+        "hgv": "no",
+        "highway": "construction",
+        "layer": "-1",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "source:access": "NPS Road Closures https://www.nps.gov/blri/planyourvisit/roadclosures.htm",
+        "source:access:date": "2025-07-05",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.169502,
+          35.7627063
+        ]
+      },
+      "id": "way/161111081"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/181374340",
+        "access": "no",
+        "construction": "secondary",
+        "damage:event": "2024HurricaneHelene",
+        "hgv": "no",
+        "highway": "construction",
+        "layer": "-1",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "source:access": "NPS Road Closures https://www.nps.gov/blri/planyourvisit/roadclosures.htm",
+        "source:access:date": "2025-07-05",
+        "tunnel": "yes",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.1691313,
+          35.7635211
+        ]
+      },
+      "id": "way/181374340"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/191827228",
+        "bridge": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "layer": "1",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1555767,
+          35.496641
+        ]
+      },
+      "id": "way/191827228"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/191827229",
+        "hgv": "no",
+        "highway": "secondary",
+        "layer": "-1",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "smoothness": "excellent",
+        "source": "NPS",
+        "surface": "asphalt",
+        "tunnel": "yes",
+        "tunnel:name": "Lickstone Tunnel",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1881011,
+          35.5080905
+        ]
+      },
+      "id": "way/191827229"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/191827231",
+        "hgv": "no",
+        "highway": "secondary",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "tiger:reviewed": "yes",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1624684,
+          35.5056635
+        ]
+      },
+      "id": "way/191827231"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/191827235",
+        "bridge": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "layer": "1",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1697666,
+          35.509554
+        ]
+      },
+      "id": "way/191827235"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/222247504",
+        "bridge": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "35 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.7124924,
+          36.1457958
+        ]
+      },
+      "id": "way/222247504"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/222247506",
+        "hgv": "no",
+        "highway": "secondary",
+        "maxspeed": "35 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.7064329,
+          36.1467515
+        ]
+      },
+      "id": "way/222247506"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/284480292",
+        "hgv": "no",
+        "highway": "secondary",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "smoothness": "excellent",
+        "source": "NPS",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.2860648,
+          35.5138233
+        ]
+      },
+      "id": "way/284480292"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/284480293",
+        "hgv": "no",
+        "highway": "secondary",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "smoothness": "excellent",
+        "source": "NPS",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.2703555,
+          35.5151526
+        ]
+      },
+      "id": "way/284480293"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/284480295",
+        "hgv": "no",
+        "highway": "secondary",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "smoothness": "excellent",
+        "source": "NPS",
+        "surface": "asphalt",
+        "tunnel": "yes",
+        "tunnel:name": "Rattlesnake Mountain Tunnel",
+        "website": "https://www.blueridgeparkway.org/",
+        "wikidata": "Q98205842",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.2695893,
+          35.5191278
+        ]
+      },
+      "id": "way/284480295"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/284480296",
+        "hgv": "no",
+        "highway": "secondary",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "smoothness": "excellent",
+        "source": "NPS",
+        "surface": "asphalt",
+        "tunnel": "yes",
+        "tunnel:name": "Sherrill Cove Tunnel",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.2714843,
+          35.5116186
+        ]
+      },
+      "id": "way/284480296"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/285774535",
+        "hgv": "no",
+        "highway": "secondary",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "smoothness": "excellent",
+        "source": "NPS",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1940527,
+          35.5165601
+        ]
+      },
+      "id": "way/285774535"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/285774539",
+        "hgv": "no",
+        "highway": "secondary",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "smoothness": "excellent",
+        "source": "NPS",
+        "surface": "asphalt",
+        "tunnel": "yes",
+        "tunnel:name": "Bunches Bald Tunnel",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1929136,
+          35.5143632
+        ]
+      },
+      "id": "way/285774539"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/291280540",
+        "access": "yes",
+        "damage:event": "2024HurricaneHelene",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "oneway": "no",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "source:access": "NPS Road Closures https://www.nps.gov/blri/planyourvisit/roadclosures.htm",
+        "source:access:date": "2025-03-22",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4900685,
+          35.626405
+        ]
+      },
+      "id": "way/291280540"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/292822709",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4790425,
+          35.5892851
+        ]
+      },
+      "id": "way/292822709"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/292822710",
+        "bridge": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.479438,
+          35.586431
+        ]
+      },
+      "id": "way/292822710"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/344342928",
+        "bridge": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "source": "NC Ortho",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.6708877,
+          36.1565632
+        ]
+      },
+      "id": "way/344342928"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/344342930",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.6672858,
+          36.1525409
+        ]
+      },
+      "id": "way/344342930"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/360088393",
+        "bridge": "yes",
+        "hgv_articulated": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "35 mph",
+        "oneway": "no",
+        "ref": "NC 194",
+        "scenic": "yes",
+        "source:hgv": "https://ncdot.maps.arcgis.com/home/webmap/viewer.html?webmap=a8f091b8fadc4c5d8bb905bf44556a5d",
+        "surface": "concrete",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.6560684,
+          36.2419708
+        ]
+      },
+      "id": "way/360088393"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/360088394",
+        "hgv_articulated": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "35 mph",
+        "ref": "NC 194",
+        "scenic": "yes",
+        "source:hgv": "https://ncdot.maps.arcgis.com/home/webmap/viewer.html?webmap=a8f091b8fadc4c5d8bb905bf44556a5d",
+        "surface": "asphalt",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.6564106,
+          36.2392411
+        ]
+      },
+      "id": "way/360088394"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/372358767",
+        "hgv": "no",
+        "highway": "secondary",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Jackson, NC",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "yes",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1469438,
+          35.476003
+        ]
+      },
+      "id": "way/372358767"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/428999657",
+        "foot": "designated",
+        "hgv": "no",
+        "highway": "secondary",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.663412,
+          36.1483486
+        ]
+      },
+      "id": "way/428999657"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/430625145",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "oneway": "no",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4791679,
+          35.5858458
+        ]
+      },
+      "id": "way/430625145"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/432832881",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "35 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.722313,
+          36.1418247
+        ]
+      },
+      "id": "way/432832881"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/432832882",
+        "bridge": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "level": "1",
+        "maxspeed": "35 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.7315005,
+          36.1388168
+        ]
+      },
+      "id": "way/432832882"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/453068867",
+        "bridge": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "layer": "1",
+        "maxspeed": "35 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.7009867,
+          36.1478585
+        ]
+      },
+      "id": "way/453068867"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/453068871",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "35 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.6941782,
+          36.1496985
+        ]
+      },
+      "id": "way/453068871"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/453071640",
+        "bicycle": "yes",
+        "foot": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.7597849,
+          36.1316634
+        ]
+      },
+      "id": "way/453071640"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/453071648",
+        "bicycle": "yes",
+        "bridge": "yes",
+        "foot": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "smoothness": "excellent",
+        "surface": "concrete",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.7621477,
+          36.1310194
+        ]
+      },
+      "id": "way/453071648"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/587054176",
+        "hgv": "no",
+        "highway": "secondary",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Jackson, NC",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "yes",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1551241,
+          35.4938103
+        ]
+      },
+      "id": "way/587054176"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/587054177",
+        "hgv": "no",
+        "highway": "secondary",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Jackson, NC",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "yes",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1554316,
+          35.4946071
+        ]
+      },
+      "id": "way/587054177"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/588265935",
+        "hgv": "no",
+        "highway": "secondary",
+        "layer": "-1",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "smoothness": "excellent",
+        "source": "NPS",
+        "surface": "asphalt",
+        "tunnel": "yes",
+        "tunnel:name": "Big Witch Tunnel",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.2151274,
+          35.5180798
+        ]
+      },
+      "id": "way/588265935"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/588265936",
+        "hgv": "no",
+        "highway": "secondary",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "smoothness": "excellent",
+        "source": "NPS",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.2171501,
+          35.5215263
+        ]
+      },
+      "id": "way/588265936"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/588790612",
+        "hgv": "no",
+        "highway": "secondary",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Haywood, NC",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "yes",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0774759,
+          35.4338046
+        ]
+      },
+      "id": "way/588790612"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/588790615",
+        "hgv": "no",
+        "highway": "secondary",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Haywood, NC",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "yes",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0786839,
+          35.4346069
+        ]
+      },
+      "id": "way/588790615"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/588790616",
+        "hgv": "no",
+        "highway": "secondary",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Jackson, NC",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "yes",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0801253,
+          35.4406746
+        ]
+      },
+      "id": "way/588790616"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/588790617",
+        "hgv": "no",
+        "highway": "secondary",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Jackson, NC",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "yes",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0841072,
+          35.441981
+        ]
+      },
+      "id": "way/588790617"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/588790634",
+        "hgv": "no",
+        "highway": "secondary",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Jackson, NC",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "yes",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1169443,
+          35.4557789
+        ]
+      },
+      "id": "way/588790634"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/588790640",
+        "hgv": "no",
+        "highway": "secondary",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Jackson, NC",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "yes",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1293597,
+          35.4593694
+        ]
+      },
+      "id": "way/588790640"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/589731866",
+        "bicycle": "yes",
+        "cycleway": "no",
+        "foot": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "sidewalk": "no",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.6446137,
+          36.1364607
+        ]
+      },
+      "id": "way/589731866"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/589731868",
+        "bicycle": "yes",
+        "cycleway": "no",
+        "foot": "designated",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "sidewalk": "no",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.647978,
+          36.1367453
+        ]
+      },
+      "id": "way/589731868"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/589731869",
+        "bicycle": "yes",
+        "cycleway": "no",
+        "foot": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "sidewalk": "no",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.6552191,
+          36.1418574
+        ]
+      },
+      "id": "way/589731869"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/589731871",
+        "bicycle": "yes",
+        "cycleway": "no",
+        "foot": "designated",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "sidewalk": "no",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.6620735,
+          36.1471228
+        ]
+      },
+      "id": "way/589731871"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/627876806",
+        "hgv": "no",
+        "highway": "secondary",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "smoothness": "excellent",
+        "source": "NPS",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3006907,
+          35.5057371
+        ]
+      },
+      "id": "way/627876806"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/627876807",
+        "hgv": "no",
+        "highway": "secondary",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "smoothness": "excellent",
+        "source": "NPS",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.2700417,
+          35.5182589
+        ]
+      },
+      "id": "way/627876807"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/627876808",
+        "hgv": "no",
+        "highway": "secondary",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "smoothness": "excellent",
+        "source": "NPS",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.224004,
+          35.5248622
+        ]
+      },
+      "id": "way/627876808"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/627876810",
+        "hgv": "no",
+        "highway": "secondary",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "smoothness": "excellent",
+        "source": "NPS",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.2682299,
+          35.5200052
+        ]
+      },
+      "id": "way/627876810"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/627876812",
+        "hgv": "no",
+        "highway": "secondary",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "smoothness": "excellent",
+        "source": "NPS",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.2721247,
+          35.5107943
+        ]
+      },
+      "id": "way/627876812"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/627876813",
+        "hgv": "no",
+        "highway": "secondary",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "smoothness": "excellent",
+        "source": "NPS",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.2707703,
+          35.5123285
+        ]
+      },
+      "id": "way/627876813"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/651721045",
+        "hgv_articulated": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "55 mph",
+        "oneway": "no",
+        "ref": "NC 194",
+        "scenic": "yes",
+        "source:hgv": "https://ncdot.maps.arcgis.com/home/webmap/viewer.html?webmap=a8f091b8fadc4c5d8bb905bf44556a5d",
+        "surface": "asphalt",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.5917992,
+          36.3122691
+        ]
+      },
+      "id": "way/651721045"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/651846922",
+        "hgv_articulated": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "35 mph",
+        "name": "Jefferson Road",
+        "ref": "NC 194",
+        "scenic": "yes",
+        "source:hgv": "https://ncdot.maps.arcgis.com/home/webmap/viewer.html?webmap=a8f091b8fadc4c5d8bb905bf44556a5d",
+        "surface": "asphalt",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.6602945,
+          36.223143
+        ]
+      },
+      "id": "way/651846922"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/651846923",
+        "hgv_articulated": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "35 mph",
+        "ref": "NC 194",
+        "scenic": "yes",
+        "source:hgv": "https://ncdot.maps.arcgis.com/home/webmap/viewer.html?webmap=a8f091b8fadc4c5d8bb905bf44556a5d",
+        "surface": "asphalt",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.6593257,
+          36.2315745
+        ]
+      },
+      "id": "way/651846923"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/651846924",
+        "hgv_articulated": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "35 mph",
+        "ref": "NC 194",
+        "scenic": "yes",
+        "source:hgv": "https://ncdot.maps.arcgis.com/home/webmap/viewer.html?webmap=a8f091b8fadc4c5d8bb905bf44556a5d",
+        "surface": "asphalt",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.6520725,
+          36.2491151
+        ]
+      },
+      "id": "way/651846924"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/655144870",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4783982,
+          35.5849669
+        ]
+      },
+      "id": "way/655144870"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/655144871",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "1",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "oneway": "yes",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4803644,
+          35.5927754
+        ]
+      },
+      "id": "way/655144871"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/663590078",
+        "hgv": "no",
+        "highway": "secondary",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Buncombe, NC",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.525235,
+          35.5216738
+        ]
+      },
+      "id": "way/663590078"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/696613910",
+        "hgv": "no",
+        "highway": "secondary",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.5466049,
+          35.5072845
+        ]
+      },
+      "id": "way/696613910"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/712275628",
+        "hgv": "no",
+        "highway": "secondary",
+        "maxspeed": "35 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.744664,
+          36.1354625
+        ]
+      },
+      "id": "way/712275628"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/712276765",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.6792645,
+          36.1545115
+        ]
+      },
+      "id": "way/712276765"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/717896534",
+        "bridge": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "layer": "1",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Buncombe, NC",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.564839,
+          35.4960964
+        ]
+      },
+      "id": "way/717896534"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/970665451",
+        "hgv": "no",
+        "highway": "secondary",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "tiger:reviewed": "yes",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1554997,
+          35.4974882
+        ]
+      },
+      "id": "way/970665451"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/970665452",
+        "hgv": "no",
+        "highway": "secondary",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "tiger:reviewed": "yes",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.155431,
+          35.4982863
+        ]
+      },
+      "id": "way/970665452"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1002341972",
+        "bicycle": "yes",
+        "foot": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.8040888,
+          36.0986428
+        ]
+      },
+      "id": "way/1002341972"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1002341973",
+        "bicycle": "yes",
+        "bridge": "yes",
+        "foot": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "smoothness": "excellent",
+        "surface": "concrete",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.8006118,
+          36.0966392
+        ]
+      },
+      "id": "way/1002341973"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1037894264",
+        "access": "no",
+        "construction": "secondary",
+        "damage:event": "2024HurricaneHelene",
+        "hgv": "no",
+        "highway": "construction",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "source:access": "NPS Road Closures https://www.nps.gov/blri/planyourvisit/roadclosures.htm",
+        "source:access:date": "2025-03-22",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.2796358,
+          35.7178574
+        ]
+      },
+      "id": "way/1037894264"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1037894265",
+        "access": "no",
+        "construction": "secondary",
+        "damage:event": "2024HurricaneHelene",
+        "hgv": "no",
+        "highway": "construction",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "railway": "abandoned",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "source:access": "NPS Road Closures https://www.nps.gov/blri/planyourvisit/roadclosures.htm",
+        "source:access:date": "2025-03-22",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.2768426,
+          35.7148795
+        ]
+      },
+      "id": "way/1037894265"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1063612119",
+        "hgv_articulated": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "ref": "NC 194",
+        "scenic": "yes",
+        "source:hgv": "https://ncdot.maps.arcgis.com/home/webmap/viewer.html?webmap=a8f091b8fadc4c5d8bb905bf44556a5d",
+        "surface": "asphalt",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.6520545,
+          36.2665254
+        ]
+      },
+      "id": "way/1063612119"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1370351206",
+        "access": "no",
+        "damage:event": "2024HurricaneHelene",
+        "hgv": "no",
+        "highway": "secondary",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "source:access": "NPS Road Closures https://www.nps.gov/blri/planyourvisit/roadclosures.htm",
+        "source:access:date": "2025-03-22",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.9104687,
+          35.2985286
+        ]
+      },
+      "id": "way/1370351206"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1370351207",
+        "access": "yes",
+        "damage:event": "2024HurricaneHelene",
+        "hgv": "no",
+        "highway": "secondary",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "source:access": "NPS Road Closures https://www.nps.gov/blri/planyourvisit/roadclosures.htm",
+        "source:access:date": "2025-03-22",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.8708744,
+          35.3145307
+        ]
+      },
+      "id": "way/1370351207"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1370351208",
+        "damage:event": "2024HurricaneHelene",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "1",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "oneway": "yes",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4827035,
+          35.59387
+        ]
+      },
+      "id": "way/1370351208"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1370351209",
+        "access": "no",
+        "construction": "secondary",
+        "damage:event": "2024HurricaneHelene",
+        "hgv": "no",
+        "highway": "construction",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "source:access": "NPS Road Closures https://www.nps.gov/blri/planyourvisit/roadclosures.htm",
+        "source:access:date": "2025-07-05",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.0922156,
+          35.8502564
+        ]
+      },
+      "id": "way/1370351209"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1370351210",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.8300237,
+          36.084433
+        ]
+      },
+      "id": "way/1370351210"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1370351211",
+        "hgv": "no",
+        "highway": "secondary",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.0500283,
+          35.8525503
+        ]
+      },
+      "id": "way/1370351211"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1370407185",
+        "access": "yes",
+        "damage:event": "2024HurricaneHelene",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "source:access": "NPS Road Closures https://www.nps.gov/blri/planyourvisit/roadclosures.htm",
+        "source:access:date": "2025-07-05",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3960384,
+          35.6901662
+        ]
+      },
+      "id": "way/1370407185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1370407186",
+        "access": "yes",
+        "damage:event": "2024HurricaneHelene",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "source:access": "NPS Road Closures https://www.nps.gov/blri/planyourvisit/roadclosures.htm",
+        "source:access:date": "2025-07-05",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4083728,
+          35.6947769
+        ]
+      },
+      "id": "way/1370407186"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1370407198",
+        "access": "yes",
+        "damage:event": "2024HurricaneHelene",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "source:access": "NPS Road Closures https://www.nps.gov/blri/planyourvisit/roadclosures.htm",
+        "source:access:date": "2025-07-05",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3709604,
+          35.7054256
+        ]
+      },
+      "id": "way/1370407198"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1370407199",
+        "access": "yes",
+        "damage:event": "2024HurricaneHelene",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "source:access": "NPS Road Closures https://www.nps.gov/blri/planyourvisit/roadclosures.htm",
+        "source:access:date": "2025-07-05",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3652092,
+          35.7098653
+        ]
+      },
+      "id": "way/1370407199"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1412560541",
+        "access": "no",
+        "bridge": "yes",
+        "construction": "secondary",
+        "damage:event": "2024HurricaneHelene",
+        "hgv": "no",
+        "highway": "construction",
+        "layer": "1",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "source:access": "NPS Road Closures https://www.nps.gov/blri/planyourvisit/roadclosures.htm",
+        "source:access:date": "2025-07-05",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.1893367,
+          35.7400324
+        ]
+      },
+      "id": "way/1412560541"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1412560548",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "1",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "oneway": "yes",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4811036,
+          35.5928967
+        ]
+      },
+      "id": "way/1412560548"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1412561054",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4795211,
+          35.5867289
+        ]
+      },
+      "id": "way/1412561054"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1430782384",
+        "access": "yes",
+        "damage:event": "2024HurricaneHelene",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "oneway": "no",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "source:access": "NPS Road Closures https://www.nps.gov/blri/planyourvisit/roadclosures.htm",
+        "source:access:date": "2025-03-22",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4732262,
+          35.6636512
+        ]
+      },
+      "id": "way/1430782384"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1430782385",
+        "access": "yes",
+        "bridge": "yes",
+        "damage:event": "2024HurricaneHelene",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "oneway": "no",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "source:access": "NPS Road Closures https://www.nps.gov/blri/planyourvisit/roadclosures.htm",
+        "source:access:date": "2025-03-22",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4846471,
+          35.658832
+        ]
+      },
+      "id": "way/1430782385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1430782386",
+        "access": "yes",
+        "damage:event": "2024HurricaneHelene",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "oneway": "no",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "source:access": "NPS Road Closures https://www.nps.gov/blri/planyourvisit/roadclosures.htm",
+        "source:access:date": "2025-03-22",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4617788,
+          35.6652865
+        ]
+      },
+      "id": "way/1430782386"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1430782387",
+        "access": "yes",
+        "bridge": "yes",
+        "damage:event": "2024HurricaneHelene",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "oneway": "no",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "source:access": "NPS Road Closures https://www.nps.gov/blri/planyourvisit/roadclosures.htm",
+        "source:access:date": "2025-03-22",
+        "surface": "asphalt",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4618211,
+          35.665413
+        ]
+      },
+      "id": "way/1430782387"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1434935491",
+        "hgv": "no",
+        "highway": "secondary",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Buncombe, NC",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.5662164,
+          35.4960202
+        ]
+      },
+      "id": "way/1434935491"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1434935492",
+        "hgv": "no",
+        "highway": "secondary",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "rcn_ref": "2",
+        "scenic": "yes",
+        "website": "https://www.blueridgeparkway.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.5636942,
+          35.4962705
+        ]
+      },
+      "id": "way/1434935492"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1517853777",
+        "highway": "secondary",
+        "lanes": "4",
+        "maxspeed": "35 mph",
+        "name": "Jefferson Road",
+        "ref": "NC 194",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "turn:lanes:backward": "left;through|right",
+        "turn:lanes:forward": "left|none",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.6593241,
+          36.2189461
+        ]
+      },
+      "id": "way/1517853777"
+    }
+  ]
+}

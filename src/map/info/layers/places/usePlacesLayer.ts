@@ -29,5 +29,5 @@ export function usePlacesLayer(
         src.setData(geojson);
       }
     }
-  }, [mapRef, places, selectPlace]);
+  }, [mapRef, places]);
 }

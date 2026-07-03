@@ -1,0 +1,4832 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-06-28T00:48:45Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/67305116",
+        "highway": "trailhead",
+        "name": "North Oconee River Greenway"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3814455,
+          33.9814851
+        ]
+      },
+      "id": "node/67305116"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/113024000",
+        "highway": "trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.479037,
+          35.085758
+        ]
+      },
+      "id": "node/113024000"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/170352457",
+        "highway": "trailhead",
+        "name": "Nags Head Woods Forest Entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.661819,
+          35.993884
+        ]
+      },
+      "id": "node/170352457"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/170352892",
+        "highway": "trailhead",
+        "name": "Sandy Ridge TH"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.9192757,
+          35.8377271
+        ]
+      },
+      "id": "node/170352892"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/171501738",
+        "highway": "trailhead",
+        "name": "Cataloochee Horse Trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0881007,
+          35.6314193
+        ]
+      },
+      "id": "node/171501738"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/172124050",
+        "highway": "trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.184338,
+          35.7254214
+        ]
+      },
+      "id": "node/172124050"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/173479303",
+        "highway": "trailhead",
+        "name": "Smokemont Loop Trail Trailhead",
+        "operator": "National Park Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3118794,
+          35.5558319
+        ]
+      },
+      "id": "node/173479303"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/173479329",
+        "fee": "yes",
+        "highway": "trailhead",
+        "horse": "yes",
+        "name": "Tow String Horse Trail Trailhead",
+        "official_name": "Tow String Horse Camp",
+        "operator": "National Park Service",
+        "source": "NPS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.2998707,
+          35.5437226
+        ]
+      },
+      "id": "node/173479329"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/173492582",
+        "highway": "trailhead",
+        "name": "Newton Bald Trail Trailhead",
+        "operator": "National Park Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3098246,
+          35.5528039
+        ]
+      },
+      "id": "node/173492582"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/173501710",
+        "highway": "trailhead",
+        "name": "Bradley Fork Trail Trailhead",
+        "operator": "National Park Service",
+        "source": "NPS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3105615,
+          35.5630251
+        ]
+      },
+      "id": "node/173501710"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/173539159",
+        "highway": "trailhead",
+        "name": "Beech Gap Trail Trailhead",
+        "operator": "National Park Service",
+        "source": "NPS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.2114172,
+          35.6241229
+        ]
+      },
+      "id": "node/173539159"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/173539466",
+        "highway": "trailhead",
+        "name": "Balsam Mountain Trail Trailhead",
+        "operator": "National Park Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1790804,
+          35.6336154
+        ]
+      },
+      "id": "node/173539466"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/173546024",
+        "highway": "trailhead",
+        "name": "Newton Bald Concession Horse Trail Loop Trailhead",
+        "operator": "National Park Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3091498,
+          35.5489798
+        ]
+      },
+      "id": "node/173546024"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/195938278",
+        "bicycle": "yes",
+        "highway": "trailhead",
+        "name": "Warrior Creek"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.2934397,
+          36.1057175
+        ]
+      },
+      "id": "node/195938278"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/201819888",
+        "highway": "trailhead",
+        "name": "Turkeypen Ridge Trail Trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7449995,
+          35.6066148
+        ]
+      },
+      "id": "node/201819888"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/201997628",
+        "highway": "trailhead",
+        "name": "Osborne Farm Trailhead",
+        "operator": "US Forest Service",
+        "website": "https://www.fs.usda.gov/recarea/cherokee/recarea/?recid=34920"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9605787,
+          36.481342
+        ]
+      },
+      "id": "node/201997628"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/202819095",
+        "highway": "trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1598585,
+          35.8945192
+        ]
+      },
+      "id": "node/202819095"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/202822558",
+        "highway": "trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1619516,
+          35.8632453
+        ]
+      },
+      "id": "node/202822558"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/202845846",
+        "highway": "trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1562167,
+          35.8983231
+        ]
+      },
+      "id": "node/202845846"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/202873232",
+        "highway": "trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.878655,
+          35.9278948
+        ]
+      },
+      "id": "node/202873232"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/202904272",
+        "highway": "trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.8828337,
+          35.9504492
+        ]
+      },
+      "id": "node/202904272"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/202994450",
+        "highway": "trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1605378,
+          35.864306
+        ]
+      },
+      "id": "node/202994450"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/203069084",
+        "highway": "trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1655807,
+          35.8564282
+        ]
+      },
+      "id": "node/203069084"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/203095836",
+        "highway": "trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2022299,
+          35.8638243
+        ]
+      },
+      "id": "node/203095836"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/295437171",
+        "fee": "no",
+        "highway": "trailhead",
+        "name": "Appalachian Trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1938787,
+          34.6267694
+        ]
+      },
+      "id": "node/295437171"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/295437512",
+        "highway": "trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1950341,
+          34.6377659
+        ]
+      },
+      "id": "node/295437512"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/307752358",
+        "highway": "trailhead",
+        "name": "Lakeshore Trailhead Westside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.8110526,
+          35.4610506
+        ]
+      },
+      "id": "node/307752358"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/320300444",
+        "highway": "trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.382319,
+          33.9869485
+        ]
+      },
+      "id": "node/320300444"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/347677919",
+        "highway": "trailhead",
+        "name": "Whissenhunt OHV trails"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0450996,
+          34.5965332
+        ]
+      },
+      "id": "node/347677919"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/347935781",
+        "highway": "trailhead",
+        "name": "Hemlock Falls Hiking Trailhead",
+        "operator": "US Forest Service",
+        "website": "https://www.fs.usda.gov/recarea/conf/recarea/?recid=10511"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.5971517,
+          34.8479277
+        ]
+      },
+      "id": "node/347935781"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/347991313",
+        "highway": "trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7892441,
+          34.7098539
+        ]
+      },
+      "id": "node/347991313"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/392029508",
+        "highway": "trailhead",
+        "name": "Snowbird Backcountry Area Trailhead",
+        "operator": "US Forest Service",
+        "website": "https://www.fs.usda.gov/recarea/nfsnc/recarea/?recid=48930"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9027625,
+          35.2885069
+        ]
+      },
+      "id": "node/392029508"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1656846206",
+        "highway": "trailhead",
+        "name": "Sunwall Trailhead",
+        "operator": "US Forest Service",
+        "website": "https://www.fs.usda.gov/recarea/nfsnc/recarea/?recid=48146"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.7999711,
+          35.3102024
+        ]
+      },
+      "id": "node/1656846206"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1735338675",
+        "highway": "trailhead",
+        "name": "Mary Black Rail Trail"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.8952813,
+          34.9318713
+        ]
+      },
+      "id": "node/1735338675"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1788033937",
+        "barrier": "gate",
+        "highway": "trailhead",
+        "name": "North Twentymile Trailhead",
+        "website": "https://www.fs.usda.gov/r06/okanogan-wenatchee/recreation/north-twentymile-trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.8767898,
+          35.4673456
+        ]
+      },
+      "id": "node/1788033937"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1788094573",
+        "highway": "trailhead",
+        "name": "Rough Fork Trail Trailhead",
+        "operator": "National Park Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1615808,
+          35.5632822
+        ]
+      },
+      "id": "node/1788094573"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1788100749",
+        "highway": "trailhead",
+        "name": "Flat Creek Trail Trailhead",
+        "operator": "National Park Service",
+        "source": "NPS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1802827,
+          35.5731394
+        ]
+      },
+      "id": "node/1788100749"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1788106313",
+        "highway": "trailhead",
+        "name": "Kephart Prong Trail Trailhead",
+        "operator": "National Park Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3583331,
+          35.5857447
+        ]
+      },
+      "id": "node/1788106313"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1788106323",
+        "highway": "trailhead",
+        "name": "Thomas Divide Trailhead",
+        "operator": "National Park Service",
+        "source": "NPS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3989752,
+          35.5858334
+        ]
+      },
+      "id": "node/1788106323"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1788107100",
+        "highway": "trailhead",
+        "name": "Kanati Fork Trail Trailhead",
+        "operator": "National Park Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3638541,
+          35.5879108
+        ]
+      },
+      "id": "node/1788107100"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1788123143",
+        "highway": "trailhead",
+        "name": "Spruce Mountain Trail Trailhead",
+        "operator": "National Park Service",
+        "source": "NPS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.184496,
+          35.6110401
+        ]
+      },
+      "id": "node/1788123143"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1788130188",
+        "highway": "trailhead",
+        "name": "Rough Fork Trail"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1208686,
+          35.6162461
+        ]
+      },
+      "id": "node/1788130188"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1788134312",
+        "highway": "trailhead",
+        "name": "Big Fork Ridge Trail"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1197865,
+          35.6172293
+        ]
+      },
+      "id": "node/1788134312"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1788170536",
+        "highway": "trailhead",
+        "information": "guidepost",
+        "name": "Schoolhouse Gap Trailhead",
+        "operator": "National Park Service",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7265978,
+          35.6271844
+        ]
+      },
+      "id": "node/1788170536"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1788187283",
+        "highway": "trailhead",
+        "name": "Cataloochee Divide Trail Trailhead",
+        "operator": "National Park Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0449826,
+          35.6326209
+        ]
+      },
+      "id": "node/1788187283"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1788195700",
+        "highway": "trailhead",
+        "name": "Chimney Tops Trailhead",
+        "operator": "National Park Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.4697583,
+          35.6354384
+        ]
+      },
+      "id": "node/1788195700"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1788220339",
+        "highway": "trailhead",
+        "name": "Chestnut Top Trail Trailhead",
+        "operator": "National Park Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7089887,
+          35.6605366
+        ]
+      },
+      "id": "node/1788220339"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1788231058",
+        "amenity": "parking",
+        "highway": "trailhead",
+        "information": "guidepost",
+        "name": "Laurel Falls Trail - traillhead",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.5805034,
+          35.6719328
+        ]
+      },
+      "id": "node/1788231058"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1788234244",
+        "highway": "trailhead",
+        "name": "Little Cataloochee Trail Trailhead",
+        "operator": "National Park Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0872604,
+          35.676158
+        ]
+      },
+      "id": "node/1788234244"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1788234718",
+        "highway": "trailhead",
+        "kerb": "no",
+        "name": "Baskins Creek Trail Trailhead",
+        "operator": "National Park Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.4785422,
+          35.6774456
+        ]
+      },
+      "id": "node/1788234718"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1788235749",
+        "highway": "trailhead",
+        "name": "Trillium Gap Trail Trailhead",
+        "operator": "National Park Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.4626653,
+          35.6802594
+        ]
+      },
+      "id": "node/1788235749"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1788242215",
+        "highway": "trailhead",
+        "name": "Old Sugarlands Trail Trailhead",
+        "operator": "National Park Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.5349221,
+          35.688305
+        ]
+      },
+      "id": "node/1788242215"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1788252223",
+        "highway": "trailhead",
+        "name": "Mount Sterling Trail Trailhead",
+        "operator": "National Park Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0974295,
+          35.7002367
+        ]
+      },
+      "id": "node/1788252223"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1788256431",
+        "access": "yes",
+        "highway": "trailhead",
+        "name": "Grapeyard Ridge Trail",
+        "operator": "National Park Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3826602,
+          35.7079747
+        ]
+      },
+      "id": "node/1788256431"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1788274130",
+        "highway": "trailhead",
+        "name": "Low Gap Trail Access Trailhead",
+        "operator": "National Park Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.2055105,
+          35.7517343
+        ]
+      },
+      "id": "node/1788274130"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1788274190",
+        "highway": "trailhead",
+        "name": "Lower Mount Cammerer Trail Trailhead",
+        "operator": "National Park Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.2049636,
+          35.7519817
+        ]
+      },
+      "id": "node/1788274190"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1788276819",
+        "highway": "trailhead",
+        "name": "Low Gap Trail Trailhead",
+        "operator": "National Park Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.2078045,
+          35.7559248
+        ]
+      },
+      "id": "node/1788276819"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1836993876",
+        "highway": "trailhead",
+        "name": "Ledford Branch Trailhead",
+        "operator": "US Forest Service",
+        "website": "https://www.fs.usda.gov/recarea/nfsnc/recarea/?recid=48136"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6285782,
+          35.4904428
+        ]
+      },
+      "id": "node/1836993876"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1987739460",
+        "highway": "trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.2808091,
+          35.1307524
+        ]
+      },
+      "id": "node/1987739460"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2001832919",
+        "highway": "trailhead",
+        "name": "Lakeshore Trailhead Eastside",
+        "place": "locality"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.5379382,
+          35.458951
+        ]
+      },
+      "id": "node/2001832919"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2013078664",
+        "highway": "trailhead",
+        "name": "Snake Den Ridge Trail Trailhead",
+        "operator": "National Park Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.2103685,
+          35.753136
+        ]
+      },
+      "id": "node/2013078664"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2134389004",
+        "fee": "no",
+        "highway": "trailhead",
+        "name": "Byron Herbert Reece Memorial Trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9226829,
+          34.7415215
+        ]
+      },
+      "id": "node/2134389004"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2210167422",
+        "access": "yes",
+        "fee": "no",
+        "highway": "trailhead",
+        "name": "Pinnacle Trail",
+        "operator": "Town of Sylva Parks & Recreation"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1892835,
+          35.4403691
+        ]
+      },
+      "id": "node/2210167422"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2310264298",
+        "highway": "trailhead",
+        "name": "Cades Cove Horse Trail Trailhead",
+        "operator": "National Park Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7779158,
+          35.605358
+        ]
+      },
+      "id": "node/2310264298"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2310266664",
+        "highway": "trailhead",
+        "name": "Abrams Falls"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.8528624,
+          35.5913303
+        ]
+      },
+      "id": "node/2310266664"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2310268850",
+        "highway": "trailhead",
+        "name": "Elijah Oliver Cabin Access Trail Trailhead",
+        "operator": "National Park Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.8434193,
+          35.5978357
+        ]
+      },
+      "id": "node/2310268850"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2310290785",
+        "highway": "trailhead",
+        "name": "Rich Mountain Trail Trailhead",
+        "operator": "National Park Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.8052115,
+          35.64465
+        ]
+      },
+      "id": "node/2310290785"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2310474786",
+        "highway": "trailhead",
+        "name": "Ace Gap Trail Trailhead",
+        "operator": "National Park Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.8053009,
+          35.645682
+        ]
+      },
+      "id": "node/2310474786"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2313687866",
+        "highway": "trailhead",
+        "name": "Two Mile Lead Concession Horse Trail Trailhead",
+        "operator": "National Park Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.5316366,
+          35.6904325
+        ]
+      },
+      "id": "node/2313687866"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2316586112",
+        "highway": "trailhead",
+        "name": "Jakes Creek Trail Trailhead",
+        "operator": "National Park Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.5812228,
+          35.6520108
+        ]
+      },
+      "id": "node/2316586112"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2320219579",
+        "highway": "trailhead",
+        "name": "Curry Mountain Trail Trailhead",
+        "operator": "National Park Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6471624,
+          35.677075
+        ]
+      },
+      "id": "node/2320219579"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2330061950",
+        "highway": "trailhead",
+        "name": "Metcalf Bottoms Trail Trailhead",
+        "operator": "National Park Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6473281,
+          35.6791874
+        ]
+      },
+      "id": "node/2330061950"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2330063240",
+        "highway": "trailhead",
+        "name": "Little Brier Gap Trail Trailhead",
+        "operator": "National Park Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6395151,
+          35.6838189
+        ]
+      },
+      "id": "node/2330063240"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2331413821",
+        "highway": "trailhead",
+        "name": "Big Creek Trail Trailhead",
+        "operator": "National Park Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1102214,
+          35.7518823
+        ]
+      },
+      "id": "node/2331413821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2331413970",
+        "highway": "trailhead",
+        "name": "Chestnut Branch Trail Trailhead",
+        "operator": "National Park Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1059513,
+          35.7594801
+        ]
+      },
+      "id": "node/2331413970"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2334043445",
+        "highway": "trailhead",
+        "name": "Palmer Creek Trail Trailhead",
+        "operator": "National Park Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1738339,
+          35.6281638
+        ]
+      },
+      "id": "node/2334043445"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2350123060",
+        "highway": "trailhead",
+        "name": "Rainbow Falls Trail Trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.4856738,
+          35.6757032
+        ]
+      },
+      "id": "node/2350123060"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2350124766",
+        "highway": "trailhead",
+        "name": "Grassy Branch Trail Trailhead",
+        "operator": "National Park Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.5071496,
+          35.6966609
+        ]
+      },
+      "id": "node/2350124766"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2366027206",
+        "highway": "trailhead",
+        "name": "Baxter Creek Trail Trailhead",
+        "operator": "National Park Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1095063,
+          35.7515669
+        ]
+      },
+      "id": "node/2366027206"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2366027308",
+        "highway": "trailhead",
+        "name": "Big Creek Horse Trailhead",
+        "operator": "National Park Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1079909,
+          35.7540292
+        ]
+      },
+      "id": "node/2366027308"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2454926402",
+        "highway": "trailhead",
+        "name": "Hyatt Ridge Trail Trailhead",
+        "operator": "National Park Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.2229669,
+          35.6089039
+        ]
+      },
+      "id": "node/2454926402"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2455513345",
+        "highway": "trailhead",
+        "name": "Stiles Cemetery Access Trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.5189825,
+          35.4568358
+        ]
+      },
+      "id": "node/2455513345"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2455611224",
+        "highway": "trailhead",
+        "name": "Alum Cave Trailhead",
+        "operator": "National Park Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.4515379,
+          35.6295483
+        ]
+      },
+      "id": "node/2455611224"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2481879674",
+        "highway": "trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.9237662,
+          35.1254285
+        ]
+      },
+      "id": "node/2481879674"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2502057035",
+        "highway": "trailhead",
+        "name": "College Avenue Trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3778628,
+          33.9705619
+        ]
+      },
+      "id": "node/2502057035"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2653944891",
+        "alt_name": "Appalachian Approach Trailhead",
+        "highway": "trailhead",
+        "name": "Appalachian National Scenic Trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2435491,
+          34.5671672
+        ]
+      },
+      "id": "node/2653944891"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2767589875",
+        "highway": "trailhead",
+        "name": "Turkey Pen Gap Trailhead",
+        "operator": "US Forest Service",
+        "website": "https://www.fs.usda.gov/r08/northcarolina/recreation/turkey-pen-gap-trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6593261,
+          35.3426902
+        ]
+      },
+      "id": "node/2767589875"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2812532513",
+        "highway": "trailhead",
+        "name": "Art Loeb & Black Balsam Knob Trailhead",
+        "operator": "US Forest Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.876155,
+          35.3208007
+        ]
+      },
+      "id": "node/2812532513"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2836540587",
+        "highway": "trailhead",
+        "name": "North Face Trailhead",
+        "operator": "US Forest Service",
+        "website": "https://www.fs.usda.gov/recarea/nfsnc/recarea/?recid=48146"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.7980292,
+          35.3114763
+        ]
+      },
+      "id": "node/2836540587"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2921258164",
+        "highway": "trailhead",
+        "name": "Palmetto Trail: Capital City Passage Trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0677443,
+          34.0332258
+        ]
+      },
+      "id": "node/2921258164"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3172443184",
+        "highway": "trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.4727926,
+          35.9752092
+        ]
+      },
+      "id": "node/3172443184"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3297518663",
+        "highway": "trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4788604,
+          35.0866687
+        ]
+      },
+      "id": "node/3297518663"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3312426951",
+        "highway": "trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0799281,
+          36.2172294
+        ]
+      },
+      "id": "node/3312426951"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3605540009",
+        "highway": "trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1606157,
+          35.8644064
+        ]
+      },
+      "id": "node/3605540009"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3699107071",
+        "access": "yes",
+        "fee": "no",
+        "highway": "trailhead",
+        "name": "Mount Yonah Trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7256478,
+          34.6373336
+        ]
+      },
+      "id": "node/3699107071"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3735373575",
+        "fee": "yes",
+        "highway": "trailhead",
+        "information": "map",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2117689,
+          34.4263284
+        ]
+      },
+      "id": "node/3735373575"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3924629728",
+        "highway": "trailhead",
+        "name": "Duncan Ridge Trail Terminus",
+        "wikidata": "Q5314587",
+        "wikipedia": "en:Duncan Ridge Trail"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9412836,
+          34.7419049
+        ]
+      },
+      "id": "node/3924629728"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4154574413",
+        "amenity": "parking",
+        "highway": "trailhead",
+        "name": "Gooch Gap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0322918,
+          34.6522173
+        ]
+      },
+      "id": "node/4154574413"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4256094253",
+        "highway": "trailhead",
+        "name": "Oconaluftee River Trail Trailhead",
+        "operator": "National Park Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3061513,
+          35.5133225
+        ]
+      },
+      "id": "node/4256094253"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4599072576",
+        "amenity": "parking",
+        "highway": "trailhead",
+        "name": "Bull Mountain Trail System Parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1442493,
+          34.5828411
+        ]
+      },
+      "id": "node/4599072576"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4632259236",
+        "addr:country": "US",
+        "addr:state": "NC",
+        "addr:street": "Lupine Court",
+        "description": "Location to enter Lake Johnson Trail",
+        "highway": "trailhead",
+        "name": "Lake Johnson Trail Entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7243655,
+          35.7655993
+        ]
+      },
+      "id": "node/4632259236"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4657847907",
+        "highway": "trailhead",
+        "name": "Hunt Club Trail"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.8271154,
+          34.9572275
+        ]
+      },
+      "id": "node/4657847907"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4841989802",
+        "highway": "trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.1974885,
+          35.6892685
+        ]
+      },
+      "id": "node/4841989802"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5065372156",
+        "highway": "trailhead",
+        "information": "guidepost",
+        "operator": "Old Settlers Trail - trailhead",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3799547,
+          35.7077784
+        ]
+      },
+      "id": "node/5065372156"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5071918694",
+        "highway": "trailhead",
+        "name": "Little-Big Dudley Trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.4518968,
+          35.7295919
+        ]
+      },
+      "id": "node/5071918694"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5072036319",
+        "highway": "trailhead",
+        "information": "guidepost",
+        "operator": "Hickory Flats Quiet Walkway - west trailhead",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.5587775,
+          35.679133
+        ]
+      },
+      "id": "node/5072036319"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5087327834",
+        "highway": "trailhead",
+        "information": "guidepost",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.4903395,
+          35.6834614
+        ]
+      },
+      "id": "node/5087327834"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5087352233",
+        "highway": "trailhead",
+        "information": "guidepost",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3574966,
+          35.7026588
+        ]
+      },
+      "id": "node/5087352233"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5216978377",
+        "highway": "trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1287445,
+          34.5652215
+        ]
+      },
+      "id": "node/5216978377"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5271064116",
+        "highway": "trailhead",
+        "name": "Pullian Creek Trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3287429,
+          35.291035
+        ]
+      },
+      "id": "node/5271064116"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5288092621",
+        "description": "Entrance to the Northwoods Nature Trail",
+        "highway": "trailhead",
+        "name": "Northwoods Nature Trail Entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.9617448,
+          35.3054071
+        ]
+      },
+      "id": "node/5288092621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5288093792",
+        "description": "Entrance to the Northwoods Nature Trail",
+        "highway": "trailhead",
+        "name": "Northwoods Nature Trail Entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.9682438,
+          35.304473
+        ]
+      },
+      "id": "node/5288093792"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5398506653",
+        "access": "yes",
+        "fee": "no",
+        "highway": "trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0297487,
+          35.0918347
+        ]
+      },
+      "id": "node/5398506653"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5422870474",
+        "highway": "trailhead",
+        "name": "Lyle Creek Greenway Trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.2093083,
+          35.7312583
+        ]
+      },
+      "id": "node/5422870474"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5573607501",
+        "access": "yes",
+        "bicycle": "yes",
+        "highway": "trailhead",
+        "name": "Headwaters Hub"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.3007304,
+          36.1140451
+        ]
+      },
+      "id": "node/5573607501"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5615907676",
+        "highway": "trailhead",
+        "name": "Sowell Trail"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.9534884,
+          35.1881486
+        ]
+      },
+      "id": "node/5615907676"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5633376440",
+        "addr:city": "Concord",
+        "addr:housenumber": "9111",
+        "addr:postcode": "28025",
+        "addr:state": "NC",
+        "addr:street": "Mt Pleasant",
+        "addr:unit": "Rd",
+        "highway": "trailhead",
+        "name": "Pharr Family Preserve Trail Trailhead",
+        "phone": "+1-704-342-3330"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.4837493,
+          35.2886626
+        ]
+      },
+      "id": "node/5633376440"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5633416405",
+        "addr:city": "Kings Mountain",
+        "addr:country": "US",
+        "addr:housenumber": "807",
+        "addr:postcode": "28086",
+        "addr:state": "NC",
+        "addr:street": "South Battleground Avenue",
+        "description": "This trail will ultimately connect downtown Kings Mountain to Kings Mountain National Battlefield, Kings Mountain State Park, Crowders Mountain State Park, and the Overmountain Victory Trail.",
+        "highway": "trailhead",
+        "name": "Kings Mountain Gateway Trail Trailhead",
+        "phone": "+1-704-376-2556",
+        "website": "https://www.carolinathreadtrailmap.org/trails/trail/kings-mountain-gateway-trail"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.350609,
+          35.2297514
+        ]
+      },
+      "id": "node/5633416405"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5680738781",
+        "highway": "trailhead",
+        "name": "Opossum Creek Falls Trail"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3042475,
+          34.7734225
+        ]
+      },
+      "id": "node/5680738781"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5777974590",
+        "access": "yes",
+        "fee": "no",
+        "highway": "trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0270444,
+          35.0928178
+        ]
+      },
+      "id": "node/5777974590"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5902765483",
+        "highway": "trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.1964316,
+          35.6910716
+        ]
+      },
+      "id": "node/5902765483"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5994539105",
+        "highway": "trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.4019942,
+          35.7836209
+        ]
+      },
+      "id": "node/5994539105"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6001677114",
+        "highway": "trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.4102403,
+          35.7910376
+        ]
+      },
+      "id": "node/6001677114"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6039869741",
+        "highway": "trailhead",
+        "name": "Boone United Trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.6657417,
+          36.2234587
+        ]
+      },
+      "id": "node/6039869741"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6073935743",
+        "highway": "trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.6592396,
+          35.3978364
+        ]
+      },
+      "id": "node/6073935743"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6329887347",
+        "highway": "trailhead",
+        "name": "Browns Creek Trails Trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.5856391,
+          34.6140461
+        ]
+      },
+      "id": "node/6329887347"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6338307447",
+        "highway": "trailhead",
+        "name": "Milliken XC course 5k & 8k Start"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9514186,
+          34.9869437
+        ]
+      },
+      "id": "node/6338307447"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6505158993",
+        "highway": "trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.8354933,
+          35.1658866
+        ]
+      },
+      "id": "node/6505158993"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6506381288",
+        "access": "yes",
+        "bin": "yes",
+        "fee": "no",
+        "highway": "trailhead",
+        "name": "Appalachian Approach Trail Trailhead",
+        "parking": "yes",
+        "toilets": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2490989,
+          34.5576464
+        ]
+      },
+      "id": "node/6506381288"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6726929207",
+        "ele": "1173",
+        "highway": "trailhead",
+        "name": "Tellico Gap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.5722967,
+          35.2681162
+        ]
+      },
+      "id": "node/6726929207"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6746694885",
+        "access": "yes",
+        "fee": "no",
+        "highway": "trailhead",
+        "name": "Murrays Mill Thread Trail",
+        "operator": "Catawba County Historical Association"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.096538,
+          35.6700945
+        ]
+      },
+      "id": "node/6746694885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6828726561",
+        "addr:city": "Spartanburg",
+        "addr:housenumber": "211",
+        "addr:state": "SC",
+        "addr:street": "Sydnor Road",
+        "highway": "trailhead",
+        "name": "Cottonwood Trail Fernwood Pool Entrance",
+        "operator": "SPACE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.8997021,
+          34.9517941
+        ]
+      },
+      "id": "node/6828726561"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6865031230",
+        "highway": "trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6608526,
+          34.8976741
+        ]
+      },
+      "id": "node/6865031230"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6887094738",
+        "alt_name": "Kelsey Creek Trail",
+        "highway": "trailhead",
+        "name": "Palmetto Trail"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.8651087,
+          34.8953743
+        ]
+      },
+      "id": "node/6887094738"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7092058165",
+        "highway": "trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2218241,
+          35.8636461
+        ]
+      },
+      "id": "node/7092058165"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7359285905",
+        "addr:city": "Burnsville",
+        "addr:postcode": "28714",
+        "addr:state": "NC",
+        "addr:street": "South Toe River Road",
+        "highway": "trailhead",
+        "name": "Mount Mitchell Trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.2199959,
+          35.7509302
+        ]
+      },
+      "id": "node/7359285905"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7359285907",
+        "highway": "trailhead",
+        "name": "Buncombe Horse Range Trail"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.2833945,
+          35.7262755
+        ]
+      },
+      "id": "node/7359285907"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7359285911",
+        "highway": "trailhead",
+        "name": "Craven Gap Trail"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4916876,
+          35.6479627
+        ]
+      },
+      "id": "node/7359285911"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7383484728",
+        "amenity": "parking",
+        "highway": "trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0731614,
+          36.1979967
+        ]
+      },
+      "id": "node/7383484728"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7453553098",
+        "highway": "trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.852924,
+          34.9585406
+        ]
+      },
+      "id": "node/7453553098"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7477443749",
+        "highway": "trailhead",
+        "name": "Palmetto Trail"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.8892666,
+          33.9865005
+        ]
+      },
+      "id": "node/7477443749"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7515253776",
+        "alt_name": "Willy Taco Way",
+        "highway": "trailhead",
+        "name": "River Birch Trail"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9056935,
+          34.9609586
+        ]
+      },
+      "id": "node/7515253776"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7566932004",
+        "highway": "trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9254251,
+          35.9277016
+        ]
+      },
+      "id": "node/7566932004"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7674154048",
+        "highway": "trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.7228116,
+          35.9278995
+        ]
+      },
+      "id": "node/7674154048"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7782504145",
+        "highway": "trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9463778,
+          35.949367
+        ]
+      },
+      "id": "node/7782504145"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7836141568",
+        "access": "yes",
+        "fee": "no",
+        "highway": "trailhead",
+        "name": "North Myrtle Beach Nature Trail",
+        "operator": "City of North Myrtle Beach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7146027,
+          33.8400988
+        ]
+      },
+      "id": "node/7836141568"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7850570066",
+        "colour": "green",
+        "highway": "trailhead",
+        "material": "wood",
+        "name": "House on a Hill Hiking Trail"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.7001677,
+          35.610986
+        ]
+      },
+      "id": "node/7850570066"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7870947988",
+        "access": "yes",
+        "highway": "trailhead",
+        "name": "Noland Creek Trailhead",
+        "operator": "National Park Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.5267239,
+          35.4578063
+        ]
+      },
+      "id": "node/7870947988"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7885373331",
+        "highway": "trailhead",
+        "name": "Chattooga Cliffside Trail"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1220699,
+          35.0648123
+        ]
+      },
+      "id": "node/7885373331"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8158833125",
+        "highway": "trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.1831121,
+          35.7209553
+        ]
+      },
+      "id": "node/8158833125"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8293434035",
+        "highway": "trailhead",
+        "name": "Bullen Hollow Trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.7184903,
+          36.0708759
+        ]
+      },
+      "id": "node/8293434035"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8325280096",
+        "access": "yes",
+        "fee": "no",
+        "highway": "trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3320252,
+          35.473227
+        ]
+      },
+      "id": "node/8325280096"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8477096624",
+        "access": "yes",
+        "addr:city": "Snow Camp",
+        "addr:housenumber": "5075",
+        "addr:postcode": "27349",
+        "addr:state": "NC",
+        "addr:street": "Bass Mountain Road",
+        "fee": "no",
+        "highway": "trailhead",
+        "name": "Pine Hill Trailhead - Cane Creek Mountains Natural Area",
+        "operator": "Alamance County Parks and Recreation"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4211933,
+          35.9580562
+        ]
+      },
+      "id": "node/8477096624"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8522048192",
+        "highway": "trailhead",
+        "name": "Island Creek Trailhead",
+        "operator": "US Forest Service",
+        "website": "https://www.fs.usda.gov/recarea/nfsnc/recarea/?recid=48490"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1362059,
+          35.027151
+        ]
+      },
+      "id": "node/8522048192"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8540665616",
+        "highway": "trailhead",
+        "name": "Bishop Branch Trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3241876,
+          35.2911146
+        ]
+      },
+      "id": "node/8540665616"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8672433460",
+        "highway": "trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.8325217,
+          35.1736554
+        ]
+      },
+      "id": "node/8672433460"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8685402986",
+        "highway": "trailhead",
+        "name": "Pine Island Audubon Sanctuary Nature Trail"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.7893582,
+          36.256706
+        ]
+      },
+      "id": "node/8685402986"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8699426260",
+        "access": "yes",
+        "fee": "no",
+        "highway": "trailhead",
+        "name": "Collier Cove Trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.5076561,
+          35.4833704
+        ]
+      },
+      "id": "node/8699426260"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8731456974",
+        "highway": "trailhead",
+        "name": "Entrance to Trail"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.719784,
+          34.9961431
+        ]
+      },
+      "id": "node/8731456974"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8764796964",
+        "highway": "trailhead",
+        "name": "Secret Falls Trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1666524,
+          35.0086975
+        ]
+      },
+      "id": "node/8764796964"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8887063922",
+        "highway": "trailhead",
+        "name": "Andy Cove Trailhead",
+        "operator": "US Forest Service",
+        "website": "https://www.fs.usda.gov/r08/northcarolina/recreation/andy-cove-trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.7265197,
+          35.2852491
+        ]
+      },
+      "id": "node/8887063922"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8896556080",
+        "highway": "trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.985877,
+          34.9918937
+        ]
+      },
+      "id": "node/8896556080"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8978585154",
+        "highway": "trailhead",
+        "name": "Cove Mountain Trail Trailhead",
+        "operator": "National Park Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.5381621,
+          35.6879702
+        ]
+      },
+      "id": "node/8978585154"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9004508284",
+        "highway": "trailhead",
+        "name": "Appalachian Trail Trailhead",
+        "operator": "National Park Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.4248663,
+          35.6109802
+        ]
+      },
+      "id": "node/9004508284"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9029287251",
+        "highway": "trailhead",
+        "name": "Deep Creek Trailhead",
+        "operator": "National Park Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.4225539,
+          35.5993276
+        ]
+      },
+      "id": "node/9029287251"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9050650538",
+        "highway": "trailhead",
+        "name": "Gatlinburg Trail Trailhead",
+        "operator": "National Park Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.5237791,
+          35.7060904
+        ]
+      },
+      "id": "node/9050650538"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9055869456",
+        "highway": "trailhead",
+        "information": "guidepost",
+        "name": "Grapeyard Ridge Trailhead",
+        "operator": "Grapeyard Ridge Trail - West Traiilhead",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.4665998,
+          35.6947827
+        ]
+      },
+      "id": "node/9055869456"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9135409158",
+        "access": "yes",
+        "fee": "no",
+        "highway": "trailhead",
+        "name": "Carriage Lane Trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3516436,
+          33.9361443
+        ]
+      },
+      "id": "node/9135409158"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9386722760",
+        "highway": "trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7045311,
+          36.00229
+        ]
+      },
+      "id": "node/9386722760"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9505875137",
+        "highway": "trailhead",
+        "name": "Laurel Fork Trailhead",
+        "operator": "Cherokee National Forest"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.1521241,
+          36.285403
+        ]
+      },
+      "id": "node/9505875137"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9543583130",
+        "highway": "trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0741328,
+          36.2120682
+        ]
+      },
+      "id": "node/9543583130"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9704079504",
+        "highway": "trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.6726345,
+          35.4155771
+        ]
+      },
+      "id": "node/9704079504"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9733235380",
+        "highway": "trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.378277,
+          36.0546525
+        ]
+      },
+      "id": "node/9733235380"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9870479537",
+        "access": "yes",
+        "addr:city": "Lake Toxaway",
+        "addr:housenumber": "A",
+        "addr:postcode": "28747",
+        "addr:state": "NC",
+        "addr:street": "FS 4674A",
+        "fee": "no",
+        "highway": "trailhead",
+        "name": "Cold Mountain Gap trailhead",
+        "operator": "USFS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.9988724,
+          35.1577785
+        ]
+      },
+      "id": "node/9870479537"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9948026395",
+        "highway": "trailhead",
+        "name": "Wilkie Trail"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6389019,
+          35.1719594
+        ]
+      },
+      "id": "node/9948026395"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10011621208",
+        "highway": "trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.7732308,
+          35.3157866
+        ]
+      },
+      "id": "node/10011621208"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10148698561",
+        "highway": "trailhead",
+        "name": "Strawberry Gap Trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3564363,
+          35.4878476
+        ]
+      },
+      "id": "node/10148698561"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10253097499",
+        "access": "yes",
+        "fee": "no",
+        "highway": "trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0195424,
+          35.0999685
+        ]
+      },
+      "id": "node/10253097499"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10287855680",
+        "access": "yes",
+        "fee": "no",
+        "highway": "trailhead",
+        "name": "Lindsay Pettus Greenway-Trail Access at Barr Street Learning Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.7650195,
+          34.7275634
+        ]
+      },
+      "id": "node/10287855680"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10287855694",
+        "highway": "trailhead",
+        "name": "Lindsay Pettus Greenway Neighborhood Access Point-Almetta Street"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.7659722,
+          34.7292776
+        ]
+      },
+      "id": "node/10287855694"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10287855696",
+        "highway": "trailhead",
+        "name": "Lindsay Pettus Greenway-Trail Access at Main Street"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.7757573,
+          34.72951
+        ]
+      },
+      "id": "node/10287855696"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10609588416",
+        "access": "yes",
+        "fee": "no",
+        "highway": "trailhead",
+        "name": "Longleaf Pine Trail",
+        "operator": "NC State Parks"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.8947724,
+          35.1695522
+        ]
+      },
+      "id": "node/10609588416"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10698599630",
+        "highway": "trailhead",
+        "name": "Mvskoke En'nenuce",
+        "name:en": "Trail of the Muscogee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1401006,
+          33.818923
+        ]
+      },
+      "id": "node/10698599630"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10771687951",
+        "access": "yes",
+        "fee": "no",
+        "highway": "trailhead",
+        "name": "Pinnacle Park Tour",
+        "operator": "Town of Sylva Parks & Recreation"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1912347,
+          35.4226732
+        ]
+      },
+      "id": "node/10771687951"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10797079529",
+        "access": "yes",
+        "addr:city": "Cullowhee",
+        "addr:postcode": "28723",
+        "addr:state": "NC",
+        "fee": "no",
+        "highway": "trailhead",
+        "name": "Mysterious Cabin Loop",
+        "operator": "United States Forest Service",
+        "source": "Jackson County GIS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1015832,
+          35.3277563
+        ]
+      },
+      "id": "node/10797079529"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10797088681",
+        "access": "yes",
+        "addr:city": "Cullowhee",
+        "addr:postcode": "28723",
+        "addr:state": "NC",
+        "fee": "no",
+        "highway": "trailhead",
+        "name": "Moses Creek Road",
+        "operator": "United States Forest Service",
+        "source": "Jackson County GIS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1015491,
+          35.3275923
+        ]
+      },
+      "id": "node/10797088681"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10800237367",
+        "access": "yes",
+        "addr:city": "Cullowhee",
+        "addr:postcode": "28723",
+        "addr:state": "NC",
+        "fee": "no",
+        "highway": "trailhead",
+        "name": "Hemlock Ridge",
+        "operator": "United States Forest Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1326636,
+          35.3481378
+        ]
+      },
+      "id": "node/10800237367"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10800237369",
+        "access": "yes",
+        "addr:city": "Cullowhee",
+        "addr:postcode": "28723",
+        "addr:state": "NC",
+        "fee": "no",
+        "highway": "trailhead",
+        "name": "Wayehutta Loop",
+        "operator": "United States Forest Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1326671,
+          35.3481128
+        ]
+      },
+      "id": "node/10800237369"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10800493159",
+        "access": "yes",
+        "addr:city": "Cullowhee",
+        "addr:postcode": "28723",
+        "addr:state": "NC",
+        "fee": "no",
+        "highway": "trailhead",
+        "name": "Rail Line Way",
+        "operator": "United States Forest Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.130442,
+          35.3563748
+        ]
+      },
+      "id": "node/10800493159"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10800493161",
+        "access": "yes",
+        "addr:city": "Cullowhee",
+        "addr:postcode": "28723",
+        "addr:state": "NC",
+        "fee": "no",
+        "highway": "trailhead",
+        "name": "Blanton Branch",
+        "operator": "United States Forest Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1311314,
+          35.3554621
+        ]
+      },
+      "id": "node/10800493161"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10800493162",
+        "access": "yes",
+        "addr:city": "Cullowhee",
+        "addr:postcode": "28723",
+        "addr:state": "NC",
+        "fee": "no",
+        "highway": "trailhead",
+        "name": "Sawmill Bottoms Trail",
+        "operator": "United States Forest Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.129019,
+          35.3549262
+        ]
+      },
+      "id": "node/10800493162"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10800493165",
+        "access": "yes",
+        "addr:city": "Cullowhee",
+        "addr:postcode": "28723",
+        "addr:state": "NC",
+        "fee": "no",
+        "highway": "trailhead",
+        "name": "Black Mountain",
+        "operator": "United States Forest Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.124749,
+          35.3412412
+        ]
+      },
+      "id": "node/10800493165"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10800493166",
+        "access": "yes",
+        "addr:city": "Cullowhee",
+        "addr:postcode": "28723",
+        "addr:state": "NC",
+        "fee": "no",
+        "highway": "trailhead",
+        "name": "Parker Knob Connector",
+        "operator": "United States Forest Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1278486,
+          35.3370217
+        ]
+      },
+      "id": "node/10800493166"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10800493168",
+        "access": "yes",
+        "addr:city": "Cullowhee",
+        "addr:postcode": "28723",
+        "addr:state": "NC",
+        "fee": "no",
+        "highway": "trailhead",
+        "name": "Deep Gap",
+        "operator": "United States Forest Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1184114,
+          35.3394286
+        ]
+      },
+      "id": "node/10800493168"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10800493171",
+        "access": "yes",
+        "addr:city": "Cullowhee",
+        "addr:postcode": "28273",
+        "addr:state": "NC",
+        "fee": "no",
+        "highway": "trailhead",
+        "name": "Locust Gap Trail",
+        "operator": "United States Forest Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1165985,
+          35.3457689
+        ]
+      },
+      "id": "node/10800493171"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10800493172",
+        "access": "yes",
+        "addr:city": "Cullowhee",
+        "addr:postcode": "28723",
+        "addr:state": "NC",
+        "fee": "no",
+        "highway": "trailhead",
+        "name": "Locust Gap Connector",
+        "operator": "United States Forest Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1120938,
+          35.3597275
+        ]
+      },
+      "id": "node/10800493172"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10800493179",
+        "access": "yes",
+        "addr:city": "Cullowhee",
+        "addr:postcode": "28723",
+        "addr:state": "NC",
+        "fee": "no",
+        "highway": "trailhead",
+        "name": "Upper Wayehutta Creek",
+        "operator": "United States Forest Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1112809,
+          35.361831
+        ]
+      },
+      "id": "node/10800493179"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10800523316",
+        "access": "yes",
+        "addr:city": "Cullowhee",
+        "addr:postcode": "28723",
+        "addr:state": "NC",
+        "fee": "no",
+        "highway": "trailhead",
+        "name": "Buck Knob",
+        "operator": "United States Forest Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1311805,
+          35.3550949
+        ]
+      },
+      "id": "node/10800523316"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10811661255",
+        "access": "yes",
+        "highway": "trailhead",
+        "name": "Sugar Hill Greenway",
+        "operator": "City of Sugar Hill"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0764898,
+          34.1014731
+        ]
+      },
+      "id": "node/10811661255"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10865439282",
+        "highway": "trailhead",
+        "name": "Smith Farm Trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.559833,
+          35.8433714
+        ]
+      },
+      "id": "node/10865439282"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10929644886",
+        "highway": "trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.4099059,
+          35.7917091
+        ]
+      },
+      "id": "node/10929644886"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10929675988",
+        "highway": "trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.9080604,
+          34.0920052
+        ]
+      },
+      "id": "node/10929675988"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10948875151",
+        "highway": "trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.7117016,
+          35.9368598
+        ]
+      },
+      "id": "node/10948875151"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10962298972",
+        "access": "yes",
+        "fee": "no",
+        "highway": "trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0328765,
+          35.0917471
+        ]
+      },
+      "id": "node/10962298972"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11007907785",
+        "highway": "trailhead",
+        "name": "Forney Ridge Trailhead",
+        "operator": "National Park Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.4962405,
+          35.5568132
+        ]
+      },
+      "id": "node/11007907785"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11007929923",
+        "highway": "trailhead",
+        "name": "Gabes Mountain Trail Trailhead",
+        "operator": "National Park Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.2096325,
+          35.7578331
+        ]
+      },
+      "id": "node/11007929923"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11071504039",
+        "highway": "trailhead",
+        "name": "Birchmore Trail"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3875772,
+          33.9274328
+        ]
+      },
+      "id": "node/11071504039"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11084700986",
+        "highway": "trailhead",
+        "name": "Kelsey Creek Trail"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.8762626,
+          34.9089481
+        ]
+      },
+      "id": "node/11084700986"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11228279996",
+        "highway": "trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.8312861,
+          36.4061966
+        ]
+      },
+      "id": "node/11228279996"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11228299179",
+        "highway": "trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.8386266,
+          36.419702
+        ]
+      },
+      "id": "node/11228299179"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11251733427",
+        "highway": "trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1609175,
+          34.2296701
+        ]
+      },
+      "id": "node/11251733427"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11282582556",
+        "highway": "trailhead",
+        "name": "North Ridge Trail Greenway"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2767098,
+          36.0234983
+        ]
+      },
+      "id": "node/11282582556"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11336758781",
+        "highway": "trailhead",
+        "name": "Little Egypt Trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2243687,
+          36.3254883
+        ]
+      },
+      "id": "node/11336758781"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11336864995",
+        "access": "yes",
+        "addr:city": "Hampton",
+        "addr:housenumber": "717",
+        "addr:postcode": "37658",
+        "addr:state": "TN",
+        "addr:street": "1st Avenue",
+        "fee": "no",
+        "highway": "trailhead",
+        "name": "Hampton Watershed Trails",
+        "operator": "City of Elizabethton"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.1740561,
+          36.2797311
+        ]
+      },
+      "id": "node/11336864995"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11583006351",
+        "highway": "trailhead",
+        "name": "North Ridge Trail Mississippi Road Access"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.305126,
+          36.0117505
+        ]
+      },
+      "id": "node/11583006351"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11928934637",
+        "addr:city": "Winder",
+        "addr:housenumber": "41",
+        "addr:state": "GA",
+        "addr:street": "Lee Street",
+        "highway": "trailhead",
+        "name": "Wilkins Greenway Trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.725473,
+          33.987371
+        ]
+      },
+      "id": "node/11928934637"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11958761108",
+        "access": "yes",
+        "fee": "no",
+        "highway": "trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.2988182,
+          34.0931747
+        ]
+      },
+      "id": "node/11958761108"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11979171128",
+        "access": "yes",
+        "highway": "trailhead",
+        "name": "Porters Creek Trail",
+        "operator": "National Park Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3882187,
+          35.6967862
+        ]
+      },
+      "id": "node/11979171128"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11979171129",
+        "access": "yes",
+        "highway": "trailhead",
+        "name": "Old Settlers Trailhead",
+        "operator": "National Park Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3800194,
+          35.7077448
+        ]
+      },
+      "id": "node/11979171129"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12070739257",
+        "access": "yes",
+        "fee": "no",
+        "highway": "trailhead",
+        "name": "North Ridge Trail Illinois Avenue Access (East)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2863633,
+          36.0200785
+        ]
+      },
+      "id": "node/12070739257"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12070826983",
+        "access": "yes",
+        "fee": "no",
+        "highway": "trailhead",
+        "name": "North Ridge Trail Illinois Avenue Access (West)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.289928,
+          36.0203316
+        ]
+      },
+      "id": "node/12070826983"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12070867871",
+        "access": "yes",
+        "fee": "no",
+        "highway": "trailhead",
+        "name": "North Ridge Trail Illinois Avenue Access (East)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2609925,
+          36.0318943
+        ]
+      },
+      "id": "node/12070867871"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12070867872",
+        "access": "yes",
+        "fee": "no",
+        "highway": "trailhead",
+        "name": "North Ridge Trail Illinois Avenue Access (West)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2609034,
+          36.0319009
+        ]
+      },
+      "id": "node/12070867872"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12070868045",
+        "access": "yes",
+        "fee": "no",
+        "highway": "trailhead",
+        "name": "North Ridge Trail Georgia Avenue Access"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2406018,
+          36.0369136
+        ]
+      },
+      "id": "node/12070868045"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12070868095",
+        "access": "yes",
+        "fee": "no",
+        "highway": "trailhead",
+        "name": "North Ridge Trail Endicott Lane Access"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.220879,
+          36.0570349
+        ]
+      },
+      "id": "node/12070868095"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12141226587",
+        "highway": "trailhead",
+        "name": "Stoney Creek North Greenway"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.9612356,
+          35.3771653
+        ]
+      },
+      "id": "node/12141226587"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12141253814",
+        "highway": "trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.9572262,
+          35.397549
+        ]
+      },
+      "id": "node/12141253814"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12142671158",
+        "bin": "yes",
+        "fee": "no",
+        "highway": "trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.9495629,
+          35.3972436
+        ]
+      },
+      "id": "node/12142671158"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12166156813",
+        "highway": "trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6507678,
+          36.2059815
+        ]
+      },
+      "id": "node/12166156813"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12184475689",
+        "highway": "trailhead",
+        "name": "Acorn Run Trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.3023888,
+          35.3164442
+        ]
+      },
+      "id": "node/12184475689"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12184494045",
+        "highway": "trailhead",
+        "name": "Bull Pen Trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.299982,
+          35.3146739
+        ]
+      },
+      "id": "node/12184494045"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12320548872",
+        "highway": "trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.2630239,
+          35.0859752
+        ]
+      },
+      "id": "node/12320548872"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12434205832",
+        "highway": "trailhead",
+        "name": "Youngs Mountain Trailhead",
+        "operator": "Conserving Carolina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.1759506,
+          35.4664486
+        ]
+      },
+      "id": "node/12434205832"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12444696791",
+        "access": "yes",
+        "highway": "trailhead",
+        "name": "Woody Gap Trailhead",
+        "website": "https://www.fs.usda.gov/recarea/conf/recarea/?recid=10541"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9995874,
+          34.6779288
+        ]
+      },
+      "id": "node/12444696791"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12463582980",
+        "access": "yes",
+        "highway": "trailhead",
+        "name": "Tank Springs Trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1258712,
+          36.3880965
+        ]
+      },
+      "id": "node/12463582980"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12466210223",
+        "highway": "trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1783765,
+          35.856588
+        ]
+      },
+      "id": "node/12466210223"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12498366464",
+        "highway": "trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1625312,
+          35.856559
+        ]
+      },
+      "id": "node/12498366464"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12566487015",
+        "highway": "trailhead",
+        "name": "Hard Times Trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6242519,
+          35.4877221
+        ]
+      },
+      "id": "node/12566487015"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12566960900",
+        "highway": "trailhead",
+        "name": "Morfield Trailhead",
+        "operator": "Doe Mountain Recreation Area"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9088148,
+          36.3946714
+        ]
+      },
+      "id": "node/12566960900"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12618980895",
+        "highway": "trailhead",
+        "name": "Lower-Haw River Trail parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.1045736,
+          35.7321796
+        ]
+      },
+      "id": "node/12618980895"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12737960197",
+        "highway": "trailhead",
+        "name": "Sims Creek Overlook"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.7112737,
+          36.1457905
+        ]
+      },
+      "id": "node/12737960197"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12755436693",
+        "highway": "trailhead",
+        "name": "Game land and shore trail"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.9638188,
+          35.8331881
+        ]
+      },
+      "id": "node/12755436693"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12793452601",
+        "access": "yes",
+        "fee": "no",
+        "highway": "trailhead",
+        "name": "Bartam Trail Extension No. 67-02A",
+        "operator": "United States Forest Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7948663,
+          35.2573509
+        ]
+      },
+      "id": "node/12793452601"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12814680665",
+        "highway": "trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2673804,
+          35.6494775
+        ]
+      },
+      "id": "node/12814680665"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12874586574",
+        "highway": "trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4659654,
+          34.322924
+        ]
+      },
+      "id": "node/12874586574"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13005006021",
+        "highway": "trailhead",
+        "name": "Looking Glass Rock Trailhead",
+        "operator": "US Forest Service",
+        "website": "https://www.fs.usda.gov/recarea/nfsnc/recarea/?recid=48142"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.7766797,
+          35.2909797
+        ]
+      },
+      "id": "node/13005006021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13009819974",
+        "highway": "trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4593597,
+          35.3094802
+        ]
+      },
+      "id": "node/13009819974"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13013615141",
+        "highway": "trailhead",
+        "name": "River Birch Trail"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.8998384,
+          34.9524684
+        ]
+      },
+      "id": "node/13013615141"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13013615142",
+        "highway": "trailhead",
+        "name": "Cottonwood Trail Beechwood Entrance",
+        "operator": "SPACE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.891848,
+          34.9529459
+        ]
+      },
+      "id": "node/13013615142"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13013615143",
+        "highway": "trailhead",
+        "name": "Cottonwood Trail Woodburn Rd Entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.8900044,
+          34.9479228
+        ]
+      },
+      "id": "node/13013615143"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13013625514",
+        "highway": "trailhead",
+        "name": "Three Creeks Trail"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9637466,
+          34.9418471
+        ]
+      },
+      "id": "node/13013625514"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13013628846",
+        "highway": "trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.8343709,
+          34.8606741
+        ]
+      },
+      "id": "node/13013628846"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13013631758",
+        "highway": "trailhead",
+        "name": "Drayton Mills Trail"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9093334,
+          34.9689424
+        ]
+      },
+      "id": "node/13013631758"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13013651525",
+        "highway": "trailhead",
+        "name": "Mary Black Rail Trail"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9214962,
+          34.947501
+        ]
+      },
+      "id": "node/13013651525"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13013651526",
+        "highway": "trailhead",
+        "name": "Mary Black Rail Trail"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.914891,
+          34.9454773
+        ]
+      },
+      "id": "node/13013651526"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13013651527",
+        "highway": "trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9018384,
+          34.9369783
+        ]
+      },
+      "id": "node/13013651527"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13013673733",
+        "highway": "trailhead",
+        "name": "Glendale Shoals Trail"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.8384613,
+          34.9422587
+        ]
+      },
+      "id": "node/13013673733"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13020057125",
+        "fee": "no",
+        "highway": "trailhead",
+        "name": "Upper Chinquapin Greenway",
+        "operator": "SPACE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9538596,
+          34.9805678
+        ]
+      },
+      "id": "node/13020057125"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13020075979",
+        "highway": "trailhead",
+        "name": "Upper Chinquapin Greenway"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.962629,
+          34.9842198
+        ]
+      },
+      "id": "node/13020075979"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13020076097",
+        "highway": "trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9607998,
+          34.9814297
+        ]
+      },
+      "id": "node/13020076097"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13020076098",
+        "highway": "trailhead",
+        "name": "Upper Chinquapin Greenway"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9635789,
+          34.9845821
+        ]
+      },
+      "id": "node/13020076098"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13055086880",
+        "highway": "trailhead",
+        "name": "SCPMTB Hub",
+        "operator": "Salisbury"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.550967,
+          35.6991005
+        ]
+      },
+      "id": "node/13055086880"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13121468107",
+        "highway": "trailhead",
+        "name": "West Prong Trail Trailhead",
+        "operator": "National Park Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6913891,
+          35.6409543
+        ]
+      },
+      "id": "node/13121468107"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13121468846",
+        "highway": "trailhead",
+        "name": "Roundtop Trail Trailhead",
+        "operator": "National Park Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6460882,
+          35.6924471
+        ]
+      },
+      "id": "node/13121468846"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13121576709",
+        "highway": "trailhead",
+        "name": "John Oliver Cabin Access Trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7946771,
+          35.6066456
+        ]
+      },
+      "id": "node/13121576709"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13121662442",
+        "highway": "trailhead",
+        "name": "Hemphill Bald Trail Trailhead",
+        "operator": "National Park Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1615639,
+          35.5632538
+        ]
+      },
+      "id": "node/13121662442"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13121684442",
+        "highway": "trailhead",
+        "name": "Twin Creeks Trail Trailhead",
+        "operator": "National Park Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.5112465,
+          35.7009431
+        ]
+      },
+      "id": "node/13121684442"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13121707497",
+        "highway": "trailhead",
+        "name": "Meigs Creek Trail Trailhead",
+        "operator": "National Park Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6620869,
+          35.669433
+        ]
+      },
+      "id": "node/13121707497"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13121713209",
+        "highway": "trailhead",
+        "name": "Noland Divide Trail Trailhead",
+        "operator": "National Park Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.4385218,
+          35.4596682
+        ]
+      },
+      "id": "node/13121713209"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13121930323",
+        "highway": "trailhead",
+        "name": "Gregory Ridge Trail Trailhead",
+        "operator": "National Park Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.8457687,
+          35.5624812
+        ]
+      },
+      "id": "node/13121930323"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13121955629",
+        "highway": "trailhead",
+        "name": "Fork Ridge Trail Trailhead",
+        "operator": "National Park Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.469451,
+          35.5903373
+        ]
+      },
+      "id": "node/13121955629"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13122731753",
+        "highway": "trailhead",
+        "name": "Middle Prong Trail Trailhead",
+        "operator": "National Park Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6697475,
+          35.618106
+        ]
+      },
+      "id": "node/13122731753"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13191766719",
+        "access": "yes",
+        "addr:city": "Snow Camp",
+        "addr:housenumber": "5545",
+        "addr:postcode": "27349",
+        "addr:state": "NC",
+        "addr:street": "Bass Mountain Rd",
+        "fee": "no",
+        "highway": "trailhead",
+        "name": "Oak Hill Trailhead - Cane Creek Mountains Natural Area",
+        "operator": "Alamance Parks"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.419093,
+          35.9446617
+        ]
+      },
+      "id": "node/13191766719"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13227707785",
+        "access": "yes",
+        "fee": "no",
+        "highway": "trailhead",
+        "name": "Coach Mike Castronis Memorial Athletic Trails"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3706927,
+          33.9322651
+        ]
+      },
+      "id": "node/13227707785"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13324577537",
+        "access": "yes",
+        "addr:city": "Snow Camp",
+        "addr:housenumber": "5706",
+        "addr:postcode": "27349",
+        "addr:state": "NC",
+        "addr:street": "Mount Hermon Rock Creek Road",
+        "highway": "trailhead",
+        "name": "Peach Orchard Trailhead - Cane Creek Mountains Natural Area",
+        "operator": "Alamance County Parks and Recreation"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4448466,
+          35.9560117
+        ]
+      },
+      "id": "node/13324577537"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13357023221",
+        "access": "yes",
+        "fee": "no",
+        "highway": "trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0370057,
+          35.0865931
+        ]
+      },
+      "id": "node/13357023221"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13357023227",
+        "access": "yes",
+        "fee": "no",
+        "highway": "trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0289594,
+          35.0909349
+        ]
+      },
+      "id": "node/13357023227"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13357023250",
+        "access": "yes",
+        "fee": "no",
+        "highway": "trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0241053,
+          35.0940394
+        ]
+      },
+      "id": "node/13357023250"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13357712623",
+        "access": "yes",
+        "fee": "no",
+        "highway": "trailhead",
+        "name": "Jack Smith Creek Wetlands Trailhead",
+        "operator": "City of New Bern Stormwater Division",
+        "website": "https://www.newbernnc.gov/departments/public_works/stormwater.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0624057,
+          35.1270514
+        ]
+      },
+      "id": "node/13357712623"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13516141134",
+        "access": "yes",
+        "fee": "no",
+        "highway": "trailhead",
+        "name": "Bartam Trail Extension No. 67-02A",
+        "operator": "United States Forest Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6917409,
+          35.2730849
+        ]
+      },
+      "id": "node/13516141134"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13516207141",
+        "access": "yes",
+        "fee": "no",
+        "highway": "trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9383074,
+          35.2643766
+        ]
+      },
+      "id": "node/13516207141"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13675862147",
+        "highway": "trailhead",
+        "name": "Husky Gap Trailhead",
+        "operator": "National Park Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.5265396,
+          35.6632545
+        ]
+      },
+      "id": "node/13675862147"
+    }
+  ]
+}

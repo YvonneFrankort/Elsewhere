@@ -1,0 +1,268 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-06-28T01:20:59Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/323180113",
+        "addr:city": "Matthews",
+        "addr:housenumber": "10715",
+        "addr:postcode": "28105",
+        "addr:state": "NC",
+        "addr:street": "Independence Pointe Parkway",
+        "building": "yes",
+        "height": "26",
+        "leisure": "sports_centre",
+        "name": "Inner Peaks Matthews",
+        "phone": "+1-704-844-6677",
+        "sport": "climbing",
+        "website": "https://innerpeaks.com/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.705705,
+          35.1205877
+        ]
+      },
+      "id": "way/323180113"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/432915335",
+        "addr:city": "Charlotte",
+        "addr:housenumber": "2220",
+        "addr:postcode": "28203",
+        "addr:state": "NC",
+        "addr:street": "South Tryon Street",
+        "building": "yes",
+        "leisure": "sports_centre",
+        "name": "Inner Peaks Climbing Center",
+        "phone": "+19802423244",
+        "sport": "climbing",
+        "website": "https://www.innerpeaks.com/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.8677603,
+          35.2094048
+        ]
+      },
+      "id": "way/432915335"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/701573153",
+        "addr:city": "Taylors",
+        "addr:housenumber": "301",
+        "addr:postcode": "29687",
+        "addr:state": "SC",
+        "addr:street": "Bulls Road",
+        "building": "yes",
+        "leisure": "sports_centre",
+        "name": "Climb Blue Ridge",
+        "sport": "climbing",
+        "website": "https://www.climbbr.com/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3345297,
+          34.9938676
+        ]
+      },
+      "id": "way/701573153"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1051293578",
+        "addr:city": "Charleston",
+        "addr:housenumber": "1595",
+        "addr:postcode": "29412",
+        "addr:state": "SC",
+        "addr:street": "Highland Avenue",
+        "email": "hugh@wildblueropes.com",
+        "fee": "yes",
+        "leisure": "sports_centre",
+        "name": "Wild Blue Ropes",
+        "opening_hours": "Fr 12:00-19:00; Su,Sa 10:00-18:00; Mar 30-Apr 01 10:00-18:00; Apr 12-15 10:00-18:00; Apr 20-22 10:00-18:00",
+        "phone": "+1 843 225 1555",
+        "reservation": "required",
+        "sport": "climbing",
+        "website": "https://www.wildblueropes.com",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9660245,
+          32.7379647
+        ]
+      },
+      "id": "way/1051293578"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1089355025",
+        "leisure": "sports_centre",
+        "man_made": "tower",
+        "name": "Fripp Island Climbing Tower",
+        "sport": "climbing",
+        "tower:type": "climbing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.502066,
+          32.310889
+        ]
+      },
+      "id": "node/1089355025"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1301674544",
+        "building": "yes",
+        "leisure": "sports_centre",
+        "sport": "climbing",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4762405,
+          35.1916084
+        ]
+      },
+      "id": "way/1301674544"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1308668765",
+        "leisure": "sports_centre",
+        "name:signed": "no",
+        "sport": "climbing",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0248789,
+          33.9914092
+        ]
+      },
+      "id": "way/1308668765"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1463253278",
+        "barrier": "retaining_wall",
+        "material": "stone",
+        "sport": "climbing",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9054074,
+          32.7992008
+        ]
+      },
+      "id": "way/1463253278"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3687709714",
+        "addr:city": "Fayetteville",
+        "addr:housenumber": "436",
+        "addr:postcode": "28301",
+        "addr:state": "NC",
+        "addr:street": "West Russell Street",
+        "building": "warehouse",
+        "designation": "Indoor rock climbing",
+        "leisure": "sports_centre",
+        "name": "The Climbing Place",
+        "sport": "climbing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.8848131,
+          35.0527085
+        ]
+      },
+      "id": "node/3687709714"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8482644094",
+        "leisure": "sports_centre",
+        "name": "Bloc Haven",
+        "sport": "climbing",
+        "website": "https://www.therockoon.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4291823,
+          34.8358416
+        ]
+      },
+      "id": "node/8482644094"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11218920936",
+        "addr:housenumber": "643",
+        "addr:street": "South Old Belair Road",
+        "name": "Active Climbing Augusta",
+        "opening_hours": "Tu-Th 15:00-21:00; Mo, Fr 12:00-21:00; Sa 11:00-20:00; Su 13:00-18:00",
+        "phone": "+1-706-922-1054",
+        "sport": "climbing",
+        "website": "https://www.activeclimbingaugusta.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.140159,
+          33.4811185
+        ]
+      },
+      "id": "node/11218920936"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12156371586",
+        "leisure": "sports_centre",
+        "name:signed": "no",
+        "sport": "climbing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0246946,
+          33.991549
+        ]
+      },
+      "id": "node/12156371586"
+    }
+  ]
+}

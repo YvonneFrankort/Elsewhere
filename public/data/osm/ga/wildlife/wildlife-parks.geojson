@@ -1,0 +1,5627 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-06-28T00:17:11Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/113533",
+        "boundary": "protected_area",
+        "fixme": "Please better align many boundaries with actual state boundaries; many boundaries drift at state boundaries by 20 to 40 meters.",
+        "leisure": "nature_reserve",
+        "name": "Nantahala National Forest",
+        "operator": "United States Forest Service",
+        "operator:short": "USFS",
+        "operator:type": "public",
+        "operator:wikidata": "Q1891156",
+        "operator:wikipedia": "en:United States Forest Service",
+        "ownership": "national",
+        "protect_class": "6",
+        "protected": "perpetuity",
+        "protected_area": "forest_reserve",
+        "protection_title": "National Forest",
+        "type": "boundary",
+        "wikidata": "Q3079140",
+        "wikipedia": "en:Nantahala National Forest",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6075104,
+          35.2256735
+        ]
+      },
+      "id": "relation/113533"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/143350",
+        "boundary": "protected_area",
+        "communication:amateur_radio:pota": "US-0662",
+        "leisure": "nature_reserve",
+        "name": "Chattahoochee River National Recreation Area",
+        "operator": "National Park Service",
+        "operator:short": "NPS",
+        "operator:type": "public",
+        "operator:wikidata": "Q308439",
+        "operator:wikipedia": "en:National Park Service",
+        "ownership": "national",
+        "protected": "perpetuity",
+        "protection_title": "National Recreation Area",
+        "type": "boundary",
+        "website": "https://www.nps.gov/chat/",
+        "wikidata": "Q5087844",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2649574,
+          34.0132007
+        ]
+      },
+      "id": "relation/143350"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/359503",
+        "leisure": "nature_reserve",
+        "name": "Conestee Nature Preserve",
+        "type": "multipolygon",
+        "website": "https://conesteepreserve.org/",
+        "wikidata": "Q6475445",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3550512,
+          34.7766225
+        ]
+      },
+      "id": "relation/359503"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/1862990",
+        "ele": "1",
+        "gnis:feature_id": "301602",
+        "leisure": "nature_reserve",
+        "name": "Huguenot Memorial Park",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4136893,
+          30.4122962
+        ]
+      },
+      "id": "relation/1862990"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/1863026",
+        "ele": "4",
+        "gnis:feature_id": "1946050",
+        "leisure": "nature_reserve",
+        "name": "Amelia Island State Park",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4405186,
+          30.5222104
+        ]
+      },
+      "id": "relation/1863026"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/1863027",
+        "ele": "3",
+        "gnis:feature_id": "1946075",
+        "leisure": "nature_reserve",
+        "name": "Fort George Island Cultural State Park",
+        "type": "multipolygon",
+        "wikidata": "Q5471219",
+        "wikipedia": "en:Fort George Island Cultural State Park",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.431808,
+          30.4253774
+        ]
+      },
+      "id": "relation/1863027"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/1863028",
+        "leisure": "nature_reserve",
+        "name": "Hellen Cooper Floyd Park",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.44622,
+          30.3799325
+        ]
+      },
+      "id": "relation/1863028"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/1863030",
+        "ele": "1",
+        "gnis:feature_id": "285836",
+        "leisure": "nature_reserve",
+        "name": "Little Talbot Island State Park",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4189925,
+          30.4545485
+        ]
+      },
+      "id": "relation/1863030"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/3499712",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Apalachicola National Forest",
+        "operator": "United States Forest Service",
+        "operator:short": "USFS",
+        "operator:type": "public",
+        "operator:wikidata": "Q1891156",
+        "ownership": "national",
+        "protect_class": "6",
+        "protected": "perpetuity",
+        "protected_area": "forest_reserve",
+        "protection_title": "National Forest",
+        "type": "boundary",
+        "website": "https://www.fs.usda.gov/florida",
+        "wikidata": "Q617396",
+        "wikipedia": "en:Apalachicola National Forest",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.6106097,
+          30.3056038
+        ]
+      },
+      "id": "relation/3499712"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/3499739",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Big Gum Swamp Wilderness",
+        "operator": "United States Forest Service",
+        "operator:short": "USFS",
+        "operator:type": "public",
+        "operator:wikidata": "Q1891156",
+        "ownership": "national",
+        "protect_class": "1b",
+        "protected": "perpetuity",
+        "protected_area": "wilderness_preserve",
+        "protection_title": "Wilderness Area",
+        "type": "boundary",
+        "wikidata": "Q4905785",
+        "wikipedia": "en:Big Gum Swamp Wilderness",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4427146,
+          30.3500033
+        ]
+      },
+      "id": "relation/3499739"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/3500802",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Tuskegee National Forest",
+        "operator": "United States Forest Service",
+        "operator:short": "USFS",
+        "operator:type": "public",
+        "operator:wikidata": "Q1891156",
+        "operator:wikipedia": "en:United States Forest Service",
+        "ownership": "national",
+        "protect_class": "6",
+        "protected": "perpetuity",
+        "protected_area": "forest_reserve",
+        "protection_title": "National Forest",
+        "type": "boundary",
+        "website": "https://www.fs.usda.gov/recarea/alabama/recarea/?recid=30179",
+        "wikidata": "Q3079161",
+        "wikipedia": "en:Tuskegee National Forest",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.6191077,
+          32.4618966
+        ]
+      },
+      "id": "relation/3500802"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/3500870",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Talladega National Forest",
+        "name:de": "Nationalforest Talladega",
+        "operator": "United States Forest Service",
+        "operator:short": "USFS",
+        "operator:type": "public",
+        "operator:wikidata": "Q1891156",
+        "ownership": "national",
+        "protect_class": "6",
+        "protected": "perpetuity",
+        "protected_area": "forest_reserve",
+        "protection_title": "National Forest",
+        "type": "boundary",
+        "wikidata": "Q3079157",
+        "wikipedia": "en:Talladega National Forest",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.4493379,
+          33.2857443
+        ]
+      },
+      "id": "relation/3500870"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/3790861",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Joe Budd Wildlife Management Area",
+        "protected_area": "game_land",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4870979,
+          30.4849866
+        ]
+      },
+      "id": "relation/3790861"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/3794671",
+        "leisure": "nature_reserve",
+        "name": "Twin Rivers WMA",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.2204725,
+          30.3772649
+        ]
+      },
+      "id": "relation/3794671"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/4224499",
+        "leisure": "nature_reserve",
+        "name": "Big Talbot Island State Park",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.445687,
+          30.47957
+        ]
+      },
+      "id": "relation/4224499"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/4263157",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Okefenokee National Wildlife Refuge",
+        "operator": "United States Fish and Wildlife Service",
+        "operator:short": "FWS",
+        "operator:type": "public",
+        "operator:wikidata": "Q674113",
+        "ownership": "national",
+        "protect_class": "4",
+        "protected": "perpetuity",
+        "protected_area": "wildlife_refuge",
+        "protection_title": "National Wildlife Refuge",
+        "type": "boundary",
+        "wikidata": "Q7081911",
+        "wikipedia": "en:Okefenokee National Wildlife Refuge",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3337992,
+          30.8062555
+        ]
+      },
+      "id": "relation/4263157"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/4270473",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "multipolygon": "boundary",
+        "name": "Cumberland Island Wilderness",
+        "operator": "National Park Service",
+        "operator:short": "NPS",
+        "operator:type": "public",
+        "operator:wikidata": "Q308439",
+        "ownership": "national",
+        "protected": "perpetuity",
+        "protected_area": "wilderness_preserve",
+        "protection_title": "Wilderness Area",
+        "type": "multipolygon",
+        "wikidata": "Q27973586",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4376817,
+          30.8789627
+        ]
+      },
+      "id": "relation/4270473"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/4270578",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Okefenokee Wilderness",
+        "operator": "United States Fish and Wildlife Service",
+        "operator:short": "USFWS",
+        "operator:type": "public",
+        "operator:wikidata": "Q674113",
+        "ownership": "national",
+        "protect_class": "1b",
+        "protected": "perpetuity",
+        "protected_area": "wilderness_preserve",
+        "protection_title": "Wilderness Area",
+        "type": "multipolygon",
+        "wikidata": "Q7081913",
+        "wikipedia": "en:Okefenokee Wilderness",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3396979,
+          30.806492
+        ]
+      },
+      "id": "relation/4270578"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/4277883",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Dixon Memorial State Forest and Wildlife Management Area",
+        "protected_area": "game_land;forest_reserve",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.25525,
+          31.1160367
+        ]
+      },
+      "id": "relation/4277883"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/5398461",
+        "leisure": "nature_reserve",
+        "name": "Davidson-Arabia Nature Preserve",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1331081,
+          33.660775
+        ]
+      },
+      "id": "relation/5398461"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/5973465",
+        "leisure": "nature_reserve",
+        "name": "Ochlockonee River WMA",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3924104,
+          30.4958544
+        ]
+      },
+      "id": "relation/5973465"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/6682702",
+        "access": "private",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Big Shoals Conservation Area",
+        "operator": "Suwannee River Water Management District",
+        "protection_title": "Conservation Area",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6979841,
+          30.3673513
+        ]
+      },
+      "id": "relation/6682702"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/6682703",
+        "address": "11330 SE Co Rd 135,White Springs,FL,32096",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Big Shoals State Park",
+        "type": "multipolygon",
+        "website": "https://www.floridastateparks.org/parks-and-trails/big-shoals-state-park",
+        "wikidata": "Q4906326",
+        "wikipedia": "en:Big Shoals State Park",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.7082399,
+          30.3440214
+        ]
+      },
+      "id": "relation/6682703"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/6769286",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Timucuan Ecological & Historic Preserve",
+        "operator": "National Park Service",
+        "operator:short": "NPS",
+        "operator:type": "public",
+        "operator:wikidata": "Q308439",
+        "ownership": "national",
+        "protect_class": "6",
+        "protected": "perpetuity",
+        "protection_title": "National Preserve",
+        "type": "boundary",
+        "website": "https://www.nps.gov/timu/",
+        "wikidata": "Q14236790",
+        "wikipedia": "en:Timucuan Preserve",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.535056,
+          30.475861
+        ]
+      },
+      "id": "relation/6769286"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/6812829",
+        "leisure": "nature_reserve",
+        "name": "Timucuan Preserve - Theodore Roosevelt Area",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4811177,
+          30.3744551
+        ]
+      },
+      "id": "relation/6812829"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/6812897",
+        "leisure": "nature_reserve",
+        "name": "Fort Caroline National Memorial",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4970988,
+          30.3843796
+        ]
+      },
+      "id": "relation/6812897"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/6812898",
+        "leisure": "nature_reserve",
+        "name": "Ribault Monument",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4892917,
+          30.3880892
+        ]
+      },
+      "id": "relation/6812898"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/6958368",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Suwannee River State Park",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1659969,
+          30.3948583
+        ]
+      },
+      "id": "relation/6958368"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/7185093",
+        "boundary": "protected_area",
+        "gnis:feature_id": "1888939",
+        "leisure": "nature_reserve",
+        "name": "Little River Canyon National Preserve",
+        "operator": "United States National Park Service",
+        "protect_class": "6",
+        "protection_title": "National Preserve",
+        "type": "boundary",
+        "website": "https://www.nps.gov/liri",
+        "wikidata": "Q6651690",
+        "wikipedia": "en:Little River Canyon National Preserve",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.6335498,
+          34.3957881
+        ]
+      },
+      "id": "relation/7185093"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/7187021",
+        "addr:city": "Jacksonville",
+        "addr:housenumber": "4499",
+        "addr:postcode": "32277",
+        "addr:state": "FL",
+        "addr:street": "Yachtsman Way",
+        "leisure": "nature_reserve",
+        "name": "Reddie Point Preserve",
+        "type": "multipolygon",
+        "website": "https://www.coj.net/departments/parks-and-recreation/recreation-and-community-programming/parks/reddie-point-preserve.aspx",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.6176846,
+          30.385917
+        ]
+      },
+      "id": "relation/7187021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/7212464",
+        "leisure": "nature_reserve",
+        "name": "Saint Mary's Shoals",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.1863872,
+          30.3565889
+        ]
+      },
+      "id": "relation/7212464"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/7360782",
+        "boundary": "protected_area",
+        "landuse": "recreation_ground",
+        "leisure": "nature_reserve",
+        "name": "Tallulah Gorge State Park",
+        "operator": "Georgia State Parks & Historic Sites",
+        "operator:type": "public",
+        "operator:wikidata": "Q72926688",
+        "protected_area": "nature_reserve",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3686854,
+          34.7310784
+        ]
+      },
+      "id": "relation/7360782"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/7378884",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Dugger Mountain Wilderness",
+        "operator": "United States Forest Service",
+        "operator:short": "USFS",
+        "operator:type": "public",
+        "operator:wikidata": "Q1891156",
+        "ownership": "national",
+        "protect_class": "1b",
+        "protected": "perpetuity",
+        "protected_area": "wilderness_preserve",
+        "protection_title": "Wilderness Area",
+        "start_date": "2000-04-01",
+        "type": "boundary",
+        "website": "https://www.wilderness.net/index.cfm?fuse=NWPS&sec=wildView&WID=166",
+        "wikidata": "Q5312523",
+        "wikipedia": "en:Dugger Mountain Wilderness",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.5996104,
+          33.8644866
+        ]
+      },
+      "id": "relation/7378884"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/7604053",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Cohutta Wildlife Management Area",
+        "protect_class": "6",
+        "protected_area": "game_land",
+        "type": "boundary",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.6131118,
+          34.8887454
+        ]
+      },
+      "id": "relation/7604053"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/8234808",
+        "alt_name": "Jocassee Gorges Nature Reserve",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Jocassee Gorges",
+        "protect_class": "5",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.8469967,
+          35.0119363
+        ]
+      },
+      "id": "relation/8234808"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/8258394",
+        "boundary": "protected_area",
+        "gnis:feature_id": "330820",
+        "leisure": "nature_reserve",
+        "name": "Swallow Creek Wildlife Management Area",
+        "note": "Adjusted per Towns County parcels",
+        "protect_class": "4",
+        "protected_area": "game_land",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6816559,
+          34.8569363
+        ]
+      },
+      "id": "relation/8258394"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/8258430",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Tray Mountain Wilderness",
+        "operator": "United States Forest Service",
+        "operator:short": "USFS",
+        "operator:type": "public",
+        "operator:wikidata": "Q1891156",
+        "ownership": "national",
+        "protect_class": "1b",
+        "protected": "perpetuity",
+        "protected_area": "wilderness_preserve",
+        "type": "multipolygon",
+        "wikidata": "Q7836483",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6591293,
+          34.8133882
+        ]
+      },
+      "id": "relation/8258430"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/8258910",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Ellicott Rock Wilderness",
+        "operator": "United States Forest Service",
+        "operator:short": "USFS",
+        "operator:type": "public",
+        "operator:wikidata": "Q1891156",
+        "ownership": "national",
+        "protect_class": "1b",
+        "protected": "perpetuity",
+        "protected_area": "wilderness_preserve",
+        "protection_title": "Wilderness Area",
+        "type": "boundary",
+        "wikidata": "Q5365311",
+        "wikipedia": "en:Ellicott Rock Wilderness",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1018345,
+          34.999992
+        ]
+      },
+      "id": "relation/8258910"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/8259455",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Coopers Creek Wildlife Management Area",
+        "protect_class": "6",
+        "protected_area": "game_land",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0591271,
+          34.7507729
+        ]
+      },
+      "id": "relation/8259455"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/8307031",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Nine Times Forest",
+        "protect_class": "5",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.8017925,
+          34.962473
+        ]
+      },
+      "id": "relation/8307031"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/8307036",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Nine Times Preserve",
+        "protect_class": "5",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.8033952,
+          34.9517122
+        ]
+      },
+      "id": "relation/8307036"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/8307074",
+        "leisure": "nature_reserve",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.8398742,
+          34.9616506
+        ]
+      },
+      "id": "relation/8307074"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/8307155",
+        "leisure": "nature_reserve",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.8558164,
+          34.9487346
+        ]
+      },
+      "id": "relation/8307155"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/8307156",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Poe Creek State Forest",
+        "protected_area": "forest_reserve",
+        "protection_title": "State Forest",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.8573882,
+          34.9371666
+        ]
+      },
+      "id": "relation/8307156"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/8307413",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Duke Wildlife Management Area In Jocassee",
+        "protected_area": "game_land",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.8651331,
+          35.01274
+        ]
+      },
+      "id": "relation/8307413"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/8441815",
+        "leisure": "nature_reserve",
+        "operator": "Naturaland Trust",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4059701,
+          34.8956087
+        ]
+      },
+      "id": "relation/8441815"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/8537416",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Grassy Knob Preserve",
+        "protect_class": "5",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6889539,
+          34.9839532
+        ]
+      },
+      "id": "relation/8537416"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/8762871",
+        "leisure": "nature_reserve",
+        "name": "Apalachicola Bluffs and Ravines Preserve",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.9636216,
+          30.5049966
+        ]
+      },
+      "id": "relation/8762871"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/8763033",
+        "boundary": "protected_area",
+        "description": "Cooperatively managed by FWC and the Northwest Florida Water Management District",
+        "leisure": "nature_reserve",
+        "type": "multipolygon",
+        "website": "https://myfwc.com/viewing/recreation/wmas/cooperative/beaverdam-creek/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.0264994,
+          30.2750394
+        ]
+      },
+      "id": "relation/8763033"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/8830690",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Gray's Reef National Marine Sanctuary",
+        "operator": "National Oceanographic and Atmospheric Administration",
+        "protect_class": "4",
+        "protected_area": "wildlife",
+        "protection_title": "National Marine Sanctuary",
+        "seamark:name": "Gray's Reef NMS",
+        "seamark:type": "protected_area",
+        "source": "https://www.ecfr.gov/cgi-bin/retrieveECFR?gp=&SID=c5dc3424ae799143c42a14559dafc551&mc=true&r=PART&n=pt15.3.922#se15.3.922_190",
+        "source:name": "15 CFR §922.90 and Appendix A to Subpart I",
+        "type": "boundary",
+        "website": "https://graysreef.noaa.gov/",
+        "wikidata": "Q5598119",
+        "wikipedia": "en:Gray's Reef National Marine Sanctuary",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.8746575,
+          31.3919745
+        ]
+      },
+      "id": "relation/8830690"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9454459",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Cherokee National Forest",
+        "name:de": "Cherokee-Nationalforst",
+        "name:en": "Cherokee National Forest",
+        "operator": "United States Forest Service",
+        "operator:short": "USFS",
+        "operator:type": "public",
+        "operator:wikidata": "Q1891156",
+        "operator:wikipedia": "en:United States Forest Service",
+        "owner": "United States Department of Agriculture, Forest Service",
+        "ownership": "national",
+        "protect_class": "6",
+        "protected": "perpetuity",
+        "protected_area": "forest_reserve",
+        "protection_title": "National Forest",
+        "type": "boundary",
+        "website": "https://www.fs.usda.gov/cherokee",
+        "wikidata": "Q3079114",
+        "wikipedia": "en:Cherokee National Forest",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1791877,
+          35.801693
+        ]
+      },
+      "id": "relation/9454459"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9524969",
+        "leisure": "nature_reserve",
+        "name": "Edwin M Griffin Nature Preserve",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.8915234,
+          34.9533561
+        ]
+      },
+      "id": "relation/9524969"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9633988",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Brasstown Wilderness",
+        "operator": "United States Forest Service",
+        "operator:short": "USFS",
+        "operator:type": "public",
+        "operator:wikidata": "Q1891156",
+        "ownership": "national",
+        "protect_class": "1b",
+        "protected": "perpetuity",
+        "protected_area": "wilderness_preserve",
+        "protection_title": "Wilderness Area",
+        "type": "boundary",
+        "wikidata": "Q4957968",
+        "wikipedia": "en:Brasstown Wilderness",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.8183531,
+          34.8827043
+        ]
+      },
+      "id": "relation/9633988"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9636052",
+        "leisure": "nature_reserve",
+        "name": "Bunched Arrowhead Heritage Preserve",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4035526,
+          34.9921321
+        ]
+      },
+      "id": "relation/9636052"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9636323",
+        "leisure": "nature_reserve",
+        "name": "Blackwell Heritage Preserve",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4158965,
+          34.985888
+        ]
+      },
+      "id": "relation/9636323"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9636400",
+        "leisure": "nature_reserve",
+        "name": "Belvue Springs Heritage Preserve",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.399179,
+          35.0029414
+        ]
+      },
+      "id": "relation/9636400"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9636517",
+        "leisure": "nature_reserve",
+        "name": "Naturaland Trust River Confluence Tract",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3902272,
+          34.9993202
+        ]
+      },
+      "id": "relation/9636517"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9644942",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Rich Mountain Wilderness",
+        "note": "Based on Gilmer County tax parcels using apx boundary as a general guide. USGS topo is badly wrong as are any maps based on it.",
+        "operator": "United States Forest Service",
+        "operator:short": "USFS",
+        "operator:type": "public",
+        "operator:wikidata": "Q1891156",
+        "ownership": "national",
+        "protect_class": "1b",
+        "protected": "perpetuity",
+        "protected_area": "wilderness_preserve",
+        "protection_title": "Wilderness Area",
+        "type": "multipolygon",
+        "wikidata": "Q7323382",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3360499,
+          34.7316022
+        ]
+      },
+      "id": "relation/9644942"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9646617",
+        "leisure": "nature_reserve",
+        "name": "Yonah Preserve",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7730469,
+          34.6370141
+        ]
+      },
+      "id": "relation/9646617"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9647652",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Cohutta Wilderness",
+        "operator": "United States Forest Service",
+        "operator:short": "USFS",
+        "operator:type": "public",
+        "operator:wikidata": "Q1891156",
+        "ownership": "national",
+        "protect_class": "1b",
+        "protected": "perpetuity",
+        "protected_area": "wilderness_preserve",
+        "protection_title": "Wilderness Area",
+        "type": "boundary",
+        "wikidata": "Q5141444",
+        "wikipedia": "en:Cohutta Wilderness",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5708057,
+          34.9226011
+        ]
+      },
+      "id": "relation/9647652"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9766232",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Overflow Wilderness Study Area",
+        "operator": "United States Forest Service",
+        "protect_class": "1b",
+        "protection_title": "Wilderness Study Area",
+        "related_law": "PL 98-324",
+        "source": "USDA Forest Service Geodata Clearinghouse",
+        "start_date": "1984-6-19",
+        "type": "boundary",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.2642804,
+          35.0187264
+        ]
+      },
+      "id": "relation/9766232"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/10073964",
+        "alt_name": "Peter's Creek Heritage Trust Preserve",
+        "alt_name:2": "Peter's Creek Heritage Preserve",
+        "alt_name:3": "Peters Creek Heritage Trust Preserve",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Peters Creek Heritage Preserve",
+        "type": "boundary",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.8691512,
+          34.9958513
+        ]
+      },
+      "id": "relation/10073964"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/10133660",
+        "alt_name": "Glassy Mountain Heritage Trust Preserve",
+        "leisure": "nature_reserve",
+        "name": "Glassy Mountain Heritage Preserve",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6601452,
+          34.9006094
+        ]
+      },
+      "id": "relation/10133660"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/10583788",
+        "access": "private",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Longleaf Mitigation Bank",
+        "operator": "Mitigation Development Services, LLC",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9431578,
+          30.4642925
+        ]
+      },
+      "id": "relation/10583788"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/10587443",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Cary State Forest",
+        "operator": "Florida Forest Service",
+        "protected_area": "forest_reserve",
+        "type": "multipolygon",
+        "wikidata": "Q5047655",
+        "wikipedia": "en:Cary State Forest",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.8715408,
+          30.4071741
+        ]
+      },
+      "id": "relation/10587443"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/10901488",
+        "addr:city": "Jacksonville",
+        "addr:housenumber": "13802",
+        "addr:postcode": "32226",
+        "addr:state": "FL",
+        "addr:street": "Pumpkin Hill Road",
+        "boundary": "national_park",
+        "leisure": "nature_reserve",
+        "name": "Pumpkin Hill Creek Preserve State Park",
+        "operator": "Florida State Parks",
+        "operator:short": "FSP",
+        "operator:type": "public",
+        "operator:wikidata": "Q5461615",
+        "protection_title": "State Park",
+        "source": "https://ca.dep.state.fl.us/arcgis/rest/services/OpenData/PARKS_BOUNDARIES/MapServer/0",
+        "type": "multipolygon",
+        "website": "https://www.floridastateparks.org/parks-and-trails/pumpkin-hill-creek-preserve-state-park",
+        "wikidata": "Q7259849",
+        "wikipedia": "en:Pumpkin Hill Creek Preserve State Park",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.5161966,
+          30.4653819
+        ]
+      },
+      "id": "relation/10901488"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/11085072",
+        "boundary": "national_park",
+        "leisure": "nature_reserve",
+        "name": "Fort Pulaski National Monument",
+        "operator": "National Park Service",
+        "operator:short": "NPS",
+        "operator:type": "public",
+        "operator:wikidata": "Q308439",
+        "operator:wikipedia": "en:National Park Service",
+        "ownership": "national",
+        "protect_class": "22",
+        "protected": "perpetuity",
+        "protection_title": "National Monument",
+        "type": "boundary",
+        "website": "https://www.nps.gov/fopu/index.htm",
+        "wikidata": "Q1438683",
+        "wikipedia": "en:Fort Pulaski National Monument",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.9418109,
+          32.0327882
+        ]
+      },
+      "id": "relation/11085072"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/11222619",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Lake Seminole Wildlife Management Area - Spring Creek",
+        "protected_area": "game_land",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.7630837,
+          30.8507826
+        ]
+      },
+      "id": "relation/11222619"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/11223923",
+        "leisure": "nature_reserve",
+        "name": "Lake Seminole WMA - Four Mile Creek Tract",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.626235,
+          30.8594338
+        ]
+      },
+      "id": "relation/11223923"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/11224000",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Lake Seminole Wildlife Management Area - Hales Landing",
+        "protected_area": "game_land",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.6473424,
+          30.8489402
+        ]
+      },
+      "id": "relation/11224000"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/11225694",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Mayhaw Wildlife Management Area",
+        "protected_area": "game_land",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.8011281,
+          31.1975969
+        ]
+      },
+      "id": "relation/11225694"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/11227154",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Chickasawhatchee Wildlife Management Area",
+        "protected_area": "game_land",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4176308,
+          31.4458297
+        ]
+      },
+      "id": "relation/11227154"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/11679017",
+        "boundary": "protected_area",
+        "contact:website": "https://walkercountyga.gov/discover/recreation/crockford-pigeon-mountain-wildlife-management-area/",
+        "leisure": "nature_reserve",
+        "name": "Crockford-Pigeon Mountain Wildlife Management Area",
+        "operator": "Georgia Department of Natural Resources",
+        "operator:wikidata": "Q5547453",
+        "operator:wikipedia": "en:Georgia Department of Natural Resources",
+        "phone": "+1-706-295-6041",
+        "protect_class": "4",
+        "protected_area": "game_land",
+        "protection_title": "Wildlife Management Area",
+        "type": "multipolygon",
+        "website": "https://georgiawildlife.com/crockford-pigeon-mountain-wma",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.3893852,
+          34.6851721
+        ]
+      },
+      "id": "relation/11679017"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12627729",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Congaree National Park",
+        "network": "National Parks of the United States",
+        "network:wikidata": "Q34918903",
+        "note": "This is the \"proclamation boundary\" of the national park, and includes \"inholdings\" that are under private ownership and are not open to the public. It denotes where the NPS is authorized by law to acquire property to add to the park.",
+        "operator": "National Park Service",
+        "operator:short": "NPS",
+        "operator:type": "public",
+        "operator:wikidata": "Q308439",
+        "operator:wikipedia": "en:National Park Service",
+        "ownership": "national",
+        "protected": "perpetuity",
+        "protected_area": "national_park",
+        "protection_title": "National Park",
+        "source": "Purcell A. 2022. Congaree National Park Tract and Boundary Data. National Park Service (NPS), Chief Cartographer, Land Resources Division, WASO Fort Collins Land Resources Program Center. https://irma.nps.gov/DataStore/Reference/Profile/2299943",
+        "source:version": "20220607",
+        "type": "boundary",
+        "website": "https://www.nps.gov/cong/",
+        "wikidata": "Q175688",
+        "wikipedia": "en:Congaree National Park",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.7351161,
+          33.7940409
+        ]
+      },
+      "id": "relation/12627729"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12884477",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Angus Gholson Nature Park",
+        "short_name": "Gholson Park",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.8528593,
+          30.6968002
+        ]
+      },
+      "id": "relation/12884477"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/13352109",
+        "access": "yes",
+        "addr:city": "Athens",
+        "addr:housenumber": "205",
+        "addr:postcode": "30607",
+        "addr:state": "GA",
+        "addr:street": "Old Commerce Road",
+        "description": "225 acres of woodlands and wetlands with over 4 miles of trails. Access is free; trails are open daily sunrise to sunset; activities in the Nature Center take place Tuesday to Saturday.",
+        "leisure": "nature_reserve",
+        "name": "Sandy Creek Nature Center",
+        "opening_hours": "sunrise-sunset",
+        "phone": "+1 706-613-3615",
+        "type": "multipolygon",
+        "website": "https://www.athensclarkecounty.com/Facilities/Facility/Details/16",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.382783,
+          33.9840988
+        ]
+      },
+      "id": "relation/13352109"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/13352124",
+        "leisure": "nature_reserve",
+        "name": "Erwin Tract",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.4091727,
+          33.9956112
+        ]
+      },
+      "id": "relation/13352124"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/13486185",
+        "leisure": "nature_reserve",
+        "name": "Ribault River Preserve",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.701407,
+          30.4005642
+        ]
+      },
+      "id": "relation/13486185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/13922205",
+        "access": "yes",
+        "foot": "yes",
+        "horse": "yes",
+        "leisure": "nature_reserve",
+        "name": "Aiken Gopher Tortoise Heritage Preserve",
+        "type": "multipolygon",
+        "website": "https://www2.dnr.sc.gov/ManagedLands/ManagedLand/ManagedLand/100",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4181667,
+          33.5005271
+        ]
+      },
+      "id": "relation/13922205"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14083437",
+        "leisure": "nature_reserve",
+        "name": "Barbour Wildlife Managment Area",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.431203,
+          31.983574
+        ]
+      },
+      "id": "relation/14083437"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14434884",
+        "leisure": "nature_reserve",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.6620142,
+          34.8195281
+        ]
+      },
+      "id": "relation/14434884"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14582137",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Blood Mountain Wilderness",
+        "operator": "United States Forest Service",
+        "operator:short": "USFS",
+        "operator:type": "public",
+        "operator:wikidata": "Q1891156",
+        "ownership": "national",
+        "protect_class": "1b",
+        "protected": "perpetuity",
+        "protected_area": "wilderness_preserve",
+        "protection_title": "Wilderness Area",
+        "type": "boundary",
+        "wikidata": "Q4927648",
+        "wikipedia": "en:Blood Mountain Wilderness",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9590001,
+          34.7205678
+        ]
+      },
+      "id": "relation/14582137"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14582138",
+        "boundary": "protected_area",
+        "gnis:feature_id": "330711",
+        "leisure": "nature_reserve",
+        "name": "Chestatee Wildlife Management Area",
+        "protect_class": "4",
+        "protected": "perpetuity",
+        "protected_area": "game_land",
+        "protection_title": "Wildlife Management Area",
+        "type": "boundary",
+        "wikidata": "Q34923175",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9277196,
+          34.6936471
+        ]
+      },
+      "id": "relation/14582138"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14593649",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Cumberland Island National Seashore",
+        "operator": "National Park Service",
+        "operator:short": "NPS",
+        "operator:type": "public",
+        "operator:wikidata": "Q308439",
+        "ownership": "national",
+        "protect_class": "5",
+        "protected": "perpetuity",
+        "protected_area": "shore_reserve",
+        "protection_title": "National Seashore",
+        "shore_reserve": "seashore_reserve",
+        "type": "multipolygon",
+        "website": "https://www.nps.gov/cuis",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4760254,
+          30.8458298
+        ]
+      },
+      "id": "relation/14593649"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14628550",
+        "leisure": "nature_reserve",
+        "name": "Westland Conservation area",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.6279672,
+          30.4581271
+        ]
+      },
+      "id": "relation/14628550"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/15050693",
+        "description": "Forest mantained by a private foundation for equestrian activities and open to walkers.",
+        "leisure": "nature_reserve",
+        "name": "Hitchcock Woods",
+        "owner": "Hitchcock Woods Foundation",
+        "type": "multipolygon",
+        "website": "https://www.hitchcockwoods.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.7523102,
+          33.5443959
+        ]
+      },
+      "id": "relation/15050693"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/15534183",
+        "leisure": "nature_reserve",
+        "name": "Henderson Heritage Preserve",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.7497333,
+          33.6060378
+        ]
+      },
+      "id": "relation/15534183"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/15613435",
+        "leisure": "nature_reserve",
+        "name": "McKinney Creek Oconee Bell Preserve",
+        "operator": "Naturaland Trust",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.9399061,
+          34.9440436
+        ]
+      },
+      "id": "relation/15613435"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/15613464",
+        "leisure": "nature_reserve",
+        "name": "Chapman Bridge Oconee Bell Preserve",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.9288965,
+          34.92954
+        ]
+      },
+      "id": "relation/15613464"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/15613487",
+        "leisure": "nature_reserve",
+        "name": "Boones Creek Oconee Bell Preserve",
+        "operator": "Naturaland Trust",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.9429622,
+          34.9185276
+        ]
+      },
+      "id": "relation/15613487"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/15616574",
+        "leisure": "nature_reserve",
+        "name": "Halfmoon Island Preserve",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.6146495,
+          30.564931
+        ]
+      },
+      "id": "relation/15616574"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/16222076",
+        "leisure": "nature_reserve",
+        "name": "Silver Bluff Sanctuary",
+        "operator": "National Audubon Society",
+        "type": "multipolygon",
+        "website": "https://sc.audubon.org/visit/silver-bluff",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.8510303,
+          33.3200344
+        ]
+      },
+      "id": "relation/16222076"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/16818866",
+        "addr:city": "Hilton Head Island",
+        "addr:housenumber": "55",
+        "addr:postcode": "29928",
+        "addr:state": "SC",
+        "addr:street": "Palmetto Bay Road",
+        "fixme": "Needs survey. Trails added based on offical trail guide.",
+        "leisure": "nature_reserve",
+        "name": "Audubon Newhall Preserve",
+        "natural": "wood",
+        "operator": "Audubon",
+        "operator:type": "private",
+        "operator:wikidata": "Q1646000",
+        "type": "multipolygon",
+        "website": "https://hiltonheadaudubon.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.772301,
+          32.1627316
+        ]
+      },
+      "id": "relation/16818866"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/16873333",
+        "leisure": "nature_reserve",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4117252,
+          34.9389708
+        ]
+      },
+      "id": "relation/16873333"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/17259294",
+        "boundary": "protected_area",
+        "fixme": "Boundary needs update against latest data",
+        "leisure": "nature_reserve",
+        "name": "Piedmont National Wildlife Refuge",
+        "operator": "United States Fish and Wildlife Service",
+        "operator:short": "USFWS",
+        "operator:type": "public",
+        "operator:wikidata": "Q674113",
+        "ownership": "national",
+        "protected": "perpetuity",
+        "protected_area": "wildlife_refuge",
+        "protection_title": "National Wildlife Refuge",
+        "type": "multipolygon",
+        "wikidata": "Q7191529",
+        "wikipedia": "en:Piedmont National Wildlife Refuge",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7185736,
+          33.0731651
+        ]
+      },
+      "id": "relation/17259294"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/17567201",
+        "leisure": "nature_reserve",
+        "name": "Core Heritage Presrve",
+        "operator": "South Carolina Department of Natural Resources",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3909431,
+          34.9953283
+        ]
+      },
+      "id": "relation/17567201"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/17859911",
+        "leisure": "nature_reserve",
+        "name": "Stevens Creek Heritage Preserve",
+        "type": "multipolygon",
+        "website": "https://www2.dnr.sc.gov/ManagedLands/ManagedLand/ManagedLand/15",
+        "wikipedia": "en:Steven's Creek Heritage Preserve",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.1611664,
+          33.6862861
+        ]
+      },
+      "id": "relation/17859911"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/18259636",
+        "access": "unknown",
+        "leisure": "nature_reserve",
+        "operator": "Naturaland Trust",
+        "operator:type": "private_non_profit",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4635034,
+          34.9951701
+        ]
+      },
+      "id": "relation/18259636"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/18286774",
+        "leisure": "nature_reserve",
+        "operator": "Naturaland Trust",
+        "operator:type": "private_non_profit",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.8177478,
+          34.9706958
+        ]
+      },
+      "id": "relation/18286774"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/18329813",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Wolf Island Wilderness",
+        "operator": "United States Fish and Wildlife Service",
+        "operator:short": "USFWS",
+        "operator:type": "public",
+        "operator:wikidata": "Q674113",
+        "ownership": "national",
+        "protect_class": "1b",
+        "protected": "perpetuity",
+        "protected_area": "wilderness_preserve",
+        "protection_title": "Wilderness Area",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.3104743,
+          31.3308058
+        ]
+      },
+      "id": "relation/18329813"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/18573004",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Sprewell Bluff Wildlife Management Area West",
+        "protected_area": "game_land",
+        "type": "boundary",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5119399,
+          32.8832209
+        ]
+      },
+      "id": "relation/18573004"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/18588876",
+        "access": "permit",
+        "addr:city": "Denton",
+        "addr:housenumber": "1687-1751",
+        "addr:postcode": "31532",
+        "addr:state": "Georgia",
+        "addr:street": "McRae Highway",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Flat Tub Wildlife Management Area",
+        "operator": "Georgia Department of Natural Resources",
+        "operator:type": "government",
+        "protected_area": "game_land",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.829078,
+          31.7821984
+        ]
+      },
+      "id": "relation/18588876"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/18619882",
+        "access": "permit",
+        "addr:city": "Lumpkin",
+        "addr:postcode": "31815",
+        "addr:state": "Georgia",
+        "addr:street": "GA-39C",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Hannahatchee Wildlife Management Area",
+        "operator": "Georgia Department of Natural Resources",
+        "operator:type": "government",
+        "protected_area": "game_land",
+        "type": "multipolygon",
+        "website": "https://georgiawildlife.com/hannahatchee-creek-wma",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.7475914,
+          32.1312865
+        ]
+      },
+      "id": "relation/18619882"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/18635744",
+        "access": "permit",
+        "addr:city": "Kathleen",
+        "addr:housenumber": "801",
+        "addr:postcode": "30147",
+        "addr:state": "Georgia",
+        "addr:street": "Oaky Woods Road",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Oaky Woods Wildlife Management Area",
+        "operator": "Georgia Department of Natural Resources",
+        "operator:type": "government",
+        "protected_area": "game_land",
+        "type": "multipolygon",
+        "website": "https://georgiawildlife.com/oaky-woods-wma",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.531267,
+          32.4371227
+        ]
+      },
+      "id": "relation/18635744"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/18640524",
+        "addr:city": "Stockbridge",
+        "addr:housenumber": "2620",
+        "addr:postcode": "30281",
+        "addr:state": "GA",
+        "addr:street": "GA 155 SW",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Panola Mountain State Park",
+        "operator": "Georgia Department of Natural Resources",
+        "operator:wikidata": "Q5547453",
+        "protection_title": "State Park",
+        "type": "multipolygon",
+        "website": "https://gastateparks.org/PanolaMountain",
+        "wikidata": "Q2116442",
+        "wikipedia": "en:Panola Mountain",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1565154,
+          33.6359725
+        ]
+      },
+      "id": "relation/18640524"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/18736648",
+        "access": "private",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Gilstrap Mountain Nature Preserve",
+        "operator": "Naturaland Trust",
+        "operator:type": "private",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.8383071,
+          34.9536109
+        ]
+      },
+      "id": "relation/18736648"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/18736661",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Eastatoe Ridge Nature Preserve",
+        "operator": "Naturaland Trust",
+        "operator:type": "private",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.8495319,
+          34.9551151
+        ]
+      },
+      "id": "relation/18736661"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/18990462",
+        "access": "private",
+        "leisure": "nature_reserve",
+        "name": "Thomas Farms",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0628739,
+          32.1528633
+        ]
+      },
+      "id": "relation/18990462"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/19871298",
+        "leisure": "nature_reserve",
+        "name": "Shaws Creek Preserve",
+        "operator": "City of Aiken",
+        "type": "multipolygon",
+        "website": "https://www.scltn.org/shaws-creek",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.7225686,
+          33.6798834
+        ]
+      },
+      "id": "relation/19871298"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/20144971",
+        "leisure": "nature_reserve",
+        "name": "Clarks Hill - East WMA",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.5429286,
+          33.6317698
+        ]
+      },
+      "id": "relation/20144971"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/20775147",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Mill Shoals Community Forest",
+        "operator": "Naturaland Trust",
+        "operator:type": "private_non_profit",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.7719378,
+          34.9219701
+        ]
+      },
+      "id": "relation/20775147"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/34775681",
+        "addr:city": "Winder",
+        "addr:housenumber": "210",
+        "addr:postcode": "30608",
+        "addr:state": "GA",
+        "addr:street": "South Broad Street",
+        "boundary": "protected_area",
+        "contact:facebook": "https://www.facebook.com/FortYargoStatePark",
+        "fee": "yes",
+        "landuse": "recreation_ground",
+        "leisure": "nature_reserve",
+        "name": "Fort Yargo State Park",
+        "opening_hours": "07:00-22:00",
+        "operator": "Georgia State Parks & Historic Sites",
+        "operator:type": "public",
+        "operator:wikidata": "Q72926688",
+        "phone": "+1-770-867-3489",
+        "protected_area": "conservation",
+        "website": "https://gastateparks.org/FortYargo",
+        "wikidata": "Q5472420",
+        "wikipedia": "en:Fort Yargo State Park",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.730347,
+          33.9705471
+        ]
+      },
+      "id": "way/34775681"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/34787681",
+        "LandPro08:DE3": "UNDEVELOPABLE",
+        "LandPro08:LC_NAME": "FOREST",
+        "LandPro08:LU_NAME": "PARK_LANDS",
+        "LandPro08:reviewed": "no",
+        "leisure": "nature_reserve",
+        "name": "Reynolds Nature Preserve",
+        "natural": "wood",
+        "source": "LandPro08",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.34795,
+          33.5989776
+        ]
+      },
+      "id": "way/34787681"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/34787796",
+        "LandPro08:DE3": "UNDEVELOPABLE",
+        "LandPro08:LC_NAME": "FOREST",
+        "LandPro08:LU_NAME": "PARK_LANDS",
+        "LandPro08:reviewed": "no",
+        "leisure": "nature_reserve",
+        "name": "Cascade Springs Nature Preserve",
+        "natural": "wood",
+        "source": "LandPro08",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.479245,
+          33.7176041
+        ]
+      },
+      "id": "way/34787796"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/34787909",
+        "LandPro08:DE3": "UNDEVELOPABLE",
+        "LandPro08:LC_NAME": "FOREST",
+        "LandPro08:LU_NAME": "PARK_LANDS",
+        "LandPro08:reviewed": "no",
+        "leisure": "nature_reserve",
+        "name": "Friendship Forest Nature Preserve\\",
+        "source": "LandPro08",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2397054,
+          33.814647
+        ]
+      },
+      "id": "way/34787909"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/34797820",
+        "LandPro08:DE3": "UNDEVELOPED",
+        "LandPro08:LC_NAME": "FOREST",
+        "LandPro08:LU_NAME": "FOREST",
+        "LandPro08:reviewed": "no",
+        "landuse": "forest",
+        "leaf_cycle": "deciduous",
+        "leisure": "nature_reserve",
+        "name": "Pedestrian Path",
+        "source": "LandPro08",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3446084,
+          33.5885429
+        ]
+      },
+      "id": "way/34797820"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/34807497",
+        "LandPro08:DE3": "UNDEVELOPED",
+        "LandPro08:LC_NAME": "FOREST",
+        "LandPro08:LU_NAME": "FOREST",
+        "LandPro08:reviewed": "no",
+        "addr:city": "Buford",
+        "addr:postcode": "30518",
+        "addr:state": "GA",
+        "leisure": "nature_reserve",
+        "name": "Buford Nature Preserve",
+        "source": "LandPro08",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.000634,
+          34.1153186
+        ]
+      },
+      "id": "way/34807497"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/34815914",
+        "LandPro08:DE3": "UNDEVELOPABLE",
+        "LandPro08:LC_NAME": "WETLANDS",
+        "LandPro08:LU_NAME": "PARK_LANDS",
+        "LandPro08:reviewed": "no",
+        "leisure": "nature_reserve",
+        "name": "Flat Creek Nature Area",
+        "natural": "wetland",
+        "operator": "City of Peachtree City",
+        "operator:type": "government",
+        "salt": "no",
+        "source": "LandPro08",
+        "tidal": "no",
+        "wetland": "flat_creek_nature_area",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5556332,
+          33.3629156
+        ]
+      },
+      "id": "way/34815914"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/37782996",
+        "addr:city": "Chester",
+        "addr:housenumber": "759",
+        "addr:postcode": "29706",
+        "addr:state": "SC",
+        "addr:street": "State Park Road",
+        "attribution": "SC GIS",
+        "ele": "130",
+        "gnis:feature_id": "1221554",
+        "leisure": "nature_reserve",
+        "name": "Chester State Park",
+        "operator": "South Carolina State Parks",
+        "operator:type": "public",
+        "operator:wikidata": "Q109328518",
+        "scgis-shp:parksid": "18",
+        "scgis-shp:propertyid": "5291",
+        "scgis-shp:source": "DNR SCDBASE PRK",
+        "scgis-shp:uuid": "5ac00053-d81a-4c20-8606-f41b069938c8",
+        "website": "https://southcarolinaparks.com/chester",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.2393117,
+          34.6768286
+        ]
+      },
+      "id": "way/37782996"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/107722131",
+        "addr:city": "Winnsboro",
+        "addr:housenumber": "881",
+        "addr:postcode": "29180",
+        "addr:state": "SC",
+        "addr:street": "State Park Road",
+        "attribution": "SC GIS",
+        "leisure": "nature_reserve",
+        "name": "Lake Wateree State Park",
+        "operator": "South Carolina State Parks",
+        "operator:type": "public",
+        "operator:wikidata": "Q109328518",
+        "website": "https://southcarolinaparks.com/lake-wateree",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.8620355,
+          34.4326734
+        ]
+      },
+      "id": "way/107722131"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/126436146",
+        "addr:city": "Decatur",
+        "addr:housenumber": "932",
+        "addr:postcode": "30030",
+        "addr:state": "GA",
+        "addr:street": "Scott Boulevard",
+        "attribution": "City of Decatur Parks",
+        "fixme": "where are the toilets ?",
+        "id": "10",
+        "landuse": "forest",
+        "leisure": "nature_reserve",
+        "name": "Woodlands Garden",
+        "nature_trail": "yes",
+        "parking": "yes",
+        "pavilion": "yes",
+        "website": "https://www.woodlandsgarden.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.30341,
+          33.7863245
+        ]
+      },
+      "id": "way/126436146"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/145205861",
+        "addr:city": "Tallahassee",
+        "addr:country": "US",
+        "addr:housenumber": "3540",
+        "addr:postcode": "32309",
+        "addr:state": "FL",
+        "addr:street": "Thomasville Road",
+        "leisure": "nature_reserve",
+        "name": "Alfred B. Maclay Gardens State Park",
+        "opening_hours": "08:00-sunset",
+        "website": "https://www.floridastateparks.org/MaclayGardens",
+        "wikidata": "Q3364003",
+        "wikipedia": "en:Alfred B. Maclay Gardens State Park",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2596964,
+          30.5265299
+        ]
+      },
+      "id": "way/145205861"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/155481669",
+        "access": "permissive",
+        "leisure": "nature_reserve",
+        "name": "Lullwater Conservation Garden",
+        "website": "http://www.lullwatergardenclub.com/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3338923,
+          33.7782007
+        ]
+      },
+      "id": "way/155481669"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/220292957",
+        "attribution": "City of Decatur Parks",
+        "id": "18",
+        "landuse": "forest",
+        "leisure": "nature_reserve",
+        "name": "Glenn Creek Nature Preserve",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2858662,
+          33.7816465
+        ]
+      },
+      "id": "way/220292957"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/265530506",
+        "addr:city": "Flovilla",
+        "addr:housenumber": "678",
+        "addr:postcode": "30216",
+        "addr:state": "GA",
+        "addr:street": "Lake Clark Road",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Indian Springs State Park",
+        "operator": "Georgia State Parks & Historic Sites",
+        "operator:type": "public",
+        "operator:wikidata": "Q72926688",
+        "website": "https://gastateparks.org/IndianSprings",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9316884,
+          33.2478707
+        ]
+      },
+      "id": "way/265530506"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/283738440",
+        "leisure": "nature_reserve",
+        "name": "Talquin WMA",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4366735,
+          30.4554156
+        ]
+      },
+      "id": "way/283738440"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/283809270",
+        "addr:city": "Quincy",
+        "addr:housenumber": "730",
+        "addr:postcode": "32351",
+        "addr:state": "FL",
+        "addr:street": "Cook's Landing Road",
+        "leisure": "nature_reserve",
+        "name": "Lines Tract",
+        "operator": "Lake Talquin State Forest",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.632001,
+          30.4316247
+        ]
+      },
+      "id": "way/283809270"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/285383466",
+        "addr:city": "Tallahassee",
+        "addr:housenumber": "14188",
+        "addr:state": "FL",
+        "addr:street": "Blountstown Highway",
+        "leisure": "nature_reserve",
+        "name": "Fort Braden Trails",
+        "operator": "Lake Talquin State Forest",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4959619,
+          30.4469547
+        ]
+      },
+      "id": "way/285383466"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/285872977",
+        "leisure": "nature_reserve",
+        "name": "Bear Creek",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.6194194,
+          30.475025
+        ]
+      },
+      "id": "way/285872977"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/306778513",
+        "addr:city": "Peachtree City",
+        "addr:postcode": "30269",
+        "addr:state": "GA",
+        "addr:street": "Line Creek Drive",
+        "leisure": "nature_reserve",
+        "name": "Line Creek Nature Area",
+        "natural": "wood",
+        "opening_hours": "sunrise-sunset",
+        "operator": "City of Peachtree City",
+        "operator:type": "government",
+        "operator:wikidata": "Q2467256",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.6013732,
+          33.3903285
+        ]
+      },
+      "id": "way/306778513"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/318663005",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Cloudland Canyon State Park",
+        "protect_class": "4",
+        "website": "https://gastateparks.org/info/cloudland/",
+        "wikidata": "Q5135753",
+        "wikipedia": "en:Cloudland Canyon State Park",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.4571695,
+          34.838439
+        ]
+      },
+      "id": "way/318663005"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/319969722",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Eufaula National Wildlife Refuge",
+        "operator": "United States Fish and Wildlife Service",
+        "operator:short": "USFWS",
+        "operator:type": "public",
+        "operator:wikidata": "Q674113",
+        "ownership": "national",
+        "protect_class": "4",
+        "protected": "perpetuity",
+        "protected_area": "wildlife_refuge",
+        "protection_title": "National Wildlife Refuge",
+        "website": "https://www.fws.gov/refuge/Eufaula/",
+        "wikidata": "Q5406823",
+        "wikipedia": "en:Eufaula National Wildlife Refuge",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.0790152,
+          31.9860013
+        ]
+      },
+      "id": "way/319969722"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/328410359",
+        "leisure": "nature_reserve",
+        "name": "Louise Kreher Forest Ecology Preserve",
+        "operator": "Auburn University",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.4864916,
+          32.6620832
+        ]
+      },
+      "id": "way/328410359"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/330738747",
+        "addr:city": "Chattahoochee Hills",
+        "addr:housenumber": "6300",
+        "addr:postcode": "30268",
+        "addr:state": "GA",
+        "addr:street": "Cochran Mill Road",
+        "leisure": "nature_reserve",
+        "name": "Bear Creek Nature Center",
+        "opening_hours": "Tuesdays to Saturdays from 11am-4pm",
+        "phone": "+1-770-306-0914",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.7052546,
+          33.5813059
+        ]
+      },
+      "id": "way/330738747"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/340387585",
+        "leisure": "nature_reserve",
+        "name": "Birdsong Nature Center",
+        "website": "http://www.birdsongnaturecenter.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1942607,
+          30.6979014
+        ]
+      },
+      "id": "way/340387585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/341079003",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Providence Canyon State Park",
+        "official_name": "Providence Canyon State Outdoor Recreation Area",
+        "operator": "Georgia Department of Natural Rescources",
+        "operator:type": "public",
+        "park:type": "state_park",
+        "website": "https://gastateparks.org/ProvidenceCanyon",
+        "wikidata": "Q7252394",
+        "wikipedia": "en:Providence Canyon State Park",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.9194879,
+          32.0629021
+        ]
+      },
+      "id": "way/341079003"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/359902996",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Charlie Elliott Wildlife Center",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7319331,
+          33.4422992
+        ]
+      },
+      "id": "way/359902996"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/362868268",
+        "leisure": "nature_reserve",
+        "name": "DeKalb County greenspace",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1118589,
+          33.6639233
+        ]
+      },
+      "id": "way/362868268"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/362871533",
+        "leisure": "nature_reserve",
+        "name": "Davidson-Arabia Nature Preserve",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1226362,
+          33.6809058
+        ]
+      },
+      "id": "way/362871533"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/362871554",
+        "leisure": "nature_reserve",
+        "name": "Davidson-Arabia Nature Preserve",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1227316,
+          33.6883569
+        ]
+      },
+      "id": "way/362871554"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/363243726",
+        "addr:city": "Spartanburg",
+        "addr:housenumber": "832",
+        "addr:postcode": "29306",
+        "addr:state": "SC",
+        "addr:street": "John B White Sr Boulevard",
+        "leisure": "nature_reserve",
+        "leisure_2": "garden",
+        "name": "Hatcher Garden and Woodland Preserve",
+        "website": "https://www.hatchergarden.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9576297,
+          34.9311729
+        ]
+      },
+      "id": "way/363243726"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/381674777",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Sawnee Mountain Preserve",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1376294,
+          34.2501159
+        ]
+      },
+      "id": "way/381674777"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/383385709",
+        "amenity": "monastery",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Monastery of the Holy Spirit",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0610518,
+          33.5859837
+        ]
+      },
+      "id": "way/383385709"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/383387474",
+        "amenity": "monastery",
+        "leisure": "nature_reserve",
+        "name": "Monastery of the Holy Spirit",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0756975,
+          33.5749302
+        ]
+      },
+      "id": "way/383387474"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/383387814",
+        "leisure": "nature_reserve",
+        "name": "Decastro Nature Preserve",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1205217,
+          33.6175605
+        ]
+      },
+      "id": "way/383387814"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/383390155",
+        "leisure": "nature_reserve",
+        "name": "Rockdale County Greenspace",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1240245,
+          33.6255607
+        ]
+      },
+      "id": "way/383390155"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/383391555",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "McGraw Ford Wildlife Management Area",
+        "protected_area": "game_land",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.340866,
+          34.3139147
+        ]
+      },
+      "id": "way/383391555"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/386014196",
+        "leisure": "nature_reserve",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.935626,
+          33.4258398
+        ]
+      },
+      "id": "way/386014196"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/398074240",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Intrenchment Creek greenspace",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3261129,
+          33.6942572
+        ]
+      },
+      "id": "way/398074240"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/405947303",
+        "leisure": "nature_reserve",
+        "name": "Clinton Nature Preserve",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.8698623,
+          33.7058307
+        ]
+      },
+      "id": "way/405947303"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/407662180",
+        "charge": "5 USD",
+        "fee": "yes",
+        "leisure": "nature_reserve",
+        "name": "Silver Lake Recreation Area",
+        "payment:cash": "yes",
+        "website": "https://www.fs.usda.gov/recarea/apalachicola/recarea/?recid=75238",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.40817,
+          30.4041808
+        ]
+      },
+      "id": "way/407662180"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/450459780",
+        "access": "private",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Deep Creek Plantation Conservation Easement",
+        "operator": "Suwannee River Water Management District",
+        "protection_title": "Conservation Easement",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6668842,
+          30.3709139
+        ]
+      },
+      "id": "way/450459780"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/450459782",
+        "access": "private",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Nayfield Acres Conservation Easement",
+        "operator": "Conservation Trust for Florida",
+        "protection_title": "Conservation Easement",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6746779,
+          30.3852817
+        ]
+      },
+      "id": "way/450459782"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/454977127",
+        "boundary": "national_park",
+        "gnis:feature_id": "345071",
+        "leisure": "nature_reserve",
+        "name": "General Coffee State Park",
+        "operator": "Georgia State Parks & Historic Sites",
+        "operator:type": "public",
+        "operator:wikidata": "Q72926688",
+        "protection_title": "State Park",
+        "website": "https://gastateparks.org/GeneralCoffee",
+        "wikidata": "Q5531773",
+        "wikipedia": "en:General Coffee State Park",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.7672182,
+          31.5206545
+        ]
+      },
+      "id": "way/454977127"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/474428808",
+        "leisure": "nature_reserve",
+        "name": "Peachtree Rock Heritage Preserve",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.1915699,
+          33.8297258
+        ]
+      },
+      "id": "way/474428808"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/488932638",
+        "leisure": "nature_reserve",
+        "name": "Elephant Aid International",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4835673,
+          30.6995056
+        ]
+      },
+      "id": "way/488932638"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/495348213",
+        "leisure": "nature_reserve",
+        "name": "Wildlife Nature Reserve",
+        "natural": "wood",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.5396717,
+          31.1698119
+        ]
+      },
+      "id": "way/495348213"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/502740920",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "James Ross Wildlife Reservation",
+        "protect_class": "6",
+        "wikidata": "Q16997591",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.2809513,
+          34.9657102
+        ]
+      },
+      "id": "way/502740920"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/518452049",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Mark Trail Wilderness",
+        "operator": "United States Forest Service",
+        "operator:short": "USFS",
+        "operator:type": "public",
+        "operator:wikidata": "Q1891156",
+        "ownership": "national",
+        "protect_class": "1b",
+        "protected": "perpetuity",
+        "protected_area": "wilderness_preserve",
+        "protection_title": "Wilderness Area",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.795779,
+          34.7699704
+        ]
+      },
+      "id": "way/518452049"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/518467776",
+        "access": "yes",
+        "addr:city": "Fayetteville",
+        "addr:housenumber": "390",
+        "addr:postcode": "30215",
+        "addr:state": "GA",
+        "addr:street": "Burch Road",
+        "leisure": "nature_reserve",
+        "name": "The Ridge Nature Preserve",
+        "operator": "Southern Conservation Trust",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4893775,
+          33.4314052
+        ]
+      },
+      "id": "way/518467776"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/518931403",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Chattahoochee Wildlife Management Area",
+        "protect_class": "4",
+        "protected_area": "game_land",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7774661,
+          34.7680277
+        ]
+      },
+      "id": "way/518931403"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/518932188",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Chattahoochee Wildlife Management Area",
+        "protect_class": "4",
+        "protected_area": "game_land",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7977097,
+          34.699874
+        ]
+      },
+      "id": "way/518932188"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/520422798",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Blue Ridge Wildlife Management Area",
+        "protect_class": "6",
+        "protected_area": "game_land",
+        "wikidata": "Q4929756",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1704306,
+          34.6832266
+        ]
+      },
+      "id": "way/520422798"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/520905699",
+        "leisure": "nature_reserve",
+        "name": "Henry Grady Burrell Preserve",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7591753,
+          34.9247099
+        ]
+      },
+      "id": "way/520905699"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/527402667",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Cohutta Wildlife Management Area",
+        "protect_class": "6",
+        "protected_area": "game_land",
+        "protection_title": "Wildlife Management Area",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5298406,
+          34.8089528
+        ]
+      },
+      "id": "way/527402667"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/530430866",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Warwoman Wildlife Management Area",
+        "protect_class": "6",
+        "protected_area": "game_land",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3033908,
+          34.9270527
+        ]
+      },
+      "id": "way/530430866"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/550009929",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Phinizy Swamp Nature Park",
+        "wikidata": "Q7186389",
+        "wikipedia": "en:Phinizy Swamp Nature Park",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9582669,
+          33.3886238
+        ]
+      },
+      "id": "way/550009929"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/551304514",
+        "addr:city": "McConnells",
+        "addr:housenumber": "1080",
+        "addr:postcode": "29726",
+        "addr:state": "SC",
+        "addr:street": "Brattonsville Road",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Draper Wildlife Management Area",
+        "protect_class": "6",
+        "protected_area": "game_land",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.1910271,
+          34.8674234
+        ]
+      },
+      "id": "way/551304514"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/553126073",
+        "leisure": "nature_reserve",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.626473,
+          30.8577609
+        ]
+      },
+      "id": "way/553126073"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/560752408",
+        "leisure": "nature_reserve",
+        "name": "Otting Tract Wilderness Management Area",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.471314,
+          34.5421718
+        ]
+      },
+      "id": "way/560752408"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/561359217",
+        "access": "yes",
+        "leisure": "nature_reserve",
+        "name": "Woods Ferry",
+        "operator": "Florida State Parks",
+        "operator:short": "FSP",
+        "operator:type": "public",
+        "operator:wikidata": "Q5461615",
+        "website": "https://www.floridastateparks.org/parks-and-trails/suwannee-river-wilderness-state-trail/river-camps",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.8570159,
+          30.3547518
+        ]
+      },
+      "id": "way/561359217"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/587339726",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Chipola Wildlife Management Area",
+        "protected_area": "game_land",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2726338,
+          30.9140028
+        ]
+      },
+      "id": "way/587339726"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/662089600",
+        "leisure": "nature_reserve",
+        "name": "Tidelands Nature Center",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4191829,
+          31.0388154
+        ]
+      },
+      "id": "way/662089600"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/718230505",
+        "addr:city": "Talking Rock",
+        "addr:postcode": "30175",
+        "addr:state": "GA",
+        "addr:street": "Carnes Mill Road",
+        "boundary": "protected_area",
+        "contact:facebook": "https://www.facebook.com/talkingrocknp/",
+        "leisure": "nature_reserve",
+        "name": "Talking Rock Nature Park",
+        "opening_hours": "sunrise-sunset",
+        "phone": "+1-678-974-2609",
+        "protect_class": "1",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5233626,
+          34.5445119
+        ]
+      },
+      "id": "way/718230505"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/721680286",
+        "fixme": "add proper tags",
+        "leisure": "nature_reserve",
+        "name": "Chicopee Woods Nature Preserve",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.8363291,
+          34.2395074
+        ]
+      },
+      "id": "way/721680286"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/729902734",
+        "leisure": "nature_reserve",
+        "name": "Nalley Brown Nature Park",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6181048,
+          34.7979046
+        ]
+      },
+      "id": "way/729902734"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/764218311",
+        "addr:city": "Marianna",
+        "addr:state": "FL",
+        "boundary": "protected_area",
+        "description": "FWC managed WEA",
+        "leisure": "nature_reserve",
+        "name": "Judges Cave Wildlife and Environmental Area",
+        "source": "gps",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2111161,
+          30.7864516
+        ]
+      },
+      "id": "way/764218311"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/769699467",
+        "boundary": "protected_area",
+        "description": "FWC managed land",
+        "leisure": "nature_reserve",
+        "name": "Apalachee Wildlife Management Area",
+        "protected_area": "game_land",
+        "source": "Florida FWC: atoll.floridamarine.org",
+        "website": "https://myfwc.com/viewing/recreation/wmas/lead/apalachee/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.9581633,
+          30.9008426
+        ]
+      },
+      "id": "way/769699467"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/769699468",
+        "boundary": "protected_area",
+        "description": "FWC managed land",
+        "leisure": "nature_reserve",
+        "name": "Apalachee Wildlife Management Area",
+        "protected_area": "game_land",
+        "source": "Florida FWC: atoll.floridamarine.org",
+        "website": "https://myfwc.com/viewing/recreation/wmas/lead/apalachee/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.9688644,
+          30.9141551
+        ]
+      },
+      "id": "way/769699468"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/769699469",
+        "boundary": "protected_area",
+        "description": "FWC managed land",
+        "leisure": "nature_reserve",
+        "name": "Apalachee Wildlife Management Area",
+        "protected_area": "game_land",
+        "source": "Florida FWC: atoll.floridamarine.org",
+        "website": "https://myfwc.com/viewing/recreation/wmas/lead/apalachee/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.9433439,
+          30.8560696
+        ]
+      },
+      "id": "way/769699469"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/769699470",
+        "boundary": "protected_area",
+        "description": "FWC managed land",
+        "leisure": "nature_reserve",
+        "name": "Apalachee Wildlife Management Area",
+        "protected_area": "game_land",
+        "source": "Florida FWC: atoll.floridamarine.org",
+        "website": "https://myfwc.com/viewing/recreation/wmas/lead/apalachee/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.9610211,
+          30.9030721
+        ]
+      },
+      "id": "way/769699470"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/769699471",
+        "boundary": "protected_area",
+        "description": "FWC managed land",
+        "leisure": "nature_reserve",
+        "name": "Apalachee Wildlife Management Area",
+        "protected_area": "game_land",
+        "source": "Florida FWC: atoll.floridamarine.org",
+        "website": "https://myfwc.com/viewing/recreation/wmas/lead/apalachee/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.9540847,
+          30.901714
+        ]
+      },
+      "id": "way/769699471"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/769699472",
+        "boundary": "protected_area",
+        "description": "FWC managed land",
+        "leisure": "nature_reserve",
+        "name": "Apalachee Wildlife Management Area",
+        "protected_area": "game_land",
+        "source": "Florida FWC: atoll.floridamarine.org",
+        "website": "https://myfwc.com/viewing/recreation/wmas/lead/apalachee/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.9447364,
+          30.8903404
+        ]
+      },
+      "id": "way/769699472"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/769699473",
+        "boundary": "protected_area",
+        "description": "FWC managed land",
+        "leisure": "nature_reserve",
+        "name": "Apalachee Wildlife Management Area",
+        "protected_area": "game_land",
+        "source": "Florida FWC: atoll.floridamarine.org",
+        "website": "https://myfwc.com/viewing/recreation/wmas/lead/apalachee/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.9740943,
+          30.9199207
+        ]
+      },
+      "id": "way/769699473"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/769699474",
+        "boundary": "protected_area",
+        "description": "FWC managed land",
+        "leisure": "nature_reserve",
+        "name": "Apalachee Wildlife Management Area",
+        "protected_area": "game_land",
+        "source": "Florida FWC: atoll.floridamarine.org",
+        "website": "https://myfwc.com/viewing/recreation/wmas/lead/apalachee/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.966427,
+          30.9086019
+        ]
+      },
+      "id": "way/769699474"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/769699475",
+        "boundary": "protected_area",
+        "description": "FWC managed land",
+        "leisure": "nature_reserve",
+        "name": "Apalachee Wildlife Management Area",
+        "protected_area": "game_land",
+        "source": "Florida FWC: atoll.floridamarine.org",
+        "website": "https://myfwc.com/viewing/recreation/wmas/lead/apalachee/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.9500984,
+          30.8575087
+        ]
+      },
+      "id": "way/769699475"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/769699476",
+        "boundary": "protected_area",
+        "description": "FWC managed land",
+        "leisure": "nature_reserve",
+        "name": "Apalachee Wildlife Management Area",
+        "protected_area": "game_land",
+        "source": "Florida FWC: atoll.floridamarine.org",
+        "website": "https://myfwc.com/viewing/recreation/wmas/lead/apalachee/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.9478615,
+          30.8831617
+        ]
+      },
+      "id": "way/769699476"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/769699477",
+        "boundary": "protected_area",
+        "description": "FWC managed land",
+        "leisure": "nature_reserve",
+        "name": "Apalachee Wildlife Management Area",
+        "protected_area": "game_land",
+        "source": "Florida FWC: atoll.floridamarine.org",
+        "website": "https://myfwc.com/viewing/recreation/wmas/lead/apalachee/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.9821807,
+          30.9392099
+        ]
+      },
+      "id": "way/769699477"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/769699478",
+        "boundary": "protected_area",
+        "description": "FWC managed land",
+        "leisure": "nature_reserve",
+        "name": "Apalachee Wildlife Management Area",
+        "protected_area": "game_land",
+        "source": "Florida FWC: atoll.floridamarine.org",
+        "website": "https://myfwc.com/viewing/recreation/wmas/lead/apalachee/",
+        "wikidata": "Q28449823",
+        "wikipedia": "en:Apalachee Wildlife Management Area",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.9582152,
+          30.7843082
+        ]
+      },
+      "id": "way/769699478"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/769750541",
+        "boundary": "protected_area",
+        "description": "FWC managed land",
+        "leisure": "nature_reserve",
+        "name": "Apalachicola Wildlife Management Area Bradwell Unit",
+        "protected_area": "game_land",
+        "source": "Florida FWC: atoll.floridamarine.org",
+        "website": "https://myfwc.com/viewing/recreation/wmas/cooperative/apalachicola/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.6734624,
+          30.3767154
+        ]
+      },
+      "id": "way/769750541"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/802825362",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Silver Lake Wildlife Management Area",
+        "protected_area": "game_land",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.7226764,
+          30.8041709
+        ]
+      },
+      "id": "way/802825362"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/802855136",
+        "ele": "13",
+        "gnis:feature_id": "2006954",
+        "leisure": "nature_reserve",
+        "name": "L Kirk Edwards State Wildlife and Environment Area",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1225883,
+          30.4335066
+        ]
+      },
+      "id": "way/802855136"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/803406741",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Plank Road Wildlife Management Area",
+        "protect_class": "4",
+        "protected_area": "game_land",
+        "protection_title": "Wildlife Management Area",
+        "wikidata": "Q133853072",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0987878,
+          30.3405003
+        ]
+      },
+      "id": "way/803406741"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/817876893",
+        "fixme": "Looks like a hunting preserve.  Needs identification.",
+        "leisure": "nature_reserve",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.817288,
+          30.8675162
+        ]
+      },
+      "id": "way/817876893"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/817883208",
+        "addr:city": "Donalsonville",
+        "addr:housenumber": "2537",
+        "addr:postcode": "39845",
+        "addr:state": "GA",
+        "addr:street": "GA 253",
+        "leisure": "nature_reserve",
+        "name": "Pine Hill Plantation",
+        "phone": "+1-229-758-2464",
+        "website": "https://www.pinehillplantation.com/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.8428897,
+          30.8128518
+        ]
+      },
+      "id": "way/817883208"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/817948331",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Lake Seminole Wildlife Management Area - Ten Mile Still",
+        "protected_area": "game_land",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.7997281,
+          30.7800475
+        ]
+      },
+      "id": "way/817948331"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/817950456",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Lake Seminole Wildlife Management Area - Ranger Station",
+        "protected_area": "game_land",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.8889231,
+          30.7742491
+        ]
+      },
+      "id": "way/817950456"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/818059818",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Lake Seminole Wildlife Management Area - Little Horseshoe Bend",
+        "protected_area": "game_land",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.6474007,
+          30.8467194
+        ]
+      },
+      "id": "way/818059818"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/818077073",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Lake Seminole Wildlife Management Area - River Junction",
+        "protected_area": "game_land",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.8328831,
+          30.7520173
+        ]
+      },
+      "id": "way/818077073"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/818226055",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Lake Seminole Wildlife Management Area - Dresser Tract",
+        "protected_area": "game_land",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.9587193,
+          30.9169822
+        ]
+      },
+      "id": "way/818226055"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/818230262",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "River Creek The Rolf and Alexandra Kauka Wildlife Management Area",
+        "protected_area": "game_land",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0643943,
+          30.8553419
+        ]
+      },
+      "id": "way/818230262"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/818321147",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Elmodel Wildlife Management Area",
+        "protected_area": "game_land",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4834404,
+          31.3361833
+        ]
+      },
+      "id": "way/818321147"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/818685587",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Albany Nursery Wildlife Management Area",
+        "protected_area": "game_land",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3413514,
+          31.5895949
+        ]
+      },
+      "id": "way/818685587"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/821209715",
+        "leisure": "nature_reserve",
+        "name": "Whitehall Shoals Heritage and Natural Area",
+        "operator": "Athens-Clarke County",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3574818,
+          33.9093497
+        ]
+      },
+      "id": "way/821209715"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/863199642",
+        "leisure": "nature_reserve",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4173166,
+          34.9950856
+        ]
+      },
+      "id": "way/863199642"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/905845979",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Ralph E. Simmons State Forest",
+        "protected_area": "forest_reserve",
+        "short_name": "Ralph E. Simmons SF",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.948266,
+          30.8038431
+        ]
+      },
+      "id": "way/905845979"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/920612143",
+        "leisure": "nature_reserve",
+        "name": "Joe R. Adair Outdoor Education Center",
+        "operator": "Laurens County School District 55",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.0432896,
+          34.4922605
+        ]
+      },
+      "id": "way/920612143"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/965205048",
+        "leisure": "nature_reserve",
+        "name": "Tillman Tract",
+        "operator": "Athens-Clarke County",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3589171,
+          33.9147329
+        ]
+      },
+      "id": "way/965205048"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/965208323",
+        "historic": "battlefield",
+        "leisure": "nature_reserve",
+        "name": "Barber Creek Battle Site",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.4017073,
+          33.9144072
+        ]
+      },
+      "id": "way/965208323"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/965209255",
+        "leisure": "nature_reserve",
+        "name": "Five Acre Woods",
+        "operator": "Athens-Clarke County",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3672726,
+          33.9753916
+        ]
+      },
+      "id": "way/965209255"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/992582235",
+        "addr:city": "Jacksonville",
+        "addr:housenumber": "12100",
+        "addr:postcode": "32226",
+        "addr:state": "FL",
+        "addr:street": "Pumpkin Hill Rd",
+        "leisure": "nature_reserve",
+        "name": "Betz-Tiger Point Preserve",
+        "operator": "City of Jacksonville",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4949199,
+          30.4921688
+        ]
+      },
+      "id": "way/992582235"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1012867432",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Ceylon Wildlife Management Area",
+        "operator": "Georgia DNR",
+        "protected_area": "game_land",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.609149,
+          30.9586327
+        ]
+      },
+      "id": "way/1012867432"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1020634465",
+        "leisure": "nature_reserve",
+        "name": "Di-Lane WMA",
+        "website": "https://georgiawildlife.com/di-lane-wma",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.0770167,
+          32.9731971
+        ]
+      },
+      "id": "way/1020634465"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1029161728",
+        "leisure": "nature_reserve",
+        "name": "Fort Clinch State Park",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4447723,
+          30.6864649
+        ]
+      },
+      "id": "way/1029161728"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1045347140",
+        "leisure": "nature_reserve",
+        "name": "Glendale Shoals Preserve",
+        "opening_hours": "sunrise-sunset",
+        "operator": "Spartanburg Area Conservancy",
+        "website": "https://www.spartanburgconservation.org/glendale-shoals-preserve",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.8356079,
+          34.9423487
+        ]
+      },
+      "id": "way/1045347140"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1089722564",
+        "leisure": "nature_reserve",
+        "name": "Alapaha River WMA",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.365075,
+          31.5142414
+        ]
+      },
+      "id": "way/1089722564"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1095090584",
+        "fixme": "There is a *lot* more detail on this preserve at:\n\nhttps://www.wolfcreektroutlilypreserve.org/\n\nSomeone should GPS track the trails and add all the various creeks and roads to openstreetmaps.",
+        "leisure": "nature_reserve",
+        "name": "Wolf Creek Trout Lily Preserve",
+        "website": "https://www.wolfcreektroutlilypreserve.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2894962,
+          30.8914532
+        ]
+      },
+      "id": "way/1095090584"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1118482454",
+        "access": "private",
+        "leisure": "nature_reserve",
+        "name": "Upper Shoals Preserve at Glendale",
+        "operator": "The Tyger River Foundation",
+        "website": "https://www.tygerriver.org/upper-shoals-preserve-at-glendale",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.8454703,
+          34.9439597
+        ]
+      },
+      "id": "way/1118482454"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1118483545",
+        "access": "private",
+        "leisure": "nature_reserve",
+        "name": "Tyger River Confluence",
+        "operator": "The Tyger River Foundation",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9362263,
+          34.7596119
+        ]
+      },
+      "id": "way/1118483545"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1118483546",
+        "leisure": "nature_reserve",
+        "name": "Tyger River Confluence",
+        "operator": "The Tyger River Foundation",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9236715,
+          34.7562115
+        ]
+      },
+      "id": "way/1118483546"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1118485488",
+        "leisure": "nature_reserve",
+        "operator": "The Tyger River Foundation",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.0318554,
+          34.9129807
+        ]
+      },
+      "id": "way/1118485488"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1118485489",
+        "leisure": "nature_reserve",
+        "operator": "The Tyger River Foundation",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.0396636,
+          34.9089365
+        ]
+      },
+      "id": "way/1118485489"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1118485490",
+        "leisure": "nature_reserve",
+        "operator": "The Tyger River Foundation",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.0359017,
+          34.9099938
+        ]
+      },
+      "id": "way/1118485490"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1118486603",
+        "leisure": "nature_reserve",
+        "operator": "The Tyger River Foundation",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.0917776,
+          34.9221972
+        ]
+      },
+      "id": "way/1118486603"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1118486604",
+        "leisure": "nature_reserve",
+        "operator": "The Tyger River Foundation",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.0946178,
+          34.923647
+        ]
+      },
+      "id": "way/1118486604"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1118503715",
+        "leisure": "nature_reserve",
+        "name": "Upper Chinquapin Preserve",
+        "opening_hours": "sunrise-sunset",
+        "operator": "Spartanburg Area Conservancy",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9594102,
+          34.9831251
+        ]
+      },
+      "id": "way/1118503715"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1141523173",
+        "leisure": "nature_reserve",
+        "name": "Yost Creek Trails & Farm",
+        "operator": "Yost Creek LLC",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.2132147,
+          34.0666664
+        ]
+      },
+      "id": "way/1141523173"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1157604222",
+        "leisure": "nature_reserve",
+        "name": "Doerun Pitcherplant Bog WMA",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.8769659,
+          31.2899065
+        ]
+      },
+      "id": "way/1157604222"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1159976638",
+        "leisure": "nature_reserve",
+        "name": "Ditch Pond Heritage Preserve",
+        "operator": "South Carolina Department of Natural Resources",
+        "operator:type": "government",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.466824,
+          33.4186218
+        ]
+      },
+      "id": "way/1159976638"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1184567587",
+        "leisure": "nature_reserve",
+        "operator": "The Tyger River Foundation",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.0106492,
+          34.883958
+        ]
+      },
+      "id": "way/1184567587"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1215492075",
+        "boundary": "protected_area",
+        "gnis:feature_id": "1230620",
+        "leisure": "nature_reserve",
+        "name": "Congaree National Park Wilderness",
+        "note": "Part of the National Wilderness Preservation System",
+        "operator": "National Park Service",
+        "operator:short": "NPS",
+        "operator:type": "public",
+        "operator:wikidata": "Q308439",
+        "operator:wikipedia": "en:National Park Service",
+        "ownership": "national",
+        "protect_class": "1b",
+        "protected": "perpetuity",
+        "protected_area": "wilderness_preserve",
+        "protection_title": "Wilderness Area",
+        "source": "Purcell A. 2022. Congaree National Park Tract and Boundary Data. National Park Service (NPS), Chief Cartographer, Land Resources Division, WASO Fort Collins Land Resources Program Center. https://irma.nps.gov/DataStore/Reference/Profile/2299943",
+        "source:version": "20220607",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.7791092,
+          33.8006535
+        ]
+      },
+      "id": "way/1215492075"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1215492077",
+        "leisure": "nature_reserve",
+        "ref:nps": "Tract 101-35",
+        "source": "Purcell A. 2022. Congaree National Park Tract and Boundary Data. National Park Service (NPS), Chief Cartographer, Land Resources Division, WASO Fort Collins Land Resources Program Center. https://irma.nps.gov/DataStore/Reference/Profile/2299943",
+        "source:version": "20220607",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.7505808,
+          33.7664089
+        ]
+      },
+      "id": "way/1215492077"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1215492078",
+        "leisure": "nature_reserve",
+        "ref:nps": "Tract 101-36;Tract 101-37;Tract 101-39",
+        "source": "Purcell A. 2022. Congaree National Park Tract and Boundary Data. National Park Service (NPS), Chief Cartographer, Land Resources Division, WASO Fort Collins Land Resources Program Center. https://irma.nps.gov/DataStore/Reference/Profile/2299943",
+        "source:version": "20220607",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.7887951,
+          33.7701235
+        ]
+      },
+      "id": "way/1215492078"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1215492079",
+        "leisure": "nature_reserve",
+        "ref:nps": "Tract 101-41;Tract 101-42",
+        "source": "Purcell A. 2022. Congaree National Park Tract and Boundary Data. National Park Service (NPS), Chief Cartographer, Land Resources Division, WASO Fort Collins Land Resources Program Center. https://irma.nps.gov/DataStore/Reference/Profile/2299943",
+        "source:version": "20220607",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.8175254,
+          33.7887344
+        ]
+      },
+      "id": "way/1215492079"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1215492080",
+        "leisure": "nature_reserve",
+        "ref:nps": "Tract 101-13;Tract 101-14;Tract 101-15;Tract 101-16;Tract 101-17;Tract 101-18;Tract 101-19",
+        "source": "Purcell A. 2022. Congaree National Park Tract and Boundary Data. National Park Service (NPS), Chief Cartographer, Land Resources Division, WASO Fort Collins Land Resources Program Center. https://irma.nps.gov/DataStore/Reference/Profile/2299943",
+        "source:version": "20220607",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.8405588,
+          33.8372938
+        ]
+      },
+      "id": "way/1215492080"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1215492081",
+        "leisure": "nature_reserve",
+        "ref:nps": "Tract 101-20",
+        "source": "Purcell A. 2022. Congaree National Park Tract and Boundary Data. National Park Service (NPS), Chief Cartographer, Land Resources Division, WASO Fort Collins Land Resources Program Center. https://irma.nps.gov/DataStore/Reference/Profile/2299943",
+        "source:version": "20220607",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.8111128,
+          33.8301608
+        ]
+      },
+      "id": "way/1215492081"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1215492082",
+        "leisure": "nature_reserve",
+        "ref:nps": "Tract 101-21",
+        "source": "Purcell A. 2022. Congaree National Park Tract and Boundary Data. National Park Service (NPS), Chief Cartographer, Land Resources Division, WASO Fort Collins Land Resources Program Center. https://irma.nps.gov/DataStore/Reference/Profile/2299943",
+        "source:version": "20220607",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.7985817,
+          33.8272047
+        ]
+      },
+      "id": "way/1215492082"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1215492083",
+        "leisure": "nature_reserve",
+        "ref:nps": "Tract 101-24;Tract 101-25;Tract 101-26;Tract 101-27;Tract 101-28;Tract 101-29;Tract 101-30;Tract 101-31;Tract 101-32;Tract 101-33;Tract 101-43;Tract 101-44;Tract 101-45;Tract 101-46;Tract 101-47;Tract 101-79A",
+        "source": "Purcell A. 2022. Congaree National Park Tract and Boundary Data. National Park Service (NPS), Chief Cartographer, Land Resources Division, WASO Fort Collins Land Resources Program Center. https://irma.nps.gov/DataStore/Reference/Profile/2299943",
+        "source:version": "20220607",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.7271098,
+          33.7886731
+        ]
+      },
+      "id": "way/1215492083"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1230399778",
+        "leisure": "nature_reserve",
+        "name": "South Tyger River Blueways Tract",
+        "operator": "Spartanburg Area Conservancy",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.1480141,
+          34.9295701
+        ]
+      },
+      "id": "way/1230399778"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1230401028",
+        "leisure": "nature_reserve",
+        "name": "Cragmoor Farms",
+        "operator": "Upstate Forever",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9638527,
+          34.8310049
+        ]
+      },
+      "id": "way/1230401028"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1235655392",
+        "leisure": "nature_reserve",
+        "name": "Newman Wetlands Center",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3067271,
+          33.4725514
+        ]
+      },
+      "id": "way/1235655392"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1251841634",
+        "leisure": "nature_reserve",
+        "ref:nps": "Tract 101-13;Tract 101-14;Tract 101-15;Tract 101-16;Tract 101-17;Tract 101-18;Tract 101-19",
+        "source": "Purcell A. 2022. Congaree National Park Tract and Boundary Data. National Park Service (NPS), Chief Cartographer, Land Resources Division, WASO Fort Collins Land Resources Program Center. https://irma.nps.gov/DataStore/Reference/Profile/2299943",
+        "source:version": "20220607",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.8604038,
+          33.8407196
+        ]
+      },
+      "id": "way/1251841634"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1253344298",
+        "addr:city": "Peachtree City",
+        "addr:housenumber": "200",
+        "addr:postcode": "30269",
+        "addr:state": "GA",
+        "addr:street": "Rockaway Road",
+        "leisure": "nature_reserve",
+        "name": "Somerby Woods Nature Area",
+        "opening_hours": "sunrise-sunset",
+        "operator": "City of Peachtree City",
+        "operator:type": "government",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5365516,
+          33.3377173
+        ]
+      },
+      "id": "way/1253344298"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1253345996",
+        "leisure": "nature_reserve",
+        "name": "Flat Creek Nature Area Boardwalk",
+        "opening_hours": "sunrise-sunset",
+        "operator": "City of Peachtree City",
+        "operator:type": "government",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5683091,
+          33.3801712
+        ]
+      },
+      "id": "way/1253345996"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1281884332",
+        "addr:city": "LaGrange",
+        "addr:housenumber": "3550",
+        "addr:postcode": "30240",
+        "addr:state": "GA",
+        "addr:street": "Mooty Bridge Road",
+        "leisure": "nature_reserve",
+        "name": "Whispering Hills Memorial Nature Preserve",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.0805279,
+          33.1137122
+        ]
+      },
+      "id": "way/1281884332"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1307290669",
+        "leisure": "nature_reserve",
+        "name": "Pacolet River Heritage Preserve",
+        "opening_hours": "sunrise-sunset",
+        "operator": "SCDNR",
+        "operator:type": "government",
+        "website": "https://www2.dnr.sc.gov/ManagedLands/ManagedLand/ManagedLand/38",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.780034,
+          34.9320576
+        ]
+      },
+      "id": "way/1307290669"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1337614648",
+        "leisure": "nature_reserve",
+        "name": "Trove Open Space",
+        "operator": "City of  Watkinsville",
+        "operator:type": "government",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.4073384,
+          33.8497759
+        ]
+      },
+      "id": "way/1337614648"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1337615137",
+        "leisure": "nature_reserve",
+        "name": "Trove Open Area",
+        "operator": "City of Watkinsville",
+        "operator:type": "government",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.4052868,
+          33.8517657
+        ]
+      },
+      "id": "way/1337615137"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1337615138",
+        "leisure": "nature_reserve",
+        "name": "Trove Open Area",
+        "operator": "City of Watkinsville",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.4046113,
+          33.8495705
+        ]
+      },
+      "id": "way/1337615138"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1346944718",
+        "access": "yes",
+        "addr:housenumber": "4600",
+        "addr:street": "Bishop Lake Road",
+        "leisure": "nature_reserve",
+        "name": "Lynne & Charlie D'Huyvetter Nature Preserve",
+        "natural": "wood",
+        "operator": "Southern Trust for Parks and Land",
+        "website": "https://stpal.org/our-places/lynne-and-charlie-dhuyvetter-nature-preserve/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4200589,
+          34.0007791
+        ]
+      },
+      "id": "way/1346944718"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1352397881",
+        "access": "permit",
+        "addr:city": "East Dublin",
+        "addr:housenumber": "1945",
+        "addr:postcode": "31027",
+        "addr:state": "GA",
+        "addr:street": "HIghway 199 South",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "River Bend Wildlife Management Area",
+        "operator": "Georgia Department of Natural Resources",
+        "operator:type": "public",
+        "protected_area": "game_land",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.7467786,
+          32.3916297
+        ]
+      },
+      "id": "way/1352397881"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1353382929",
+        "access": "permit",
+        "addr:city": "Denton",
+        "addr:housenumber": "1687-1751",
+        "addr:postcode": "31532",
+        "addr:state": "Georgia",
+        "addr:street": "McRae HIghway",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Flat Tub Wildlife Management Area",
+        "operator": "Georgia Department of Natural Resources",
+        "operator:type": "government",
+        "protected_area": "game_land",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.829078,
+          31.7821984
+        ]
+      },
+      "id": "way/1353382929"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1353543754",
+        "access": "permit",
+        "addr:city": "Jacksonville",
+        "addr:housenumber": "1336",
+        "addr:postcode": "31544",
+        "addr:state": "Georgia",
+        "addr:street": "East River Road",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Horse Creek Wildlife Management Area",
+        "operator": "Georgia Department of Natural Resources",
+        "operator:type": "government",
+        "protected_area": "game_land",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.8394501,
+          31.8219037
+        ]
+      },
+      "id": "way/1353543754"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1354786145",
+        "access": "permit",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Hannahatchee Wildlife Management Area",
+        "protected_area": "game_land",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.7475914,
+          32.1312865
+        ]
+      },
+      "id": "way/1354786145"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1355840410",
+        "access": "permit",
+        "addr:city": "Kathleen",
+        "addr:housenumber": "801",
+        "addr:postcode": "30147",
+        "addr:state": "Georgia",
+        "addr:street": "Oaky Woods Road",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Oaky Woods Wildlife Management Area",
+        "operator": "Georgia Department of Natural Resources",
+        "operator:type": "government",
+        "protected_area": "game_land",
+        "website": "https://georgiawildlife.com/oaky-woods-wma",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.531267,
+          32.4498425
+        ]
+      },
+      "id": "way/1355840410"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1355840411",
+        "access": "permit",
+        "addr:city": "Kathleen",
+        "addr:housenumber": "801",
+        "addr:postcode": "30147",
+        "addr:state": "Georgia",
+        "addr:street": "Oaky Woods Road",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Oaky Woods Wildlife Management Area",
+        "operator": "Georgia Department of Natural Resources",
+        "operator:type": "government",
+        "protected_area": "game_land",
+        "website": "https://georgiawildlife.com/oaky-woods-wma",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.5426292,
+          32.3877248
+        ]
+      },
+      "id": "way/1355840411"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1375067778",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Christopher D. Spiller Longleaf Pine and Pollinator Trail",
+        "protect_class": "4",
+        "protection_title": "Longleaf Pine and\nPollinator",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.1889279,
+          33.668026
+        ]
+      },
+      "id": "way/1375067778"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1389405330",
+        "leisure": "nature_reserve",
+        "name": "Glendale Nature Park",
+        "opening_hours": "sunrise-sunset",
+        "operator": "Spartanburg County",
+        "operator:type": "government",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.8213789,
+          34.9544075
+        ]
+      },
+      "id": "way/1389405330"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1486517161",
+        "leisure": "nature_reserve",
+        "name": "Eufaula National Wildlife Refuge",
+        "operator": "United States Fish and Wildlife Service",
+        "operator:short": "USFWS",
+        "operator:type": "public",
+        "operator:wikidata": "Q674113",
+        "protect_class": "4",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.0555277,
+          32.0075377
+        ]
+      },
+      "id": "way/1486517161"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1509314187",
+        "addr:city": "Chattanooga",
+        "addr:housenumber": "900",
+        "addr:state": "TN",
+        "addr:street": "North Sanctuary Road",
+        "dog": "no",
+        "leisure": "nature_reserve",
+        "name": "Audubon Acres",
+        "opening_hours": "Mo-Sa 09:00-17:00",
+        "operator": "Chattanooga Audubon Society",
+        "operator:type": "private_non_profit",
+        "phone": "+1-423-892-1499",
+        "website": "https://www.chattanoogaaudubon.org",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.1798807,
+          34.9979114
+        ]
+      },
+      "id": "way/1509314187"
+    }
+  ]
+}

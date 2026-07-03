@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-06-28T01:18:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/705286855",
+        "gnis:feature_id": "1225626",
+        "name": "Poplar Hollow",
+        "natural": "valley",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.7794819,
+          35.0356545
+        ]
+      },
+      "id": "way/705286855"
+    }
+  ]
+}
