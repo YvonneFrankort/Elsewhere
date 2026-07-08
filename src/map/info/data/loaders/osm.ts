@@ -101,30 +101,63 @@ export async function load(
 
   const allFeatures: Feature[] = [];
 
-  for (const cat of categories) {
-    const folder = categoryToFolder[cat];
+  // ⭐ OSM-supported categories
+const osmSupported = new Set([
+  "lakes",
+  "rivers",
+  "waterfalls",
+  "beaches",
+  "canyons",
+  "mountain-peaks",
+  "forests",
+  "desert",
+  "caves",
+  "islands",
+  "hiking",
+  "ski",
+  "trailheads",
+  "climbing-areas",
+  "wildlife-parks",
+  "nature-reserves",
+  "national-parks",
+  "wilderness",
+  "scenic-routes"
+]);
 
-    if (!folder) {
-      console.warn(`⚠️ No OSM folder mapping for category '${cat}'`);
+for (const cat of categories) {
+
+  // ⭐ Skip unsupported categories (visitor-centers, etc.)
+  if (!osmSupported.has(cat)) {
+    continue;
+  }
+
+  const folder = categoryToFolder[cat];
+  if (!folder) {
+    console.warn(`⚠️ No OSM folder mapping for category '${cat}'`);
+    continue;
+  }
+
+  const url = `/data/osm/${state}/${folder}/${cat}.geojson`;
+
+  try {
+    const res = await fetch(url);
+    if (!res.ok) {
+      console.warn(`⚠️ OSM file not found: ${url}`);
       continue;
     }
 
-    const url = `/data/osm/${state}/${folder}/${cat}.geojson`;
+    const geojson = await res.json();
 
-    try {
-      const res = await fetch(url);
-      const geojson = await res.json();
+    const filtered = geojson.features.filter((f: any) =>
+      isInsideRadius(f, center, radiusKm)
+    );
 
-      const filtered = geojson.features.filter((f: any) =>
-        isInsideRadius(f, center, radiusKm)
-      );
+    allFeatures.push(...filtered);
 
-      allFeatures.push(...filtered);
-
-    } catch (err) {
-      console.warn(`⚠️ Failed to load ${cat} from ${url}`, err);
-    }
+  } catch (err) {
+    console.warn(`⚠️ Failed to load ${cat} from ${url}`, err);
   }
+}
 
   return allFeatures;
 }

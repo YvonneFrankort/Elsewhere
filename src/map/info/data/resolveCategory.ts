@@ -1,10 +1,7 @@
-
 export interface CategoryResolution {
   geoapify: boolean;
   osm: boolean;
   nps: boolean;
-  eventbrite: boolean;
-  nominatim: boolean;
   weather: boolean;
 }
 
@@ -32,11 +29,9 @@ export function resolveCategory(id: string): CategoryResolution {
     "climbing-areas",
     "wildlife-parks",
     "nature-reserves",
-    "national-parks",
     "wilderness",
-
-    // Nature scenic (OSM only)
     "scenic-routes",
+    "national-parks"
   ];
 
   if (osmOnly.includes(id)) {
@@ -44,9 +39,25 @@ export function resolveCategory(id: string): CategoryResolution {
       geoapify: false,
       osm: true,
       nps: id === "national-parks",
-      eventbrite: false,
-      nominatim: false,
-      weather: false
+      weather: false,
+    };
+  }
+
+  if (id === "visitor-centers") {
+    return {
+      geoapify: false,
+      osm: false,
+      nps: true,
+      weather: false,
+    };
+  }
+
+  if (id === "events") {
+    return {
+      geoapify: false,
+      osm: false,
+      nps: true,
+      weather: false,
     };
   }
 
@@ -69,14 +80,13 @@ export function resolveCategory(id: string): CategoryResolution {
       geoapify: true,
       osm: false,
       nps: false,
-      eventbrite: false,
-      nominatim: false,
-      weather: false
+      weather: false,
     };
   }
 
   // 🍽️ FOOD — Geoapify only
   const food = [
+    "restaurants",
     "italian",
     "mexican",
     "bbq",
@@ -107,35 +117,7 @@ export function resolveCategory(id: string): CategoryResolution {
       geoapify: true,
       osm: false,
       nps: false,
-      eventbrite: false,
-      nominatim: false,
-      weather: false
-    };
-  }
-
-  // 🎡 ENTERTAINMENT — Geoapify only
-  const entertainment = [
-    "amusement-parks",
-    "water-parks",
-    "roller-coaster-parks",
-    "family-parks",
-    "zoos",
-    "aquariums",
-    "cinemas",
-    "theatres",
-    "escape-rooms",
-    "bowling",
-    "mini-golf"
-  ];
-
-  if (entertainment.includes(id)) {
-    return {
-      geoapify: true,
-      osm: false,
-      nps: false,
-      eventbrite: false,
-      nominatim: false,
-      weather: false
+      weather: false,
     };
   }
 
@@ -151,33 +133,26 @@ export function resolveCategory(id: string): CategoryResolution {
       geoapify: true,
       osm: false,
       nps: false,
-      eventbrite: false,
-      nominatim: false,
-      weather: false
+      weather: false,
     };
   }
 
-  // 🎉 EVENTS — Eventbrite only
-  if (id === "events") {
+  if (id === "alerts") {
     return {
       geoapify: false,
       osm: false,
-      nps: false,
-      eventbrite: true,
-      nominatim: false,
-      weather: false
+      nps: true,
+      weather: false,
     };
   }
 
-  // 🔍 SEARCH — Nominatim only
+  // 🔍 SEARCH — now Geoapify only
   if (id === "search") {
     return {
-      geoapify: false,
+      geoapify: true,
       osm: false,
       nps: false,
-      eventbrite: false,
-      nominatim: true,
-      weather: false
+      weather: false,
     };
   }
 
@@ -187,9 +162,7 @@ export function resolveCategory(id: string): CategoryResolution {
       geoapify: false,
       osm: false,
       nps: false,
-      eventbrite: false,
-      nominatim: false,
-      weather: true
+      weather: true,
     };
   }
 
@@ -198,8 +171,6 @@ export function resolveCategory(id: string): CategoryResolution {
     geoapify: false,
     osm: false,
     nps: false,
-    eventbrite: false,
-    nominatim: false,
-    weather: false
+    weather: false,
   };
 }

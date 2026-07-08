@@ -75,7 +75,10 @@ export const placeCategories: PlaceCategory[] = [
         items: [
           { id: "nature-reserves", label: "Nature Reserves" },
           { id: "national-parks", label: "National Parks" },
-          { id: "wilderness", label: "Wilderness Areas" }
+          { id: "wilderness", label: "Wilderness Areas" },
+          { id: "visitor-centers", label: "Visitor Centers" },
+          { id: "alerts", label: "Park Alerts" }, // going to planner map
+          { id: "events", label: "Park Events" } // going to planner map
         ]
       },
       {
@@ -87,7 +90,7 @@ export const placeCategories: PlaceCategory[] = [
         ]
       },
       {
-        id: "road-trips",
+        id: "road-trips", // going to planner map
         label: "Road Trips",
         items: [
           { id: "road-trip-routes", label: "Road Trip Routes" }

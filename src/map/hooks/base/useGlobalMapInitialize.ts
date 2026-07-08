@@ -2,7 +2,6 @@ import { useEffect, useRef } from "react";
 import mapboxgl from "mapbox-gl";
 import { MAPBOX_TOKEN } from "../../../lib/mapbox";
 import { StyleManager } from "../../core/style/StyleManager";
-import { initializeGlobalTiles } from "./useGlobalTiles";
 
 export function useGlobalMapInitialize(
   mapContainer: React.RefObject<HTMLDivElement | null>,
@@ -60,7 +59,6 @@ export function useGlobalMapInitialize(
           console.error("Failed to init StyleManager:", err);
         }
       }
-      initializeGlobalTiles(map);
 
 
       // --- GLOBAL SOURCES ----------------------------------------------------
