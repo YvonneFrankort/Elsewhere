@@ -1,0 +1,1062 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-06-27T23:19:25Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/237576140",
+        "name": "Greenbrier Cove",
+        "natural": "valley",
+        "official_name": "Greenbrier Cove",
+        "source": "NPS",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.384192,
+          35.7024143
+        ]
+      },
+      "id": "way/237576140"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/237614158",
+        "name": "Battle Hollow",
+        "natural": "valley",
+        "official_name": "Battle Hollow",
+        "source": "NPS",
+        "wikidata": "Q34676834",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.550128,
+          35.6021462
+        ]
+      },
+      "id": "way/237614158"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/237614159",
+        "name": "Bearneck Cove",
+        "natural": "valley",
+        "official_name": "Bearneck Cove",
+        "source": "NPS",
+        "wikidata": "Q34682339",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.2240752,
+          35.7572813
+        ]
+      },
+      "id": "way/237614159"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/237614161",
+        "name": "Bearpen Hollow",
+        "natural": "valley",
+        "official_name": "Bearpen Hollow",
+        "source": "NPS",
+        "wikidata": "Q34682413",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.4600489,
+          35.6422222
+        ]
+      },
+      "id": "way/237614161"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/237614196",
+        "name": "Big          Hollow",
+        "natural": "valley",
+        "official_name": "Big          Hollow",
+        "source": "NPS",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6659729,
+          35.693514
+        ]
+      },
+      "id": "way/237614196"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/237614202",
+        "name": "Big Hollow",
+        "natural": "valley",
+        "official_name": "Big Hollow",
+        "source": "NPS",
+        "wikidata": "Q35339656",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.5600278,
+          35.6438129
+        ]
+      },
+      "id": "way/237614202"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/237614213",
+        "name": "Big Hollow",
+        "natural": "valley",
+        "official_name": "Big Hollow",
+        "source": "NPS",
+        "wikidata": "Q35339358",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6854726,
+          35.6196508
+        ]
+      },
+      "id": "way/237614213"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/237614243",
+        "name": "Buckeye            Cove",
+        "natural": "valley",
+        "official_name": "Buckeye            Cove",
+        "source": "NPS",
+        "wikidata": "Q35371544",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6136144,
+          35.5936132
+        ]
+      },
+      "id": "way/237614243"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/237614301",
+        "name": "Coon Hollow",
+        "natural": "valley",
+        "official_name": "Coon Hollow",
+        "source": "NPS",
+        "wikidata": "Q35390656",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.5537728,
+          35.6158541
+        ]
+      },
+      "id": "way/237614301"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/237614302",
+        "name": "Coot Cove",
+        "natural": "valley",
+        "official_name": "Coot Cove",
+        "source": "NPS",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6573814,
+          35.4566446
+        ]
+      },
+      "id": "way/237614302"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/237614317",
+        "name": "Dead Hollow",
+        "natural": "valley",
+        "official_name": "Dead Hollow",
+        "source": "NPS",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.5170921,
+          35.6087819
+        ]
+      },
+      "id": "way/237614317"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/237614328",
+        "name": "Dillon Hollow",
+        "natural": "valley",
+        "official_name": "Dillon Hollow",
+        "source": "NPS",
+        "wikidata": "Q35410009",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.8784505,
+          35.6546793
+        ]
+      },
+      "id": "way/237614328"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/237614337",
+        "name": "Finley Cove",
+        "natural": "valley",
+        "official_name": "Finley Cove",
+        "source": "NPS",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7242392,
+          35.6188655
+        ]
+      },
+      "id": "way/237614337"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/237614341",
+        "name": "Flint Rock Cove",
+        "natural": "valley",
+        "official_name": "Flint Rock Cove",
+        "source": "NPS",
+        "wikidata": "Q35449007",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1524666,
+          35.721639
+        ]
+      },
+      "id": "way/237614341"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/237614383",
+        "name": "Hant Hollow",
+        "natural": "valley",
+        "official_name": "Hant Hollow",
+        "source": "NPS",
+        "wikidata": "Q35504710",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.510746,
+          35.6156193
+        ]
+      },
+      "id": "way/237614383"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/237614423",
+        "name": "Joe Hollow",
+        "natural": "valley",
+        "official_name": "Joe Hollow",
+        "source": "NPS",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.5142934,
+          35.6067646
+        ]
+      },
+      "id": "way/237614423"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/237614464",
+        "name": "Little River\r Gorge",
+        "natural": "valley",
+        "official_name": "Little River\r Gorge",
+        "source": "NPS",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6856049,
+          35.6680137
+        ]
+      },
+      "id": "way/237614464"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/237614466",
+        "name": "Locust             Cove",
+        "natural": "valley",
+        "official_name": "Locust             Cove",
+        "source": "NPS",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.5540216,
+          35.5075587
+        ]
+      },
+      "id": "way/237614466"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/237614495",
+        "name": "Lower Chestnut Flats",
+        "natural": "valley",
+        "official_name": "Lower Chestnut Flats",
+        "source": "NPS",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7026618,
+          35.6166676
+        ]
+      },
+      "id": "way/237614495"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/237614498",
+        "name": "Lynn Hollow",
+        "natural": "valley",
+        "official_name": "Lynn Hollow",
+        "source": "NPS",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9141768,
+          35.6324239
+        ]
+      },
+      "id": "way/237614498"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/237614522",
+        "name": "Moss Hollow",
+        "natural": "valley",
+        "official_name": "Moss Hollow",
+        "source": "NPS",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.5175198,
+          35.6121869
+        ]
+      },
+      "id": "way/237614522"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/237614624",
+        "name": "Ogle                     Hollow",
+        "natural": "valley",
+        "official_name": "Ogle                     Hollow",
+        "source": "NPS",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.886634,
+          35.6400603
+        ]
+      },
+      "id": "way/237614624"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/237614628",
+        "name": "Orchard Hollow",
+        "natural": "valley",
+        "official_name": "Orchard Hollow",
+        "source": "NPS",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7341387,
+          35.6568724
+        ]
+      },
+      "id": "way/237614628"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/237614637",
+        "name": "Peawood Hollow",
+        "natural": "valley",
+        "official_name": "Peawood Hollow",
+        "source": "NPS",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.5042039,
+          35.6054167
+        ]
+      },
+      "id": "way/237614637"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/237614648",
+        "name": "Poplar Cove",
+        "natural": "valley",
+        "official_name": "Poplar Cove",
+        "source": "NPS",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1589674,
+          35.7365489
+        ]
+      },
+      "id": "way/237614648"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/237614650",
+        "name": "Possum Hollow",
+        "natural": "valley",
+        "official_name": "Possum Hollow",
+        "source": "NPS",
+        "wikidata": "Q35241627",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7357669,
+          35.47598
+        ]
+      },
+      "id": "way/237614650"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/237614665",
+        "name": "Red Oak Cove",
+        "natural": "valley",
+        "official_name": "Red Oak Cove",
+        "source": "NPS",
+        "wikidata": "Q35251442",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1735884,
+          35.7389152
+        ]
+      },
+      "id": "way/237614665"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/237614674",
+        "name": "Rollins Hollow",
+        "natural": "valley",
+        "official_name": "Rollins Hollow",
+        "source": "NPS",
+        "wikidata": "Q35261396",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9440099,
+          35.5635816
+        ]
+      },
+      "id": "way/237614674"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/237614682",
+        "name": "Russell Hollow",
+        "natural": "valley",
+        "official_name": "Russell Hollow",
+        "source": "NPS",
+        "wikidata": "Q35265861",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7061858,
+          35.6734232
+        ]
+      },
+      "id": "way/237614682"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/237614766",
+        "name": "Slide                      Hollow",
+        "natural": "valley",
+        "official_name": "Slide                      Hollow",
+        "source": "NPS",
+        "wikidata": "Q35308232",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.5655741,
+          35.60651
+        ]
+      },
+      "id": "way/237614766"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/237614860",
+        "name": "Sugar Cove",
+        "natural": "valley",
+        "official_name": "Sugar Cove",
+        "source": "NPS",
+        "wikidata": "Q35363065",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.2519949,
+          35.7499816
+        ]
+      },
+      "id": "way/237614860"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/237614961",
+        "name": "The Sugarlands",
+        "natural": "valley",
+        "official_name": "The Sugarlands",
+        "source": "NPS",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.5171271,
+          35.6670848
+        ]
+      },
+      "id": "way/237614961"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/237614962",
+        "name": "The Horseshoe",
+        "natural": "valley",
+        "official_name": "The Horseshoe",
+        "source": "NPS",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.713104,
+          35.4892491
+        ]
+      },
+      "id": "way/237614962"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/237614965",
+        "name": "The Gorges",
+        "natural": "valley",
+        "official_name": "The Gorges",
+        "source": "NPS",
+        "wikidata": "Q35388003",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.2655519,
+          35.5954438
+        ]
+      },
+      "id": "way/237614965"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/237614991",
+        "name": "Upper Chestnut Flats",
+        "natural": "valley",
+        "official_name": "Upper Chestnut Flats",
+        "source": "NPS",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7035628,
+          35.6106082
+        ]
+      },
+      "id": "way/237614991"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/237614993",
+        "name": "Walkers Valley",
+        "natural": "valley",
+        "official_name": "Walkers Valley",
+        "source": "NPS",
+        "wikidata": "Q35450968",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6973594,
+          35.6405801
+        ]
+      },
+      "id": "way/237614993"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/237614994",
+        "name": "Walnut Bottom",
+        "natural": "valley",
+        "official_name": "Walnut Bottom",
+        "source": "NPS",
+        "wikidata": "Q35451293",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1639455,
+          35.7156157
+        ]
+      },
+      "id": "way/237614994"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/483333941",
+        "name": "Chestnut Cove",
+        "natural": "valley",
+        "wikidata": "Q35385154",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6410708,
+          35.4618818
+        ]
+      },
+      "id": "way/483333941"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/485523056",
+        "name": "Horse Cove",
+        "natural": "valley",
+        "wikidata": "Q49813890",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.7824614,
+          35.2749968
+        ]
+      },
+      "id": "way/485523056"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/705286855",
+        "gnis:feature_id": "1225626",
+        "name": "Poplar Hollow",
+        "natural": "valley",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.7794819,
+          35.0356545
+        ]
+      },
+      "id": "way/705286855"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/864757152",
+        "name": "Norton Hollow",
+        "natural": "valley",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.8707372,
+          36.4936568
+        ]
+      },
+      "id": "way/864757152"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/864757154",
+        "name": "Altizer Hollow",
+        "natural": "valley",
+        "wikidata": "Q34645974",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.8849062,
+          36.4825352
+        ]
+      },
+      "id": "way/864757154"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/864757157",
+        "name": "Frazier Hollow",
+        "natural": "valley",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9470942,
+          36.4629164
+        ]
+      },
+      "id": "way/864757157"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/864757158",
+        "name": "No Business Hollow",
+        "natural": "valley",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9474901,
+          36.4859291
+        ]
+      },
+      "id": "way/864757158"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/864757159",
+        "name": "Wolfpen Hollow",
+        "natural": "valley",
+        "wikidata": "Q35463655",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9279303,
+          36.4909005
+        ]
+      },
+      "id": "way/864757159"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/864757160",
+        "name": "Alum Cave Hollow",
+        "natural": "valley",
+        "wikidata": "Q34646072",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9264491,
+          36.4838645
+        ]
+      },
+      "id": "way/864757160"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/864757161",
+        "name": "Yellow Cliff Hollow",
+        "natural": "valley",
+        "wikidata": "Q35465512",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9110995,
+          36.4867692
+        ]
+      },
+      "id": "way/864757161"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1285998056",
+        "name": "Fisher Valley",
+        "natural": "valley",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.9818418,
+          36.5858519
+        ]
+      },
+      "id": "way/1285998056"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1285998059",
+        "name": "England Valley",
+        "natural": "valley",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.9593694,
+          36.5953116
+        ]
+      },
+      "id": "way/1285998059"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1286042766",
+        "name": "Pumpkin Valley",
+        "natural": "valley",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0414055,
+          36.5296456
+        ]
+      },
+      "id": "way/1286042766"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1286046915",
+        "name": "Holman Valley",
+        "natural": "valley",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0395072,
+          36.5330258
+        ]
+      },
+      "id": "way/1286046915"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1286046917",
+        "name": "Gravely Valley",
+        "natural": "valley",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0639393,
+          36.5366907
+        ]
+      },
+      "id": "way/1286046917"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1286046918",
+        "name": "Kyle Valley",
+        "natural": "valley",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0030103,
+          36.5582992
+        ]
+      },
+      "id": "way/1286046918"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1413154202",
+        "name": "Maxwell Cove",
+        "natural": "valley",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.7389706,
+          35.3166132
+        ]
+      },
+      "id": "way/1413154202"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1420590578",
+        "name": "Anderson Hollow",
+        "name:en": "Anderson Hollow",
+        "natural": "valley",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.991704,
+          35.9923079
+        ]
+      },
+      "id": "way/1420590578"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1420590579",
+        "name": "Givens Hollow",
+        "name:en": "Givens Hollow",
+        "natural": "valley",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.9676044,
+          35.9879537
+        ]
+      },
+      "id": "way/1420590579"
+    }
+  ]
+}

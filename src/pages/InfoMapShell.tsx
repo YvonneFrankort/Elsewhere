@@ -17,14 +17,24 @@ import { StyleManager } from "../map/core/style/StyleManager";
 import InfoMapControls from "../map/info/ui/desktop/MapDesktopControls";
 import InfoMapMobile from "../map/info/ui/mobile/MapMobileMenu";
 
-import { usePlacesStore } from "../map/info/state/usePlacesStore";
 import { usePlacesLayer } from "../map/info/layers/places/usePlacesLayer";
-import { useInfoMapData } from "../map/info/state/useInfoMapData";   
+import { useInfoMapData } from "../map/info/state/useInfoMapData";
 import type { PlaceItem } from "../map/info/data/placeCategories";
 import { useInitPlacesLayer } from "../map/info/layers/places/initPlacesLayer";
 import { useSearchLayer } from "../map/info/layers/search/SearchLayer";
 
+import { usePlacesStore } from "../map/info/state/usePlacesStore";
+import { useInfoMapUI } from "../map/info/state/useInfoMapUI";
+import { useCategoryState } from "../map/info/state/useCategoryState";
+
 function InfoMapShell() {
+  
+const places = usePlacesStore((s) => s.places);
+const selectedItemId = useInfoMapUI((s) => s.selectedItemId);
+const setSelectedItem = useInfoMapUI((s) => s.setSelectedItem);
+const activeCategories = useCategoryState((s) => s.activeCategories);
+const { loadPlacesForItem } = useInfoMapData();
+
   const mapContainer = useRef<HTMLDivElement | null>(null);
   const mapRef = useRef<mapboxgl.Map | null>(null);
   const styleManagerRef = useRef<StyleManager | null>(null);
@@ -43,18 +53,28 @@ function InfoMapShell() {
     longitude: number;
   } | null>(null);
 
-  const {
-    places,
-    selectedPlace,
-    selectPlace
-  } = usePlacesStore();
+  // ⭐ DERIVE selectedPlace FROM places + selectedItemId
+  const selectedPlace =
+    places.find((f) => f.properties?.id === selectedItemId) || null;
 
+  function selectPlace(feature: any | null) {
+  const id = feature?.properties?.id ?? null;
+  setSelectedItem(id);
+}
+
+
+  // -------------------------------------------------------
+  // WINDOW RESIZE
+  // -------------------------------------------------------
   useEffect(() => {
     const handleResize = () => setIsMobile(window.innerWidth <= 768);
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
+  // -------------------------------------------------------
+  // PAGE CLASS
+  // -------------------------------------------------------
   useEffect(() => {
     document.body.classList.add("map-page");
     document.documentElement.classList.add("map-page");
@@ -64,7 +84,9 @@ function InfoMapShell() {
     };
   }, []);
 
-  // ⭐ MAP INITIALIZATION
+  // -------------------------------------------------------
+  // MAP INITIALIZATION
+  // -------------------------------------------------------
   useBaseMapInitialize(mapContainer, mapRef, styleManagerRef, style);
   useBaseMapStyle(mapRef, styleManagerRef, style);
 
@@ -72,7 +94,7 @@ function InfoMapShell() {
   useInitPlacesLayer(mapRef);
 
   // ⭐ CREATE SEARCH LAYER
-  useSearchLayer(mapRef, searchResult);
+  //useSearchLayer(mapRef, searchResult);
 
   // ⭐ UPDATE INFO PLACES LAYER
   usePlacesLayer(mapRef, places, selectPlace);
@@ -80,6 +102,9 @@ function InfoMapShell() {
   const { flyTo } = useBaseMapCamera(mapRef);
   useBaseMapEvents(mapRef);
 
+  // -------------------------------------------------------
+  // FLY TO SELECTED PLACE
+  // -------------------------------------------------------
   useEffect(() => {
     if (!selectedPlace || !mapRef.current) return;
 
@@ -92,7 +117,9 @@ function InfoMapShell() {
     }
   }, [selectedPlace, flyTo]);
 
-  // ⭐ MOBILE AUTO-LOCATE
+  // -------------------------------------------------------
+  // MOBILE AUTO-LOCATE
+  // -------------------------------------------------------
   useEffect(() => {
     if (!isMobile) return;
     if (!mapRef.current) return;
@@ -113,7 +140,7 @@ function InfoMapShell() {
         mapRef.current!.jumpTo({
           center: [longitude, latitude],
           zoom: 16,
-          pitch: 50,
+          pitch: 50
         });
       },
       (err) => console.error("GEO ERROR", err),
@@ -121,7 +148,9 @@ function InfoMapShell() {
     );
   }, [isMobile, mapRef]);
 
-  // ⭐ UPDATED SEARCH HANDLER
+  // -------------------------------------------------------
+  // SEARCH HANDLER
+  // -------------------------------------------------------
   async function handleSearch() {
     if (!mapRef.current || !query.trim()) return;
 
@@ -166,6 +195,9 @@ function InfoMapShell() {
     }
   }
 
+  // -------------------------------------------------------
+  // LOCATE ME
+  // -------------------------------------------------------
   function handleLocateMe() {
     if (!mapRef.current || !mapRef.current.loaded()) return;
 
@@ -186,7 +218,7 @@ function InfoMapShell() {
           center: [longitude, latitude],
           zoom: 16,
           pitch: 50,
-          duration: 800,
+          duration: 800
         });
 
         setTimeout(() => {
@@ -199,13 +231,26 @@ function InfoMapShell() {
     );
   }
 
-  // ⭐ CATEGORY HANDLER
-  function handleCategorySelect(item: PlaceItem) {
+  // -------------------------------------------------------
+  // CATEGORY HANDLER
+  // -------------------------------------------------------
+
+  useEffect(() => {
     if (!mapRef.current) return;
 
-    const { loadPlacesForItem } = useInfoMapData.getState();
-    loadPlacesForItem(mapRef.current, item.id);
-  }
+    if (activeCategories.length === 0) {
+      const src = mapRef.current.getSource("info-places") as mapboxgl.GeoJSONSource;
+      if (src) {
+        src.setData({
+          type: "FeatureCollection",
+          features: []
+        });
+      }
+      return;
+    }
+
+    loadPlacesForItem(mapRef.current);
+  }, [activeCategories]);
 
   return (
     <div className="flex flex-col w-full h-screen">
@@ -224,12 +269,9 @@ function InfoMapShell() {
             query={query}
             setQuery={setQuery}
             handleSearch={handleSearch}
-
             places={places}
             selectedPlace={selectedPlace}
             selectPlace={selectPlace}
-
-            onCategorySelect={handleCategorySelect}
           />
         </div>
       )}
@@ -243,9 +285,6 @@ function InfoMapShell() {
             handleSearch={handleSearch}
             style={style}
             setStyle={setStyle}
-
-            onCategorySelect={handleCategorySelect}
-
             places={places}
             selectedPlace={selectedPlace}
             selectPlace={selectPlace}

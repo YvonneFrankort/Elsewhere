@@ -4,6 +4,9 @@ import type { Feature } from "geojson";
 import type { PlaceCategory, PlaceGroup, PlaceSubcategory, PlaceItem } from "../../data/placeCategories";
 import { placeCategories } from "../../data/placeCategories";
 
+import { useCategoryState } from "../../state/useCategoryState";
+
+
 interface Props {
   flyTo: (center: [number, number], zoom?: number, pitch?: number, bearing?: number) => void;
   style: string;
@@ -15,7 +18,6 @@ interface Props {
   places: Feature[];
   selectedPlace: Feature | null;
   selectPlace: (place: Feature) => void;
-  onCategorySelect: (item: PlaceItem) => void;
 }
 
 /* -----------------------------
@@ -52,7 +54,6 @@ function Segmented({ value, onChange, options }: SegmentedProps) {
 /* -----------------------------
    Main Component
 ------------------------------ */
-
 function InfoMapControls({
   flyTo,
   style,
@@ -60,35 +61,38 @@ function InfoMapControls({
   query,
   setQuery,
   mapRef,
-  handleSearch,
-  onCategorySelect
+  handleSearch
 }: Props) {
+
   const [layout, setLayout] = useState("info");
   const [showCategories, setShowCategories] = useState(false);
 
-  // NEW: expanded states
   const [openCategoryId, setOpenCategoryId] = useState<string | null>(null);
   const [openGroupId, setOpenGroupId] = useState<string | null>(null);
   const [openSubId, setOpenSubId] = useState<string | null>(null);
 
+  // ⭐ NEW: Zustand multi-category state
+  const activeCategories = useCategoryState((s) => s.activeCategories);
+  const toggleCategoryState = useCategoryState((s) => s.toggleCategory);
+
   function toggleCategory(cat: PlaceCategory) {
-    setOpenCategoryId((prev) => (prev === cat.id ? null : cat.id));
+    setOpenCategoryId(prev => (prev === cat.id ? null : cat.id));
     setOpenGroupId(null);
     setOpenSubId(null);
   }
 
   function toggleGroup(group: PlaceGroup) {
-    setOpenGroupId((prev) => (prev === group.id ? null : group.id));
+    setOpenGroupId(prev => (prev === group.id ? null : group.id));
     setOpenSubId(null);
   }
 
   function toggleSub(sub: PlaceSubcategory) {
-    setOpenSubId((prev) => (prev === sub.id ? null : sub.id));
+    setOpenSubId(prev => (prev === sub.id ? null : sub.id));
   }
 
+  // ⭐ UPDATED: Multi-category toggle
   function handleItemClick(item: PlaceItem) {
-    onCategorySelect(item);
-    setShowCategories(false);
+    toggleCategoryState(item.id);   // add/remove category
   }
 
   return (
@@ -102,7 +106,7 @@ function InfoMapControls({
             options={[
               { label: "Info Map", value: "info" },
               { label: "Memory Map", value: "memory" },
-              { label: "Planner", value: "planner" },
+              { label: "Planner", value: "planner" }
             ]}
           />
 
@@ -112,14 +116,11 @@ function InfoMapControls({
             options={[
               { label: "Streets", value: "mapbox://styles/mapbox/streets-v12" },
               { label: "Outdoors", value: "mapbox://styles/mapbox/outdoors-v12" },
-              { label: "Satellite", value: "mapbox://styles/mapbox/satellite-streets-v12" },
+              { label: "Satellite", value: "mapbox://styles/mapbox/satellite-streets-v12" }
             ]}
           />
 
-          <button
-            className="places-btn"
-            onClick={() => setShowCategories((v) => !v)}
-          >
+          <button className="places-btn" onClick={() => setShowCategories(v => !v)}>
             Categories
           </button>
 
@@ -129,8 +130,8 @@ function InfoMapControls({
           <div className="map-search">
             <input
               value={query}
-              onChange={(e) => setQuery(e.target.value)}
-              onKeyDown={(e) => e.key === "Enter" && handleSearch()}
+              onChange={e => setQuery(e.target.value)}
+              onKeyDown={e => e.key === "Enter" && handleSearch()}
               placeholder="Search place or coordinates"
             />
             <button onClick={handleSearch}>🔍</button>
@@ -143,7 +144,7 @@ function InfoMapControls({
       {showCategories && (
         <div className="places-panel">
 
-          {placeCategories.map((cat) => (
+          {placeCategories.map(cat => (
             <div key={cat.id} className="category-group">
 
               {/* CATEGORY */}
@@ -155,7 +156,8 @@ function InfoMapControls({
               {/* GROUPS */}
               {openCategoryId === cat.id && (
                 <div className="subcategory-list">
-                  {cat.groups.map((group) => (
+
+                  {cat.groups.map(group => (
                     <div key={group.id} className="group-block">
 
                       <div className="group-title" onClick={() => toggleGroup(group)}>
@@ -163,10 +165,30 @@ function InfoMapControls({
                         <span className="chevron">{openGroupId === group.id ? "▼" : "▶"}</span>
                       </div>
 
-                      {/* SUBCATEGORIES */}
+                      {/* SUBCATEGORIES OR DIRECT ITEMS */}
                       {openGroupId === group.id && (
                         <div className="sub-list">
-                          {group.subcategories.map((sub) => (
+
+                          {/* CASE 1: group has direct items */}
+                          {group.items && (
+                            <div className="item-list">
+                              {group.items.map(item => (
+                                <div
+                                  key={item.id}
+                                  className={
+                                    "place-item sub-item " +
+                                    (activeCategories.includes(item.id) ? "active" : "")
+                                  }
+                                  onClick={() => handleItemClick(item)}
+                                >
+                                  {item.label}
+                                </div>
+                              ))}
+                            </div>
+                          )}
+
+                          {/* CASE 2: group has subcategories */}
+                          {group.subcategories && group.subcategories.map(sub => (
                             <div key={sub.id} className="sub-block">
 
                               <div className="sub-title" onClick={() => toggleSub(sub)}>
@@ -174,13 +196,15 @@ function InfoMapControls({
                                 <span className="chevron">{openSubId === sub.id ? "▼" : "▶"}</span>
                               </div>
 
-                              {/* FINAL ITEMS */}
                               {openSubId === sub.id && (
                                 <div className="item-list">
-                                  {sub.items.map((item) => (
+                                  {sub.items.map(item => (
                                     <div
                                       key={item.id}
-                                      className="place-item sub-item"
+                                      className={
+                                        "place-item sub-item " +
+                                        (activeCategories.includes(item.id) ? "active" : "")
+                                      }
                                       onClick={() => handleItemClick(item)}
                                     >
                                       {item.label}
@@ -191,11 +215,13 @@ function InfoMapControls({
 
                             </div>
                           ))}
+
                         </div>
                       )}
 
                     </div>
                   ))}
+
                 </div>
               )}
 

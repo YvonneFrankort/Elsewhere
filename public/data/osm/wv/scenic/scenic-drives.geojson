@@ -1,0 +1,3597 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-06-27T23:52:51Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/6049726",
+        "hgv": "no",
+        "highway": "secondary",
+        "lane_markings": "yes",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "operator:wikidata": "Q308439",
+        "scenic": "yes",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "tiger:cfcc": "A11;A11;A21",
+        "tiger:county": "Roanoke-City, VA;Roanoke-City, VA;Roanoke, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9312432,
+          37.2237219
+        ]
+      },
+      "id": "way/6049726"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/18962333",
+        "highway": "tertiary",
+        "name": "County Highway 3175",
+        "name:scenic": "Wally Road Scenic Byway",
+        "note:old_railway_operator": "TC&OR (TWV&O)",
+        "old_railway_operator": "PRR",
+        "railway": "abandoned",
+        "ref": "CR 3175",
+        "scenic": "yes",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Ashland, OH",
+        "tiger:name_base": "County Highway 3175",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.2366439,
+          40.6070573
+        ]
+      },
+      "id": "way/18962333"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/19087671",
+        "highway": "tertiary",
+        "name": "County Highway 23",
+        "name:scenic": "Wally Road Scenic Byway",
+        "note:old_railway_operator": "TC&OR (TWV&O)",
+        "old_railway_operator": "PRR",
+        "railway": "abandoned",
+        "ref": "CR 23",
+        "scenic": "yes",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Holmes, OH",
+        "tiger:name_base": "County Highway 23",
+        "tiger:reviewed": "no",
+        "tiger:zip_left": "44842",
+        "tiger:zip_right": "44842",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.1982417,
+          40.589355
+        ]
+      },
+      "id": "way/19087671"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/19087674",
+        "highway": "tertiary",
+        "name": "County Highway 23",
+        "name:scenic": "Wally Road Scenic Byway",
+        "note:old_railway_operator": "TC&OR (TWV&O)",
+        "old_railway_operator": "PRR",
+        "railway": "abandoned",
+        "scenic": "yes",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Holmes, OH",
+        "tiger:name_base": "County Highway 23",
+        "tiger:reviewed": "no",
+        "tiger:zip_left": "44842",
+        "tiger:zip_right": "44842",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.190143,
+          40.5783149
+        ]
+      },
+      "id": "way/19087674"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/19116730",
+        "highway": "tertiary",
+        "name": "Wally Road",
+        "name:scenic": "Wally Road Scenic Byway",
+        "name_1": "Township Road 360",
+        "scenic": "yes",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Knox, OH",
+        "tiger:name_base": "Wally",
+        "tiger:name_base_1": "Township Road 360",
+        "tiger:name_type": "Rd",
+        "tiger:reviewed": "no",
+        "tiger:zip_left": "44628",
+        "tiger:zip_right": "44628",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.201042,
+          40.5446984
+        ]
+      },
+      "id": "way/19116730"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/19826614",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A31",
+        "tiger:county": "Bedford, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4410203,
+          37.5533032
+        ]
+      },
+      "id": "way/19826614"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/19826617",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A31;A11",
+        "tiger:county": "Bedford, VA;Botetourt, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.7244978,
+          37.4465744
+        ]
+      },
+      "id": "way/19826617"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/19826619",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A31",
+        "tiger:county": "Bedford, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.7083535,
+          37.4589143
+        ]
+      },
+      "id": "way/19826619"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/19826626",
+        "bridge": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A31",
+        "tiger:county": "Bedford, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6687837,
+          37.4834602
+        ]
+      },
+      "id": "way/19826626"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/19826628",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A31",
+        "tiger:county": "Bedford, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6788313,
+          37.4812876
+        ]
+      },
+      "id": "way/19826628"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/19826634",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "ref": "VA 43",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A31",
+        "tiger:county": "Bedford, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6204173,
+          37.4499624
+        ]
+      },
+      "id": "way/19826634"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/19826640",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A31",
+        "tiger:county": "Bedford, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6935845,
+          37.4727995
+        ]
+      },
+      "id": "way/19826640"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/19826641",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A31",
+        "tiger:county": "Bedford, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5648215,
+          37.4809621
+        ]
+      },
+      "id": "way/19826641"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/19847638",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A11",
+        "tiger:county": "Amherst, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3293908,
+          37.6882176
+        ]
+      },
+      "id": "way/19847638"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/19847640",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A11:A11;A41;A11:A21:A31",
+        "tiger:county": "Amherst, VA:Amherst, VA;Rockbridge, VA;Amherst, VA:Rockbridge, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3195096,
+          37.706856
+        ]
+      },
+      "id": "way/19847640"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/19847657",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A11",
+        "tiger:county": "Amherst, VA:Rockbridge, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.239628,
+          37.802337
+        ]
+      },
+      "id": "way/19847657"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/19852904",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A11",
+        "tiger:county": "Botetourt, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.7189425,
+          37.4501855
+        ]
+      },
+      "id": "way/19852904"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/19852907",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A11",
+        "tiger:county": "Botetourt, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.7382313,
+          37.4383619
+        ]
+      },
+      "id": "way/19852907"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/19852910",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "ref": "VA 43",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A11",
+        "tiger:county": "Botetourt, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6340493,
+          37.4636994
+        ]
+      },
+      "id": "way/19852910"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/19852912",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A11",
+        "tiger:county": "Botetourt, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5910265,
+          37.4609566
+        ]
+      },
+      "id": "way/19852912"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/19852917",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A11",
+        "tiger:county": "Botetourt, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6874433,
+          37.4770755
+        ]
+      },
+      "id": "way/19852917"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/19852919",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A31",
+        "tiger:county": "Botetourt, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6718795,
+          37.4838065
+        ]
+      },
+      "id": "way/19852919"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/19852924",
+        "hgv": "no",
+        "highway": "secondary",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "tiger:cfcc": "A11",
+        "tiger:county": "Botetourt, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.8577427,
+          37.3219278
+        ]
+      },
+      "id": "way/19852924"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/19852925",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A31",
+        "tiger:county": "Botetourt, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5445978,
+          37.4930605
+        ]
+      },
+      "id": "way/19852925"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/19872026",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Augusta, VA",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.024386,
+          37.8924075
+        ]
+      },
+      "id": "way/19872026"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/19875360",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "oneway": "no",
+        "scenic": "yes",
+        "shoulder": "no",
+        "surface": "asphalt",
+        "tiger:cfcc": "A21",
+        "tiger:county": "Augusta, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.9536625,
+          37.9297325
+        ]
+      },
+      "id": "way/19875360"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/19875364",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "oneway": "no",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A21;A41",
+        "tiger:county": "Augusta, VA;Nelson, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.052943,
+          37.9031795
+        ]
+      },
+      "id": "way/19875364"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/19875366",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A21",
+        "tiger:county": "Augusta, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.123051,
+          37.89829
+        ]
+      },
+      "id": "way/19875366"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/19875368",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A21",
+        "tiger:county": "Augusta, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.074791,
+          37.9143801
+        ]
+      },
+      "id": "way/19875368"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/19875369",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "oneway": "no",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Augusta, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.9023615,
+          37.990697
+        ]
+      },
+      "id": "way/19875369"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/19875370",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A21",
+        "tiger:county": "Augusta, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.131553,
+          37.8942635
+        ]
+      },
+      "id": "way/19875370"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/19875372",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A21",
+        "tiger:county": "Augusta, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0794758,
+          37.9139481
+        ]
+      },
+      "id": "way/19875372"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/19875374",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A21",
+        "tiger:county": "Augusta, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.1032852,
+          37.9053205
+        ]
+      },
+      "id": "way/19875374"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/19875376",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Augusta, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.9067055,
+          37.9828808
+        ]
+      },
+      "id": "way/19875376"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/19875387",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A21",
+        "tiger:county": "Augusta, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.8891595,
+          38.0046375
+        ]
+      },
+      "id": "way/19875387"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/20386765",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Blue Ridge Parkway",
+        "oneway": "no",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Nelson, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.9042785,
+          37.989119
+        ]
+      },
+      "id": "way/20386765"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/20386771",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Nelson, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.9040105,
+          37.978446
+        ]
+      },
+      "id": "way/20386771"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/20386783",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.8583074,
+          38.0314624
+        ]
+      },
+      "id": "way/20386783"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/20386784",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Nelson, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0766318,
+          37.9148578
+        ]
+      },
+      "id": "way/20386784"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/20386798",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Nelson, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.1514314,
+          37.88644
+        ]
+      },
+      "id": "way/20386798"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/20386808",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Nelson, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0905279,
+          37.9100924
+        ]
+      },
+      "id": "way/20386808"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/20386819",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "oneway": "no",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Nelson, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.015706,
+          37.886984
+        ]
+      },
+      "id": "way/20386819"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/20386856",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Nelson, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.898266,
+          37.993755
+        ]
+      },
+      "id": "way/20386856"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/20386860",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A42",
+        "tiger:county": "Nelson, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.112988,
+          37.9020275
+        ]
+      },
+      "id": "way/20386860"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/20386863",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "oneway": "no",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Nelson, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0296525,
+          37.8921388
+        ]
+      },
+      "id": "way/20386863"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/20386866",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A42;A41;A41",
+        "tiger:county": "Nelson, VA;Rockbridge, VA;Nelson, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.1475175,
+          37.8687853
+        ]
+      },
+      "id": "way/20386866"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/20386872",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Nelson, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.1493993,
+          37.87642
+        ]
+      },
+      "id": "way/20386872"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/20468772",
+        "hgv": "no",
+        "highway": "secondary",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "tiger:cfcc": "A21",
+        "tiger:county": "Roanoke, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.8545197,
+          37.2761741
+        ]
+      },
+      "id": "way/20468772"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/20468810",
+        "hgv": "no",
+        "highway": "secondary",
+        "lane_markings": "yes",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "operator": "National Park Service",
+        "operator:wikidata": "Q308439",
+        "scenic": "yes",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "tiger:cfcc": "A31",
+        "tiger:county": "Roanoke, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9159176,
+          37.2264997
+        ]
+      },
+      "id": "way/20468810"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/20490504",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A43",
+        "tiger:county": "Rockbridge, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.155131,
+          37.8814062
+        ]
+      },
+      "id": "way/20490504"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/20490582",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Rockbridge, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.2179298,
+          37.7989903
+        ]
+      },
+      "id": "way/20490582"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/20490610",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A11",
+        "tiger:county": "Rockbridge, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4971307,
+          37.5363287
+        ]
+      },
+      "id": "way/20490610"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/20490614",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Rockbridge, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.1465886,
+          37.8606356
+        ]
+      },
+      "id": "way/20490614"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/20490634",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Rockbridge, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.1471126,
+          37.8749818
+        ]
+      },
+      "id": "way/20490634"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/38210672",
+        "hgv": "no",
+        "highway": "secondary",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "tiger:cfcc": "A31",
+        "tiger:county": "Roanoke, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.8802768,
+          37.2433936
+        ]
+      },
+      "id": "way/38210672"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/38210674",
+        "bridge": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "layer": "1",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "tiger:cfcc": "A31",
+        "tiger:county": "Roanoke, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.8860017,
+          37.2400901
+        ]
+      },
+      "id": "way/38210674"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/38210681",
+        "bridge": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "lane_markings": "yes",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "operator": "National Park Service",
+        "operator:wikidata": "Q308439",
+        "scenic": "yes",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "tiger:cfcc": "A31",
+        "tiger:county": "Roanoke, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9054061,
+          37.2302768
+        ]
+      },
+      "id": "way/38210681"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/38210682",
+        "hgv": "no",
+        "highway": "secondary",
+        "lane_markings": "yes",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "operator": "National Park Service",
+        "operator:wikidata": "Q308439",
+        "scenic": "yes",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "tiger:cfcc": "A31",
+        "tiger:county": "Roanoke, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.895683,
+          37.2352711
+        ]
+      },
+      "id": "way/38210682"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/38284347",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A31",
+        "tiger:county": "Bedford, VA:Botetourt, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5206498,
+          37.5145055
+        ]
+      },
+      "id": "way/38284347"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/38284544",
+        "bridge": "yes",
+        "bridge:name": "Harry Floyd Byrd Memorial Bridge",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "layer": "2",
+        "maxspeed": "35 mph",
+        "motor_vehicle:conditional": "no @ (2025 Sep 09-2026 Sep 09)",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A31",
+        "tiger:county": "Bedford, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3681079,
+          37.5551863
+        ]
+      },
+      "id": "way/38284544"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/38284912",
+        "bridge": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "layer": "1",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A43",
+        "tiger:county": "Rockbridge, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.1518252,
+          37.8859257
+        ]
+      },
+      "id": "way/38284912"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/38330250",
+        "hgv": "no",
+        "highway": "secondary",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "tiger:cfcc": "A11",
+        "tiger:county": "Botetourt, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.8551562,
+          37.3291827
+        ]
+      },
+      "id": "way/38330250"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/38330251",
+        "bridge": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "layer": "1",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "tiger:cfcc": "A11",
+        "tiger:county": "Botetourt, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.857796,
+          37.3236366
+        ]
+      },
+      "id": "way/38330251"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/38427089",
+        "hgv": "no",
+        "highway": "secondary",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "tiger:cfcc": "A21",
+        "tiger:county": "Bedford, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.8568491,
+          37.2670346
+        ]
+      },
+      "id": "way/38427089"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/41374880",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "oneway": "no",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Nelson, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.905187,
+          37.9867353
+        ]
+      },
+      "id": "way/41374880"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/41655725",
+        "bridge": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A11",
+        "tiger:county": "Amherst, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3512802,
+          37.573009
+        ]
+      },
+      "id": "way/41655725"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/41655726",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "35 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A11",
+        "tiger:county": "Amherst, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3599434,
+          37.5565662
+        ]
+      },
+      "id": "way/41655726"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/41655876",
+        "bridge": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "layer": "1",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "tiger:cfcc": "A21",
+        "tiger:county": "Roanoke, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.8522843,
+          37.2842444
+        ]
+      },
+      "id": "way/41655876"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/41655877",
+        "hgv": "no",
+        "highway": "secondary",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "tiger:cfcc": "A21",
+        "tiger:county": "Roanoke, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.8521827,
+          37.2846886
+        ]
+      },
+      "id": "way/41655877"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/41708428",
+        "bridge": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "lane_markings": "yes",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "tiger:cfcc": "A21",
+        "tiger:county": "Roanoke, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9560299,
+          37.2103515
+        ]
+      },
+      "id": "way/41708428"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/41708429",
+        "hgv": "no",
+        "highway": "secondary",
+        "lane_markings": "yes",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "operator": "National Park Service",
+        "operator:wikidata": "Q308439",
+        "scenic": "yes",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "tiger:cfcc": "A21",
+        "tiger:county": "Roanoke, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9502317,
+          37.2143571
+        ]
+      },
+      "id": "way/41708429"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/44025858",
+        "bridge": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "layer": "1",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "tiger:cfcc": "A21",
+        "tiger:county": "Roanoke, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.8568083,
+          37.2932829
+        ]
+      },
+      "id": "way/44025858"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/44025859",
+        "hgv": "no",
+        "highway": "secondary",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "tiger:cfcc": "A21",
+        "tiger:county": "Roanoke, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.8651072,
+          37.3068382
+        ]
+      },
+      "id": "way/44025859"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/53803956",
+        "hgv": "no",
+        "highway": "secondary",
+        "lane_markings": "yes",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "tiger:cfcc": "A21",
+        "tiger:county": "Roanoke, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9832708,
+          37.1964585
+        ]
+      },
+      "id": "way/53803956"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/58723101",
+        "hgv": "no",
+        "highway": "secondary",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "tiger:cfcc": "A31",
+        "tiger:county": "Roanoke, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.8635001,
+          37.2606279
+        ]
+      },
+      "id": "way/58723101"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/58723128",
+        "bridge": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "layer": "1",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "tiger:cfcc": "A31",
+        "tiger:county": "Roanoke, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.870691,
+          37.2545165
+        ]
+      },
+      "id": "way/58723128"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/69022739",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Nelson, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.143447,
+          37.8896915
+        ]
+      },
+      "id": "way/69022739"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/73534114",
+        "highway": "tertiary",
+        "name": "County Highway 23",
+        "name:scenic": "Wally Road Scenic Byway",
+        "note:old_railway_operator": "TC&OR (TWV&O)",
+        "old_railway_operator": "PRR",
+        "railway": "abandoned",
+        "ref": "CR 23",
+        "scenic": "yes",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Holmes, OH",
+        "tiger:name_base": "County Highway 23",
+        "tiger:reviewed": "no",
+        "tiger:zip_left": "44842",
+        "tiger:zip_right": "44842",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.2137663,
+          40.5945063
+        ]
+      },
+      "id": "way/73534114"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/73534115",
+        "bridge": "yes",
+        "highway": "tertiary",
+        "layer": "1",
+        "name": "County Highway 23",
+        "name:scenic": "Wally Road Scenic Byway",
+        "note:old_railway_operator": "TC&OR (TWV&O)",
+        "old_railway_operator": "PRR",
+        "railway": "abandoned",
+        "ref": "CR 23",
+        "scenic": "yes",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Holmes, OH",
+        "tiger:name_base": "County Highway 23",
+        "tiger:reviewed": "no",
+        "tiger:separated": "no",
+        "tiger:source": "tiger_import_dch_v0.6_20070829",
+        "tiger:tlid": "58652223:58667729:58637347:58637185:58637186:58652234:58652235:58637662:58652361:58637193:58640139:58640141:58640142:58639898:58652551:58652552",
+        "tiger:upload_uuid": "bulk_upload.pl-eb2501b1-2325-43c2-8846-60078da17c67",
+        "tiger:zip_left": "44842",
+        "tiger:zip_right": "44842",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.2068437,
+          40.5941282
+        ]
+      },
+      "id": "way/73534115"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/108400563",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A31",
+        "tiger:county": "Bedford, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6685173,
+          37.4832495
+        ]
+      },
+      "id": "way/108400563"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/168435816",
+        "highway": "tertiary",
+        "name": "Wally Road",
+        "name:scenic": "Wally Road Scenic Byway",
+        "name_1": "Township Road 360",
+        "note:old_railway_operator": "TC&OR (TWV&O)",
+        "old_railway_operator": "PRR",
+        "railway": "abandoned",
+        "scenic": "yes",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Knox, OH",
+        "tiger:name_base": "Wally",
+        "tiger:name_base_1": "Township Road 360",
+        "tiger:name_type": "Rd",
+        "tiger:reviewed": "no",
+        "tiger:zip_left": "44628",
+        "tiger:zip_right": "44628",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.1906835,
+          40.5694622
+        ]
+      },
+      "id": "way/168435816"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/180235778",
+        "bridge": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "layer": "1",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.8581446,
+          38.0312121
+        ]
+      },
+      "id": "way/180235778"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/225760211",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A11:A11;A41;A11:A21:A31",
+        "tiger:county": "Amherst, VA:Amherst, VA;Rockbridge, VA;Amherst, VA:Rockbridge, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.2822877,
+          37.7668094
+        ]
+      },
+      "id": "way/225760211"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/225760212",
+        "bridge": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "layer": "1",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A11:A11;A41;A11:A21:A31",
+        "tiger:county": "Amherst, VA:Amherst, VA;Rockbridge, VA;Amherst, VA:Rockbridge, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.302933,
+          37.7409277
+        ]
+      },
+      "id": "way/225760212"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/284838830",
+        "hgv": "no",
+        "highway": "secondary",
+        "lane_markings": "yes",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "operator:wikidata": "Q308439",
+        "scenic": "yes",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "tiger:cfcc": "A21",
+        "tiger:county": "Roanoke, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.93892,
+          37.2221032
+        ]
+      },
+      "id": "way/284838830"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/286498096",
+        "hgv": "no",
+        "highway": "secondary",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "tiger:cfcc": "A31",
+        "tiger:county": "Bedford, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.7528173,
+          37.4284328
+        ]
+      },
+      "id": "way/286498096"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/286498097",
+        "hgv": "no",
+        "highway": "secondary",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "tiger:cfcc": "A31",
+        "tiger:county": "Bedford, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.7577892,
+          37.4243329
+        ]
+      },
+      "id": "way/286498097"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/287336207",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "oneway": "no",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Augusta, VA:Nelson, VA",
+        "tiger:name_base": "Blue Ridge:Skyline",
+        "tiger:name_type": "Dr:Pky",
+        "tiger:reviewed": "aerial",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.8697825,
+          38.0224369
+        ]
+      },
+      "id": "way/287336207"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/296896695",
+        "bridge": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "layer": "1",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Rockbridge, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.1487604,
+          37.863369
+        ]
+      },
+      "id": "way/296896695"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/296968341",
+        "bridge": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "layer": "1",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "tiger:cfcc": "A31",
+        "tiger:county": "Roanoke, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.8570217,
+          37.2655441
+        ]
+      },
+      "id": "way/296968341"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/301739507",
+        "bridge": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "lane_markings": "yes",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "tiger:cfcc": "A21",
+        "tiger:county": "Roanoke, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9702811,
+          37.2016583
+        ]
+      },
+      "id": "way/301739507"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/301739509",
+        "hgv": "no",
+        "highway": "secondary",
+        "lane_markings": "yes",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "tiger:cfcc": "A21",
+        "tiger:county": "Roanoke, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9632242,
+          37.2059846
+        ]
+      },
+      "id": "way/301739509"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/301739970",
+        "hgv": "no",
+        "highway": "secondary",
+        "lane_markings": "yes",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "operator:wikidata": "Q308439",
+        "scenic": "yes",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "tiger:cfcc": "A11;A11;A21",
+        "tiger:county": "Roanoke-City, VA;Roanoke-City, VA;Roanoke, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9276406,
+          37.2228704
+        ]
+      },
+      "id": "way/301739970"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/301739972",
+        "hgv": "no",
+        "highway": "secondary",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "tiger:cfcc": "A31",
+        "tiger:county": "Roanoke, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.8729657,
+          37.2500309
+        ]
+      },
+      "id": "way/301739972"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/301739973",
+        "bridge": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "layer": "1",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A31",
+        "tiger:county": "Roanoke, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.8746097,
+          37.2467714
+        ]
+      },
+      "id": "way/301739973"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/301739974",
+        "bridge": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "lane_markings": "yes",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "operator:wikidata": "Q308439",
+        "scenic": "yes",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "tiger:cfcc": "A11;A11;A21",
+        "tiger:county": "Roanoke-City, VA;Roanoke-City, VA;Roanoke, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9293458,
+          37.2230328
+        ]
+      },
+      "id": "way/301739974"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/363425049",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A11",
+        "tiger:county": "Amherst, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3344092,
+          37.619499
+        ]
+      },
+      "id": "way/363425049"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/363425050",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "layer": "-1",
+        "maxheight": "13'7\"",
+        "maxspeed": "45 mph",
+        "name": "Bluff Mountain Tunnel",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A11",
+        "tiger:county": "Amherst, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "tunnel": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3230278,
+          37.6653973
+        ]
+      },
+      "id": "way/363425050"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/363538048",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "ref": "VA 43",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A31",
+        "tiger:county": "Bedford, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6550916,
+          37.477538
+        ]
+      },
+      "id": "way/363538048"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/363538049",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "35 mph",
+        "name": "Blue Ridge Parkway",
+        "oneway": "yes",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A31",
+        "tiger:county": "Bedford, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6088496,
+          37.4455158
+        ]
+      },
+      "id": "way/363538049"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/363538234",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "35 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A31",
+        "tiger:county": "Bedford, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6046671,
+          37.4496499
+        ]
+      },
+      "id": "way/363538234"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/363538235",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "35 mph",
+        "name": "Blue Ridge Parkway",
+        "oneway": "yes",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A31",
+        "tiger:county": "Bedford, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6088843,
+          37.4455845
+        ]
+      },
+      "id": "way/363538235"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/363538236",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "35 mph",
+        "name": "Blue Ridge Parkway",
+        "oneway": "yes",
+        "ref": "VA 43",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A31",
+        "tiger:county": "Bedford, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6115737,
+          37.4448014
+        ]
+      },
+      "id": "way/363538236"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/363538237",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "35 mph",
+        "name": "Blue Ridge Parkway",
+        "oneway": "yes",
+        "ref": "VA 43",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A31",
+        "tiger:county": "Bedford, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6115391,
+          37.4447327
+        ]
+      },
+      "id": "way/363538237"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/363763158",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A31",
+        "tiger:county": "Bedford, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.7825618,
+          37.4154704
+        ]
+      },
+      "id": "way/363763158"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/363769893",
+        "hgv": "no",
+        "highway": "secondary",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "tiger:cfcc": "A11",
+        "tiger:county": "Botetourt, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.8356407,
+          37.3563399
+        ]
+      },
+      "id": "way/363769893"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/363769894",
+        "hgv": "no",
+        "highway": "secondary",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "tiger:cfcc": "A11",
+        "tiger:county": "Botetourt, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.8390031,
+          37.3733065
+        ]
+      },
+      "id": "way/363769894"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/363769895",
+        "bridge": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "layer": "1",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "tiger:cfcc": "A11",
+        "tiger:county": "Botetourt, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.8391955,
+          37.3702787
+        ]
+      },
+      "id": "way/363769895"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/363769896",
+        "bridge": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "layer": "1",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "tiger:cfcc": "A11",
+        "tiger:county": "Botetourt, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.8385506,
+          37.376294
+        ]
+      },
+      "id": "way/363769896"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/363769899",
+        "hgv": "no",
+        "highway": "secondary",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "tiger:cfcc": "A11",
+        "tiger:county": "Botetourt, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.8387039,
+          37.3689515
+        ]
+      },
+      "id": "way/363769899"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/363769904",
+        "hgv": "no",
+        "highway": "secondary",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "oneway": "yes",
+        "scenic": "yes",
+        "tiger:cfcc": "A11",
+        "tiger:county": "Botetourt, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.8381651,
+          37.367061
+        ]
+      },
+      "id": "way/363769904"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/363769905",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A11",
+        "tiger:county": "Botetourt, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.8236432,
+          37.3918333
+        ]
+      },
+      "id": "way/363769905"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/363778883",
+        "bridge": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "layer": "1",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "tiger:cfcc": "A11",
+        "tiger:county": "Botetourt, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.8519752,
+          37.3356347
+        ]
+      },
+      "id": "way/363778883"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/363778887",
+        "hgv": "no",
+        "highway": "secondary",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "tiger:cfcc": "A11",
+        "tiger:county": "Botetourt, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.8436825,
+          37.3450017
+        ]
+      },
+      "id": "way/363778887"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/440537237",
+        "bridge": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A11",
+        "tiger:county": "Amherst, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3294987,
+          37.6878628
+        ]
+      },
+      "id": "way/440537237"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/440537238",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A11",
+        "tiger:county": "Amherst, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3297065,
+          37.6757903
+        ]
+      },
+      "id": "way/440537238"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/444809161",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A11:A11;A41;A11:A21:A31",
+        "tiger:county": "Amherst, VA:Amherst, VA;Rockbridge, VA;Amherst, VA:Rockbridge, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3063771,
+          37.7330889
+        ]
+      },
+      "id": "way/444809161"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/444809162",
+        "bridge": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "layer": "1",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A11:A11;A41;A11:A21:A31",
+        "tiger:county": "Amherst, VA:Amherst, VA;Rockbridge, VA;Amherst, VA:Rockbridge, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3096628,
+          37.7253981
+        ]
+      },
+      "id": "way/444809162"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/467763493",
+        "bridge": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Rockbridge, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.2179934,
+          37.7985715
+        ]
+      },
+      "id": "way/467763493"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/467763494",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Rockbridge, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.1811874,
+          37.8259041
+        ]
+      },
+      "id": "way/467763494"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/607133716",
+        "bridge": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A11",
+        "tiger:county": "Amherst, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3529679,
+          37.5683994
+        ]
+      },
+      "id": "way/607133716"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/607133717",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A11",
+        "tiger:county": "Amherst, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3529246,
+          37.5707381
+        ]
+      },
+      "id": "way/607133717"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/640031200",
+        "bridge": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A31",
+        "tiger:county": "Bedford, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3889466,
+          37.5528008
+        ]
+      },
+      "id": "way/640031200"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/640031201",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A31",
+        "tiger:county": "Bedford, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3794829,
+          37.5536037
+        ]
+      },
+      "id": "way/640031201"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/827749829",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "35 mph",
+        "name": "Blue Ridge Parkway",
+        "ref": "VA 43",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A31",
+        "tiger:county": "Bedford, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6139326,
+          37.4445214
+        ]
+      },
+      "id": "way/827749829"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1069093261",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A31",
+        "tiger:county": "Bedford, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6973243,
+          37.4686691
+        ]
+      },
+      "id": "way/1069093261"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1069093262",
+        "bridge": "yes",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A31",
+        "tiger:county": "Bedford, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6996172,
+          37.4662754
+        ]
+      },
+      "id": "way/1069093262"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1191607521",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.8580079,
+          38.0310007
+        ]
+      },
+      "id": "way/1191607521"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1219055088",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A11",
+        "tiger:county": "Amherst, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3527511,
+          37.5624286
+        ]
+      },
+      "id": "way/1219055088"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1510352127",
+        "hgv": "no",
+        "highway": "secondary",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "tiger:cfcc": "A21",
+        "tiger:county": "Roanoke, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.8543616,
+          37.2890275
+        ]
+      },
+      "id": "way/1510352127"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1512706202",
+        "hgv": "no",
+        "highway": "secondary",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "tiger:cfcc": "A11",
+        "tiger:county": "Botetourt, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.8357295,
+          37.3543121
+        ]
+      },
+      "id": "way/1512706202"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1512706204",
+        "hgv": "no",
+        "highway": "secondary",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "scenic": "yes",
+        "tiger:cfcc": "A11",
+        "tiger:county": "Botetourt, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.8372524,
+          37.3618686
+        ]
+      },
+      "id": "way/1512706204"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1518530538",
+        "hgv": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "45 mph",
+        "name": "Blue Ridge Parkway",
+        "ref": "VA 43",
+        "scenic": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A31",
+        "tiger:county": "Bedford, VA",
+        "tiger:name_base": "Blue Ridge",
+        "tiger:name_type": "Pky",
+        "tiger:reviewed": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6683271,
+          37.4830844
+        ]
+      },
+      "id": "way/1518530538"
+    }
+  ]
+}

@@ -1,0 +1,1504 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-06-27T23:39:45Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/1756854",
+        "alt_name:dak": "Mníšošethąka",
+        "alt_name:es": "Río Misisipi",
+        "alt_name:fa": "رود می‌سی‌سی‌پی",
+        "alt_name:fr": "Mississippi",
+        "alt_name:paw": "kickaátit",
+        "alt_name:qua": "níutanka",
+        "destination": "Gulf of Mexico",
+        "destination:lang:de": "Golf von Mexiko",
+        "destination:lang:es": "Golfo de México",
+        "destination:lang:fr": "Golfe du Mexique",
+        "ele": "00",
+        "gnis:ST_alpha": "LA",
+        "gnis:county_name": "Plaquemines Parish",
+        "gnis:created": "06/04/1980",
+        "gnis:feature_id": "1629903",
+        "gnis:feature_type": "stream",
+        "name": "Mississippi River",
+        "name:af": "Mississippirivier",
+        "name:am": "ሚሲሲፒ ወንዝ",
+        "name:an": "Río Misisipi",
+        "name:ar": "نهر المسيسيبي",
+        "name:arc": "ܢܗܪܐ ܕܡܝܣܝܣܝܦܝ",
+        "name:az": "Missisipi çayı",
+        "name:azb": "میسیسیپی چایی",
+        "name:be": "Місісіпі",
+        "name:be-tarask": "Місысыпі",
+        "name:bn": "মিসিসিপি নদী",
+        "name:br": "Ar Mississippi",
+        "name:cho": "Mississippi Bok",
+        "name:chy": "Ma'xeé'ome'tää'e",
+        "name:ckb": "ڕووباری میسیسیپی",
+        "name:cr": "ᒥᓯ ᓰᐱᐩ",
+        "name:crk": "misi-sîpiy",
+        "name:dak": "Wákpa Tánka",
+        "name:de": "Mississippi",
+        "name:el": "Μισσισσιππής",
+        "name:en": "Mississippi River",
+        "name:es": "Río Misisipí",
+        "name:fa": "رود میسیسیپی",
+        "name:fr": "Le Mississippi",
+        "name:frc": "Le Mississippi",
+        "name:gn": "Ysyry Misisipi",
+        "name:grc": "Μισσισσιππής",
+        "name:he": "נהר מיסיסיפי",
+        "name:hi": "मिसिसिप्पी नदी",
+        "name:hy": "Միսիսիպի գետ",
+        "name:ka": "მისისიპი",
+        "name:kbp": "Misisipii Pɔɔ",
+        "name:kn": "ಮಿಸಿಸಿಪೀ",
+        "name:ko": "미시시피 강",
+        "name:ku": "Robarê Mîsîsîpî",
+        "name:lt": "Misisipė",
+        "name:mez": "Mǣhsesēpēw",
+        "name:mia": "mihsi-siipiiwi",
+        "name:moh": "Ohnawiiò:ke",
+        "name:nl": "Mississippi",
+        "name:ny": "Mtsinje wa Mississippi",
+        "name:oj": "Misi-ziibi",
+        "name:osa": "𐓁𐒻 𐓈𐒰͘𐒼𐒰 3",
+        "name:pa": "ਮਿਸੀਸਿੱਪੀ ਦਰਿਆ",
+        "name:paw": "kíckaatiit",
+        "name:pot": "Mjezibé",
+        "name:pt": "Rio Mississippi",
+        "name:qu": "Mississippi mayu",
+        "name:qua": "ní ottą́ka",
+        "name:ru": "Миссисипи",
+        "name:sac": "mêsisîpôwi",
+        "name:so": "Webiga Mississipi",
+        "name:sq": "Lumi i Misisipit",
+        "name:sr": "Мисисипи",
+        "name:sv": "Mississippifloden",
+        "name:sw": "Mto Mississippi",
+        "name:syc": "ܢܗܪܐ ܕܡܝܣܝܣܝܦܝ",
+        "name:tl": "Ilog Mississippi",
+        "name:tr": "Mississippi Nehri",
+        "name:uk": "Міссісіпі",
+        "name:ur": "دریائے مسیسپی",
+        "name:uz": "Mississippi daryosi",
+        "name:wal": "Misiippii Shaafaa",
+        "name:win": "Nįįxete",
+        "name:yi": "מיסיסיפי טייך",
+        "name:zh": "密西西比河",
+        "nickname:en": "Father of Waters;Old Man River;The Great River;The Mighty Mississippi",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q1497",
+        "wikimedia_commons": "Category:Mississippi River by U.S. state",
+        "wikipedia": "en:Mississippi River",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.1728922,
+          38.3277059
+        ]
+      },
+      "id": "relation/1756854"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/2182468",
+        "destination": "Ohio River",
+        "name": "Cumberland River",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q1143718",
+        "wikipedia": "en:Cumberland River",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.8633729,
+          36.6690202
+        ]
+      },
+      "id": "relation/2182468"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/2182503",
+        "destination": "Ohio River",
+        "name": "Tennessee River",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q193737",
+        "wikipedia": "en:Tennessee River",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.2204264,
+          35.732361
+        ]
+      },
+      "id": "relation/2182503"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/3803064",
+        "alt_name": "Las Casas River",
+        "destination": "Mississippi River",
+        "gnis:feature_id": "695208",
+        "name": "Wolf River",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q1538093",
+        "wikipedia": "en:Wolf River (Tennessee)",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.5342633,
+          35.048544
+        ]
+      },
+      "id": "relation/3803064"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/3809023",
+        "alt_name": "Toccoa River",
+        "destination": "Hiwassee River",
+        "name": "Ocoee River",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q7811968",
+        "wikipedia": "en:Toccoa/Ocoee River",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3804225,
+          34.936501
+        ]
+      },
+      "id": "relation/3809023"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/3857775",
+        "name": "Conasauga River",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q5158226",
+        "wikipedia": "en:Conasauga River",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.7682738,
+          34.7772398
+        ]
+      },
+      "id": "relation/3857775"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/6066914",
+        "fixme": "incomplete",
+        "name": "Hiwassee River",
+        "name:chr": "ᎭᏳᏩᏒ ᎡᏉᏂ ᏄᏪᏴᎢ",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q3138706",
+        "wikipedia": "en:Hiwassee River",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3590204,
+          35.1075219
+        ]
+      },
+      "id": "relation/6066914"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/6099407",
+        "gnis:feature_id": "329069",
+        "name": "Nottely River",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q7063559",
+        "wikipedia": "en:Nottely River",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.996144,
+          34.9203545
+        ]
+      },
+      "id": "relation/6099407"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/6101686",
+        "destination": "Tennessee River",
+        "name": "French Broad River",
+        "name:en": "French Broad River",
+        "name:es": "Río French Broad",
+        "name:fr": "French Broad",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q478303",
+        "wikipedia": "en:French Broad River",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1890686,
+          35.6121304
+        ]
+      },
+      "id": "relation/6101686"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/6101688",
+        "name": "Swannanoa River",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q7653621",
+        "wikipedia": "en:Swannanoa River",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4419836,
+          35.5882197
+        ]
+      },
+      "id": "relation/6101688"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/6165029",
+        "destination": "Wateree River",
+        "name": "Catawba River",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q1050460",
+        "wikipedia": "en:Catawba River",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.5720544,
+          35.1484239
+        ]
+      },
+      "id": "relation/6165029"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/6424615",
+        "gnis:feature_id": "1010993",
+        "name": "East Fork Pigeon River",
+        "source": "NHD",
+        "type": "waterway",
+        "waterway": "river",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.844849,
+          35.4030594
+        ]
+      },
+      "id": "relation/6424615"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/6424616",
+        "fixme": "not finished",
+        "gnis:feature_id": "1014389",
+        "name": "Pigeon River",
+        "type": "waterway",
+        "waterway": "river",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.9455086,
+          35.590116
+        ]
+      },
+      "id": "relation/6424616"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/6424656",
+        "gnis:feature_id": "1016540",
+        "name": "West Fork Pigeon River",
+        "type": "waterway",
+        "waterway": "river",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.911783,
+          35.3911222
+        ]
+      },
+      "id": "relation/6424656"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/6684852",
+        "destination": "Tennessee River",
+        "name": "Elk River",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q5364109",
+        "wikipedia": "en:Elk River (Tennessee River tributary)",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.5563448,
+          35.0546989
+        ]
+      },
+      "id": "relation/6684852"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/7443544",
+        "destination": "White River",
+        "name": "Black River",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q8665483",
+        "wikipedia": "en:Black River (Arkansas–Missouri)",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.8225928,
+          36.5402952
+        ]
+      },
+      "id": "relation/7443544"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/8258648",
+        "destination": "Tugaloo River",
+        "gnis:feature_id": "1010187",
+        "name": "Chattooga River",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q834880",
+        "wikipedia": "en:Chattooga River",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.2258313,
+          34.9178044
+        ]
+      },
+      "id": "relation/8258648"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/8328734",
+        "gnis:feature_id": "1303888",
+        "name": "Suck Creek",
+        "type": "waterway",
+        "waterway": "river",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.38879,
+          35.1329973
+        ]
+      },
+      "id": "relation/8328734"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9062538",
+        "destination": "Tennessee River",
+        "name": "Cypress Creek",
+        "type": "waterway",
+        "waterway": "river",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.7564086,
+          34.8910684
+        ]
+      },
+      "id": "relation/9062538"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9062539",
+        "destination": "Cypress Creek",
+        "gnis:feature_id": "152091",
+        "name": "Little Cypress Creek",
+        "type": "waterway",
+        "waterway": "river",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.7032907,
+          34.9308312
+        ]
+      },
+      "id": "relation/9062539"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9075786",
+        "destination": "Tennessee River",
+        "name": "Clinch River",
+        "type": "waterway",
+        "waterway": "river",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3420399,
+          36.8289809
+        ]
+      },
+      "id": "relation/9075786"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9395234",
+        "name": "Wolf River",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q8029891",
+        "wikipedia": "en:Wolf River (Middle Tennessee)",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.1257471,
+          36.5851385
+        ]
+      },
+      "id": "relation/9395234"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/10083907",
+        "name": "Broad River",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q921949",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.6753611,
+          34.7771432
+        ]
+      },
+      "id": "relation/10083907"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/10713643",
+        "destination": "Mississippi River",
+        "name": "Saint Francis River",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q1108022",
+        "wikipedia": "en:St. Francis River",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.37701,
+          36.2022691
+        ]
+      },
+      "id": "relation/10713643"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/10715600",
+        "destination": "Tennessee River",
+        "gnis:feature_id": "121648",
+        "name": "Limestone Creek",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q6549322",
+        "wikipedia": "en:Limestone Creek",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.8007726,
+          34.8025997
+        ]
+      },
+      "id": "relation/10715600"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/10718103",
+        "destination": "Tennessee River",
+        "gnis:feature_id": "126519",
+        "name": "Second Creek",
+        "type": "waterway",
+        "waterway": "river",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.3541556,
+          34.9576309
+        ]
+      },
+      "id": "relation/10718103"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/10722783",
+        "destination": "Limestone Creek",
+        "gnis:feature_id": "152939",
+        "name": "Piney Creek",
+        "type": "waterway",
+        "waterway": "river",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.8760779,
+          34.8116314
+        ]
+      },
+      "id": "relation/10722783"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/11245566",
+        "name": "Harpeth",
+        "type": "waterway",
+        "waterway": "river",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.782004,
+          35.8679635
+        ]
+      },
+      "id": "relation/11245566"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/11247434",
+        "name": "Duck River",
+        "type": "waterway",
+        "waterway": "river",
+        "wikipedia": "en:Duck River (Tennessee)",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.0889504,
+          35.7443878
+        ]
+      },
+      "id": "relation/11247434"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/11377185",
+        "destination": "Obion River",
+        "name": "Forked Deer River",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q5469813",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.5111961,
+          35.9607249
+        ]
+      },
+      "id": "relation/11377185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/11377186",
+        "name": "Obion River",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q7074971",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.2941849,
+          36.0943365
+        ]
+      },
+      "id": "relation/11377186"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/11605565",
+        "destination": "Mississippi River",
+        "gnis:feature_id": "1306552",
+        "name": "Hatchie River",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q5681137",
+        "wikipedia": "en:Hatchie River",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3113599,
+          35.1112448
+        ]
+      },
+      "id": "relation/11605565"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/11684434",
+        "destination": "Cumberland River",
+        "name": "Red River",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q7304823",
+        "wikipedia": "en:Red River (Cumberland River tributary)",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.9422448,
+          36.5950221
+        ]
+      },
+      "id": "relation/11684434"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/11739203",
+        "name": "Obion Creek",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q49936016",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.9251761,
+          36.6678262
+        ]
+      },
+      "id": "relation/11739203"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/11739204",
+        "name": "Bayou de Chien",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q19866174",
+        "wikipedia": "en:Bayou de Chien",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.9711709,
+          36.6017954
+        ]
+      },
+      "id": "relation/11739204"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/11744605",
+        "destination": "Clarks River",
+        "name": "West Fork Clarks River",
+        "type": "waterway",
+        "waterway": "river",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.4755423,
+          36.798846
+        ]
+      },
+      "id": "relation/11744605"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/11744606",
+        "destination": "Tennessee River",
+        "name": "Clarks River",
+        "name:etymology:wikidata": "Q355348",
+        "name:etymology:wikipedia": "en:William Clark",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q5127583",
+        "wikipedia": "en:Clarks River",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.4176597,
+          36.8194368
+        ]
+      },
+      "id": "relation/11744606"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/11747159",
+        "destination": "Clarks River",
+        "name": "East Fork Clarks River",
+        "type": "waterway",
+        "waterway": "river",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.3117131,
+          36.5585546
+        ]
+      },
+      "id": "relation/11747159"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/11747160",
+        "destination": "Clarks River",
+        "name": "Middle Fork Clarks River",
+        "type": "waterway",
+        "waterway": "river",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.3720454,
+          36.5523489
+        ]
+      },
+      "id": "relation/11747160"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/11755931",
+        "destination": "Middle Fork Drakes Creek",
+        "name": "Dutch Creek",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q56544852",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.2949943,
+          36.5891061
+        ]
+      },
+      "id": "relation/11755931"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/11755932",
+        "destination": "Drakes Creek",
+        "name": "West Fork Drakes Creek",
+        "type": "waterway",
+        "waterway": "river",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.4856625,
+          36.6590777
+        ]
+      },
+      "id": "relation/11755932"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/11755933",
+        "destination": "Drakes Creek",
+        "name": "Middle Fork Drakes Creek",
+        "type": "waterway",
+        "waterway": "river",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.3691165,
+          36.6921135
+        ]
+      },
+      "id": "relation/11755933"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/11755934",
+        "destination": "Middle Fork Drakes Creek",
+        "name": "Sulphur Fork Creek",
+        "type": "waterway",
+        "waterway": "river",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.3974741,
+          36.6674653
+        ]
+      },
+      "id": "relation/11755934"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12529909",
+        "name": "Mayfield Creek",
+        "type": "waterway",
+        "waterway": "river",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.8282997,
+          36.8022558
+        ]
+      },
+      "id": "relation/12529909"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12550517",
+        "name": "Little South Fork",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q35323633",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.7295783,
+          36.7067669
+        ]
+      },
+      "id": "relation/12550517"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12574992",
+        "name": "Middle Fork Stones River",
+        "type": "waterway",
+        "waterway": "river",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.3351091,
+          35.7335089
+        ]
+      },
+      "id": "relation/12574992"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12649137",
+        "name": "Little Yellow Creek",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q49948697",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7104463,
+          36.5953751
+        ]
+      },
+      "id": "relation/12649137"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12649138",
+        "name": "Yellow Creek",
+        "type": "waterway",
+        "waterway": "river",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6875296,
+          36.6624644
+        ]
+      },
+      "id": "relation/12649138"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12809198",
+        "name": "Bald River",
+        "type": "waterway",
+        "waterway": "river",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.146611,
+          35.2881235
+        ]
+      },
+      "id": "relation/12809198"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14297818",
+        "name": "North Tyger River",
+        "type": "waterway",
+        "waterway": "river",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.0540678,
+          34.9062261
+        ]
+      },
+      "id": "relation/14297818"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14297838",
+        "name": "South Tyger River",
+        "type": "waterway",
+        "waterway": "river",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.1492116,
+          34.9128896
+        ]
+      },
+      "id": "relation/14297838"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14298082",
+        "name": "Middle Tyger River",
+        "type": "waterway",
+        "waterway": "river",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.1796352,
+          34.9981667
+        ]
+      },
+      "id": "relation/14298082"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14467849",
+        "name": "Toxaway River",
+        "type": "waterway",
+        "waterway": "river",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.9382092,
+          35.114599
+        ]
+      },
+      "id": "relation/14467849"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14467850",
+        "name": "Horsepasture River",
+        "type": "waterway",
+        "waterway": "river",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0113267,
+          35.0809267
+        ]
+      },
+      "id": "relation/14467850"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14467851",
+        "name": "Thompson River",
+        "type": "waterway",
+        "waterway": "river",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0044387,
+          35.0551963
+        ]
+      },
+      "id": "relation/14467851"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14467852",
+        "name": "Whitewater River",
+        "type": "waterway",
+        "waterway": "river",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0306027,
+          35.0474924
+        ]
+      },
+      "id": "relation/14467852"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14574096",
+        "destination": "New River",
+        "name": "South Fork New River",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q7567290",
+        "wikipedia": "en:South Fork New River",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4893598,
+          36.3786159
+        ]
+      },
+      "id": "relation/14574096"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14574133",
+        "destination": "Middle Fork New River",
+        "name": "East Fork New River",
+        "type": "waterway",
+        "waterway": "river",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.6300637,
+          36.1926611
+        ]
+      },
+      "id": "relation/14574133"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14574134",
+        "destination": "South Fork New River",
+        "name": "Middle Fork New River",
+        "type": "waterway",
+        "waterway": "river",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.6577609,
+          36.1648144
+        ]
+      },
+      "id": "relation/14574134"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14574189",
+        "destination": "New River",
+        "name": "North Fork New River",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q7055414",
+        "wikipedia": "en:North Fork New River",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.52203,
+          36.4417515
+        ]
+      },
+      "id": "relation/14574189"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/16218292",
+        "name": "Oconaluftee River",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q85790238",
+        "wikipedia": "en:Oconaluftee River",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3405545,
+          35.5164824
+        ]
+      },
+      "id": "relation/16218292"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/17323198",
+        "destination": "Broad River",
+        "gnis:feature_id": "1023970",
+        "name": "First Broad River",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q5452567",
+        "wikipedia": "en:First Broad River",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.6683356,
+          35.3626621
+        ]
+      },
+      "id": "relation/17323198"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/17325168",
+        "destination": "Tugaloo River",
+        "gnis:feature_id": "356581",
+        "name": "Tallulah River",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q4450532",
+        "wikipedia": "en:Tallulah River",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.4558304,
+          34.875132
+        ]
+      },
+      "id": "relation/17325168"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/17335387",
+        "destination": "Broad River",
+        "gnis:feature_id": "1024294",
+        "name": "Second Broad River",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q7443138",
+        "wikipedia": "en:Second Broad River",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9090878,
+          35.4234978
+        ]
+      },
+      "id": "relation/17335387"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/17602747",
+        "name": "Little Pigeon River",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q6651334",
+        "wikipedia": "en:Little Pigeon River (Tennessee)",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.4896351,
+          35.8200394
+        ]
+      },
+      "id": "relation/17602747"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/18123206",
+        "name": "Nolichucky River",
+        "type": "waterway",
+        "waterway": "river",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.78697,
+          36.1200625
+        ]
+      },
+      "id": "relation/18123206"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/18294816",
+        "destination": "South Chickamauga Creek",
+        "name": "West Chickamauga Creek",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q34867164",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.3056095,
+          34.8596845
+        ]
+      },
+      "id": "relation/18294816"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/18294817",
+        "destination": "Tennessee River",
+        "gnis:feature_id": "1314147",
+        "name": "North Chickamauga Creek",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q131216559",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2882025,
+          35.1866513
+        ]
+      },
+      "id": "relation/18294817"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/18877919",
+        "gnis:feature_id": "1272819",
+        "name": "Trace Creek",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q133461049",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.9531066,
+          36.0395914
+        ]
+      },
+      "id": "relation/18877919"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/18941036",
+        "name": "Dunn Creek",
+        "type": "waterway",
+        "waterway": "river",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.294877,
+          35.8039577
+        ]
+      },
+      "id": "relation/18941036"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/20295779",
+        "destination": "Catawba River",
+        "gnis:feature_id": "1012897",
+        "name": "Linville River",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q6555118",
+        "wikipedia": "en:Linville River",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.8922555,
+          35.9341079
+        ]
+      },
+      "id": "relation/20295779"
+    }
+  ]
+}

@@ -1,0 +1,290 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-06-28T00:55:45Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/569509283",
+        "amenity": "parking",
+        "fee": "yes",
+        "parking": "multi-storey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2941882,
+          33.7757709
+        ]
+      },
+      "id": "node/569509283"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1053135966",
+        "access": "private",
+        "amenity": "parking",
+        "parking": "multi-storey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.6787888,
+          35.7711609
+        ]
+      },
+      "id": "node/1053135966"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1848893531",
+        "amenity": "parking",
+        "layer": "-1",
+        "name": "Epicenter Parking",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.8415601,
+          35.22567
+        ]
+      },
+      "id": "node/1848893531"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5731520439",
+        "access": "yes",
+        "addr:city": "Chapel Hill",
+        "addr:housenumber": "260",
+        "addr:postcode": "27514",
+        "addr:state": "NC",
+        "addr:street": "Manning Drive",
+        "amenity": "parking",
+        "name": "Craige deck",
+        "operator": "UNC",
+        "operator:type": "public",
+        "parking": "multi-storey",
+        "source:addr": "Chapel Hill Open Data",
+        "surface": "concrete"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0464651,
+          35.9031229
+        ]
+      },
+      "id": "node/5731520439"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7070705593",
+        "amenity": "parking",
+        "capacity": "719",
+        "name": "Durham Centre Garage",
+        "parking": "multi-storey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.9032517,
+          35.9984385
+        ]
+      },
+      "id": "node/7070705593"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8815849460",
+        "amenity": "parking",
+        "layer": "-1",
+        "maxheight": "6'9\"",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3773895,
+          33.957386
+        ]
+      },
+      "id": "node/8815849460"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9133410605",
+        "amenity": "parking",
+        "layer": "-1",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0553577,
+          33.9938401
+        ]
+      },
+      "id": "node/9133410605"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10909795503",
+        "amenity": "parking",
+        "parking": "multi-storey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3704508,
+          33.9586612
+        ]
+      },
+      "id": "node/10909795503"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10909799519",
+        "amenity": "parking",
+        "parking": "multi-storey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3696657,
+          33.957621
+        ]
+      },
+      "id": "node/10909799519"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10968081131",
+        "access": "yes",
+        "amenity": "parking",
+        "fee": "yes",
+        "parking": "multi-storey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.8426515,
+          35.2287184
+        ]
+      },
+      "id": "node/10968081131"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10975541726",
+        "access": "yes",
+        "amenity": "parking",
+        "fee": "yes",
+        "parking": "multi-storey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.8401782,
+          35.2299772
+        ]
+      },
+      "id": "node/10975541726"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12175460499",
+        "amenity": "parking",
+        "parking": "multi-storey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0350619,
+          33.9980074
+        ]
+      },
+      "id": "node/12175460499"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13353621588",
+        "amenity": "parking",
+        "name": "Florence County Parking Deck",
+        "parking": "multi-storey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.7671964,
+          34.1986418
+        ]
+      },
+      "id": "node/13353621588"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13353621589",
+        "amenity": "parking",
+        "name": "Public Parking at The Emerson",
+        "parking": "multi-storey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.7676301,
+          34.1960041
+        ]
+      },
+      "id": "node/13353621589"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13712403911",
+        "amenity": "parking",
+        "parking": "multi-storey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3701429,
+          33.9582747
+        ]
+      },
+      "id": "node/13712403911"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13712403912",
+        "amenity": "parking",
+        "parking": "multi-storey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3693375,
+          33.9576866
+        ]
+      },
+      "id": "node/13712403912"
+    }
+  ]
+}

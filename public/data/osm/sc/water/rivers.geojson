@@ -1,0 +1,1272 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-06-28T01:15:59Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/2188458",
+        "destination": "Atlantic Ocean",
+        "name": "Cape Fear River",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q1034421",
+        "wikipedia": "en:Cape Fear River",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.4926636,
+          34.7400452
+        ]
+      },
+      "id": "relation/2188458"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/6101686",
+        "destination": "Tennessee River",
+        "name": "French Broad River",
+        "name:en": "French Broad River",
+        "name:es": "Río French Broad",
+        "name:fr": "French Broad",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q478303",
+        "wikipedia": "en:French Broad River",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1890686,
+          35.6121304
+        ]
+      },
+      "id": "relation/6101686"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/6101687",
+        "alt_name": "Great Pee Dee River",
+        "name": "Pee Dee River",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q2061230",
+        "wikipedia": "en:Pee Dee River",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.617989,
+          34.2891507
+        ]
+      },
+      "id": "relation/6101687"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/6165029",
+        "destination": "Wateree River",
+        "name": "Catawba River",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q1050460",
+        "wikipedia": "en:Catawba River",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.5720544,
+          35.1484239
+        ]
+      },
+      "id": "relation/6165029"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/6632816",
+        "name": "Rocky River",
+        "type": "waterway",
+        "waterway": "river",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.4368198,
+          35.3632106
+        ]
+      },
+      "id": "relation/6632816"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/8258648",
+        "destination": "Tugaloo River",
+        "gnis:feature_id": "1010187",
+        "name": "Chattooga River",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q834880",
+        "wikipedia": "en:Chattooga River",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.2258313,
+          34.9178044
+        ]
+      },
+      "id": "relation/8258648"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/8258682",
+        "destination": "Savannah River",
+        "name": "Tugaloo River",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q2459279",
+        "wikipedia": "de:Tugaloo River",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1047608,
+          34.5799402
+        ]
+      },
+      "id": "relation/8258682"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/8261816",
+        "destination": "Atlantic Ocean",
+        "fixme": "Check overall alignment, and merge shared admin boundaries (corp. county, state) where applicable",
+        "gnis:feature_id": "1253486",
+        "name": "Savannah River",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q370750",
+        "wikipedia": "en:Savannah River",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.8520732,
+          33.2392799
+        ]
+      },
+      "id": "relation/8261816"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/8262568",
+        "name": "Seneca River",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q2270860",
+        "wikipedia": "en:Seneca River (South Carolina)",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.8426662,
+          34.5699027
+        ]
+      },
+      "id": "relation/8262568"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/8265894",
+        "name": "Dead River",
+        "type": "waterway",
+        "waterway": "river",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9175308,
+          33.4174587
+        ]
+      },
+      "id": "relation/8265894"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/8268450",
+        "name": "Lightwood Log Creek",
+        "note": "Inundated.",
+        "type": "waterway",
+        "waterway": "river",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.8676258,
+          34.397136
+        ]
+      },
+      "id": "relation/8268450"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/8277317",
+        "name": "Little Back River",
+        "type": "waterway",
+        "waterway": "river",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0949768,
+          32.1528194
+        ]
+      },
+      "id": "relation/8277317"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/8277371",
+        "gnis:feature_id": "318089",
+        "name": "Middle River",
+        "type": "waterway",
+        "waterway": "river",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.1383984,
+          32.1913615
+        ]
+      },
+      "id": "relation/8277371"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/8277372",
+        "gnis:feature_id": "314442",
+        "name": "Front River",
+        "type": "waterway",
+        "waterway": "river",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.1482012,
+          32.1598552
+        ]
+      },
+      "id": "relation/8277372"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/10083907",
+        "name": "Broad River",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q921949",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.6753611,
+          34.7771432
+        ]
+      },
+      "id": "relation/10083907"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/10307704",
+        "name": "West Branch Cooper River",
+        "type": "waterway",
+        "waterway": "river",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9584926,
+          33.1540089
+        ]
+      },
+      "id": "relation/10307704"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/10307705",
+        "name": "Cooper River",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q5167806",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9324881,
+          32.9279131
+        ]
+      },
+      "id": "relation/10307705"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/10307706",
+        "name": "Congaree River",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q2992976",
+        "wikipedia": "en:Congaree River",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.8391629,
+          33.8738728
+        ]
+      },
+      "id": "relation/10307706"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12106732",
+        "destination": "Atlantic Ocean",
+        "gnis:feature_id": "1250783",
+        "name": "Santee River",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q2223479",
+        "wikipedia": "en:Santee River",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9367364,
+          33.4259323
+        ]
+      },
+      "id": "relation/12106732"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12733147",
+        "gnis:feature_id": "1250734",
+        "name": "Salkehatchie River",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q1486708",
+        "wikipedia": "en:Salkehatchie River",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.044705,
+          32.9631071
+        ]
+      },
+      "id": "relation/12733147"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14263713",
+        "name": "Little River",
+        "type": "waterway",
+        "waterway": "river",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4383383,
+          34.1178666
+        ]
+      },
+      "id": "relation/14263713"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14266997",
+        "name": "Rocky River",
+        "type": "waterway",
+        "waterway": "river",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.5977932,
+          34.3310708
+        ]
+      },
+      "id": "relation/14266997"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14267406",
+        "name": "Hencoop Creek",
+        "type": "waterway",
+        "waterway": "river",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.5558237,
+          34.3818372
+        ]
+      },
+      "id": "relation/14267406"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14267644",
+        "name": "Stevens Creek",
+        "type": "waterway",
+        "waterway": "river",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.1299968,
+          33.7313915
+        ]
+      },
+      "id": "relation/14267644"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14273241",
+        "name": "Saluda River",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q7406275",
+        "wikipedia": "de:Saluda River",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.7880779,
+          34.473738
+        ]
+      },
+      "id": "relation/14273241"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14297781",
+        "name": "Tyger River",
+        "type": "waterway",
+        "waterway": "river",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.6776981,
+          34.6231214
+        ]
+      },
+      "id": "relation/14297781"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14297818",
+        "name": "North Tyger River",
+        "type": "waterway",
+        "waterway": "river",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.0540678,
+          34.9062261
+        ]
+      },
+      "id": "relation/14297818"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14297838",
+        "name": "South Tyger River",
+        "type": "waterway",
+        "waterway": "river",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.1492116,
+          34.9128896
+        ]
+      },
+      "id": "relation/14297838"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14298082",
+        "name": "Middle Tyger River",
+        "type": "waterway",
+        "waterway": "river",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.1796352,
+          34.9981667
+        ]
+      },
+      "id": "relation/14298082"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14318854",
+        "name": "Enoree River",
+        "type": "waterway",
+        "waterway": "river",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.8494491,
+          34.6645965
+        ]
+      },
+      "id": "relation/14318854"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14319727",
+        "name": "Edisto River",
+        "type": "waterway",
+        "waterway": "river",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.6368003,
+          32.9539113
+        ]
+      },
+      "id": "relation/14319727"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14321773",
+        "name": "South Fork Edisto River",
+        "type": "waterway",
+        "waterway": "river",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.3400786,
+          33.5404795
+        ]
+      },
+      "id": "relation/14321773"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14321863",
+        "name": "North Fork Edisto River",
+        "type": "waterway",
+        "waterway": "river",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.1593491,
+          33.5305007
+        ]
+      },
+      "id": "relation/14321863"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14383721",
+        "name": "South Fork Little River",
+        "type": "waterway",
+        "waterway": "river",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.9650414,
+          33.6392235
+        ]
+      },
+      "id": "relation/14383721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14383722",
+        "name": "North Fork Little River",
+        "type": "waterway",
+        "waterway": "river",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0238909,
+          33.7010479
+        ]
+      },
+      "id": "relation/14383722"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14383723",
+        "destination": "Savannah River",
+        "name": "Little River",
+        "type": "waterway",
+        "waterway": "river",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.5527569,
+          33.6497312
+        ]
+      },
+      "id": "relation/14383723"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14459365",
+        "name": "Reedy River",
+        "type": "waterway",
+        "waterway": "river",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.2743228,
+          34.6395887
+        ]
+      },
+      "id": "relation/14459365"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14463168",
+        "destination": "Santee River",
+        "name": "Wateree River",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q3566675",
+        "wikipedia": "en:Wateree River",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.7632258,
+          34.1071568
+        ]
+      },
+      "id": "relation/14463168"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14464131",
+        "destination": "Catawba River",
+        "name": "Fishing Creek",
+        "type": "waterway",
+        "waterway": "river",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0773889,
+          34.8207486
+        ]
+      },
+      "id": "relation/14464131"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14464304",
+        "name": "Little River",
+        "type": "waterway",
+        "waterway": "river",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.13379,
+          35.2192265
+        ]
+      },
+      "id": "relation/14464304"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14467849",
+        "name": "Toxaway River",
+        "type": "waterway",
+        "waterway": "river",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.9382092,
+          35.114599
+        ]
+      },
+      "id": "relation/14467849"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14467850",
+        "name": "Horsepasture River",
+        "type": "waterway",
+        "waterway": "river",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0113267,
+          35.0809267
+        ]
+      },
+      "id": "relation/14467850"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14467851",
+        "name": "Thompson River",
+        "type": "waterway",
+        "waterway": "river",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0044387,
+          35.0551963
+        ]
+      },
+      "id": "relation/14467851"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14467852",
+        "name": "Whitewater River",
+        "type": "waterway",
+        "waterway": "river",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0306027,
+          35.0474924
+        ]
+      },
+      "id": "relation/14467852"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14481044",
+        "name": "Turkey Creek",
+        "type": "waterway",
+        "waterway": "river",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9990923,
+          33.8342945
+        ]
+      },
+      "id": "relation/14481044"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/15021193",
+        "destination": "Broad River",
+        "gnis:feature_id": "328245",
+        "name": "Hudson River",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q5928826",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.4077046,
+          34.3324005
+        ]
+      },
+      "id": "relation/15021193"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/16453229",
+        "destination": "Broad River",
+        "gnis:feature_id": "329045",
+        "name": "North Fork Broad River",
+        "type": "waterway",
+        "waterway": "river",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.2944303,
+          34.4368899
+        ]
+      },
+      "id": "relation/16453229"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/16453263",
+        "destination": "Savanna River",
+        "gnis:feature_id": "354860",
+        "name": "Broad River",
+        "type": "waterway",
+        "waterway": "river",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.8719028,
+          34.123168
+        ]
+      },
+      "id": "relation/16453263"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/16454061",
+        "destination": "Broad River",
+        "gnis:feature_id": "356387",
+        "name": "Middle Fork Broad River",
+        "type": "waterway",
+        "waterway": "river",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3311866,
+          34.4326419
+        ]
+      },
+      "id": "relation/16454061"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/16454062",
+        "destination": "Hudson River",
+        "gnis:feature_id": "356118",
+        "name": "Grove Creek",
+        "type": "waterway",
+        "waterway": "river",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.4975368,
+          34.3299998
+        ]
+      },
+      "id": "relation/16454062"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/16454077",
+        "destination": "Broad River",
+        "gnis:feature_id": "323243",
+        "name": "South Fork Broad River",
+        "type": "waterway",
+        "waterway": "river",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1637967,
+          34.0959419
+        ]
+      },
+      "id": "relation/16454077"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/16456853",
+        "destination": "Broad River",
+        "gnis:feature_id": "328630",
+        "name": "Long Creek",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q35360003",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.9726261,
+          33.8876692
+        ]
+      },
+      "id": "relation/16456853"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/17263909",
+        "destination": "Great Pee Dee River",
+        "gnis:feature_id": "1251304",
+        "name": "Waccamaw River",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q7958732",
+        "wikipedia": "en:Waccamaw River",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.89425,
+          33.8073113
+        ]
+      },
+      "id": "relation/17263909"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/17280771",
+        "destination": "Altamaha River",
+        "gnis:feature_id": "354253",
+        "name": "Oconee River",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q851368",
+        "wikipedia": "en:Oconee River",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.9443124,
+          32.9191132
+        ]
+      },
+      "id": "relation/17280771"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/17280803",
+        "destination": "Altamaha River",
+        "gnis:feature_id": "356443",
+        "name": "Ocmulgee River",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q846627",
+        "wikipedia": "en:Ocmulgee River",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.2035242,
+          32.5712276
+        ]
+      },
+      "id": "relation/17280803"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/17281432",
+        "destination": "Oconee River",
+        "gnis:feature_id": "354377",
+        "name": "Apalachee River",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q4779004",
+        "wikipedia": "en:Apalachee River (Georgia)",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6143547,
+          33.789796
+        ]
+      },
+      "id": "relation/17281432"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/17290522",
+        "destination": "Ocmulgee River",
+        "gnis:feature_id": "356363",
+        "name": "Little Ocmulgee River",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q6651208",
+        "wikipedia": "en:Little Ocmulgee River",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.7791766,
+          32.0196526
+        ]
+      },
+      "id": "relation/17290522"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/17299218",
+        "destination": "Oconee River",
+        "gnis:feature_id": "356366",
+        "name": "Little River",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q6651659",
+        "wikipedia": "en:Little River (Oconee River tributary)",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.4931711,
+          33.408459
+        ]
+      },
+      "id": "relation/17299218"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/17299274",
+        "destination": "Atlantic Ocean",
+        "gnis:feature_id": "354254",
+        "name": "Ogeechee River",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q130012",
+        "wikipedia": "en:Ogeechee River",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9707925,
+          32.6741076
+        ]
+      },
+      "id": "relation/17299274"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/17323198",
+        "destination": "Broad River",
+        "gnis:feature_id": "1023970",
+        "name": "First Broad River",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q5452567",
+        "wikipedia": "en:First Broad River",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.6683356,
+          35.3626621
+        ]
+      },
+      "id": "relation/17323198"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/17325168",
+        "destination": "Tugaloo River",
+        "gnis:feature_id": "356581",
+        "name": "Tallulah River",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q4450532",
+        "wikipedia": "en:Tallulah River",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.4558304,
+          34.875132
+        ]
+      },
+      "id": "relation/17325168"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/17329967",
+        "destination": "Oconee River",
+        "gnis:feature_id": "328761",
+        "name": "Middle Oconee River",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q131549923",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.5025562,
+          34.0172284
+        ]
+      },
+      "id": "relation/17329967"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/17639242",
+        "destination": "Black River",
+        "gnis:feature_id": "1025719",
+        "name": "South River",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q7568323",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.4708102,
+          34.894613
+        ]
+      },
+      "id": "relation/17639242"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/20368206",
+        "destination": "Atlantic Ocean",
+        "intermittent": "no",
+        "name": "Ashley River",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q4805571",
+        "wikipedia": "en:Ashley River",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.0843883,
+          32.9777191
+        ]
+      },
+      "id": "relation/20368206"
+    }
+  ]
+}

@@ -1,0 +1,2686 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-06-27T22:02:01Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/560636340",
+        "name": "Hindostan Falls",
+        "tourism": "attraction",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.8500808,
+          38.6231819
+        ]
+      },
+      "id": "node/560636340"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3248127447",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.163525,
+          39.0158402
+        ]
+      },
+      "id": "node/3248127447"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3437996800",
+        "name": "Anglin Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2161654,
+          37.4982659
+        ]
+      },
+      "id": "node/3437996800"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3915432571",
+        "name": "Jackson Falls",
+        "waterway": "waterfall",
+        "website": "https://www.fs.usda.gov/recarea/shawnee/recreation/camping-cabins/recarea/?recid=32359&actid=34"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.6830961,
+          37.5079274
+        ]
+      },
+      "id": "node/3915432571"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4480645875",
+        "name": "Cumberland Falls",
+        "waterway": "waterfall",
+        "wikidata": "Q38488"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3450618,
+          36.8387142
+        ]
+      },
+      "id": "node/4480645875"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4480647232",
+        "name": "Eagle Creek Falls",
+        "waterway": "waterfall",
+        "wikidata": "Q37932"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3435091,
+          36.8436066
+        ]
+      },
+      "id": "node/4480647232"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4484937552",
+        "name": "Creation Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.561751,
+          37.7694108
+        ]
+      },
+      "id": "node/4484937552"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4745102362",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.227974,
+          38.422567
+        ]
+      },
+      "id": "node/4745102362"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4750849880",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.1297956,
+          38.433684
+        ]
+      },
+      "id": "node/4750849880"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5246426422",
+        "name": "Clifty Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.4362429,
+          38.7664481
+        ]
+      },
+      "id": "node/5246426422"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5246426472",
+        "name": "Wallace Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.434038,
+          38.7574341
+        ]
+      },
+      "id": "node/5246426472"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5246426664",
+        "name": "Little Clifty Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.4344076,
+          38.7664827
+        ]
+      },
+      "id": "node/5246426664"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5246426856",
+        "name": "Hoffman Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.4224791,
+          38.7526823
+        ]
+      },
+      "id": "node/5246426856"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5576940891",
+        "name": "Kinkaid Lake Spillway Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4501248,
+          37.7758521
+        ]
+      },
+      "id": "node/5576940891"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5880025357",
+        "name": "Georgetown Waterfall",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9295681,
+          38.8754738
+        ]
+      },
+      "id": "node/5880025357"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5899626301",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.6039027,
+          38.9946085
+        ]
+      },
+      "id": "node/5899626301"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5995508151",
+        "name": "Tunnel Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.4282972,
+          38.7612109
+        ]
+      },
+      "id": "node/5995508151"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6234392869",
+        "height": "3",
+        "intermittent": "yes",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.4060278,
+          38.0013705
+        ]
+      },
+      "id": "node/6234392869"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6260217733",
+        "name": "Big Spring Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.546482,
+          36.6559619
+        ]
+      },
+      "id": "node/6260217733"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6269065820",
+        "name": "Yahoo Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5194093,
+          36.7720911
+        ]
+      },
+      "id": "node/6269065820"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6296287783",
+        "name": "Lick Creek Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5112188,
+          36.7189093
+        ]
+      },
+      "id": "node/6296287783"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7729125266",
+        "name": "Fairmont Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.5779656,
+          38.0930445
+        ]
+      },
+      "id": "node/7729125266"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8276689212",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6556442,
+          37.7921833
+        ]
+      },
+      "id": "node/8276689212"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8279786581",
+        "name": "Silvermine Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6262042,
+          37.7838213
+        ]
+      },
+      "id": "node/8279786581"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8279786745",
+        "name": "Upper Chimney Top Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6422371,
+          37.7864447
+        ]
+      },
+      "id": "node/8279786745"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8279786773",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.641619,
+          37.7878356
+        ]
+      },
+      "id": "node/8279786773"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8279786989",
+        "name": "Cold Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6324057,
+          37.7880634
+        ]
+      },
+      "id": "node/8279786989"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8379406244",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6759244,
+          37.8103571
+        ]
+      },
+      "id": "node/8379406244"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8579458655",
+        "name": "Flat Hollow Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7219145,
+          37.6416343
+        ]
+      },
+      "id": "node/8579458655"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8579458668",
+        "intermittent": "yes",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7233693,
+          37.6443607
+        ]
+      },
+      "id": "node/8579458668"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8622408839",
+        "name": "Broke Leg Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.4895212,
+          37.9066651
+        ]
+      },
+      "id": "node/8622408839"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8622408861",
+        "height": "34",
+        "name": "Mariba Fork Falls",
+        "waterway": "waterfall",
+        "width": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.5754164,
+          37.9085937
+        ]
+      },
+      "id": "node/8622408861"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8622541817",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.9739556,
+          37.5407079
+        ]
+      },
+      "id": "node/8622541817"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8793683028",
+        "name": "Vanhook Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2808359,
+          37.0245338
+        ]
+      },
+      "id": "node/8793683028"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8867387008",
+        "name": "Bark Camp Creek Cascades",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3045799,
+          36.9071938
+        ]
+      },
+      "id": "node/8867387008"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8912608351",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.2997068,
+          39.1240622
+        ]
+      },
+      "id": "node/8912608351"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8922983872",
+        "height": "0.5",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.6180506,
+          38.025935
+        ]
+      },
+      "id": "node/8922983872"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9125042495",
+        "name": "Dog Fork Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.5779472,
+          37.7801648
+        ]
+      },
+      "id": "node/9125042495"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9587086733",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.30299,
+          38.19386
+        ]
+      },
+      "id": "node/9587086733"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9612047170",
+        "name": "Upper Burden Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.6421976,
+          37.5636271
+        ]
+      },
+      "id": "node/9612047170"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9612047171",
+        "height": "31",
+        "name": "Burden Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.6423179,
+          37.5639578
+        ]
+      },
+      "id": "node/9612047171"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9634561979",
+        "name": "Nellie's Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6414472,
+          37.7291545
+        ]
+      },
+      "id": "node/9634561979"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9725574473",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3956026,
+          37.7104183
+        ]
+      },
+      "id": "node/9725574473"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9781164056",
+        "name": "Benson Creek Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.9378128,
+          38.2084246
+        ]
+      },
+      "id": "node/9781164056"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9973652805",
+        "name": "Abrams Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.256612,
+          36.6767308
+        ]
+      },
+      "id": "node/9973652805"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10272530066",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9853369,
+          36.9088253
+        ]
+      },
+      "id": "node/10272530066"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10679232117",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.187925,
+          37.5834841
+        ]
+      },
+      "id": "node/10679232117"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10717966808",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.6793332,
+          37.8158147
+        ]
+      },
+      "id": "node/10717966808"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10717966809",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.6790156,
+          37.8158015
+        ]
+      },
+      "id": "node/10717966809"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10717966810",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.6787903,
+          37.8157458
+        ]
+      },
+      "id": "node/10717966810"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10733820635",
+        "name": "Flat Lick Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9402623,
+          37.3708751
+        ]
+      },
+      "id": "node/10733820635"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10747587012",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.614548,
+          37.7254752
+        ]
+      },
+      "id": "node/10747587012"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10747603456",
+        "name": "Falls At Shaker Landing",
+        "waterway": "waterfall",
+        "website": "https://kywaterfalls.com/dir/index.php/Bluegrass/1827%20Falls%20At%20Shaker%20Landing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.7260381,
+          37.8223492
+        ]
+      },
+      "id": "node/10747603456"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10751945703",
+        "name": "Elk Lick Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3634807,
+          37.9049603
+        ]
+      },
+      "id": "node/10751945703"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10780785314",
+        "name": "Town Creek Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.8779982,
+          36.8155509
+        ]
+      },
+      "id": "node/10780785314"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10780785330",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.8735299,
+          36.8163832
+        ]
+      },
+      "id": "node/10780785330"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10780788077",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.7784369,
+          36.9343114
+        ]
+      },
+      "id": "node/10780788077"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10780788078",
+        "name": "Meadow Creek Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.7757643,
+          36.9340297
+        ]
+      },
+      "id": "node/10780788078"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10821034454",
+        "name": "Wind Cave Cascades",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9243259,
+          37.5079249
+        ]
+      },
+      "id": "node/10821034454"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10831796472",
+        "name": "Brush Creek Church Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.6203857,
+          37.3439884
+        ]
+      },
+      "id": "node/10831796472"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10835771449",
+        "name": "Silver Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3957595,
+          37.8961855
+        ]
+      },
+      "id": "node/10835771449"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10857470532",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.5900433,
+          39.1184275
+        ]
+      },
+      "id": "node/10857470532"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10858011727",
+        "name": "Handcock Falls",
+        "tourism": "attraction",
+        "waterway": "waterfall",
+        "website": "https://kywaterfalls.com/dir/index.php/Mississippian%20Plateau/2967%20Handcock%20Falls"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.0443808,
+          36.7866128
+        ]
+      },
+      "id": "node/10858011727"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10858011744",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.0441456,
+          36.7866009
+        ]
+      },
+      "id": "node/10858011744"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10915241285",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.8473914,
+          38.2187628
+        ]
+      },
+      "id": "node/10915241285"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10915241292",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.8479063,
+          38.2192316
+        ]
+      },
+      "id": "node/10915241292"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11059911859",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9424441,
+          37.6974117
+        ]
+      },
+      "id": "node/11059911859"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11170285191",
+        "name": "Cedar/Pakentuck Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.7384039,
+          37.5183138
+        ]
+      },
+      "id": "node/11170285191"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11340582552",
+        "name": "McCammon Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9456334,
+          37.3919491
+        ]
+      },
+      "id": "node/11340582552"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11361218406",
+        "name": "Double Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2966549,
+          37.0711736
+        ]
+      },
+      "id": "node/11361218406"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11366969444",
+        "name": "Box Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.5749009,
+          37.8427625
+        ]
+      },
+      "id": "node/11366969444"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11368471143",
+        "name": "Ataullah Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.57779,
+          37.90565
+        ]
+      },
+      "id": "node/11368471143"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11382602339",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6611758,
+          37.7886658
+        ]
+      },
+      "id": "node/11382602339"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11712145747",
+        "name": "Crowe Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.4664794,
+          38.7118771
+        ]
+      },
+      "id": "node/11712145747"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11825773286",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.3880033,
+          37.1400994
+        ]
+      },
+      "id": "node/11825773286"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11834996358",
+        "height": "6.1",
+        "name": "Dog Slaughter Falls",
+        "waterway": "waterfall",
+        "width": "7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3118383,
+          36.858414
+        ]
+      },
+      "id": "node/11834996358"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11936191765",
+        "name": "80 Falls",
+        "waterway": "waterfall",
+        "website": "https://kywaterfalls.com/dir/index.php/Cumberland%20Plateau/3044%2080%20Falls"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2869271,
+          37.1455503
+        ]
+      },
+      "id": "node/11936191765"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11936212528",
+        "name": "Pine Creek Falls",
+        "name_1": "Bridge Rock Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2847395,
+          37.1369038
+        ]
+      },
+      "id": "node/11936212528"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11952898065",
+        "height": "5",
+        "intermittent": "no",
+        "name": "Cedar Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3825894,
+          38.8321019
+        ]
+      },
+      "id": "node/11952898065"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11956743779",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.297383,
+          37.0731872
+        ]
+      },
+      "id": "node/11956743779"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11956743781",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2977581,
+          37.0730782
+        ]
+      },
+      "id": "node/11956743781"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11958977839",
+        "name": "Copperas Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.5714757,
+          37.8414688
+        ]
+      },
+      "id": "node/11958977839"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12000177522",
+        "alt_name": "Bork's Falls",
+        "height": "30",
+        "intermittent": "no",
+        "name": "Bjork's Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.0210493,
+          37.5416587
+        ]
+      },
+      "id": "node/12000177522"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12038652438",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.230282,
+          38.9303646
+        ]
+      },
+      "id": "node/12038652438"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12056292305",
+        "name": "Bear Creek Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3557921,
+          36.9913807
+        ]
+      },
+      "id": "node/12056292305"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12056394884",
+        "name": "Dutch Branch Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3448389,
+          36.9592053
+        ]
+      },
+      "id": "node/12056394884"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12115539351",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.1492851,
+          37.7136048
+        ]
+      },
+      "id": "node/12115539351"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12136936295",
+        "name": "Alcorn Branch Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.8912559,
+          37.5128544
+        ]
+      },
+      "id": "node/12136936295"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12175843946",
+        "name": "Bark Camp Branch Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2915833,
+          36.9108717
+        ]
+      },
+      "id": "node/12175843946"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12175843956",
+        "name": "Bark Camp Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.291583,
+          36.9083995
+        ]
+      },
+      "id": "node/12175843956"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12175843960",
+        "name": "Grandaddy Waterfalls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3018407,
+          36.9213343
+        ]
+      },
+      "id": "node/12175843960"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12175843963",
+        "name": "Boulder Cascade",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3039076,
+          36.9211376
+        ]
+      },
+      "id": "node/12175843963"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12175843972",
+        "name": "Bee Creek Road Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2948261,
+          36.9430055
+        ]
+      },
+      "id": "node/12175843972"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12176677885",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2683474,
+          37.158667
+        ]
+      },
+      "id": "node/12176677885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12193441219",
+        "name": "Star Creek Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3132294,
+          36.885505
+        ]
+      },
+      "id": "node/12193441219"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12193443005",
+        "name": "Devil Creek Watefall",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3149519,
+          36.9001823
+        ]
+      },
+      "id": "node/12193443005"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12195894213",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4334674,
+          36.9124006
+        ]
+      },
+      "id": "node/12195894213"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12312304820",
+        "intermittent": "yes",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2788588,
+          37.9260638
+        ]
+      },
+      "id": "node/12312304820"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12368823656",
+        "name": "Upper Lily Creek Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.0437935,
+          36.9902782
+        ]
+      },
+      "id": "node/12368823656"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12368823658",
+        "name": "Lower Lily Creek Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.0431323,
+          36.989751
+        ]
+      },
+      "id": "node/12368823658"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12368823672",
+        "name": "Little Lily Creek Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.0411985,
+          36.9895311
+        ]
+      },
+      "id": "node/12368823672"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12368823686",
+        "name": "Lily Bend Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.0378568,
+          36.9903716
+        ]
+      },
+      "id": "node/12368823686"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12373978014",
+        "name": "Mariba Arches Complex Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.5749581,
+          37.9013548
+        ]
+      },
+      "id": "node/12373978014"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12373978016",
+        "height": "28.5",
+        "name": "Lili’s Leap Falls",
+        "waterway": "waterfall",
+        "width": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.5713594,
+          37.890452
+        ]
+      },
+      "id": "node/12373978016"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12373978017",
+        "name": "Bear Dog Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.5777503,
+          37.9048974
+        ]
+      },
+      "id": "node/12373978017"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12373978019",
+        "name": "West Mariba Fork Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.577729,
+          37.905542
+        ]
+      },
+      "id": "node/12373978019"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12373991154",
+        "name": "Eagle Point Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.5614519,
+          37.8267154
+        ]
+      },
+      "id": "node/12373991154"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12374031941",
+        "name": "Olivia Addison Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.5706848,
+          37.8250876
+        ]
+      },
+      "id": "node/12374031941"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12391680160",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6297586,
+          36.7069931
+        ]
+      },
+      "id": "node/12391680160"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12394850197",
+        "name": "Pooch's Turtle Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.5655421,
+          37.7758863
+        ]
+      },
+      "id": "node/12394850197"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12394924041",
+        "name": "Swirly Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.62675,
+          37.78638
+        ]
+      },
+      "id": "node/12394924041"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12394944865",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6415649,
+          37.7885041
+        ]
+      },
+      "id": "node/12394944865"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12394944880",
+        "name": "Hidden Arch Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.640729,
+          37.787038
+        ]
+      },
+      "id": "node/12394944880"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12396109989",
+        "name": "Wildcat Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.5787473,
+          37.7889055
+        ]
+      },
+      "id": "node/12396109989"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12396109991",
+        "name": "Mossy Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.5954306,
+          37.7882599
+        ]
+      },
+      "id": "node/12396109991"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12396216003",
+        "name": "Lower Mossy Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.5958881,
+          37.7858705
+        ]
+      },
+      "id": "node/12396216003"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12405925584",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6326969,
+          37.717652
+        ]
+      },
+      "id": "node/12405925584"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12405952991",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6328748,
+          37.7173982
+        ]
+      },
+      "id": "node/12405952991"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12405952996",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6327892,
+          37.71591
+        ]
+      },
+      "id": "node/12405952996"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12536724913",
+        "name": "East Mariba Fork Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.5745346,
+          37.9075554
+        ]
+      },
+      "id": "node/12536724913"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12542009520",
+        "name": "Boundry Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.5566466,
+          37.8407534
+        ]
+      },
+      "id": "node/12542009520"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12550802264",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.6911465,
+          39.1038168
+        ]
+      },
+      "id": "node/12550802264"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12550802294",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.6896904,
+          39.1050885
+        ]
+      },
+      "id": "node/12550802294"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12591982322",
+        "name": "Lick Branch Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3070222,
+          37.0492704
+        ]
+      },
+      "id": "node/12591982322"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12610587493",
+        "name": "Boulder Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.647676,
+          37.5227751
+        ]
+      },
+      "id": "node/12610587493"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12623424157",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.1346979,
+          37.5275804
+        ]
+      },
+      "id": "node/12623424157"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12623438675",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.1285181,
+          37.5250054
+        ]
+      },
+      "id": "node/12623438675"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12628962231",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.7620827,
+          37.5167302
+        ]
+      },
+      "id": "node/12628962231"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12628962245",
+        "name": "Spillway Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.7522317,
+          37.5125501
+        ]
+      },
+      "id": "node/12628962245"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12677198597",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2352898,
+          37.3690352
+        ]
+      },
+      "id": "node/12677198597"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12694791080",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6327082,
+          37.5562617
+        ]
+      },
+      "id": "node/12694791080"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12694885796",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7037209,
+          37.4534945
+        ]
+      },
+      "id": "node/12694885796"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12714947310",
+        "name": "Fulling Mill Falls",
+        "waterway": "waterfall",
+        "website": "https://kywaterfalls.com/dir/index.php/bluegrass/1908-fulling-mill-falls"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.7543556,
+          37.829756
+        ]
+      },
+      "id": "node/12714947310"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12772077048",
+        "name": "Upper Laural Branch Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.605197,
+          37.8117581
+        ]
+      },
+      "id": "node/12772077048"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12835199915",
+        "name": "Bell Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6021463,
+          37.8313795
+        ]
+      },
+      "id": "node/12835199915"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12861693909",
+        "name": "N37 24.465 W88 35.372",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.5893201,
+          37.4073696
+        ]
+      },
+      "id": "node/12861693909"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12869833663",
+        "name": "Turkey Foot Loop Trail Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.915511,
+          37.4638798
+        ]
+      },
+      "id": "node/12869833663"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12914882825",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3494366,
+          36.9742097
+        ]
+      },
+      "id": "node/12914882825"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12914882850",
+        "name": "Pole Bridge Branch Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3552524,
+          36.9731342
+        ]
+      },
+      "id": "node/12914882850"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12979126474",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1425322,
+          36.9550993
+        ]
+      },
+      "id": "node/12979126474"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12979126484",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1337273,
+          36.9586674
+        ]
+      },
+      "id": "node/12979126484"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13057299556",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.4263756,
+          38.733419
+        ]
+      },
+      "id": "node/13057299556"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13079241958",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4607316,
+          37.8619267
+        ]
+      },
+      "id": "node/13079241958"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13097263290",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.6058371,
+          38.9993333
+        ]
+      },
+      "id": "node/13097263290"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13298921306",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.4077121,
+          37.9445874
+        ]
+      },
+      "id": "node/13298921306"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13306755244",
+        "name": "Dixon Springs Waterfall",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.669183,
+          37.3863847
+        ]
+      },
+      "id": "node/13306755244"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13306755245",
+        "name": "Ghost Dance Canyon Boulder Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.6748897,
+          37.3805384
+        ]
+      },
+      "id": "node/13306755245"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13306779520",
+        "name": "Avery Hollow South Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.5960469,
+          37.402264
+        ]
+      },
+      "id": "node/13306779520"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13307138188",
+        "name": "Arch of the Gods Cascade",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.3771207,
+          37.5993233
+        ]
+      },
+      "id": "node/13307138188"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13309553665",
+        "name": "Ripple Canyon Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.2554337,
+          37.5929784
+        ]
+      },
+      "id": "node/13309553665"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13309602803",
+        "name": "Blue Blaze Cascade",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.2620657,
+          37.6096163
+        ]
+      },
+      "id": "node/13309602803"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13309816956",
+        "name": "Panther Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.1215795,
+          37.547118
+        ]
+      },
+      "id": "node/13309816956"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13309836900",
+        "name": "Panther Cascade",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.1171662,
+          37.548958
+        ]
+      },
+      "id": "node/13309836900"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13309860102",
+        "name": "Colorful Bluffs Waterfall",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.1111535,
+          37.5537881
+        ]
+      },
+      "id": "node/13309860102"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13309860107",
+        "name": "Battery Rock Alcove Waterfall",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.0800464,
+          37.5292881
+        ]
+      },
+      "id": "node/13309860107"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13309860111",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.0793362,
+          37.5291935
+        ]
+      },
+      "id": "node/13309860111"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13401952181",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4569953,
+          37.8583196
+        ]
+      },
+      "id": "node/13401952181"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13440001785",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.0707543,
+          36.9695823
+        ]
+      },
+      "id": "node/13440001785"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13440001787",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.0707099,
+          36.9692416
+        ]
+      },
+      "id": "node/13440001787"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13572891389",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.8906436,
+          37.513013
+        ]
+      },
+      "id": "node/13572891389"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13665671622",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4578241,
+          37.860816
+        ]
+      },
+      "id": "node/13665671622"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13724535589",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.8936637,
+          37.5158909
+        ]
+      },
+      "id": "node/13724535589"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13724535598",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.9045485,
+          37.5236119
+        ]
+      },
+      "id": "node/13724535598"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13828882465",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.8983012,
+          36.9341657
+        ]
+      },
+      "id": "node/13828882465"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13830746399",
+        "name": "Joe High Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2579561,
+          37.3517888
+        ]
+      },
+      "id": "node/13830746399"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13847191537",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2508085,
+          37.3567635
+        ]
+      },
+      "id": "node/13847191537"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13906148418",
+        "name": "Upper Right Fork Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.5467533,
+          37.6639485
+        ]
+      },
+      "id": "node/13906148418"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13923708281",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.4123709,
+          38.7411073
+        ]
+      },
+      "id": "node/13923708281"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13923708471",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.4156007,
+          38.7661088
+        ]
+      },
+      "id": "node/13923708471"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13925236293",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.2108957,
+          37.3017784
+        ]
+      },
+      "id": "node/13925236293"
+    }
+  ]
+}

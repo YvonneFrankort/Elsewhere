@@ -8,6 +8,7 @@ import type {
   PlaceItem
 } from "../../data/placeCategories";
 import { placeCategories } from "../../data/placeCategories";
+import { useCategoryState } from "../../state/useCategoryState";
 
 interface InfoMapMobileProps {
   query: string;
@@ -16,7 +17,6 @@ interface InfoMapMobileProps {
   handleSearch: () => void;
   style: string;
   setStyle: (value: string) => void;
-  onCategorySelect: (item: PlaceItem) => void;
   places: Feature[];
   selectedPlace: Feature | null;
   selectPlace: (place: Feature) => void;
@@ -29,18 +29,21 @@ function InfoMapMobile({
   handleSearch,
   style,
   setStyle,
-  onCategorySelect
 }: InfoMapMobileProps) {
 
   const [open, setOpen] = useState(false);
 
-  // NEW: expanded levels
+  // Accordion state
   const [openCategoryId, setOpenCategoryId] = useState<string | null>(null);
   const [openGroupId, setOpenGroupId] = useState<string | null>(null);
   const [openSubId, setOpenSubId] = useState<string | null>(null);
 
   const panelRef = useRef<HTMLDivElement | null>(null);
 
+  // Zustand toggle
+  const toggleCategory = useCategoryState((s) => s.toggleCategory);
+
+  // Close menu when clicking outside
   useEffect(() => {
     function handleClickOutside(e: MouseEvent) {
       if (open && panelRef.current && !panelRef.current.contains(e.target as Node)) {
@@ -51,7 +54,8 @@ function InfoMapMobile({
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, [open]);
 
-  function toggleCategory(cat: PlaceCategory) {
+  // Accordion toggles
+  function toggleCategoryUI(cat: PlaceCategory) {
     setOpenCategoryId(prev => prev === cat.id ? null : cat.id);
     setOpenGroupId(null);
     setOpenSubId(null);
@@ -66,9 +70,9 @@ function InfoMapMobile({
     setOpenSubId(prev => prev === sub.id ? null : sub.id);
   }
 
+  // REAL category toggle
   function handleItemClick(item: PlaceItem) {
-    onCategorySelect(item);
-    setOpen(false);
+    toggleCategory(item.id);   // ⭐ multi-category toggle
   }
 
   return (
@@ -157,7 +161,7 @@ function InfoMapMobile({
                     <div key={cat.id} className="category-group">
 
                       {/* CATEGORY */}
-                      <div className="category-title" onClick={() => toggleCategory(cat)}>
+                      <div className="category-title" onClick={() => toggleCategoryUI(cat)}>
                         {cat.label}
                         <span className="chevron">{openCategoryId === cat.id ? "▼" : "▶"}</span>
                       </div>
@@ -173,10 +177,27 @@ function InfoMapMobile({
                                 <span className="chevron">{openGroupId === group.id ? "▼" : "▶"}</span>
                               </div>
 
-                              {/* SUBCATEGORIES */}
+                              {/* SUBCATEGORIES OR DIRECT ITEMS */}
                               {openGroupId === group.id && (
                                 <div className="sub-list">
-                                  {group.subcategories.map((sub) => (
+
+                                  {/* CASE 1: group has direct items */}
+                                  {group.items && (
+                                    <div className="item-list">
+                                      {group.items.map((item) => (
+                                        <button
+                                          key={item.id}
+                                          className="item-button"
+                                          onClick={() => handleItemClick(item)}
+                                        >
+                                          {item.label}
+                                        </button>
+                                      ))}
+                                    </div>
+                                  )}
+
+                                  {/* CASE 2: group has subcategories */}
+                                  {group.subcategories && group.subcategories.map((sub) => (
                                     <div key={sub.id} className="sub-block">
 
                                       <div className="sub-title" onClick={() => toggleSub(sub)}>
@@ -184,7 +205,6 @@ function InfoMapMobile({
                                         <span className="chevron">{openSubId === sub.id ? "▼" : "▶"}</span>
                                       </div>
 
-                                      {/* FINAL ITEMS */}
                                       {openSubId === sub.id && (
                                         <div className="item-list">
                                           {sub.items.map((item) => (
@@ -201,6 +221,7 @@ function InfoMapMobile({
 
                                     </div>
                                   ))}
+
                                 </div>
                               )}
 

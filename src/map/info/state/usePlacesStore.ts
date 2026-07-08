@@ -3,20 +3,16 @@ import type { Feature } from "geojson";
 
 interface PlacesState {
   places: Feature[];
-  selectedPlace: Feature | null;
+  selectedPlaceId: string | null;
+
   setPlaces: (places: Feature[]) => void;
-  selectPlace: (place: Feature | null) => void;
+  selectPlace: (id: string | null) => void;
 }
 
 export const usePlacesStore = create<PlacesState>((set) => ({
   places: [],
-  selectedPlace: null,
+  selectedPlaceId: null,
 
-  setPlaces(places) {
-    set({ places });
-  },
-
-  selectPlace(place) {
-    set({ selectedPlace: place });
-  },
+  setPlaces: (places) => set({ places }),
+  selectPlace: (id) => set({ selectedPlaceId: id }),
 }));

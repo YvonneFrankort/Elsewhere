@@ -1,5 +1,3 @@
-// src/map/icons/loadInfoIcon.ts
-import mapboxgl from "mapbox-gl";
 
 export async function loadInfoIcon(map: mapboxgl.Map, name: string) {
   const url = `/icons/info/${name}.png`;

@@ -1,0 +1,25 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-06-28T00:04:59Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/812915200",
+        "name": "Cashes Valley",
+        "natural": "valley",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4586332,
+          34.8428444
+        ]
+      },
+      "id": "way/812915200"
+    }
+  ]
+}

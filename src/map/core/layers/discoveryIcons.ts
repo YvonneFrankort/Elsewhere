@@ -1,4 +1,4 @@
-// src/map/layers/discoveryIcons.ts
+
 import mapboxgl from "mapbox-gl";
 import { loadInfoIcon } from "../icons/loadInfoIcon";
 

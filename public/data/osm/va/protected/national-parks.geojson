@@ -1,0 +1,709 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-06-28T01:05:57Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/166587",
+        "boundary": "protected_area",
+        "name": "Blue Ridge Parkway",
+        "operator": "National Park Service",
+        "operator:short": "NPS",
+        "operator:type": "public",
+        "operator:wikidata": "Q308439",
+        "operator:wikipedia": "en:National Park Service",
+        "ownership": "national",
+        "protect_class": "2",
+        "protected": "perpetuity",
+        "protection_title": "National Parkway",
+        "source": "NC Center for Geographic Information and Analysis, Raleigh, North Carolina (http://www.nconemap.com)",
+        "source:va": "USGS topographic maps",
+        "type": "boundary",
+        "wikidata": "Q885856",
+        "wikipedia": "en:Blue Ridge Parkway",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0708144,
+          36.6644872
+        ]
+      },
+      "id": "relation/166587"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/3178915",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "New River Gorge National Park and Preserve",
+        "note": "This is the combined bounds of the National Park and National Preserve. The two areas, while legally distinct, are managed as a single unit.",
+        "operator": "National Park Service",
+        "operator:short": "NPS",
+        "operator:type": "public",
+        "operator:wikidata": "Q308439",
+        "ownership": "national",
+        "protect_class": "2",
+        "protected": "perpetuity",
+        "protection_title": "National Park and Preserve",
+        "source": "http://www1.usgs.gov/vip/neri/neribdy.zip",
+        "type": "boundary",
+        "website": "https://www.nps.gov/neri/",
+        "wikidata": "Q7011245",
+        "wikipedia": "en:New River Gorge National Park and Preserve",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0063433,
+          37.8966302
+        ]
+      },
+      "id": "relation/3178915"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/4237288",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Piscataway Park",
+        "operator": "National Park Service",
+        "operator:short": "NPS",
+        "operator:type": "public",
+        "operator:wikidata": "Q308439",
+        "ownership": "national",
+        "protect_class": "2",
+        "protected": "perpetuity",
+        "type": "multipolygon",
+        "website": "https://www.nps.gov/pisc/index.htm",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0533789,
+          38.6876038
+        ]
+      },
+      "id": "relation/4237288"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/6077602",
+        "alt_name": "Chesapeake & Ohio Canal National Historical Park",
+        "boundary": "protected_area",
+        "contact:facebook": "https://www.facebook.com/chesapeakeandohiocanal",
+        "contact:flickr": "https://www.flickr.com/people/67406919%40N08?rb=1",
+        "contact:instagram": "https://www.instagram.com/chesapeakeandohiocanal/",
+        "contact:twitter": "https://twitter.com/COcanalNPS",
+        "contact:youtube": "https://www.youtube.com/channel/UC6l_ywkXKu2_cwpbw55jEBA",
+        "dcgis:alpha_code": "CHOH",
+        "dcgis:park_code": "412",
+        "dcgis:reserve": "404",
+        "ele": "60",
+        "fax": "+1-301-739-5275",
+        "fee": "no",
+        "gnis:feature_id": "583731",
+        "heritage": "2",
+        "heritage:operator": "nrhp",
+        "heritage:ref": "66000036",
+        "heritage:website": "https://www.nps.gov/subjects/nationalregister/index.htm",
+        "historic": "heritage",
+        "leisure": "nature_reserve",
+        "length": "296.9",
+        "linear": "yes",
+        "name": "Chesapeake and Ohio Canal National Historical Park",
+        "name:de": "Nationaler Historischer Park Chesapeake-und-Ohio Kanal",
+        "name:en": "Chesapeake and Ohio Canal National Historical Park",
+        "name:fr": "Parc historique national du canal Chesapeake-Ohio",
+        "opening_hours": "sunrise-sunset open",
+        "owner": "United States Department of Interior, National Park Service",
+        "owner:wikidata": "Q308439",
+        "ownership": "national",
+        "phone": "+1 301-739-4200",
+        "protect_class": "2",
+        "protect_title": "National Park",
+        "protected": "perpetuity",
+        "protected_area": "historic_site",
+        "protection_title": "National Historical Park",
+        "ref:nrhp": "66000036",
+        "start_date": "1938-09-23",
+        "type": "multipolygon",
+        "website": "https://www.nps.gov/choh/index.htm",
+        "wikidata": "Q5092894",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.9158987,
+          39.3011178
+        ]
+      },
+      "id": "relation/6077602"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/6679826",
+        "boundary": "protected_area",
+        "historic": "archaeological_site",
+        "leisure": "park",
+        "name": "Hopewell Culture National Historical Park",
+        "operator": "National Park Service",
+        "operator:short": "NPS",
+        "operator:type": "public",
+        "operator:wikidata": "Q308439",
+        "ownership": "national",
+        "protect_class": "2",
+        "protected": "perpetuity",
+        "protection_title": "National Historical Park",
+        "type": "multipolygon",
+        "website": "https://www.nps.gov/hocu/index.htm",
+        "wikidata": "Q4315010",
+        "wikipedia": "en:Hopewell Culture National Historical Park",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.070689,
+          39.3102018
+        ]
+      },
+      "id": "relation/6679826"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/6762823",
+        "boundary": "protected_area",
+        "ele": "43",
+        "gnis:feature_id": "1479054",
+        "historic": "battlefield",
+        "leisure": "park",
+        "name": "Fredericksburg and Spotsylvania National Military Park",
+        "operator": "National Park Service",
+        "operator:short": "NPS",
+        "operator:type": "public",
+        "operator:wikidata": "Q308439",
+        "operator:wikipedia": "en:National Park Service",
+        "ownership": "national",
+        "protect_class": "2",
+        "protected": "perpetuity",
+        "protected_area": "historic_site",
+        "protection_title": "National Military Park",
+        "source": "https://www.nps.gov/frsp/planyourvisit/upload/Driving%20Tour%20Map.pdf",
+        "type": "multipolygon",
+        "website": "https://www.nps.gov/frsp/index.htm",
+        "wikidata": "Q181893",
+        "wikipedia": "en:Fredericksburg and Spotsylvania National Military Park",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.599631,
+          38.2370325
+        ]
+      },
+      "id": "relation/6762823"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/7192241",
+        "boundary": "protected_area",
+        "gnis:feature_id": "490476",
+        "historic": "yes",
+        "leisure": "nature_reserve",
+        "name": "Cumberland Gap National Historical Park",
+        "operator": "National Park Service",
+        "operator:short": "NPS",
+        "operator:type": "public",
+        "operator:wikidata": "Q308439",
+        "operator:wikipedia": "en:National Park Service",
+        "ownership": "national",
+        "protect_class": "2",
+        "protected": "perpetuity",
+        "protected_area": "historic_site",
+        "protection_title": "National Historical Park",
+        "start_date": "1940",
+        "type": "boundary",
+        "website": "https://www.nps.gov/cuga",
+        "wikidata": "Q5193892",
+        "wikipedia": "en:Cumberland Gap National Historical Park",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6062152,
+          36.6186928
+        ]
+      },
+      "id": "relation/7192241"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9324341",
+        "access": "yes",
+        "addr:city": "Mayodan",
+        "addr:housenumber": "500",
+        "addr:postcode": "27027",
+        "addr:state": "NC",
+        "addr:street": "Old Mayo Park Road",
+        "boundary": "protected_area",
+        "email": "mayo.river@ncparks.gov",
+        "name": "Mayo River State Park (NC)",
+        "operator": "North Carolina Division of Parks and Recreation",
+        "owner": "State of North Carolina",
+        "ownership": "state",
+        "phone": "+1-336-427-2530",
+        "protect_class": "2",
+        "protected": "perpetuity",
+        "protection_title": "State Park",
+        "start_date": "2003",
+        "type": "boundary",
+        "website": "https://www.ncparks.gov/mayo-river-state-park",
+        "wikidata": "Q6797548",
+        "wikipedia": "en:Mayo River State Park (North Carolina)",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9731809,
+          36.4680574
+        ]
+      },
+      "id": "relation/9324341"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9690610",
+        "boundary": "protected_area",
+        "leisure": "park",
+        "name": "Shawnee State Park",
+        "operator": "Division of Parks & Watercraft, Ohio Department of Natural Resources",
+        "operator:type": "government",
+        "ownership": "state",
+        "protect_class": "2",
+        "protected": "perpetuity",
+        "protection_title": "State Park",
+        "type": "multipolygon",
+        "website": "https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/shawnee-state-park",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.154374,
+          38.7099018
+        ]
+      },
+      "id": "relation/9690610"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9715281",
+        "access": "yes",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Tar Hollow State Park",
+        "operator": "Division of Parks & Watercraft, Ohio Department of Natural Resources",
+        "ownership": "state",
+        "protect_class": "2",
+        "protected": "perpetuity",
+        "protection_title": "State Park",
+        "type": "multipolygon",
+        "website": "https://parks.ohiodnr.gov/tarhollow",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.7491445,
+          39.3870713
+        ]
+      },
+      "id": "relation/9715281"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9715287",
+        "access": "yes",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Great Seal State Park",
+        "operator": "Division of Parks & Watercraft, Ohio Department of Natural Resources",
+        "operator:type": "government",
+        "ownership": "state",
+        "protect_class": "2",
+        "protected": "perpetuity",
+        "protection_title": "State Park",
+        "type": "multipolygon",
+        "website": "https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/great-seal-state-park",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.938289,
+          39.3829879
+        ]
+      },
+      "id": "relation/9715287"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9715288",
+        "boundary": "protected_area",
+        "leisure": "park",
+        "name": "Scioto Trail State Park",
+        "operator": "Division of Parks & Watercraft, Ohio Department of Natural Resources",
+        "ownership": "state",
+        "protect_class": "2",
+        "protected": "perpetuity",
+        "protection_title": "State Park",
+        "type": "multipolygon",
+        "website": "https://parks.ohiodnr.gov/sciototrail",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.9572466,
+          39.2246152
+        ]
+      },
+      "id": "relation/9715288"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9715295",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Lake White State Park",
+        "operator": "Division of Parks & Watercraft, Ohio Department of Natural Resources",
+        "ownership": "state",
+        "protect_class": "2",
+        "protected": "perpetuity",
+        "protection_title": "State Park",
+        "type": "multipolygon",
+        "website": "https://parks.ohiodnr.gov/lakewhite",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0297065,
+          39.1075
+        ]
+      },
+      "id": "relation/9715295"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9991347",
+        "addr:city": "Richmond",
+        "addr:housenumber": "470",
+        "addr:postcode": "23219",
+        "addr:state": "VA",
+        "addr:street": "Tredegar Street",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Richmond National Battlefield Park",
+        "owner": "US National Park Service",
+        "protect_class": "2",
+        "protected_area": "historic_site",
+        "source": "Virginia Department of Conservation and Recreation;esri_USDOT_Virgina",
+        "type": "multipolygon",
+        "website": "https://www.nps.gov/rich/index.htm",
+        "wikidata": "Q7330919",
+        "wikipedia": "en:Richmond National Battlefield Park",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3397431,
+          37.5047399
+        ]
+      },
+      "id": "relation/9991347"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/11051728",
+        "access": "yes",
+        "boundary": "protected_area",
+        "name": "Mayo River State Park (VA)",
+        "operator": "Virginia Department of Conservation and Recreation",
+        "owner": "Commonwealth of Virginia",
+        "protect_class": "2",
+        "protected": "perpetuity",
+        "protection_title": "State Park",
+        "start_date": "2009",
+        "type": "boundary",
+        "website": "https://www.dcr.virginia.gov/state-parks/mayo-river-sp",
+        "wikidata": "Q110459686",
+        "wikipedia": "en:Mayo River State Park (Virginia)",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9916801,
+          36.5526982
+        ]
+      },
+      "id": "relation/11051728"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/18298779",
+        "boundary": "protected_area",
+        "hunting": "no",
+        "leisure": "nature_reserve",
+        "name": "New River Gorge National Park",
+        "network": "National Parks of the United States",
+        "network:wikidata": "Q34918903",
+        "operator": "National Park Service",
+        "operator:short": "NPS",
+        "operator:type": "public",
+        "operator:wikidata": "Q308439",
+        "ownership": "national",
+        "protect_class": "2",
+        "protected": "perpetuity",
+        "protected_area": "national_park",
+        "protection_title": "National Park",
+        "source": "https://www.energy.senate.gov/services/files/1BCCAB5A-4B07-49D9-AA2D-525E84458195",
+        "type": "boundary",
+        "website": "https://www.nps.gov/neri/",
+        "wikidata": "Q131274238",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0169339,
+          37.9368817
+        ]
+      },
+      "id": "relation/18298779"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/41965043",
+        "addr:city": "Washington",
+        "addr:housenumber": "1318",
+        "addr:postcode": "20005",
+        "addr:state": "DC",
+        "addr:street": "Vermont Avenue Northwest",
+        "boundary": "protected_area",
+        "gnis:feature_id": "2002633",
+        "heritage": "2",
+        "historic": "house",
+        "name": "Mary McLeod Bethune Council House",
+        "operator": "National Park Service",
+        "operator:short": "NPS",
+        "operator:type": "public",
+        "operator:wikidata": "Q308439",
+        "ownership": "national",
+        "protect_class": "2",
+        "protected": "perpetuity",
+        "wikidata": "Q6780317",
+        "wikipedia": "en:Mary McLeod Bethune Council House National Historic Site",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0309127,
+          38.9081942
+        ]
+      },
+      "id": "way/41965043"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/699144310",
+        "boundary": "protected_area",
+        "leisure": "park",
+        "name": "Adams Lake State Park",
+        "operator": "Division of Parks & Watercraft, Ohio Department of Natural Resources",
+        "ownership": "state",
+        "protect_class": "2",
+        "protected": "perpetuity",
+        "protection_title": "State Park",
+        "website": "https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/adams-lake-state-park",
+        "wikidata": "Q4680369",
+        "wikipedia": "en:Adams Lake State Park",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.5264144,
+          38.8144669
+        ]
+      },
+      "id": "way/699144310"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/699144379",
+        "boundary": "protected_area",
+        "name": "Rocky Fork State Park",
+        "operator": "Division of Parks & Watercraft, Ohio Department of Natural Resources",
+        "operator:type": "public",
+        "operator:wikidata": "Q109319662",
+        "ownership": "state",
+        "protect_class": "2",
+        "protected": "perpetuity",
+        "protection_title": "State Park",
+        "website": "https://parks.ohiodnr.gov/rockyfork",
+        "wikidata": "Q7355779",
+        "wikipedia": "en:Rocky Fork State Park (Ohio)",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.4901789,
+          39.1851533
+        ]
+      },
+      "id": "way/699144379"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/699144387",
+        "boundary": "protected_area",
+        "name": "Paint Creek State Park",
+        "operator": "Division of Parks & Watercraft, Ohio Department of Natural Resources",
+        "ownership": "state",
+        "protect_class": "2",
+        "protected": "perpetuity",
+        "protection_title": "State Park",
+        "website": "https://parks.ohiodnr.gov/paintcreek",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3836869,
+          39.2575633
+        ]
+      },
+      "id": "way/699144387"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/699144394",
+        "access": "yes",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Pike Lake State Park",
+        "operator": "Division of Parks & Watercraft, Ohio Department of Natural Resources",
+        "ownership": "state",
+        "protect_class": "2",
+        "protected": "perpetuity",
+        "protection_title": "State Park",
+        "wikidata": "Q7193591",
+        "wikimedia_commons": "Category:Pike Lake State Park",
+        "wikipedia": "en:Pike Lake State Park (Ohio)",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.2173093,
+          39.1585365
+        ]
+      },
+      "id": "way/699144394"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1466004775",
+        "access": "yes",
+        "addr:state": "OH",
+        "boundary": "protected_area",
+        "ele": "210",
+        "gnis:feature_id": "1042372",
+        "leisure": "nature_reserve",
+        "name": "Lake Alma State Park",
+        "operator": "Division of Parks & Watercraft, Ohio Department of Natural Resources",
+        "operator:type": "government",
+        "ownership": "state",
+        "protect_class": "2",
+        "protected": "perpetuity",
+        "protection_title": "State Park",
+        "website": "https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/lake-alma-state-park",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.5119383,
+          39.1446108
+        ]
+      },
+      "id": "way/1466004775"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1466925693",
+        "access": "yes",
+        "addr:city": "Hamden",
+        "addr:state": "OH",
+        "boundary": "protected_area",
+        "ele": "210",
+        "leisure": "nature_reserve",
+        "name": "Wellston Reservoir State Wildlife Park",
+        "operator": "Division of Parks & Watercraft, Ohio Department of Natural Resources",
+        "operator:type": "government",
+        "ownership": "state",
+        "protect_class": "2",
+        "protected": "perpetuity",
+        "protection_title": "State Park",
+        "website": "https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/wellston-wildlife-area",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.5224566,
+          39.1909572
+        ]
+      },
+      "id": "way/1466925693"
+    }
+  ]
+}

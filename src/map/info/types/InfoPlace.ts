@@ -55,6 +55,6 @@ export interface InfoPlace {
   sunset?: string;
 
   // Metadata
-  source: string; // "OpenTripMap", "OSM", "NPS", "Nominatim", "OpenMeteo"
+  source: string; // "OpenTripMap", "OSM", "NPS", "OpenMeteo"
   distance?: number; // computed from user or search center
 }

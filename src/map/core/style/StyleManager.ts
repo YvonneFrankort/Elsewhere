@@ -1,6 +1,3 @@
-import mapboxgl from "mapbox-gl";
-import { sourcesRegistry } from "../registry/sources";
-import { layersRegistry } from "../registry/layers";
 
 type RebuildFn = (map: mapboxgl.Map) => void;
 
@@ -22,14 +19,39 @@ export class StyleManager {
 
     // Rebuild global layers
     this.registerRebuild((map) => {
-      for (const layer of layersRegistry) {
-        try {
-          layer.add(map);
-        } catch (err) {
-          console.error("Layer rebuild failed:", err);
+  try {
+    // 1) Add source if missing
+    if (!map.getSource("info-places")) {
+      map.addSource("info-places", {
+        type: "geojson",
+        data: {
+          type: "FeatureCollection",
+          features: []
         }
-      }
-    });
+      });
+    }
+
+    // 2) Add layer if missing
+    if (!map.getLayer("info-places-layer")) {
+      map.addLayer({
+        id: "info-places-layer",
+        type: "symbol",
+        source: "info-places",
+        layout: {
+          "icon-image": ["get", "icon"],
+          "icon-size": ["get", "size"],
+          "icon-allow-overlap": true,
+          "icon-ignore-placement": true
+        },
+        paint: {
+          "icon-color": ["get", "color"]
+        }
+      });
+    }
+  } catch (err) {
+    console.error("Info Places layer rebuild failed:", err);
+  }
+});
 
     console.log("Rebuilders count:", this.rebuildFns.length);
 

@@ -1,110 +1,120 @@
-// src/map/info/state/useInfoMapData.ts
+import { usePlacesStore } from "./usePlacesStore";
+import { useInfoMapUI } from "./useInfoMapUI";
+import type { Feature, FeatureCollection } from "geojson";
+import { useCategoryState } from "./useCategoryState";
+import { resolveCategory } from "../data/resolveCategory";
 
-import { create } from "zustand";
-import type { FeatureCollection, Feature } from "geojson";
-import { searchPlacesByItem } from "../services/apiPlacesSource";
+// Loaders
+import { load as loadGeoapify } from "../data/loaders/geoapify";
+import * as OSMLoader from "../data/loaders/osm";
+import { loadParks } from "../data/loaders/nps/parks";
+import { loadVisitorCenters } from "../data/loaders/nps/visitorCenters";
+import { loadAlerts } from "../data/loaders/nps/alerts";
+import { loadEvents } from "../data/loaders/nps/events";
 
-interface InfoMapState {
-  places: Feature[];
-  loading: boolean;
-  selectedItemId: string | null;
-  hiddenSubcategories: Set<string>;
+import * as OpenMeteoLoader from "../data/loaders/openmeteo";
 
-  setPlaces: (features: Feature[]) => void;
-  setLoading: (value: boolean) => void;
-  setSelectedItem: (itemId: string | null) => void;
+import {
+  STATE_BOUNDS,
+  getStatesIntersectingRadius,
+  isInsideBorderBuffer
+} from "../utils/stateBounds";
 
-  toggleSubcategory: (id: string, map: mapboxgl.Map) => void;
-  loadPlacesForItem: (map: mapboxgl.Map, itemId: string) => Promise<void>;
+// ---------------------------------------------
+// Multi-category resolver
+// ---------------------------------------------
+function resolveMulti(activeCategories: string[]) {
+  const flags = {
+    geoapify: false,
+    osm: false,
+    nps: false,
+    weather: false 
+  };
+
+  for (const id of activeCategories) {
+    const r = resolveCategory(id);
+
+    flags.geoapify ||= r.geoapify;
+    flags.osm ||= r.osm;
+    flags.nps ||= r.nps;
+    flags.weather ||= r.weather;  
+  }
+
+  return flags;
 }
 
-export const useInfoMapData = create<InfoMapState>((set, get) => ({
-  places: [],
-  loading: false,
-  selectedItemId: null,
-  hiddenSubcategories: new Set(),
+// ---------------------------------------------
+// Main hook
+// ---------------------------------------------
+export function useInfoMapData() {
+  const setPlaces = usePlacesStore((s) => s.setPlaces);
+  const setLoading = useInfoMapUI((s) => s.setLoading);
+  const activeCategories = useCategoryState((s) => s.activeCategories);
 
-  setPlaces: (features) => set({ places: features }),
-  setLoading: (value) => set({ loading: value }),
-  setSelectedItem: (itemId) => set({ selectedItemId: itemId }),
+  async function loadPlacesForItem(map: mapboxgl.Map) {
+    setLoading(true);
 
-  // -------------------------------------------------------
-  // TOGGLE SUBCATEGORY VISIBILITY
-  // -------------------------------------------------------
-  toggleSubcategory: (id, map) => {
-    const hidden = new Set(get().hiddenSubcategories);
+    const center = map.getCenter();
+    const params = {
+      latitude: center.lat,
+      longitude: center.lng,
+      radiusKm: 50
+    };
 
-    if (hidden.has(id)) hidden.delete(id);
-    else hidden.add(id);
+    console.log("🔵 Loading categories:", activeCategories);
+    console.log("📍 Map center:", { lat: params.latitude, lon: params.longitude });
 
-    set({ hiddenSubcategories: hidden });
+    const statesToLoad = getStatesIntersectingRadius(center, params.radiusKm);
+    const resolution = resolveMulti(activeCategories);
 
-    // Re-filter current places
-    const { places } = get();
-    const filtered = places.filter(
-      (f) => !hidden.has(f.properties?.subcategoryId)
-    );
+    const promises: Promise<Feature[]>[] = [];
+
+   // GEOAPIFY (global fallback)
+if (resolution.geoapify || statesToLoad.length === 0) {
+  promises.push(loadGeoapify(params, activeCategories));
+}
+
+// OSM (only inside supported states)
+if (resolution.osm && statesToLoad.length > 0) {
+  for (const st of statesToLoad) {
+    promises.push(OSMLoader.load(params, st, activeCategories));
+  }
+}
+
+    // NPS
+    if (resolution.nps) {
+      promises.push(loadParks(params));
+      promises.push(loadVisitorCenters(params));
+      promises.push(loadAlerts(params));
+      promises.push(loadEvents(params));
+    }
+
+    // WEATHER
+    if (resolution.weather) {
+      promises.push(OpenMeteoLoader.load(params));
+    }
+
+    const results = await Promise.all(promises);
+
+    console.log("📦 Loader results:", results.map(r => r.length));
+
+    const merged: Feature[] = results.flat();
+
+    console.log("🧩 Total merged features:", merged.length);
+
+    setPlaces(merged);
 
     const source = map.getSource("info-places") as mapboxgl.GeoJSONSource;
     if (source) {
-      source.setData({
+      const geojson: FeatureCollection = {
         type: "FeatureCollection",
-        features: filtered,
-      });
-    }
-  },
-
-  // -------------------------------------------------------
-  // LOAD PLACES FOR SELECTED ITEM
-  // -------------------------------------------------------
-  loadPlacesForItem: async (map, itemId) => {
-    set({ loading: true, selectedItemId: itemId });
-
-    try {
-      const center = map.getCenter();
-      const lat = center.lat;
-      const lon = center.lng;
-
-      const results = await searchPlacesByItem(lat, lon, itemId);
-
-      // Convert to GeoJSON features
-      const features: Feature[] = results.map((p) => ({
-        type: "Feature",
-        geometry: {
-          type: "Point",
-          coordinates: [p.lon, p.lat],
-        },
-        properties: {
-          id: p.id,
-          name: p.name,
-          subcategoryId: p.subcategoryId,
-          color: p.color,
-        },
-      }));
-
-      // Apply visibility filtering
-      const hidden = get().hiddenSubcategories;
-      const filtered = features.filter(
-        (f) => !hidden.has(f.properties?.subcategoryId)
-      );
-
-      // Update Zustand store
-      set({ places: features });
-
-      // Update Mapbox source
-      const source = map.getSource("info-places") as mapboxgl.GeoJSONSource;
-
-      if (source) {
-        const geojson: FeatureCollection = {
-          type: "FeatureCollection",
-          features: filtered,
-        };
-        source.setData(geojson);
-      }
-    } catch (err) {
-      console.error("Failed to load places:", err);
+        features: merged
+      };
+      source.setData(geojson);
     }
 
-    set({ loading: false });
-  },
-}));
+    setLoading(false);
+  }
+
+  return { loadPlacesForItem };
+}

@@ -1,0 +1,2392 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-06-28T01:11:01Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/452657391",
+        "access": "private",
+        "amenity": "parking",
+        "layer": "-1",
+        "name": "Bethesda Center",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.096622,
+          38.9850358
+        ]
+      },
+      "id": "node/452657391"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/455139256",
+        "access": "yes",
+        "amenity": "parking",
+        "parking": "multi-storey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0310867,
+          38.992682
+        ]
+      },
+      "id": "node/455139256"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/486343772",
+        "access": "yes",
+        "amenity": "parking",
+        "fee": "yes",
+        "layer": "-1",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0211722,
+          38.8971589
+        ]
+      },
+      "id": "node/486343772"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/524242742",
+        "amenity": "parking",
+        "layer": "-1",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.049468,
+          38.86119
+        ]
+      },
+      "id": "node/524242742"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/568721916",
+        "amenity": "parking",
+        "layer": "-1",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0490389,
+          38.8532207
+        ]
+      },
+      "id": "node/568721916"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/575047104",
+        "access": "yes",
+        "amenity": "parking",
+        "fee": "yes",
+        "parking": "multi-storey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0814657,
+          38.8916377
+        ]
+      },
+      "id": "node/575047104"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/589714434",
+        "access": "customers",
+        "amenity": "parking",
+        "parking": "multi-storey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.727487,
+          39.1572716
+        ]
+      },
+      "id": "node/589714434"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/634781662",
+        "amenity": "parking",
+        "layer": "-1",
+        "name": "Waterfront Center",
+        "parking": "underground",
+        "type": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0634249,
+          38.902848
+        ]
+      },
+      "id": "node/634781662"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/662063213",
+        "access": "yes",
+        "amenity": "parking",
+        "fee": "yes",
+        "layer": "-1",
+        "parking": "underground",
+        "type": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0648542,
+          38.8042561
+        ]
+      },
+      "id": "node/662063213"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/690900129",
+        "access": "yes",
+        "addr:city": "Washington",
+        "addr:housenumber": "1900",
+        "addr:state": "DC",
+        "addr:street": "K Street Northwest",
+        "amenity": "parking",
+        "layer": "-1",
+        "name": "Park America",
+        "opening_hours": "Mo-Fr 06:30-19:00",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0437406,
+          38.9018565
+        ]
+      },
+      "id": "node/690900129"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/694525699",
+        "alt_name": "SP Plus",
+        "amenity": "parking",
+        "brand": "SP+",
+        "brand:wikidata": "Q7598289",
+        "fee": "yes",
+        "name": "SP+",
+        "opening_hours": "24/7",
+        "operator": "SP+",
+        "operator:type": "private",
+        "operator:wikidata": "Q7598289",
+        "parking": "underground",
+        "type": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0622891,
+          38.9027291
+        ]
+      },
+      "id": "node/694525699"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/694532806",
+        "amenity": "parking",
+        "brand": "Colonial Parking",
+        "brand:wikidata": "Q121494114",
+        "layer": "-1",
+        "name": "Colonial Parking",
+        "opening_hours": "Mo-Su 07:00-24:00",
+        "operator": "Colonial Parking",
+        "operator:type": "private",
+        "operator:wikidata": "Q121494114",
+        "parking": "underground",
+        "type": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0596363,
+          38.9027844
+        ]
+      },
+      "id": "node/694532806"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/705733089",
+        "amenity": "parking",
+        "layer": "-1",
+        "parking": "underground",
+        "type": "indoor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0408827,
+          38.9070189
+        ]
+      },
+      "id": "node/705733089"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/731461806",
+        "access": "private",
+        "amenity": "parking",
+        "fee": "yes",
+        "layer": "-1",
+        "name": "Parking Garage",
+        "opening_hours": "24/7",
+        "parking": "underground",
+        "surface": "paved"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0233431,
+          38.9010612
+        ]
+      },
+      "id": "node/731461806"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/736849281",
+        "access": "yes",
+        "amenity": "parking",
+        "fee": "yes",
+        "layer": "-1",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0848043,
+          38.9600007
+        ]
+      },
+      "id": "node/736849281"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/837122890",
+        "access": "yes",
+        "amenity": "parking",
+        "fee": "yes",
+        "layer": "-1",
+        "name": "Tishman Speyer",
+        "opening_hours": "Mo-Fr 07:00-22:00",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0459774,
+          38.9058253
+        ]
+      },
+      "id": "node/837122890"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/845504237",
+        "access": "yes",
+        "amenity": "parking",
+        "fee": "yes",
+        "layer": "-1",
+        "name": "PMI",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0271711,
+          38.8955142
+        ]
+      },
+      "id": "node/845504237"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/845504238",
+        "access": "yes",
+        "amenity": "parking",
+        "fee": "yes",
+        "layer": "-1",
+        "name": "Laz",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0271711,
+          38.8953723
+        ]
+      },
+      "id": "node/845504238"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/845910833",
+        "amenity": "parking",
+        "fee": "yes",
+        "layer": "-1",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.6178035,
+          39.2880337
+        ]
+      },
+      "id": "node/845910833"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/867236654",
+        "access": "yes",
+        "amenity": "parking",
+        "layer": "-1",
+        "parking": "underground",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0446111,
+          38.9063427
+        ]
+      },
+      "id": "node/867236654"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/867236696",
+        "access": "yes",
+        "amenity": "parking",
+        "brand": "Impark",
+        "brand:wikidata": "Q6006077",
+        "fee": "yes",
+        "layer": "-1",
+        "name": "Impark",
+        "opening_hours": "Mo-Fr 07:00-21:00",
+        "operator": "Impark",
+        "operator:type": "private",
+        "operator:wikidata": "Q6006077",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0451527,
+          38.9064816
+        ]
+      },
+      "id": "node/867236696"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/867236810",
+        "access": "yes",
+        "amenity": "parking",
+        "layer": "-1",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0445924,
+          38.906576
+        ]
+      },
+      "id": "node/867236810"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/875436879",
+        "access": "customers",
+        "amenity": "parking",
+        "fee": "yes",
+        "layer": "-1",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0449774,
+          38.8111999
+        ]
+      },
+      "id": "node/875436879"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/875436881",
+        "access": "customers",
+        "amenity": "parking",
+        "fee": "no",
+        "layer": "-1",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0452429,
+          38.8108112
+        ]
+      },
+      "id": "node/875436881"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/875436885",
+        "access": "customers",
+        "amenity": "parking",
+        "fee": "no",
+        "layer": "-1",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0450701,
+          38.8116992
+        ]
+      },
+      "id": "node/875436885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/911209549",
+        "access": "yes",
+        "addr:city": "Washington",
+        "addr:housenumber": "2421 18th St NW",
+        "addr:postcode": "20009",
+        "addr:state": "DC",
+        "addr:street": "18th Street Northwest",
+        "amenity": "parking",
+        "brand": "Colonial Parking",
+        "brand:wikidata": "Q121494114",
+        "fee": "yes",
+        "name": "Adams Morgan Colonial Parking",
+        "note": "http://www.ecolonial.com/",
+        "operator": "Colonial Parking",
+        "operator:type": "private",
+        "operator:wikidata": "Q121494114",
+        "parking": "multi-storey",
+        "supervised": "yes",
+        "surface": "paved"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0414162,
+          38.9211197
+        ]
+      },
+      "id": "node/911209549"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/918716403",
+        "access": "yes",
+        "amenity": "parking",
+        "layer": "-1",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0881916,
+          38.9611073
+        ]
+      },
+      "id": "node/918716403"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1305342367",
+        "access": "private",
+        "amenity": "parking",
+        "parking": "multi-storey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.6048978,
+          39.4020755
+        ]
+      },
+      "id": "node/1305342367"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1319717730",
+        "access": "yes",
+        "amenity": "parking",
+        "brand": "Colonial Parking",
+        "brand:wikidata": "Q121494114",
+        "fee": "yes",
+        "layer": "-1",
+        "name": "Colonial Parking",
+        "operator": "Colonial Parking",
+        "operator:type": "private",
+        "operator:wikidata": "Q121494114",
+        "parking": "underground",
+        "toilets:wheelchair": "no",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0392916,
+          38.906031
+        ]
+      },
+      "id": "node/1319717730"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1323152143",
+        "access": "yes",
+        "amenity": "parking",
+        "brand": "Colonial Parking",
+        "brand:wikidata": "Q121494114",
+        "fee": "yes",
+        "layer": "-1",
+        "name": "Colonial Parking",
+        "operator": "Colonial Parking",
+        "operator:type": "private",
+        "operator:wikidata": "Q121494114",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0980795,
+          38.9818856
+        ]
+      },
+      "id": "node/1323152143"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1383125037",
+        "access": "yes",
+        "addr:city": "Baltimore",
+        "addr:country": "US",
+        "addr:state": "MD",
+        "amenity": "parking",
+        "fee": "yes",
+        "parking": "multi-storey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.6219309,
+          39.2857502
+        ]
+      },
+      "id": "node/1383125037"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1967330345",
+        "access": "yes",
+        "amenity": "parking",
+        "capacity": "450",
+        "fee": "no",
+        "name": "District Ave Garage",
+        "parking": "multi-storey",
+        "source": "http://mosaicdistrict.com/explore"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.229082,
+          38.8733421
+        ]
+      },
+      "id": "node/1967330345"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2083224206",
+        "access": "yes",
+        "amenity": "parking",
+        "fee": "yes",
+        "parking": "multi-storey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.6148758,
+          39.288403
+        ]
+      },
+      "id": "node/2083224206"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2127781674",
+        "amenity": "parking",
+        "operator": "CBRE",
+        "parking": "multi-storey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3362798,
+          38.9435268
+        ]
+      },
+      "id": "node/2127781674"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2190689587",
+        "amenity": "parking",
+        "fee": "15",
+        "layer": "-1",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0710588,
+          38.8941123
+        ]
+      },
+      "id": "node/2190689587"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2191939421",
+        "amenity": "parking",
+        "fee": "12",
+        "layer": "-1",
+        "maxstay": "Daytime",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0684453,
+          38.8955108
+        ]
+      },
+      "id": "node/2191939421"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2191944728",
+        "amenity": "parking",
+        "layer": "-1",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0702561,
+          38.8970037
+        ]
+      },
+      "id": "node/2191944728"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2215449406",
+        "amenity": "parking",
+        "name": "Handicapped",
+        "parking": "multi-storey",
+        "source": "bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.192769,
+          39.1965129
+        ]
+      },
+      "id": "node/2215449406"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2215449407",
+        "amenity": "parking",
+        "name": "Handicapped",
+        "parking": "multi-storey",
+        "source": "bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.1910872,
+          39.1942679
+        ]
+      },
+      "id": "node/2215449407"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2245939560",
+        "access": "customers",
+        "amenity": "parking",
+        "fee": "no",
+        "layer": "-1",
+        "name": "Whole Foods Market",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0602489,
+          38.8035777
+        ]
+      },
+      "id": "node/2245939560"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2412734828",
+        "amenity": "parking",
+        "layer": "-1",
+        "parking": "underground",
+        "source": "knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0620188,
+          38.8051272
+        ]
+      },
+      "id": "node/2412734828"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2457602493",
+        "amenity": "parking",
+        "layer": "-1",
+        "name": "Public",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0463864,
+          38.9021279
+        ]
+      },
+      "id": "node/2457602493"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2457602494",
+        "amenity": "parking",
+        "layer": "-1",
+        "name": "Public",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0464213,
+          38.9017375
+        ]
+      },
+      "id": "node/2457602494"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2457602495",
+        "amenity": "parking",
+        "layer": "-1",
+        "name": "Public",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0451204,
+          38.9020548
+        ]
+      },
+      "id": "node/2457602495"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2457602496",
+        "amenity": "parking",
+        "layer": "-1",
+        "name": "Public",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0451285,
+          38.9016916
+        ]
+      },
+      "id": "node/2457602496"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2457606304",
+        "amenity": "parking",
+        "layer": "-1",
+        "name": "GWU Hospital",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0498878,
+          38.9009501
+        ]
+      },
+      "id": "node/2457606304"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2702746726",
+        "amenity": "parking",
+        "layer": "-1",
+        "name": "PHO III Parking Garage",
+        "parking": "underground",
+        "source": "I work there"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.2239303,
+          38.9323255
+        ]
+      },
+      "id": "node/2702746726"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2702766329",
+        "amenity": "parking",
+        "layer": "-1",
+        "name": "PHO I - Parking Garage",
+        "parking": "underground",
+        "source": "I work there"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.2259151,
+          38.9331225
+        ]
+      },
+      "id": "node/2702766329"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2702773471",
+        "amenity": "parking",
+        "layer": "-1",
+        "name": "PHO IV Parking Garage",
+        "parking": "underground",
+        "source": "I work there"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.2267594,
+          38.9305694
+        ]
+      },
+      "id": "node/2702773471"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2733056219",
+        "amenity": "parking",
+        "parking": "multi-storey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.4243443,
+          38.9571703
+        ]
+      },
+      "id": "node/2733056219"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2790488421",
+        "access": "private",
+        "amenity": "parking",
+        "layer": "-1",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0175409,
+          38.898506
+        ]
+      },
+      "id": "node/2790488421"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2790488436",
+        "amenity": "parking",
+        "layer": "-1",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0204259,
+          38.8987377
+        ]
+      },
+      "id": "node/2790488436"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2792739634",
+        "access": "yes",
+        "amenity": "parking",
+        "description": "$12 early bird by 9am",
+        "fee": "yes",
+        "layer": "-1",
+        "name": "LAZ Parking",
+        "opening_hours": "Mo-Fr 06:00-23:00",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0326264,
+          38.9050673
+        ]
+      },
+      "id": "node/2792739634"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2967026482",
+        "access": "yes",
+        "addr:city": "Loch Raven",
+        "addr:housenumber": "505",
+        "addr:postcode": "21286",
+        "addr:state": "MD",
+        "addr:street": "Virginia Avenue",
+        "amenity": "parking",
+        "fee": "yes",
+        "name": "Towson Square Garage",
+        "park_ride": "no",
+        "parking": "multi-storey",
+        "supervised": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.6005049,
+          39.4005703
+        ]
+      },
+      "id": "node/2967026482"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2970525432",
+        "access": "yes",
+        "addr:city": "Annapolis",
+        "addr:housenumber": "One",
+        "addr:postcode": "21401",
+        "addr:street": "Park Place",
+        "amenity": "parking",
+        "capacity": "1200",
+        "fee": "yes",
+        "layer": "-1",
+        "name": "Park Place Garage",
+        "parking": "underground",
+        "supervised": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.503451,
+          38.9769625
+        ]
+      },
+      "id": "node/2970525432"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3010345579",
+        "access": "yes",
+        "amenity": "parking",
+        "fee": "yes",
+        "layer": "-1",
+        "note": "Parking for 1650 Wilson Blvd and 1601 Clarendon Blvd. Both private parking spaces and public parking spaces are available.",
+        "park_ride": "no",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0770049,
+          38.8938607
+        ]
+      },
+      "id": "node/3010345579"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3058211406",
+        "amenity": "parking",
+        "fee": "yes",
+        "parking": "multi-storey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.4984423,
+          38.0339526
+        ]
+      },
+      "id": "node/3058211406"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3072401974",
+        "amenity": "parking",
+        "fee": "yes",
+        "layer": "-1",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0748466,
+          38.8942071
+        ]
+      },
+      "id": "node/3072401974"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3102686546",
+        "access": "private",
+        "amenity": "parking",
+        "layer": "-1",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1768981,
+          38.9392592
+        ]
+      },
+      "id": "node/3102686546"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3173436609",
+        "access": "customers",
+        "amenity": "parking",
+        "layer": "-1",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0753473,
+          38.8949323
+        ]
+      },
+      "id": "node/3173436609"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3244704011",
+        "access": "yes",
+        "amenity": "parking",
+        "fee": "yes",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9965046,
+          38.9318392
+        ]
+      },
+      "id": "node/3244704011"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3432398343",
+        "access": "private",
+        "addr:city": "Baltimore",
+        "addr:country": "US",
+        "addr:housenumber": "100",
+        "addr:postcode": "21201",
+        "addr:state": "MD",
+        "addr:street": "South Hanover Street",
+        "amenity": "parking",
+        "layer": "-1",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.6168445,
+          39.287159
+        ]
+      },
+      "id": "node/3432398343"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3441497694",
+        "amenity": "parking",
+        "parking": "multi-storey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.6136948,
+          39.3050743
+        ]
+      },
+      "id": "node/3441497694"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3449801409",
+        "access": "yes",
+        "amenity": "parking",
+        "fee": "yes",
+        "name": "Baltimore Arena Parking Garage",
+        "operator": "Parking Authority of Baltimore City",
+        "parking": "multi-storey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.6186605,
+          39.2879604
+        ]
+      },
+      "id": "node/3449801409"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3453114936",
+        "amenity": "parking",
+        "name": "City of Charleston Parking Garage No. 1",
+        "parking": "multi-storey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.6340538,
+          38.3486077
+        ]
+      },
+      "id": "node/3453114936"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3644922560",
+        "amenity": "parking",
+        "capacity": "150",
+        "name": "Ashland Skytower Parking Garage",
+        "parking": "multi-storey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6486803,
+          38.4806511
+        ]
+      },
+      "id": "node/3644922560"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3656853593",
+        "access": "private",
+        "amenity": "parking",
+        "fee": "no",
+        "layer": "-1",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0517245,
+          38.8154178
+        ]
+      },
+      "id": "node/3656853593"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3684647708",
+        "access": "customers",
+        "amenity": "parking",
+        "fee": "yes",
+        "name": "Long-Term Parking",
+        "parking": "multi-storey",
+        "phone": "+1 757 857 3340",
+        "supervised": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.2073777,
+          36.8995037
+        ]
+      },
+      "id": "node/3684647708"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3684647709",
+        "amenity": "parking",
+        "fee": "yes",
+        "name": "Long-Term Parking",
+        "parking": "multi-storey",
+        "phone": "+1 757 857 3340",
+        "supervised": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.207798,
+          36.8991302
+        ]
+      },
+      "id": "node/3684647709"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3684647711",
+        "access": "customers",
+        "amenity": "parking",
+        "fee": "yes",
+        "name": "Long-Term Parking",
+        "parking": "multi-storey",
+        "phone": "+1 757 857 3340"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.2061913,
+          36.899846
+        ]
+      },
+      "id": "node/3684647711"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3684647712",
+        "access": "customers",
+        "amenity": "parking",
+        "fee": "yes",
+        "name": "Short-Term Parking",
+        "parking": "multi-storey",
+        "phone": "+1 757 857 3340",
+        "supervised": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.2066408,
+          36.9001149
+        ]
+      },
+      "id": "node/3684647712"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3684647713",
+        "access": "customers",
+        "amenity": "parking",
+        "name": "Rental Car Ready Lot",
+        "parking": "multi-storey",
+        "supervised": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.2071717,
+          36.9004432
+        ]
+      },
+      "id": "node/3684647713"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3712569499",
+        "addr:city": "Washington",
+        "addr:housenumber": "1333",
+        "addr:postcode": "20005",
+        "addr:state": "DC",
+        "addr:street": "H Street Northwest",
+        "amenity": "parking",
+        "layer": "-1",
+        "operator": "Colonial",
+        "parking": "underground",
+        "phone": "+1 202-216-0503",
+        "supervised": "yes",
+        "website": "https://www.ecolonial.com/parkers/parking-locator/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0308268,
+          38.9003301
+        ]
+      },
+      "id": "node/3712569499"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4198053123",
+        "access": "yes",
+        "amenity": "parking",
+        "fee": "yes",
+        "name": "Garage B",
+        "parking": "multi-storey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1503139,
+          39.0855268
+        ]
+      },
+      "id": "node/4198053123"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4253477741",
+        "amenity": "parking",
+        "fee": "yes",
+        "layer": "-1",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0007365,
+          38.8744113
+        ]
+      },
+      "id": "node/4253477741"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4350322326",
+        "amenity": "parking",
+        "operator": "Louis",
+        "parking": "multi-storey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0321398,
+          38.9159561
+        ]
+      },
+      "id": "node/4350322326"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4421426914",
+        "access": "yes",
+        "amenity": "parking",
+        "fee": "yes",
+        "layer": "-1",
+        "name": "Parking Garage",
+        "operator": "LAZ",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0208294,
+          38.8959701
+        ]
+      },
+      "id": "node/4421426914"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4663879839",
+        "access": "yes",
+        "addr:city": "Arlington",
+        "addr:housenumber": "1800",
+        "addr:postcode": "22207",
+        "addr:state": "VA",
+        "addr:street": "North Edison Street",
+        "amenity": "parking",
+        "name": "Parking Garage E Patient Entrance",
+        "parking": "multi-storey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1280398,
+          38.8909222
+        ]
+      },
+      "id": "node/4663879839"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4972583196",
+        "access": "private",
+        "amenity": "parking",
+        "capacity": "919",
+        "fee": "yes",
+        "lit": "yes",
+        "maxheight": "2.18",
+        "name": "Saratoga Garage",
+        "opening_hours": "Mo-Fr 05:30-22:00",
+        "operator": "University of Maryland",
+        "parking": "multi-storey",
+        "supervised": "yes",
+        "surface": "concrete"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.6256423,
+          39.2923313
+        ]
+      },
+      "id": "node/4972583196"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4972657559",
+        "access": "private",
+        "amenity": "parking",
+        "capacity": "534",
+        "layer": "-1",
+        "lit": "yes",
+        "maxheight": "1.93",
+        "name": "Plaza Garage",
+        "opening_hours": "24/7",
+        "operator": "University of Maryland",
+        "parking": "underground",
+        "supervised": "yes",
+        "surface": "concrete"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.6229995,
+          39.2888699
+        ]
+      },
+      "id": "node/4972657559"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5079924589",
+        "access": "yes",
+        "amenity": "parking",
+        "capacity": "956",
+        "capacity:disabled": "23",
+        "charge": "1.5 USD/hr",
+        "covered": "yes",
+        "fee": "yes",
+        "layer": "-1",
+        "operator": "Montgomery County Department of Transportation",
+        "operator:type": "county_government",
+        "parking": "underground",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0943503,
+          38.9805753
+        ]
+      },
+      "id": "node/5079924589"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5165140027",
+        "access": "yes",
+        "amenity": "parking",
+        "fee": "yes",
+        "parking": "multi-storey",
+        "parking_1": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0624545,
+          38.8026025
+        ]
+      },
+      "id": "node/5165140027"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5440754647",
+        "amenity": "parking",
+        "layer": "-1",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0957155,
+          38.8840658
+        ]
+      },
+      "id": "node/5440754647"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5444022623",
+        "access": "private",
+        "amenity": "parking",
+        "layer": "-1",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0849861,
+          38.8933834
+        ]
+      },
+      "id": "node/5444022623"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5516371000",
+        "amenity": "parking",
+        "layer": "-1",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0854029,
+          38.8885222
+        ]
+      },
+      "id": "node/5516371000"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5912856197",
+        "access": "customers",
+        "amenity": "parking",
+        "brand": "Colonial Parking",
+        "brand:wikidata": "Q121494114",
+        "fee": "yes",
+        "layer": "-1",
+        "name": "Colonial Parking",
+        "operator": "Colonial Parking",
+        "operator:type": "private",
+        "operator:wikidata": "Q121494114",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.998134,
+          38.9534622
+        ]
+      },
+      "id": "node/5912856197"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6378801481",
+        "amenity": "parking",
+        "description": "underground parking garage",
+        "layer": "-1",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0402007,
+          38.9004689
+        ]
+      },
+      "id": "node/6378801481"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6688632713",
+        "amenity": "parking",
+        "parking": "multi-storey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.5156988,
+          37.6278782
+        ]
+      },
+      "id": "node/6688632713"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6954422407",
+        "access": "private",
+        "addr:city": "Washington",
+        "addr:housenumber": "1460",
+        "addr:postcode": "20009",
+        "addr:state": "DC",
+        "addr:street": "V Street Northwest",
+        "amenity": "parking",
+        "layer": "-1",
+        "operator": "Berkshire 15",
+        "operator:type": "private",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0341039,
+          38.9178401
+        ]
+      },
+      "id": "node/6954422407"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7027142088",
+        "amenity": "parking",
+        "layer": "-1",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0913335,
+          38.8883774
+        ]
+      },
+      "id": "node/7027142088"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7029091926",
+        "amenity": "parking",
+        "layer": "-1",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0940317,
+          38.8865565
+        ]
+      },
+      "id": "node/7029091926"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7068139653",
+        "access": "private",
+        "amenity": "parking",
+        "layer": "-1",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1062904,
+          38.8780988
+        ]
+      },
+      "id": "node/7068139653"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7068139654",
+        "amenity": "parking",
+        "layer": "-1",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1063757,
+          38.8776819
+        ]
+      },
+      "id": "node/7068139654"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7068139667",
+        "access": "private",
+        "amenity": "parking",
+        "layer": "-1",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1056437,
+          38.877222
+        ]
+      },
+      "id": "node/7068139667"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7114672723",
+        "access": "private",
+        "amenity": "parking",
+        "layer": "-1",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0960914,
+          38.8880893
+        ]
+      },
+      "id": "node/7114672723"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7204478414",
+        "access": "private",
+        "amenity": "parking",
+        "layer": "-1",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0842133,
+          38.8956278
+        ]
+      },
+      "id": "node/7204478414"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7207680070",
+        "amenity": "parking",
+        "layer": "-1",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0941695,
+          38.8861297
+        ]
+      },
+      "id": "node/7207680070"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7223378170",
+        "access": "private",
+        "amenity": "parking",
+        "layer": "-1",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0793481,
+          38.8903625
+        ]
+      },
+      "id": "node/7223378170"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7223378171",
+        "access": "private",
+        "amenity": "parking",
+        "layer": "-1",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0793365,
+          38.8902714
+        ]
+      },
+      "id": "node/7223378171"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7223378184",
+        "access": "private",
+        "amenity": "parking",
+        "layer": "-1",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0797193,
+          38.891293
+        ]
+      },
+      "id": "node/7223378184"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7227873438",
+        "access": "private",
+        "amenity": "parking",
+        "layer": "-1",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0811682,
+          38.8878088
+        ]
+      },
+      "id": "node/7227873438"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7228108410",
+        "access": "private",
+        "amenity": "parking",
+        "layer": "-1",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0854373,
+          38.8869475
+        ]
+      },
+      "id": "node/7228108410"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7228108411",
+        "access": "private",
+        "amenity": "parking",
+        "layer": "-1",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0849494,
+          38.8869788
+        ]
+      },
+      "id": "node/7228108411"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7239478982",
+        "amenity": "parking",
+        "layer": "-1",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0773734,
+          38.897863
+        ]
+      },
+      "id": "node/7239478982"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7240858715",
+        "access": "private",
+        "amenity": "parking",
+        "layer": "-1",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0737098,
+          38.8977051
+        ]
+      },
+      "id": "node/7240858715"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7278379977",
+        "access": "yes",
+        "amenity": "parking",
+        "fee": "yes",
+        "parking": "multi-storey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9828324,
+          38.9153872
+        ]
+      },
+      "id": "node/7278379977"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8515124077",
+        "amenity": "parking",
+        "fee": "yes",
+        "layer": "-1",
+        "note": "Grocery store will validate",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0004226,
+          38.8755454
+        ]
+      },
+      "id": "node/8515124077"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8579734788",
+        "amenity": "parking",
+        "capacity": "220",
+        "layer": "-1",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.8433992,
+          38.9839817
+        ]
+      },
+      "id": "node/8579734788"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9260531322",
+        "access": "delivery",
+        "amenity": "parking",
+        "layer": "-1",
+        "operator": "ZeniMax Media Inc.",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1806301,
+          39.105581
+        ]
+      },
+      "id": "node/9260531322"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9260531342",
+        "access": "delivery",
+        "amenity": "parking",
+        "layer": "-1",
+        "operator": "ZeniMax Media Inc.",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1806028,
+          39.1048459
+        ]
+      },
+      "id": "node/9260531342"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9520238145",
+        "access": "customers",
+        "amenity": "parking",
+        "layer": "-1",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1213238,
+          39.0607574
+        ]
+      },
+      "id": "node/9520238145"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9733175018",
+        "access": "yes",
+        "amenity": "parking",
+        "fee": "yes",
+        "layer": "-1",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0501992,
+          38.8137627
+        ]
+      },
+      "id": "node/9733175018"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11445781691",
+        "amenity": "parking",
+        "layer": "-1",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0157486,
+          38.8991611
+        ]
+      },
+      "id": "node/11445781691"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11445781696",
+        "amenity": "parking",
+        "layer": "-1",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0080733,
+          38.9019489
+        ]
+      },
+      "id": "node/11445781696"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11489372406",
+        "access": "yes",
+        "amenity": "parking",
+        "capacity": "427",
+        "parking": "multi-storey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1072946,
+          38.9627419
+        ]
+      },
+      "id": "node/11489372406"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12333458379",
+        "amenity": "parking",
+        "name": "Monument Parking",
+        "parking": "multi-storey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0980191,
+          38.9789893
+        ]
+      },
+      "id": "node/12333458379"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12444658764",
+        "addr:housenumber": "425",
+        "addr:street": "8th Street Northwest",
+        "amenity": "parking",
+        "brand": "Colonial Parking",
+        "brand:wikidata": "Q121494114",
+        "check_date": "2024-12-22",
+        "contact:phone": "+1 202-295-8100",
+        "contact:website": "https://ecolonial.com/",
+        "description": "Weekdays: $11/hour up to $22.95 daily max. Evenings (after 4 PM), weekends, holidays: $16 flat fee. Monthly accounts available.",
+        "fee": "yes",
+        "layer": "-1",
+        "maxheight": "6'6\"",
+        "name": "Colonial Parking",
+        "opening_hours": "Mo-Fr 06:00-24:00; Sa-Su 09:00-24:00",
+        "operator": "Colonial Parking",
+        "operator:type": "private",
+        "operator:wikidata": "Q121494114",
+        "parking": "underground",
+        "payment:american_express": "yes",
+        "payment:discover_card": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0227969,
+          38.895242
+        ]
+      },
+      "id": "node/12444658764"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12854219300",
+        "amenity": "parking",
+        "fee": "yes",
+        "name": "Parking Garage C (Green Zonee)",
+        "parking": "multi-storey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.127562,
+          38.8906001
+        ]
+      },
+      "id": "node/12854219300"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12893279829",
+        "access": "customers",
+        "amenity": "parking",
+        "fee": "no",
+        "parking": "multi-storey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1606649,
+          38.8724476
+        ]
+      },
+      "id": "node/12893279829"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13100899811",
+        "access": "customers",
+        "amenity": "parking",
+        "layer": "-1",
+        "operator": "Northgate",
+        "operator:type": "private",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1650243,
+          38.8849807
+        ]
+      },
+      "id": "node/13100899811"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13426188121",
+        "amenity": "parking",
+        "parking": "multi-storey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.9422324,
+          38.0902835
+        ]
+      },
+      "id": "node/13426188121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13636833901",
+        "access": "no",
+        "amenity": "parking",
+        "capacity": "220",
+        "layer": "-1",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.8444868,
+          38.9825007
+        ]
+      },
+      "id": "node/13636833901"
+    }
+  ]
+}

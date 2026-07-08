@@ -1,0 +1,413 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-06-28T00:04:59Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/915936297",
+        "natural": "cave_entrance",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2274618,
+          30.8121463
+        ]
+      },
+      "id": "way/915936297"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1282278965",
+        "natural": "cave_entrance",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.6414405,
+          30.7882312
+        ]
+      },
+      "id": "way/1282278965"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2720203515",
+        "name": "Griers Cave",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.8035212,
+          31.8966429
+        ]
+      },
+      "id": "node/2720203515"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3577846731",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4419014,
+          33.8850419
+        ]
+      },
+      "id": "node/3577846731"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3638087778",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.4856842,
+          34.8326486
+        ]
+      },
+      "id": "node/3638087778"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4065226024",
+        "access": "no",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2252983,
+          30.8136778
+        ]
+      },
+      "id": "node/4065226024"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4065436256",
+        "access": "no",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2288697,
+          30.8128855
+        ]
+      },
+      "id": "node/4065436256"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4065436271",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2274293,
+          30.8121567
+        ]
+      },
+      "id": "node/4065436271"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4065436280",
+        "name": "Side Entrance",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2277119,
+          30.813017
+        ]
+      },
+      "id": "node/4065436280"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4065437501",
+        "access": "no",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2291103,
+          30.8119874
+        ]
+      },
+      "id": "node/4065437501"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4065616930",
+        "access": "no",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2259512,
+          30.8137521
+        ]
+      },
+      "id": "node/4065616930"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4065616944",
+        "access": "no",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2292041,
+          30.8119501
+        ]
+      },
+      "id": "node/4065616944"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4065616955",
+        "name": "Cavern Tour Exit",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2277142,
+          30.8137023
+        ]
+      },
+      "id": "node/4065616955"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4065698437",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2274515,
+          30.8092429
+        ]
+      },
+      "id": "node/4065698437"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4065698442",
+        "access": "no",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2288888,
+          30.8107239
+        ]
+      },
+      "id": "node/4065698442"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4065698460",
+        "access": "no",
+        "name": "Indian Rock Shelter",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2285043,
+          30.8102204
+        ]
+      },
+      "id": "node/4065698460"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4068177819",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2276627,
+          30.8095008
+        ]
+      },
+      "id": "node/4068177819"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5339933245",
+        "fixme": "are these accurate?",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.7066376,
+          30.8141802
+        ]
+      },
+      "id": "node/5339933245"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5850668707",
+        "access": "yes",
+        "name": "Etowah Gold Tunnel",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0492681,
+          34.448181
+        ]
+      },
+      "id": "node/5850668707"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6398401699",
+        "access": "no",
+        "name": "White River Cave",
+        "natural": "cave_entrance",
+        "note": "Has been permanently closed by the state or county. \nN 34° 02.075 W 085° 00.725\n16S E 683519 N 3767772"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.0150866,
+          34.0298678
+        ]
+      },
+      "id": "node/6398401699"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9757716793",
+        "alt_name": "Pettyjohn’s Cave:Petty John’s Cave:Pettijohn’s Cave:Petit Jean:Wilson’s Cave",
+        "charge": "one day fishing pass USD 10",
+        "fee": "yes",
+        "name": "Pettyjohn Cave",
+        "natural": "cave_entrance",
+        "website": "https://walkercountyga.gov/discover/recreation/crockford-pigeon-mountain-wildlife-management-area/caving/",
+        "wikidata": "Q7179386",
+        "wikipedia": "en:Pettyjohn Cave"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.3637222,
+          34.6649167
+        ]
+      },
+      "id": "node/9757716793"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11009434538",
+        "name": "Horseshoe Cave",
+        "natural": "cave_entrance",
+        "source": "USGS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.3276963,
+          34.8219812
+        ]
+      },
+      "id": "node/11009434538"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11009450254",
+        "name": "North Bend Sink Cave",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.3712979,
+          34.668106
+        ]
+      },
+      "id": "node/11009450254"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11878041669",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0951797,
+          34.9326828
+        ]
+      },
+      "id": "node/11878041669"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12599782154",
+        "name": "B-047",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.3973289,
+          34.3943301
+        ]
+      },
+      "id": "node/12599782154"
+    }
+  ]
+}

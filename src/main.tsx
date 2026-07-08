@@ -8,10 +8,6 @@ import './map-layout.css'           // map container + wrapper
 import "./map/info/ui/desktop/desktop-ui.css"; // search bar, style selector, layers, FAB, dropdown
 import './map-mapbox-overrides.css' // Mapbox control overrides
 import App from './App.tsx'
-import { setGeoapifyApiKey } from "./map/info/data/loaders/geoapify";
-
-setGeoapifyApiKey(import.meta.env.VITE_GEOAPIFY_KEY);
-
 
 
 createRoot(document.getElementById('root')!).render(

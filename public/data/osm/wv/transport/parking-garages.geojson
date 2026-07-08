@@ -1,0 +1,329 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-06-27T23:54:58Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/393217165",
+        "access": "customers",
+        "amenity": "parking",
+        "fee": "no",
+        "layer": "-1",
+        "operator": "Giant Eagle",
+        "operator:type": "business",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9342008,
+          40.4563204
+        ]
+      },
+      "id": "node/393217165"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/393227426",
+        "access": "customers",
+        "amenity": "parking",
+        "fee": "no",
+        "layer": "-1",
+        "operator": "Giant Eagle",
+        "operator:type": "business",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9350551,
+          40.4564919
+        ]
+      },
+      "id": "node/393227426"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1673636344",
+        "access": "yes",
+        "alt_name": "Solders and Sailors Garage",
+        "amenity": "parking",
+        "fee": "yes",
+        "layer": "-1",
+        "name": "SO Lot",
+        "operator": "University of Pittsburgh",
+        "parking": "underground",
+        "source": "local knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9555289,
+          40.4447562
+        ]
+      },
+      "id": "node/1673636344"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2134617797",
+        "access": "yes",
+        "amenity": "parking",
+        "fee": "yes",
+        "layer": "-1",
+        "name": "Oliver Garage/Piatt Place",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9993437,
+          40.4410431
+        ]
+      },
+      "id": "node/2134617797"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2215449406",
+        "amenity": "parking",
+        "name": "Handicapped",
+        "parking": "multi-storey",
+        "source": "bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.192769,
+          39.1965129
+        ]
+      },
+      "id": "node/2215449406"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2215449407",
+        "amenity": "parking",
+        "name": "Handicapped",
+        "parking": "multi-storey",
+        "source": "bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.1910872,
+          39.1942679
+        ]
+      },
+      "id": "node/2215449407"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3058211406",
+        "amenity": "parking",
+        "fee": "yes",
+        "parking": "multi-storey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.4984423,
+          38.0339526
+        ]
+      },
+      "id": "node/3058211406"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3453114936",
+        "amenity": "parking",
+        "name": "City of Charleston Parking Garage No. 1",
+        "parking": "multi-storey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.6340538,
+          38.3486077
+        ]
+      },
+      "id": "node/3453114936"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6044649225",
+        "access": "customers",
+        "amenity": "parking",
+        "fee": "yes",
+        "name": "West Penn Hospital Parking Garage",
+        "opening_hours": "Mo-Su 00:00-24:00+",
+        "parking": "multi-storey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9455473,
+          40.460195
+        ]
+      },
+      "id": "node/6044649225"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6216528717",
+        "access": "yes",
+        "amenity": "parking",
+        "fee": "yes",
+        "name": "David L. Lawrence Convention Center Parking Garage",
+        "parking": "multi-storey",
+        "surface": "paved"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9952768,
+          40.4450588
+        ]
+      },
+      "id": "node/6216528717"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6532084989",
+        "access": "private",
+        "amenity": "parking",
+        "layer": "-1",
+        "name": "Posvar Hall Garage",
+        "operator": "University of Pittsburgh",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9533984,
+          40.4413282
+        ]
+      },
+      "id": "node/6532084989"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7117381055",
+        "amenity": "parking",
+        "layer": "-1",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.0843231,
+          40.4012895
+        ]
+      },
+      "id": "node/7117381055"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9081931417",
+        "access": "yes",
+        "addr:housenumber": "594",
+        "addr:street": "Boundary Street",
+        "amenity": "parking",
+        "covered": "yes",
+        "fee": "yes",
+        "name": "CIC Garage",
+        "parking": "multi-storey",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9465766,
+          40.444392
+        ]
+      },
+      "id": "node/9081931417"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10980097468",
+        "amenity": "parking",
+        "name": "Capitol Parking Garage",
+        "parking": "multi-storey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.7244001,
+          40.0698676
+        ]
+      },
+      "id": "node/10980097468"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12085022956",
+        "amenity": "parking",
+        "parking": "multi-storey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.990687,
+          40.4484674
+        ]
+      },
+      "id": "node/12085022956"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13426188121",
+        "amenity": "parking",
+        "parking": "multi-storey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.9422324,
+          38.0902835
+        ]
+      },
+      "id": "node/13426188121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13543350050",
+        "amenity": "parking",
+        "name": "Smithfield Liberty Garage",
+        "parking": "multi-storey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9978322,
+          40.4427812
+        ]
+      },
+      "id": "node/13543350050"
+    }
+  ]
+}

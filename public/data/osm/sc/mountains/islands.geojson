@@ -1,0 +1,3349 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-06-28T01:19:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/7160810",
+        "ele": "3",
+        "gnis:feature_id": "1221075",
+        "name": "Buck Island",
+        "place": "island",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.8010684,
+          32.1580992
+        ]
+      },
+      "id": "relation/7160810"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/7160987",
+        "ele": "3",
+        "gnis:feature_id": "1246159",
+        "name": "Jenkins Island",
+        "place": "island",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.7731823,
+          32.2185165
+        ]
+      },
+      "id": "relation/7160987"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/7566342",
+        "gnis:feature_id": "1247492",
+        "name": "Daufuskie Island",
+        "place": "island",
+        "type": "multipolygon",
+        "wikidata": "Q2837842",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.8677941,
+          32.1145767
+        ]
+      },
+      "id": "relation/7566342"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/8277891",
+        "ele": "1",
+        "gnis:feature_id": "355218",
+        "name": "Cockspur Island",
+        "place": "island",
+        "type": "multipolygon",
+        "wikidata": "Q1611170",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.8992439,
+          32.0286383
+        ]
+      },
+      "id": "relation/8277891"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/11241027",
+        "place": "island",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.9048682,
+          34.9037833
+        ]
+      },
+      "id": "relation/11241027"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/13777203",
+        "natural": "wood",
+        "place": "island",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1687958,
+          33.3041134
+        ]
+      },
+      "id": "relation/13777203"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/13777204",
+        "natural": "wood",
+        "place": "island",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1450444,
+          33.3118849
+        ]
+      },
+      "id": "relation/13777204"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14030125",
+        "gnis:feature_id": "1224171",
+        "name": "Long Island",
+        "natural": "wood",
+        "place": "island",
+        "type": "multipolygon",
+        "wikidata": "Q49654382",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9194471,
+          32.6879373
+        ]
+      },
+      "id": "relation/14030125"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14478262",
+        "name": "Deveaux Bank",
+        "place": "island",
+        "type": "multipolygon",
+        "wikidata": "Q16960351",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.1874084,
+          32.5508909
+        ]
+      },
+      "id": "relation/14478262"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/15038774",
+        "ele": "2",
+        "gnis:feature_id": "1221336",
+        "name": "Cape Island",
+        "place": "island",
+        "type": "multipolygon",
+        "wikidata": "Q32852804",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.34589,
+          33.0534343
+        ]
+      },
+      "id": "relation/15038774"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/15039111",
+        "ele": "0",
+        "gnis:feature_id": "1229907",
+        "name": "Lighthouse Island",
+        "place": "island",
+        "type": "multipolygon",
+        "wikidata": "Q49651489",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3975535,
+          33.0169779
+        ]
+      },
+      "id": "relation/15039111"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/15039141",
+        "ele": "1",
+        "gnis:feature_id": "1230014",
+        "name": "Mill Island",
+        "place": "island",
+        "type": "multipolygon",
+        "wikidata": "Q49658552",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3712144,
+          33.0329431
+        ]
+      },
+      "id": "relation/15039141"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/15765439",
+        "landuse": "forest",
+        "name": "Hampton Island",
+        "place": "island",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.3274136,
+          34.2512872
+        ]
+      },
+      "id": "relation/15765439"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/15962619",
+        "ele": "2",
+        "gnis:feature_id": "1220376",
+        "name": "Bay Point Island",
+        "place": "island",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.6265982,
+          32.2622279
+        ]
+      },
+      "id": "relation/15962619"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/16820120",
+        "name": "Bulls Island",
+        "place": "island",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6133396,
+          32.9066724
+        ]
+      },
+      "id": "relation/16820120"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/17686718",
+        "ele": "1",
+        "gnis:feature_id": "1229743",
+        "name": "Grace Island",
+        "place": "island",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.2819188,
+          33.1373836
+        ]
+      },
+      "id": "relation/17686718"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/17686719",
+        "ele": "1",
+        "gnis:feature_id": "1229651",
+        "name": "Drum Islands",
+        "place": "island",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.2735356,
+          33.1328513
+        ]
+      },
+      "id": "relation/17686719"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/18207369",
+        "ele": "8",
+        "gnis:feature_id": "1223274",
+        "name": "Hoopstick Island",
+        "place": "island",
+        "type": "multipolygon",
+        "wikidata": "Q49641415",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.0771921,
+          32.7065104
+        ]
+      },
+      "id": "relation/18207369"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/18232023",
+        "gnis:feature_id": "1247846",
+        "name": "Fripp Island",
+        "place": "island",
+        "type": "multipolygon",
+        "wikidata": "Q3709246",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.4809483,
+          32.3239835
+        ]
+      },
+      "id": "relation/18232023"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/20498502",
+        "leisure": "nature_reserve",
+        "name": "Capers Island",
+        "official_name": "George E Campsen, Jr. Capers Island Heritage Preserve",
+        "operator": "South Carolina Department of Natural Resources",
+        "place": "island",
+        "type": "multipolygon",
+        "website": "https://public-lands-scdnr.hub.arcgis.com/pages/george-e-campsen-jr-capers-island-hp",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6795637,
+          32.8691843
+        ]
+      },
+      "id": "relation/20498502"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/28247190",
+        "ele": "0",
+        "gnis:feature_id": "1222098",
+        "name": "Drum Island",
+        "place": "island",
+        "wikidata": "Q49636984",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.924673,
+          32.8081976
+        ]
+      },
+      "id": "way/28247190"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/34480958",
+        "alt_name": "Boy Scout Island",
+        "name": "Optimist Island",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.347876,
+          33.176192
+        ]
+      },
+      "id": "way/34480958"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/34713804",
+        "name": "Shaw Island",
+        "natural": "wood",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.8607821,
+          34.4700348
+        ]
+      },
+      "id": "way/34713804"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/38310635",
+        "ele": "88",
+        "gnis:feature_id": "1245955",
+        "name": "Henderson Island",
+        "name:lt": "Hendersono sala",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4186948,
+          34.4685611
+        ]
+      },
+      "id": "way/38310635"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/38310636",
+        "ele": "88",
+        "gnis:feature_id": "1250856",
+        "name": "Shelton Island",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4231906,
+          34.516671
+        ]
+      },
+      "id": "way/38310636"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/41281902",
+        "ele": "64",
+        "gnis:feature_id": "988250",
+        "name": "Leak Island",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.0639502,
+          35.1180096
+        ]
+      },
+      "id": "way/41281902"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/42890488",
+        "name": "Goat Island",
+        "place": "island",
+        "wikidata": "Q5575291",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0454227,
+          35.0282644
+        ]
+      },
+      "id": "way/42890488"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/43034104",
+        "ele": "144",
+        "gnis:feature_id": "1247462",
+        "name": "Culp Island",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.8783462,
+          34.7928298
+        ]
+      },
+      "id": "way/43034104"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/43034225",
+        "ele": "161",
+        "gnis:feature_id": "1222381",
+        "name": "Fewell Island",
+        "place": "island",
+        "wikidata": "Q49637949",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0002395,
+          35.0130939
+        ]
+      },
+      "id": "way/43034225"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/52513534",
+        "name": "Andersonville Island",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.8434635,
+          34.4729548
+        ]
+      },
+      "id": "way/52513534"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/78289646",
+        "natural": "wood",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6222445,
+          34.245737
+        ]
+      },
+      "id": "way/78289646"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/78289647",
+        "natural": "wood",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6238324,
+          34.2386772
+        ]
+      },
+      "id": "way/78289647"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/78289669",
+        "natural": "wood",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6261391,
+          34.1713304
+        ]
+      },
+      "id": "way/78289669"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/78289670",
+        "natural": "wood",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6324154,
+          34.1649568
+        ]
+      },
+      "id": "way/78289670"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/78289671",
+        "natural": "wood",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.635913,
+          34.1646106
+        ]
+      },
+      "id": "way/78289671"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/78289690",
+        "natural": "wood",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6269866,
+          34.1663594
+        ]
+      },
+      "id": "way/78289690"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/78289695",
+        "natural": "wood",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6215579,
+          34.1505921
+        ]
+      },
+      "id": "way/78289695"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/78289696",
+        "natural": "wood",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6267935,
+          34.1503435
+        ]
+      },
+      "id": "way/78289696"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/78289697",
+        "natural": "wood",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6299478,
+          34.1341558
+        ]
+      },
+      "id": "way/78289697"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/78289736",
+        "natural": "wood",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6349367,
+          34.1144565
+        ]
+      },
+      "id": "way/78289736"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/78289737",
+        "natural": "wood",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6233281,
+          34.1153447
+        ]
+      },
+      "id": "way/78289737"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/78289738",
+        "natural": "wood",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.626536,
+          34.1143943
+        ]
+      },
+      "id": "way/78289738"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/78289739",
+        "natural": "wood",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6226629,
+          34.0953212
+        ]
+      },
+      "id": "way/78289739"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/78289742",
+        "natural": "wood",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6279737,
+          34.0871825
+        ]
+      },
+      "id": "way/78289742"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/78289743",
+        "natural": "wood",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6345612,
+          34.1307457
+        ]
+      },
+      "id": "way/78289743"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/78289744",
+        "natural": "wood",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6157643,
+          34.127362
+        ]
+      },
+      "id": "way/78289744"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/78289745",
+        "natural": "wood",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.617438,
+          34.1188711
+        ]
+      },
+      "id": "way/78289745"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/78289746",
+        "natural": "wood",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6283385,
+          34.1196704
+        ]
+      },
+      "id": "way/78289746"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/78289748",
+        "natural": "wood",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.636031,
+          34.118116
+        ]
+      },
+      "id": "way/78289748"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/78289749",
+        "natural": "wood",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.626697,
+          34.1345821
+        ]
+      },
+      "id": "way/78289749"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/78289750",
+        "natural": "wood",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6478006,
+          34.1493579
+        ]
+      },
+      "id": "way/78289750"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/104203653",
+        "name": "Haltiwanger Island",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.2237372,
+          34.2012527
+        ]
+      },
+      "id": "way/104203653"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/108175545",
+        "name": "Huffman Island",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.2037816,
+          34.1894412
+        ]
+      },
+      "id": "way/108175545"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/108176165",
+        "name": "Bookman Island",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.1451493,
+          34.1464409
+        ]
+      },
+      "id": "way/108176165"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/108176167",
+        "name": "Hickory Island",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.1502776,
+          34.1569181
+        ]
+      },
+      "id": "way/108176167"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/108176169",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.1558888,
+          34.1624046
+        ]
+      },
+      "id": "way/108176169"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/110742232",
+        "ele": "25",
+        "gnis:feature_id": "1221596",
+        "name": "Church Island",
+        "natural": "wood",
+        "place": "island",
+        "source": "Landsat, Bing",
+        "wikidata": "Q49635192",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.1954805,
+          33.4119694
+        ]
+      },
+      "id": "way/110742232"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/110756338",
+        "ele": "24",
+        "gnis:feature_id": "1220352",
+        "name": "Bass Island",
+        "place": "island",
+        "source": "Landsat, Bing",
+        "wikidata": "Q32832481",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.2144368,
+          33.4264763
+        ]
+      },
+      "id": "way/110756338"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/110756358",
+        "landuse": "forest",
+        "name": "Ferguson Island",
+        "place": "island",
+        "source": "Landsat, Bing",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.2750221,
+          33.4360874
+        ]
+      },
+      "id": "way/110756358"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/124100191",
+        "ele": "3",
+        "gnis:feature_id": "1222189",
+        "name": "East Marsh Island",
+        "natural": "wetland",
+        "place": "island",
+        "source": "NHD, Bing",
+        "wetland": "saltmarsh",
+        "wikidata": "Q49637328",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.98654,
+          32.8413734
+        ]
+      },
+      "id": "way/124100191"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/186051467",
+        "ele": "24",
+        "gnis:feature_id": "1225459",
+        "name": "Pine Island",
+        "place": "island",
+        "source": "Landsat, Bing",
+        "wikidata": "Q49669480",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.191403,
+          33.4296919
+        ]
+      },
+      "id": "way/186051467"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/304044177",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9533825,
+          32.6812997
+        ]
+      },
+      "id": "way/304044177"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/329986563",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.2463671,
+          33.4126967
+        ]
+      },
+      "id": "way/329986563"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/330125210",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.278929,
+          33.4314202
+        ]
+      },
+      "id": "way/330125210"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/330449022",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.2511411,
+          33.4209569
+        ]
+      },
+      "id": "way/330449022"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/333895165",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.2734528,
+          33.4366234
+        ]
+      },
+      "id": "way/333895165"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/337503169",
+        "ele": "0",
+        "gnis:feature_id": "1222731",
+        "name": "Goat Island",
+        "natural": "wetland",
+        "place": "island",
+        "source": "NHD, Bing",
+        "wetland": "saltmarsh",
+        "wikidata": "Q49639184",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9367094,
+          32.6933964
+        ]
+      },
+      "id": "way/337503169"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/353692610",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.636609,
+          34.0694022
+        ]
+      },
+      "id": "way/353692610"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/353692827",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6333796,
+          34.0691978
+        ]
+      },
+      "id": "way/353692827"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/353705841",
+        "ele": "120",
+        "gnis:feature_id": "320202",
+        "name": "Paris Island",
+        "place": "island",
+        "wikidata": "Q49667911",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.651071,
+          34.0777177
+        ]
+      },
+      "id": "way/353705841"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/353706088",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6528742,
+          34.0771835
+        ]
+      },
+      "id": "way/353706088"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/353706089",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6536119,
+          34.075995
+        ]
+      },
+      "id": "way/353706089"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/429717586",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6936697,
+          35.0205171
+        ]
+      },
+      "id": "way/429717586"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/480324095",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.8449425,
+          34.4660542
+        ]
+      },
+      "id": "way/480324095"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/545702385",
+        "description": "Native American Mound Site",
+        "ele": "2",
+        "name": "Stallings Island",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.0461298,
+          33.5607715
+        ]
+      },
+      "id": "way/545702385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/545710822",
+        "natural": "wood",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.0420769,
+          33.5557715
+        ]
+      },
+      "id": "way/545710822"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/545710923",
+        "natural": "wood",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.0397171,
+          33.5551063
+        ]
+      },
+      "id": "way/545710923"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/585756593",
+        "name": "Stalling's Island",
+        "natural": "wood",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.0461245,
+          33.5607715
+        ]
+      },
+      "id": "way/585756593"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/674355462",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.1336631,
+          35.1560025
+        ]
+      },
+      "id": "way/674355462"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/753544151",
+        "landuse": "farmland",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0303331,
+          33.5578781
+        ]
+      },
+      "id": "way/753544151"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/753544152",
+        "landuse": "farmland",
+        "name": "Goat Island",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.031322,
+          33.557272
+        ]
+      },
+      "id": "way/753544152"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/842175530",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.7883125,
+          34.3799665
+        ]
+      },
+      "id": "way/842175530"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/900480856",
+        "name": "Creech Island",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.8183165,
+          33.8684556
+        ]
+      },
+      "id": "way/900480856"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/900481871",
+        "name": "Island Green",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.81862,
+          33.8680756
+        ]
+      },
+      "id": "way/900481871"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/903623354",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.2568844,
+          32.974483
+        ]
+      },
+      "id": "way/903623354"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/905882823",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.2439328,
+          32.0389098
+        ]
+      },
+      "id": "way/905882823"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/942344389",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.3400988,
+          32.0713352
+        ]
+      },
+      "id": "way/942344389"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/956199679",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.1114655,
+          33.4753579
+        ]
+      },
+      "id": "way/956199679"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/984938598",
+        "description": "Island in lake",
+        "name": "Island",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.7419992,
+          34.9941245
+        ]
+      },
+      "id": "way/984938598"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/998228932",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.2552502,
+          32.1007095
+        ]
+      },
+      "id": "way/998228932"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1002801572",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.9160885,
+          35.051071
+        ]
+      },
+      "id": "way/1002801572"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1018520070",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.3245387,
+          32.1129552
+        ]
+      },
+      "id": "way/1018520070"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1027228263",
+        "name": "Carter Island",
+        "natural": "wood",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.2007888,
+          33.1284962
+        ]
+      },
+      "id": "way/1027228263"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1028189061",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1540055,
+          33.3048625
+        ]
+      },
+      "id": "way/1028189061"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1028189062",
+        "natural": "wood",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1622068,
+          33.3058933
+        ]
+      },
+      "id": "way/1028189062"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1044757071",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0318728,
+          32.0507602
+        ]
+      },
+      "id": "way/1044757071"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1045111852",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0488679,
+          32.0596593
+        ]
+      },
+      "id": "way/1045111852"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1049689825",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0108794,
+          32.0583653
+        ]
+      },
+      "id": "way/1049689825"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1049689826",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.9817848,
+          32.0433409
+        ]
+      },
+      "id": "way/1049689826"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1049689827",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.9831136,
+          32.0421129
+        ]
+      },
+      "id": "way/1049689827"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1052548743",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0526645,
+          32.0571145
+        ]
+      },
+      "id": "way/1052548743"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1065548734",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0359753,
+          32.0568695
+        ]
+      },
+      "id": "way/1065548734"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1065548735",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0352061,
+          32.0590652
+        ]
+      },
+      "id": "way/1065548735"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1065548736",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0366882,
+          32.0567296
+        ]
+      },
+      "id": "way/1065548736"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1080386194",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.3378479,
+          32.0502137
+        ]
+      },
+      "id": "way/1080386194"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1080613402",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.2848831,
+          32.0674014
+        ]
+      },
+      "id": "way/1080613402"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1080653551",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0221435,
+          32.0645465
+        ]
+      },
+      "id": "way/1080653551"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1087602613",
+        "ele": "2",
+        "gnis:feature_id": "1225570",
+        "name": "Pockoy Island",
+        "place": "island",
+        "wikidata": "Q49669854",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.2335583,
+          32.546205
+        ]
+      },
+      "id": "way/1087602613"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1087602614",
+        "ele": "2",
+        "gnis:feature_id": "1225570",
+        "name": "Pockoy Island",
+        "place": "island",
+        "wikidata": "Q49669854",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.2344334,
+          32.5438327
+        ]
+      },
+      "id": "way/1087602614"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1125523949",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.003317,
+          32.6196551
+        ]
+      },
+      "id": "way/1125523949"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1169388690",
+        "ele": "3",
+        "gnis:feature_id": "1226606",
+        "name": "Shutes Folly Island",
+        "natural": "coastline",
+        "place": "island",
+        "wikidata": "Q91417309",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9119757,
+          32.7756766
+        ]
+      },
+      "id": "way/1169388690"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1181062852",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.5655241,
+          32.2793123
+        ]
+      },
+      "id": "way/1181062852"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1193583657",
+        "ele": "58",
+        "gnis:feature_id": "1221759",
+        "landuse": "forest",
+        "name": "Corley Island",
+        "place": "island",
+        "wikidata": "Q49635655",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.1709539,
+          34.0474182
+        ]
+      },
+      "id": "way/1193583657"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1202572268",
+        "natural": "wood",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.0247811,
+          33.5392864
+        ]
+      },
+      "id": "way/1202572268"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1202572269",
+        "natural": "wood",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.0258792,
+          33.5400721
+        ]
+      },
+      "id": "way/1202572269"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1202572270",
+        "natural": "wood",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.0265896,
+          33.5422256
+        ]
+      },
+      "id": "way/1202572270"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1202572271",
+        "natural": "wood",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.026379,
+          33.5411075
+        ]
+      },
+      "id": "way/1202572271"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1202572272",
+        "natural": "wood",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.0282676,
+          33.5415718
+        ]
+      },
+      "id": "way/1202572272"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1202572273",
+        "natural": "wood",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.027568,
+          33.5420322
+        ]
+      },
+      "id": "way/1202572273"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1202572274",
+        "natural": "wood",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.0302587,
+          33.5433764
+        ]
+      },
+      "id": "way/1202572274"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1202572275",
+        "natural": "wood",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.0308254,
+          33.5440104
+        ]
+      },
+      "id": "way/1202572275"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1202572276",
+        "natural": "wood",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.0293358,
+          33.5450742
+        ]
+      },
+      "id": "way/1202572276"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1202572277",
+        "natural": "wood",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.0303165,
+          33.5449263
+        ]
+      },
+      "id": "way/1202572277"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1202572278",
+        "natural": "wood",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.030174,
+          33.5454804
+        ]
+      },
+      "id": "way/1202572278"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1202572279",
+        "natural": "wood",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.0301527,
+          33.5454056
+        ]
+      },
+      "id": "way/1202572279"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1202572280",
+        "natural": "wood",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.0300443,
+          33.5452492
+        ]
+      },
+      "id": "way/1202572280"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1202572281",
+        "natural": "wood",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.0294526,
+          33.5446047
+        ]
+      },
+      "id": "way/1202572281"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1202576255",
+        "natural": "wood",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.003932,
+          33.519514
+        ]
+      },
+      "id": "way/1202576255"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1202576256",
+        "natural": "wood",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.0031267,
+          33.5203857
+        ]
+      },
+      "id": "way/1202576256"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1202576257",
+        "natural": "wood",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.0036018,
+          33.5205535
+        ]
+      },
+      "id": "way/1202576257"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1202576258",
+        "natural": "wood",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.002585,
+          33.5202978
+        ]
+      },
+      "id": "way/1202576258"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1202576259",
+        "natural": "wood",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.0009352,
+          33.5167303
+        ]
+      },
+      "id": "way/1202576259"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1202576260",
+        "natural": "wood",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.0006087,
+          33.5164712
+        ]
+      },
+      "id": "way/1202576260"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1202576261",
+        "natural": "wood",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.0004964,
+          33.5161697
+        ]
+      },
+      "id": "way/1202576261"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1202576262",
+        "natural": "wood",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9999584,
+          33.515052
+        ]
+      },
+      "id": "way/1202576262"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1202576263",
+        "natural": "wood",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9986095,
+          33.5132554
+        ]
+      },
+      "id": "way/1202576263"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1202576264",
+        "natural": "wood",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9981301,
+          33.5134363
+        ]
+      },
+      "id": "way/1202576264"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1202576265",
+        "natural": "wood",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.997365,
+          33.5119635
+        ]
+      },
+      "id": "way/1202576265"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1202576266",
+        "natural": "wood",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9969074,
+          33.5099463
+        ]
+      },
+      "id": "way/1202576266"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1202576267",
+        "natural": "wood",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.996672,
+          33.5106265
+        ]
+      },
+      "id": "way/1202576267"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1202576268",
+        "natural": "wood",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9963494,
+          33.5116253
+        ]
+      },
+      "id": "way/1202576268"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1202576269",
+        "natural": "wood",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9956455,
+          33.5098937
+        ]
+      },
+      "id": "way/1202576269"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1202576270",
+        "natural": "wood",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9972697,
+          33.5091715
+        ]
+      },
+      "id": "way/1202576270"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1202576271",
+        "natural": "wood",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9955046,
+          33.5071095
+        ]
+      },
+      "id": "way/1202576271"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1202576272",
+        "natural": "wood",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.993715,
+          33.5046394
+        ]
+      },
+      "id": "way/1202576272"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1205114134",
+        "natural": "wood",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.0481211,
+          33.5600788
+        ]
+      },
+      "id": "way/1205114134"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1216037513",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.7369875,
+          32.8732101
+        ]
+      },
+      "id": "way/1216037513"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1224634668",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.2401286,
+          32.0988572
+        ]
+      },
+      "id": "way/1224634668"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1224634669",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.2397191,
+          32.0988811
+        ]
+      },
+      "id": "way/1224634669"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1225713953",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0276277,
+          32.0715802
+        ]
+      },
+      "id": "way/1225713953"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1225713954",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0189237,
+          32.0677317
+        ]
+      },
+      "id": "way/1225713954"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1225713955",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0139324,
+          32.0706167
+        ]
+      },
+      "id": "way/1225713955"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1232195564",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.028306,
+          32.0553547
+        ]
+      },
+      "id": "way/1232195564"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1268368958",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.990606,
+          32.0457483
+        ]
+      },
+      "id": "way/1268368958"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1274522393",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.7991905,
+          32.8721958
+        ]
+      },
+      "id": "way/1274522393"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1304113314",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.2249937,
+          33.0588632
+        ]
+      },
+      "id": "way/1304113314"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1307447212",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.6620891,
+          32.3250766
+        ]
+      },
+      "id": "way/1307447212"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1307447213",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.6624573,
+          32.3193133
+        ]
+      },
+      "id": "way/1307447213"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1307455787",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.6813812,
+          32.3403645
+        ]
+      },
+      "id": "way/1307455787"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1309293025",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.9797179,
+          32.066163
+        ]
+      },
+      "id": "way/1309293025"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1309293026",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.9825508,
+          32.0647728
+        ]
+      },
+      "id": "way/1309293026"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1309293027",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.9867815,
+          32.0693275
+        ]
+      },
+      "id": "way/1309293027"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1309293028",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.004081,
+          32.0761127
+        ]
+      },
+      "id": "way/1309293028"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1309293029",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0081735,
+          32.0747315
+        ]
+      },
+      "id": "way/1309293029"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1309293030",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0043687,
+          32.0801635
+        ]
+      },
+      "id": "way/1309293030"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1309293031",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0034538,
+          32.0794843
+        ]
+      },
+      "id": "way/1309293031"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1309293032",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0000598,
+          32.076121
+        ]
+      },
+      "id": "way/1309293032"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1309293033",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.9960882,
+          32.0661173
+        ]
+      },
+      "id": "way/1309293033"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1309293034",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0067852,
+          32.0672108
+        ]
+      },
+      "id": "way/1309293034"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1309293035",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0119873,
+          32.0839102
+        ]
+      },
+      "id": "way/1309293035"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1309293036",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0142884,
+          32.0862031
+        ]
+      },
+      "id": "way/1309293036"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1309293037",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0133471,
+          32.0867056
+        ]
+      },
+      "id": "way/1309293037"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1309293038",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0167661,
+          32.0870814
+        ]
+      },
+      "id": "way/1309293038"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1311646567",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.8715119,
+          32.3852294
+        ]
+      },
+      "id": "way/1311646567"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1314690726",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0286216,
+          32.0577772
+        ]
+      },
+      "id": "way/1314690726"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1314690727",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0285348,
+          32.0571712
+        ]
+      },
+      "id": "way/1314690727"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1314690728",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0287987,
+          32.0574824
+        ]
+      },
+      "id": "way/1314690728"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1322293205",
+        "name": "Cat Island",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.7953226,
+          32.9305322
+        ]
+      },
+      "id": "way/1322293205"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1354727778",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.0032224,
+          34.2356073
+        ]
+      },
+      "id": "way/1354727778"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1362936520",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.1706681,
+          32.0775262
+        ]
+      },
+      "id": "way/1362936520"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1375953012",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.3972766,
+          34.2563594
+        ]
+      },
+      "id": "way/1375953012"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1378714082",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0796048,
+          32.3753146
+        ]
+      },
+      "id": "way/1378714082"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1409525924",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9438352,
+          32.8168115
+        ]
+      },
+      "id": "way/1409525924"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1409525925",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9453738,
+          32.8164284
+        ]
+      },
+      "id": "way/1409525925"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1413526914",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.2082311,
+          32.0496026
+        ]
+      },
+      "id": "way/1413526914"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1413526915",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.2079989,
+          32.0510758
+        ]
+      },
+      "id": "way/1413526915"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1413526916",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.1996473,
+          32.0511899
+        ]
+      },
+      "id": "way/1413526916"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1413526917",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.2001206,
+          32.0490135
+        ]
+      },
+      "id": "way/1413526917"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1413526918",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.2034229,
+          32.0479785
+        ]
+      },
+      "id": "way/1413526918"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1426677226",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.2375536,
+          32.1203037
+        ]
+      },
+      "id": "way/1426677226"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1426677227",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.237849,
+          32.122321
+        ]
+      },
+      "id": "way/1426677227"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1443746396",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0321993,
+          32.0572244
+        ]
+      },
+      "id": "way/1443746396"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1510703591",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.01932,
+          32.0336339
+        ]
+      },
+      "id": "way/1510703591"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1526453561",
+        "name": "Stave Island",
+        "place": "island",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.6781606,
+          33.1266272
+        ]
+      },
+      "id": "way/1526453561"
+    }
+  ]
+}

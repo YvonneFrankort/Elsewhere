@@ -1,0 +1,1354 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-06-27T23:20:29Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/356844559",
+        "ele": "375",
+        "gnis:feature_id": "1306167",
+        "name": "Craighead Caverns",
+        "natural": "cave_entrance",
+        "wikidata": "Q5181674"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4308499,
+          35.5355567
+        ]
+      },
+      "id": "node/356844559"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1563061906",
+        "fee": "yes",
+        "name": "Bristol Caverns",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.1214156,
+          36.5504789
+        ]
+      },
+      "id": "node/1563061906"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1852177595",
+        "name": "Cherokee Cavern",
+        "natural": "cave_entrance",
+        "wikidata": "Q131782875",
+        "wikipedia": "en:Cherokee Caverns"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1651382,
+          35.9800162
+        ]
+      },
+      "id": "node/1852177595"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1935204092",
+        "name": "Devilstep Cave",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.0085979,
+          35.7958923
+        ]
+      },
+      "id": "node/1935204092"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2232199460",
+        "description": "Ruby Falls is used as tourist attraction.",
+        "name": "Ruby Falls 145",
+        "natural": "cave_entrance",
+        "source": "UTC Regional Resource Inventory"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.3395,
+          35.0189
+        ]
+      },
+      "id": "node/2232199460"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2530155833",
+        "name": "Gap Cave",
+        "natural": "cave_entrance",
+        "old_name": "Cudjo's Cave",
+        "wikidata": "Q5521739",
+        "wikipedia": "en:Gap Cave"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.667018,
+          36.6027754
+        ]
+      },
+      "id": "node/2530155833"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5337971753",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.4913301,
+          36.1541233
+        ]
+      },
+      "id": "node/5337971753"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5348046672",
+        "name": "Lost Creek Cave",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.3605689,
+          35.8420068
+        ]
+      },
+      "id": "node/5348046672"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5455480036",
+        "description": "Killdeer Arch",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.8331801,
+          36.5356815
+        ]
+      },
+      "id": "node/5455480036"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5642590264",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.3059887,
+          36.5530798
+        ]
+      },
+      "id": "node/5642590264"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5724130840",
+        "access": "private",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3487648,
+          36.5888884
+        ]
+      },
+      "id": "node/5724130840"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6247425798",
+        "name": "Potter Branch Double Arch",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.6844,
+          36.4286054
+        ]
+      },
+      "id": "node/6247425798"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7274059077",
+        "name": "Belle Forest Cave",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.9141802,
+          36.0849308
+        ]
+      },
+      "id": "node/7274059077"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7906231651",
+        "name": "Sand Cave",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.4574672,
+          36.668576
+        ]
+      },
+      "id": "node/7906231651"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7939423777",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.4047029,
+          36.0504976
+        ]
+      },
+      "id": "node/7939423777"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8048983623",
+        "access": "no",
+        "name": "Barnett's Cave",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.5601125,
+          36.5196214
+        ]
+      },
+      "id": "node/8048983623"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8049038720",
+        "access": "no",
+        "name": "Bellamy Cave",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.5715923,
+          36.4958979
+        ]
+      },
+      "id": "node/8049038720"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8049038721",
+        "access": "no",
+        "name": "Bellamy Bat Cave",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.5713027,
+          36.4952079
+        ]
+      },
+      "id": "node/8049038721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8093870342",
+        "name": "Raccoon Mountain Caverns",
+        "natural": "cave_entrance",
+        "wikidata": "Q7278860",
+        "wikipedia": "en:Raccoon Mountain Caverns"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.4080474,
+          35.0210524
+        ]
+      },
+      "id": "node/8093870342"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8406074664",
+        "name": "Indian Cave",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6002581,
+          36.1607856
+        ]
+      },
+      "id": "node/8406074664"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8518790535",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.6810947,
+          35.6690618
+        ]
+      },
+      "id": "node/8518790535"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8635365946",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.3190528,
+          35.1298543
+        ]
+      },
+      "id": "node/8635365946"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8662883415",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.1160773,
+          36.6534448
+        ]
+      },
+      "id": "node/8662883415"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8662883416",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.1176779,
+          36.6478252
+        ]
+      },
+      "id": "node/8662883416"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9001107456",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.0710838,
+          36.0065961
+        ]
+      },
+      "id": "node/9001107456"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9434802639",
+        "name": "Worley's Cave",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.2282696,
+          36.4563846
+        ]
+      },
+      "id": "node/9434802639"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9556004856",
+        "name": "Jackson Cave",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.3245956,
+          36.086046
+        ]
+      },
+      "id": "node/9556004856"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9556973067",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.3159578,
+          36.0797327
+        ]
+      },
+      "id": "node/9556973067"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9757852375",
+        "access": "no",
+        "description": "This is technically a no entrance, no hiking train tunnel. However, it is 0.34 mile long or 1800 feet. Any attempts to trail through it should have flashlights and be prepared to lay down against the tunnel wall if a train were to come through.",
+        "image": "https://photos.google.com/share/AF1QipMaoRpUVIgfY54LAwC4AV5t7XUi0eurOC4YiLfDCmVh-rt0Xf-XmmB9ybtD8Gx-hA?key=ZHJTMUFuUFg2YTJTZVNZMVE1WHpLRHNiSWR0NVNB",
+        "name": "Swannanoa Train Tunnel, NE Entrance",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.2698791,
+          35.6230848
+        ]
+      },
+      "id": "node/9757852375"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9862233297",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.4459765,
+          35.213397
+        ]
+      },
+      "id": "node/9862233297"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9864174643",
+        "name": "Sequatchie Cave State Natural Area",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.5941013,
+          35.1207965
+        ]
+      },
+      "id": "node/9864174643"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9865053154",
+        "name": "Stone Cave",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.4313978,
+          35.3114617
+        ]
+      },
+      "id": "node/9865053154"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9868463440",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.4236657,
+          35.2437866
+        ]
+      },
+      "id": "node/9868463440"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9868507814",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.4019122,
+          35.2702421
+        ]
+      },
+      "id": "node/9868507814"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10050114241",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.2963021,
+          36.0851112
+        ]
+      },
+      "id": "node/10050114241"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10050114262",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.2968842,
+          36.0862551
+        ]
+      },
+      "id": "node/10050114262"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10050114263",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.2969243,
+          36.0862121
+        ]
+      },
+      "id": "node/10050114263"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10127240243",
+        "drinking_water": "no",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.454049,
+          35.214628
+        ]
+      },
+      "id": "node/10127240243"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10280900707",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.1040774,
+          34.9908162
+        ]
+      },
+      "id": "node/10280900707"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10677395152",
+        "name": "Buggytop Cave (Lost Cove Cave)",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.9099944,
+          35.1195286
+        ]
+      },
+      "id": "node/10677395152"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10677395175",
+        "name": "Peter Cave Entrance",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.9099765,
+          35.1207441
+        ]
+      },
+      "id": "node/10677395175"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10790815678",
+        "access": "customers",
+        "direction": "325",
+        "fee": "yes",
+        "name": "Linville Caverns",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9387987,
+          35.9191885
+        ]
+      },
+      "id": "node/10790815678"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10876757776",
+        "name": "Mill Cave",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.9270644,
+          35.8560014
+        ]
+      },
+      "id": "node/10876757776"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10876807891",
+        "access": "no",
+        "ele": "582",
+        "name": "Windlass Cave",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.909057,
+          35.8684375
+        ]
+      },
+      "id": "node/10876807891"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10876839262",
+        "name": "Saltpeter Cave",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.9456614,
+          35.8378495
+        ]
+      },
+      "id": "node/10876839262"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10876849229",
+        "name": "Bristow Cave",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.9052346,
+          35.8415537
+        ]
+      },
+      "id": "node/10876849229"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10876863012",
+        "name": "Milksick Cave",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.9289911,
+          35.8224787
+        ]
+      },
+      "id": "node/10876863012"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10879735382",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.6925649,
+          35.6914141
+        ]
+      },
+      "id": "node/10879735382"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11011067739",
+        "name": "Student Cave",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.0464057,
+          35.0477813
+        ]
+      },
+      "id": "node/11011067739"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11215387603",
+        "direction": "36°17'09.0\"N 82°09'18.0\"W",
+        "name": "Grindstaff Cave (Main Entrance)",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.1555434,
+          36.2864073
+        ]
+      },
+      "id": "node/11215387603"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11367017902",
+        "name": "UNK",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.449655,
+          36.3468205
+        ]
+      },
+      "id": "node/11367017902"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11386253898",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.817061,
+          35.2107633
+        ]
+      },
+      "id": "node/11386253898"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11396124732",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.7047489,
+          35.7355955
+        ]
+      },
+      "id": "node/11396124732"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11396248524",
+        "access": "unknown",
+        "name": "Unnamed Cave",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.8355067,
+          35.959561
+        ]
+      },
+      "id": "node/11396248524"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11896487880",
+        "access": "private",
+        "charge": "0",
+        "fee": "yes",
+        "name": "High Street and 3rd",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.1041838,
+          36.6229665
+        ]
+      },
+      "id": "node/11896487880"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11936074667",
+        "access": "customers",
+        "description": "Gated Entrance, paying customers only",
+        "fee": "yes",
+        "name": "Cumberland Caverns Historic Entrance",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.6757454,
+          35.6640785
+        ]
+      },
+      "id": "node/11936074667"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11951970778",
+        "name": "Cave Vicinity Grindstaff Cave",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.1547054,
+          36.2862273
+        ]
+      },
+      "id": "node/11951970778"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11951987895",
+        "name": "Watauga Bluffs Cave",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.298322,
+          36.3652026
+        ]
+      },
+      "id": "node/11951987895"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11952001973",
+        "name": "Grindstaff Cave (Secondary Entrance)",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.1549571,
+          36.286395
+        ]
+      },
+      "id": "node/11952001973"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11952318739",
+        "name": "Rock House Cave",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.2997702,
+          36.2765672
+        ]
+      },
+      "id": "node/11952318739"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11952351830",
+        "name": "Click Creek Cave",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6271756,
+          36.5800202
+        ]
+      },
+      "id": "node/11952351830"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11952365600",
+        "name": "Sensabaugh Saltpeter Cave",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.634731,
+          36.5658401
+        ]
+      },
+      "id": "node/11952365600"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11952375888",
+        "name": "Church Cove Cave (Appx)",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.9141917,
+          36.5368178
+        ]
+      },
+      "id": "node/11952375888"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11952401632",
+        "name": "Pearson Cave",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0166796,
+          36.5520502
+        ]
+      },
+      "id": "node/11952401632"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11952404292",
+        "name": "Horner Cave",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.9737408,
+          36.4801823
+        ]
+      },
+      "id": "node/11952404292"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12251304258",
+        "access": "customers",
+        "name": "The Cave at The Caverns",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.8265703,
+          35.3326379
+        ]
+      },
+      "id": "node/12251304258"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12269314805",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.7387354,
+          36.544389
+        ]
+      },
+      "id": "node/12269314805"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12518883302",
+        "name": "Sheep Cave",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.3245849,
+          35.8419642
+        ]
+      },
+      "id": "node/12518883302"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12800971978",
+        "access": "permissive",
+        "name": "Walker Springs Cave",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.9157126,
+          35.2286462
+        ]
+      },
+      "id": "node/12800971978"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12801023979",
+        "name": "Bridal Veil Cave",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.9433833,
+          35.2017348
+        ]
+      },
+      "id": "node/12801023979"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13207841290",
+        "name": "Devils Den",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.6531323,
+          36.4501782
+        ]
+      },
+      "id": "node/13207841290"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13306904914",
+        "access": "unknown",
+        "name": "Uncle's Cave",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.6050063,
+          35.4302406
+        ]
+      },
+      "id": "node/13306904914"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13320378639",
+        "access": "no",
+        "name": "Wonder Cave",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.8497833,
+          35.2733632
+        ]
+      },
+      "id": "node/13320378639"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13610230902",
+        "name": "Bunker #12",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.1187202,
+          35.0833527
+        ]
+      },
+      "id": "node/13610230902"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13610241501",
+        "name": "Bunker #11",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.1202268,
+          35.0838449
+        ]
+      },
+      "id": "node/13610241501"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13610248801",
+        "name": "Bunker #36",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.1130305,
+          35.0878284
+        ]
+      },
+      "id": "node/13610248801"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13610250201",
+        "name": "Bunker #40",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.1118937,
+          35.0887151
+        ]
+      },
+      "id": "node/13610250201"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13610251301",
+        "name": "Bunker #60",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.1149271,
+          35.0924364
+        ]
+      },
+      "id": "node/13610251301"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13610255401",
+        "name": "Bunker #87",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.1086948,
+          35.0864164
+        ]
+      },
+      "id": "node/13610255401"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13610261202",
+        "name": "Bunker #21/#68 (?)",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.1113248,
+          35.0978311
+        ]
+      },
+      "id": "node/13610261202"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13610265301",
+        "name": "Bunker #23 (Hidden)",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.1190208,
+          35.0953414
+        ]
+      },
+      "id": "node/13610265301"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13610267201",
+        "name": "Bunker #90",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.1093133,
+          35.085016
+        ]
+      },
+      "id": "node/13610267201"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13618521339",
+        "description": "Short passageway between a split boulder with a tight squeeze and challenging climb out. Recommended to start at the bottom squeeze and attempt to reach the top.",
+        "fee": "no",
+        "name": "Fatty Crack",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.70543,
+          35.0418058
+        ]
+      },
+      "id": "node/13618521339"
+    }
+  ]
+}
