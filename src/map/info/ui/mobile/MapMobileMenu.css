@@ -284,6 +284,13 @@
   }
 }
 
+.locate-me-btn {
+  background-image: url("/icons/marker-white.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 22px;
+}
+
 /* ======================================================
    7. CATEGORY UI (NEW)
 ====================================================== */

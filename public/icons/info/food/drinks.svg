@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 64 64">
+
+  <!-- Pin -->
+  <path
+    fill="#7B4EA3"
+    d="M32 2C20.4 2 11 11.4 11 23c0 15.4 21 39 21 39s21-23.6 21-39C53 11.4 43.6 2 32 2z"/>
+
+  <!-- White circle -->
+  <circle cx="32" cy="24" r="14" fill="#FFFFFF"/>
+
+  <!-- Bowl -->
+  <path
+    fill="#7B4EA3"
+    d="M24 18
+       H40
+       C40 24 37 28 32 28
+       C27 28 24 24 24 18Z"/>
+
+  <!-- Stem -->
+  <rect
+    x="31"
+    y="28"
+    width="2"
+    height="5"
+    rx="1"
+    fill="#7B4EA3"/>
+
+  <!-- Base -->
+  <rect
+    x="27"
+    y="33"
+    width="10"
+    height="2"
+    rx="1"
+    fill="#7B4EA3"/>
+
+</svg>

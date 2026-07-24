@@ -1,0 +1,176 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-84.6569649, 37.8089511] },
+      "properties": {
+        "name": "Dupree Nature Preserve",
+        "category": "nature-preserves",
+        "source": "curated",
+        "description": "A protected Kentucky River palisades preserve with dramatic cliffs and quiet forest trails.",
+        "best_time": "Late afternoon",
+        "duration": "45–90 minutes",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-84.6035, 37.9429] },
+      "properties": {
+        "name": "Floracliff Nature Sanctuary",
+        "category": "nature-preserves",
+        "source": "curated",
+        "description": "A research-focused preserve with rare plants, waterfalls, and guided hikes.",
+        "best_time": "Spring",
+        "duration": "1–2 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-84.2431487, 37.5639617] },
+      "properties": {
+        "name": "Anglin Falls / John B. Stephenson Memorial Forest",
+        "category": "nature-preserves",
+        "source": "curated",
+        "description": "A steep forest preserve with a seasonal waterfall and rugged ridge views.",
+        "best_time": "After rainfall",
+        "duration": "1–2 hours",
+        "image": ""
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-85.2573, 35.8609] },
+      "properties": {
+        "name": "Virgin Falls State Natural Area",
+        "category": "nature-preserves",
+        "source": "curated",
+        "description": "A dramatic natural area featuring a waterfall that disappears into a cave.",
+        "best_time": "Spring",
+        "duration": "3–6 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-85.0302, 35.2017] },
+      "properties": {
+        "name": "Walls of Jericho State Natural Area",
+        "category": "nature-preserves",
+        "source": "curated",
+        "description": "A rugged gorge with waterfalls, cliffs, and a legendary amphitheater-like rock formation.",
+        "best_time": "Morning",
+        "duration": "4–6 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-85.3021, 35.7434] },
+      "properties": {
+        "name": "Savage Gulf State Natural Area",
+        "category": "nature-preserves",
+        "source": "curated",
+        "description": "A massive gorge system with waterfalls, overlooks, and deep wilderness.",
+        "best_time": "Spring–Fall",
+        "duration": "2–6 hours",
+        "image": ""
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-79.4867, 39.4212] },
+      "properties": {
+        "name": "Cranesville Swamp Preserve",
+        "category": "nature-preserves",
+        "source": "curated",
+        "description": "A rare boreal bog ecosystem with boardwalks and unique plant life.",
+        "best_time": "Spring",
+        "duration": "45–90 minutes",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-81.6764, 38.2667] },
+      "properties": {
+        "name": "Kanawha State Forest (Nature Preserve Area)",
+        "category": "nature-preserves",
+        "source": "curated",
+        "description": "A large forest with protected natural areas, trails, and diverse wildlife.",
+        "best_time": "Morning",
+        "duration": "1–3 hours",
+        "image": ""
+      }
+    },
+   {
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-84.7398, 37.8169] },
+  "properties": {
+    "name": "Shaker Village Nature Preserve",
+    "category": "nature-preserves",
+    "source": "curated",
+    "description": "A massive restored prairie and savanna ecosystem with quiet trails and wildlife viewing.",
+    "best_time": "Spring–Fall",
+    "duration": "1–3 hours",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-84.6364, 37.7778] },
+  "properties": {
+    "name": "Tom Dorman State Nature Preserve",
+    "category": "nature-preserves",
+    "source": "curated",
+    "description": "A large palisades preserve with cliffs, wildflowers, and scenic river overlooks.",
+    "best_time": "Spring",
+    "duration": "1–2 hours",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-86.9936, 35.2774] },
+  "properties": {
+    "name": "Stillhouse Hollow Falls State Natural Area",
+    "category": "nature-preserves",
+    "source": "curated",
+    "description": "A protected forest gorge with a beautiful waterfall and short scenic trail.",
+    "best_time": "Spring",
+    "duration": "45–90 minutes",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-84.9597, 36.3784] },
+  "properties": {
+    "name": "Colditz Cove State Natural Area",
+    "category": "nature-preserves",
+    "source": "curated",
+    "description": "A protected gorge featuring Northrup Falls and lush forest trails.",
+    "best_time": "Spring–Fall",
+    "duration": "1–2 hours",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-80.5164, 38.0039] },
+  "properties": {
+    "name": "Greenbrier River Trail Nature Corridor",
+    "category": "nature-preserves",
+    "source": "curated",
+    "description": "A long protected river corridor with quiet forests, wetlands, and scenic river views.",
+    "best_time": "Summer",
+    "duration": "1–3 hours",
+    "image": ""
+  }
+} 
+  ]
+}

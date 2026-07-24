@@ -1,0 +1,122 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.7085, 37.7829] },
+      "properties": {
+        "name": "Whittleton Branch Rockhouse",
+        "category": "rockhouses",
+        "source": "curated",
+        "description": "Large sandstone rock shelter along Whittleton Branch near Natural Bridge.",
+        "best_time": "Morning",
+        "duration": "45–90 minutes",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.6895, 37.8012] },
+      "properties": {
+        "name": "Rock Bridge Rockhouse",
+        "category": "rockhouses",
+        "source": "curated",
+        "description": "A deep rock shelter beneath Rock Bridge, surrounded by lush forest.",
+        "best_time": "Afternoon",
+        "duration": "1–2 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.6840, 37.8230] },
+      "properties": {
+        "name": "Double Arch Rockhouse",
+        "category": "rockhouses",
+        "source": "curated",
+        "description": "A wide rock shelter beneath Double Arch, offering shade and views.",
+        "best_time": "Morning",
+        "duration": "1–2 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-84.5730, 36.8470] },
+      "properties": {
+        "name": "Twin Arches Rockhouses",
+        "category": "rockhouses",
+        "source": "curated",
+        "description": "Massive rock shelters beneath Twin Arches in Big South Fork.",
+        "best_time": "Spring",
+        "duration": "2–4 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-85.2573, 35.8609] },
+      "properties": {
+        "name": "Pickett Rockhouses",
+        "category": "rockhouses",
+        "source": "curated",
+        "description": "Sandstone rock shelters scattered throughout Pickett State Park.",
+        "best_time": "Morning",
+        "duration": "1–3 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-81.0750, 38.0700] },
+      "properties": {
+        "name": "Endless Wall Rock Shelters",
+        "category": "rockhouses",
+        "source": "curated",
+        "description": "Small rock shelters along the cliff base of Endless Wall in New River Gorge.",
+        "best_time": "Afternoon",
+        "duration": "45–90 minutes",
+        "image": ""
+      }
+    },
+    {
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-83.730, 36.600] },
+  "properties": {
+    "name": "Sand Cave",
+    "category": "rockhouses",
+    "source": "curated",
+    "description": "A massive sandstone rockhouse in Cumberland Gap with a huge sandy floor and cathedral-like interior.",
+    "best_time": "Morning",
+    "duration": "2–4 hours",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-84.833, 36.553] },
+  "properties": {
+    "name": "Hazard Cave",
+    "category": "rockhouses",
+    "source": "curated",
+    "description": "A large rockhouse with prehistoric petroglyphs and a scenic forest approach.",
+    "best_time": "Afternoon",
+    "duration": "1–2 hours",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-79.815, 39.659] },
+  "properties": {
+    "name": "Coopers Rock Overhang",
+    "category": "rockhouses",
+    "source": "curated",
+    "description": "A large rock overhang near Coopers Rock with rugged sandstone formations and forest views.",
+    "best_time": "Morning",
+    "duration": "45–90 minutes",
+    "image": ""
+  }
+}
+  ]
+}

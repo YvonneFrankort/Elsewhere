@@ -1,0 +1,252 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-84.870, 38.200] },
+      "properties": {
+        "name": "Perryville Battlefield",
+        "category": "battlefields",
+        "source": "curated",
+        "description": "Kentucky’s largest Civil War battlefield with preserved fields and trails.",
+        "best_time": "Morning",
+        "duration": "1–3 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-84.873, 37.990] },
+      "properties": {
+        "name": "Camp Nelson Historic Battlefield",
+        "category": "battlefields",
+        "source": "curated",
+        "description": "A major Union supply depot and recruitment center during the Civil War.",
+        "best_time": "Afternoon",
+        "duration": "1–2 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.460, 35.615] },
+      "properties": {
+        "name": "Stones River Battlefield",
+        "category": "battlefields",
+        "source": "curated",
+        "description": "A pivotal Tennessee Civil War battlefield with monuments and walking trails.",
+        "best_time": "Morning",
+        "duration": "1–3 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.781, 35.146] },
+      "properties": {
+        "name": "Nashville Battlefield",
+        "category": "battlefields",
+        "source": "curated",
+        "description": "Urban battlefield sites marking the Union victory that ended Hood’s campaign.",
+        "best_time": "Afternoon",
+        "duration": "1–2 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-81.350, 38.350] },
+      "properties": {
+        "name": "Carnifex Ferry Battlefield",
+        "category": "battlefields",
+        "source": "curated",
+        "description": "A West Virginia battlefield overlooking the Gauley River with forest trails.",
+        "best_time": "Morning",
+        "duration": "1–2 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-80.850, 39.450] },
+      "properties": {
+        "name": "Philippi Battlefield",
+        "category": "battlefields",
+        "source": "curated",
+        "description": "Site of the first land battle of the Civil War, located in north‑central WV.",
+        "best_time": "Afternoon",
+        "duration": "1–2 hours",
+        "image": ""
+      }
+    },
+    {
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-84.740, 36.990] },
+  "properties": {
+    "name": "Mill Springs Battlefield",
+    "category": "battlefields",
+    "source": "curated",
+    "description": "A major Union victory site with a museum, driving tour, and preserved battlefield landmarks.",
+    "best_time": "Morning",
+    "duration": "1–3 hours",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-84.330, 37.240] },
+  "properties": {
+    "name": "Wildcat Mountain Battlefield",
+    "category": "battlefields",
+    "source": "curated",
+    "description": "A rugged battlefield in Daniel Boone National Forest with trails and interpretive signs.",
+    "best_time": "Afternoon",
+    "duration": "1–2 hours",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-84.270, 37.730] },
+  "properties": {
+    "name": "Richmond Battlefield",
+    "category": "battlefields",
+    "source": "curated",
+    "description": "A well‑preserved battlefield with a visitor center and driving tour covering key engagement sites.",
+    "best_time": "Morning",
+    "duration": "1–2 hours",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-85.900, 37.270] },
+  "properties": {
+    "name": "Munfordville Battlefield",
+    "category": "battlefields",
+    "source": "curated",
+    "description": "A strategic Green River crossing battlefield with walking trails and interpretive markers.",
+    "best_time": "Afternoon",
+    "duration": "1–2 hours",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-87.840, 36.490] },
+  "properties": {
+    "name": "Fort Donelson National Battlefield",
+    "category": "battlefields",
+    "source": "curated",
+    "description": "A major Union victory site with a visitor center, river batteries, fort remains, and scenic overlooks.",
+    "best_time": "Morning",
+    "duration": "2–4 hours",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-88.390, 35.780] },
+  "properties": {
+    "name": "Parker’s Crossroads Battlefield",
+    "category": "battlefields",
+    "source": "curated",
+    "description": "A well‑interpreted battlefield with walking trails, signage, and a visitor center.",
+    "best_time": "Afternoon",
+    "duration": "1–2 hours",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-87.960, 36.060] },
+  "properties": {
+    "name": "Johnsonville Battlefield",
+    "category": "battlefields",
+    "source": "curated",
+    "description": "A riverside battlefield with interpretive trails and views of the historic Union supply depot site.",
+    "best_time": "Morning",
+    "duration": "1–2 hours",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-88.060, 36.630] },
+  "properties": {
+    "name": "Fort Henry Battlefield (Site)",
+    "category": "battlefields",
+    "source": "curated",
+    "description": "The original fort site is now underwater, but interpretive markers and trails remain nearby.",
+    "best_time": "Afternoon",
+    "duration": "1 hour",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-89.840, 35.650] },
+  "properties": {
+    "name": "Fort Pillow Battlefield",
+    "category": "battlefields",
+    "source": "curated",
+    "description": "A dramatic bluff‑top fort site with a museum, earthworks, and Mississippi River views.",
+    "best_time": "Morning",
+    "duration": "1–3 hours",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-77.730, 39.320] },
+  "properties": {
+    "name": "Harpers Ferry Battlefield",
+    "category": "battlefields",
+    "source": "curated",
+    "description": "A major Civil War site with museums, historic town, scenic overlooks, and extensive trails.",
+    "best_time": "Morning",
+    "duration": "2–4 hours",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-80.270, 38.180] },
+  "properties": {
+    "name": "Droop Mountain Battlefield",
+    "category": "battlefields",
+    "source": "curated",
+    "description": "West Virginia’s largest battlefield with a museum, lookout tower, and forested trails.",
+    "best_time": "Afternoon",
+    "duration": "1–3 hours",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-79.930, 38.780] },
+  "properties": {
+    "name": "Rich Mountain Battlefield",
+    "category": "battlefields",
+    "source": "curated",
+    "description": "A remote battlefield with preserved terrain, interpretive signs, and mountain scenery.",
+    "best_time": "Morning",
+    "duration": "1–2 hours",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-80.880, 38.230] },
+  "properties": {
+    "name": "Kessler’s Cross Lanes Battlefield",
+    "category": "battlefields",
+    "source": "curated",
+    "description": "A lesser‑known battlefield with markers and access to nearby Carnifex Ferry trails.",
+    "best_time": "Afternoon",
+    "duration": "1 hour",
+    "image": ""
+  }
+}
+  ]
+}

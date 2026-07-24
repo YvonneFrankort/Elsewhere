@@ -1,0 +1,109 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.636, 37.821] },
+      "properties": {
+        "name": "Red River Gorge Scenic Byway",
+        "category": "scenic-roads",
+        "source": "curated",
+        "description": "A winding forest road through cliffs, arches, and the heart of Red River Gorge.",
+        "best_time": "Morning",
+        "duration": "30–60 minutes",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.812, 35.361] },
+      "properties": {
+        "name": "Cherohala Skyway",
+        "category": "scenic-roads",
+        "source": "curated",
+        "description": "A high‑elevation mountain highway with sweeping views across Tennessee and North Carolina.",
+        "best_time": "Sunset",
+        "duration": "1–2 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.843, 35.676] },
+      "properties": {
+        "name": "Foothills Parkway",
+        "category": "scenic-roads",
+        "source": "curated",
+        "description": "A scenic Smokies drive with long ridge views and dramatic mountain scenery.",
+        "best_time": "Morning",
+        "duration": "45–90 minutes",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-84.646, 35.074] },
+      "properties": {
+        "name": "Ocoee Scenic Byway",
+        "category": "scenic-roads",
+        "source": "curated",
+        "description": "A dramatic river gorge drive along the Ocoee River with cliffs and whitewater views.",
+        "best_time": "Afternoon",
+        "duration": "30–60 minutes",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-80.327, 38.288] },
+      "properties": {
+        "name": "Highland Scenic Highway",
+        "category": "scenic-roads",
+        "source": "curated",
+        "description": "A high‑mountain byway through Monongahela National Forest with sweeping valley views.",
+        "best_time": "Fall",
+        "duration": "1–2 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-81.040, 38.050] },
+      "properties": {
+        "name": "New River Gorge Scenic Drive",
+        "category": "scenic-roads",
+        "source": "curated",
+        "description": "A classic gorge drive with river views, cliffs, and access to historic sites.",
+        "best_time": "Morning",
+        "duration": "1–2 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-79.820, 38.600] },
+      "properties": {
+        "name": "Seneca Trail Scenic Drive",
+        "category": "scenic-roads",
+        "source": "curated",
+        "description": "A historic mountain route with farmland, forest, and valley scenery.",
+        "best_time": "Afternoon",
+        "duration": "1–2 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-81.350, 38.130] },
+      "properties": {
+        "name": "Midland Trail Scenic Byway",
+        "category": "scenic-roads",
+        "source": "curated",
+        "description": "A historic byway crossing cliffs, rivers, and mountain passes in southern West Virginia.",
+        "best_time": "Morning",
+        "duration": "1–3 hours",
+        "image": ""
+      }
+    }
+  ]
+}

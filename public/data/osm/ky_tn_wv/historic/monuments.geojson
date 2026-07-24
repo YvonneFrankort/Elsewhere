@@ -1,0 +1,292 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-84.873, 38.200] },
+      "properties": {
+        "name": "Lincoln Heritage Monument",
+        "category": "monuments",
+        "source": "curated",
+        "description": "A Kentucky monument honoring Abraham Lincoln’s early life in the region.",
+        "best_time": "Morning",
+        "duration": "30–60 minutes",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-84.502, 37.791] },
+      "properties": {
+        "name": "Natural Bridge CCC Monument",
+        "category": "monuments",
+        "source": "curated",
+        "description": "Stone monument commemorating the Civilian Conservation Corps work in the park.",
+        "best_time": "Afternoon",
+        "duration": "20–40 minutes",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-85.257, 35.860] },
+      "properties": {
+        "name": "Pickett CCC Memorial",
+        "category": "monuments",
+        "source": "curated",
+        "description": "A Tennessee monument honoring CCC workers who built the park’s early structures.",
+        "best_time": "Morning",
+        "duration": "20–40 minutes",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-85.302, 35.743] },
+      "properties": {
+        "name": "South Cumberland Pioneer Monument",
+        "category": "monuments",
+        "source": "curated",
+        "description": "Monument recognizing early settlers and homesteaders of the plateau region.",
+        "best_time": "Spring",
+        "duration": "20–40 minutes",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-81.676, 38.266] },
+      "properties": {
+        "name": "Kanawha Forest Memorial",
+        "category": "monuments",
+        "source": "curated",
+        "description": "A stone memorial honoring conservation efforts in Kanawha State Forest.",
+        "best_time": "Afternoon",
+        "duration": "20–40 minutes",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-80.241, 38.217] },
+      "properties": {
+        "name": "Hawks Nest Tunnel Workers Memorial",
+        "category": "monuments",
+        "source": "curated",
+        "description": "A monument honoring workers involved in the historic Hawks Nest tunnel project.",
+        "best_time": "Morning",
+        "duration": "20–40 minutes",
+        "image": ""
+      }
+    },
+    {
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-84.600, 37.790] },
+  "properties": {
+    "name": "Camp Nelson National Monument",
+    "category": "monuments",
+    "source": "curated",
+    "description": "A major Civil War site with a visitor center, museum exhibits, and preserved historic buildings.",
+    "best_time": "Morning",
+    "duration": "1–2 hours",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-84.740, 36.990] },
+  "properties": {
+    "name": "Mill Springs National Monument",
+    "category": "monuments",
+    "source": "curated",
+    "description": "National monument commemorating the Battle of Mill Springs with a museum and interpretive trails.",
+    "best_time": "Afternoon",
+    "duration": "1–2 hours",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-84.030, 38.430] },
+  "properties": {
+    "name": "Daniel Boone Monument (Blue Licks)",
+    "category": "monuments",
+    "source": "curated",
+    "description": "Monument honoring Daniel Boone at the historic Blue Licks battlefield with a visitor center.",
+    "best_time": "Morning",
+    "duration": "30–60 minutes",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-83.730, 36.600] },
+  "properties": {
+    "name": "Cumberland Gap Pinnacle Monument",
+    "category": "monuments",
+    "source": "curated",
+    "description": "Monument at the Pinnacle Overlook with interpretive exhibits at the nearby national park visitor center.",
+    "best_time": "Morning",
+    "duration": "30–60 minutes",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-87.840, 36.490] },
+  "properties": {
+    "name": "Fort Donelson National Monument",
+    "category": "monuments",
+    "source": "curated",
+    "description": "National monument with a visitor center, museum exhibits, river batteries, and historic fortifications.",
+    "best_time": "Morning",
+    "duration": "1–3 hours",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-86.430, 35.880] },
+  "properties": {
+    "name": "Stones River National Monument",
+    "category": "monuments",
+    "source": "curated",
+    "description": "Monument and cemetery with a visitor center, museum exhibits, and battlefield interpretation.",
+    "best_time": "Afternoon",
+    "duration": "1–2 hours",
+    "image": ""
+  }
+}
+,
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-84.080, 36.230] },
+  "properties": {
+    "name": "Norris Dam CCC Monument",
+    "category": "monuments",
+    "source": "curated",
+    "description": "Monument honoring CCC workers, located near the dam’s visitor center with historic exhibits.",
+    "best_time": "Morning",
+    "duration": "20–40 minutes",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-85.350, 35.000] },
+  "properties": {
+    "name": "Lookout Mountain Civil War Monuments",
+    "category": "monuments",
+    "source": "curated",
+    "description": "Multiple monuments near Point Park with a visitor center and sweeping battlefield views.",
+    "best_time": "Morning",
+    "duration": "1–2 hours",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-85.260, 34.940] },
+  "properties": {
+    "name": "Chickamauga & Chattanooga National Military Park Monuments",
+    "category": "monuments",
+    "source": "curated",
+    "description": "Hundreds of monuments across the park with a large visitor center and museum.",
+    "best_time": "Afternoon",
+    "duration": "2–4 hours",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-82.830, 36.160] },
+  "properties": {
+    "name": "Andrew Johnson National Historic Site Monuments",
+    "category": "monuments",
+    "source": "curated",
+    "description": "Monuments and memorials associated with the Andrew Johnson historic site and visitor center.",
+    "best_time": "Morning",
+    "duration": "1–2 hours",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-77.730, 39.320] },
+  "properties": {
+    "name": "Harpers Ferry National Monument Areas",
+    "category": "monuments",
+    "source": "curated",
+    "description": "Historic monuments throughout Harpers Ferry with a large visitor center and extensive interpretation.",
+    "best_time": "Morning",
+    "duration": "2–3 hours",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-80.270, 38.180] },
+  "properties": {
+    "name": "Droop Mountain Battlefield Monument",
+    "category": "monuments",
+    "source": "curated",
+    "description": "Monument at West Virginia’s largest battlefield with a museum and scenic overlook tower.",
+    "best_time": "Afternoon",
+    "duration": "1–2 hours",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-79.930, 38.780] },
+  "properties": {
+    "name": "Rich Mountain Battlefield Monument",
+    "category": "monuments",
+    "source": "curated",
+    "description": "Monument marking the battle site with interpretation at the nearby visitor center.",
+    "best_time": "Morning",
+    "duration": "1–2 hours",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-79.915, 38.390] },
+  "properties": {
+    "name": "Cass Scenic Railroad Memorials",
+    "category": "monuments",
+    "source": "curated",
+    "description": "Historic railroad memorials with a museum, steam trains, and preserved company town.",
+    "best_time": "Morning",
+    "duration": "1–3 hours",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-82.170, 37.620] },
+  "properties": {
+    "name": "Matewan Historic Monument",
+    "category": "monuments",
+    "source": "curated",
+    "description": "Monument commemorating the Matewan Massacre with a museum and guided interpretation.",
+    "best_time": "Afternoon",
+    "duration": "1–2 hours",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-81.080, 38.130] },
+  "properties": {
+    "name": "Thurmond Railroad Memorial",
+    "category": "monuments",
+    "source": "curated",
+    "description": "Railroad memorial in the preserved ghost town of Thurmond with NPS interpretation.",
+    "best_time": "Morning",
+    "duration": "30–60 minutes",
+    "image": ""
+  }
+}
+  ]
+}

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 64 64">
+
+  <!-- Pin -->
+  <path
+    fill="#7B4EA3"
+    d="M32 2C20.4 2 11 11.4 11 23c0 15.4 21 39 21 39s21-23.6 21-39C53 11.4 43.6 2 32 2z"/>
+
+  <!-- White circle -->
+  <circle cx="32" cy="24" r="14" fill="#FFFFFF"/>
+
+  <!-- Fork -->
+  <g transform="rotate(-35 32 24)">
+    <!-- Handle -->
+    <rect x="30.9" y="22" width="2.2" height="11" rx="1.1" fill="#C96A1A"/>
+
+    <!-- Head -->
+    <rect x="29" y="16.5" width="6" height="7" rx="1.2" fill="#C96A1A"/>
+
+    <!-- Cut-outs -->
+    <rect x="30" y="16.5" width="0.8" height="4" rx="0.4" fill="#FFFFFF"/>
+    <rect x="32" y="16.5" width="0.8" height="4" rx="0.4" fill="#FFFFFF"/>
+    <rect x="34" y="16.5" width="0.8" height="4" rx="0.4" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Knife -->
+  <g transform="rotate(35 32 24)">
+    <!-- Handle -->
+    <rect x="30.9" y="24" width="2.2" height="9" rx="1.1" fill="#C96A1A"/>
+
+    <!-- Blade -->
+    <path
+      d="M29.8 16.5
+         C34.2 18.2 34.2 23 33.1 25
+         H30.9
+         Z"
+      fill="#7B4EA3"/>
+  </g>
+
+</svg>

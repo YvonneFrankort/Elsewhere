@@ -1,0 +1,469 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-84.2161654, 37.4982659] },
+      "properties": {
+        "source": "curated",
+        "category": "nature",
+        "subcategory": "waterfalls",
+        "name": "Anglin Falls"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-84.3450618, 36.8387142] },
+      "properties": {
+        "source": "curated",
+        "category": "nature",
+        "subcategory": "waterfalls",
+        "name": "Cumberland Falls"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-84.3435091, 36.8436066] },
+      "properties": {
+        "source": "curated",
+        "category": "nature",
+        "subcategory": "waterfalls",
+        "name": "Eagle Creek Falls"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.561751, 37.7694108] },
+      "properties": {
+        "source": "curated",
+        "category": "nature",
+        "subcategory": "waterfalls",
+        "name": "Creation Falls"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-84.546482, 36.6559619] },
+      "properties": {
+        "source": "curated",
+        "category": "nature",
+        "subcategory": "waterfalls",
+        "name": "Big Spring Falls"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-84.5194093, 36.7720911] },
+      "properties": {
+        "source": "curated",
+        "category": "nature",
+        "subcategory": "waterfalls",
+        "name": "Yahoo Falls"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-84.5112188, 36.7189093] },
+      "properties": {
+        "source": "curated",
+        "category": "nature",
+        "subcategory": "waterfalls",
+        "name": "Lick Creek Falls"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-85.5779656, 38.0930445] },
+      "properties": {
+        "source": "curated",
+        "category": "nature",
+        "subcategory": "waterfalls",
+        "name": "Fairmont Falls"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.6262042, 37.7838213] },
+      "properties": {
+        "source": "curated",
+        "category": "nature",
+        "subcategory": "waterfalls",
+        "name": "Silvermine Falls"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.6422371, 37.7864447] },
+      "properties": {
+        "source": "curated",
+        "category": "nature",
+        "subcategory": "waterfalls",
+        "name": "Upper Chimney Top Falls"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.6324057, 37.7880634] },
+      "properties": {
+        "source": "curated",
+        "category": "nature",
+        "subcategory": "waterfalls",
+        "name": "Cold Falls"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.7219145, 37.6416343] },
+      "properties": {
+        "source": "curated",
+        "category": "nature",
+        "subcategory": "waterfalls",
+        "name": "Flat Hollow Falls"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.4895212, 37.9066651] },
+      "properties": {
+        "source": "curated",
+        "category": "nature",
+        "subcategory": "waterfalls",
+        "name": "Broke Leg Falls"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.5754164, 37.9085937] },
+      "properties": {
+        "source": "curated",
+        "category": "nature",
+        "subcategory": "waterfalls",
+        "name": "Mariba Fork Falls"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-84.2808359, 37.0245338] },
+      "properties": {
+        "source": "curated",
+        "category": "nature",
+        "subcategory": "waterfalls",
+        "name": "Vanhook Falls"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-84.3045799, 36.9071938] },
+      "properties": {
+        "source": "curated",
+        "category": "nature",
+        "subcategory": "waterfalls",
+        "name": "Bark Camp Creek Cascades"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-84.3118383, 36.858414] },
+      "properties": {
+        "source": "curated",
+        "category": "nature",
+        "subcategory": "waterfalls",
+        "name": "Dog Slaughter Falls"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-84.2869271, 37.1455503] },
+      "properties": {
+        "source": "curated",
+        "category": "nature",
+        "subcategory": "waterfalls",
+        "name": "80 Falls"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-84.2847395, 37.1369038] },
+      "properties": {
+        "source": "curated",
+        "category": "nature",
+        "subcategory": "waterfalls",
+        "name": "Pine Creek Falls"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-84.3557921, 36.9913807] },
+      "properties": {
+        "source": "curated",
+        "category": "nature",
+        "subcategory": "waterfalls",
+        "name": "Bear Creek Falls"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.913081, 36.0944625] },
+      "properties": {
+        "id": "west_meade_waterfall",
+        "name": "West Meade Waterfall",
+        "category": "waterfalls",
+        "source": "curated",
+        "type": "waterfall",
+        "access": "public",
+        "best_time": "Spring",
+        "description": "A small seasonal waterfall in Nashville’s West Meade neighborhood, accessible via a short walk from the roadside.",
+        "website": "https://www.tenngreen.org/west-meade-waterfall"
+      }
+    },
+        {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-80.3381745, 38.6550915] },
+      "properties": {
+        "id": "tenskwatawa_falls",
+        "name": "Tenskwatawa Falls",
+        "category": "waterfalls",
+        "source": "osm",
+        "description": "A scenic waterfall located near the Gauley River region.",
+        "height": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-79.4830082, 39.1135089] },
+      "properties": {
+        "id": "blackwater_falls",
+        "name": "Blackwater Falls",
+        "category": "waterfalls",
+        "source": "osm",
+        "description": "One of West Virginia’s most iconic waterfalls, dropping 19 feet into Blackwater Canyon.",
+        "height": 19
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-79.4992844, 39.1071729] },
+      "properties": {
+        "id": "elakala_falls",
+        "name": "Elakala Falls",
+        "category": "waterfalls",
+        "source": "osm",
+        "description": "A series of picturesque waterfalls on Shays Run in Blackwater Falls State Park.",
+        "height": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-79.9546993, 38.4956012] },
+      "properties": {
+        "id": "high_falls_of_cheat",
+        "name": "High Falls of Cheat",
+        "category": "waterfalls",
+        "source": "osm",
+        "description": "A remote and impressive waterfall accessible via the West Fork Rail Trail.",
+        "height": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-79.5082928, 38.7676599] },
+      "properties": {
+        "id": "upper_falls_seneca_creek",
+        "name": "Upper Falls of Seneca Creek",
+        "category": "waterfalls",
+        "source": "osm",
+        "description": "A beautiful waterfall and swimming hole in the Seneca Creek backcountry.",
+        "height": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-79.5081325, 38.7712909] },
+      "properties": {
+        "id": "small_waterfall_seneca_creek",
+        "name": "Small Waterfall (Seneca Creek)",
+        "category": "waterfalls",
+        "source": "osm",
+        "description": "A smaller cascade near the Upper Falls of Seneca Creek.",
+        "height": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-80.334517, 38.1731852] },
+      "properties": {
+        "id": "lower_hills_creek_falls",
+        "name": "Lower Falls of Hills Creek",
+        "category": "waterfalls",
+        "source": "osm",
+        "description": "The tallest of the three Hills Creek waterfalls, dropping 19.2 feet.",
+        "height": 19.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-80.3352412, 38.1741683] },
+      "properties": {
+        "id": "middle_hills_creek_falls",
+        "name": "Middle Falls of Hills Creek",
+        "category": "waterfalls",
+        "source": "osm",
+        "description": "A scenic mid‑sized waterfall in the Hills Creek series.",
+        "height": 13.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-80.3366923, 38.1774313] },
+      "properties": {
+        "id": "upper_hills_creek_falls",
+        "name": "Upper Falls of Hills Creek",
+        "category": "waterfalls",
+        "source": "osm",
+        "description": "The uppermost waterfall in the Hills Creek trio.",
+        "height": 7.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-81.0296875, 38.2141802] },
+      "properties": {
+        "id": "laurel_creek_falls",
+        "name": "Laurel Creek Falls",
+        "category": "waterfalls",
+        "source": "osm",
+        "description": "A lesser‑known waterfall located in central West Virginia.",
+        "height": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-81.0454918, 38.2311973] },
+      "properties": {
+        "id": "peters_creek_falls",
+        "name": "Peters Creek Falls",
+        "category": "waterfalls",
+        "source": "osm",
+        "description": "A small waterfall located near the Elk River region.",
+        "height": null
+      }
+    },
+    {
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-85.3569, 35.6645] },
+  "properties": {
+    "source": "curated",
+    "category": "nature",
+    "subcategory": "waterfalls",
+    "name": "Fall Creek Falls",
+    "description": "One of the tallest waterfalls in the eastern United States, dropping 256 feet.",
+    "best_time": "Spring",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-84.6891, 35.7483] },
+  "properties": {
+    "source": "curated",
+    "category": "nature",
+    "subcategory": "waterfalls",
+    "name": "Piney Falls",
+    "description": "A National Natural Landmark featuring upper and lower waterfalls.",
+    "best_time": "Spring",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-84.8097, 35.8815] },
+  "properties": {
+    "source": "curated",
+    "category": "nature",
+    "subcategory": "waterfalls",
+    "name": "Ozone Falls",
+    "description": "A dramatic 110‑foot plunge waterfall into a rocky amphitheater.",
+    "best_time": "Spring",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-85.6241, 35.1817] },
+  "properties": {
+    "source": "curated",
+    "category": "nature",
+    "subcategory": "waterfalls",
+    "name": "Foster Falls",
+    "description": "A major waterfall in South Cumberland State Park with a deep plunge pool.",
+    "best_time": "Morning",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-85.5617, 36.3215] },
+  "properties": {
+    "source": "curated",
+    "category": "nature",
+    "subcategory": "waterfalls",
+    "name": "Burgess Falls",
+    "description": "A huge cascading waterfall dropping over limestone shelves.",
+    "best_time": "Spring",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-85.6303, 35.8093] },
+  "properties": {
+    "source": "curated",
+    "category": "nature",
+    "subcategory": "waterfalls",
+    "name": "Twin Falls",
+    "description": "A massive double waterfall at Rock Island State Park.",
+    "best_time": "Spring",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-85.2573, 35.8609] },
+  "properties": {
+    "source": "curated",
+    "category": "nature",
+    "subcategory": "waterfalls",
+    "name": "Virgin Falls",
+    "description": "A dramatic waterfall that disappears into a cave.",
+    "best_time": "Spring",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-84.5730, 36.8470] },
+  "properties": {
+    "source": "curated",
+    "category": "nature",
+    "subcategory": "waterfalls",
+    "name": "Princess Falls",
+    "description": "A beautiful waterfall along the Sheltowee Trace in Big South Fork.",
+    "best_time": "Spring",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-81.2921, 38.2191] },
+  "properties": {
+    "source": "curated",
+    "category": "nature",
+    "subcategory": "waterfalls",
+    "name": "Cathedral Falls",
+    "description": "One of West Virginia’s most photographed waterfalls, dropping through a narrow canyon.",
+    "best_time": "Spring",
+    "image": ""
+  }
+}
+  ]
+}

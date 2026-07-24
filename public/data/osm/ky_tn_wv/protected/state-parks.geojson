@@ -1,0 +1,252 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-84.502, 37.791] },
+      "properties": {
+        "name": "Natural Bridge State Resort Park",
+        "category": "state-parks",
+        "source": "curated",
+        "description": "Kentucky’s iconic sandstone arch park with ridge trails and forest overlooks.",
+        "best_time": "Morning",
+        "duration": "2–4 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.673, 37.792] },
+      "properties": {
+        "name": "Pine Mountain State Resort Park",
+        "category": "state-parks",
+        "source": "curated",
+        "description": "A ridge‑top park with overlooks, rock formations, and quiet forest trails.",
+        "best_time": "Afternoon",
+        "duration": "1–3 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-84.257, 36.847] },
+      "properties": {
+        "name": "Cumberland Falls State Resort Park",
+        "category": "state-parks",
+        "source": "curated",
+        "description": "Home of the famous moonbow and a massive waterfall on the Cumberland River.",
+        "best_time": "Evening",
+        "duration": "1–2 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-85.257, 35.860] },
+      "properties": {
+        "name": "Pickett CCC Memorial State Park",
+        "category": "state-parks",
+        "source": "curated",
+        "description": "A Tennessee park with rockhouses, lakes, and quiet forest trails.",
+        "best_time": "Morning",
+        "duration": "1–3 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-85.302, 35.743] },
+      "properties": {
+        "name": "South Cumberland State Park",
+        "category": "state-parks",
+        "source": "curated",
+        "description": "A large Tennessee park with gorges, waterfalls, and rugged wilderness.",
+        "best_time": "Spring",
+        "duration": "2–6 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-84.721, 36.010] },
+      "properties": {
+        "name": "Frozen Head State Park",
+        "category": "state-parks",
+        "source": "curated",
+        "description": "A remote Tennessee mountain park with peaks, ridges, and dense forest.",
+        "best_time": "Morning",
+        "duration": "2–4 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-81.676, 38.266] },
+      "properties": {
+        "name": "Kanawha State Forest",
+        "category": "state-parks",
+        "source": "curated",
+        "description": "A West Virginia forest park with trails, overlooks, and protected natural areas.",
+        "best_time": "Afternoon",
+        "duration": "1–3 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-80.241, 38.217] },
+      "properties": {
+        "name": "Hawks Nest State Park",
+        "category": "state-parks",
+        "source": "curated",
+        "description": "A scenic New River Gorge park with river overlooks and forest trails.",
+        "best_time": "Sunset",
+        "duration": "1–2 hours",
+        "image": ""
+      }
+    },
+    {
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-82.9934, 36.9837] },
+  "properties": {
+    "name": "Kingdom Come State Park",
+    "category": "state-parks",
+    "source": "curated",
+    "description": "A mountaintop park with dramatic overlooks, rock formations, and quiet forest trails.",
+    "best_time": "Morning",
+    "duration": "1–3 hours",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-82.2849, 37.2863] },
+  "properties": {
+    "name": "Breaks Interstate Park",
+    "category": "state-parks",
+    "source": "curated",
+    "description": "A massive gorge known as the 'Grand Canyon of the South' with overlooks and rugged trails.",
+    "best_time": "Afternoon",
+    "duration": "2–4 hours",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-87.5331, 37.8823] },
+  "properties": {
+    "name": "John James Audubon State Park",
+    "category": "state-parks",
+    "source": "curated",
+    "description": "A forested park with lakes, wildlife, and scenic trails honoring the naturalist Audubon.",
+    "best_time": "Morning",
+    "duration": "1–2 hours",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-84.0321, 38.4329] },
+  "properties": {
+    "name": "Blue Licks Battlefield State Park",
+    "category": "state-parks",
+    "source": "curated",
+    "description": "A historic battlefield with short trails, forested hills, and river scenery.",
+    "best_time": "Spring–Fall",
+    "duration": "1–2 hours",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-85.3569, 35.6645] },
+  "properties": {
+    "name": "Fall Creek Falls State Park",
+    "category": "state-parks",
+    "source": "curated",
+    "description": "Tennessee’s largest and most visited state park, featuring waterfalls, gorges, and scenic overlooks.",
+    "best_time": "Spring",
+    "duration": "2–4 hours",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-85.5617, 36.3215] },
+  "properties": {
+    "name": "Cummins Falls State Park",
+    "category": "state-parks",
+    "source": "curated",
+    "description": "A dramatic waterfall gorge with rugged terrain and scenic river views.",
+    "best_time": "Morning",
+    "duration": "1–3 hours",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-85.6303, 35.8093] },
+  "properties": {
+    "name": "Rock Island State Park",
+    "category": "state-parks",
+    "source": "curated",
+    "description": "A scenic river gorge with waterfalls, rock formations, and forest trails.",
+    "best_time": "Spring",
+    "duration": "1–2 hours",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-84.0803, 36.2343] },
+  "properties": {
+    "name": "Norris Dam State Park",
+    "category": "state-parks",
+    "source": "curated",
+    "description": "A large lake and forest park with scenic overlooks and historic CCC structures.",
+    "best_time": "Afternoon",
+    "duration": "1–3 hours",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-81.2747, 38.0667] },
+  "properties": {
+    "name": "Babcock State Park",
+    "category": "state-parks",
+    "source": "curated",
+    "description": "A classic West Virginia park known for its historic grist mill and forested trails.",
+    "best_time": "Fall",
+    "duration": "1–2 hours",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-79.4961, 39.1309] },
+      "properties": {
+        "name": "Blackwater Falls State Park",
+        "category": "state-parks",
+        "source": "curated",
+        "description": "A dramatic waterfall and canyon park with overlooks, forests, and rugged trails.",
+        "best_time": "Morning",
+        "duration": "1–3 hours",
+        "image": ""
+      }
+    },
+    {
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-81.4567, 37.7012] },
+  "properties": {
+    "name": "Twin Falls Resort State Park",
+    "category": "state-parks",
+    "source": "curated",
+    "description": "A forested park with waterfalls, overlooks, and quiet nature trails.",
+    "best_time": "Spring–Fall",
+    "duration": "1–2 hours",
+    "image": ""
+  }
+}
+  ]
+}

@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import type { Feature, FeatureCollection } from "geojson";
 import mapboxgl from "mapbox-gl";
+import { applyMarkerStyle } from "../../markers/applyMarkerStyle";
 
 export function usePlacesLayer(
   mapRef: React.MutableRefObject<mapboxgl.Map | null>,
@@ -21,7 +22,7 @@ export function usePlacesLayer(
     function updateSource(map: mapboxgl.Map) {
       const geojson: FeatureCollection = {
         type: "FeatureCollection",
-        features: places ?? [],
+        features: (places ?? []).map(applyMarkerStyle),
       };
 
       const src = map.getSource("info-places") as mapboxgl.GeoJSONSource;

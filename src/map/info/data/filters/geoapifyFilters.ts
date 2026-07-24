@@ -16,7 +16,7 @@ export const geoapifyFilters: Record<string, string[]> = {
 
   cafes: ["catering.cafe"],
   bakeries: ["catering.bakery"],
-  "ice-cream": ["catering.ice_cream"],   // FIXED
+  "ice-cream": ["catering.ice_cream"], 
   donuts: ["catering.bakery"],
 
   "fast-food": ["catering.fast_food"],
@@ -24,34 +24,35 @@ export const geoapifyFilters: Record<string, string[]> = {
   burger: ["catering.fast_food"],
   sandwich: ["catering.fast_food"],
 
-  breweries: ["catering.brewery"],        // FIXED
-  wineries: ["catering.winery"],          // FIXED
+  breweries: ["catering.brewery"],       
+  wineries: ["catering.winery"],         
   distilleries: ["catering.bar"],
 
   // 🎡 ENTERTAINMENT
   "amusement-parks": ["entertainment.amusement_park"],
-  "water-parks": ["entertainment.amusement_park"],
-  "roller-coaster-parks": ["entertainment.theme_park"], // FIXED
-  "family-parks": ["entertainment.theme_park"],         // FIXED
+  "water-parks": ["entertainment.water_park"],
+  "roller-coaster-parks": ["entertainment.theme_park"], 
+  "family-parks": ["entertainment.theme_park"],        
 
-  zoos: ["tourism.zoo"],                  // FIXED
-  aquariums: ["tourism.aquarium"],        // FIXED
+zoos: ["entertainment.zoo"],
+aquariums: ["entertainment.aquarium"],
+       
 
   cinemas: ["entertainment.cinema"],
   theatres: ["entertainment.theatre"],
 
-  "escape-rooms": ["entertainment.theme_park"],         // FIXED
-  bowling: ["entertainment.sports_centre"],             // FIXED
-  "mini-golf": ["entertainment.sports_centre"],         // FIXED
+  "escape-rooms": ["entertainment.theme_park"],         
+  bowling: ["entertainment.sports_centre"],             
+  "mini-golf": ["entertainment.sports_centre"],         
 
   // 🚗 SERVICES
-  "parking-lots": ["service.parking"],                  // FIXED
-  "parking-garages": ["service.parking"],               // FIXED
+  "parking-lots": ["service.parking"],                 
+  "parking-garages": ["service.parking"],               
   "gas-stations": ["service.gas_station"],
 
   // 🌆 URBAN SCENIC
-  "scenic-overlooks": ["tourism.viewpoint"],            // FIXED
-  viewpoints: ["tourism.viewpoint"],                    // FIXED
+  "scenic-overlooks": ["tourism.viewpoint"],            
+  viewpoints: ["tourism.viewpoint"],                   
   landmarks: ["tourism.sights"],
   "observation-towers": ["tourism.sights"],
 
@@ -61,7 +62,7 @@ export const geoapifyFilters: Record<string, string[]> = {
   "botanical-gardens": ["tourism.garden"],
   museums: ["tourism.museum"],
   galleries: ["tourism.gallery"],
-  "urban-parks": ["tourism.park"],                      // FIXED
+  "urban-parks": ["tourism.park"],                     
 
   // Optional but recommended
   attractions: ["tourism.attraction"]

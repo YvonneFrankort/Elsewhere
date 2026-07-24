@@ -1,0 +1,611 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.6226755, 37.8227589] },
+      "properties": {
+        "source": "curated",
+        "category": "nature",
+        "subcategory": "viewpoints",
+        "name": "Chimney Top Rock",
+        "description": "A dramatic cliff overlook in Red River Gorge with sweeping gorge views.",
+        "best_time": "Late afternoon / sunset",
+        "duration": "45–90 minutes",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/View_of_Chimney_Top_Rock.JPG/960px-View_of_Chimney_Top_Rock.JPG"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.6785102, 37.842328] },
+      "properties": {
+        "source": "curated",
+        "category": "nature",
+        "subcategory": "viewpoints",
+        "name": "Courthouse Rock",
+        "description": "Iconic rock formation with panoramic views of Red River Gorge.",
+        "best_time": "Morning",
+        "duration": "45–90 minutes",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.1069043, 37.1871641] },
+      "properties": {
+        "source": "curated",
+        "category": "nature",
+        "subcategory": "viewpoints",
+        "name": "Sunset Point",
+        "description": "A quiet overlook above the Green River inside Mammoth Cave NP.",
+        "best_time": "Sunset",
+        "duration": "20–40 minutes",
+        "image": "https://commons.wikimedia.org/wiki/File:Green_River_Valley_from_Sunset_Point,_Mammoth_Cave_National_Park,_Mammoth_Cave,_KY_-_52726301191.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-85.6326408, 38.3975926] },
+      "properties": {
+        "source": "curated",
+        "category": "nature",
+        "subcategory": "viewpoints",
+        "name": "Riverview Overlook",
+        "description": "A river‑valley overlook with wide views over central Kentucky.",
+        "best_time": "Late afternoon",
+        "duration": "20–40 minutes",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-85.7081354, 38.7925461] },
+      "properties": {
+        "source": "curated",
+        "category": "nature",
+        "subcategory": "viewpoints",
+        "name": "Overlook Area",
+        "description": "A small Kentucky overlook likely located in a local park.",
+        "best_time": "Daylight",
+        "duration": "15–30 minutes",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-84.5281211, 36.7964966] },
+      "properties": {
+        "source": "curated",
+        "category": "nature",
+        "subcategory": "viewpoints",
+        "name": "Buzzard Rock",
+        "description": "A Lake Cumberland overlook with wide views over cliffs and water.",
+        "best_time": "Morning or sunset",
+        "duration": "45–90 minutes",
+        "image": "https://commons.wikimedia.org/wiki/File:Buzzard_Rock_Overlook_-_panoramio.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.6840358, 37.8374326] },
+      "properties": {
+        "source": "curated",
+        "category": "nature",
+        "subcategory": "viewpoints",
+        "name": "Double Arch",
+        "description": "A massive double arch with an overlook above the forest canopy.",
+        "best_time": "Morning",
+        "duration": "1.5–3 hours",
+        "image": "https://commons.wikimedia.org/wiki/File:Double_Arch_January_2008.JPG"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.6856131, 37.7772062] },
+      "properties": {
+        "source": "curated",
+        "category": "nature",
+        "subcategory": "viewpoints",
+        "name": "Battleship Rock",
+        "description": "A rock formation with scenic views over Red River Gorge.",
+        "best_time": "Morning",
+        "duration": "1–2 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-84.3834828, 37.892368] },
+      "properties": {
+        "source": "curated",
+        "category": "nature",
+        "subcategory": "viewpoints",
+        "name": "Kentucky River Palisades Overlook",
+        "description": "A dramatic limestone cliff overlook above the Kentucky River.",
+        "best_time": "Late afternoon",
+        "duration": "30–60 minutes",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-84.3957337, 37.8961499] },
+      "properties": {
+        "source": "curated",
+        "category": "nature",
+        "subcategory": "viewpoints",
+        "name": "Silver Falls",
+        "description": "A waterfall overlook with forest views.",
+        "best_time": "After rainfall",
+        "duration": "20–40 minutes",
+        "image": "https://commons.wikimedia.org/wiki/File:Kentucky_Falls_(222888329).jpeg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.65824, 37.8170881] },
+      "properties": {
+        "source": "curated",
+        "category": "nature",
+        "subcategory": "viewpoints",
+        "name": "Gray's Arch",
+        "description": "A huge arch with a viewpoint from the trail.",
+        "best_time": "Morning",
+        "duration": "1.5–3 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.6157549, 37.8462414] },
+      "properties": {
+        "source": "curated",
+        "category": "nature",
+        "subcategory": "viewpoints",
+        "name": "Indian Staircase",
+        "description": "A legendary viewpoint with a steep scramble and incredible ridge views.",
+        "best_time": "Morning",
+        "duration": "2–4 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-84.6569649, 37.8089511] },
+      "properties": {
+        "source": "curated",
+        "category": "nature",
+        "subcategory": "viewpoints",
+        "name": "Dupree Nature Preserve Palisades Overlook",
+        "description": "A protected overlook above the Kentucky River cliffs.",
+        "best_time": "Late afternoon",
+        "duration": "45–90 minutes",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-84.2431487, 37.5639617] },
+      "properties": {
+        "source": "curated",
+        "category": "nature",
+        "subcategory": "viewpoints",
+        "name": "West Pinnacle",
+        "description": "A major overlook above Berea with sweeping ridge views.",
+        "best_time": "Morning",
+        "duration": "1–2 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.6196563, 37.8273472] },
+      "properties": {
+        "source": "curated",
+        "category": "nature",
+        "subcategory": "viewpoints",
+        "name": "Princess Arch",
+        "description": "A beautiful arch with a viewpoint from above.",
+        "best_time": "Morning",
+        "duration": "1–2 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.5926692, 37.7999133] },
+      "properties": {
+        "source": "curated",
+        "category": "nature",
+        "subcategory": "viewpoints",
+        "name": "Angel Windows",
+        "description": "A small double arch with scenic views.",
+        "best_time": "Morning",
+        "duration": "1–2 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.5672142, 37.7771433] },
+      "properties": {
+        "source": "curated",
+        "category": "nature",
+        "subcategory": "viewpoints",
+        "name": "Turtle Back Arch",
+        "description": "A unique arch with a viewpoint nearby.",
+        "best_time": "Morning",
+        "duration": "1–2 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.6846636, 37.8230142] },
+      "properties": {
+        "source": "curated",
+        "category": "nature",
+        "subcategory": "viewpoints",
+        "name": "Arch of Triumph",
+        "description": "A lesser‑known arch with scenic surroundings.",
+        "best_time": "Morning",
+        "duration": "1–2 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.6957199, 37.8229241] },
+      "properties": {
+        "source": "curated",
+        "category": "nature",
+        "subcategory": "viewpoints",
+        "name": "Star Gap Arch",
+        "description": "A beautiful arch with a viewpoint above the gorge.",
+        "best_time": "Morning",
+        "duration": "1–2 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.5612668, 37.7701215] },
+      "properties": {
+        "source": "curated",
+        "category": "nature",
+        "subcategory": "viewpoints",
+        "name": "Rock Bridge Arch",
+        "description": "Arch + waterfall + overlook — one of the best combos in Kentucky.",
+        "best_time": "After rainfall",
+        "duration": "1–2 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-87.5876467, 37.976119] },
+      "properties": {
+        "source": "curated",
+        "category": "nature",
+        "subcategory": "viewpoints",
+        "name": "Merchand Bridge Overlook",
+        "description": "A western Kentucky overlook near the Ohio River.",
+        "best_time": "Daylight",
+        "duration": "20–40 minutes",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-85.9416462, 35.2064708] },
+      "properties": {
+        "name": "Otey View",
+        "category": "viewpoints",
+        "source": "curated",
+        "description": "A scenic roadside overlook near Sewanee with views over the Cumberland Plateau."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-85.3025165, 35.0615807] },
+      "properties": {
+        "name": "Baker Street Overlook",
+        "category": "viewpoints",
+        "source": "curated",
+        "description": "A small overlook in Chattanooga offering views of the surrounding ridges."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-85.331361, 35.1034059] },
+      "properties": {
+        "name": "Chickamauga Limestone Overlook",
+        "category": "viewpoints",
+        "source": "curated",
+        "description": "A viewpoint near Chickamauga Creek with views of limestone bluffs and forested hills."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-87.028831, 35.1950642] },
+      "properties": {
+        "name": "Courthouse Overlook",
+        "category": "viewpoints",
+        "source": "curated",
+        "description": "A roadside overlook in western Tennessee with views over rolling farmland."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-85.4185117, 35.0447378] },
+      "properties": {
+        "name": "Laurel Point Picnic Area",
+        "category": "viewpoints",
+        "source": "curated",
+        "description": "A scenic picnic area with views over the Tennessee River valley."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-82.4364437, 38.4067356] },
+      "properties": {
+        "id": "wv_viewpoint_1",
+        "name": "Unnamed Viewpoint (Wayne County)",
+        "category": "viewpoints",
+        "source": "curated",
+        "description": "A roadside viewpoint in Wayne County, West Virginia offering views over the surrounding hills."
+      }
+    },
+    {
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-80.2410, 38.2170] },
+  "properties": {
+    "name": "Long Point View",
+    "category": "viewpoints",
+    "source": "curated",
+    "description": "The classic viewpoint overlooking the New River Gorge Bridge from a narrow rock point high above the river.",
+    "best_time": "Sunset",
+    "duration": "1–2 hours",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-83.6364, 37.8341] },
+  "properties": {
+    "source": "curated",
+    "category": "nature",
+    "subcategory": "viewpoints",
+    "name": "Sky Bridge Overlook",
+    "description": "A cliffside viewpoint above Sky Bridge arch with wide gorge views.",
+    "best_time": "Afternoon",
+    "duration": "30–60 minutes",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-83.6809, 37.8369] },
+  "properties": {
+    "source": "curated",
+    "category": "nature",
+    "subcategory": "viewpoints",
+    "name": "Auxier Ridge Overlook",
+    "description": "A panoramic viewpoint along Auxier Ridge with views of Courthouse Rock and Double Arch.",
+    "best_time": "Morning",
+    "duration": "1–2 hours",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-83.6731, 36.8659] },
+  "properties": {
+    "source": "curated",
+    "category": "nature",
+    "subcategory": "viewpoints",
+    "name": "Castle Rock Overlook",
+    "description": "A dramatic overlook on Pine Mountain with sweeping views over southeastern Kentucky.",
+    "best_time": "Morning",
+    "duration": "30–60 minutes",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-83.6834, 37.8261] },
+  "properties": {
+    "source": "curated",
+    "category": "nature",
+    "subcategory": "viewpoints",
+    "name": "Eagle Point Buttress",
+    "description": "A major climbing and viewpoint area with expansive gorge views.",
+    "best_time": "Morning",
+    "duration": "1–2 hours",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-85.3527, 35.0078] },
+  "properties": {
+    "source": "curated",
+    "category": "nature",
+    "subcategory": "viewpoints",
+    "name": "Sunset Rock",
+    "description": "One of Tennessee’s most iconic overlooks with sweeping views over Lookout Mountain.",
+    "best_time": "Sunset",
+    "duration": "45–90 minutes",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-85.3453, 35.0853] },
+  "properties": {
+    "source": "curated",
+    "category": "nature",
+    "subcategory": "viewpoints",
+    "name": "Signal Point",
+    "description": "A historic overlook above the Tennessee River Gorge with long-range views.",
+    "best_time": "Morning",
+    "duration": "30–60 minutes",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-85.4209, 35.0957] },
+  "properties": {
+    "source": "curated",
+    "category": "nature",
+    "subcategory": "viewpoints",
+    "name": "Snoopers Rock",
+    "description": "A famous overlook in Prentice Cooper with sweeping views of the Tennessee River Gorge.",
+    "best_time": "Sunset",
+    "duration": "45–90 minutes",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-85.6241, 35.1817] },
+  "properties": {
+    "source": "curated",
+    "category": "nature",
+    "subcategory": "viewpoints",
+    "name": "Foster Falls Overlook",
+    "description": "A dramatic viewpoint above Foster Falls and the surrounding gorge.",
+    "best_time": "Morning",
+    "duration": "20–40 minutes",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-84.4887, 36.1131] },
+  "properties": {
+    "source": "curated",
+    "category": "nature",
+    "subcategory": "viewpoints",
+    "name": "Black Mountain Overlook",
+    "description": "A major Cumberland Trail viewpoint with sweeping plateau views.",
+    "best_time": "Morning",
+    "duration": "45–90 minutes",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-85.9211, 35.2041] },
+  "properties": {
+    "source": "curated",
+    "category": "nature",
+    "subcategory": "viewpoints",
+    "name": "Buzzard Point",
+    "description": "A scenic plateau overlook near Sewanee with wide valley views.",
+    "best_time": "Afternoon",
+    "duration": "30–60 minutes",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-80.8857, 38.1181] },
+  "properties": {
+    "source": "curated",
+    "category": "nature",
+    "subcategory": "viewpoints",
+    "name": "Lover's Leap",
+    "description": "A dramatic overlook at Hawks Nest State Park with sweeping views of the New River.",
+    "best_time": "Morning",
+    "duration": "20–40 minutes",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-81.0627, 37.8319] },
+  "properties": {
+    "source": "curated",
+    "category": "nature",
+    "subcategory": "viewpoints",
+    "name": "Grandview Overlook",
+    "description": "One of the most iconic viewpoints in New River Gorge National Park.",
+    "best_time": "Sunset",
+    "duration": "30–60 minutes",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-81.0581, 37.8287] },
+  "properties": {
+    "source": "curated",
+    "category": "nature",
+    "subcategory": "viewpoints",
+    "name": "Turkey Spur Overlook",
+    "description": "A multi-platform overlook with dramatic views of the New River Gorge.",
+    "best_time": "Morning",
+    "duration": "30–60 minutes",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-81.0101, 38.0681] },
+  "properties": {
+    "source": "curated",
+    "category": "nature",
+    "subcategory": "viewpoints",
+    "name": "Beauty Mountain Overlook",
+    "description": "A famous sunset viewpoint above the New River Gorge cliffs.",
+    "best_time": "Sunset",
+    "duration": "30–60 minutes",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-81.0751, 38.0707] },
+  "properties": {
+    "source": "curated",
+    "category": "nature",
+    "subcategory": "viewpoints",
+    "name": "Diamond Point Overlook",
+    "description": "A major viewpoint along the Endless Wall Trail with sweeping gorge views.",
+    "best_time": "Morning",
+    "duration": "45–90 minutes",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-79.8061, 39.6721] },
+  "properties": {
+    "source": "curated",
+    "category": "nature",
+    "subcategory": "viewpoints",
+    "name": "Coopers Rock Overlook",
+    "description": "One of West Virginia’s most iconic overlooks with dramatic canyon views.",
+    "best_time": "Morning",
+    "duration": "20–40 minutes",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-79.4961, 39.1309] },
+  "properties": {
+    "source": "curated",
+    "category": "nature",
+    "subcategory": "viewpoints",
+    "name": "Lindy Point Overlook",
+    "description": "A narrow rock overlook with dramatic views of Blackwater Canyon.",
+    "best_time": "Sunset",
+    "duration": "45–90 minutes",
+    "image": ""
+  }
+}
+  ]
+}

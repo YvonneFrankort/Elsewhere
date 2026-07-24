@@ -1,0 +1,136 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.5612668, 37.7701215] },
+      "properties": {
+        "name": "Rock Bridge",
+        "category": "natural-bridges",
+        "source": "curated",
+        "description": "A natural bridge with a waterfall beneath it — one of Kentucky’s best.",
+        "best_time": "After rainfall",
+        "duration": "1–2 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.65824, 37.8170881] },
+      "properties": {
+        "name": "Gray's Arch",
+        "category": "natural-bridges",
+        "source": "curated",
+        "description": "A massive arch that also functions as a natural bridge.",
+        "best_time": "Morning",
+        "duration": "1.5–3 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.6196563, 37.8273472] },
+      "properties": {
+        "name": "Princess Arch",
+        "category": "natural-bridges",
+        "source": "curated",
+        "description": "A walkable arch with views from above.",
+        "best_time": "Morning",
+        "duration": "1–2 hours",
+        "image": ""
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.7085, 37.7829] },
+      "properties": {
+        "name": "Natural Bridge",
+        "category": "natural-bridges",
+        "source": "curated",
+        "description": "Kentucky’s most famous natural bridge — a massive sandstone arch.",
+        "best_time": "Morning",
+        "duration": "1–2 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.6289, 37.8231] },
+      "properties": {
+        "name": "Sky Bridge",
+        "category": "natural-bridges",
+        "source": "curated",
+        "description": "A walkable natural bridge with sweeping views over Red River Gorge.",
+        "best_time": "Morning",
+        "duration": "45–90 minutes",
+        "image": ""
+      }
+    },
+    {
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-83.730, 36.600] },
+  "properties": {
+    "name": "Cumberland Gap Natural Bridge",
+    "category": "natural-bridges",
+    "source": "curated",
+    "description": "A sandstone natural bridge in Cumberland Gap National Historical Park with forested views and historic significance.",
+    "best_time": "Morning",
+    "duration": "1–2 hours",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-84.7357, 36.5417] },
+  "properties": {
+    "name": "Twin Arches – North Natural Bridge",
+    "category": "natural-bridges",
+    "source": "curated",
+    "description": "One of the largest natural bridges in the eastern U.S., with a staircase leading to the top.",
+    "best_time": "Morning",
+    "duration": "1.5–3 hours",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-84.7362, 36.5409] },
+  "properties": {
+    "name": "Twin Arches – South Natural Bridge",
+    "category": "natural-bridges",
+    "source": "curated",
+    "description": "A massive companion arch to the North Arch, forming a walkable natural bridge in Big South Fork.",
+    "best_time": "Morning",
+    "duration": "1.5–3 hours",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-79.503, 39.093] },
+  "properties": {
+    "name": "Blackwater Falls Natural Bridge",
+    "category": "natural-bridges",
+    "source": "curated",
+    "description": "A small sandstone natural bridge in the Blackwater Canyon area with rugged forest surroundings.",
+    "best_time": "Morning",
+    "duration": "45–90 minutes",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-80.968, 37.674] },
+  "properties": {
+    "name": "Sandstone Natural Bridge",
+    "category": "natural-bridges",
+    "source": "curated",
+    "description": "A small natural bridge near Sandstone Falls with forested views and river access nearby.",
+    "best_time": "Morning",
+    "duration": "45–90 minutes",
+    "image": ""
+  }
+}
+  ]
+}

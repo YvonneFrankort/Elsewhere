@@ -1,0 +1,657 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-86.1034214, 37.1872902]
+      },
+      "properties": {
+        "name": "Mammoth Cave Historic Entrance",
+        "category": "caves",
+        "source": "curated",
+        "image": {
+          "name": "Historic Entrance",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Mammoth_Cave_Historic_Entrance.jpg"
+        },
+        "access": "tour",
+        "fee": "yes",
+        "best_time_to_visit": "Spring–Fall",
+        "duration": "2–4 hours",
+        "website": "https://www.nps.gov/maca/index.htm",
+        "description": "The main gateway into Mammoth Cave and the starting point for several guided tours."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-86.0580501, 37.1494525]
+      },
+      "properties": {
+        "name": "Mammoth Cave Frozen Niagara Entrance",
+        "category": "caves",
+        "source": "curated",
+        "image": {
+          "name": "Frozen Niagara",
+          "url": "https://commons.wikimedia.org/wiki/File:Domes_and_Dripstones_Bumpy_Trail_(e3c3dfb5-5763-4879-894e-4cb94399ceae).JPG"
+        },
+        "access": "tour",
+        "fee": "yes",
+        "best_time_to_visit": "Year-round",
+        "duration": "1–2 hours",
+        "website": "https://www.nps.gov/maca/index.htm",
+        "description": "Used for short, family‑friendly tours showcasing the Frozen Niagara flowstone."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-86.0636696, 37.1520718]
+      },
+      "properties": {
+        "name": "Mammoth Cave New Entrance",
+        "category": "caves",
+        "source": "curated",
+        "image": {
+          "name": "New Cave",
+          "url": "https://commons.wikimedia.org/wiki/File:Historic_Entrance_Passage,_Mammoth_Cave,_Mammoth_Cave_National_Park,_Mammoth_Cave,_KY_-_52726777263.jpg"
+        },
+        "access": "tour",
+        "fee": "yes",
+        "best_time_to_visit": "Year-round",
+        "duration": "2–3 hours",
+        "website": "https://www.nps.gov/maca/index.htm",
+        "description": "A modern access point used for tours exploring deeper sections of Mammoth Cave."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-86.0470483, 37.1544533]
+      },
+      "properties": {
+        "name": "Sand Cave (Mammoth Cave)",
+        "category": "caves",
+        "source": "curated",
+        "image": {
+          "name": "Sandy Cave",
+          "url": "https://commons.wikimedia.org/wiki/File:Sand_cave.jpg"
+        },
+        "access": "public",
+        "fee": "no",
+        "best_time_to_visit": "Spring",
+        "duration": "1–2 hours",
+        "website": "",
+        "description": "A small historic cave near the park boundary, accessible from the surface."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-86.054972, 37.2117827]
+      },
+      "properties": {
+        "name": "Crystal Cave",
+        "category": "caves",
+        "source": "curated",
+        "image": {
+          "name": "Lake Rainbow Dome",
+          "url": "https://commons.wikimedia.org/wiki/File:Travertine_speleothem_(Crystal_Lake-Rainbow_Dome_area,_Mammoth_Cave,_Kentucky,_USA)_2_(25075689038).jpg"
+        },
+        "access": "public",
+        "fee": "unknown",
+        "best_time_to_visit": "Year-round",
+        "duration": "1–2 hours",
+        "website": "",
+        "description": "A historic show cave with unique formations, once operated separately."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-86.0781341, 37.2190432]
+      },
+      "properties": {
+        "name": "Great Onyx Cave",
+        "category": "caves",
+        "source": "curated",
+        "image": {
+          "name": "Onyx Cave",
+          "url": "https://commons.wikimedia.org/wiki/File:Great_onyx_cave_KY.jpg"
+        },
+        "access": "tour",
+        "fee": "yes",
+        "best_time_to_visit": "Year-round",
+        "duration": "2 hours",
+        "website": "https://www.nps.gov/maca/index.htm",
+        "description": "A privately developed show cave offering guided tours through decorated passages."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-86.0619725, 37.1162933]
+      },
+      "properties": {
+        "name": "Diamond Caverns",
+        "category": "caves",
+        "source": "curated",
+        "image": {
+          "name": "Entrance",
+          "url": "https://commons.wikimedia.org/wiki/File:Entrance_to_Diamond_Caverns.jpg"
+        },
+        "access": "tour",
+        "fee": "yes",
+        "best_time_to_visit": "Year-round",
+        "duration": "1–2 hours",
+        "website": "https://www.diamondcaverns.com/",
+        "description": "A commercial cave with year‑round tours featuring illuminated formations."
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-83.667018, 36.6027754]
+      },
+      "properties": {
+        "name": "Gap Cave",
+        "category": "caves",
+        "source": "curated",
+        "image": {
+          "name": "Gap Cave",
+          "url": "https://www.nps.gov/cuga/planyourvisit/images/cave-formation.png?maxwidth=650&autorotate=false&quality=78&format=webp"
+        },
+        "access": "tour",
+        "fee": "yes",
+        "best_time_to_visit": "Spring–Fall",
+        "duration": "2 hours",
+        "website": "https://www.nps.gov/cuga/planyourvisit/gapcave.htm",
+        "description": "Gap Cave sits beneath Pinnacle Overlook in Cumberland Gap National Historical Park."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-83.4574672, 36.668576]
+      },
+      "properties": {
+        "name": "Sand Cave (Cumberland Gap)",
+        "category": "caves",
+        "source": "curated",
+        "image": {
+          "name": "Sand Cave",
+          "url": "https://commons.wikimedia.org/wiki/File:Hiker_in_Sand_Cave_NPS_photo.jpg"
+        },
+        "access": "public",
+        "fee": "no",
+        "best_time_to_visit": "Spring",
+        "duration": "1–2 hours",
+        "website": "",
+        "description": "A huge sandstone shelter reached by a scenic hiking trail in Cumberland Gap."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.4317165, 37.1501358]
+      },
+      "properties": {
+        "name": "Short Creek Cave",
+        "category": "caves",
+        "source": "curated",
+        "image": { "name": "", "url": "" },
+        "access": "public",
+        "fee": "unknown",
+        "best_time_to_visit": "Spring–Fall",
+        "duration": "1 hour",
+        "website": "",
+        "description": "A small, publicly accessible cave near Short Creek."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.2036474, 37.3677334]
+      },
+      "properties": {
+        "name": "Great Saltpetre Cave",
+        "category": "caves",
+        "source": "curated",
+        "image": {
+          "name": "Entrance",
+          "url": "https://commons.wikimedia.org/wiki/File:Great_Saltpetre_Cave,_entrance.jpg"
+        },
+        "access": "public",
+        "fee": "unknown",
+        "best_time_to_visit": "Spring–Fall",
+        "duration": "1–2 hours",
+        "website": "https://caves.org/great-saltpetre/",
+        "description": "A historic cave once used for saltpeter mining, now open for limited tours."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-83.9105403, 37.4859917]
+      },
+      "properties": {
+        "name": "Resurgence Cave",
+        "category": "caves",
+        "source": "curated",
+        "image": { "name": "", "url": "" },
+        "access": "public",
+        "fee": "unknown",
+        "best_time_to_visit": "Spring–Fall",
+        "duration": "1 hour",
+        "website": "",
+        "description": "A small cave at a spring outlet where water flows from underground to the surface."
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-84.4308499, 35.5355567] },
+      "properties": {
+        "name": "Craighead Caverns",
+        "category": "caves",
+        "source": "curated",
+        "access": "tour",
+        "fee": "yes",
+        "best_time": "Year-round",
+        "duration": "1–2 hours",
+        "description": "A commercial cave system best known for the Lost Sea, America’s largest underground lake."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-82.1214156, 36.5504789] },
+      "properties": {
+        "name": "Bristol Caverns",
+        "category": "caves",
+        "source": "curated",
+        "access": "tour",
+        "fee": "yes",
+        "best_time": "Year-round",
+        "duration": "1–2 hours",
+        "description": "A show cave with dramatic vertical chambers and guided tours."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-84.1651382, 35.9800162] },
+      "properties": {
+        "name": "Cherokee Cavern",
+        "category": "caves",
+        "source": "curated",
+        "access": "limited",
+        "fee": "yes",
+        "best_time": "Year-round",
+        "duration": "1–2 hours",
+        "description": "A historic cave near Knoxville, occasionally opened for special events and tours."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-85.0085979, 35.7958923] },
+      "properties": {
+        "name": "Devilstep Cave",
+        "category": "caves",
+        "source": "curated",
+        "access": "public",
+        "fee": "no",
+        "best_time": "Spring–Fall",
+        "duration": "1–2 hours",
+        "description": "A wild cave in the Cumberland Plateau region with rugged terrain and limited access."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-85.3395, 35.0189] },
+      "properties": {
+        "name": "Ruby Falls Cave",
+        "category": "caves",
+        "source": "curated",
+        "access": "tour",
+        "fee": "yes",
+        "best_time": "Year-round",
+        "duration": "1–2 hours",
+        "description": "A famous tourist cave featuring an underground waterfall inside Lookout Mountain."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.667018, 36.6027754] },
+      "properties": {
+        "name": "Gap Cave (TN side)",
+        "category": "caves",
+        "source": "curated",
+        "access": "tour",
+        "fee": "yes",
+        "best_time": "Spring–Fall",
+        "duration": "2 hours",
+        "description": "A major cave system beneath Cumberland Gap, accessible via guided NPS tours."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-85.3605689, 35.8420068] },
+      "properties": {
+        "name": "Lost Creek Cave",
+        "category": "caves",
+        "source": "curated",
+        "access": "public",
+        "fee": "no",
+        "best_time": "Spring–Fall",
+        "duration": "1–2 hours",
+        "description": "A wild cave in central Tennessee with multiple passages and rugged terrain."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.9141802, 36.0849308] },
+      "properties": {
+        "name": "Belle Forest Cave",
+        "category": "caves",
+        "source": "curated",
+        "access": "unknown",
+        "fee": "unknown",
+        "best_time": "Spring–Fall",
+        "duration": "1 hour",
+        "description": "A small cave located near Nashville, with limited public information."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.4574672, 36.668576] },
+      "properties": {
+        "name": "Sand Cave (TN side)",
+        "category": "caves",
+        "source": "curated",
+        "access": "public",
+        "fee": "no",
+        "best_time": "Spring",
+        "duration": "1–2 hours",
+        "description": "A massive sandstone shelter cave near Cumberland Gap, accessible via hiking trails."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-85.4080474, 35.0210524] },
+      "properties": {
+        "name": "Raccoon Mountain Caverns",
+        "category": "caves",
+        "source": "curated",
+        "access": "tour",
+        "fee": "yes",
+        "best_time": "Year-round",
+        "duration": "1–2 hours",
+        "description": "A Chattanooga show cave offering both guided tours and wild cave expeditions."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.6002581, 36.1607856] },
+      "properties": {
+        "name": "Indian Cave",
+        "category": "caves",
+        "source": "curated",
+        "access": "public",
+        "fee": "no",
+        "best_time": "Spring–Fall",
+        "duration": "1 hour",
+        "description": "A small cave in northeastern Tennessee with historical significance."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-82.2282696, 36.4563846] },
+      "properties": {
+        "name": "Worley's Cave",
+        "category": "caves",
+        "source": "curated",
+        "access": "tour",
+        "fee": "yes",
+        "best_time": "Year-round",
+        "duration": "2–3 hours",
+        "description": "A popular wild cave near Bluff City offering guided adventure tours."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.3245956, 36.086046] },
+      "properties": {
+        "name": "Jackson Cave",
+        "category": "caves",
+        "source": "curated",
+        "access": "unknown",
+        "fee": "unknown",
+        "best_time": "Spring–Fall",
+        "duration": "1 hour",
+        "description": "A small cave located near Nashville with limited public access information."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-85.5941013, 35.1207965] },
+      "properties": {
+        "name": "Sequatchie Cave",
+        "category": "caves",
+        "source": "curated",
+        "access": "public",
+        "fee": "no",
+        "best_time": "Spring–Fall",
+        "duration": "1–2 hours",
+        "description": "A scenic cave entrance in the Sequatchie Valley with a flowing spring."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-85.4313978, 35.3114617] },
+      "properties": {
+        "name": "Stone Cave",
+        "category": "caves",
+        "source": "curated",
+        "access": "public",
+        "fee": "no",
+        "best_time": "Spring–Fall",
+        "duration": "1 hour",
+        "description": "A small cave in the Cumberland Plateau region."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-85.9099944, 35.1195286] },
+      "properties": {
+        "name": "Buggytop Cave",
+        "category": "caves",
+        "source": "curated",
+        "access": "public",
+        "fee": "no",
+        "best_time": "Spring–Fall",
+        "duration": "2–3 hours",
+        "description": "A large wild cave in the Carter State Natural Area, reached by a steep hike."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-85.9099765, 35.1207441] },
+      "properties": {
+        "name": "Peter Cave",
+        "category": "caves",
+        "source": "curated",
+        "access": "public",
+        "fee": "no",
+        "best_time": "Spring–Fall",
+        "duration": "1–2 hours",
+        "description": "A secondary entrance near Buggytop Cave, part of the same cave system."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-81.9387987, 35.9191885] },
+      "properties": {
+        "name": "Linville Caverns",
+        "category": "caves",
+        "source": "curated",
+        "access": "tour",
+        "fee": "yes",
+        "best_time": "Year-round",
+        "duration": "1 hour",
+        "description": "A commercial cave near the TN/NC border offering guided tours."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-79.388886, 38.7628959] },
+      "properties": {
+        "name": "Seneca Caverns",
+        "category": "caves",
+        "source": "curated",
+        "access": "tour",
+        "fee": "yes",
+        "best_time": "Spring–Fall",
+        "duration": "1–2 hours",
+        "description": "A historic West Virginia show cave offering guided tours through limestone passages."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-79.642769, 38.7150572] },
+      "properties": {
+        "name": "Sinks of Gandy (Upstream Entrance)",
+        "category": "caves",
+        "source": "curated",
+        "access": "permissive",
+        "fee": "no",
+        "best_time": "Summer",
+        "duration": "1–2 hours",
+        "description": "A famous WV cave where a stream disappears underground and re-emerges downstream."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-79.6348463, 38.7188738] },
+      "properties": {
+        "name": "Sinks of Gandy (Downstream Entrance)",
+        "category": "caves",
+        "source": "curated",
+        "access": "permissive",
+        "fee": "no",
+        "best_time": "Summer",
+        "duration": "1–2 hours",
+        "description": "The lower entrance of the Sinks of Gandy, where the underground stream exits."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-80.4362982, 37.7181564] },
+      "properties": {
+        "name": "Organ Cave",
+        "category": "caves",
+        "source": "curated",
+        "access": "tour",
+        "fee": "yes",
+        "best_time": "Year-round",
+        "duration": "1–2 hours",
+        "description": "One of West Virginia’s largest caves, historically used for saltpeter mining."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-79.2658116, 38.9865102] },
+      "properties": {
+        "name": "Smoke Hole Caverns",
+        "category": "caves",
+        "source": "curated",
+        "access": "tour",
+        "fee": "yes",
+        "best_time": "Spring–Fall",
+        "duration": "1–2 hours",
+        "description": "A commercial cave with colorful formations and guided tours in the Smoke Hole region."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-79.6054017, 38.2223811] },
+      "properties": {
+        "name": "Water Sinks",
+        "category": "caves",
+        "source": "curated",
+        "access": "public",
+        "fee": "no",
+        "best_time": "Summer",
+        "duration": "1 hour",
+        "description": "A karst sink and cave entrance where water flows underground through limestone."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-80.2772129, 38.1198735] },
+      "properties": {
+        "name": "Hills Creek Sink",
+        "category": "caves",
+        "source": "curated",
+        "access": "public",
+        "fee": "no",
+        "best_time": "Spring–Fall",
+        "duration": "1 hour",
+        "description": "A karst sinkhole and cave entrance located near the Hills Creek area."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-79.548178, 37.6298497] },
+      "properties": {
+        "name": "Saltpeter Cave (WV)",
+        "category": "caves",
+        "source": "curated",
+        "access": "public",
+        "fee": "no",
+        "best_time": "Spring–Fall",
+        "duration": "1–2 hours",
+        "description": "A historic saltpeter cave located in southern West Virginia."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-79.6621411, 37.7815969] },
+      "properties": {
+        "name": "Pete's Cave",
+        "category": "caves",
+        "source": "curated",
+        "access": "public",
+        "fee": "no",
+        "best_time": "Summer",
+        "duration": "1 hour",
+        "description": "A rock-split cave formation popular with hikers; not a deep cave but a scenic feature worth visiting."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-80.232128, 37.664538] },
+      "properties": {
+        "name": "Cesspool Cave",
+        "category": "caves",
+        "source": "curated",
+        "access": "customers",
+        "fee": "yes",
+        "best_time": "Spring–Fall",
+        "duration": "1–2 hours",
+        "description": "A privately operated cave in southern West Virginia with limited access."
+      }
+    }
+  ]
+}

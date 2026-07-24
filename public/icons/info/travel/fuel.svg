@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 64 64">
+
+  <!-- Marker -->
+  <path fill="#2C6E7F"
+        d="M32 2C20.4 2 11 11.4 11 23c0 15.4 21 39 21 39s21-23.6 21-39C53 11.4 43.6 2 32 2z"/>
+
+  <!-- Circle -->
+  <circle cx="32" cy="24" r="14" fill="#FFFFFF"/>
+
+  <!-- Pump -->
+  <rect
+      x="24"
+      y="17"
+      width="10"
+      height="16"
+      rx="2"
+      fill="#2C6E7F"/>
+
+  <!-- Display -->
+  <rect
+      x="26.5"
+      y="20"
+      width="5"
+      height="3.5"
+      rx="0.8"
+      fill="#FFFFFF"/>
+
+  <!-- Hose -->
+  <path
+      d="M34 19
+         C39 19 39 22 39 24
+         V28
+         C39 30 38 31 36.5 31"
+      fill="none"
+      stroke="#2C6E7F"
+      stroke-width="2"
+      stroke-linecap="round"/>
+
+  <!-- Nozzle -->
+  <path
+      d="M36.5 31
+         h2
+         v2
+         h-2
+         z"
+      fill="#2C6E7F"/>
+
+</svg>

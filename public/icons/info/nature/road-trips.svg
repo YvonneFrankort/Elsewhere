@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 64 64">
+
+  <!-- Pin -->
+  <path fill="#1E7A1E"
+        d="M32 2C20.4 2 11 11.4 11 23c0 15.4 21 39 21 39s21-23.6 21-39C53 11.4 43.6 2 32 2z"/>
+
+  <!-- Circle -->
+  <circle cx="32" cy="24" r="14" fill="#FFFFFF"/>
+
+  <!-- Road -->
+  <path
+      fill="#1E7A1E"
+      d="M27 34
+         L30.2 16
+         H33.8
+         L37 34
+         Z"/>
+
+  <!-- Center line -->
+  <rect x="31.2" y="18.5" width="1.6" height="3" rx="0.8" fill="#FFFFFF"/>
+  <rect x="31.2" y="23.5" width="1.6" height="3" rx="0.8" fill="#FFFFFF"/>
+  <rect x="31.2" y="28.5" width="1.6" height="3" rx="0.8" fill="#FFFFFF"/>
+
+</svg>

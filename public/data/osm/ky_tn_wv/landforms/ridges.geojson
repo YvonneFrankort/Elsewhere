@@ -1,0 +1,122 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.6840, 37.8230] },
+      "properties": {
+        "name": "Auxier Ridge",
+        "category": "ridges",
+        "source": "curated",
+        "description": "A narrow sandstone ridge with sweeping views over Red River Gorge.",
+        "best_time": "Morning",
+        "duration": "2–3 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.6895, 37.8012] },
+      "properties": {
+        "name": "Hansons Point Ridge",
+        "category": "ridges",
+        "source": "curated",
+        "description": "A scenic ridge spur offering panoramic gorge views.",
+        "best_time": "Afternoon",
+        "duration": "1–2 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.7085, 37.7829] },
+      "properties": {
+        "name": "Natural Bridge Ridge",
+        "category": "ridges",
+        "source": "curated",
+        "description": "A ridge line above Natural Bridge with forested overlooks.",
+        "best_time": "Morning",
+        "duration": "1–2 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.4980, 35.6540] },
+      "properties": {
+        "name": "Alum Cave Ridge",
+        "category": "ridges",
+        "source": "curated",
+        "description": "A Smokies ridge route leading toward Mount LeConte.",
+        "best_time": "Morning",
+        "duration": "3–5 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.2810, 35.7010] },
+      "properties": {
+        "name": "Cammerer Ridge",
+        "category": "ridges",
+        "source": "curated",
+        "description": "A rocky ridge leading to Mount Cammerer’s fire tower summit.",
+        "best_time": "Afternoon",
+        "duration": "3–6 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-84.5730, 36.8470] },
+      "properties": {
+        "name": "Big South Fork Ridge",
+        "category": "ridges",
+        "source": "curated",
+        "description": "A long ridge above the river gorge with cliffside views.",
+        "best_time": "Spring",
+        "duration": "2–4 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-79.3740, 38.9850] },
+      "properties": {
+        "name": "North Fork Mountain Ridge",
+        "category": "ridges",
+        "source": "curated",
+        "description": "A dramatic ridge line with continuous views over the Potomac Highlands.",
+        "best_time": "Morning",
+        "duration": "3–6 hours",
+        "image": ""
+      }
+    },
+    {
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-83.489, 35.635] },
+  "properties": {
+    "name": "Chimney Tops Ridge",
+    "category": "ridges",
+    "source": "curated",
+    "description": "A sharp rocky ridge in the Smokies with dramatic views and steep terrain.",
+    "best_time": "Morning",
+    "duration": "2–4 hours",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-79.365, 39.064] },
+  "properties": {
+    "name": "Dolly Sods Ridge",
+    "category": "ridges",
+    "source": "curated",
+    "description": "A high plateau ridge with unique terrain, open views, and rugged hiking.",
+    "best_time": "Morning",
+    "duration": "2–4 hours",
+    "image": ""
+  }
+}
+  ]
+}

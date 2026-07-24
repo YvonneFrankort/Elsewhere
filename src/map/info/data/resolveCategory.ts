@@ -1,91 +1,54 @@
 export interface CategoryResolution {
   geoapify: boolean;
-  osm: boolean;
   nps: boolean;
   weather: boolean;
 }
 
 export function resolveCategory(id: string): CategoryResolution {
 
-  if (id === "mountains") {
-    id = "mountain-peaks";
-  }
-
-  // 🌲 NATURE — OSM only
-  const osmOnly = [
-    "lakes",
-    "rivers",
-    "waterfalls",
-    "beaches",
-    "canyons",
-    "mountain-peaks",
-    "forests",
-    "desert",
-    "caves",
-    "islands",
-    "hiking",
-    "ski",
-    "trailheads",
-    "climbing-areas",
-    "wildlife-parks",
-    "nature-reserves",
-    "wilderness",
-    "scenic-routes",
-    "national-parks"
+  // -------------------------
+  // NPS-only categories
+  // -------------------------
+  const npsOnly = [
+    "trails",            // NPS trails loader
+    "alert",             // NPS alerts loader
+    "event",             // NPS events loader
+    "visitor_center"     // NPS visitor centers loader
   ];
 
-  if (osmOnly.includes(id)) {
-    return {
-      geoapify: false,
-      osm: true,
-      nps: id === "national-parks",
-      weather: false,
-    };
+  if (npsOnly.includes(id)) {
+    return { geoapify: false, nps: true, weather: false };
   }
 
-  if (id === "visitor-centers") {
-    return {
-      geoapify: false,
-      osm: false,
-      nps: true,
-      weather: false,
-    };
-  }
-
-  if (id === "events") {
-    return {
-      geoapify: false,
-      osm: false,
-      nps: true,
-      weather: false,
-    };
-  }
-
-  // 🌆 URBAN SCENIC — Geoapify only
-  const urbanScenic = [
-    "viewpoints",
-    "scenic-overlooks",
-    "observation-towers",
-    "landmarks",
-    "botanical-gardens",
-    "museums",
-    "galleries",
-    "urban-parks",
-    "scenic-drives",
-    "road-trip-routes"
+  // -------------------------
+  // NPS park categories
+  // -------------------------
+  const npsParks = [
+    "national_park",
+    "national_monument",
+    "national_preserve",
+    "national_historic_site",
+    "national_recreation_area",
+    "national_seashore",
+    "national_river",
+    "national_lakeshore"
   ];
 
-  if (urbanScenic.includes(id)) {
-    return {
-      geoapify: true,
-      osm: false,
-      nps: false,
-      weather: false,
-    };
+  if (npsParks.includes(id)) {
+    return { geoapify: false, nps: true, weather: false };
   }
 
-  // 🍽️ FOOD — Geoapify only
-  const food = [
+  // -------------------------
+  // Weather
+  // -------------------------
+  if (id === "weather" || id === "weather-alerts") {
+    return { geoapify: false, nps: false, weather: true };
+  }
+
+  // -------------------------
+  // Geoapify-only categories
+  // -------------------------
+  const geoapifyOnly = [
     "restaurants",
     "italian",
     "mexican",
@@ -112,65 +75,58 @@ export function resolveCategory(id: string): CategoryResolution {
     "distilleries"
   ];
 
-  if (food.includes(id)) {
-    return {
-      geoapify: true,
-      osm: false,
-      nps: false,
-      weather: false,
-    };
+  if (geoapifyOnly.includes(id)) {
+    return { geoapify: true, nps: false, weather: false };
   }
 
-  // 🚗 SERVICES — Geoapify only
-  const services = [
-    "parking-lots",
+  // -------------------------
+  // Curated categories (local GeoJSON)
+  // -------------------------
+  const curated = [
+    // Nature POIs
+    "waterfalls",
+    "caves",
+    "arches",
+    "natural-bridges",
+    "rockhouses",
+    "ridges",
+    "peaks",
+    "gorges",
+    "river-overlooks",
+    "viewpoints",
+    "scenic-roads",
+
+    // Trails (local)
+    "trailheads",
+
+    // Travel (local)
     "parking-garages",
-    "gas-stations"
+    "trail-parking",
+
+    // Urban leisure
+    "botanical-gardens",
+    "museums",
+    "galleries",
+    "urban-parks",
+    "zoos",
+    "aquariums",
+    "amusement-parks",
+    "water-parks",
+    "roller-coaster-parks",
+    "family-parks",
+    "cinemas",
+    "theatres",
+    "escape-rooms",
+    "bowling",
+    "mini-golf"
   ];
 
-  if (services.includes(id)) {
-    return {
-      geoapify: true,
-      osm: false,
-      nps: false,
-      weather: false,
-    };
+  if (curated.includes(id)) {
+    return { geoapify: false, nps: false, weather: false };
   }
 
-  if (id === "alerts") {
-    return {
-      geoapify: false,
-      osm: false,
-      nps: true,
-      weather: false,
-    };
-  }
-
-  // 🔍 SEARCH — now Geoapify only
-  if (id === "search") {
-    return {
-      geoapify: true,
-      osm: false,
-      nps: false,
-      weather: false,
-    };
-  }
-
-  // 🌦 WEATHER — Open-Meteo only
-  if (id === "weather") {
-    return {
-      geoapify: false,
-      osm: false,
-      nps: false,
-      weather: true,
-    };
-  }
-
+  // -------------------------
   // Default
-  return {
-    geoapify: false,
-    osm: false,
-    nps: false,
-    weather: false,
-  };
+  // -------------------------
+  return { geoapify: false, nps: false, weather: false };
 }

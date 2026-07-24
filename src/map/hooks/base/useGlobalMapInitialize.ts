@@ -37,6 +37,14 @@ export function useGlobalMapInitialize(
 
     mapRef.current = map;
 
+    // --- SCALE CONTROL ----------------------------------------------------------
+    const scale = new mapboxgl.ScaleControl({
+      maxWidth: 100,
+      unit: "metric"
+    });
+    map.addControl(scale, "bottom-left");
+
+
     // --- CONTROL REMOVAL -----------------------------------------------------
     const removeControls = () => {
       setTimeout(() => {

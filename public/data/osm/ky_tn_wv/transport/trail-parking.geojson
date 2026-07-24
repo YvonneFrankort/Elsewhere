@@ -1,0 +1,330 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.6840, 37.8230] },
+      "properties": {
+        "name": "Auxier Ridge Parking",
+        "category": "trail-parking",
+        "source": "curated",
+        "description": "Main parking area for Auxier Ridge, Courthouse Rock, and Double Arch.",
+        "best_time": "Morning",
+        "duration": "All day",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.7085, 37.7829] },
+      "properties": {
+        "name": "Chimney Top Parking",
+        "category": "trail-parking",
+        "source": "curated",
+        "description": "Parking for Chimney Top Rock and nearby ridge trails.",
+        "best_time": "Afternoon",
+        "duration": "All day",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.6895, 37.8012] },
+      "properties": {
+        "name": "Rock Bridge Parking",
+        "category": "trail-parking",
+        "source": "curated",
+        "description": "Access point for Rock Bridge, Rockhouse, and creek loop trails.",
+        "best_time": "Morning",
+        "duration": "All day",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-84.5730, 36.8470] },
+      "properties": {
+        "name": "Bandy Creek Trailhead Parking",
+        "category": "trail-parking",
+        "source": "curated",
+        "description": "Large parking area for Big South Fork ridge and river trails.",
+        "best_time": "Morning",
+        "duration": "All day",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-85.3021, 35.7434] },
+      "properties": {
+        "name": "Savage Gulf Parking",
+        "category": "trail-parking",
+        "source": "curated",
+        "description": "Parking for Savage Gulf’s canyon and waterfall trail system.",
+        "best_time": "Spring",
+        "duration": "All day",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-85.1920, 35.4410] },
+      "properties": {
+        "name": "Fiery Gizzard Parking",
+        "category": "trail-parking",
+        "source": "curated",
+        "description": "Trailhead parking for Fiery Gizzard’s gorge and ridge routes.",
+        "best_time": "Morning",
+        "duration": "All day",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-81.0750, 38.0700] },
+      "properties": {
+        "name": "Endless Wall Parking",
+        "category": "trail-parking",
+        "source": "curated",
+        "description": "Parking for Endless Wall’s cliffside loop in New River Gorge.",
+        "best_time": "Afternoon",
+        "duration": "All day",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-80.2410, 38.2170] },
+      "properties": {
+        "name": "Long Point Parking",
+        "category": "trail-parking",
+        "source": "curated",
+        "description": "Parking for the Long Point overlook trail above New River Gorge Bridge.",
+        "best_time": "Sunset",
+        "duration": "All day",
+        "image": ""
+      }
+    },
+    {
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-83.6739, 37.8237] },
+  "properties": {
+    "name": "Gray's Arch Parking",
+    "category": "trail-parking",
+    "source": "curated",
+    "description": "Main parking area for Gray’s Arch, Rush Ridge, and Rough Trail.",
+    "best_time": "Morning",
+    "duration": "All day",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-83.6364, 37.8341] },
+  "properties": {
+    "name": "Sky Bridge Parking",
+    "category": "trail-parking",
+    "source": "curated",
+    "description": "Parking for Sky Bridge arch and overlook.",
+    "best_time": "Afternoon",
+    "duration": "All day",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-83.7080, 37.7910] },
+  "properties": {
+    "name": "Whittleton Trailhead Parking",
+    "category": "trail-parking",
+    "source": "curated",
+    "description": "Parking at Natural Bridge campground for Whittleton Arch.",
+    "best_time": "Morning",
+    "duration": "All day",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-83.6455, 37.8440] },
+  "properties": {
+    "name": "Bison Way Parking",
+    "category": "trail-parking",
+    "source": "curated",
+    "description": "Parking for Indian Staircase, Adena Arch, and Sheltowee Trace.",
+    "best_time": "Morning",
+    "duration": "All day",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-83.6196, 37.8273] },
+  "properties": {
+    "name": "Princess Arch Parking",
+    "category": "trail-parking",
+    "source": "curated",
+    "description": "Parking for Princess Arch and nearby ridge trails.",
+    "best_time": "Morning",
+    "duration": "All day",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-83.6731, 36.8659] },
+  "properties": {
+    "name": "Castle Rock Parking",
+    "category": "trail-parking",
+    "source": "curated",
+    "description": "Parking for Castle Rock overlook on Pine Mountain.",
+    "best_time": "Morning",
+    "duration": "All day",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-85.3569, 35.6645] },
+  "properties": {
+    "name": "Fall Creek Falls Gorge Parking",
+    "category": "trail-parking",
+    "source": "curated",
+    "description": "Main parking area for the gorge trail and overlooks.",
+    "best_time": "Morning",
+    "duration": "All day",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-85.2573, 35.8609] },
+  "properties": {
+    "name": "Virgin Falls Parking",
+    "category": "trail-parking",
+    "source": "curated",
+    "description": "Official parking area for Virgin Falls State Natural Area.",
+    "best_time": "Spring",
+    "duration": "All day",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-85.0302, 35.2017] },
+  "properties": {
+    "name": "Walls of Jericho Parking",
+    "category": "trail-parking",
+    "source": "curated",
+    "description": "Main parking area for the long hike into Walls of Jericho.",
+    "best_time": "Morning",
+    "duration": "All day",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-85.6303, 35.8093] },
+  "properties": {
+    "name": "Rock Island Gorge Parking",
+    "category": "trail-parking",
+    "source": "curated",
+    "description": "Parking for Great Falls and the gorge trails.",
+    "best_time": "Spring",
+    "duration": "All day",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-84.7210, 36.0100] },
+  "properties": {
+    "name": "Frozen Head Tower Parking",
+    "category": "trail-parking",
+    "source": "curated",
+    "description": "Parking at the base of the trail to Frozen Head’s summit tower.",
+    "best_time": "Morning",
+    "duration": "All day",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-85.4209, 35.0957] },
+  "properties": {
+    "name": "Snoopers Rock Parking",
+    "category": "trail-parking",
+    "source": "curated",
+    "description": "Parking for Snoopers Rock overlook in Prentice Cooper.",
+    "best_time": "Sunset",
+    "duration": "All day",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-81.0627, 37.8319] },
+  "properties": {
+    "name": "Grandview Parking",
+    "category": "trail-parking",
+    "source": "curated",
+    "description": "Main parking area for Grandview Overlook in New River Gorge NP.",
+    "best_time": "Sunset",
+    "duration": "All day",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-81.0581, 37.8287] },
+  "properties": {
+    "name": "Turkey Spur Parking",
+    "category": "trail-parking",
+    "source": "curated",
+    "description": "Parking for the multi-platform Turkey Spur Overlook.",
+    "best_time": "Morning",
+    "duration": "All day",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-81.0101, 38.0681] },
+  "properties": {
+    "name": "Beauty Mountain Parking",
+    "category": "trail-parking",
+    "source": "curated",
+    "description": "Roadside parking for Beauty Mountain’s famous sunset overlook.",
+    "best_time": "Sunset",
+    "duration": "All day",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-81.0751, 38.0707] },
+  "properties": {
+    "name": "Diamond Point Parking",
+    "category": "trail-parking",
+    "source": "curated",
+    "description": "Parking area for Diamond Point on the Endless Wall Trail.",
+    "best_time": "Morning",
+    "duration": "All day",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-79.8061, 39.6721] },
+  "properties": {
+    "name": "Coopers Rock Parking",
+    "category": "trail-parking",
+    "source": "curated",
+    "description": "Large parking area at Coopers Rock Overlook.",
+    "best_time": "Morning",
+    "duration": "All day",
+    "image": ""
+  }
+}
+  ]
+}

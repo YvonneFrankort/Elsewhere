@@ -1,0 +1,278 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "node/525155148",
+      "properties": {
+        "@id": "node/525155148",
+        "source": "curated",
+        "category": "parking-garages",
+        "name": "Parking Garage",
+        "fee": "yes",
+        "parking": "underground",
+        "layer": "-1"
+      },
+      "geometry": { "type": "Point", "coordinates": [-84.5145126, 39.1016821] }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1573403819",
+      "properties": {
+        "@id": "node/1573403819",
+        "source": "curated",
+        "category": "parking-garages",
+        "name": "Parking Garage",
+        "fee": "yes",
+        "parking": "multi-storey",
+        "supervised": "yes",
+        "park_ride": "no"
+      },
+      "geometry": { "type": "Point", "coordinates": [-84.4986855, 38.0472488] }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3447799963",
+      "properties": {
+        "@id": "node/3447799963",
+        "source": "curated",
+        "category": "parking-garages",
+        "name": "Parking Garage",
+        "parking": "multi-storey"
+      },
+      "geometry": { "type": "Point", "coordinates": [-85.6370733, 38.2371371] }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3453183885",
+      "properties": {
+        "@id": "node/3453183885",
+        "source": "curated",
+        "category": "parking-garages",
+        "name": "Parking Garage",
+        "parking": "multi-storey"
+      },
+      "geometry": { "type": "Point", "coordinates": [-85.7417301, 38.2488527] }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3516264334",
+      "properties": {
+        "@id": "node/3516264334",
+        "source": "curated",
+        "category": "parking-garages",
+        "name": "Parking Garage",
+        "parking": "multi-storey"
+      },
+      "geometry": { "type": "Point", "coordinates": [-85.75776, 38.2544934] }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3516264336",
+      "properties": {
+        "@id": "node/3516264336",
+        "source": "curated",
+        "category": "parking-garages",
+        "name": "Glassworks Parking Garage",
+        "parking": "multi-storey"
+      },
+      "geometry": { "type": "Point", "coordinates": [-85.7642992, 38.2556646] }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3516268374",
+      "properties": {
+        "@id": "node/3516268374",
+        "source": "curated",
+        "category": "parking-garages",
+        "name": "Parking Garage",
+        "parking": "multi-storey"
+      },
+      "geometry": { "type": "Point", "coordinates": [-85.7594971, 38.2552339] }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3516268422",
+      "properties": {
+        "@id": "node/3516268422",
+        "source": "curated",
+        "category": "parking-garages",
+        "name": "Parking Garage",
+        "parking": "multi-storey"
+      },
+      "geometry": { "type": "Point", "coordinates": [-85.7624895, 38.2554719] }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3516268481",
+      "properties": {
+        "@id": "node/3516268481",
+        "source": "curated",
+        "category": "parking-garages",
+        "name": "Parking Garage",
+        "parking": "multi-storey"
+      },
+      "geometry": { "type": "Point", "coordinates": [-85.7572443, 38.2556743] }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3516283493",
+      "properties": {
+        "@id": "node/3516283493",
+        "source": "curated",
+        "category": "parking-garages",
+        "name": "8th & Main Garage",
+        "parking": "multi-storey"
+      },
+      "geometry": { "type": "Point", "coordinates": [-85.7639061, 38.2566765] }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3516420043",
+      "properties": {
+        "@id": "node/3516420043",
+        "source": "curated",
+        "category": "parking-garages",
+        "name": "Cowger Garage",
+        "parking": "multi-storey"
+      },
+      "geometry": { "type": "Point", "coordinates": [-85.7562484, 38.2556288] }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3644922560",
+      "properties": {
+        "@id": "node/3644922560",
+        "source": "curated",
+        "category": "parking-garages",
+        "name": "Ashland Skytower Parking Garage",
+        "parking": "multi-storey",
+        "capacity": "150"
+      },
+      "geometry": { "type": "Point", "coordinates": [-82.6486803, 38.4806511] }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4005013489",
+      "properties": {
+        "@id": "node/4005013489",
+        "source": "curated",
+        "category": "parking-garages",
+        "name": "Library Parking",
+        "parking": "multi-storey",
+        "fee": "yes",
+        "supervised": "yes",
+        "website": "https://lexpublib.org/parking",
+        "wheelchair": "yes"
+      },
+      "geometry": { "type": "Point", "coordinates": [-84.4970762, 38.0452899] }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6722702160",
+      "properties": {
+        "@id": "node/6722702160",
+        "source": "curated",
+        "category": "parking-garages",
+        "name": "Court & Walnut Garage",
+        "parking": "multi-storey",
+        "fee": "yes",
+        "capacity": "560",
+        "surface": "concrete"
+      },
+      "geometry": { "type": "Point", "coordinates": [-84.5120625, 39.1073168] }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11122375512",
+      "properties": {
+        "@id": "node/11122375512",
+        "source": "curated",
+        "category": "parking-garages",
+        "name": "Rivercenter Parking Entrance",
+        "parking": "multi-storey"
+      },
+      "geometry": { "type": "Point", "coordinates": [-84.5095627, 39.0900682] }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11122479699",
+      "properties": {
+        "@id": "node/11122479699",
+        "source": "curated",
+        "category": "parking-garages",
+        "name": "Rivercenter Parking Entrance",
+        "parking": "multi-storey"
+      },
+      "geometry": { "type": "Point", "coordinates": [-84.511732, 39.0899243] }
+    },
+    {
+      "type": "Feature",
+      "id": "node/13825608758",
+      "properties": {
+        "@id": "node/13825608758",
+        "source": "curated",
+        "category": "parking-garages",
+        "name": "Central Riverfront Garage",
+        "parking": "multi-storey"
+      },
+      "geometry": { "type": "Point", "coordinates": [-84.5099903, 39.0978248] }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.7775249, 36.1673151] },
+      "properties": {
+        "id": "public_square_parking",
+        "name": "Public Square Parking (Underground)",
+        "category": "parking-garages",
+        "source": "curated",
+        "type": "underground",
+        "access": "public",
+        "fee": "unknown",
+        "description": "An underground public parking facility located near Nashville’s Public Square."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.817355, 36.1093247] },
+      "properties": {
+        "id": "nashville_underground_parking_1",
+        "name": "Underground Parking",
+        "category": "parking-garages",
+        "source": "curated",
+        "type": "underground",
+        "access": "unknown",
+        "fee": "unknown",
+        "description": "An underground parking structure in Nashville with limited available metadata."
+      }
+    },
+        {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-81.6340538, 38.3486077] },
+      "properties": {
+        "id": "charleston_garage_1",
+        "name": "City of Charleston Parking Garage No. 1",
+        "category": "parking-garages",
+        "source": "curated",
+        "type": "multi-storey",
+        "access": "public",
+        "fee": "yes",
+        "description": "A public multi‑storey parking garage located in downtown Charleston."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-80.7244001, 40.0698676] },
+      "properties": {
+        "id": "capitol_parking_garage",
+        "name": "Capitol Parking Garage",
+        "category": "parking-garages",
+        "source": "curated",
+        "type": "multi-storey",
+        "access": "public",
+        "fee": "unknown",
+        "description": "A multi‑storey parking garage serving the Weirton area in northern West Virginia."
+      }
+    }
+  ]
+}

@@ -1,0 +1,619 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-85.057, 34.840] },
+      "properties": {
+        "id": "cloudland_canyon",
+        "name": "Cloudland Canyon State Park",
+        "category": "landforms",
+        "subcategory": "canyon",
+        "description": "One of the Southeast’s most dramatic canyons with massive cliffs and overlooks.",
+        "best_time": "Year-round",
+        "duration": "2–6 hours",
+        "scenic": "5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.296, 34.739] },
+      "properties": {
+        "id": "tallulah_gorge",
+        "name": "Tallulah Gorge State Park",
+        "category": "landforms",
+        "subcategory": "gorge",
+        "description": "A 1,000-foot deep gorge with suspension bridge and dramatic overlooks.",
+        "best_time": "Spring–Fall",
+        "duration": "2–5 hours",
+        "scenic": "5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-82.092, 35.968] },
+      "properties": {
+        "id": "mount_mitchell",
+        "name": "Mount Mitchell",
+        "category": "mountains",
+        "subcategory": "peak",
+        "description": "Highest peak in the eastern United States.",
+        "best_time": "May–October",
+        "duration": "1–3 hours",
+        "scenic": "5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.109, 35.029] },
+      "properties": {
+        "id": "whitewater_falls",
+        "name": "Whitewater Falls",
+        "category": "water",
+        "subcategory": "waterfall",
+        "description": "One of the tallest waterfalls in the eastern US.",
+        "best_time": "Year-round",
+        "duration": "1–2 hours",
+        "scenic": "5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.991, 34.563] },
+      "properties": {
+        "id": "amicalola_falls",
+        "name": "Amicalola Falls",
+        "category": "water",
+        "subcategory": "waterfall",
+        "description": "A 729-foot waterfall, tallest in Georgia.",
+        "best_time": "Year-round",
+        "duration": "1–3 hours",
+        "scenic": "5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-82.974, 35.064] },
+      "properties": {
+        "id": "dry_falls",
+        "name": "Dry Falls",
+        "category": "water",
+        "subcategory": "waterfall",
+        "description": "Walk behind the waterfall without getting wet.",
+        "best_time": "Year-round",
+        "duration": "1 hour",
+        "scenic": "4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-82.998, 35.071] },
+      "properties": {
+        "id": "cullasaja_falls",
+        "name": "Cullasaja Falls",
+        "category": "water",
+        "subcategory": "waterfall",
+        "description": "Roadside waterfall in the Cullasaja Gorge.",
+        "best_time": "Year-round",
+        "duration": "30 minutes",
+        "scenic": "4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-82.456, 35.968] },
+      "properties": {
+        "id": "linville_gorge",
+        "name": "Linville Gorge",
+        "category": "landforms",
+        "subcategory": "gorge",
+        "description": "The 'Grand Canyon of the East' with rugged wilderness and dramatic cliffs.",
+        "best_time": "Spring–Fall",
+        "duration": "3–8 hours",
+        "scenic": "5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-82.456, 35.968] },
+      "properties": {
+        "id": "linville_falls",
+        "name": "Linville Falls",
+        "category": "water",
+        "subcategory": "waterfall",
+        "description": "Iconic multi-tier waterfall feeding into Linville Gorge.",
+        "best_time": "Year-round",
+        "duration": "1–3 hours",
+        "scenic": "5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-85.260, 34.912] },
+      "properties": {
+        "id": "lookout_mountain",
+        "name": "Lookout Mountain",
+        "category": "scenic",
+        "subcategory": "viewpoint",
+        "description": "Panoramic views over Chattanooga and the Tennessee River.",
+        "best_time": "Year-round",
+        "duration": "1–2 hours",
+        "scenic": "5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-84.036, 34.874] },
+      "properties": {
+        "id": "brasstown_bald",
+        "name": "Brasstown Bald",
+        "category": "mountains",
+        "subcategory": "peak",
+        "description": "Highest point in Georgia with 360° views.",
+        "best_time": "Spring–Fall",
+        "duration": "1–2 hours",
+        "scenic": "5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-82.775, 35.082] },
+      "properties": {
+        "id": "whiteside_mountain",
+        "name": "Whiteside Mountain",
+        "category": "landforms",
+        "subcategory": "cliff",
+        "description": "Sheer 750-foot cliffs with sweeping views.",
+        "best_time": "Spring–Fall",
+        "duration": "2–3 hours",
+        "scenic": "5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-82.778, 35.015] },
+      "properties": {
+        "id": "table_rock_sc",
+        "name": "Table Rock",
+        "category": "landforms",
+        "subcategory": "mountain",
+        "description": "Iconic granite dome rising over the South Carolina foothills.",
+        "best_time": "Spring–Fall",
+        "duration": "3–5 hours",
+        "scenic": "5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-82.544, 36.660] },
+      "properties": {
+        "id": "mount_rogers",
+        "name": "Mount Rogers",
+        "category": "mountains",
+        "subcategory": "peak",
+        "description": "Highest point in Virginia, surrounded by wild ponies.",
+        "best_time": "Spring–Fall",
+        "duration": "3–6 hours",
+        "scenic": "5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-82.283, 36.100] },
+      "properties": {
+        "id": "roan_mountain",
+        "name": "Roan Mountain / Hump Mountain",
+        "category": "mountains",
+        "subcategory": "bald",
+        "description": "Famous Appalachian balds with sweeping views.",
+        "best_time": "Spring–Fall",
+        "duration": "3–6 hours",
+        "scenic": "5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-82.300, 36.600] },
+      "properties": {
+        "id": "breaks_interstate_park",
+        "name": "Breaks Interstate Park",
+        "category": "landforms",
+        "subcategory": "gorge",
+        "description": "The deepest gorge east of the Mississippi.",
+        "best_time": "Spring–Fall",
+        "duration": "2–5 hours",
+        "scenic": "5"
+      }
+    },
+    {
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-83.492045, 35.1835831] },
+  "properties": {
+    "id": "nantahala_nf",
+    "name": "Nantahala National Forest",
+    "category": "nature",
+    "subcategory": "forest",
+    "description": "Vast forest with deep river gorges, scenic drives, and popular recreation areas.",
+    "best_time": "Year-round",
+    "duration": "2–6 hours",
+    "scenic": "4",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-84.2181014, 35.2832221] },
+  "properties": {
+    "id": "cherokee_nf",
+    "name": "Cherokee National Forest",
+    "category": "nature",
+    "subcategory": "forest",
+    "description": "Large mountain forest along the TN–NC border with overlooks and hiking.",
+    "best_time": "Year-round",
+    "duration": "2–6 hours",
+    "scenic": "4",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-83.8399006, 34.7260523] },
+  "properties": {
+    "id": "chattahoochee_nf",
+    "name": "Chattahoochee National Forest",
+    "category": "nature",
+    "subcategory": "forest",
+    "description": "North Georgia mountains with waterfalls, scenic roads, and hiking trails.",
+    "best_time": "Year-round",
+    "duration": "2–6 hours",
+    "scenic": "4",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-82.9125, 35.08333] },
+  "properties": {
+    "id": "gorges_sp",
+    "name": "Gorges State Park",
+    "category": "nature",
+    "subcategory": "park",
+    "description": "Rugged terrain with waterfalls, steep gorges, and dense forest.",
+    "best_time": "Spring–Fall",
+    "duration": "2–5 hours",
+    "scenic": "5",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-83.10265, 34.86759] },
+  "properties": {
+    "id": "oconee_sp",
+    "name": "Oconee State Park",
+    "category": "nature",
+    "subcategory": "park",
+    "description": "Classic South Carolina mountain park with lakes, cabins, and trails.",
+    "best_time": "Year-round",
+    "duration": "2–4 hours",
+    "scenic": "4",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-83.9318466, 35.3574982] },
+  "properties": {
+    "id": "joyce_kilmer",
+    "name": "Joyce Kilmer Memorial Forest",
+    "category": "nature",
+    "subcategory": "forest",
+    "description": "Old-growth forest with massive trees and quiet wilderness trails.",
+    "best_time": "Spring–Fall",
+    "duration": "2–4 hours",
+    "scenic": "4",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-83.0982, 34.99925] },
+  "properties": {
+    "id": "ellicott_rock",
+    "name": "Ellicott Rock Wilderness",
+    "category": "nature",
+    "subcategory": "wilderness",
+    "description": "Remote tri-state wilderness with rugged terrain and deep forest.",
+    "best_time": "Spring–Fall",
+    "duration": "3–6 hours",
+    "scenic": "4",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-82.2616865, 35.4512241] },
+  "properties": {
+    "id": "chimney_rock",
+    "name": "Chimney Rock",
+    "category": "landforms",
+    "subcategory": "rock",
+    "description": "Iconic rock tower with sweeping views over Hickory Nut Gorge.",
+    "best_time": "Spring–Fall",
+    "duration": "2–4 hours",
+    "scenic": "5",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-82.7934611, 35.3037213] },
+  "properties": {
+    "id": "looking_glass_rock",
+    "name": "Looking Glass Rock",
+    "category": "landforms",
+    "subcategory": "rock",
+    "description": "Massive granite dome rising above Pisgah National Forest.",
+    "best_time": "Spring–Fall",
+    "duration": "3–6 hours",
+    "scenic": "5",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-81.834313, 36.0953684] },
+  "properties": {
+    "id": "grandfather_mountain",
+    "name": "Grandfather Mountain",
+    "category": "landforms",
+    "subcategory": "mountain",
+    "description": "Famous peak with mile-high swinging bridge and dramatic cliffs.",
+    "best_time": "Spring–Fall",
+    "duration": "2–5 hours",
+    "scenic": "5",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-83.498379, 35.5628637] },
+  "properties": {
+    "id": "clingmans_dome",
+    "name": "Clingmans Dome",
+    "category": "mountains",
+    "subcategory": "peak",
+    "description": "Highest point in Great Smoky Mountains National Park.",
+    "best_time": "May–October",
+    "duration": "1–2 hours",
+    "scenic": "5",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-82.8744813, 35.3278465] },
+  "properties": {
+    "id": "black_balsam_knob",
+    "name": "Black Balsam Knob",
+    "category": "mountains",
+    "subcategory": "bald",
+    "description": "High Appalachian bald with panoramic views along the Art Loeb Trail.",
+    "best_time": "Spring–Fall",
+    "duration": "2–4 hours",
+    "scenic": "5",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-82.8623536, 35.3681623] },
+  "properties": {
+    "id": "shining_rock",
+    "name": "Shining Rock",
+    "category": "mountains",
+    "subcategory": "peak",
+    "description": "Quartz-topped summit in Shining Rock Wilderness.",
+    "best_time": "Spring–Fall",
+    "duration": "3–6 hours",
+    "scenic": "5",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-82.7732039, 35.5761886] },
+  "properties": {
+    "id": "newfound_gap",
+    "name": "Newfound Gap",
+    "category": "scenic",
+    "subcategory": "viewpoint",
+    "description": "Major overlook on the TN–NC border with sweeping mountain views.",
+    "best_time": "Year-round",
+    "duration": "1 hour",
+    "scenic": "5",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-81.8130255, 36.0933239] },
+  "properties": {
+    "id": "brp_overlook",
+    "name": "Blue Ridge Parkway Overlook",
+    "category": "scenic",
+    "subcategory": "viewpoint",
+    "description": "Classic Parkway overlook with long-range mountain views.",
+    "best_time": "Spring–Fall",
+    "duration": "1 hour",
+    "scenic": "5",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-83.1399487, 35.4621828] },
+  "properties": {
+    "id": "waterrock_knob_overlook",
+    "name": "Waterrock Knob Overlook",
+    "category": "scenic",
+    "subcategory": "viewpoint",
+    "description": "High-elevation overlook with views of multiple mountain ranges.",
+    "best_time": "Spring–Fall",
+    "duration": "1 hour",
+    "scenic": "5",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-83.61145, 36.625] },
+  "properties": {
+    "id": "cumberland_gap",
+    "name": "Cumberland Gap National Historical Park",
+    "category": "historic",
+    "subcategory": "park",
+    "description": "Historic mountain pass with overlooks and pioneer history.",
+    "best_time": "Year-round",
+    "duration": "2–4 hours",
+    "scenic": "4",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-83.3048899, 35.5129971] },
+  "properties": {
+    "id": "oconaluftee_farm",
+    "name": "Oconaluftee Mountain Farm Museum",
+    "category": "historic",
+    "subcategory": "village",
+    "description": "Historic Appalachian farmstead with preserved buildings.",
+    "best_time": "Year-round",
+    "duration": "1–2 hours",
+    "scenic": "3",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-83.3082, 35.5170] },
+  "properties": {
+    "id": "gsmnp_nc",
+    "name": "Great Smoky Mountains National Park (NC Entrance)",
+    "category": "protected",
+    "subcategory": "national_park",
+    "description": "Eastern entrance to GSMNP with access to historic and scenic areas.",
+    "best_time": "Year-round",
+    "duration": "2–6 hours",
+    "scenic": "5",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-83.5931, 35.3353] },
+  "properties": {
+    "id": "nantahala_river",
+    "name": "Nantahala River",
+    "category": "recreation",
+    "subcategory": "rafting",
+    "description": "Popular whitewater rafting river with scenic gorge walls.",
+    "best_time": "May–September",
+    "duration": "2–4 hours",
+    "scenic": "4",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-82.594306, 35.197022] },
+  "properties": {
+    "id": "dupont_sf",
+    "name": "DuPont State Forest",
+    "category": "recreation",
+    "subcategory": "forest",
+    "description": "Large forest with waterfalls, trails, and scenic viewpoints.",
+    "best_time": "Spring–Fall",
+    "duration": "2–6 hours",
+    "scenic": "5",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-82.965830, 35.090687] },
+  "properties": {
+    "id": "rainbow_falls",
+    "name": "Rainbow Falls",
+    "category": "water",
+    "subcategory": "waterfall",
+    "description": "Large waterfall in Gorges State Park with powerful flow.",
+    "best_time": "Year-round",
+    "duration": "2–4 hours",
+    "scenic": "5",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-82.9563, 35.1133] },
+  "properties": {
+    "id": "turtleback_falls",
+    "name": "Turtleback Falls",
+    "category": "water",
+    "subcategory": "waterfall",
+    "description": "Sliding waterfall above Rainbow Falls.",
+    "best_time": "Year-round",
+    "duration": "2–4 hours",
+    "scenic": "4",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-82.61694, 35.19833] },
+  "properties": {
+    "id": "triple_falls",
+    "name": "Triple Falls",
+    "category": "water",
+    "subcategory": "waterfall",
+    "description": "Three-tier waterfall featured in multiple films.",
+    "best_time": "Year-round",
+    "duration": "1–3 hours",
+    "scenic": "5",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-82.3615, 35.0940] },
+  "properties": {
+    "id": "bridal_veil_falls",
+    "name": "Bridal Veil Falls",
+    "category": "water",
+    "subcategory": "waterfall",
+    "description": "Roadside waterfall with a unique curtain-like flow.",
+    "best_time": "Year-round",
+    "duration": "30–60 minutes",
+    "scenic": "4",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-82.7692, 35.2963] },
+  "properties": {
+    "id": "looking_glass_falls",
+    "name": "Looking Glass Falls",
+    "category": "water",
+    "subcategory": "waterfall",
+    "description": "Iconic roadside waterfall in Pisgah National Forest.",
+    "best_time": "Year-round",
+    "duration": "30–60 minutes",
+    "scenic": "5",
+    "image": ""
+  }
+}
+  ]
+}

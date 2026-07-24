@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import mapboxgl from "mapbox-gl";
-import { loadIcon } from "../../services/iconService"; 
+//import { loadIcon } from "../../services/iconService"; 
 import type { FeatureCollection, Point } from "geojson";
 
 export function useSearchLayer(
@@ -47,9 +47,6 @@ export function useSearchLayer(
 
     async function setup() {
       if (!map) return;
-
-      // Load icon for search category
-      await loadIcon(map, "search");
 
       // Add or update source
       if (!map.getSource(sourceId)) {

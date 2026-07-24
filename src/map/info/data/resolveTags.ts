@@ -10,56 +10,68 @@ export function resolveTags(feature: Feature): Feature {
   let subcategory: string | null = null;
 
   // -------------------------
-  // NATURE (OSM)
-  // -------------------------
-  if (tags.natural) {
-  category = "nature";
-
-  if (tags.natural === "water") subcategory = "water";
-  if (tags.natural === "wood") subcategory = "forests";
-  if (tags.natural === "peak") subcategory = "mountain-peaks";
-  if (tags.natural === "beach") subcategory = "beaches";
-  if (tags.natural === "cave_entrance") subcategory = "caves";
-}
-
-  // -------------------------
-  // TOURISM (OSM)
-  // -------------------------
-  if (tags.tourism) {
-  category = "attractions";
-
-  if (tags.tourism === "viewpoint") subcategory = "viewpoints";
-  if (tags.tourism === "museum") subcategory = "museums";
-  if (tags.tourism === "gallery") subcategory = "galleries";
-  if (tags.tourism === "attraction") subcategory = "attractions";
-}
-
-  // -------------------------
-  // LEISURE (OSM)
-  // -------------------------
-  if (tags.leisure) {
-  category = "nature";
-
-  if (tags.leisure === "park") subcategory = "urban-parks";
-  if (tags.leisure === "nature_reserve") subcategory = "nature-reserves";
-  if (tags.leisure === "playground") subcategory = "urban-parks";
-}
-
-  // -------------------------
-  // GEOAPIFY
+  // GEOAPIFY (food + transport)
   // -------------------------
   if (feature.properties.source === "geoapify") {
-    category = feature.properties.category || category;
-    subcategory = feature.properties.subcategory || subcategory;
+    category = feature.properties.category || "unknown";
+    subcategory = feature.properties.subcategory || null;
+
+    feature.properties.category = category;
+    feature.properties.subcategory = subcategory;
+    return feature;
   }
 
   // -------------------------
-  // NPS (National Parks)
+  // NPS (parks + trails + alerts + events + visitor centers)
   // -------------------------
   if (feature.properties.source === "nps") {
-  category = "nature";
-  subcategory = "national-parks";
-}
+    const npsCategory = feature.properties.category;
+
+    // --- Trails ---
+    if (npsCategory === "trails") {
+      category = "nature";
+      subcategory = "trails";
+    }
+
+    // --- Protected Areas (NPS parks) ---
+    const npsParks = [
+      "national_park",
+      "national_monument",
+      "national_preserve",
+      "national_historic_site",
+      "national_recreation_area",
+      "national_seashore",
+      "national_river",
+      "national_lakeshore"
+    ];
+
+    if (npsParks.includes(npsCategory)) {
+      category = "nature";
+      subcategory = npsCategory;
+    }
+
+    // --- Visitor Centers ---
+    if (npsCategory === "visitor_center") {
+      category = "nature";
+      subcategory = "visitor-centers";
+    }
+
+    // --- Events ---
+    if (npsCategory === "event") {
+      category = "nature";
+      subcategory = "events";
+    }
+
+    // --- Alerts ---
+    if (npsCategory === "alert") {
+      category = "nature";
+      subcategory = "alerts";
+    }
+
+    feature.properties.category = category;
+    feature.properties.subcategory = subcategory;
+    return feature;
+  }
 
   // -------------------------
   // WEATHER
@@ -67,10 +79,38 @@ export function resolveTags(feature: Feature): Feature {
   if (feature.properties.source === "weather") {
     category = "weather";
     subcategory = null;
+
+    if (tags.weather_alert === true) {
+      category = "weather-alerts";
+    }
+
+    feature.properties.category = category;
+    feature.properties.subcategory = subcategory;
+    return feature;
   }
 
+  // -------------------------
+  // CURATED (viewpoints, waterfalls, arches, etc.)
+  // -------------------------
+  if (feature.properties.source === "curated") {
+    category = feature.properties.category || "unknown";
+    subcategory = feature.properties.subcategory || null;
+
+    // Remove old mountain/mountain-peaks if they appear
+    if (subcategory === "mountain" || subcategory === "mountain-peaks") {
+      category = "unknown";
+      subcategory = null;
+    }
+
+    feature.properties.category = category;
+    feature.properties.subcategory = subcategory;
+    return feature;
+  }
+
+  // -------------------------
+  // DEFAULT
+  // -------------------------
   feature.properties.category = category;
   feature.properties.subcategory = subcategory;
-
   return feature;
 }

@@ -28,12 +28,12 @@ import { useInfoMapUI } from "../map/info/state/useInfoMapUI";
 import { useCategoryState } from "../map/info/state/useCategoryState";
 
 function InfoMapShell() {
-  
-const places = usePlacesStore((s) => s.places);
-const selectedItemId = useInfoMapUI((s) => s.selectedItemId);
-const setSelectedItem = useInfoMapUI((s) => s.setSelectedItem);
-const activeCategories = useCategoryState((s) => s.activeCategories);
-const { loadPlacesForItem } = useInfoMapData();
+
+  const places = usePlacesStore((s) => s.places);
+  const selectedItemId = useInfoMapUI((s) => s.selectedItemId);
+  const setSelectedItem = useInfoMapUI((s) => s.setSelectedItem);
+  const activeCategories = useCategoryState((s) => s.activeCategories);
+  const { loadPlacesForItem } = useInfoMapData();
 
   const mapContainer = useRef<HTMLDivElement | null>(null);
   const mapRef = useRef<mapboxgl.Map | null>(null);
@@ -58,9 +58,9 @@ const { loadPlacesForItem } = useInfoMapData();
     places.find((f) => f.properties?.id === selectedItemId) || null;
 
   function selectPlace(feature: any | null) {
-  const id = feature?.properties?.id ?? null;
-  setSelectedItem(id);
-}
+    const id = feature?.properties?.id ?? null;
+    setSelectedItem(id);
+  }
 
 
   // -------------------------------------------------------
@@ -292,8 +292,8 @@ const { loadPlacesForItem } = useInfoMapData();
         </div>
       )}
 
-      <button className="map-fab" onClick={handleLocateMe}>
-        <img src="/icons/location.svg" alt="Locate me" />
+      <button className="map-fab locate-me-btn" onClick={handleLocateMe}>
+        <span className="locate-me-inner"></span>
       </button>
     </div>
   );

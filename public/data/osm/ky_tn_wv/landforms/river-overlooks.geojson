@@ -1,0 +1,109 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-84.5730, 36.8470] },
+      "properties": {
+        "name": "Angel Falls Overlook",
+        "category": "river-overlooks",
+        "source": "curated",
+        "description": "A cliffside overlook above the Big South Fork River with dramatic views.",
+        "best_time": "Morning",
+        "duration": "1–2 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-84.7210, 36.0100] },
+      "properties": {
+        "name": "Obed River Overlook",
+        "category": "river-overlooks",
+        "source": "curated",
+        "description": "A high overlook above the Obed River’s sandstone gorge.",
+        "best_time": "Afternoon",
+        "duration": "45–90 minutes",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.5730, 37.8350] },
+      "properties": {
+        "name": "Red River Overlook",
+        "category": "river-overlooks",
+        "source": "curated",
+        "description": "A quiet overlook above the Red River deep inside the gorge.",
+        "best_time": "Morning",
+        "duration": "1–2 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-81.0750, 38.0700] },
+      "properties": {
+        "name": "Diamond Point",
+        "category": "river-overlooks",
+        "source": "curated",
+        "description": "A narrow overlook with sweeping views of the New River Gorge cliffs.",
+        "best_time": "Afternoon",
+        "duration": "1–2 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-80.2410, 38.2170] },
+      "properties": {
+        "name": "Long Point",
+        "category": "river-overlooks",
+        "source": "curated",
+        "description": "Iconic overlook of the New River Gorge Bridge from a narrow rock point.",
+        "best_time": "Sunset",
+        "duration": "1–2 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-81.0900, 38.0780] },
+      "properties": {
+        "name": "Beauty Mountain Overlook",
+        "category": "river-overlooks",
+        "source": "curated",
+        "description": "A cliffside overlook with wide views over the New River Gorge.",
+        "best_time": "Sunset",
+        "duration": "45–90 minutes",
+        "image": ""
+      }
+    },
+    {
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-84.706, 36.496] },
+  "properties": {
+    "name": "Leatherwood Ford Overlook",
+    "category": "river-overlooks",
+    "source": "curated",
+    "description": "A sweeping overlook above the Big South Fork River with dramatic views of the gorge.",
+    "best_time": "Morning",
+    "duration": "45–90 minutes",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-81.010, 37.831] },
+  "properties": {
+    "name": "Grandview Overlook",
+    "category": "river-overlooks",
+    "source": "curated",
+    "description": "A world‑class overlook with a sweeping view of the New River’s horseshoe bend.",
+    "best_time": "Sunset",
+    "duration": "45–90 minutes",
+    "image": ""
+  }
+}
+  ]
+}

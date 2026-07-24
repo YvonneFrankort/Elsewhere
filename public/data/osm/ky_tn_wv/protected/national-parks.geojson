@@ -1,0 +1,195 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.1457741, 37.1840779] },
+      "properties": {
+        "id": "mammoth_cave_np",
+        "name": "Mammoth Cave National Park",
+        "category": "national-parks",
+        "source": "curated",
+        "type": "National Park",
+        "start_date": "1941",
+        "fee": "Free for surface trails; cave tours $8–$30",
+        "duration": "1–3 hours",
+        "best_time": "April–October",
+        "description": "The world’s longest cave system with easy hiking trails, scenic overlooks, and guided cave tours.",
+        "website": "https://www.nps.gov/maca/",
+        "image": {
+          "name": "Cave Entrance",
+          "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXb0714GTJfOEzSyg6pgxdq2yiyq0xE2RGNKoezqYa1A&s=10"
+        }
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.6062152, 36.6186928] },
+      "properties": {
+        "id": "cumberland_gap_nhp",
+        "name": "Cumberland Gap National Historical Park",
+        "category": "national-parks",
+        "source": "curated",
+        "type": "National Historical Park",
+        "start_date": "1940",
+        "fee": "Free",
+        "duration": "1–3 hours",
+        "best_time": "Spring and fall",
+        "description": "A historic mountain pass with short hikes, scenic overlooks, and access to Sand Cave and Gap Cave.",
+        "website": "https://www.nps.gov/cuga",
+        "image": {
+          "name": "White Rock",
+          "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnY4w6_bjJ0rGD5uwvE_bxR1NuykMAbIQSsqBCg4DctQ&s=10"
+        }
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.5059667, 35.6341466] },
+      "properties": {
+        "id": "great_smoky_np",
+        "name": "Great Smoky Mountains National Park",
+        "category": "national-parks",
+        "source": "curated",
+        "type": "National Park",
+        "fee": "no",
+        "best_time": "Spring–Fall",
+        "website": "https://www.nps.gov/grsm",
+        "description": "America’s most visited national park, spanning the Tennessee–North Carolina border with rich biodiversity, historic structures, and extensive hiking trails."
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-81.0063433, 37.8966302] },
+      "properties": {
+        "id": "new_river_gorge_np",
+        "name": "New River Gorge National Park and Preserve",
+        "category": "national-parks",
+        "source": "curated",
+        "type": "National Park",
+        "fee": "no",
+        "best_time": "Spring–Fall",
+        "website": "https://www.nps.gov/neri/",
+        "description": "West Virginia’s flagship national park, known for its dramatic gorge, world-class climbing, and the iconic New River Gorge Bridge."
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-77.9158987, 39.3011178] },
+      "properties": {
+        "id": "co_canal_nhp",
+        "name": "Chesapeake and Ohio Canal National Historical Park",
+        "category": "national-parks",
+        "source": "curated",
+        "type": "National Historical Park",
+        "fee": "no",
+        "best_time": "Spring–Fall",
+        "website": "https://www.nps.gov/choh/",
+        "description": "A linear national historical park preserving the historic C&O Canal; includes the Harpers Ferry area touching West Virginia."
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-77.732, 39.325] },
+      "properties": {
+        "id": "harpers_ferry_nhp",
+        "name": "Harpers Ferry National Historical Park",
+        "category": "national-parks",
+        "source": "curated",
+        "type": "National Historical Park",
+        "start_date": "1944",
+        "fee": "$20 per vehicle",
+        "duration": "2–4 hours",
+        "best_time": "Spring–Fall",
+        "description": "A historic town at the confluence of the Potomac and Shenandoah Rivers, known for Civil War history, scenic overlooks, and Appalachian Trail access.",
+        "website": "https://www.nps.gov/hafe",
+        "image": {
+          "name": "Harpers Ferry",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Harpers_Ferry_town.jpg"
+        }
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-81.0708144, 36.6644872] },
+      "properties": {
+        "id": "blue_ridge_pkwy",
+        "name": "Blue Ridge Parkway",
+        "category": "national-parks",
+        "source": "curated",
+        "type": "National Parkway",
+        "fee": "no",
+        "best_time": "Spring–Fall",
+        "website": "https://www.nps.gov/blri",
+        "description": "A scenic NPS-managed parkway connecting Shenandoah and Great Smoky Mountains National Parks with sweeping mountain overlooks."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-87.3044479, 36.5565965] },
+      "properties": {
+        "id": "dunbar_cave_sp",
+        "name": "Dunbar Cave State Park",
+        "category": "nature-reserves",
+        "source": "curated",
+        "type": "State Park",
+        "start_date": "1973",
+        "fee": "Free for hiking; cave tours $10–$18",
+        "duration": "1–2 hours",
+        "best_time": "May–September",
+        "description": "A small cave with guided tours and short forest trails, located near Clarksville.",
+        "website": "https://tnstateparks.com/parks/dunbar-cave",
+        "image": {
+          "name": "",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Dunbar_Cave.jpg/500px-Dunbar_Cave.jpg"
+        }
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.154374, 38.7099018] },
+      "properties": {
+        "id": "shawnee_sp",
+        "name": "Shawnee State Park",
+        "category": "nature-reserves",
+        "source": "curated",
+        "type": "State Park",
+        "start_date": "1922",
+        "fee": "Free",
+        "duration": "1–3 hours",
+        "best_time": "Spring–Fall",
+        "description": "Forested hills, lake views, and short trails suitable for easy day hikes.",
+        "website": "https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/shawnee-state-park",
+        "image": { "name": "", "url": "" }
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-89.3810014, 36.4241979] },
+      "properties": {
+        "id": "reelfoot_lake_sp",
+        "name": "Reelfoot Lake State Park",
+        "category": "nature-reserves",
+        "source": "curated",
+        "type": "State Park",
+        "start_date": "1974",
+        "fee": "Free",
+        "duration": "1–2 hours",
+        "best_time": "Fall and winter",
+        "description": "A unique lake formed by earthquakes, offering boardwalks, wildlife viewing, and short nature trails.",
+        "website": "https://tnstateparks.com/parks/reelfoot-lake",
+        "image": { "name": "", "url": "" }
+      }
+    }
+
+  ]
+}

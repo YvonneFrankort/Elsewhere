@@ -1,0 +1,291 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.7085, 37.7829] },
+      "properties": {
+        "name": "Natural Bridge Trailhead",
+        "category": "trailheads",
+        "source": "curated",
+        "description": "Main access point for Natural Bridge and surrounding ridge trails.",
+        "best_time": "Morning",
+        "duration": "1–3 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.6840, 37.8230] },
+      "properties": {
+        "name": "Auxier Ridge Trailhead",
+        "category": "trailheads",
+        "source": "curated",
+        "description": "Popular trailhead for Auxier Ridge, Courthouse Rock, and Double Arch.",
+        "best_time": "Morning",
+        "duration": "2–4 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-84.5730, 36.8470] },
+      "properties": {
+        "name": "Bandy Creek Trailhead",
+        "category": "trailheads",
+        "source": "curated",
+        "description": "Access to Big South Fork’s ridge and river trails.",
+        "best_time": "Morning",
+        "duration": "1–5 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-85.3021, 35.7434] },
+      "properties": {
+        "name": "Savage Gulf Trailhead",
+        "category": "trailheads",
+        "source": "curated",
+        "description": "Entry to Savage Gulf’s deep canyons and waterfall trails.",
+        "best_time": "Spring",
+        "duration": "2–6 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-85.1920, 35.4410] },
+      "properties": {
+        "name": "Fiery Gizzard Trailhead",
+        "category": "trailheads",
+        "source": "curated",
+        "description": "Start of the Fiery Gizzard gorge trail with waterfalls and rock formations.",
+        "best_time": "Morning",
+        "duration": "2–5 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-81.0750, 38.0700] },
+      "properties": {
+        "name": "Endless Wall Trailhead",
+        "category": "trailheads",
+        "source": "curated",
+        "description": "Access to New River Gorge’s cliffside overlook trail.",
+        "best_time": "Morning",
+        "duration": "1–3 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-80.2410, 38.2170] },
+      "properties": {
+        "name": "Long Point Trailhead",
+        "category": "trailheads",
+        "source": "curated",
+        "description": "Trailhead for the iconic Long Point overlook above New River Gorge Bridge.",
+        "best_time": "Afternoon",
+        "duration": "1–2 hours",
+        "image": ""
+      }
+    },
+    {
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-83.6739, 37.8237] },
+  "properties": {
+    "id": "grays_arch_trailhead",
+    "name": "Gray's Arch Trailhead",
+    "category": "trailheads",
+    "source": "curated",
+    "description": "Access to Gray’s Arch, Rush Ridge, and the Rough Trail loop.",
+    "best_time": "Morning",
+    "duration": "2–4 hours",
+    "website": "",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-83.6364, 37.8341] },
+  "properties": {
+    "id": "sky_bridge_trailhead",
+    "name": "Sky Bridge Trailhead",
+    "category": "trailheads",
+    "source": "curated",
+    "description": "Short loop trail to Sky Bridge arch and scenic cliff overlooks.",
+    "best_time": "Afternoon",
+    "duration": "45–90 minutes",
+    "website": "",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-83.7080, 37.7910] },
+  "properties": {
+    "id": "whittleton_trailhead",
+    "name": "Whittleton Trailhead",
+    "category": "trailheads",
+    "source": "curated",
+    "description": "Forest trail connecting Natural Bridge to Whittleton Arch.",
+    "best_time": "Morning",
+    "duration": "1–3 hours",
+    "website": "",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-83.6455, 37.8440] },
+  "properties": {
+    "id": "bison_way_trailhead",
+    "name": "Bison Way Trailhead",
+    "category": "trailheads",
+    "source": "curated",
+    "description": "Access to Indian Staircase, Adena Arch, and Sheltowee Trace.",
+    "best_time": "Morning",
+    "duration": "2–4 hours",
+    "website": "",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-85.3569, 35.6645] },
+  "properties": {
+    "id": "fall_creek_falls_trailhead",
+    "name": "Fall Creek Falls Gorge Trailhead",
+    "category": "trailheads",
+    "source": "curated",
+    "description": "Access to the gorge trail and overlooks at Tennessee’s largest state park.",
+    "best_time": "Morning",
+    "duration": "1–3 hours",
+    "website": "",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-85.2573, 35.8609] },
+  "properties": {
+    "id": "virgin_falls_trailhead",
+    "name": "Virgin Falls Trailhead",
+    "category": "trailheads",
+    "source": "curated",
+    "description": "Start of the rugged trail to Virgin Falls and Sheep Cave.",
+    "best_time": "Spring",
+    "duration": "4–7 hours",
+    "website": "",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-85.0302, 35.2017] },
+  "properties": {
+    "id": "walls_of_jericho_trailhead",
+    "name": "Walls of Jericho Trailhead",
+    "category": "trailheads",
+    "source": "curated",
+    "description": "Trailhead for the long hike into the amphitheater-like gorge.",
+    "best_time": "Morning",
+    "duration": "4–6 hours",
+    "website": "",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-85.6303, 35.8093] },
+  "properties": {
+    "id": "rock_island_trailhead",
+    "name": "Rock Island Gorge Trailhead",
+    "category": "trailheads",
+    "source": "curated",
+    "description": "Access to the gorge trails and waterfalls at Rock Island State Park.",
+    "best_time": "Spring",
+    "duration": "1–2 hours",
+    "website": "",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-84.7210, 36.0100] },
+  "properties": {
+    "id": "frozen_head_tower_trailhead",
+    "name": "Frozen Head Tower Trailhead",
+    "category": "trailheads",
+    "source": "curated",
+    "description": "Trailhead for the climb to Frozen Head’s summit tower.",
+    "best_time": "Morning",
+    "duration": "2–4 hours",
+    "website": "",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-81.0900, 38.0500] },
+  "properties": {
+    "id": "kaymoor_trailhead",
+    "name": "Kaymoor Miners Trailhead",
+    "category": "trailheads",
+    "source": "curated",
+    "description": "Steep trail to historic mining ruins in New River Gorge.",
+    "best_time": "Morning",
+    "duration": "1–3 hours",
+    "website": "",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-79.8060, 39.6720] },
+  "properties": {
+    "id": "castle_rock_trailhead",
+    "name": "Castle Rock Trailhead",
+    "category": "trailheads",
+    "source": "curated",
+    "description": "Access to rock formations and overlooks at Coopers Rock State Forest.",
+    "best_time": "Afternoon",
+    "duration": "1–2 hours",
+    "website": "",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-79.4961, 39.1309] },
+  "properties": {
+    "id": "lindy_point_trailhead",
+    "name": "Lindy Point Trailhead",
+    "category": "trailheads",
+    "source": "curated",
+    "description": "Short trail to one of West Virginia’s most iconic canyon overlooks.",
+    "best_time": "Sunset",
+    "duration": "45–90 minutes",
+    "website": "",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-79.3810, 38.8330] },
+  "properties": {
+    "id": "seneca_rocks_trailhead",
+    "name": "Seneca Rocks Trailhead",
+    "category": "trailheads",
+    "source": "curated",
+    "description": "Trailhead for the steep climb to Seneca Rocks overlook.",
+    "best_time": "Morning",
+    "duration": "1–2 hours",
+    "website": "",
+    "image": ""
+  }
+}
+  ]
+}

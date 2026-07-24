@@ -1,0 +1,200 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.498, 37.476] },
+      "properties": {
+        "name": "Pilot Knob",
+        "category": "peaks",
+        "source": "curated",
+        "description": "A historic Kentucky peak with sweeping views over the Bluegrass region.",
+        "best_time": "Morning",
+        "duration": "45–90 minutes",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.703, 37.820] },
+      "properties": {
+        "name": "Indian Staircase Peak",
+        "category": "peaks",
+        "source": "curated",
+        "description": "A ridge summit above the Indian Staircase loop in Red River Gorge.",
+        "best_time": "Afternoon",
+        "duration": "1–2 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.573, 37.835] },
+      "properties": {
+        "name": "Cloudsplitter",
+        "category": "peaks",
+        "source": "curated",
+        "description": "A dramatic sandstone peak with panoramic gorge views.",
+        "best_time": "Sunset",
+        "duration": "2–3 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.425, 36.600] },
+      "properties": {
+        "name": "Cumberland Mountain High Point",
+        "category": "peaks",
+        "source": "curated",
+        "description": "A ridge summit along the Cumberland Mountain chain near the KY–TN border.",
+        "best_time": "Morning",
+        "duration": "1–3 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.498, 35.654] },
+      "properties": {
+        "name": "Mount LeConte",
+        "category": "peaks",
+        "source": "curated",
+        "description": "One of Tennessee’s most famous peaks with multiple summit overlooks.",
+        "best_time": "Morning",
+        "duration": "4–7 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.498, 35.611] },
+      "properties": {
+        "name": "Clingmans Dome",
+        "category": "peaks",
+        "source": "curated",
+        "description": "The highest point in Tennessee and the Smokies, with a summit tower.",
+        "best_time": "Morning",
+        "duration": "45–90 minutes",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.281, 35.701] },
+      "properties": {
+        "name": "Mount Cammerer",
+        "category": "peaks",
+        "source": "curated",
+        "description": "A rocky summit with a historic fire tower and sweeping Smokies views.",
+        "best_time": "Afternoon",
+        "duration": "4–6 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-79.532, 38.702] },
+      "properties": {
+        "name": "Spruce Knob",
+        "category": "peaks",
+        "source": "curated",
+        "description": "The highest point in West Virginia with alpine-like spruce forests.",
+        "best_time": "Morning",
+        "duration": "1–2 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-79.374, 38.985] },
+      "properties": {
+        "name": "North Fork Mountain Summit",
+        "category": "peaks",
+        "source": "curated",
+        "description": "A long ridge summit with dramatic views over the Potomac Highlands.",
+        "best_time": "Afternoon",
+        "duration": "2–4 hours",
+        "image": ""
+      }
+    },
+    {
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-82.889, 36.915] },
+  "properties": {
+    "name": "Black Mountain",
+    "category": "peaks",
+    "source": "curated",
+    "description": "The highest point in Kentucky, with rugged forested slopes and a summit overlook.",
+    "best_time": "Morning",
+    "duration": "1–2 hours",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-83.247, 35.635] },
+  "properties": {
+    "name": "Charlies Bunion",
+    "category": "peaks",
+    "source": "curated",
+    "description": "A dramatic rocky summit on the Appalachian Trail with sweeping Smokies views.",
+    "best_time": "Morning",
+    "duration": "3–5 hours",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-83.128, 35.680] },
+  "properties": {
+    "name": "Mount Sterling",
+    "category": "peaks",
+    "source": "curated",
+    "description": "A high Smokies summit with a historic fire tower and panoramic views.",
+    "best_time": "Afternoon",
+    "duration": "4–6 hours",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-83.598, 35.610] },
+  "properties": {
+    "name": "Rocky Top",
+    "category": "peaks",
+    "source": "curated",
+    "description": "A famous Smokies summit with open views and Appalachian Trail access.",
+    "best_time": "Morning",
+    "duration": "4–7 hours",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-79.365, 39.064] },
+  "properties": {
+    "name": "Dolly Sods High Point",
+    "category": "peaks",
+    "source": "curated",
+    "description": "A high plateau summit with unique tundra-like terrain and sweeping views.",
+    "best_time": "Morning",
+    "duration": "1–3 hours",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-79.355, 38.990] },
+  "properties": {
+    "name": "Roaring Plains High Point",
+    "category": "peaks",
+    "source": "curated",
+    "description": "One of WV’s highest summits with rugged terrain and expansive views.",
+    "best_time": "Afternoon",
+    "duration": "2–4 hours",
+    "image": ""
+  }
+}
+  ]
+}

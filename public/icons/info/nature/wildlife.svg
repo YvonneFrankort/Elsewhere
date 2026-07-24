@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 64 64">
+
+  <!-- Pin -->
+  <path
+    fill="#1E7A1E"
+    d="M32 2C20.4 2 11 11.4 11 23c0 15.4 21 39 21 39s21-23.6 21-39C53 11.4 43.6 2 32 2z"/>
+
+  <!-- White circle -->
+  <circle cx="32" cy="24" r="14" fill="#FFFFFF"/>
+
+    <!-- Paw -->
+  <circle cx="27.5" cy="22.2" r="2.4" fill="#1E7A1E"/>
+  <circle cx="32" cy="20.8" r="2.4" fill="#1E7A1E"/>
+  <circle cx="36.5" cy="22.2" r="2.4" fill="#1E7A1E"/>
+
+  <path
+    fill="#1E7A1E"
+    d="M26.5 30
+       C28 26.8 36 26.8 37.5 30
+       C36.5 33.6 27.5 33.6 26.5 30Z"/>
+
+</svg>

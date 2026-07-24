@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 64 64">
+
+  <!-- Pin -->
+  <path
+    fill="#7B4EA3"
+    d="M32 2C20.4 2 11 11.4 11 23c0 15.4 21 39 21 39s21-23.6 21-39C53 11.4 43.6 2 32 2z"/>
+
+  <!-- White circle -->
+  <circle cx="32" cy="24" r="14" fill="#FFFFFF"/>
+
+  <!-- Top bun -->
+  <path
+    d="M22 24
+       C22 19.5 26 17 32 17
+       C38 17 42 19.5 42 24
+       Z"
+    fill="#7B4EA3"/>
+
+  <!-- Patty -->
+  <rect
+    x="22"
+    y="25.5"
+    width="20"
+    height="3"
+    rx="1.5"
+    fill="#7B4EA3"/>
+
+  <!-- Bottom bun -->
+  <rect
+    x="22"
+    y="30"
+    width="20"
+    height="4"
+    rx="2"
+    fill="#7B4EA3"/>
+
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 64 64">
+
+  <!-- Pin -->
+  <path
+    fill="#7B4EA3"
+    d="M32 2C20.4 2 11 11.4 11 23c0 15.4 21 39 21 39s21-23.6 21-39C53 11.4 43.6 2 32 2z"/>
+
+  <!-- White Circle -->
+  <circle cx="32" cy="24" r="14" fill="#FFFFFF"/>
+
+  <!-- Mug -->
+  <rect
+    x="22"
+    y="19"
+    width="16"
+    height="12"
+    rx="3"
+    fill="#7B4EA3"/>
+
+  <!-- Handle -->
+  <path
+    d="M38 21
+       C42 21 42 29 38 29"
+    fill="none"
+    stroke="#7B4EA3"
+    stroke-width="2.8"
+    stroke-linecap="round"/>
+
+  <!-- Saucer -->
+  <rect
+    x="21"
+    y="32"
+    width="18"
+    height="2.2"
+    rx="1.1"
+    fill="#7B4EA3"/>
+
+</svg>

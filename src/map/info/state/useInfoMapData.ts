@@ -11,6 +11,8 @@ import { loadParks } from "../data/loaders/nps/parks";
 import { loadVisitorCenters } from "../data/loaders/nps/visitorCenters";
 import { loadAlerts } from "../data/loaders/nps/alerts";
 import { loadEvents } from "../data/loaders/nps/events";
+import { loadTrails } from "../data/loaders/nps/trails";
+import { loadCurated } from "../data/loaders/curated";
 
 import * as OpenMeteoLoader from "../data/loaders/openmeteo";
 
@@ -35,7 +37,6 @@ function resolveMulti(activeCategories: string[]) {
     const r = resolveCategory(id);
 
     flags.geoapify ||= r.geoapify;
-    flags.osm ||= r.osm;
     flags.nps ||= r.nps;
     flags.weather ||= r.weather;  
   }
@@ -74,11 +75,9 @@ if (resolution.geoapify || statesToLoad.length === 0) {
   promises.push(loadGeoapify(params, activeCategories));
 }
 
-// OSM (only inside supported states)
-if (resolution.osm && statesToLoad.length > 0) {
-  for (const st of statesToLoad) {
-    promises.push(OSMLoader.load(params, st, activeCategories));
-  }
+// CURATED NATURE (local GeoJSON)
+for (const st of statesToLoad) {
+  promises.push(loadCurated(params, st, activeCategories));
 }
 
     // NPS
@@ -87,6 +86,7 @@ if (resolution.osm && statesToLoad.length > 0) {
       promises.push(loadVisitorCenters(params));
       promises.push(loadAlerts(params));
       promises.push(loadEvents(params));
+      promises.push(loadTrails(params));
     }
 
     // WEATHER
@@ -104,14 +104,14 @@ if (resolution.osm && statesToLoad.length > 0) {
 
     setPlaces(merged);
 
-    const source = map.getSource("info-places") as mapboxgl.GeoJSONSource;
+  /*   const source = map.getSource("info-places") as mapboxgl.GeoJSONSource;
     if (source) {
       const geojson: FeatureCollection = {
         type: "FeatureCollection",
         features: merged
       };
       source.setData(geojson);
-    }
+    } */
 
     setLoading(false);
   }

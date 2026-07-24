@@ -1,0 +1,43 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="48"
+    height="48"
+    viewBox="0 0 64 64"
+>
+    <!-- Pin -->
+    <path
+        fill="#1E7A1E"
+        d="M32 2C20.4 2 11 11.4 11 23c0 15.4 21 39 21 39s21-23.6 21-39C53 11.4 43.6 2 32 2z"
+    />
+
+    <!-- White circle -->
+    <circle
+        cx="32"
+        cy="24"
+        r="14"
+        fill="#FFFFFF"
+    />
+
+    <!-- Waves -->
+    <path
+        d="M22 20
+           C24 18 27 18 29 20
+           S34 22 36 20
+           S41 18 43 20"
+        fill="none"
+        stroke="#1E7A1E"
+        stroke-width="2.8"
+        stroke-linecap="round"
+    />
+
+    <path
+        d="M22 27
+           C24 25 27 25 29 27
+           S34 29 36 27
+           S41 25 43 27"
+        fill="none"
+        stroke="#1E7A1E"
+        stroke-width="2.8"
+        stroke-linecap="round"
+    />
+</svg>

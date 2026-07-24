@@ -25,80 +25,104 @@ export interface PlaceCategory {
 }
 
 export const placeCategories: PlaceCategory[] = [
-  {
-    id: "nature",
-    label: "Nature & Outdoors",
-    icon: "🌲",
-    groups: [
-      {
-        id: "water",
-        label: "Water",
-        items: [
-          { id: "lakes", label: "Lakes" },
-          { id: "rivers", label: "Rivers" },
-          { id: "waterfalls", label: "Waterfalls" },
-          { id: "beaches", label: "Beaches" }
-        ]
-      },
-      {
-        id: "mountains-forests",
-        label: "Mountains & Forests",
-        items: [
-          { id: "mountains", label: "Mountains" },
-          { id: "forests", label: "Forests" },
-          { id: "canyons", label: "Canyons" },
-          { id: "desert", label: "Desert" },
-          { id: "caves", label: "Caves" },
-          { id: "islands", label: "Islands" }
-        ]
-      },
-      {
-        id: "trails",
-        label: "Trails",
-        items: [
-          { id: "hiking", label: "Hiking Trails" },
-          { id: "ski", label: "Ski Trails" },
-          { id: "trailheads", label: "Trailheads" },
-          { id: "climbing-areas", label: "Climbing Areas" }
-        ]
-      },
-      {
-        id: "wildlife",
-        label: "Wildlife",
-        items: [
-          { id: "wildlife-parks", label: "Wildlife Parks" }
-        ]
-      },
-      {
-        id: "protected",
-        label: "Protected Areas",
-        items: [
-          { id: "nature-reserves", label: "Nature Reserves" },
-          { id: "national-parks", label: "National Parks" },
-          { id: "wilderness", label: "Wilderness Areas" },
-          { id: "visitor-centers", label: "Visitor Centers" },
-          { id: "alerts", label: "Park Alerts" }, // going to planner map
-          { id: "events", label: "Park Events" } // going to planner map
-        ]
-      },
-      {
-        id: "scenic",
-        label: "Scenic",
-        items: [
-          { id: "scenic-routes", label: "Scenic Routes" },
-          { id: "mountain-peaks", label: "Mountain Peaks" },
-        ]
-      },
-      {
-        id: "road-trips", // going to planner map
-        label: "Road Trips",
-        items: [
-          { id: "road-trip-routes", label: "Road Trip Routes" }
-        ]
-      }
-    ]
-  },
+{
+  id: "nature",
+  label: "Nature & Outdoors",
+  icon: "🌲",
+  groups: [
+    {
+      id: "water",
+      label: "Water",
+      items: [
+        { id: "waterfalls", label: "Waterfalls" }
+      ]
+    },
+    {
+      id: "landforms",
+      label: "Landforms",
+      items: [
+        { id: "arches", label: "Arches" },
+        { id: "natural-bridges", label: "Natural Bridges" },
+        { id: "caves", label: "Caves" },
+        { id: "rockhouses", label: "Rockhouses" },
+        { id: "ridges", label: "Ridges" },
+        { id: "peaks", label: "Peaks" },
+        { id: "gorges", label: "Gorges" },
+        { id: "river-overlooks", label: "River Overlooks" }
+      ]
+    },
+    {
+      id: "trails",
+      label: "Trails",
+      items: [
+        { id: "trails", label: "Trails" },
+        { id: "trailheads", label: "Trailheads" }
+      ]
+    },
+    {
+      id: "scenic",
+      label: "Scenic",
+      items: [
+        { id: "viewpoints", label: "Viewpoints" },
+        { id: "scenic-roads", label: "Scenic Roads" }
+      ]
+    },
+    {
+      id: "protected",
+      label: "Protected Areas",
+      items: [
+        { id: "national-parks", label: "National Parks" },
+        { id: "state-parks", label: "State Parks" },
+        { id: "nature-preserves", label: "Nature Preserves" },
+        { id: "nature-reserves", label: "Nature Reserves" },
 
+        { id: "national_park", label: "National Parks (NPS)" },
+        { id: "national_monument", label: "National Monuments" },
+        { id: "national_preserve", label: "National Preserves" },
+        { id: "national_historic_site", label: "Historic Sites (NPS)" },
+        { id: "national_recreation_area", label: "Recreation Areas" },
+        { id: "national_seashore", label: "National Seashores" },
+        { id: "national_river", label: "National Rivers" },
+        { id: "national_lakeshore", label: "National Lakeshores" },
+
+        { id: "visitor_center", label: "Visitor Centers" },
+        { id: "alert", label: "Park Alerts" },
+        { id: "event", label: "Park Events" }
+      ]
+    }
+  ]
+},
+
+{
+  id: "historic",
+  label: "Historic & Cultural",
+  icon: "🏛️",
+  groups: [
+    {
+      id: "battlefields",
+      label: "Battlefields",
+      items: [
+        { id: "battlefields", label: "Battlefields" }
+      ]
+    },
+    {
+      id: "historic-sites",
+      label: "Historic Sites",
+      items: [
+        { id: "historic-sites", label: "Historic Sites" }
+      ]
+    },
+    {
+      id: "monuments",
+      label: "Monuments",
+      items: [
+        { id: "monuments", label: "Monuments" }
+      ]
+    }
+  ]
+},
+
+  // FOOD (Geoapify)
   {
     id: "food",
     label: "Food & Drink",
@@ -166,6 +190,7 @@ export const placeCategories: PlaceCategory[] = [
     ]
   },
 
+  // ATTRACTIONS (curated)
   {
     id: "attractions",
     label: "Attractions & Entertainment",
@@ -182,14 +207,12 @@ export const placeCategories: PlaceCategory[] = [
           { id: "botanical-gardens", label: "Botanical Gardens" },
           { id: "museums", label: "Museums" },
           { id: "galleries", label: "Galleries" },
-          { id: "urban-parks", label: "Urban Parks" },
-          { id: "scenic-drives", label: "Scenic Drives" },
-          { id: "road-trip-routes", label: "Road Trip Routes" }
+          { id: "urban-parks", label: "Urban Parks" }
         ]
       },
       {
-        id: "attractions-group",
-        label: "Attractions",
+        id: "wildlife-marine",
+        label: "Wildlife & Marine",
         items: [
           { id: "zoos", label: "Zoos" },
           { id: "aquariums", label: "Aquariums" }
@@ -219,26 +242,20 @@ export const placeCategories: PlaceCategory[] = [
     ]
   },
 
-  {
-    id: "travel",
-    label: "Travel & Transport",
-    icon: "🚗",
-    groups: [
-      {
-        id: "parking",
-        label: "Parking",
-        items: [
-          { id: "parking-lots", label: "Parking Lots" },
-          { id: "parking-garages", label: "Parking Garages" }
-        ]
-      },
-      {
-        id: "fuel",
-        label: "Fuel",
-        items: [
-          { id: "gas-stations", label: "Gas Stations" }
-        ]
-      }
-    ]
-  }
+{
+  id: "travel",
+  label: "Travel & Transport",
+  icon: "🚗",
+  groups: [
+    {
+      id: "parking",
+      label: "Parking",
+      items: [
+        { id: "parking-garages", label: "Parking Garages" },
+        { id: "trailheads", label: "Trail Parking" }
+      ]
+    }
+  ]
+}
+
 ];

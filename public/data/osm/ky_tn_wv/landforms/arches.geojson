@@ -1,0 +1,292 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.6840358, 37.8374326] },
+      "properties": {
+        "name": "Double Arch",
+        "category": "arches",
+        "source": "curated",
+        "description": "A massive double arch with an overlook above the forest canopy.",
+        "best_time": "Morning",
+        "duration": "1.5–3 hours",
+        "image": "https://commons.wikimedia.org/wiki/File:Double_Arch_January_2008.JPG"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.65824, 37.8170881] },
+      "properties": {
+        "name": "Gray's Arch",
+        "category": "arches",
+        "source": "curated",
+        "description": "A huge arch with a viewpoint from the trail.",
+        "best_time": "Morning",
+        "duration": "1.5–3 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.6196563, 37.8273472] },
+      "properties": {
+        "name": "Princess Arch",
+        "category": "arches",
+        "source": "curated",
+        "description": "A beautiful arch with a viewpoint from above.",
+        "best_time": "Morning",
+        "duration": "1–2 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.5926692, 37.7999133] },
+      "properties": {
+        "name": "Angel Windows",
+        "category": "arches",
+        "source": "curated",
+        "description": "A small double arch with scenic views.",
+        "best_time": "Morning",
+        "duration": "1–2 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.5672142, 37.7771433] },
+      "properties": {
+        "name": "Turtle Back Arch",
+        "category": "arches",
+        "source": "curated",
+        "description": "A unique arch with a viewpoint nearby.",
+        "best_time": "Morning",
+        "duration": "1–2 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.6846636, 37.8230142] },
+      "properties": {
+        "name": "Arch of Triumph",
+        "category": "arches",
+        "source": "curated",
+        "description": "A lesser‑known arch with scenic surroundings.",
+        "best_time": "Morning",
+        "duration": "1–2 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.6957199, 37.8229241] },
+      "properties": {
+        "name": "Star Gap Arch",
+        "category": "arches",
+        "source": "curated",
+        "description": "A beautiful arch with a viewpoint above the gorge.",
+        "best_time": "Morning",
+        "duration": "1–2 hours",
+        "image": ""
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.6289, 37.8231] },
+      "properties": {
+        "name": "Sky Bridge",
+        "category": "arches",
+        "source": "curated",
+        "description": "A famous sandstone arch with sweeping views over Red River Gorge.",
+        "best_time": "Morning",
+        "duration": "45–90 minutes",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.6097, 37.8360] },
+      "properties": {
+        "name": "Whistling Arch",
+        "category": "arches",
+        "source": "curated",
+        "description": "A short hike to a distinctive arch with forest views.",
+        "best_time": "Morning",
+        "duration": "30–60 minutes",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.6115, 37.8377] },
+      "properties": {
+        "name": "Hidden Arch",
+        "category": "arches",
+        "source": "curated",
+        "description": "A secluded arch tucked into the forest.",
+        "best_time": "Morning",
+        "duration": "45–90 minutes",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.6200, 37.8300] },
+      "properties": {
+        "name": "Bear Wallow Arch",
+        "category": "arches",
+        "source": "curated",
+        "description": "A classic Red River Gorge arch along a scenic trail.",
+        "best_time": "Morning",
+        "duration": "1–2 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.6110, 37.8390] },
+      "properties": {
+        "name": "Indian Arch",
+        "category": "arches",
+        "source": "curated",
+        "description": "A distinctive arch with dramatic cliffside views.",
+        "best_time": "Morning",
+        "duration": "1–2 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.6040, 37.8390] },
+      "properties": {
+        "name": "Copperas Creek Arch",
+        "category": "arches",
+        "source": "curated",
+        "description": "A large arch along a scenic creek trail.",
+        "best_time": "Morning",
+        "duration": "1–2 hours",
+        "image": ""
+      }
+    },
+    {
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-84.413, 36.727] },
+  "properties": {
+    "name": "Natural Arch",
+    "category": "arches",
+    "source": "curated",
+    "description": "A massive sandstone arch in Daniel Boone National Forest with a developed overlook and loop trail.",
+    "best_time": "Morning",
+    "duration": "1–2 hours",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-84.5118, 36.7679] },
+  "properties": {
+    "name": "Yahoo Arch",
+    "category": "arches",
+    "source": "curated",
+    "description": "A distinctive sandstone arch near Yahoo Falls with a moderately strenuous trail and gorge views.",
+    "best_time": "Morning",
+    "duration": "1.5–3 hours",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-84.7357, 36.5417] },
+  "properties": {
+    "name": "Twin Arches",
+    "category": "arches",
+    "source": "curated",
+    "description": "Two enormous sandstone arches on a ridge in Big South Fork, reached by a loop trail with stairs and overlooks.",
+    "best_time": "Morning",
+    "duration": "1.5–3 hours",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-80.999, 38.163] },
+  "properties": {
+    "name": "Hawks Nest Natural Arch",
+    "category": "arches",
+    "source": "curated",
+    "description": "A small sandstone arch near Hawks Nest with forested surroundings and nearby overlooks over the gorge.",
+    "best_time": "Morning",
+    "duration": "45–90 minutes",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-84.5189, 36.7654] },
+  "properties": {
+    "name": "Split Bow Arch",
+    "category": "arches",
+    "source": "curated",
+    "description": "A scenic sandstone arch near Yahoo Falls with a short loop trail and forest views.",
+    "best_time": "Morning",
+    "duration": "45–90 minutes",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-83.5687, 37.8092] },
+  "properties": {
+    "name": "Rock Bridge Arch",
+    "category": "arches",
+    "source": "curated",
+    "description": "A natural bridge over a creek with a beautiful loop trail through lush forest.",
+    "best_time": "Morning",
+    "duration": "1–2 hours",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-84.7372, 36.5089] },
+  "properties": {
+    "name": "Charit Creek Arch",
+    "category": "arches",
+    "source": "curated",
+    "description": "A forest arch near Charit Creek Lodge with a scenic trail and historic surroundings.",
+    "best_time": "Morning",
+    "duration": "1–2 hours",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-84.8334, 36.5532] },
+  "properties": {
+    "name": "Jake's Arch",
+    "category": "arches",
+    "source": "curated",
+    "description": "A small sandstone arch along a quiet forest trail in Pickett State Park.",
+    "best_time": "Morning",
+    "duration": "45–90 minutes",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-81.0905, 38.0564] },
+  "properties": {
+    "name": "Long Point Arch",
+    "category": "arches",
+    "source": "curated",
+    "description": "A small sandstone arch near the Long Point trail with views toward the New River Gorge Bridge.",
+    "best_time": "Morning",
+    "duration": "1–2 hours",
+    "image": ""
+  }
+}
+  ]
+}

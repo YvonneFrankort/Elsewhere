@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 64 64">
+
+  <path fill="#B8860B"
+        d="M32 2C20.4 2 11 11.4 11 23c0 15.4 21 39 21 39s21-23.6 21-39C53 11.4 43.6 2 32 2z"/>
+
+  <circle cx="32" cy="24" r="14" fill="#fff"/>
+
+  <!-- Wheel -->
+  <circle cx="32" cy="24" r="8"
+          fill="none"
+          stroke="#B8860B"
+          stroke-width="2"/>
+
+  <!-- Hub -->
+  <circle cx="32" cy="24" r="1.5"
+          fill="#B8860B"/>
+
+  <!-- Spokes -->
+  <line x1="32" y1="16" x2="32" y2="32"
+        stroke="#B8860B" stroke-width="2"/>
+
+  <line x1="24" y1="24" x2="40" y2="24"
+        stroke="#B8860B" stroke-width="2"/>
+
+  <line x1="26.5" y1="18.5" x2="37.5" y2="29.5"
+        stroke="#B8860B" stroke-width="2"/>
+
+  <line x1="37.5" y1="18.5" x2="26.5" y2="29.5"
+        stroke="#B8860B" stroke-width="2"/>
+
+  <!-- Stand -->
+  <path d="M29 32L26 35H29L32 32Z"
+        fill="#B8860B"/>
+
+  <path d="M35 32L38 35H35L32 32Z"
+        fill="#B8860B"/>
+
+</svg>

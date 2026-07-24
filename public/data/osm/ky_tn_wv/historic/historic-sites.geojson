@@ -1,0 +1,343 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-84.873, 38.200] },
+      "properties": {
+        "name": "Fort Harrod",
+        "category": "historic-sites",
+        "source": "curated",
+        "description": "Kentucky’s first permanent settlement, featuring a reconstructed frontier fort.",
+        "best_time": "Morning",
+        "duration": "1–2 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-84.257, 36.847] },
+      "properties": {
+        "name": "Cumberland Falls Historic Area",
+        "category": "historic-sites",
+        "source": "curated",
+        "description": "Historic river corridor with early settlement and logging history.",
+        "best_time": "Afternoon",
+        "duration": "1–2 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-85.257, 35.860] },
+      "properties": {
+        "name": "Pickett CCC Structures",
+        "category": "historic-sites",
+        "source": "curated",
+        "description": "Civilian Conservation Corps cabins and stonework throughout Pickett State Park.",
+        "best_time": "Morning",
+        "duration": "1–2 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-85.302, 35.743] },
+      "properties": {
+        "name": "Savage Gulf Historic Homestead",
+        "category": "historic-sites",
+        "source": "curated",
+        "description": "Remnants of early homesteads and farm sites in the Savage Gulf region.",
+        "best_time": "Spring",
+        "duration": "1–3 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-84.721, 36.010] },
+      "properties": {
+        "name": "Frozen Head Fire Tower",
+        "category": "historic-sites",
+        "source": "curated",
+        "description": "Historic mountain fire tower with panoramic views of the Cumberland Plateau.",
+        "best_time": "Morning",
+        "duration": "1–2 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-81.075, 38.070] },
+      "properties": {
+        "name": "Nuttallburg Coal Complex",
+        "category": "historic-sites",
+        "source": "curated",
+        "description": "A preserved coal mining town deep in New River Gorge with conveyors and ruins.",
+        "best_time": "Afternoon",
+        "duration": "2–3 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-80.241, 38.217] },
+      "properties": {
+        "name": "Hawks Nest Railroad History",
+        "category": "historic-sites",
+        "source": "curated",
+        "description": "Historic railroad corridor with tunnels and river‑side engineering structures.",
+        "best_time": "Morning",
+        "duration": "1–2 hours",
+        "image": ""
+      }
+    },
+    {
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-84.740, 37.820] },
+  "properties": {
+    "name": "Shaker Village of Pleasant Hill",
+    "category": "historic-sites",
+    "source": "curated",
+    "description": "America’s largest restored Shaker community with museums, workshops, and historic architecture.",
+    "best_time": "Morning",
+    "duration": "2–4 hours",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-84.255, 37.859] },
+  "properties": {
+    "name": "Old Fort Boonesborough",
+    "category": "historic-sites",
+    "source": "curated",
+    "description": "A reconstructed pioneer fort with interpreters, exhibits, and living‑history demonstrations.",
+    "best_time": "Afternoon",
+    "duration": "1–3 hours",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-84.482, 38.030] },
+  "properties": {
+    "name": "Ashland – Henry Clay Estate",
+    "category": "historic-sites",
+    "source": "curated",
+    "description": "A major Kentucky historic estate with a museum, guided tours, and preserved grounds.",
+    "best_time": "Morning",
+    "duration": "1–2 hours",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-84.497, 38.049] },
+  "properties": {
+    "name": "Mary Todd Lincoln House",
+    "category": "historic-sites",
+    "source": "curated",
+    "description": "Museum dedicated to the early life of Abraham Lincoln’s wife, located in downtown Lexington.",
+    "best_time": "Afternoon",
+    "duration": "1–2 hours",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-84.520, 36.560] },
+  "properties": {
+    "name": "Blue Heron Mining Community",
+    "category": "historic-sites",
+    "source": "curated",
+    "description": "An outdoor coal‑mining museum with audio exhibits, historic structures, and river scenery.",
+    "best_time": "Morning",
+    "duration": "2–3 hours",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-83.123, 38.370] },
+  "properties": {
+    "name": "Carter Caves Historic Mining Area",
+    "category": "historic-sites",
+    "source": "curated",
+    "description": "Historic mining and cave‑use sites with interpretive signs and guided cave tours.",
+    "best_time": "Morning",
+    "duration": "1–3 hours",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-84.700, 36.350] },
+  "properties": {
+    "name": "Rugby Historic Village",
+    "category": "historic-sites",
+    "source": "curated",
+    "description": "A preserved Victorian village with museums, guided tours, and historic architecture.",
+    "best_time": "Afternoon",
+    "duration": "2–3 hours",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-84.420, 36.140] },
+  "properties": {
+    "name": "Brushy Mountain State Penitentiary",
+    "category": "historic-sites",
+    "source": "curated",
+    "description": "A historic prison museum with guided tours, exhibits, and preserved cell blocks.",
+    "best_time": "Morning",
+    "duration": "2–3 hours",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-84.080, 36.230] },
+  "properties": {
+    "name": "Norris Dam Historic Area",
+    "category": "historic-sites",
+    "source": "curated",
+    "description": "A New Deal‑era dam with a visitor center, historic structures, and scenic overlooks.",
+    "best_time": "Morning",
+    "duration": "1–2 hours",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-84.520, 36.500] },
+  "properties": {
+    "name": "Big South Fork Historic Mining & Railroad Sites",
+    "category": "historic-sites",
+    "source": "curated",
+    "description": "Historic mining and railroad remnants with interpretive signs throughout the gorge.",
+    "best_time": "Afternoon",
+    "duration": "1–3 hours",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-82.470, 36.295] },
+  "properties": {
+    "name": "Jonesborough Historic District",
+    "category": "historic-sites",
+    "source": "curated",
+    "description": "Tennessee’s oldest town with museums, preserved buildings, and guided walking tours.",
+    "best_time": "Morning",
+    "duration": "2–3 hours",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-84.300, 35.360] },
+  "properties": {
+    "name": "Cherohala Skyway Historic Corridor",
+    "category": "historic-sites",
+    "source": "curated",
+    "description": "Visitor center with exhibits on the historic logging and settlement history of the region.",
+    "best_time": "Morning",
+    "duration": "1–2 hours",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-81.080, 38.130] },
+  "properties": {
+    "name": "Thurmond Ghost Town",
+    "category": "historic-sites",
+    "source": "curated",
+    "description": "A preserved railroad ghost town managed by the NPS with historic buildings and interpretation.",
+    "best_time": "Afternoon",
+    "duration": "1–2 hours",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-81.060, 38.050] },
+  "properties": {
+    "name": "Kaymoor Mine",
+    "category": "historic-sites",
+    "source": "curated",
+    "description": "Historic coal mine ruins with interpretive signs and dramatic gorge scenery.",
+    "best_time": "Morning",
+    "duration": "1–3 hours",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-81.070, 37.900] },
+  "properties": {
+    "name": "Prince Depot",
+    "category": "historic-sites",
+    "source": "curated",
+    "description": "A preserved Art Deco railroad depot with NPS interpretation and active Amtrak service.",
+    "best_time": "Morning",
+    "duration": "1 hour",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-81.350, 37.330] },
+  "properties": {
+    "name": "Bramwell Historic District",
+    "category": "historic-sites",
+    "source": "curated",
+    "description": "A historic coal‑baron town with museums, preserved mansions, and guided tours.",
+    "best_time": "Afternoon",
+    "duration": "1–2 hours",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-82.170, 37.620] },
+  "properties": {
+    "name": "Matewan Historic District",
+    "category": "historic-sites",
+    "source": "curated",
+    "description": "A historic coal‑union town with museums and interpretation of the Matewan Massacre.",
+    "best_time": "Morning",
+    "duration": "1–2 hours",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-81.190, 37.270] },
+  "properties": {
+    "name": "Beckley Exhibition Coal Mine",
+    "category": "historic-sites",
+    "source": "curated",
+    "description": "A full underground mine tour with a museum, historic buildings, and guided interpretation.",
+    "best_time": "Morning",
+    "duration": "2–3 hours",
+    "image": ""
+  }
+},
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-79.915, 38.390] },
+  "properties": {
+    "name": "Cass Scenic Railroad",
+    "category": "historic-sites",
+    "source": "curated",
+    "description": "A historic logging railroad with museum exhibits, steam trains, and preserved company town.",
+    "best_time": "Morning",
+    "duration": "2–4 hours",
+    "image": ""
+  }
+}
+  ]
+}

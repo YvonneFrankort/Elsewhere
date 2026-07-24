@@ -1,69 +1,69 @@
-
 export function getMarkerStyle(feature: any) {
   const t = feature.properties.tags || {};
 
-  // --- NATURE ---
+  // 🌊 WATER
   if (t.water === "lake") {
     return {
-      icon: "lake",
+      icon: "lakes",
       color: "#4DA6FF",
       size: 1.2,
       category: "nature",
-      subcategory: "lake"
+      subcategory: "lakes"
     };
   }
 
   if (t.waterway === "river") {
     return {
-      icon: "river",
+      icon: "rivers",
       color: "#1E90FF",
       size: 1.1,
       category: "nature",
-      subcategory: "river"
+      subcategory: "rivers"
     };
   }
 
   if (t.waterway === "waterfall") {
     return {
-      icon: "waterfall",
+      icon: "waterfalls",
       color: "#66CCFF",
       size: 1.3,
       category: "nature",
-      subcategory: "waterfall"
+      subcategory: "waterfalls"
     };
   }
 
+  // 🏔️ MOUNTAINS & LANDFORMS
   if (t.natural === "peak") {
     return {
-      icon: "peak",
+      icon: "mountain-peaks",
       color: "#999999",
       size: 1.3,
       category: "nature",
-      subcategory: "peak"
+      subcategory: "mountain-peaks"
     };
   }
 
   if (t.tourism === "viewpoint") {
     return {
-      icon: "viewpoint",
+      icon: "viewpoints",
       color: "#FFCC00",
       size: 1.2,
       category: "nature",
-      subcategory: "viewpoint"
+      subcategory: "viewpoints"
     };
   }
 
-  if (t.highway === "trailhead" || t.information === "guidepost") {
+  if (t.information === "guidepost" || t.highway === "trailhead") {
     return {
-      icon: "trailhead",
+      icon: "trailheads",
       color: "#228B22",
       size: 1.2,
       category: "nature",
-      subcategory: "trailhead"
+      subcategory: "trailheads"
     };
   }
 
-  // --- FOOD ---
+  // 🍽 FOOD
   if (t.amenity === "restaurant") {
     if (t.cuisine === "italian") {
       return {
@@ -94,7 +94,7 @@ export function getMarkerStyle(feature: any) {
     };
   }
 
-  // --- ACTIVITIES ---
+  // 🎳 ACTIVITIES
   if (t.leisure === "bowling_alley") {
     return {
       icon: "bowling",
@@ -125,7 +125,7 @@ export function getMarkerStyle(feature: any) {
     };
   }
 
-  // --- DEFAULT ---
+  // 🟦 DEFAULT
   return {
     icon: "default",
     color: "#999999",
