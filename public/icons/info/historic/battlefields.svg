@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 64 64">
+
+  <!-- Pin -->
+  <path fill="#8C6239"
+        d="M32 2C20.4 2 11 11.4 11 23c0 15.4 21 39 21 39s21-23.6 21-39C53 11.4 43.6 2 32 2z"/>
+
+  <!-- White circle -->
+  <circle cx="32" cy="24" r="14" fill="#FFFFFF"/>
+
+<!-- Sword -->
+<g fill="#8C6239">
+
+  <!-- Blade -->
+  <path d="
+    M32 15
+    L35 25
+    L32 35
+    L29 25
+    Z
+  "/>
+
+  <!-- Guard -->
+  <rect x="26" y="26" width="12" height="2"/>
+
+  <!-- Handle -->
+  <rect x="30.5" y="28" width="3" height="6"/>
+
+  <!-- Pommel -->
+  <circle cx="32" cy="35" r="1.5"/>
+
+</g>
+</svg>

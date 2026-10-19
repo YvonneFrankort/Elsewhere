@@ -13,7 +13,7 @@ const curatedFolders: Record<string, string> = {
 
   // scenic
   viewpoints: "scenic",
-
+ 
   // recreation
   "scenic-roads": "recreation",
   trailheads: "recreation",
@@ -38,6 +38,10 @@ const curatedFolders: Record<string, string> = {
   battlefields: "historic",
   "historic-sites": "historic",
   monuments: "historic",
+
+  // attractions
+   "scenic-overlooks": "scenic",
+  "observation-towers": "scenic",
 
   // transport
   "parking-garages": "transport",
@@ -126,7 +130,7 @@ export async function loadCurated(
       const geojson = await res.json();
       all.push(...geojson.features);
     }
-  } catch {}
+  } catch { }
 
   return all;   // ✔ Correct — return AFTER all categories + regions are processed
 }

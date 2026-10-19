@@ -1,136 +1,192 @@
 export function getMarkerStyle(feature: any) {
-  const t = feature.properties.tags || {};
+  const category = feature.properties?.category;
+  const subcategory = feature.properties?.subcategory;
 
-  // 🌊 WATER
-  if (t.water === "lake") {
+  // -------------------------
+  // NATURE - WATER
+  // -------------------------
+  if (
+    [
+      "waterfalls"
+      // later:
+      // "lakes",
+      // "rivers",
+      // "beaches"
+    ].includes(subcategory)
+  ) {
     return {
-      icon: "lakes",
-      color: "#4DA6FF",
+      icon: "water",
       size: 1.2,
-      category: "nature",
-      subcategory: "lakes"
+      category,
+      subcategory
     };
   }
 
-  if (t.waterway === "river") {
+  // -------------------------
+  // NATURE - LANDFORMS
+  // -------------------------
+  if (
+    [
+      "arches",
+      "natural-bridges",
+      "caves",
+      "rockhouses",
+      "ridges",
+      "peaks",
+      "gorges",
+      "river-overlooks"
+    ].includes(subcategory)
+  ) {
     return {
-      icon: "rivers",
-      color: "#1E90FF",
-      size: 1.1,
-      category: "nature",
-      subcategory: "rivers"
-    };
-  }
-
-  if (t.waterway === "waterfall") {
-    return {
-      icon: "waterfalls",
-      color: "#66CCFF",
-      size: 1.3,
-      category: "nature",
-      subcategory: "waterfalls"
-    };
-  }
-
-  // 🏔️ MOUNTAINS & LANDFORMS
-  if (t.natural === "peak") {
-    return {
-      icon: "mountain-peaks",
-      color: "#999999",
-      size: 1.3,
-      category: "nature",
-      subcategory: "mountain-peaks"
-    };
-  }
-
-  if (t.tourism === "viewpoint") {
-    return {
-      icon: "viewpoints",
-      color: "#FFCC00",
+      icon: "landforms",
       size: 1.2,
-      category: "nature",
-      subcategory: "viewpoints"
+      category,
+      subcategory
     };
   }
 
-  if (t.information === "guidepost" || t.highway === "trailhead") {
+  // -------------------------
+  // NATURE - TRAILS
+  // -------------------------
+  if (
+    [
+      "trails",
+      "trailheads"
+    ].includes(subcategory)
+  ) {
     return {
-      icon: "trailheads",
-      color: "#228B22",
+      icon: "trails",
       size: 1.2,
-      category: "nature",
-      subcategory: "trailheads"
+      category,
+      subcategory
     };
   }
 
-  // 🍽 FOOD
-  if (t.amenity === "restaurant") {
-    if (t.cuisine === "italian") {
-      return {
-        icon: "italian",
-        color: "#FF4D4D",
-        size: 1.2,
-        category: "food",
-        subcategory: "italian"
-      };
-    }
-
-    if (t.cuisine === "mexican") {
-      return {
-        icon: "mexican",
-        color: "#FFB347",
-        size: 1.2,
-        category: "food",
-        subcategory: "mexican"
-      };
-    }
-
+  // -------------------------
+  // NATURE - SCENIC
+  // -------------------------
+  if (
+    [
+      "viewpoints",
+      "scenic-roads"
+    ].includes(subcategory)
+  ) {
     return {
-      icon: "restaurant",
-      color: "#FF7043",
-      size: 1.1,
-      category: "food",
-      subcategory: "restaurant"
+      icon: "scenic",
+      size: 1.2,
+      category,
+      subcategory
     };
   }
 
-  // 🎳 ACTIVITIES
-  if (t.leisure === "bowling_alley") {
+  // -------------------------
+  // NATURE - PROTECTED
+  // -------------------------
+  if (
+    [
+      "national_park",
+      "national_monument",
+      "national_preserve",
+      "national_historic_site",
+      "national_recreation_area",
+      "national_seashore",
+      "national_river",
+      "national_lakeshore",
+      "nature-preserves",
+      "nature-reserves",
+      "state-parks",
+      "visitor-center",
+      "alert", 
+      "event"
+    ].includes(subcategory)
+  ) {
     return {
-      icon: "bowling",
-      color: "#FF8C00",
-      size: 1.3,
-      category: "activities",
-      subcategory: "bowling"
+      icon: "protected",
+      size: 1.2,
+      category,
+      subcategory
     };
   }
 
-  if (t.leisure === "amusement_arcade") {
+  // -------------------------
+  // HISTORIC
+  // -------------------------
+  if (
+    [
+      "battlefields",
+      "historic-sites",
+      "monuments"
+    ].includes(subcategory)
+  ) {
     return {
-      icon: "arcade",
-      color: "#BA55D3",
-      size: 1.3,
-      category: "activities",
-      subcategory: "arcade"
+      icon: subcategory,
+      size: 1.2,
+      category,
+      subcategory
     };
   }
 
-  if (t.leisure === "miniature_golf") {
+  // -------------------------
+  // FOOD
+  // -------------------------
+  if (
+    [
+      "restaurants",
+      "cafes-sweets",
+      "fast-casual",
+      "drinks"
+    ].includes(subcategory)
+  ) {
     return {
-      icon: "minigolf",
-      color: "#32CD32",
-      size: 1.3,
-      category: "activities",
-      subcategory: "minigolf"
+      icon: subcategory,
+      size: 1.2,
+      category,
+      subcategory
     };
   }
 
-  // 🟦 DEFAULT
+  // -------------------------
+  // ATTRACTIONS
+  // -------------------------
+  if (
+    [
+      "urban-scenic",
+      "wildlife-marine",
+      "theme-parks",
+      "entertainment"
+    ].includes(subcategory)
+  ) {
+    return {
+      icon: subcategory,
+      size: 1.2,
+      category,
+      subcategory
+    };
+  }
+
+  // -------------------------
+  // TRAVEL
+  // -------------------------
+  if (
+    [
+      "parking"
+    ].includes(subcategory)
+  ) {
+    return {
+      icon: subcategory,
+      size: 1.2,
+      category,
+      subcategory
+    };
+  }
+
+  // -------------------------
+  // DEFAULT
+  // -------------------------
   return {
     icon: "default",
-    color: "#999999",
     size: 1.0,
-    category: "other",
-    subcategory: "other"
+    category,
+    subcategory
   };
 }

@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import mapboxgl from "mapbox-gl";
+import { registerIcons } from "../../../shared/markers";
 
 export function useInitPlacesLayer(
   mapRef: React.MutableRefObject<mapboxgl.Map | null>
@@ -7,12 +8,33 @@ export function useInitPlacesLayer(
   useEffect(() => {
     const map = mapRef.current;
     if (!map) return;
+    
 
-function setup() {
+async function setup() {
+  console.log("[Markers] Setup running");
+  
   const m = mapRef.current;
   if (!m) return;
 
-  if (m.getSource("info-places")) return;
+console.log(
+"[Markers] Source exists?",
+!!m.getSource("info-places")
+);
+
+  //if (m.getSource("info-places")) return;
+
+  await registerIcons(m);
+
+  
+console.log(
+  "[Markers] Has water icon:",
+  m.hasImage("water")
+);
+
+console.log(
+  "[Markers] Has scenic icon:",
+  m.hasImage("scenic")
+);
 
   m.addSource("info-places", {
     type: "geojson",
@@ -24,14 +46,13 @@ function setup() {
 
   m.addLayer({
     id: "info-places-layer",
-    type: "circle",
+    type: "symbol",
     source: "info-places",
-    paint: {
-      "circle-radius": 6,
-      "circle-color": "#ff4d4d",
-      "circle-stroke-width": 2,
-      "circle-stroke-color": "#ffffff"
-    }
+layout: {
+  "icon-image": ["get", "icon"],
+  "icon-size": ["get", "size"],
+  "icon-allow-overlap": true
+}
   });
 }
 

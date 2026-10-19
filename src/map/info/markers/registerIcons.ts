@@ -1,61 +1,64 @@
 export async function registerIcons(map: mapboxgl.Map) {
+
+  console.log("[RegisterIcons] START");
+
   const icons = [
-    // 🌊 WATER
-    { name: "lakes", url: "/icons/info/nature/lake.svg" },
-    { name: "rivers", url: "/icons/info/nature/river.svg" },
-    { name: "waterfalls", url: "/icons/info/nature/waterfall.svg" },
-    { name: "beaches", url: "/icons/info/nature/beach.svg" },
 
-    // 🏔️ MOUNTAINS & LANDFORMS
-    { name: "mountains", url: "/icons/info/nature/mountain.svg" },
-    { name: "mountain-peaks", url: "/icons/info/nature/peak.svg" },
-    { name: "canyons", url: "/icons/info/nature/canyon.svg" },
-    { name: "caves", url: "/icons/info/nature/cave.svg" },
-    { name: "islands", url: "/icons/info/nature/island.svg" },
-    { name: "forests", url: "/icons/info/nature/forest.svg" },
+  // NATURE
+  { name: "water", url: "/icons/info/nature/water.png" },
+  { name: "landforms", url: "/icons/info/nature/landforms.png" },
+  { name: "trails", url: "/icons/info/nature/trails.png" },
+  { name: "scenic", url: "/icons/info/nature/scenic.png" },
+  { name: "protected", url: "/icons/info/nature/protected.png" },
 
-    // 🥾 TRAILS
-    { name: "hiking", url: "/icons/info/nature/hiking.svg" },
-    { name: "trailheads", url: "/icons/info/nature/trailhead.svg" },
-    { name: "climbing-areas", url: "/icons/info/nature/climbing.svg" },
-    { name: "ski", url: "/icons/info/nature/ski.svg" },
+  // HISTORIC
+  { name: "battlefields", url: "/icons/info/historic/battlefields.png" },
+  { name: "historic-sites", url: "/icons/info/historic/historic-sites.png" },
+  { name: "monuments", url: "/icons/info/historic/monuments.png" },
 
-    // 🛡️ PROTECTED AREAS
-    { name: "national-parks", url: "/icons/info/nature/national_park.svg" },
-    { name: "nature-reserves", url: "/icons/info/nature/nature_reserve.svg" },
-    { name: "wilderness", url: "/icons/info/nature/wilderness.svg" },
+  // FOOD
+  { name: "restaurants", url: "/icons/info/food/restaurants.png" },
+  { name: "cafes-sweets", url: "/icons/info/food/cafes-sweets.png" },
+  { name: "fast-casual", url: "/icons/info/food/fast-casual.png" },
+  { name: "drinks", url: "/icons/info/food/drinks.png" },
 
-    // 🌄 SCENIC
-    { name: "viewpoints", url: "/icons/info/nature/viewpoint.svg" },
-    { name: "scenic-overlooks", url: "/icons/info/nature/viewpoint.svg" },
-    { name: "scenic-routes", url: "/icons/info/nature/scenic_route.svg" },
-    { name: "scenic-drives", url: "/icons/info/nature/scenic_drive.svg" },
+  // ATTRACTIONS
+  { name: "urban-scenic", url: "/icons/info/attractions/urban-scenic.png" },
+  { name: "wildlife-marine", url: "/icons/info/attractions/wildlife-marine.png" },
+  { name: "theme-parks", url: "/icons/info/attractions/theme-parks.png" },
+  { name: "entertainment", url: "/icons/info/attractions/entertainment.png" },
 
-    // 🚗 TRAVEL & TRANSPORT
-    { name: "parking-lots", url: "/icons/info/transport/parking.svg" },
-    { name: "gas-stations", url: "/icons/info/transport/fuel.svg" },
+  // TRAVEL
+  { name: "parking", url: "/icons/info/travel/parking.png" },
 
-    // 🔍 SEARCH / DEFAULT
-    { name: "search", url: "/icons/info/other/search.svg" },
-    { name: "default", url: "/icons/info/other/default.svg" },
-    { name: "location", url: "/icons/info/other/location.svg" },
-    { name: "info", url: "/icons/info/other/info.svg" }
-  ];
+  // DEFAULT
+  { name: "default", url: "/icons/info/other/default.svg" }
+];
 
   for (const icon of icons) {
     if (!map.hasImage(icon.name)) {
       try {
-        const response = await fetch(icon.url);
-        const svgText = await response.text();
+map.loadImage(icon.url, (err, image) => {
 
-        const svgBlob = new Blob([svgText], { type: "image/svg+xml" });
-        const url = URL.createObjectURL(svgBlob);
+  console.log(
+    "[Icon Load]",
+    icon.name,
+    "err:",
+    err,
+    "image:",
+    !!image
+  );
 
-        map.loadImage(url, (err, image) => {
-          if (!err && image) {
-            map.addImage(icon.name, image);
-          }
-        });
+  if (!err && image) {
+    map.addImage(icon.name, image);
+
+    console.log(
+      "[Icon Added]",
+      icon.name,
+      map.hasImage(icon.name)
+    );
+  }
+});
       } catch (e) {
         console.warn("Failed to load icon:", icon.name, e);
       }

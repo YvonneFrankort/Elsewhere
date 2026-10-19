@@ -3,6 +3,7 @@ import { useInfoMapUI } from "./useInfoMapUI";
 import type { Feature, FeatureCollection } from "geojson";
 import { useCategoryState } from "./useCategoryState";
 import { resolveCategory } from "../data/resolveCategory";
+import { resolveTags } from "../data/resolveTags";
 
 // Loaders
 import { load as loadGeoapify } from "../data/loaders/geoapify";
@@ -13,6 +14,7 @@ import { loadAlerts } from "../data/loaders/nps/alerts";
 import { loadEvents } from "../data/loaders/nps/events";
 import { loadTrails } from "../data/loaders/nps/trails";
 import { loadCurated } from "../data/loaders/curated";
+import { loadLocalEvents } from "../data/loaders/events/loadLocalEvents"
 
 import * as OpenMeteoLoader from "../data/loaders/openmeteo";
 
@@ -98,9 +100,26 @@ for (const st of statesToLoad) {
 
     console.log("📦 Loader results:", results.map(r => r.length));
 
-    const merged: Feature[] = results.flat();
+const merged: Feature[] = results
+  .flat()
+  .map(resolveTags);
 
     console.log("🧩 Total merged features:", merged.length);
+
+    // TODO:
+// Curated currently loads alongside Geoapify.
+// Not user-visible.
+// Causes extra merged features.
+// Revisit after category system is stable.
+
+
+console.log(
+  "[Merged First]",
+  merged[0]?.properties?.name,
+  merged[0]?.properties?.source,
+  merged[0]?.properties?.category,
+  merged[0]?.properties?.subcategory
+);
 
     setPlaces(merged);
 

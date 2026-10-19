@@ -24,7 +24,8 @@ export function useGlobalMapInitialize(
     const map = new mapboxgl.Map({
       container: mapContainer.current,
       style,
-      center: [23.7610, 61.4981],
+      //center: [23.7610, 61.4981], Tampere
+      center: [-85.0269, 35.9489],
       zoom: 9.8,
       pitch: 65,
       bearing: 12,
@@ -107,7 +108,7 @@ export function useGlobalMapInitialize(
           }
         });
       }
-
+/*
       if (!map.getLayer("osm-points")) {
         map.addLayer({
           id: "osm-points",
@@ -119,7 +120,7 @@ export function useGlobalMapInitialize(
             "circle-radius": 5
           }
         });
-      }
+      } */
     });
 
     // --- CLEANUP -------------------------------------------------------------

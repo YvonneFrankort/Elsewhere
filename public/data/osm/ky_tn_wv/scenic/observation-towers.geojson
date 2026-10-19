@@ -1,0 +1,146 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.4986, 35.5629] },
+      "properties": {
+        "name": "Clingmans Dome Observation Tower",
+        "category": "observation-towers",
+        "source": "curated",
+        "description": "Observation tower atop the highest peak in the Great Smoky Mountains with sweeping 360-degree views.",
+        "best_time": "Sunrise",
+        "duration": "1–2 hours",
+        "image": ""
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.8866, 35.7464] },
+      "properties": {
+        "name": "Look Rock Observation Tower",
+        "category": "observation-towers",
+        "source": "curated",
+        "description": "Accessible observation tower overlooking the Tennessee Valley and western Smokies.",
+        "best_time": "Sunset",
+        "duration": "30–60 minutes",
+        "image": ""
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.5750, 35.1770] },
+      "properties": {
+        "name": "Wayah Bald Tower",
+        "category": "observation-towers",
+        "source": "curated",
+        "description": "Historic stone tower with extensive views across the Nantahala Mountains.",
+        "best_time": "Sunset",
+        "duration": "30–60 minutes",
+        "image": ""
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.5813, 35.3300] },
+      "properties": {
+        "name": "Wesser Bald Observation Tower",
+        "category": "observation-towers",
+        "source": "curated",
+        "description": "Fire tower reached by a rewarding mountain hike with broad Appalachian vistas.",
+        "best_time": "Sunrise",
+        "duration": "2–4 hours",
+        "image": ""
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-79.5327, 38.6994] },
+      "properties": {
+        "name": "Spruce Knob Observation Tower",
+        "category": "observation-towers",
+        "source": "curated",
+        "description": "Observation tower at the highest point in West Virginia with panoramic mountain views.",
+        "best_time": "Sunrise",
+        "duration": "30–60 minutes",
+        "image": ""
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-82.8017, 35.4312] },
+      "properties": {
+        "name": "Richland Balsam Observation Deck",
+        "category": "observation-towers",
+        "source": "curated",
+        "description": "High-elevation overlook and observation platform along the Blue Ridge Parkway.",
+        "best_time": "Sunset",
+        "duration": "30–60 minutes",
+        "image": ""
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.5510, 35.4368] },
+      "properties": {
+        "name": "Albert Mountain Fire Tower",
+        "category": "observation-towers",
+        "source": "curated",
+        "description": "Historic fire tower with commanding views of the Nantahala region.",
+        "best_time": "Sunrise",
+        "duration": "2–4 hours",
+        "image": ""
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-82.6527, 35.7276] },
+      "properties": {
+        "name": "Fryingpan Mountain Lookout Tower",
+        "category": "observation-towers",
+        "source": "curated",
+        "description": "Tall steel lookout tower with some of the best long-range mountain views in Appalachia.",
+        "best_time": "Sunset",
+        "duration": "1–2 hours",
+        "image": ""
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-82.9075, 37.0868] },
+      "properties": {
+        "name": "Little Shepherd Trail Fire Tower",
+        "category": "observation-towers",
+        "source": "curated",
+        "description": "Mountain lookout tower near the crest of Pine Mountain with expansive ridge-top views.",
+        "best_time": "Sunrise",
+        "duration": "30–60 minutes",
+        "image": ""
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-84.7343, 36.5305] },
+      "properties": {
+        "name": "East Rim Overlook Tower",
+        "category": "observation-towers",
+        "source": "curated",
+        "description": "Observation structure and overlook area in the Big South Fork region with dramatic gorge scenery.",
+        "best_time": "Sunset",
+        "duration": "30–60 minutes",
+        "image": ""
+      }
+    }
+
+  ]
+}

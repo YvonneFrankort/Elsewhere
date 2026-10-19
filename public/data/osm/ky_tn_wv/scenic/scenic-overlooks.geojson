@@ -1,0 +1,281 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-82.5208, 37.4816] },
+      "properties": {
+        "name": "Pikeville Overlook",
+        "category": "scenic-overlooks",
+        "source": "curated",
+        "description": "Panoramic overlook above Pikeville with sweeping views across the Appalachian ridges and valley below.",
+        "best_time": "Sunrise",
+        "duration": "15–45 minutes",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.6516, 37.8201] },
+      "properties": {
+        "name": "Chimney Top Rock Overlook",
+        "category": "scenic-overlooks",
+        "source": "curated",
+        "description": "One of Red River Gorge's most famous viewpoints with dramatic cliff-edge vistas.",
+        "best_time": "Sunrise",
+        "duration": "45–90 minutes",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.6375, 37.8148] },
+      "properties": {
+        "name": "Raven Rock Overlook",
+        "category": "scenic-overlooks",
+        "source": "curated",
+        "description": "Scenic overlook above Red River Gorge with expansive views of forested ridgelines.",
+        "best_time": "Morning",
+        "duration": "1–2 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.6748, 36.6079] },
+      "properties": {
+        "name": "Pinnacle Overlook",
+        "category": "scenic-overlooks",
+        "source": "curated",
+        "description": "Iconic Cumberland Gap overlook with views spanning Kentucky, Tennessee and Virginia.",
+        "best_time": "Sunset",
+        "duration": "30–60 minutes",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-82.2958, 37.2860] },
+      "properties": {
+        "name": "Breaks Interstate Park Main Overlook",
+        "category": "scenic-overlooks",
+        "source": "curated",
+        "description": "Spectacular views into the deepest gorge east of the Mississippi River.",
+        "best_time": "Sunrise",
+        "duration": "30–90 minutes",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-82.8935, 37.0918] },
+      "properties": {
+        "name": "Kingdom Come Overlook",
+        "category": "scenic-overlooks",
+        "source": "curated",
+        "description": "High mountain overlook offering sweeping views across the Cumberland Plateau.",
+        "best_time": "Sunrise",
+        "duration": "30–60 minutes",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.6818, 37.8174] },
+      "properties": {
+        "name": "Natural Bridge Overlook",
+        "category": "scenic-overlooks",
+        "source": "curated",
+        "description": "Classic viewpoint above Natural Bridge with broad forest and gorge vistas.",
+        "best_time": "Morning",
+        "duration": "1–2 hours",
+        "image": ""
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-81.0837, 38.0559] },
+      "properties": {
+        "name": "Long Point Overlook",
+        "category": "scenic-overlooks",
+        "source": "curated",
+        "description": "The signature overlook of New River Gorge with postcard views of the famous bridge.",
+        "best_time": "Sunrise",
+        "duration": "2–4 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-81.0049, 38.0674] },
+      "properties": {
+        "name": "Diamond Point Overlook",
+        "category": "scenic-overlooks",
+        "source": "curated",
+        "description": "Outstanding overlook into the New River Gorge with dramatic river views.",
+        "best_time": "Morning",
+        "duration": "1–2 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-81.0044, 38.0626] },
+      "properties": {
+        "name": "Endless Wall Overlook",
+        "category": "scenic-overlooks",
+        "source": "curated",
+        "description": "One of the most photographed viewpoints in West Virginia overlooking sheer cliffs and the New River.",
+        "best_time": "Sunset",
+        "duration": "1–2 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-81.1074, 37.9705] },
+      "properties": {
+        "name": "Grandview Main Overlook",
+        "category": "scenic-overlooks",
+        "source": "curated",
+        "description": "Broad vistas across horseshoe bends of the New River from a dramatic cliff edge.",
+        "best_time": "Sunrise",
+        "duration": "30–60 minutes",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-79.4855, 38.7031] },
+      "properties": {
+        "name": "Lindy Point",
+        "category": "scenic-overlooks",
+        "source": "curated",
+        "description": "Rocky overlook above Blackwater Canyon with one of the best sunset views in Appalachia.",
+        "best_time": "Sunset",
+        "duration": "30–60 minutes",
+        "image": ""
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-81.0988, 35.3351] },
+      "properties": {
+        "name": "Wiseman's View",
+        "category": "scenic-overlooks",
+        "source": "curated",
+        "description": "Expansive overlook of Linville Gorge often called the Grand Canyon of the East.",
+        "best_time": "Sunrise",
+        "duration": "15–45 minutes",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-82.8780, 35.3214] },
+      "properties": {
+        "name": "Black Balsam Overlook",
+        "category": "scenic-overlooks",
+        "source": "curated",
+        "description": "High-elevation panoramic views across exposed summits and endless mountain ridges.",
+        "best_time": "Sunset",
+        "duration": "1–2 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-82.9758, 35.4511] },
+      "properties": {
+        "name": "Waterrock Knob",
+        "category": "scenic-overlooks",
+        "source": "curated",
+        "description": "Blue Ridge Parkway overlook famous for dramatic sunset views.",
+        "best_time": "Sunset",
+        "duration": "30–90 minutes",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-82.9075, 35.5625] },
+      "properties": {
+        "name": "Devil's Courthouse",
+        "category": "scenic-overlooks",
+        "source": "curated",
+        "description": "Short but steep hike to a rocky summit with unobstructed mountain views.",
+        "best_time": "Sunset",
+        "duration": "1–2 hours",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.4520, 35.6127] },
+      "properties": {
+        "name": "Morton Overlook",
+        "category": "scenic-overlooks",
+        "source": "curated",
+        "description": "Classic Great Smoky Mountains overlook looking across layered ridges.",
+        "best_time": "Sunset",
+        "duration": "15–30 minutes",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-82.7691, 36.0368] },
+      "properties": {
+        "name": "Rough Ridge",
+        "category": "scenic-overlooks",
+        "source": "curated",
+        "description": "Iconic Blue Ridge Parkway boardwalk overlook with sweeping mountain views.",
+        "best_time": "Sunrise",
+        "duration": "45–90 minutes",
+        "image": ""
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.4127, 35.6045] },
+      "properties": {
+        "name": "Newfound Gap Overlook",
+        "category": "scenic-overlooks",
+        "source": "curated",
+        "description": "High-mountain overlook straddling Tennessee and North Carolina in the Smokies.",
+        "best_time": "Sunrise",
+        "duration": "15–45 minutes",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.8866, 35.7464] },
+      "properties": {
+        "name": "Look Rock Overlook",
+        "category": "scenic-overlooks",
+        "source": "curated",
+        "description": "Accessible overlook offering broad views over the Tennessee Valley.",
+        "best_time": "Sunset",
+        "duration": "15–45 minutes",
+        "image": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-84.0192, 35.7041] },
+      "properties": {
+        "name": "Foothills Parkway Overlook",
+        "category": "scenic-overlooks",
+        "source": "curated",
+        "description": "One of several spectacular overlooks along Foothills Parkway with Smoky Mountain views.",
+        "best_time": "Sunset",
+        "duration": "15–45 minutes",
+        "image": ""
+      }
+    }
+  ]
+}

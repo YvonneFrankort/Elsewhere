@@ -242,6 +242,24 @@ export const placeCategories: PlaceCategory[] = [
     ]
   },
 
+/*   {
+  id: "events",
+  label: "Events",
+  icon: "🎪",
+  groups: [
+    {
+      id: "local-events",
+      label: "Local Events",
+      items: [
+        {
+          id: "events",
+          label: "Events"
+        }
+      ]
+    }
+  ]
+}, */
+
 {
   id: "travel",
   label: "Travel & Transport",
@@ -252,7 +270,7 @@ export const placeCategories: PlaceCategory[] = [
       label: "Parking",
       items: [
         { id: "parking-garages", label: "Parking Garages" },
-        { id: "trailheads", label: "Trail Parking" }
+        { id: "trail-parking", label: "Trail Parking" }
       ]
     }
   ]

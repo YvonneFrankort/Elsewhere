@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 64 64">
+  <path fill="#8C6239"
+        d="M32 2C20.4 2 11 11.4 11 23c0 15.4 21 39 21 39s21-23.6 21-39C53 11.4 43.6 2 32 2z"/>
+
+  <circle cx="32" cy="24" r="14" fill="#FFFFFF"/>
+
+  <!-- Roof -->
+  <path fill="#8C6239"
+        d="M22 21l10-5 10 5z"/>
+
+  <!-- Columns -->
+  <rect x="24" y="22" width="2" height="8" fill="#8C6239"/>
+  <rect x="30" y="22" width="2" height="8" fill="#8C6239"/>
+  <rect x="36" y="22" width="2" height="8" fill="#8C6239"/>
+
+  <!-- Base -->
+  <rect x="22" y="30" width="20" height="2" fill="#8C6239"/>
+</svg>

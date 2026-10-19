@@ -49,6 +49,9 @@ export async function loadFromNominatim(
     properties: {
       id: item.place_id,
       name: item.display_name,
+      class: item.class,
+      type: item.type,
+      category: item.category,
       source: "nominatim",
       sourcePriority: 3
     }

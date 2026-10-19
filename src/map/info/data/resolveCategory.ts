@@ -37,6 +37,18 @@ export function resolveCategory(id: string): CategoryResolution {
   if (npsParks.includes(id)) {
     return { geoapify: false, nps: true, weather: false };
   }
+  
+
+  // -------------------------
+  // Events
+  // -------------------------
+  if (id === "events") {
+  return {
+    geoapify: false,
+    nps: false,
+    weather: false
+  };
+}
 
   // -------------------------
   // Weather
@@ -72,7 +84,29 @@ export function resolveCategory(id: string): CategoryResolution {
     "sandwich",
     "breweries",
     "wineries",
-    "distilleries"
+    "distilleries",
+
+    "landmarks",
+
+    "botanical-gardens",
+    "museums",
+    "galleries",
+    "urban-parks",
+
+    "zoos",
+    "aquariums",
+
+    "amusement-parks",
+    "water-parks",
+    "roller-coaster-parks",
+    "family-parks",
+
+    "cinemas",
+    "theatres",
+    "escape-rooms",
+    "bowling",
+    "mini-golf",
+
   ];
 
   if (geoapifyOnly.includes(id)) {
@@ -103,22 +137,9 @@ export function resolveCategory(id: string): CategoryResolution {
     "parking-garages",
     "trail-parking",
 
-    // Urban leisure
-    "botanical-gardens",
-    "museums",
-    "galleries",
-    "urban-parks",
-    "zoos",
-    "aquariums",
-    "amusement-parks",
-    "water-parks",
-    "roller-coaster-parks",
-    "family-parks",
-    "cinemas",
-    "theatres",
-    "escape-rooms",
-    "bowling",
-    "mini-golf"
+    // attractions (curated)
+    "scenic-overlooks",
+    "observation-towers",
   ];
 
   if (curated.includes(id)) {

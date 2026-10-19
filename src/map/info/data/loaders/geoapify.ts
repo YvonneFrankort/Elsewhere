@@ -53,7 +53,6 @@ export async function load(
       fallbackResults.push(...nominatim);
     }
 
-    // ⭐ OpenTripMap removed completely
   }
 
   const final = dedupe(fallbackResults);
@@ -70,7 +69,7 @@ async function fetchPlaces(
 
   const url = new URL(BASE_URL);
 
-  // Always 5 km for Geoapify (your original behavior)
+  // Always 5 km for Geoapify
   const geoapifyRadius = 5000;
 
   url.searchParams.set("categories", filters.join(","));
