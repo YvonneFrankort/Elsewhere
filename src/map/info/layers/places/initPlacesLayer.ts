@@ -3,7 +3,8 @@ import mapboxgl from "mapbox-gl";
 import { registerIcons } from "../../../shared/markers";
 
 export function useInitPlacesLayer(
-  mapRef: React.MutableRefObject<mapboxgl.Map | null>
+  mapRef: React.MutableRefObject<mapboxgl.Map | null>,
+  selectPlace: (place: any) => void
 ) {
   useEffect(() => {
     const map = mapRef.current;
@@ -11,7 +12,7 @@ export function useInitPlacesLayer(
     
 
 async function setup() {
-  console.log("[Markers] Setup running");
+  console.log("SETUP RUNNING TEST");
   
   const m = mapRef.current;
   if (!m) return;
@@ -36,15 +37,19 @@ console.log(
   m.hasImage("scenic")
 );
 
+/* console.log("BEFORE ADD SOURCE");
+
   m.addSource("info-places", {
     type: "geojson",
     data: {
       type: "FeatureCollection",
       features: []
     }
-  });
+  }); */
 
-  m.addLayer({
+  //console.log("AFTER ADD SOURCE");
+
+/*   m.addLayer({
     id: "info-places-layer",
     type: "symbol",
     source: "info-places",
@@ -53,7 +58,21 @@ layout: {
   "icon-size": ["get", "size"],
   "icon-allow-overlap": true
 }
-  });
+  }); */
+
+/*    console.log(
+  "[Markers] Layer exists?",
+  !!m.getLayer("info-places-layer")
+); */
+
+m.on("click", "info-places-layer", (e) => {
+  const feature = e.features?.[0];
+
+  if (!feature) return;
+
+  selectPlace(feature);
+});
+
 }
 
 

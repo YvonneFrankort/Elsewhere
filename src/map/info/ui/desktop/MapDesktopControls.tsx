@@ -61,7 +61,7 @@ function InfoMapControls({
   query,
   setQuery,
   mapRef,
-  handleSearch
+  handleSearch,
 }: Props) {
 
   const [layout, setLayout] = useState("info");

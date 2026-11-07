@@ -9,6 +9,7 @@ import type {
 } from "../../data/placeCategories";
 import { placeCategories } from "../../data/placeCategories";
 import { useCategoryState } from "../../state/useCategoryState";
+import PlaceDetailsPopup from "../../data/components/PlaceDetailsPopup";
 
 interface InfoMapMobileProps {
   query: string;
@@ -20,6 +21,7 @@ interface InfoMapMobileProps {
   places: Feature[];
   selectedPlace: Feature | null;
   selectPlace: (place: Feature) => void;
+  setSelectedItem: (id: string | null) => void;
 }
 
 function InfoMapMobile({
@@ -29,6 +31,8 @@ function InfoMapMobile({
   handleSearch,
   style,
   setStyle,
+  selectedPlace,
+  setSelectedItem,
 }: InfoMapMobileProps) {
 
   const [open, setOpen] = useState(false);
@@ -43,6 +47,8 @@ function InfoMapMobile({
   // Zustand toggle
   const toggleCategory = useCategoryState((s) => s.toggleCategory);
 
+  const [popupPos, setPopupPos] = useState({ x: 0, y: 0 });
+
   // Close menu when clicking outside
   useEffect(() => {
     function handleClickOutside(e: MouseEvent) {
@@ -53,6 +59,74 @@ function InfoMapMobile({
     document.addEventListener("mousedown", handleClickOutside);
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, [open]);
+
+
+  useEffect(() => {
+    //alert(selectedPlace?.properties?.name);
+    console.log("SELECTED PLACE", selectedPlace);
+    console.log("PROPERTIES", selectedPlace?.properties);
+    console.log("WEBSITE", selectedPlace?.properties?.website);
+    console.log("IMAGE", selectedPlace?.properties?.image);
+
+  }, [selectedPlace]);
+
+  useEffect(() => {
+    if (!selectedPlace) return;
+
+    console.log("GEOMETRY", selectedPlace.geometry);
+  }, [selectedPlace]);
+
+  useEffect(() => {
+    if (!selectedPlace) return;
+    if (!mapRef.current) return;
+
+    const coords =
+      selectedPlace.geometry.type === "Point"
+        ? selectedPlace.geometry.coordinates
+        : null;
+
+    if (!coords) return;
+
+    const point = mapRef.current.project(coords as [number, number]);
+
+    console.log("POPUP POS", point);
+    setPopupPos({
+      x: point.x,
+      y: point.y,
+    });
+  }, [selectedPlace, mapRef]);
+
+
+  useEffect(() => {
+    const map = mapRef.current;
+
+    if (!map) return;
+
+    map.on("move", updatePopupPosition);
+
+    return () => {
+      map.off("move", updatePopupPosition);
+    };
+  }, [mapRef, selectedPlace]);
+
+
+  function updatePopupPosition() {
+    if (!selectedPlace || !mapRef.current) return;
+
+    const coords =
+      selectedPlace.geometry.type === "Point"
+        ? selectedPlace.geometry.coordinates
+        : null;
+
+    if (!coords) return;
+
+    const point = mapRef.current.project(coords as [number, number]);
+
+    setPopupPos({
+      x: point.x,
+      y: point.y,
+    });
+  }
 
   // Accordion toggles
   function toggleCategoryUI(cat: PlaceCategory) {
@@ -74,6 +148,16 @@ function InfoMapMobile({
   function handleItemClick(item: PlaceItem) {
     toggleCategory(item.id);   // ⭐ multi-category toggle
   }
+
+/*   function getImageUrl(url: string) {
+    if (url.includes("commons.wikimedia.org/wiki/File:")) {
+      const filename = url.split("File:").pop();
+
+      return `https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(filename ?? "")}`;
+    }
+
+    return url;
+  } */
 
   return (
     <div className="mobile-layer">
@@ -249,8 +333,105 @@ function InfoMapMobile({
           </div>
         </div>
       )}
-    </div>
-  );
+{/* 
+{selectedPlace && (
+  <div className="info-popup" style={{ left: popupPos.x, top: popupPos.y }}>
+    <button
+      className="menu-close"
+      onClick={() => setSelectedItem(null)}
+    >
+      x
+    </button>
+
+    {selectedPlace.properties?.name && (
+      <h3>{selectedPlace.properties.name}</h3>
+    )}
+
+    {selectedPlace.properties?.image?.url && (
+      <div className="popup-image-container">
+        <img
+          src={getImageUrl(selectedPlace.properties.image.url)}
+          alt={
+            selectedPlace.properties.image.name ||
+            selectedPlace.properties?.name ||
+            "Place image"
+          }
+          className="popup-image"
+        />
+        {selectedPlace.properties.image.name && (
+          <p className="popup-image-caption">
+            {selectedPlace.properties.image.name}
+          </p>
+        )}
+      </div>
+    )}
+
+    {selectedPlace.properties?.subcategory && (
+      <p>Category: {selectedPlace.properties.subcategory}</p>
+    )}
+
+    {selectedPlace.properties?.description && (
+      <p>Description: {selectedPlace.properties.description}</p>
+    )}
+
+    {selectedPlace.properties?.duration && (
+      <p>Duration: {selectedPlace.properties.duration}</p>
+    )}
+
+    {selectedPlace.properties?.fee && (
+      <p>Fee: {selectedPlace.properties.fee}</p>
+    )}
+
+    {selectedPlace.properties?.best_time && (
+      <p>Best Time: {selectedPlace.properties.best_time}</p>
+    )}
+
+    {selectedPlace.properties?.best_time_to_visit && (
+      <p>Best Time to Visit: {selectedPlace.properties.best_time_to_visit}</p>
+    )}
+
+    {selectedPlace.properties?.access && (
+      <p>Access: {selectedPlace.properties.access}</p>
+    )}
+
+    {selectedPlace.properties?.parking && (
+      <p>Parking: {selectedPlace.properties.parking}</p>
+    )}
+
+    {selectedPlace.properties?.website && (
+      <p>
+        Website:{" "}
+        <a
+          href={selectedPlace.properties.website}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Open Website ↗
+        </a>
+      </p>
+    )}
+
+    {selectedPlace.properties?.url && (
+      <p>
+        URL:{" "}
+        <a
+          href={selectedPlace.properties.url}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Open Link ↗
+        </a>
+      </p>
+    )}
+  </div>
+)} */}
+<PlaceDetailsPopup
+  selectedPlace={selectedPlace}
+  popupPos={popupPos}
+  onClose={() => setSelectedItem(null)}
+/>
+</div>
+);
 }
 
 export default InfoMapMobile;

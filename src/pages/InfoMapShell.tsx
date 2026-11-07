@@ -58,6 +58,10 @@ function InfoMapShell() {
     places.find((f) => f.properties?.id === selectedItemId) || null;
 
   function selectPlace(feature: any | null) {
+    console.log(
+  "MARKER COORDS",
+  feature.geometry?.coordinates
+);
     const id = feature?.properties?.id ?? null;
     setSelectedItem(id);
   }
@@ -91,7 +95,7 @@ function InfoMapShell() {
   useBaseMapStyle(mapRef, styleManagerRef, style);
 
   // ⭐ CREATE INFO PLACES LAYER
-  useInitPlacesLayer(mapRef);
+  useInitPlacesLayer(mapRef, selectPlace);
 
   // ⭐ CREATE SEARCH LAYER
   //useSearchLayer(mapRef, searchResult);
@@ -113,7 +117,7 @@ function InfoMapShell() {
       Array.isArray(selectedPlace.geometry.coordinates)
     ) {
       const coords = selectedPlace.geometry.coordinates as [number, number];
-      flyTo(coords, 14);
+      //flyTo(coords, 14);
     }
   }, [selectedPlace, flyTo]);
 
@@ -288,6 +292,7 @@ function InfoMapShell() {
             places={places}
             selectedPlace={selectedPlace}
             selectPlace={selectPlace}
+            setSelectedItem={setSelectedItem}
           />
         </div>
       )}

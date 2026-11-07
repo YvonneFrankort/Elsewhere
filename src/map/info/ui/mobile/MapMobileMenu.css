@@ -389,3 +389,148 @@
 .item-button:hover {
   background: var(--surface-hover);
 }
+
+.info-popup {
+  position: fixed;
+
+  transform: translate(-50%, -100%);
+
+  min-width: 250px;
+
+  background: lightgoldenrodyellow;
+  color: black;
+
+  border-radius: 14px;
+  padding: 14px;
+
+  box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+
+  z-index: 1000;
+}
+
+.info-popup h3 {
+  margin: 0 0 6px 0;
+}
+
+.info-popup p {
+  margin: 0;
+  opacity: 0.7;
+}
+
+.popup-image-container {
+  margin-top: 12px;
+}
+
+.popup-image-container {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.popup-image {
+  display: block;
+  width: 100%;
+  max-height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.popup-image-caption {
+  font-size: 12px;
+  margin-top: 4px;
+  color: #666;
+}
+
+.info-popup a {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+.info-popup a:hover {
+  color: #0056b3;
+}
+
+.info-popup .menu-close {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  color: #333;
+  font-size: 16px;
+  padding: 2px 6px;
+  width: auto;
+  height: auto;
+  cursor: pointer;
+}
+
+.info-popup .menu-close:hover {
+  background: transparent;
+  color: #007bff;
+}
+
+.popup-image-credit {
+  font-size: 11px;
+  color: #888;
+  margin-top: 2px;
+}
+
+.info-popup section {
+  margin-top: 16px;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+}
+
+.info-popup section h4 {
+  margin-bottom: 8px;
+}
+
+.popup-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+}
+
+.popup-gallery-image {
+  width: 100%;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.info-popup {
+  max-height: 75vh;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+  box-sizing: border-box;
+}
+
+.info-popup .menu-close {
+  position: sticky;
+  top: 0;
+  float: right;
+  z-index: 10;
+}
+
+.popup-alerts,
+.popup-events {
+  margin-top: 18px;
+  padding-top: 10px;
+  border-top: 1px solid #ddd;
+}
+
+.popup-alerts h4 {
+  color: #c0392b;
+}
+
+.popup-alert,
+.popup-event {
+  margin-bottom: 14px;
+  padding: 10px;
+  border-radius: 8px;
+  background: rgba(128, 128, 128, 0.08);
+}
+
+.popup-alert strong,
+.popup-event strong {
+  display: block;
+  margin-bottom: 6px;
+}

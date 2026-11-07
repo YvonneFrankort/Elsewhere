@@ -86,8 +86,8 @@ export const placeCategories: PlaceCategory[] = [
         { id: "national_lakeshore", label: "National Lakeshores" },
 
         { id: "visitor_center", label: "Visitor Centers" },
-        { id: "alert", label: "Park Alerts" },
-        { id: "event", label: "Park Events" }
+        //{ id: "alert", label: "Park Alerts" },
+        //{ id: "event", label: "Park Events" }
       ]
     }
   ]

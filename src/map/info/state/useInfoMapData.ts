@@ -15,6 +15,11 @@ import { loadEvents } from "../data/loaders/nps/events";
 import { loadTrails } from "../data/loaders/nps/trails";
 import { loadCurated } from "../data/loaders/curated";
 import { loadLocalEvents } from "../data/loaders/events/loadLocalEvents"
+import { loadTours } from "../data/loaders/nps/tours";
+
+import type { NPSEvent } from "../data/loaders/nps/events";
+import type { NPSAlert } from "../data/loaders/nps/alerts";
+import type { NPSTour } from "../data/loaders/nps/tours";
 
 import * as OpenMeteoLoader from "../data/loaders/openmeteo";
 
@@ -83,13 +88,121 @@ for (const st of statesToLoad) {
 }
 
     // NPS
-    if (resolution.nps) {
+/*     if (resolution.nps) {
       promises.push(loadParks(params));
       promises.push(loadVisitorCenters(params));
       promises.push(loadAlerts(params));
       promises.push(loadEvents(params));
       promises.push(loadTrails(params));
+    } */
+
+// NPS PARK CATEGORIES
+const npsParkCategories = [
+  "national_park",
+  "national_monument",
+  "national_preserve",
+  "national_historic_site",
+  "national_recreation_area",
+  "national_seashore",
+  "national_river",
+  "national_lakeshore"
+];
+
+const showNPSParks = activeCategories.some(id =>
+  npsParkCategories.includes(id)
+);
+
+// Load parks and related information together
+if (showNPSParks) {
+  const [parks, events, alerts, tours] = await Promise.all([
+    loadParks(params),
+    loadEvents(params),
+    loadAlerts(params),
+    loadTours(params),
+  ]);
+
+  // Group events by parkCode
+  const eventsByPark = new Map<string, NPSEvent[]>();
+
+  events.forEach(event => {
+    const code = event.parkCode;
+
+    if (!eventsByPark.has(code)) {
+      eventsByPark.set(code, []);
     }
+
+    eventsByPark.get(code)!.push(event);
+  });
+
+  // Group alerts by parkCode
+  const alertsByPark = new Map<string, NPSAlert[]>();
+
+  alerts.forEach(alert => {
+    const code = alert.parkCode;
+
+    if (!alertsByPark.has(code)) {
+      alertsByPark.set(code, []);
+    }
+
+    alertsByPark.get(code)!.push(alert);
+  });
+
+    // Group tours by parkCode
+  const toursByPark = new Map<string, NPSTour[]>();
+
+  tours.forEach(tour => {
+    const code = tour.park?.parkCode;
+    if (!code) return;
+
+    if (!toursByPark.has(code)) toursByPark.set(code, []);
+    toursByPark.get(code)!.push(tour);
+  });
+
+  // Attach events and alerts to their parks
+  const parksWithDetails = parks.map(park => {
+    const parkCode = park.properties?.parkCode;
+
+    return {
+      ...park,
+      properties: {
+        ...park.properties,
+        events: parkCode
+          ? eventsByPark.get(parkCode) ?? []
+          : [],
+        alerts: parkCode
+          ? alertsByPark.get(parkCode) ?? []
+          : [],
+        tours: parkCode
+          ? toursByPark.get(parkCode) ?? []
+          : [],  
+      }
+    };
+  });
+
+  console.log("🎟️ NPS tours:", tours.length);
+  console.log("TOUR PARK:", tours[0]?.park);
+console.log(
+  "TOUR PARK CODES:",
+  tours.map(t => ({
+    title: t.title,
+    parkCode: t.park?.parkCode,
+    parkName: t.park?.fullName
+  }))
+);
+  console.log("FIRST NPS TOUR:", tours[0]);
+
+  promises.push(Promise.resolve(parksWithDetails));
+}
+
+// Load visitor centers only when Visitor Centers is selected
+if (activeCategories.includes("visitor_center")) {
+  promises.push(loadVisitorCenters(params));
+}
+
+// Load trails only when Trails is selected
+if (activeCategories.includes("trails")) {
+  promises.push(loadTrails(params));
+}
 
     // WEATHER
     if (resolution.weather) {
@@ -100,9 +213,22 @@ for (const st of statesToLoad) {
 
     console.log("📦 Loader results:", results.map(r => r.length));
 
-const merged: Feature[] = results
+/* const merged: Feature[] = results
   .flat()
-  .map(resolveTags);
+  .map(resolveTags); */
+
+  const merged: Feature[] = results
+  .flat()
+  .map(resolveTags)
+  .map((feature, index) => ({
+    ...feature,
+    properties: {
+      ...feature.properties,
+      id:
+        feature.properties?.id ??
+        `${feature.properties?.name}-${index}`
+    }
+  }));
 
     console.log("🧩 Total merged features:", merged.length);
 
