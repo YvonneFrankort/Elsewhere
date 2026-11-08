@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import React from "react";
 import mapboxgl from "mapbox-gl";
 
@@ -66,6 +66,12 @@ function InfoMapShell() {
     setSelectedItem(id);
   }
 
+  const [mapReady, setMapReady] = useState(false);
+
+const handleMapReady = useCallback((map: mapboxgl.Map) => {
+  console.log("🗺️ Map is ready");
+  setMapReady(true);
+}, []);
 
   // -------------------------------------------------------
   // WINDOW RESIZE
@@ -91,8 +97,16 @@ function InfoMapShell() {
   // -------------------------------------------------------
   // MAP INITIALIZATION
   // -------------------------------------------------------
-  useBaseMapInitialize(mapContainer, mapRef, styleManagerRef, style);
+useBaseMapInitialize(
+  mapContainer,
+  mapRef,
+  styleManagerRef,
+  style,
+  handleMapReady
+);
   useBaseMapStyle(mapRef, styleManagerRef, style);
+
+  const [locationReady, setLocationReady] = useState(false);
 
   // ⭐ CREATE INFO PLACES LAYER
   useInitPlacesLayer(mapRef, selectPlace);
@@ -124,33 +138,78 @@ function InfoMapShell() {
   // -------------------------------------------------------
   // MOBILE AUTO-LOCATE
   // -------------------------------------------------------
+  
+  // -------------------------------------------------------
+  // INITIAL LOCATION — RUN AFTER MAP IS READY
+  // -------------------------------------------------------
   useEffect(() => {
-    if (!isMobile) return;
-    if (!mapRef.current) return;
+    if (!mapReady) return;
+
+    const map = mapRef.current;
+    if (!map) return;
+
+    let cancelled = false;
+
+    const useFallback = () => {
+      if (cancelled) return;
+
+      console.log("📍 Using fallback map location");
+      setLocationReady(true);
+    };
+
+    if (!navigator.geolocation) {
+      console.warn("Geolocation is not supported");
+      useFallback();
+      return;
+    }
+
+    console.log("📍 Requesting initial user location");
 
     navigator.geolocation.getCurrentPosition(
       (pos) => {
+        if (cancelled || mapRef.current !== map) return;
+
         const { longitude, latitude } = pos.coords;
 
-        if (userMarkerRef.current) userMarkerRef.current.remove();
+        if (userMarkerRef.current) {
+          userMarkerRef.current.remove();
+        }
 
         const el = document.createElement("div");
         el.className = "pulse-marker";
 
         userMarkerRef.current = new mapboxgl.Marker({ element: el })
           .setLngLat([longitude, latitude])
-          .addTo(mapRef.current!);
+          .addTo(map);
 
-        mapRef.current!.jumpTo({
+        map.jumpTo({
           center: [longitude, latitude],
           zoom: 16,
-          pitch: 50
+          pitch: 50,
         });
+
+        console.log("📍 Initial location obtained:", {
+          latitude,
+          longitude,
+        });
+
+        setLocationReady(true);
       },
-      (err) => console.error("GEO ERROR", err),
-      { enableHighAccuracy: true, timeout: 10000, maximumAge: 0 }
+      (err) => {
+        console.warn("📍 Location unavailable; using fallback:", err);
+        useFallback();
+      },
+      {
+        enableHighAccuracy: true,
+        timeout: 10000,
+        maximumAge: 0,
+      }
     );
-  }, [isMobile, mapRef]);
+
+    return () => {
+      cancelled = true;
+    };
+  }, [mapReady]);
 
   // -------------------------------------------------------
   // SEARCH HANDLER
@@ -239,22 +298,32 @@ function InfoMapShell() {
   // CATEGORY HANDLER
   // -------------------------------------------------------
 
+  // -------------------------------------------------------
+  // CATEGORY LOADING — WAIT FOR INITIAL LOCATION
+  // -------------------------------------------------------
   useEffect(() => {
-    if (!mapRef.current) return;
+    if (!mapReady || !locationReady || !mapRef.current) return;
 
     if (activeCategories.length === 0) {
-      const src = mapRef.current.getSource("info-places") as mapboxgl.GeoJSONSource;
+      const src = mapRef.current.getSource(
+        "info-places"
+      ) as mapboxgl.GeoJSONSource;
+
       if (src) {
         src.setData({
           type: "FeatureCollection",
-          features: []
+          features: [],
         });
       }
+
       return;
     }
 
+    console.log("📦 Loading places after initial location");
+
     loadPlacesForItem(mapRef.current);
-  }, [activeCategories]);
+  }, [mapReady, locationReady, activeCategories]);
+
 
   return (
     <div className="flex flex-col w-full h-screen">

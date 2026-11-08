@@ -22,6 +22,7 @@ import type { NPSAlert } from "../data/loaders/nps/alerts";
 import type { NPSTour } from "../data/loaders/nps/tours";
 
 import * as OpenMeteoLoader from "../data/loaders/openmeteo";
+import { useRef } from "react";
 
 import {
   STATE_BOUNDS,
@@ -58,8 +59,10 @@ export function useInfoMapData() {
   const setPlaces = usePlacesStore((s) => s.setPlaces);
   const setLoading = useInfoMapUI((s) => s.setLoading);
   const activeCategories = useCategoryState((s) => s.activeCategories);
+  const requestIdRef = useRef(0);
 
   async function loadPlacesForItem(map: mapboxgl.Map) {
+    const requestId = ++requestIdRef.current;
     setLoading(true);
 
     const center = map.getCenter();
@@ -72,8 +75,24 @@ export function useInfoMapData() {
     console.log("🔵 Loading categories:", activeCategories);
     console.log("📍 Map center:", { lat: params.latitude, lon: params.longitude });
 
-    const statesToLoad = getStatesIntersectingRadius(center, params.radiusKm);
-    const resolution = resolveMulti(activeCategories);
+// Main map / curated data: 50 km
+const statesToLoad = getStatesIntersectingRadius(center, params.radiusKm);
+
+// NPS: wider 150 km search area
+const npsStates = getStatesIntersectingRadius(center, 150);
+
+console.log("📍 Actual map centre:", center);
+console.log("📍 NPS search radius:", 150);
+
+const npsParams = {
+  ...params,
+  radiusKm: 150,
+  state: npsStates.join(",")
+};
+
+console.log("🗺️ NPS states:", npsStates);
+
+const resolution = resolveMulti(activeCategories);
 
     const promises: Promise<Feature[]>[] = [];
 
@@ -113,13 +132,39 @@ const showNPSParks = activeCategories.some(id =>
 );
 
 // Load parks and related information together
+console.log("🌲 Active categories:", activeCategories);
+console.log("🌲 showNPSParks:", showNPSParks);
+
 if (showNPSParks) {
-  const [parks, events, alerts, tours] = await Promise.all([
-    loadParks(params),
-    loadEvents(params),
-    loadAlerts(params),
-    loadTours(params),
-  ]);
+const [
+  parksResult,
+  eventsResult,
+  alertsResult,
+  toursResult
+] = await Promise.allSettled([
+  loadParks(npsParams),
+  loadEvents(npsParams),
+  loadAlerts(npsParams),
+  loadTours(npsParams),
+]);
+
+const parks = parksResult.status === "fulfilled" ? parksResult.value : [];
+const events = eventsResult.status === "fulfilled" ? eventsResult.value : [];
+const alerts = alertsResult.status === "fulfilled" ? alertsResult.value : [];
+const tours = toursResult.status === "fulfilled" ? toursResult.value : [];
+
+if (parksResult.status === "rejected") {
+  console.error("NPS parks failed:", parksResult.reason);
+}
+if (eventsResult.status === "rejected") {
+  console.error("NPS events failed:", eventsResult.reason);
+}
+if (alertsResult.status === "rejected") {
+  console.error("NPS alerts failed:", alertsResult.reason);
+}
+if (toursResult.status === "rejected") {
+  console.error("NPS tours failed:", toursResult.reason);
+}
 
   // Group events by parkCode
   const eventsByPark = new Map<string, NPSEvent[]>();
@@ -158,8 +203,14 @@ if (showNPSParks) {
     toursByPark.get(code)!.push(tour);
   });
 
-  // Attach events and alerts to their parks
-  const parksWithDetails = parks.map(park => {
+
+// Keep only the NPS park categories currently selected
+const selectedParks = parks.filter(park =>
+  activeCategories.includes(String(park.properties?.category))
+);
+
+// Attach events, alerts and tours to the selected parks
+const parksWithDetails = selectedParks.map(park => {
     const parkCode = park.properties?.parkCode;
 
     return {
@@ -179,29 +230,26 @@ if (showNPSParks) {
     };
   });
 
-  console.log("🎟️ NPS tours:", tours.length);
-  console.log("TOUR PARK:", tours[0]?.park);
-console.log(
-  "TOUR PARK CODES:",
-  tours.map(t => ({
-    title: t.title,
-    parkCode: t.park?.parkCode,
-    parkName: t.park?.fullName
-  }))
-);
-  console.log("FIRST NPS TOUR:", tours[0]);
+  console.log("🌲 NPS parks after classification:", parks.map(p => ({
+  name: p.properties?.name,
+  category: p.properties?.category,
+  designation: p.properties?.designation
+})));
 
   promises.push(Promise.resolve(parksWithDetails));
+
+  console.log("🌲 NPS features added to promises:", parksWithDetails.length);
+console.log("🌲 First NPS feature:", parksWithDetails[0]);
 }
 
 // Load visitor centers only when Visitor Centers is selected
 if (activeCategories.includes("visitor_center")) {
-  promises.push(loadVisitorCenters(params));
+  promises.push(loadVisitorCenters(npsParams));
 }
 
 // Load trails only when Trails is selected
 if (activeCategories.includes("trails")) {
-  promises.push(loadTrails(params));
+  promises.push(loadTrails(npsParams));
 }
 
     // WEATHER
@@ -209,7 +257,22 @@ if (activeCategories.includes("trails")) {
       promises.push(OpenMeteoLoader.load(params));
     }
 
-    const results = await Promise.all(promises);
+    const settledResults = await Promise.allSettled(promises);
+
+const results: Feature[][] = settledResults.flatMap((result) => {
+  if (result.status === "fulfilled") {
+    return [result.value];
+  }
+
+  console.error("A map data loader failed:", result.reason);
+  return [];
+});
+
+// Ignore results from an older request.
+if (requestId !== requestIdRef.current) {
+  console.log("⏭️ Ignoring outdated map request:", requestId);
+  return;
+}
 
     console.log("📦 Loader results:", results.map(r => r.length));
 
@@ -258,7 +321,9 @@ console.log(
       source.setData(geojson);
     } */
 
-    setLoading(false);
+    if (requestId === requestIdRef.current) {
+  setLoading(false);
+}
   }
 
   return { loadPlacesForItem };

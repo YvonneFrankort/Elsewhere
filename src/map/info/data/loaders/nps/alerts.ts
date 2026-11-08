@@ -44,35 +44,71 @@ export async function loadAlerts(
 
   if (!state) return [];
 
-  const url = new URL("https://developer.nps.gov/api/v1/alerts");
+  const states = state
+    .split(",")
+    .map(s => s.trim().toUpperCase())
+    .filter(Boolean);
 
-  url.searchParams.set("stateCode", state);
-  url.searchParams.set("limit", "500");
+  const stateResults = await Promise.all(
+    states.map(async stateCode => {
+      try {
+        const url = new URL("https://developer.nps.gov/api/v1/alerts");
 
-  try {
-    const res = await fetch(url.toString(), {
-      headers: {
-        "X-Api-Key": key
+        url.searchParams.set("stateCode", stateCode);
+        url.searchParams.set("limit", "500");
+
+        const res = await fetch(url.toString(), {
+          headers: {
+            "X-Api-Key": key
+          }
+        });
+
+        if (!res.ok) {
+          console.warn(
+            `NPS alerts failed for ${stateCode}: ${res.status}`
+          );
+          return [];
+        }
+
+        const json = await res.json();
+
+        if (!Array.isArray(json.data)) {
+          console.warn(
+            `NPS alerts: unexpected response for ${stateCode}`,
+            json
+          );
+          return [];
+        }
+
+        console.log(
+          `🚨 NPS alerts ${stateCode}:`,
+          json.data.length,
+          "returned"
+        );
+
+        return json.data
+          .filter((a: any) => a.parkCode)
+          .map(normalizeAlert);
+
+      } catch (err) {
+        console.warn(
+          `NPS alerts request failed for ${stateCode}:`,
+          err
+        );
+        return [];
       }
-    });
+    })
+  );
 
-    if (!res.ok) {
-      throw new Error(`NPS alerts request failed: ${res.status}`);
-    }
+  const uniqueAlerts = Array.from(
+    new Map(
+      stateResults
+        .flat()
+        .map(alert => [alert.id, alert])
+    ).values()
+  );
 
-    const json = await res.json();
+  console.log("🚨 NPS unique alerts:", uniqueAlerts.length);
 
-    if (!Array.isArray(json.data)) {
-      console.warn("NPS alerts: unexpected API response", json);
-      return [];
-    }
-
-    return json.data
-      .filter((a: any) => a.parkCode)
-      .map(normalizeAlert);
-
-  } catch (err) {
-    console.warn("NPS alerts failed:", err);
-    return [];
-  }
+  return uniqueAlerts;
 }

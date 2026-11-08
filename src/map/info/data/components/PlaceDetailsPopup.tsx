@@ -37,6 +37,21 @@ export default function PlaceDetailsPopup({
 
   const contacts = props.contacts?.[0];
 
+  const address = props.addresses?.find(
+    (item: any) => item.type === "Physical"
+  ) || props.addresses?.[0];
+
+  const addressLines = address
+    ? [
+      address.line1,
+      address.line2,
+      address.line3,
+      [address.city, address.stateCode, address.postalCode]
+        .filter(Boolean)
+        .join(", ")
+    ].filter(Boolean)
+    : [];
+
   return (
     <div
       className="info-popup"
@@ -86,109 +101,119 @@ export default function PlaceDetailsPopup({
       {/* NPS information */}
       {isNPS && (
         <>
-        {/* Park Alerts */}
-{props.alerts?.length > 0 && (
-  <section className="popup-alerts">
-    <h4>⚠️ Park Alerts</h4>
+          {/* Park Alerts */}
+          {props.alerts?.length > 0 && (
+            <section className="popup-alerts">
+              <h4>⚠️ Park Alerts</h4>
 
-    {props.alerts.map((alert: any) => (
-      <div key={alert.id} className="popup-alert">
-        <strong>{alert.title}</strong>
+              {props.alerts.map((alert: any) => (
+                <div key={alert.id} className="popup-alert">
+                  <strong>{alert.title}</strong>
 
-        {alert.type && <p>Type: {alert.type}</p>}
+                  {alert.type && <p>Type: {alert.type}</p>}
 
-        {alert.description && (
-          <p>{alert.description}</p>
-        )}
+                  {alert.description && (
+                    <p>{alert.description}</p>
+                  )}
 
-        {alert.url && (
-          <a
-            href={alert.url}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            More information ↗
-          </a>
-        )}
-      </div>
-    ))}
-  </section>
-)}
+                  {alert.url && (
+                    <a
+                      href={alert.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      More information ↗
+                    </a>
+                  )}
+                </div>
+              ))}
+            </section>
+          )}
 
-{/* Upcoming Events */}
-{props.events?.length > 0 && (
-  <section className="popup-events">
-    <h4>📅 Upcoming Events</h4>
+          {/* Upcoming Events */}
+          {props.events?.length > 0 && (
+            <section className="popup-events">
+              <h4>📅 Upcoming Events</h4>
 
-    {props.events.map((event: any) => (
-      <div key={event.id} className="popup-event">
-        <strong>{event.title}</strong>
+              {props.events.map((event: any) => (
+                <div key={event.id} className="popup-event">
+                  <strong>{event.title}</strong>
 
-        {event.dateStart && (
-          <p>
-            Start: {event.dateStart}
-          </p>
-        )}
+                  {event.dateStart && (
+                    <p>
+                      Start: {event.dateStart}
+                    </p>
+                  )}
 
-        {event.dateEnd && (
-          <p>
-            End: {event.dateEnd}
-          </p>
-        )}
+                  {event.dateEnd && (
+                    <p>
+                      End: {event.dateEnd}
+                    </p>
+                  )}
 
-        {event.location && (
-          <p>Location: {event.location}</p>
-        )}
+                  {event.location && (
+                    <p>Location: {event.location}</p>
+                  )}
 
-        {event.description && (
-          <p>{event.description}</p>
-        )}
+                  {event.description && (
+                    <p>{event.description}</p>
+                  )}
 
-        {event.url && (
-          <a
-            href={event.url}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Event details ↗
-          </a>
-        )}
-      </div>
-    ))}
-  </section>
-)}
+                  {event.url && (
+                    <a
+                      href={event.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Event details ↗
+                    </a>
+                  )}
+                </div>
+              ))}
+            </section>
+          )}
 
 
-{/* Park Tours */}
-{props.tours?.length > 0 && (
-  <section className="popup-tours">
-    <h4>🧭 Park Tours</h4>
+          {/* Park Tours */}
+          {props.tours?.length > 0 && (
+            <section className="popup-tours">
+              <h4>🧭 Park Tours</h4>
 
-    {props.tours.map((tour: any) => (
-      <div key={tour.id} className="popup-tour">
-        <strong>{tour.name || tour.title}</strong>
+              {props.tours.map((tour: any) => (
+                <div key={tour.id} className="popup-tour">
+                  <strong>{tour.name || tour.title}</strong>
 
-        {tour.description && (
-          <p>{tour.description}</p>
-        )}
+                  {tour.description && (
+                    <p>{tour.description}</p>
+                  )}
 
-        {tour.duration && (
-          <p>Duration: {tour.duration}</p>
-        )}
+                  {tour.duration && (
+                    <p>Duration: {tour.duration}</p>
+                  )}
 
-        {tour.url && (
-          <a
-            href={tour.url}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Tour details ↗
-          </a>
-        )}
-      </div>
-    ))}
-  </section>
-)}
+                  {tour.url && (
+                    <a
+                      href={tour.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Tour details ↗
+                    </a>
+                  )}
+                </div>
+              ))}
+            </section>
+          )}
+
+          {/* Visitor Center Address */}
+          {addressLines.length > 0 && (
+            <section>
+              <h4>📍 Address</h4>
+              {addressLines.map((line: string, index: number) => (
+                <p key={index}>{line}</p>
+              ))}
+            </section>
+          )}
 
           {props.states && (
             <p>States: {props.states}</p>
@@ -242,7 +267,10 @@ export default function PlaceDetailsPopup({
               <h4>Contact</h4>
               {contacts.phoneNumbers.map((phone: any, index: number) => (
                 <p key={index}>
-                  {phone.type}: {phone.phoneNumber}
+                  {phone.type}:{" "}
+                  <a href={`tel:${phone.phoneNumber}`}>
+                    {phone.phoneNumber}
+                  </a>
                 </p>
               ))}
               {contacts.emailAddresses?.map((email: any, index: number) => (

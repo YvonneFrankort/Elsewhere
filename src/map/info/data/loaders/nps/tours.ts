@@ -1,3 +1,4 @@
+
 import type { LoaderParams } from "../types";
 import { getStateFromLatLon } from "../location/getStateFromLatLon";
 
@@ -54,35 +55,73 @@ export async function loadTours(
 
   if (!state) return [];
 
-  const url = new URL("https://developer.nps.gov/api/v1/tours");
+  const states = state
+    .split(",")
+    .map(s => s.trim().toUpperCase())
+    .filter(Boolean);
 
-  url.searchParams.set("stateCode", state);
-  url.searchParams.set("limit", "500");
+  const stateResults = await Promise.all(
+    states.map(async stateCode => {
+      try {
+        const url = new URL("https://developer.nps.gov/api/v1/tours");
 
-  try {
-    const res = await fetch(url.toString(), {
-      headers: {
-        "X-Api-Key": key
+        url.searchParams.set("stateCode", stateCode);
+        url.searchParams.set("limit", "500");
+
+        const res = await fetch(url.toString(), {
+          headers: {
+            "X-Api-Key": key
+          }
+        });
+
+        if (!res.ok) {
+          console.warn(
+            `NPS tours failed for ${stateCode}: ${res.status}`
+          );
+          return [];
+        }
+
+        const json = await res.json();
+
+        if (!Array.isArray(json.data)) {
+          console.warn(
+            `NPS tours: unexpected response for ${stateCode}`,
+            json
+          );
+          return [];
+        }
+
+        const stateTours = json.data.filter(
+          (tour: any) => tour.park?.parkCode
+        );
+
+        console.log(
+          `🧭 NPS tours ${stateCode}:`,
+          stateTours.length,
+          "returned"
+        );
+
+        return stateTours as NPSTour[];
+
+      } catch (err) {
+        console.warn(
+          `NPS tours request failed for ${stateCode}:`,
+          err
+        );
+        return [];
       }
-    });
+    })
+  );
 
-    if (!res.ok) {
-      throw new Error(`NPS tours request failed: ${res.status}`);
-    }
+  const uniqueTours = Array.from(
+    new Map(
+      stateResults
+        .flat()
+        .map(tour => [tour.id, tour])
+    ).values()
+  );
 
-    const json = await res.json();
+  console.log("🧭 NPS unique tours:", uniqueTours.length);
 
-    if (!Array.isArray(json.data)) {
-      console.warn("NPS tours: unexpected API response", json);
-      return [];
-    }
-
-    return json.data.filter(
-      (tour: any) => tour.park?.parkCode
-    );
-
-  } catch (err) {
-    console.warn("NPS tours failed:", err);
-    return [];
-  }
+  return uniqueTours;
 }

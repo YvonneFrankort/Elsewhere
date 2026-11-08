@@ -5,6 +5,7 @@ import { getStateFromLatLon } from "../location/getStateFromLatLon";
 
 // --- Category Resolution -----------------------------------------------------
 
+
 function resolveNPSCategory(designation: string = ""): string {
   const d = designation.toLowerCase();
 
@@ -15,10 +16,22 @@ function resolveNPSCategory(designation: string = ""): string {
   if (d.includes("seashore")) return "national_seashore";
   if (d.includes("lakeshore")) return "national_lakeshore";
   if (d.includes("river")) return "national_river";
-  if (d.includes("park")) return "national_park";
 
-  return "national_park";
+  // Only classify actual park designations as National Parks
+  if (
+    d.includes("national park") &&
+    !d.includes("battlefield") &&
+    !d.includes("military") &&
+    !d.includes("historic") &&
+    !d.includes("trail")
+  ) {
+    return "national_park";
+  }
+
+  return "unknown";
 }
+
+
 
 // --- Normalization -----------------------------------------------------------
 
@@ -88,56 +101,95 @@ export async function loadParks(
     return [];
   }
 
-  const state =
-    params.state ||
-    getStateFromLatLon(params.latitude, params.longitude);
 
-  if (!state) return [];
+const state =
+  params.state ||
+  getStateFromLatLon(params.latitude, params.longitude);
 
-  const url = new URL("https://developer.nps.gov/api/v1/parks");
+if (!state) return [];
 
-  url.searchParams.set("stateCode", state);
-  url.searchParams.set("limit", "500");
+const states = state
+  .split(",")
+  .map(s => s.trim().toUpperCase())
+  .filter(Boolean);
 
-  // Request park images in addition to the default response fields
-  url.searchParams.set("fields", "images");
+try {
+  // Request each state separately to avoid the combined-query issue.
+  const stateResults = await Promise.all(
+    states.map(async stateCode => {
+      try {
+        const url = new URL("https://developer.nps.gov/api/v1/parks");
 
-  try {
-    const res = await fetch(url.toString(), {
-      headers: {
-        "X-Api-Key": key
-      }
-    });
+        url.searchParams.set("stateCode", stateCode);
+        url.searchParams.set("limit", "500");
+        url.searchParams.set("fields", "images");
 
-    if (!res.ok) {
-      throw new Error(`NPS parks request failed: ${res.status}`);
-    }
+        const res = await fetch(url.toString(), {
+          headers: {
+            "X-Api-Key": key
+          }
+        });
 
-    const json = await res.json();
+        if (!res.ok) {
+          console.warn(`NPS parks failed for ${stateCode}: ${res.status}`);
+          return [];
+        }
 
-    if (!Array.isArray(json.data)) {
-      console.warn("NPS parks: unexpected API response", json);
-      return [];
-    }
+        const json = await res.json();
 
-    return json.data
-      .filter((p: any) => {
-        const lat = Number(p.latitude);
-        const lon = Number(p.longitude);
-
-        return (
-          p.latitude !== null &&
-          p.latitude !== undefined &&
-          p.longitude !== null &&
-          p.longitude !== undefined &&
-          Number.isFinite(lat) &&
-          Number.isFinite(lon)
+        console.log(
+          `🌲 NPS ${stateCode}:`,
+          json.total,
+          "available;",
+          json.data?.length,
+          "returned"
         );
-      })
-      .map(normalizeNPSPark);
 
-  } catch (err) {
-    console.warn("NPS parks failed:", err);
-    return [];
-  }
+        return Array.isArray(json.data) ? json.data : [];
+      } catch (err) {
+        console.warn(`NPS parks request failed for ${stateCode}:`, err);
+        return [];
+      }
+    })
+  );
+
+  // Combine results and remove duplicates (multi-state parks).
+  const uniqueParks = Array.from(
+    new Map(
+      stateResults
+        .flat()
+        .map((park: any) => [park.parkCode, park])
+    ).values()
+  );
+
+  console.log("🌲 NPS unique parks retrieved:", uniqueParks.length);
+  console.table(
+    uniqueParks.map((p: any) => ({
+      name: p.fullName,
+      parkCode: p.parkCode,
+      states: p.states,
+      designation: p.designation
+    }))
+  );
+
+  return uniqueParks
+    .filter((p: any) => {
+      const lat = Number(p.latitude);
+      const lon = Number(p.longitude);
+
+      return (
+        p.latitude !== null &&
+        p.latitude !== undefined &&
+        p.longitude !== null &&
+        p.longitude !== undefined &&
+        Number.isFinite(lat) &&
+        Number.isFinite(lon)
+      );
+    })
+    .map(normalizeNPSPark);
+
+} catch (err) {
+  console.warn("NPS parks failed:", err);
+  return [];
+}
 }

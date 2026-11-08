@@ -1,3 +1,4 @@
+
 import { useEffect, useRef } from "react";
 import mapboxgl from "mapbox-gl";
 import { MAPBOX_TOKEN } from "../../../lib/mapbox";
@@ -7,24 +8,21 @@ export function useGlobalMapInitialize(
   mapContainer: React.RefObject<HTMLDivElement | null>,
   mapRef: React.MutableRefObject<mapboxgl.Map | null>,
   styleManagerRef: React.MutableRefObject<StyleManager | null>,
-  style: string
+  style: string,
+  onMapReady?: (map: mapboxgl.Map) => void
 ) {
-
   const didInit = useRef(false);
+  const initialStyle = useRef(style);
 
   useEffect(() => {
-    if (didInit.current) return;
+    if (didInit.current || !mapContainer.current) return;
+
     didInit.current = true;
-
-    if (!mapContainer.current) return;
-
     mapboxgl.accessToken = MAPBOX_TOKEN;
 
-    // --- MAP CREATION --------------------------------------------------------
     const map = new mapboxgl.Map({
       container: mapContainer.current,
-      style,
-      //center: [23.7610, 61.4981], Tampere
+      style: initialStyle.current,
       center: [-85.0269, 35.9489],
       zoom: 9.8,
       pitch: 65,
@@ -38,51 +36,45 @@ export function useGlobalMapInitialize(
 
     mapRef.current = map;
 
-    // --- SCALE CONTROL ----------------------------------------------------------
     const scale = new mapboxgl.ScaleControl({
       maxWidth: 100,
-      unit: "metric"
+      unit: "metric",
     });
+
     map.addControl(scale, "bottom-left");
 
-
-    // --- CONTROL REMOVAL -----------------------------------------------------
     const removeControls = () => {
-      setTimeout(() => {
-        document
-          .querySelectorAll(
-            ".mapboxgl-ctrl-top-right, .mapboxgl-ctrl-bottom-right"
-          )
-          .forEach((el) => el.remove());
-      }, 50);
+      document
+        .querySelectorAll(
+          ".mapboxgl-ctrl-top-right, .mapboxgl-ctrl-bottom-right"
+        )
+        .forEach((el) => el.remove());
     };
 
-    // --- STYLE LOAD ----------------------------------------------------------
-    map.on("style.load", () => {
+    const handleStyleLoad = () => {
       removeControls();
 
       if (!styleManagerRef.current) {
         try {
-          styleManagerRef.current = new StyleManager(map, style);
+          styleManagerRef.current = new StyleManager(
+            map,
+            initialStyle.current
+          );
         } catch (err) {
           console.error("Failed to init StyleManager:", err);
         }
       }
-
-
-      // --- GLOBAL SOURCES ----------------------------------------------------
 
       if (!map.getSource("info-places")) {
         map.addSource("info-places", {
           type: "geojson",
           data: {
             type: "FeatureCollection",
-            features: []
-          }
+            features: [],
+          },
         });
       }
 
-      // --- GLOBAL LAYERS -----------------------------------------------------
       if (!map.getLayer("osm-lines")) {
         map.addLayer({
           id: "osm-lines",
@@ -91,8 +83,8 @@ export function useGlobalMapInitialize(
           filter: ["==", ["geometry-type"], "LineString"],
           paint: {
             "line-color": "#ff00ff",
-            "line-width": 2
-          }
+            "line-width": 2,
+          },
         });
       }
 
@@ -104,33 +96,24 @@ export function useGlobalMapInitialize(
           filter: ["==", ["geometry-type"], "Polygon"],
           paint: {
             "fill-color": "rgba(0, 150, 255, 0.3)",
-            "fill-outline-color": "#004466"
-          }
+            "fill-outline-color": "#004466",
+          },
         });
       }
-/*
-      if (!map.getLayer("osm-points")) {
-        map.addLayer({
-          id: "osm-points",
-          type: "circle",
-          source: "info-places",
-          filter: ["==", ["geometry-type"], "Point"],
-          paint: {
-            "circle-color": "#ff0000",
-            "circle-radius": 5
-          }
-        });
-      } */
-    });
 
-    // --- CLEANUP -------------------------------------------------------------
+      onMapReady?.(map);
+    };
+
+    map.on("style.load", handleStyleLoad);
+
     return () => {
-      if (!import.meta.env.DEV) {
-        if (mapRef.current === map) {
-          map.remove();
-          mapRef.current = null;
-        }
+      // Keep the map and listener through React's development
+      // Strict Mode effect replay.
+      if (!import.meta.env.DEV && mapRef.current === map) {
+        map.off("style.load", handleStyleLoad);
+        map.remove();
+        mapRef.current = null;
       }
     };
-  }, [mapContainer, mapRef, styleManagerRef, style]);
+  }, [mapContainer, mapRef, styleManagerRef, onMapReady]);
 }

@@ -78,9 +78,9 @@ export const placeCategories: PlaceCategory[] = [
 
         { id: "national_park", label: "National Parks (NPS)" },
         { id: "national_monument", label: "National Monuments" },
-        { id: "national_preserve", label: "National Preserves" },
+        { id: "national_preserve", label: "National Preserves (NPS)" },
         { id: "national_historic_site", label: "Historic Sites (NPS)" },
-        { id: "national_recreation_area", label: "Recreation Areas" },
+        { id: "national_recreation_area", label: "Recreation Areas (NPS)" },
         { id: "national_seashore", label: "National Seashores" },
         { id: "national_river", label: "National Rivers" },
         { id: "national_lakeshore", label: "National Lakeshores" },
