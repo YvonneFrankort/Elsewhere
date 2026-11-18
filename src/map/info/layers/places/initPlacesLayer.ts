@@ -26,6 +26,9 @@ console.log(
 
   await registerIcons(m);
 
+console.log("🥾 Trail line layer exists:", !!m.getLayer("osm-lines"));
+console.log("🥾 Trail source exists:", !!m.getSource("info-places"));
+
   
 console.log(
   "[Markers] Has water icon:",
@@ -71,6 +74,38 @@ m.on("click", "info-places-layer", (e) => {
   if (!feature) return;
 
   selectPlace(feature);
+});
+
+
+// NPS trail line selection
+m.on("click", "osm-lines", (e) => {
+  const feature = e.features?.[0];
+
+  if (!feature) return;
+
+  // Only handle NPS trail features
+  if (
+    feature.properties?.source !== "nps" ||
+    (
+      feature.properties?.category !== "trails" &&
+      feature.properties?.subcategory !== "trails"
+    )
+  ) {
+    return;
+  }
+
+  console.log("🥾 Selected NPS trail:", feature.properties);
+
+  selectPlace(feature);
+});
+
+// Show a pointer when hovering over NPS trails
+m.on("mouseenter", "osm-lines", () => {
+  m.getCanvas().style.cursor = "pointer";
+});
+
+m.on("mouseleave", "osm-lines", () => {
+  m.getCanvas().style.cursor = "";
 });
 
 }

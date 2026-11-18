@@ -96,24 +96,28 @@ const resolution = resolveMulti(activeCategories);
 
     const promises: Promise<Feature[]>[] = [];
 
-   // GEOAPIFY (global fallback)
-if (resolution.geoapify || statesToLoad.length === 0) {
+   // GEOAPIFY (disabled for trails)
+if (
+  !(
+    activeCategories.length === 1 &&
+    activeCategories[0] === "trails"
+  ) &&
+  (resolution.geoapify || statesToLoad.length === 0)
+) {
   promises.push(loadGeoapify(params, activeCategories));
 }
 
 // CURATED NATURE (local GeoJSON)
 for (const st of statesToLoad) {
-  promises.push(loadCurated(params, st, activeCategories));
+  promises.push(
+    loadCurated(params, st, activeCategories).then(features =>
+      features.filter(
+        feature =>
+          String(feature.properties?.category ?? "").toLowerCase() !== "trails"
+      )
+    )
+  );
 }
-
-    // NPS
-/*     if (resolution.nps) {
-      promises.push(loadParks(params));
-      promises.push(loadVisitorCenters(params));
-      promises.push(loadAlerts(params));
-      promises.push(loadEvents(params));
-      promises.push(loadTrails(params));
-    } */
 
 // NPS PARK CATEGORIES
 const npsParkCategories = [
@@ -247,9 +251,23 @@ if (activeCategories.includes("visitor_center")) {
   promises.push(loadVisitorCenters(npsParams));
 }
 
-// Load trails only when Trails is selected
+// Load NPS trail lines only when Trails is selected
 if (activeCategories.includes("trails")) {
-  promises.push(loadTrails(npsParams));
+  const bounds = map.getBounds();
+
+  if (bounds) {
+    promises.push(
+      loadTrails({
+        west: bounds.getWest(),
+        south: bounds.getSouth(),
+        east: bounds.getEast(),
+        north: bounds.getNorth(),
+        zoom: map.getZoom()
+      })
+    );
+  } else {
+    console.warn("🥾 Cannot load trails: map bounds are unavailable.");
+  }
 }
 
     // WEATHER
@@ -276,9 +294,6 @@ if (requestId !== requestIdRef.current) {
 
     console.log("📦 Loader results:", results.map(r => r.length));
 
-/* const merged: Feature[] = results
-  .flat()
-  .map(resolveTags); */
 
   const merged: Feature[] = results
   .flat()
@@ -311,15 +326,6 @@ console.log(
 );
 
     setPlaces(merged);
-
-  /*   const source = map.getSource("info-places") as mapboxgl.GeoJSONSource;
-    if (source) {
-      const geojson: FeatureCollection = {
-        type: "FeatureCollection",
-        features: merged
-      };
-      source.setData(geojson);
-    } */
 
     if (requestId === requestIdRef.current) {
   setLoading(false);

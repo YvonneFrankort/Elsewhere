@@ -48,19 +48,15 @@ export function getMarkerStyle(feature: any) {
   // -------------------------
   // NATURE - TRAILS
   // -------------------------
-  if (
-    [
-      "trails",
-      "trailheads"
-    ].includes(subcategory)
-  ) {
-    return {
-      icon: "trails",
-      size: 1.2,
-      category,
-      subcategory
-    };
-  }
+// NATURE - TRAILHEADS
+if (subcategory === "trailheads") {
+  return {
+    icon: "trails",
+    size: 1.2,
+    category,
+    subcategory
+  };
+}
 
   // -------------------------
   // NATURE - SCENIC

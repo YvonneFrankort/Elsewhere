@@ -27,6 +27,8 @@ import { usePlacesStore } from "../map/info/state/usePlacesStore";
 import { useInfoMapUI } from "../map/info/state/useInfoMapUI";
 import { useCategoryState } from "../map/info/state/useCategoryState";
 
+import PlaceDetailsPopup from "../map/info/data/components/PlaceDetailsPopup";
+
 function InfoMapShell() {
 
   const places = usePlacesStore((s) => s.places);
@@ -53,9 +55,17 @@ function InfoMapShell() {
     longitude: number;
   } | null>(null);
 
+
   // ⭐ DERIVE selectedPlace FROM places + selectedItemId
   const selectedPlace =
     places.find((f) => f.properties?.id === selectedItemId) || null;
+   
+    console.log(
+  "💻 SELECTED PLACE",
+  selectedPlace?.properties?.name
+);
+
+console.log("DESKTOP RENDER", selectedPlace?.properties?.name);
 
   function selectPlace(feature: any | null) {
     console.log(
@@ -119,6 +129,8 @@ useBaseMapInitialize(
 
   const { flyTo } = useBaseMapCamera(mapRef);
   useBaseMapEvents(mapRef);
+
+   const [popupPos, setPopupPos] = useState({ x: 0, y: 0 });
 
   // -------------------------------------------------------
   // FLY TO SELECTED PLACE
@@ -324,6 +336,46 @@ useBaseMapInitialize(
     loadPlacesForItem(mapRef.current);
   }, [mapReady, locationReady, activeCategories]);
 
+useEffect(() => {
+  if (!selectedPlace || !mapRef.current) return;
+
+  if (selectedPlace.geometry.type !== "Point") return;
+
+  const [lng, lat] = selectedPlace.geometry.coordinates;
+  const position = mapRef.current.project([lng, lat]);
+
+  setPopupPos({
+    x: position.x,
+    y: position.y,
+  });
+}, [selectedPlace]);
+
+useEffect(() => {
+  const map = mapRef.current;
+  if (!map || !selectedPlace) return;
+
+  const updatePopupPosition = () => {
+    if (selectedPlace.geometry.type !== "Point") return;
+
+    const [lng, lat] = selectedPlace.geometry.coordinates;
+    const position = map.project([lng, lat]);
+
+    setPopupPos({
+      x: position.x,
+      y: position.y,
+    });
+  };
+
+  updatePopupPosition();
+
+  map.on("move", updatePopupPosition);
+  map.on("resize", updatePopupPosition);
+
+  return () => {
+    map.off("move", updatePopupPosition);
+    map.off("resize", updatePopupPosition);
+  };
+}, [selectedPlace]);
 
   return (
     <div className="flex flex-col w-full h-screen">
@@ -332,22 +384,30 @@ useBaseMapInitialize(
 
       <div className="map-ui"></div>
 
-      {!isMobile && (
-        <div className="desktop-ui">
-          <InfoMapControls
-            flyTo={flyTo}
-            mapRef={mapRef}
-            style={style}
-            setStyle={setStyle}
-            query={query}
-            setQuery={setQuery}
-            handleSearch={handleSearch}
-            places={places}
-            selectedPlace={selectedPlace}
-            selectPlace={selectPlace}
-          />
-        </div>
-      )}
+{!isMobile && (
+  <>
+    <div className="desktop-ui">
+      <InfoMapControls
+        flyTo={flyTo}
+        mapRef={mapRef}
+        style={style}
+        setStyle={setStyle}
+        query={query}
+        setQuery={setQuery}
+        handleSearch={handleSearch}
+        places={places}
+        selectedPlace={selectedPlace}
+        selectPlace={selectPlace}
+      />
+    </div>
+
+    <PlaceDetailsPopup
+      selectedPlace={selectedPlace}
+      popupPos={popupPos}
+      onClose={() => setSelectedItem(null)}
+    />
+  </>
+)}
 
       {isMobile && (
         <div className="mobile-ui">

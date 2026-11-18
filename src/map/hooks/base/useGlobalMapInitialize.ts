@@ -80,7 +80,13 @@ export function useGlobalMapInitialize(
           id: "osm-lines",
           type: "line",
           source: "info-places",
-          filter: ["==", ["geometry-type"], "LineString"],
+          filter: [
+  "match",
+  ["geometry-type"],
+  ["LineString", "MultiLineString"],
+  true,
+  false
+],
           paint: {
             "line-color": "#ff00ff",
             "line-width": 2,

@@ -5,7 +5,7 @@ import type { PlaceCategory, PlaceGroup, PlaceSubcategory, PlaceItem } from "../
 import { placeCategories } from "../../data/placeCategories";
 
 import { useCategoryState } from "../../state/useCategoryState";
-
+import PlaceDetailsPopup from "../../data/components/PlaceDetailsPopup";
 
 interface Props {
   flyTo: (center: [number, number], zoom?: number, pitch?: number, bearing?: number) => void;
@@ -18,6 +18,7 @@ interface Props {
   places: Feature[];
   selectedPlace: Feature | null;
   selectPlace: (place: Feature) => void;
+  
 }
 
 /* -----------------------------
@@ -74,6 +75,8 @@ function InfoMapControls({
   // ⭐ NEW: Zustand multi-category state
   const activeCategories = useCategoryState((s) => s.activeCategories);
   const toggleCategoryState = useCategoryState((s) => s.toggleCategory);
+
+const [popupPos, setPopupPos] = useState({ x: 0, y: 0 });
 
   function toggleCategory(cat: PlaceCategory) {
     setOpenCategoryId(prev => (prev === cat.id ? null : cat.id));
@@ -234,7 +237,7 @@ function InfoMapControls({
       <div className="desktop-zoom">
         <button onClick={() => mapRef.current?.zoomIn()}>＋</button>
         <button onClick={() => mapRef.current?.zoomOut()}>−</button>
-      </div>
+      </div>     
     </div>
   );
 }
