@@ -18,6 +18,7 @@ interface Props {
   places: Feature[];
   selectedPlace: Feature | null;
   selectPlace: (place: Feature) => void;
+  onOpenMemoryMap: () => void;
   
 }
 
@@ -63,6 +64,7 @@ function InfoMapControls({
   setQuery,
   mapRef,
   handleSearch,
+  onOpenMemoryMap,
 }: Props) {
 
   const [layout, setLayout] = useState("info");
@@ -103,15 +105,25 @@ const [popupPos, setPopupPos] = useState({ x: 0, y: 0 });
       <div className="map-topbar">
         <div className="topbar-left">
 
-          <Segmented
-            value={layout}
-            onChange={setLayout}
-            options={[
-              { label: "Info Map", value: "info" },
-              { label: "Memory Map", value: "memory" },
-              { label: "Planner", value: "planner" }
-            ]}
-          />
+<Segmented
+  value={layout}
+  onChange={(value) => {
+    setLayout(value);
+
+    if (value === "memory") {
+      onOpenMemoryMap();
+    }
+
+    if (value === "info") {
+      // Already on Explorer Map
+    }
+  }}
+  options={[
+    { label: "Info Map", value: "info" },
+    { label: "Memory Map", value: "memory" },
+    { label: "Planner", value: "planner" }
+  ]}
+/>
 
           <Segmented
             value={style}

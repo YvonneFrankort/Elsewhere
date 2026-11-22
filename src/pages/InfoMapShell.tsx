@@ -29,7 +29,11 @@ import { useCategoryState } from "../map/info/state/useCategoryState";
 
 import PlaceDetailsPopup from "../map/info/data/components/PlaceDetailsPopup";
 
-function InfoMapShell() {
+interface InfoMapShellProps {
+  onOpenMemoryMap: () => void;
+}
+
+function InfoMapShell({ onOpenMemoryMap }: InfoMapShellProps) {
 
   const places = usePlacesStore((s) => s.places);
   const selectedItemId = useInfoMapUI((s) => s.selectedItemId);
@@ -398,6 +402,7 @@ useEffect(() => {
         places={places}
         selectedPlace={selectedPlace}
         selectPlace={selectPlace}
+        onOpenMemoryMap={onOpenMemoryMap}
       />
     </div>
 
@@ -422,6 +427,7 @@ useEffect(() => {
             selectedPlace={selectedPlace}
             selectPlace={selectPlace}
             setSelectedItem={setSelectedItem}
+            onOpenMemoryMap={onOpenMemoryMap}
           />
         </div>
       )}
