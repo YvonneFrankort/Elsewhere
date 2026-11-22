@@ -22,6 +22,7 @@ interface InfoMapMobileProps {
   selectedPlace: Feature | null;
   selectPlace: (place: Feature) => void;
   setSelectedItem: (id: string | null) => void;
+  onOpenMemoryMap: () => void;
 }
 
 function InfoMapMobile({
@@ -33,6 +34,7 @@ function InfoMapMobile({
   setStyle,
   selectedPlace,
   setSelectedItem,
+  onOpenMemoryMap,
 }: InfoMapMobileProps) {
 
   const [open, setOpen] = useState(false);
@@ -166,8 +168,6 @@ function InfoMapMobile({
       <div className="mobile-topbar">
         <button className="menu-button" onClick={() => setOpen(true)}>☰</button>
 
-        <button className="planner-button">🗺️</button>
-
         <div className="mobile-search">
           <input
             value={query}
@@ -197,6 +197,26 @@ function InfoMapMobile({
             </div>
 
             <div className="menu-content">
+
+              {/* Map switching */}
+<div className="menu-section">
+  <h4>Switch Map</h4>
+
+  <div className="layout-options">
+    <button className="active">
+      Info Map
+    </button>
+
+    <button
+      onClick={() => {
+        setOpen(false);
+        onOpenMemoryMap();
+      }}
+    >
+      Memory Map
+    </button>
+  </div>
+</div>
 
               {/* ⭐ Layout */}
               <div className="menu-section">

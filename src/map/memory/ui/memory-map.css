@@ -1,0 +1,156 @@
+/* Memory Map — Add Memory button */
+
+.memory-add-button {
+  position: absolute;
+  left: 50%;
+  bottom: 30px;
+  transform: translateX(-50%);
+  z-index: 10;
+  padding: 13px 18px;
+  border: none;
+  border-radius: 10px;
+  background: #8b5cf6;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+/* Fixed location selection pin */
+
+.memory-location-pin {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  rotate: -45deg;
+  z-index: 1000;
+  pointer-events: none;
+  width: 38px;
+  height: 38px;
+  border-radius: 50% 50% 50% 0;
+  background: #8b5cf6;
+  border: 3px solid white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+}
+
+.memory-location-pin-center {
+  position: absolute;
+  top: 11px;
+  left: 11px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: white;
+}
+
+/* Create-memory panel */
+
+.memory-create-panel {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1001;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 12px;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.25);
+}
+
+.memory-create-panel--desktop {
+  bottom: 30px;
+  width: 360px;
+}
+
+.memory-create-panel--mobile {
+  bottom: 90px;
+  width: min(90%, 360px);
+  box-sizing: border-box;
+}
+
+/* Create-memory title input */
+
+.memory-create-title-input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  color: #222;
+  background: #ffffff;
+  font-size: 16px;
+}
+
+/* Create-memory error */
+
+.memory-create-error {
+  color: #b91c1c;
+  margin: 0;
+}
+
+/* Create-memory actions */
+
+.memory-create-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.memory-create-cancel,
+.memory-create-save {
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.memory-create-cancel {
+  flex: 1;
+  border: 1px solid #ccc;
+  background: #ffffff;
+  color: #222222;
+}
+
+.memory-create-save {
+  flex: 2;
+  border: none;
+  background: #8b5cf6;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.memory-create-cancel:disabled,
+.memory-create-save:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Pending location banner */
+
+.memory-pending-location-banner {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1001;
+  background: #ffffff;
+  color: #222222;
+  padding: 10px 16px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Editor error */
+
+.memory-editor-error {
+  color: #b91c1c;
+}
+
+@media (max-width: 768px) {
+  .memory-add-button {
+    bottom: 90px;
+  }
+}
