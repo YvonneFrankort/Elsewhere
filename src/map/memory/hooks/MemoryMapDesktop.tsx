@@ -49,6 +49,19 @@ interface MemoryMapDesktopProps extends MemoryEditorProps {
     latitude: number;
   } | null;
   onCancelCreateMemory?: () => void;
+  filteredMemories: Memory[];
+  timelineFilter: "all" | "today" | "week" | "month" | "lastMonth" | "year";
+  setTimelineFilter: (
+    filter: "all" | "today" | "week" | "month" | "lastMonth" | "year"
+  ) => void;
+  memoryArchive: {
+    year: number;
+    months: number[];
+  }[];
+  selectedArchiveYear: number | null;
+  selectedArchiveMonth: number | null;
+  setSelectedArchiveYear: (year: number | null) => void;
+  setSelectedArchiveMonth: (month: number | null) => void;
 }
 
 interface SegmentedOption {
@@ -113,6 +126,14 @@ function MemoryMapDesktop({
   onCloseEditor,
   pendingLocation,
   onCancelCreateMemory,
+  filteredMemories,
+  timelineFilter,
+  setTimelineFilter,
+  memoryArchive,
+  selectedArchiveYear,
+  selectedArchiveMonth,
+  setSelectedArchiveYear,
+  setSelectedArchiveMonth,
 }: MemoryMapDesktopProps) {
   const [newMemoryTitle, setNewMemoryTitle] = useState("");
   const [memoryTitle, setMemoryTitle] = useState("");
@@ -263,25 +284,128 @@ function MemoryMapDesktop({
         <button onClick={() => mapRef.current?.zoomIn()}>＋</button>
         <button onClick={() => mapRef.current?.zoomOut()}>−</button>
       </div>
-      {/*
-<aside className="memory-desktop-sidebar">
-        <h3>Memories</h3>
 
-        <p>{memories.length} saved memories</p>
+      <aside className="memory-desktop-sidebar">
+        <h3>Timeline</h3>
 
-        {memories.map((memory) => (
-<button
-  key={memory.id}
-  onClick={() => onSelectMemory(memory)}
-  className={`memory-list-button ${
-    selectedMemory?.id === memory.id ? "active" : ""
-  }`}
->
-            {memory.title}
+        <div className="timeline-filter-list">
+          {[
+            { label: "All time", value: "all" },
+            { label: "Today", value: "today" },
+            { label: "This week", value: "week" },
+            { label: "This month", value: "month" },
+            { label: "Last month", value: "lastMonth" },
+            { label: "This year", value: "year" },
+          ].map((option) => (
+            <button
+              key={option.value}
+              type="button"
+              className={`timeline-filter-option ${timelineFilter === option.value ? "active" : ""
+                }`}
+              aria-pressed={timelineFilter === option.value}
+              onClick={() => {
+                setTimelineFilter(
+                  option.value as
+                  | "all"
+                  | "today"
+                  | "week"
+                  | "month"
+                  | "lastMonth"
+                  | "year"
+                );
+                setSelectedArchiveYear(null);
+                setSelectedArchiveMonth(null);
+              }}
+            >
+              {option.label}
+            </button>
+          ))}
+        </div>
+
+        <div className="memory-archive">
+          <h4>Browse by year</h4>
+
+          {memoryArchive.map(({ year, months }) => (
+            <div key={year} className="memory-archive-year">
+              <button
+                type="button"
+                className={`memory-archive-year-button ${selectedArchiveYear === year &&
+                    selectedArchiveMonth === null
+                    ? "active"
+                    : ""
+                  }`}
+                onClick={() => {
+                  setTimelineFilter("all");
+                  setSelectedArchiveYear(
+                    selectedArchiveYear === year ? null : year
+                  );
+                  setSelectedArchiveMonth(null);
+                }}
+              >
+                <span>{selectedArchiveYear === year ? "▼" : "▶"} {year}</span>
+                <span>
+                  {memories.filter(
+                    (memory) =>
+                      new Date(memory.capturedAt).getFullYear() === year
+                  ).length}
+                </span>
+              </button>
+
+              {selectedArchiveYear === year && (
+                <div className="memory-archive-months">
+                  {months.map((month) => {
+                    const monthName = new Date(year, month, 1).toLocaleDateString(
+                      undefined,
+                      { month: "long" }
+                    );
+
+                    const count = memories.filter((memory) => {
+                      const date = new Date(memory.capturedAt);
+                      return (
+                        date.getFullYear() === year &&
+                        date.getMonth() === month
+                      );
+                    }).length;
+
+                    return (
+                      <button
+                        key={month}
+                        type="button"
+                        className={`memory-archive-month-button ${selectedArchiveMonth === month ? "active" : ""
+                          }`}
+                        onClick={() => {
+                          setSelectedArchiveMonth(
+                            selectedArchiveMonth === month ? null : month
+                          );
+                        }}
+                      >
+                        <span>{monthName}</span>
+                        <span>{count}</span>
+                      </button>
+                    );
+                  })}
+                </div>
+              )}
+            </div>
+          ))}
+        </div>
+
+        <p>{filteredMemories.length} memories</p>
+
+        {filteredMemories.map((memory) => (
+          <button
+            key={memory.id}
+            onClick={() => onSelectMemory(memory)}
+            className={`memory-list-button ${selectedMemory?.id === memory.id ? "active" : ""
+              }`}
+          >
+            <strong>{memory.title}</strong>
+            <span>
+              {new Date(memory.capturedAt).toLocaleDateString()}
+            </span>
           </button>
         ))}
       </aside>
-      */}
 
       {selectedMemory && (
         <aside className="memory-desktop-editor">

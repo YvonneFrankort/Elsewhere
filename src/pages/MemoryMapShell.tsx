@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import React from "react";
 import mapboxgl from "mapbox-gl";
 
@@ -71,6 +71,126 @@ function MemoryMapShell({ onBack }: MemoryMapShellProps) {
 
   const [memories, setMemories] = useState<Memory[]>([]);
   const [selectedMemory, setSelectedMemory] = useState<Memory | null>(null);
+
+  const [timelineFilter, setTimelineFilter] = useState<
+    "all" | "today" | "week" | "month" | "lastMonth" | "year"
+  >("all");
+
+  const [selectedArchiveYear, setSelectedArchiveYear] = useState<number | null>(null);
+  const [selectedArchiveMonth, setSelectedArchiveMonth] = useState<number | null>(null);
+
+  const filteredMemories = useMemo(() => {
+    const now = new Date();
+
+    const todayStart = new Date(
+      now.getFullYear(),
+      now.getMonth(),
+      now.getDate()
+    );
+
+    const tomorrowStart = new Date(todayStart);
+    tomorrowStart.setDate(tomorrowStart.getDate() + 1);
+
+    const weekStart = new Date(todayStart);
+    const dayOfWeek = (weekStart.getDay() + 6) % 7;
+    weekStart.setDate(weekStart.getDate() - dayOfWeek);
+
+    const monthStart = new Date(
+      now.getFullYear(),
+      now.getMonth(),
+      1
+    );
+
+    const lastMonthStart = new Date(
+      now.getFullYear(),
+      now.getMonth() - 1,
+      1
+    );
+
+    const yearStart = new Date(now.getFullYear(), 0, 1);
+
+    return memories
+      .filter((memory) => {
+        const capturedAt = new Date(memory.capturedAt);
+
+        if (Number.isNaN(capturedAt.getTime())) return false;
+
+        // Archive year/month selection takes priority.
+        if (selectedArchiveYear !== null) {
+          if (capturedAt.getFullYear() !== selectedArchiveYear) {
+            return false;
+          }
+
+          if (
+            selectedArchiveMonth !== null &&
+            capturedAt.getMonth() !== selectedArchiveMonth
+          ) {
+            return false;
+          }
+
+          return true;
+        }
+
+        // Existing quick filters.
+        switch (timelineFilter) {
+          case "today":
+            return capturedAt >= todayStart && capturedAt < tomorrowStart;
+
+          case "week":
+            return capturedAt >= weekStart && capturedAt < tomorrowStart;
+
+          case "month":
+            return capturedAt >= monthStart && capturedAt < tomorrowStart;
+
+          case "lastMonth":
+            return capturedAt >= lastMonthStart && capturedAt < monthStart;
+
+          case "year":
+            return capturedAt >= yearStart && capturedAt < tomorrowStart;
+
+          case "all":
+          default:
+            return true;
+        }
+      })
+      .sort(
+        (a, b) =>
+          new Date(b.capturedAt).getTime() -
+          new Date(a.capturedAt).getTime()
+      );
+  }, [
+    memories,
+    timelineFilter,
+    selectedArchiveYear,
+    selectedArchiveMonth,
+  ]);
+
+  const memoryArchive = useMemo(() => {
+    const archive = new Map<number, Set<number>>();
+
+    memories.forEach((memory) => {
+      const date = new Date(memory.capturedAt);
+
+      if (Number.isNaN(date.getTime())) return;
+
+      const year = date.getFullYear();
+      const month = date.getMonth();
+
+      if (!archive.has(year)) {
+        archive.set(year, new Set<number>());
+      }
+
+      archive.get(year)!.add(month);
+    });
+
+    return Array.from(archive.entries())
+      .map(([year, months]) => ({
+        year,
+        months: Array.from(months).sort((a, b) => b - a),
+      }))
+      .sort((a, b) => b.year - a.year);
+  }, [memories]);
+
   useEffect(() => {
     console.log("Selected memory changed:", selectedMemory?.id ?? null);
   }, [selectedMemory]);
@@ -125,6 +245,21 @@ function MemoryMapShell({ onBack }: MemoryMapShellProps) {
   const { flyTo } = useBaseMapCamera(mapRef);
 
   useBaseMapEvents(mapRef);
+
+const handleSelectMemory = useCallback(
+  (memory: Memory | null) => {
+    if (!memory) return;
+
+    flyTo(
+      [
+        memory.location.coordinates.longitude,
+        memory.location.coordinates.latitude,
+      ],
+      16
+    );
+  },
+  [flyTo]
+);
 
   // Load the local memory archive.
   const refreshMemories = useCallback(async () => {
@@ -211,7 +346,7 @@ function MemoryMapShell({ onBack }: MemoryMapShellProps) {
 
     if (!map || !mapReady) return;
 
-    memories.forEach((memory) => {
+    filteredMemories.forEach((memory) => {
       const markerElement = document.createElement("button");
       markerElement.type = "button";
       markerElement.className = "memory-map-marker";
@@ -257,7 +392,7 @@ function MemoryMapShell({ onBack }: MemoryMapShellProps) {
       memoryMarkersRef.current.forEach((marker) => marker.remove());
       memoryMarkersRef.current = [];
     };
-  }, [memories, mapReady]);
+  }, [filteredMemories, mapReady]);
 
   // INITIAL USER LOCATION
   useEffect(() => {
@@ -654,7 +789,7 @@ function MemoryMapShell({ onBack }: MemoryMapShellProps) {
     editorLoading,
     editorSaving,
     editorError,
-    onSelectMemory: setSelectedMemory,
+    onSelectMemory: handleSelectMemory,
     onCreateMemory: handleCreateMemory,
     onSaveMemory: handleSaveMemory,
     onAddNote: handleAddNote,
@@ -757,6 +892,14 @@ function MemoryMapShell({ onBack }: MemoryMapShellProps) {
             handleSearch={handleSearch}
             onBack={onBack}
             {...editorProps}
+            filteredMemories={filteredMemories}
+            timelineFilter={timelineFilter}
+            setTimelineFilter={setTimelineFilter}
+            memoryArchive={memoryArchive}
+            selectedArchiveYear={selectedArchiveYear}
+            selectedArchiveMonth={selectedArchiveMonth}
+            setSelectedArchiveYear={setSelectedArchiveYear}
+            setSelectedArchiveMonth={setSelectedArchiveMonth}
           />
         </div>
       )}
@@ -772,6 +915,14 @@ function MemoryMapShell({ onBack }: MemoryMapShellProps) {
             setStyle={setStyle}
             onBack={onBack}
             {...editorProps}
+            filteredMemories={filteredMemories}
+            timelineFilter={timelineFilter}
+            setTimelineFilter={setTimelineFilter}
+            memoryArchive={memoryArchive}
+            selectedArchiveYear={selectedArchiveYear}
+            selectedArchiveMonth={selectedArchiveMonth}
+            setSelectedArchiveYear={setSelectedArchiveYear}
+            setSelectedArchiveMonth={setSelectedArchiveMonth}
           />
         </div>
       )}

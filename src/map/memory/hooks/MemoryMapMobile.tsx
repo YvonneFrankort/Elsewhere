@@ -49,6 +49,19 @@ interface MemoryMapMobileProps extends MemoryEditorProps {
     latitude: number;
   } | null;
   onCancelCreateMemory?: () => void;
+  filteredMemories: Memory[];
+  timelineFilter: "all" | "today" | "week" | "month" | "lastMonth" | "year";
+  setTimelineFilter: (
+    filter: "all" | "today" | "week" | "month" | "lastMonth" | "year"
+  ) => void;
+  memoryArchive: {
+    year: number;
+    months: number[];
+  }[];
+  selectedArchiveYear: number | null;
+  selectedArchiveMonth: number | null;
+  setSelectedArchiveYear: (year: number | null) => void;
+  setSelectedArchiveMonth: (month: number | null) => void;
 }
 
 const toDateTimeLocal = (value: string) => {
@@ -86,6 +99,14 @@ function MemoryMapMobile({
   onCancelCreateMemory,
   onUpdatePhoto,
   onDeletePhoto,
+  filteredMemories,
+  timelineFilter,
+  setTimelineFilter,
+  memoryArchive,
+  selectedArchiveYear,
+  selectedArchiveMonth,
+  setSelectedArchiveYear,
+  setSelectedArchiveMonth,
 }: MemoryMapMobileProps) {
   const [open, setOpen] = useState(false);
   const [newMemoryTitle, setNewMemoryTitle] = useState("");
@@ -238,6 +259,7 @@ function MemoryMapMobile({
               </button>
             </div>
 
+
             <div className="menu-content">
               <div className="menu-section">
                 <h4>Map</h4>
@@ -307,6 +329,136 @@ function MemoryMapMobile({
                       }}
                     >
                       {option.label}
+                    </button>
+                  ))}
+                </div>
+              </div>
+
+              <div className="menu-section">
+                <h4>Timeline</h4>
+
+                <div className="memory-mobile-timeline-filters">
+                  {[
+                    { label: "All time", value: "all" },
+                    { label: "Today", value: "today" },
+                    { label: "This week", value: "week" },
+                    { label: "This month", value: "month" },
+                    { label: "Last month", value: "lastMonth" },
+                    { label: "This year", value: "year" },
+                  ].map((option) => (
+                    <button
+                      key={option.value}
+                      type="button"
+                      className={timelineFilter === option.value ? "active" : ""}
+                      aria-pressed={timelineFilter === option.value}
+                      onClick={() => {
+                        setTimelineFilter(
+                          option.value as
+                          | "all"
+                          | "today"
+                          | "week"
+                          | "month"
+                          | "lastMonth"
+                          | "year"
+                        );
+                        setSelectedArchiveYear(null);
+                        setSelectedArchiveMonth(null);
+                      }}
+                    >
+                      {option.label}
+                    </button>
+                  ))}
+                </div>
+
+                <div className="memory-mobile-archive">
+                  <h4>Browse by year</h4>
+
+                  {memoryArchive.map(({ year, months }) => (
+                    <div key={year} className="memory-mobile-archive-year">
+                      <button
+                        type="button"
+                        className={`memory-mobile-archive-year-button ${selectedArchiveYear === year &&
+                            selectedArchiveMonth === null
+                            ? "active"
+                            : ""
+                          }`}
+                        onClick={() => {
+                          setTimelineFilter("all");
+                          setSelectedArchiveYear(
+                            selectedArchiveYear === year ? null : year
+                          );
+                          setSelectedArchiveMonth(null);
+                        }}
+                      >
+                        <span>
+                          {selectedArchiveYear === year ? "▼" : "▶"} {year}
+                        </span>
+                        <span>
+                          {memories.filter((memory) => {
+                            const date = new Date(memory.capturedAt);
+                            return date.getFullYear() === year;
+                          }).length}
+                        </span>
+                      </button>
+
+                      {selectedArchiveYear === year && (
+                        <div className="memory-mobile-archive-months">
+                          {months.map((month) => {
+                            const monthName = new Date(year, month, 1).toLocaleDateString(
+                              undefined,
+                              { month: "long" }
+                            );
+
+                            const count = memories.filter((memory) => {
+                              const date = new Date(memory.capturedAt);
+                              return (
+                                date.getFullYear() === year &&
+                                date.getMonth() === month
+                              );
+                            }).length;
+
+                            return (
+                              <button
+                                key={month}
+                                type="button"
+                                className={`memory-mobile-archive-month-button ${selectedArchiveMonth === month ? "active" : ""
+                                  }`}
+                                onClick={() => {
+                                  setSelectedArchiveMonth(
+                                    selectedArchiveMonth === month ? null : month
+                                  );
+                                }}
+                              >
+                                <span>{monthName}</span>
+                                <span>{count}</span>
+                              </button>
+                            );
+                          })}
+                        </div>
+                      )}
+                    </div>
+                  ))}
+                </div>
+
+                <p>{filteredMemories.length} memories</p>
+
+                <div className="memory-mobile-timeline-list">
+                  {filteredMemories.map((memory) => (
+                    <button
+                      key={memory.id}
+                      type="button"
+                      className={
+                        selectedMemory?.id === memory.id ? "active" : ""
+                      }
+                      onClick={() => {
+                        onSelectMemory(memory);
+                        setOpen(false);
+                      }}
+                    >
+                      <strong>{memory.title}</strong>
+                      <span>
+                        {new Date(memory.capturedAt).toLocaleDateString()}
+                      </span>
                     </button>
                   ))}
                 </div>

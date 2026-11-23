@@ -173,3 +173,142 @@
     z-index: 20;
   }
 }
+
+/* Mobile Timeline */
+
+.memory-mobile-timeline-filters {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+  margin: 12px 0 16px;
+}
+
+.memory-mobile-timeline-filters button {
+  min-height: 40px;
+  padding: 9px 12px;
+  border: 1px solid #dedede;
+  border-radius: 8px;
+  background: #f7f7f7;
+  color: #333333;
+  font-family: inherit;
+  font-size: 14px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.memory-mobile-timeline-filters button.active {
+  background: #8b5cf6;
+  border-color: #8b5cf6;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.memory-mobile-timeline-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.memory-mobile-timeline-list button {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  width: 100%;
+  min-height: 48px;
+  padding: 10px 12px;
+  margin: 0;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background: #ffffff;
+  color: #222222;
+  text-align: left;
+  border-left: 4px solid #8b5cf6;
+}
+
+.memory-mobile-timeline-list button.active {
+   border-color: #8b5cf6;
+  background: rgba(139, 92, 246, 0.12);
+}
+
+.memory-mobile-timeline-list button span {
+  color: #666666;
+  font-size: 12px;
+}
+
+/* Mobile Memory Archive */
+
+.memory-mobile-archive {
+  margin: 18px 0;
+  padding-top: 14px;
+  border-top: 1px solid #e5e5e5;
+}
+
+.memory-mobile-archive h4 {
+  margin: 0 0 10px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #c4b5fd;
+}
+
+.memory-mobile-archive-year {
+  margin-bottom: 5px;
+}
+
+.memory-mobile-archive-year-button,
+.memory-mobile-archive-month-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 38px;
+  padding: 8px 10px;
+  border: 1px solid transparent;
+  border-radius: 7px;
+background: transparent;
+border-color: transparent;
+color: #d1d5db;
+  font: inherit;
+  font-size: 14px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.memory-mobile-archive-year-button:hover,
+.memory-mobile-archive-month-button:hover {
+  background: #f2f2f2;
+}
+
+.memory-mobile-archive-year-button.active,
+.memory-mobile-archive-month-button.active {
+  background: rgba(139, 92, 246, 0.15);
+  border-color: #8b5cf6;
+  color: #8b5cf6;
+  font-weight: 600
+}
+
+.memory-mobile-archive-months {
+ margin: 3px 0 8px 14px;
+  padding-left: 10px;
+  border-left: 2px solid #8b5cf6;
+}
+
+.memory-mobile-archive-month-button {
+  min-height: 34px;
+  font-size: 13px;
+}
+
+.memory-mobile-archive-month-button.active {
+  color: #111111;
+}
+
+.memory-mobile-timeline-list button strong {
+  font-size: 15px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.memory-mobile-archive-year-button span:last-child {
+  color: #8b5cf6;
+  font-weight: 700;
+}
